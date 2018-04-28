@@ -1,0 +1,18 @@
+![Adblock Plus 2.0]
+! Title: Temporary Filter List
+! Last modified: 28 April 2018
+! Expires: 7 days (update frequency)
+! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
+! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/Temporary%20Filter%20List
+
+mail.yahoo.com###mail-app-component > div:nth-of-type(2)
+mail.yahoo.com##.W_6D6F.k_w.p_R.folder-list > div:nth-of-type(1)
+mail.yahoo.com##.I_T.p_R.o_v.D_F
+
+ripple.is###mySidenav
+ripple.is##.wrap
+ripple.is###t3-footer
+ripple.is##.col-md-3.col-sm-4.col-xs-12.t3-sidebar-right.t3-sidebar
+ripple.is##.clearfix.article-aside
+ripple.is##.pagenav.pager
+ripple.is##.divider-vertical
