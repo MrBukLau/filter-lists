@@ -25,6 +25,9 @@ discordapp.com##.flexChild-faoVW3
 
 drive.google.com##.a-nf-Rc-Gd
 
+google.*##div[jsl][data-ved]:if(h4:has-text(People also search for))
+google.*##.exp-outline
+
 ||35.184.188.211^$popup,domain=itdmusic.in
 ||35.184.188.211^$popup,domain=itdmusic.site
 itdmusic.in###M317017ScriptRootC211616
