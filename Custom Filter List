@@ -1,0 +1,81 @@
+![Adblock Plus 2.0]
+! Title: Custom Filter List
+! Last modified: 27 April 2018
+! Expires: 7 days (update frequency)
+! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
+! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/Custom%20Filter%20List
+
+1001tracklists.com#@#[id][width]
+1001tracklists.com##.center.img15ad
+1001tracklists.com###artworkLeft
+1001tracklists.com###adLown
+1001tracklists.com###rightDiv
+
+1337x.to###M90304ScriptRootC221935
+
+cbssports.com###video-northstar-container
+cbssports.com###bitaWrapper
+cbssports.com###ncaab-northstar-with-video
+
+dbr.ee##.alert-container
+
+discordapp.com##.base-3AoPqv.noWrap-v6g9vO.alignStretch-1hwxMa.justifyStart-2yIZo0.directionColumn-2h-LPR.vertical-3X17r5.flex-3B1Tl4.flex-lFgbSz > .flexChild-1KGW5q
+discordapp.com##.channelNotices-3AUnoM
+discordapp.com##.flexChild-faoVW3
+
+drive.google.com##.a-nf-Rc-Gd
+
+||35.184.188.211^$popup,domain=itdmusic.in
+||35.184.188.211^$popup,domain=itdmusic.site
+itdmusic.in###M317017ScriptRootC211616
+itdmusic.site###M317017ScriptRootC211616
+
+mobile.twitter.com##._2FU3NGw4
+
+nyaa.si##.alert-info.alert
+
+old.reddit.com##body:style(overflow: scroll !important;)
+old.reddit.com###onboarding-splash
+old.reddit.com##.listingsignupbar.infobar
+old.reddit.com##.trending-subreddits
+
+open.spotify.com##.navBar > ul
+
+pasted.co###captcha_overlay
+
+reddit.com##.listingsignupbar.infobar
+reddit.com##.commentsignupbar.infobar
+reddit.com##.seo-comments-recommendations.spacer
+reddit.com##.spacer.seo-comments
+reddit.com###bottom-comments
+reddit.com###header-bottom-right
+
+soundcloud.com##.visible.sc-border-light-bottom.featureHeader
+soundcloud.com##.g-flex-row-centered-spread.stream__header
+
+textnow.com##.notification-priming-modal
+textnow.com###rectSlotAd
+textnow.com##.flex-fill.flex-row > .rotation-manager-slot
+textnow.com###bannerContainer
+textnow.com##.visible.toast-mask
+textnow.com##.interstitial-banner
+
+weibo.com###v6_pl_ad_yaoyaofans
+weibo.com###v6_pl_content_publishertop
+weibo.com###v6_pl_rightmod_rank
+weibo.com###v6_pl_rightmod_recominfo
+weibo.com###v6_pl_rightmod_attfeed
+weibo.com###v6_trustPagelet_recom_member
+weibo.com###v6_pl_rightmod_noticeboard
+
+youtube.com###masthead-ad
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-ce-expanding-image
+youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-cards-button
+youtube.com##.iv-click-target
