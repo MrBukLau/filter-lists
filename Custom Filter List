@@ -46,6 +46,23 @@ open.spotify.com##.navBar > ul
 
 pasted.co###captcha_overlay
 
+pluspremieres.us###ad-container > .adsbygoogle
+pluspremieres.us##.adsense
+pluspremieres.us###Blog1 > .adsbygoogle:nth-of-type(1)
+pluspremieres.us##.adsbygoogle:nth-of-type(2)
+pluspremieres.us##.column-center-outer > .adsbygoogle
+pluspremieres.us###HTML2 > .adsbygoogle
+pluspremieres.us###post-ad > .adsbygoogle
+pluspremieres.us###post-bottom > .adsbygoogle
+pluspremieres.us##script:inject(abort-current-inline-script.js, $, #ad-container)
+pluspremieres.us###post-bottom-wrap
+pluspremieres.us##footer
+pluspremieres.us###HTML6
+pluspremieres.us##.column-center-inner > .adsbygoogle:nth-of-type(1)
+pluspremieres.us###HTML4 > .adsbygoogle
+pluspremieres.us##.hfeed.blog-posts > .adsbygoogle
+pluspremieres.us##center:nth-of-type(2) > div > .adsbygoogle
+
 reddit.com##.listingsignupbar.infobar
 reddit.com##.commentsignupbar.infobar
 reddit.com##.seo-comments-recommendations.spacer
