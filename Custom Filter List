@@ -64,6 +64,8 @@ old.reddit.com###siteTable:before
 
 open.spotify.com##.navBar > ul
 
+paperrater.com##body > div:nth-of-type(2)
+
 pasted.co###captcha_overlay
 
 pluspremieres.us###ad-container > .adsbygoogle
@@ -90,6 +92,8 @@ reddit.com##.spacer.seo-comments
 reddit.com###bottom-comments
 reddit.com###header-bottom-right
 reddit.com###siteTable:before
+
+smallpdf.com###app
 
 soundcloud.com##.visible.sc-border-light-bottom.featureHeader
 soundcloud.com##.g-flex-row-centered-spread.stream__header
