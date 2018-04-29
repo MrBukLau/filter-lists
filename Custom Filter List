@@ -103,6 +103,7 @@ weibo.com###base_scrollToTop
 weibo.com##.clearfix.PCD_mplayer:nth-of-type(2)
 weibo.com###pl_weibo_directright
 weibo.com###pl_weibo_hotband
+weibo.com###base_reload
 
 youtube.com###masthead-ad
 youtube.com##.ytp-ce-covering-overlay
