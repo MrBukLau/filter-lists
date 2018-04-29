@@ -5,6 +5,8 @@
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/Temporary%20Filter%20List
 
+@@/favicon.ico$domain=slader.com|espn.com
+
 mail.yahoo.com###mail-app-component > div:nth-of-type(2)
 mail.yahoo.com##.W_6D6F.k_w.p_R.folder-list > div:nth-of-type(1)
 mail.yahoo.com##.I_T.p_R.o_v.D_F
