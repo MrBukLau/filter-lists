@@ -50,6 +50,7 @@ old.reddit.com##body:style(overflow: scroll !important;)
 old.reddit.com###onboarding-splash
 old.reddit.com##.listingsignupbar.infobar
 old.reddit.com##.trending-subreddits
+old.reddit.com###siteTable:before
 
 open.spotify.com##.navBar > ul
 
@@ -78,6 +79,7 @@ reddit.com##.seo-comments-recommendations.spacer
 reddit.com##.spacer.seo-comments
 reddit.com###bottom-comments
 reddit.com###header-bottom-right
+reddit.com###siteTable:before
 
 soundcloud.com##.visible.sc-border-light-bottom.featureHeader
 soundcloud.com##.g-flex-row-centered-spread.stream__header
