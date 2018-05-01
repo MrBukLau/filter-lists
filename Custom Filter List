@@ -1,6 +1,6 @@
 ![Adblock Plus 2.0]
 ! Title: Custom Filter List
-! Last modified: 27 April 2018
+! Last modified: 30 April 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/Custom%20Filter%20List
@@ -47,6 +47,8 @@ google.*##.exp-outline
 ||35.184.188.211^$popup,domain=itdmusic.site
 itdmusic.in###M317017ScriptRootC211616
 itdmusic.site###M317017ScriptRootC211616
+
+m0.mail.sina.com.cn##.ct
 
 mobile.twitter.com##._2FU3NGw4
 
