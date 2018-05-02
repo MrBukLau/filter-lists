@@ -1,4 +1,4 @@
-! Title: Overlay Blocker
+! Title: Overlay Blocker Filter List
 ! Last modified: 02 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/LordBadmintonofYorkshire/Overlay-Blocker/master/LICENSE
