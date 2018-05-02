@@ -38,6 +38,10 @@ moonbit.co.in##.footer
 moonbit.co.in###lhsTopAd
 moonbit.co.in###rhsTopAd
 moonbit.co.in###middleColumn > div:nth-of-type(2)
+moonbit.co.in##.labelPara:nth-of-type(4)
+moonbit.co.in##.labelPara:nth-of-type(3)
+moonbit.co.in###BodyPlaceholder_ClaimPanel > h1
+moonbit.co.in##.labelPara:nth-of-type(1)
 
 ||mellowads.com/view/203233E905A3$subdocument
 ||mellowads.com/view/*$subdocument
@@ -49,6 +53,10 @@ moonbitcoin.cash##.flexAfter
 moonbitcoin.cash##.flexFAQ
 moonbitcoin.cash##.socialNetworks2
 moonbitcoin.cash##.footer
+moonbitcoin.cash##.faucetLabel:nth-of-type(1) > label
+moonbitcoin.cash##.faucetLabel:nth-of-type(1) > input
+moonbitcoin.cash##.faucetLabel:nth-of-type(3)
+moonbitcoin.cash##h2
 
 moondash.co.in##.flexContentAd:nth-of-type(1)
 moondash.co.in##.flexBefore
@@ -57,6 +65,10 @@ moondash.co.in##.flexContentAd:nth-of-type(3)
 moondash.co.in##.socialNetworks2
 moondash.co.in##.flexFAQ
 moondash.co.in##.footer
+moondash.co.in##h2
+moondash.co.in##.faucetLabel:nth-of-type(3)
+moondash.co.in##.faucetLabel:nth-of-type(1) > input
+moondash.co.in##.faucetLabel:nth-of-type(1) > label
 
 ||coinad.com/ads/show/show.php$subdocument
 ||www.dogecoinfaucets.info/button.php$image
@@ -95,6 +107,9 @@ moondoge.co.in###BodyPlaceholder_SuccessfulClaimPanel
 moondoge.co.in###middleColumn > div:nth-of-type(2)
 moondoge.co.in###advert-space
 moondoge.co.in###lhsTopAd
+moondoge.co.in###BodyPlaceholder_ClaimPanel > .labelPara
+moondoge.co.in##div:nth-of-type(2) > .labelPara
+moondoge.co.in###BodyPlaceholder_ClaimPanel > h1
 
 ||mellowads.com/img/close.png$image
 ||coinad.com/ads/show/show.php$subdocument
@@ -131,6 +146,9 @@ moonliteco.in##.para:nth-of-type(14)
 moonliteco.in##.footer
 moonliteco.in###advert-space
 moonliteco.in##a[href="#"]
+moonliteco.in###BodyPlaceholder_ClaimPanel > h1
+moonliteco.in##div:nth-of-type(2) > .labelPara
+moonliteco.in###BodyPlaceholder_ClaimPanel > .labelPara
 
 coinpot.co###wrapper > div:nth-of-type(4)
 coinpot.co###PageContent_HomePageSummary
