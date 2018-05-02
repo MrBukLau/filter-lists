@@ -1,5 +1,5 @@
 ![Adblock Plus 2.0]
-! Title: Cryptocurrency Filter List
+! Title: Minimalism Cryptocurrency Filter List
 ! Last modified: 02 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
