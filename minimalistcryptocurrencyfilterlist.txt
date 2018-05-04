@@ -109,6 +109,7 @@ moondoge.co.in###lhsTopAd
 moondoge.co.in###BodyPlaceholder_ClaimPanel > .labelPara
 moondoge.co.in##div:nth-of-type(2) > .labelPara
 moondoge.co.in###BodyPlaceholder_ClaimPanel > h1
+moondoge.co.in###middleColumn > div:nth-of-type(5)
 
 ||mellowads.com/img/close.png$image
 ||coinad.com/ads/show/show.php$subdocument
