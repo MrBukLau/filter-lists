@@ -37,11 +37,10 @@ moonbit.co.in##.para:nth-of-type(15)
 moonbit.co.in##.footer
 moonbit.co.in###lhsTopAd
 moonbit.co.in###rhsTopAd
-moonbit.co.in###middleColumn > div:nth-of-type(2)
 moonbit.co.in##.labelPara:nth-of-type(4)
 moonbit.co.in##.labelPara:nth-of-type(3)
 moonbit.co.in###BodyPlaceholder_ClaimPanel > h1
-!moonbit.co.in##.labelPara:nth-of-type(1)
+moonbit.co.in##.labelPara:nth-of-type(1)
 moonbit.co.in###middleColumn > div:nth-of-type(5)
 
 ||mellowads.com/view/203233E905A3$subdocument
@@ -105,7 +104,6 @@ moondoge.co.in###rhsColumn
 moondoge.co.in###middleColumn > div:nth-of-type(7)
 moondoge.co.in##a[href="http://www.dogecoinfaucets.info/"]
 moondoge.co.in###BodyPlaceholder_SuccessfulClaimPanel
-moondoge.co.in###middleColumn > div:nth-of-type(2)
 moondoge.co.in###advert-space
 moondoge.co.in###lhsTopAd
 moondoge.co.in###BodyPlaceholder_ClaimPanel > .labelPara
