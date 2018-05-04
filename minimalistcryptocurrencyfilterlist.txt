@@ -41,7 +41,8 @@ moonbit.co.in###middleColumn > div:nth-of-type(2)
 moonbit.co.in##.labelPara:nth-of-type(4)
 moonbit.co.in##.labelPara:nth-of-type(3)
 moonbit.co.in###BodyPlaceholder_ClaimPanel > h1
-moonbit.co.in##.labelPara:nth-of-type(1)
+!moonbit.co.in##.labelPara:nth-of-type(1)
+moonbit.co.in###middleColumn > div:nth-of-type(5)
 
 ||mellowads.com/view/203233E905A3$subdocument
 ||mellowads.com/view/*$subdocument
@@ -149,6 +150,7 @@ moonliteco.in##a[href="#"]
 moonliteco.in###BodyPlaceholder_ClaimPanel > h1
 moonliteco.in##div:nth-of-type(2) > .labelPara
 moonliteco.in###BodyPlaceholder_ClaimPanel > .labelPara
+moonliteco.in###middleColumn > div:nth-of-type(5)
 
 coinpot.co###wrapper > div:nth-of-type(4)
 coinpot.co###PageContent_HomePageSummary
