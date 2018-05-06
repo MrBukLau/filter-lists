@@ -58,6 +58,9 @@ old.reddit.com###onboarding-splash
 old.reddit.com##.listingsignupbar.infobar
 old.reddit.com##.trending-subreddits
 old.reddit.com###siteTable:before
+old.reddit.com##.redesign-beta-optin
+old.reddit.com##.splash-design.splash_wrapper
+old.reddit.com##body:style(overflow-y: scroll !important;)
 
 open.spotify.com##.navBar > ul
 
@@ -91,6 +94,9 @@ reddit.com##.spacer.seo-comments
 reddit.com###bottom-comments
 reddit.com###header-bottom-right
 reddit.com###siteTable:before
+reddit.com##.redesign-beta-optin
+reddit.com##.splash-design.splash_wrapper
+reddit.com##body:style(overflow-y: scroll !important;)
 
 smallpdf.com###app
 
