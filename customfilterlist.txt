@@ -49,6 +49,8 @@ itdmusic.site###M317017ScriptRootC211616
 
 m0.mail.sina.com.cn##.ct
 
+mg.mail.yahoo.com##.mb
+
 mobile.twitter.com##._2FU3NGw4
 
 nyaa.si##.alert-info.alert
