@@ -111,6 +111,8 @@ textnow.com##.flex-fill.flex-row > .rotation-manager-slot
 textnow.com###bannerContainer
 textnow.com##.visible.toast-mask
 textnow.com##.interstitial-banner
+textnow.com##.webOnly.new-footer-bare.new-footer
+textnow.com##.boxedContainer > .ng-scope
 
 weibo.com###v6_pl_ad_yaoyaofans
 weibo.com###v6_pl_content_publishertop
