@@ -27,6 +27,10 @@ cbssports.com###nav-network-bar
 
 dbr.ee##.alert-container
 
+discordapp.com##.height36-36OHCc.weightMedium-2iZe9B.size14-3iUx6q.notice-2FJMB4.noticeDefault-362Ko2
+discordapp.com##.invite-OjTXrW.channelNotice-1-XFjC
+discordapp.com##.btn-download-apps
+
 drive.google.com##.a-nf-Rc-Gd
 
 filesmerge.com##.slider_item:nth-of-type(1)
