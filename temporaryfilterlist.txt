@@ -15,3 +15,5 @@ ripple.is##.col-md-3.col-sm-4.col-xs-12.t3-sidebar-right.t3-sidebar
 ripple.is##.clearfix.article-aside
 ripple.is##.pagenav.pager
 ripple.is##.divider-vertical
+
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
