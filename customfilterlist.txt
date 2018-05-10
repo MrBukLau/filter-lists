@@ -57,7 +57,7 @@ m0.mail.sina.com.cn##.ct
 
 mg.mail.yahoo.com##.mb
 
-mail.yahoo.com##div[aria-label="Messages"]:style(margin-top: -0px !important;)
+!mail.yahoo.com##div[aria-label="Messages"]:style(margin-top: -0px !important;)
 mail.yahoo.com###mail-app-component > div:nth-of-type(2)
 
 mobile.twitter.com##._2FU3NGw4
