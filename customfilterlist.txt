@@ -28,6 +28,7 @@ cbssports.com##.partner-watch-ad-container
 cbssports.com###nav-network-bar
 
 dbr.ee##.alert-container
+dbr.ee##div.col-xs-12:nth-of-type(1) > .ad-container
 
 discordapp.com##.height36-36OHCc.weightMedium-2iZe9B.size14-3iUx6q.notice-2FJMB4.noticeDefault-362Ko2
 discordapp.com##.invite-OjTXrW.channelNotice-1-XFjC
