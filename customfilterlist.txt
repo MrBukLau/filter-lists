@@ -1,9 +1,11 @@
 ![Adblock Plus 2.0]
 ! Title: Custom Filter List
-! Last modified: 08 May 2018
+! Last modified: 09 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/Custom%20Filter%20List
+
+@@/favicon.ico$domain=slader.com|espn.com
 
 1001tracklists.com#@#[id][width]
 1001tracklists.com##.center.img15ad
@@ -54,6 +56,9 @@ itdmusic.site###M317017ScriptRootC211616
 m0.mail.sina.com.cn##.ct
 
 mg.mail.yahoo.com##.mb
+
+mail.yahoo.com##div[aria-label="Messages"]:style(margin-top: -0px !important;)
+mail.yahoo.com###mail-app-component > div:nth-of-type(2)
 
 mobile.twitter.com##._2FU3NGw4
 
