@@ -22,4 +22,6 @@ ripple.is##.divider-vertical
 
 stream.cr##.bw_footer
 
+twitter.com##.topbar-spacer
+
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
