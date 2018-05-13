@@ -20,4 +20,6 @@ ripple.is##.clearfix.article-aside
 ripple.is##.pagenav.pager
 ripple.is##.divider-vertical
 
+stream.cr##.bw_footer
+
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
