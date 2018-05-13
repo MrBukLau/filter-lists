@@ -56,6 +56,10 @@ google.*##.exp-outline
 itdmusic.in###M317017ScriptRootC211616
 itdmusic.site###M317017ScriptRootC211616
 
+libgen.io###ads10
+libgen.io###ads9
+libgen.io###ads17
+
 m0.mail.sina.com.cn##.ct
 
 mg.mail.yahoo.com##.mb
