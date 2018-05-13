@@ -120,6 +120,12 @@ smallpdf.com###app
 soundcloud.com##.visible.sc-border-light-bottom.featureHeader
 soundcloud.com##.g-flex-row-centered-spread.stream__header
 
+symbolab.com##body > a
+symbolab.com##.no-select.print-hide.nl-footer
+symbolab.com###googleAdSenseHomepage
+symbolab.com##.print-hide.sidebar-content
+symbolab.com###install_apps
+
 textnow.com##.notification-priming-modal
 textnow.com###rectSlotAd
 textnow.com##.flex-fill.flex-row > .rotation-manager-slot
