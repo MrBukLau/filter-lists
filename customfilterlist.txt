@@ -26,6 +26,7 @@ cbssports.com##.door-shopping.article-list-block
 cbssports.com##.ticket-city.article-list-block
 cbssports.com##.partner-watch-ad-container
 cbssports.com###nav-network-bar
+cbssports.com###video-northstar-bug-container
 
 dbr.ee##.alert-container
 dbr.ee##div.col-xs-12:nth-of-type(1) > .ad-container
@@ -59,7 +60,6 @@ m0.mail.sina.com.cn##.ct
 
 mg.mail.yahoo.com##.mb
 
-!mail.yahoo.com##div[aria-label="Messages"]:style(margin-top: -0px !important;)
 mail.yahoo.com###mail-app-component > div:nth-of-type(2)
 
 mobile.twitter.com##._2FU3NGw4
