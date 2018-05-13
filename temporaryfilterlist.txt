@@ -10,6 +10,7 @@ dbr.ee##.footer-spacer
 !mail.yahoo.com##div[aria-label="Messages"]:style(margin-top: -0px !important;)
 mail.yahoo.com##.W_6D6F.k_w.p_R.folder-list > div:nth-of-type(1)
 mail.yahoo.com##.I_T.p_R.o_v.D_F
+mail.yahoo.com##.W_3vHgs.j_ZqTdtW.q_52qC.o_h.e_dRA.U_eo6.Q_6EGz.B_fq7.Z_rJ.p_f.D_F.H_3niBz
 
 ripple.is###mySidenav
 ripple.is##.wrap
