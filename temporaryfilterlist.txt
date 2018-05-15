@@ -27,8 +27,6 @@ ripple.is##.clearfix.article-aside
 ripple.is##.pagenav.pager
 ripple.is##.divider-vertical
 
-stream.cr##.bw_footer
-
 textnow.com###newCall
 textnow.com##.sidebar-bottom-btn-container
 
