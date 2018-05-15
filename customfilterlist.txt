@@ -16,6 +16,8 @@
 1337x.to###M90304ScriptRootC221935
 1337x.to##.news
 
+buffstreamz.com##script:inject(window.open-defuser.js)
+
 cbssports.com###video-northstar-container
 cbssports.com###bitaWrapper
 cbssports.com###ncaab-northstar-with-video
