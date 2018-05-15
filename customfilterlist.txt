@@ -1,6 +1,6 @@
 ![Adblock Plus 2.0]
 ! Title: Custom Filter List
-! Last modified: 12 May 2018
+! Last modified: 14 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/Custom%20Filter%20List
@@ -61,8 +61,6 @@ libgen.io###ads9
 libgen.io###ads17
 
 m0.mail.sina.com.cn##.ct
-
-mg.mail.yahoo.com##.mb
 
 mail.yahoo.com###mail-app-component > div:nth-of-type(2)
 
