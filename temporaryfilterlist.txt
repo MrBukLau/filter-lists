@@ -5,7 +5,7 @@
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/Temporary%20Filter%20List
 
-!buffstreamz.com###schedule
+buffstreamz.com###schedule
 buffstreamz.com###banner > .panel-primary.panel
 buffstreamz.com##.navbar-fixed-bottom
 buffstreamz.com##.navbar-right.navbar-nav.nav
@@ -32,3 +32,6 @@ stream.cr##.bw_footer
 twitter.com##.topbar-spacer
 
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+
+||www.twitch.tv/embed/chatt_cr/chat$subdocument
+||st.chatango.com/h5/gz/r0508181407/id.html$subdocument
