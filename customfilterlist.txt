@@ -120,6 +120,8 @@ smallpdf.com###app
 soundcloud.com##.visible.sc-border-light-bottom.featureHeader
 soundcloud.com##.g-flex-row-centered-spread.stream__header
 
+stream.cr##script:inject(window.open-defuser.js)
+
 symbolab.com##body > a
 symbolab.com##.no-select.print-hide.nl-footer
 symbolab.com###googleAdSenseHomepage
