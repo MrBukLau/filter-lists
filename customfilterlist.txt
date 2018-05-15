@@ -134,6 +134,7 @@ textnow.com##.visible.toast-mask
 textnow.com##.interstitial-banner
 textnow.com##.boxedContainer > .ng-scope
 textnow.com##.webOnly.push
+textnow.com##.webOnly.new-footer-bare.new-footer
 
 weibo.com###v6_pl_ad_yaoyaofans
 weibo.com###v6_pl_content_publishertop
