@@ -1,6 +1,6 @@
 ![Adblock Plus 2.0]
 ! Title: Minimalist Cryptocurrency Filter List
-! Last modified: 08 May 2018
+! Last modified: 15 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/Cryptocurrency%20Filter%20List
@@ -43,6 +43,7 @@ moonbit.co.in###BodyPlaceholder_ClaimPanel > h1
 moonbit.co.in##.labelPara:nth-of-type(1)
 moonbit.co.in###middleColumn > div:nth-of-type(5)
 moonbit.co.in###middleColumn > div:nth-of-type(1)
+moonbit.co.in###BodyPlaceholder_LoginPanel > p:nth-of-type(1)
 
 ||mellowads.com/view/203233E905A3$subdocument
 ||mellowads.com/view/*$subdocument
