@@ -61,6 +61,7 @@ moonbitcoin.cash##.faucetLabel:nth-of-type(3)
 moonbitcoin.cash##h2
 moonbitcoin.cash##.modal-footer > [href="terms.htm"]
 moonbitcoin.cash##.col-md-5
+moonbitcoin.cash###FaucetClaimModal > .modal-dialog > .modal-content > .modal-body
 
 moondash.co.in##.flexContentAd:nth-of-type(1)
 moondash.co.in##.flexBefore
