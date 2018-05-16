@@ -59,6 +59,8 @@ moonbitcoin.cash##.faucetLabel:nth-of-type(1) > label
 moonbitcoin.cash##.faucetLabel:nth-of-type(1) > input
 moonbitcoin.cash##.faucetLabel:nth-of-type(3)
 moonbitcoin.cash##h2
+moonbitcoin.cash##.modal-footer > [href="terms.htm"]
+moonbitcoin.cash##.col-md-5
 
 moondash.co.in##.flexContentAd:nth-of-type(1)
 moondash.co.in##.flexBefore
@@ -71,6 +73,8 @@ moondash.co.in##h2
 moondash.co.in##.faucetLabel:nth-of-type(3)
 moondash.co.in##.faucetLabel:nth-of-type(1) > input
 moondash.co.in##.faucetLabel:nth-of-type(1) > label
+moondash.co.in##.modal-footer > [href="terms.htm"]
+moondash.co.in##.col-md-5
 
 ||coinad.com/ads/show/show.php$subdocument
 ||www.dogecoinfaucets.info/button.php$image
