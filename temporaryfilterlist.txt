@@ -1,6 +1,6 @@
 ![Adblock Plus 2.0]
 ! Title: Temporary Filter List
-! Last modified: 15 May 2018
+! Last modified: 16 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/temporaryfilterlist.txt
@@ -11,6 +11,15 @@ buffstreamz.com##.navbar-fixed-bottom
 buffstreamz.com##.navbar-right.navbar-nav.nav
 
 dbr.ee##.footer-spacer
+
+itdmusic.in##.footer-bottom
+itdmusic.in###theme-footer
+itdmusic.in###text-4
+itdmusic.in###meta-2
+itdmusic.in##.top-nav
+itdmusic.in###comments
+itdmusic.in###categort-posts-widget-3
+itdmusic.in###text-3
 
 !mg.mail.yahoo.com##.mb
 
