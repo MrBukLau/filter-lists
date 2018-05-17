@@ -44,6 +44,7 @@ moonbit.co.in##.labelPara:nth-of-type(1)
 moonbit.co.in###middleColumn > div:nth-of-type(5)
 moonbit.co.in###middleColumn > div:nth-of-type(1)
 moonbit.co.in###BodyPlaceholder_LoginPanel > p:nth-of-type(1)
+moonbit.co.in##script:inject(setTimeout-defuser.js, layoutController)
 
 ||mellowads.com/view/203233E905A3$subdocument
 ||mellowads.com/view/*$subdocument
