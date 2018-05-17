@@ -22,6 +22,7 @@ mail.yahoo.com##.W_3vHgs.j_ZqTdtW.q_52qC.o_h.e_dRA.U_eo6.Q_6EGz.B_fq7.Z_rJ.p_f.D
 productforums.google.com##.BOXPGHD-g-b.BOXPGHD-g-w
 productforums.google.com##div.BOXPGHD-g-w:nth-of-type(5)
 productforums.google.com##.BOXPGHD-g-h
+productforums.google.com##div.BOXPGHD-g-w:nth-of-type(6)
 
 ripple.is###mySidenav
 ripple.is##.wrap
