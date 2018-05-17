@@ -53,6 +53,7 @@ filesmerge.com##.col-sm-12.col-xs-12 > div > div:nth-of-type(6)
 
 google.*##div[jsl][data-ved]:if(h4:has-text(People also search for))
 google.*##.exp-outline
+google.com##.hww53CMqxtL__visible.itbXqfXFa__o-q-uKXqAwNiM.hww53CMqxtL__mobile-promo
 
 ||35.184.188.211^$popup,domain=itdmusic.in
 ||35.184.188.211^$popup,domain=itdmusic.site
