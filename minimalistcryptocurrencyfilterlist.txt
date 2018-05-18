@@ -177,3 +177,6 @@ faucethub.io##.col-md-12:nth-of-type(3) > hr
 faucethub.io##h3:nth-of-type(2)
 faucethub.io##.lead
 faucethub.io##.btn-primary.btn-lg.btn
+faucethub.io###banner
+faucethub.io##.news-top
+faucethub.io###newspanel
