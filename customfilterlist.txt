@@ -1,6 +1,6 @@
 ![Adblock Plus 2.0]
 ! Title: Custom Filter List
-! Last modified: 17 May 2018
+! Last modified: 18 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/customfilterlist.txt
@@ -116,6 +116,8 @@ reddit.com###siteTable:before
 reddit.com##.redesign-beta-optin
 reddit.com##.splash-design.splash_wrapper
 reddit.com##body:style(overflow-y: scroll !important;)
+
+search.stream.cr###leaderboard-pixfuture
 
 smallpdf.com###app
 
