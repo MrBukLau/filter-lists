@@ -69,3 +69,5 @@ youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-ty
 
 ||www.twitch.tv/embed/chatt_cr/chat$subdocument
 ||st.chatango.com/h5/gz/r0508181407/id.html$subdocument
+||disqus.com^$script,domain=gowatchseries.co
+||disquscdn.com^$domain=gowatchseries.co
