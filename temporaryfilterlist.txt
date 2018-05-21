@@ -66,6 +66,7 @@ top-streams.com##.entry-title.post-title
 twitter.com##.topbar-spacer
 
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+youtube.com###secondary
 
 ||www.twitch.tv/embed/chatt_cr/chat$subdocument
 ||st.chatango.com/h5/gz/r0508181407/id.html$subdocument
