@@ -15,8 +15,6 @@ buffstreamz.com##.navbar-right.navbar-nav.nav
 
 dbr.ee##.footer-spacer
 
-facebook.com###dialog_0
-
 gowatchseries.co###disqus_thread
 
 itdmusic.in##.footer-bottom
