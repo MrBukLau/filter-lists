@@ -17,6 +17,8 @@ buffstreamz.com##.navbar-right.navbar-nav.nav
 dbr.ee##.footer-spacer
 
 gowatchseries.co###disqus_thread
+gowatchseries.co##div:nth-of-type(10)
+gowatchseries.co##.detail > div:nth-of-type(1)
 
 itdmusic.in##.footer-bottom
 itdmusic.in###theme-footer
