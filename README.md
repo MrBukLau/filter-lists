@@ -1,6 +1,6 @@
 # Personal Filter Lists for uBlock Origin
 
-These are filter lists for uBlock Origin that simplify websites, making the pages easier to navigate through 
+These are filter lists for [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) that simplify websites, making the pages easier to navigate through 
 without any annoyances or intrusions.
 
 ## Available Filter Lists
