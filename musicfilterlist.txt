@@ -10,6 +10,9 @@
 1001tracklists.com###artworkLeft
 1001tracklists.com###adLown
 1001tracklists.com###rightDiv
+1001tracklists.com##div:nth-of-type(1) > .noUser
+1001tracklists.com###wavoWrapperCenter
+1001tracklists.com###playerWidget
 
 dbr.ee##.alert-container
 dbr.ee##div.col-xs-12:nth-of-type(1) > .ad-container
