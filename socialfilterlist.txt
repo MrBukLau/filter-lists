@@ -19,6 +19,10 @@ google.com##.hww53CMqxtL__visible.itbXqfXFa__o-q-uKXqAwNiM.hww53CMqxtL__mobile-p
 m0.mail.sina.com.cn##.ct
 
 mail.yahoo.com###mail-app-component > div:nth-of-type(2)
+mail.yahoo.com##div[aria-label="Messages"]:style(margin-top: -0px !important;)
+mail.yahoo.com##.W_6D6F.k_w.p_R.folder-list > div:nth-of-type(1)
+mail.yahoo.com##.I_T.p_R.o_v.D_F
+mail.yahoo.com##.W_3vHgs.j_ZqTdtW.q_52qC.o_h.e_dRA.U_eo6.Q_6EGz.B_fq7.Z_rJ.p_f.D_F.H_3niBz
 
 mobile.twitter.com##._2FU3NGw4
 
@@ -32,6 +36,10 @@ old.reddit.com##body:style(overflow-y: scroll !important;)
 old.reddit.com##div.content:before
 
 productforums.google.com##.BOXPGHD-g-b.BOXPGHD-g-w > .BOXPGHD-g-s.BOXPGHD-g-r
+productforums.google.com##.BOXPGHD-g-b.BOXPGHD-g-w
+productforums.google.com##div.BOXPGHD-g-w:nth-of-type(5)
+productforums.google.com##.BOXPGHD-g-h
+productforums.google.com##div.BOXPGHD-g-w:nth-of-type(6)
 
 reddit.com##.listingsignupbar.infobar
 reddit.com##.commentsignupbar.infobar
@@ -54,6 +62,10 @@ textnow.com##.interstitial-banner
 textnow.com##.boxedContainer > .ng-scope
 textnow.com##.webOnly.push
 textnow.com##.webOnly.new-footer-bare.new-footer
+textnow.com###newCall
+textnow.com##.sidebar-bottom-btn-container
+
+twitter.com##.topbar-spacer
 
 weibo.com###v6_pl_ad_yaoyaofans
 weibo.com###v6_pl_content_publishertop
@@ -81,3 +93,4 @@ youtube.com##.ytp-ce-element
 youtube.com##.ytp-cards-button
 youtube.com##.iv-click-target
 youtube.com###vat-notice
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
