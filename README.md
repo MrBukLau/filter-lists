@@ -27,3 +27,4 @@ without any annoyances or intrusions.
   - This filter list is only for filters that can affect the layout of a website, meaning it will remove certain parts 
   of a website to make it look cleaner on the screen.
   - [Direct Link](https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/temporaryfilterlist.txt)
+  - [Subscribe here](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/temporaryfilterlist.txt&title=Temporary%20Filter%20List)
