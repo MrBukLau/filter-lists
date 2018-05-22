@@ -63,13 +63,6 @@ ripple.is###back-to-top
 textnow.com###newCall
 textnow.com##.sidebar-bottom-btn-container
 
-top-streams.com###comments
-top-streams.com###HTML2
-top-streams.com###footer
-top-streams.com##.post-share-buttons-top.post-share-buttons
-top-streams.com##.post-header
-top-streams.com##.entry-title.post-title
-
 twitter.com##.topbar-spacer
 
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
