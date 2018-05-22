@@ -5,8 +5,6 @@
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/sportsfilterlist.txt
 
-@@/favicon.ico$domain=espn.com
-
 cbssports.com###video-northstar-container
 cbssports.com###bitaWrapper
 cbssports.com###ncaab-northstar-with-video
