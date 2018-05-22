@@ -9,6 +9,7 @@
 1001tracklists.com###wavoWrapperCenter
 1001tracklists.com###playerWidget
 
+||www.twitch.tv/embed/chatt_cr/chat$subdocument,domain=buffstreamz.com
 buffstreamz.com###schedule
 buffstreamz.com###banner > .panel-primary.panel
 buffstreamz.com##.navbar-fixed-bottom
