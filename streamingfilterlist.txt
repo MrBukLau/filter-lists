@@ -1,0 +1,32 @@
+![Adblock Plus 2.0]
+! Title: Streaming Filter List
+! Last modified: 22 May 2018
+! Expires: 7 days (update frequency)
+! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
+! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt
+
+||www.twitch.tv/embed/chatt_cr/chat$subdocument,domain=buffstreamz.com
+buffstreamz.com##script:inject(window.open-defuser.js)
+buffstreamz.com###schedule
+buffstreamz.com###banner > .panel-primary.panel
+buffstreamz.com##.navbar-fixed-bottom
+buffstreamz.com##.navbar-right.navbar-nav.nav
+
+||disqus.com^$script,domain=gowatchseries.co
+||disquscdn.com^$domain=gowatchseries.co
+gowatchseries.co###disqus_thread
+gowatchseries.co##div:nth-of-type(10)
+gowatchseries.co##.detail > div:nth-of-type(1)
+
+||www.twitch.tv/embed/rippleis3/chat$subdocument
+ripple.is###mySidenav
+ripple.is##.pagenav.pager
+ripple.is##.magazine.t3-wrapper > div.container:nth-of-type(1)
+ripple.is##.clearfix.article-content > div:nth-of-type(2)
+ripple.is##.clearfix.article-aside
+ripple.is##.divider-vertical
+ripple.is###t3-footer
+ripple.is##.wrap
+ripple.is###back-to-top
+
+search.stream.cr###leaderboard-pixfuture
