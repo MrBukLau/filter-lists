@@ -1,9 +1,24 @@
 ![Adblock Plus 2.0]
-! Title: Social Media Filter List
+! Title: Social Filter List
 ! Last modified: 22 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
-! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialmediafilterlist.txt
+! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
+
+discordapp.com##.height36-36OHCc.weightMedium-2iZe9B.size14-3iUx6q.notice-2FJMB4.noticeDefault-362Ko2
+discordapp.com##.invite-OjTXrW.channelNotice-1-XFjC
+discordapp.com##.btn-download-apps
+discordapp.com##.channelNotices-41mJbj
+
+drive.google.com##.a-nf-Rc-Gd
+
+google.*##div[jsl][data-ved]:if(h4:has-text(People also search for))
+google.*##.exp-outline
+google.com##.hww53CMqxtL__visible.itbXqfXFa__o-q-uKXqAwNiM.hww53CMqxtL__mobile-promo
+
+m0.mail.sina.com.cn##.ct
+
+mail.yahoo.com###mail-app-component > div:nth-of-type(2)
 
 mobile.twitter.com##._2FU3NGw4
 
@@ -16,6 +31,8 @@ old.reddit.com##.splash-design.splash_wrapper
 old.reddit.com##body:style(overflow-y: scroll !important;)
 old.reddit.com##div.content:before
 
+productforums.google.com##.BOXPGHD-g-b.BOXPGHD-g-w > .BOXPGHD-g-s.BOXPGHD-g-r
+
 reddit.com##.listingsignupbar.infobar
 reddit.com##.commentsignupbar.infobar
 reddit.com##.seo-comments-recommendations.spacer
@@ -27,6 +44,16 @@ reddit.com##.redesign-beta-optin
 reddit.com##.splash-design.splash_wrapper
 reddit.com##body:style(overflow-y: scroll !important;)
 reddit.com##div.content:before
+
+textnow.com##.notification-priming-modal
+textnow.com###rectSlotAd
+textnow.com##.flex-fill.flex-row > .rotation-manager-slot
+textnow.com###bannerContainer
+textnow.com##.visible.toast-mask
+textnow.com##.interstitial-banner
+textnow.com##.boxedContainer > .ng-scope
+textnow.com##.webOnly.push
+textnow.com##.webOnly.new-footer-bare.new-footer
 
 weibo.com###v6_pl_ad_yaoyaofans
 weibo.com###v6_pl_content_publishertop
