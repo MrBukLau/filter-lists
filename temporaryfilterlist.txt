@@ -37,6 +37,16 @@ mail.yahoo.com##.W_6D6F.k_w.p_R.folder-list > div:nth-of-type(1)
 mail.yahoo.com##.I_T.p_R.o_v.D_F
 mail.yahoo.com##.W_3vHgs.j_ZqTdtW.q_52qC.o_h.e_dRA.U_eo6.Q_6EGz.B_fq7.Z_rJ.p_f.D_F.H_3niBz
 
+||st.chatango.com/h5/gz/r0520181639/id.html$subdocument,domain=nba4live.fun
+||nba4live.fun/app/tpl/skins/Habbo/images/roomenterad_bg.png$image
+||nba4live.fun/app/tpl/skins/Habbo/images/roomenterad_bg.png$image
+||nba4live.fun/app/tpl/skins/Habbo/images/roomenterad_bg.png$image
+nba4live.fun###roomenterad-habblet-container > div:nth-of-type(1)
+nba4live.fun##p
+nba4live.fun##[src="/roomenterad_close.png"]
+nba4live.fun##center:nth-of-type(1)
+nba4live.fun###roomenterad > .habblet-container
+
 pluspremieres.us###carousel
 
 popleading.com##.doubleTitleStyle118.formBanner2779.formBanner > tbody
