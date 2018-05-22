@@ -6,11 +6,10 @@
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
 
 @@/favicon.ico
+||www.blogger.com/comment-iframe.g$subdocument
 
 1337x.to###M90304ScriptRootC221935
 1337x.to##.news
-
-buffstreamz.com##script:inject(window.open-defuser.js)
 
 filesmerge.com##.slider_item:nth-of-type(1)
 filesmerge.com##.slider_item:nth-of-type(2)
@@ -31,8 +30,6 @@ nyaa.si##.alert-info.alert
 paperrater.com##body > div:nth-of-type(2)
 
 pasted.co###captcha_overlay
-
-search.stream.cr###leaderboard-pixfuture
 
 smallpdf.com###app
 
