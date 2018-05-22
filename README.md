@@ -29,7 +29,7 @@ without any annoyances or intrusions.
   - This filter list is for removing unnecessary elements on certain sport websites.
   - [Direct Link](https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/sportsfilterlist.txt)
   - [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/sportsfilterlist.txt&title=Sports%20Filter%20List)
-* [Temporary](https://github.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/blob/master/temporaryfilterlist.txt)
-  - This filter list is only for filters that can affect the functionality of a website.
-  - [Direct Link](https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/temporaryfilterlist.txt)
-  - [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/temporaryfilterlist.txt&title=Temporary%20Filter%20List)
+* [Streaming](https://github.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/blob/master/streamingfilterlist.txt)
+  - This filter list is for removing unnecessary elements on certain streaming websites.
+  - [Direct Link](https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt)
+  - [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt&title=Streaming%20Filter%20List)
