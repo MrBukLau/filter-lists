@@ -1,0 +1,20 @@
+![Adblock Plus 2.0]
+! Title: Sports Filter List
+! Last modified: 22 May 2018
+! Expires: 7 days (update frequency)
+! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
+! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/sportsfilterlist.txt
+
+@@/favicon.ico$domain=espn.com
+
+cbssports.com###video-northstar-container
+cbssports.com###bitaWrapper
+cbssports.com###ncaab-northstar-with-video
+cbssports.com##.is-desktop.partner-watch-ad-container
+cbssports.com###cbs-network-bar
+cbssports.com###highlander-newsletter
+cbssports.com##.door-shopping.article-list-block
+cbssports.com##.ticket-city.article-list-block
+cbssports.com##.partner-watch-ad-container
+cbssports.com###nav-network-bar
+cbssports.com###video-northstar-bug-container
