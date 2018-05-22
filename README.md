@@ -12,9 +12,9 @@ without any annoyances or intrusions.
   - This filter list is for removing unnecessary elements on certain music websites.
   - [Direct Link](https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt)
   - [Subscribe here](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt&title=Music%20Filter%20List)
-* [Overlay Blocker](https://github.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/blob/master/overlayblockerfilterlist.txt)
+* [Overlay Blocker](https://github.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/blob/master/overlayblockerfilterlist.txt) 
+[(Original Link)](https://github.com/LordBadmintonofYorkshire/Overlay-Blocker)
   - This filter list is for obtrusive overlay (pop up) elements and various other annoying elements on websites. 
-  - The original filter list can be found at this [link](https://github.com/LordBadmintonofYorkshire/Overlay-Blocker).
   - [Direct Link](https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/overlayblockerfilterlist.txt)
   - [Subscribe here](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/overlayblockerfilterlist.txt&title=Overlay%20Blocker%20Filter%20List)
 * [Resources](https://github.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/blob/master/resourcesfilterlist.txt)
