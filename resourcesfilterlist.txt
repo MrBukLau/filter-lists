@@ -5,6 +5,8 @@
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
 
+@@/favicon.ico$domain=slader.com
+
 1337x.to###M90304ScriptRootC221935
 1337x.to##.news
 
