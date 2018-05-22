@@ -1,0 +1,56 @@
+![Adblock Plus 2.0]
+! Title: Social Media Filter List
+! Last modified: 22 May 2018
+! Expires: 7 days (update frequency)
+! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
+! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialmediafilterlist.txt
+
+mobile.twitter.com##._2FU3NGw4
+
+old.reddit.com###onboarding-splash
+old.reddit.com##.listingsignupbar.infobar
+old.reddit.com##.trending-subreddits
+old.reddit.com###siteTable:before
+old.reddit.com##.redesign-beta-optin
+old.reddit.com##.splash-design.splash_wrapper
+old.reddit.com##body:style(overflow-y: scroll !important;)
+old.reddit.com##div.content:before
+
+reddit.com##.listingsignupbar.infobar
+reddit.com##.commentsignupbar.infobar
+reddit.com##.seo-comments-recommendations.spacer
+reddit.com##.spacer.seo-comments
+reddit.com###bottom-comments
+reddit.com###header-bottom-right
+reddit.com###siteTable:before
+reddit.com##.redesign-beta-optin
+reddit.com##.splash-design.splash_wrapper
+reddit.com##body:style(overflow-y: scroll !important;)
+reddit.com##div.content:before
+
+weibo.com###v6_pl_ad_yaoyaofans
+weibo.com###v6_pl_content_publishertop
+weibo.com###v6_pl_rightmod_rank
+weibo.com###v6_pl_rightmod_recominfo
+weibo.com###v6_pl_rightmod_attfeed
+weibo.com###v6_trustPagelet_recom_member
+weibo.com###v6_pl_rightmod_noticeboard
+weibo.com###WB_webim
+weibo.com###base_scrollToTop
+weibo.com##.clearfix.PCD_mplayer:nth-of-type(2)
+weibo.com###pl_weibo_directright
+weibo.com###pl_weibo_hotband
+weibo.com###base_reload
+
+youtube.com###masthead-ad
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-ce-expanding-image
+youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-cards-button
+youtube.com##.iv-click-target
+youtube.com###vat-notice
