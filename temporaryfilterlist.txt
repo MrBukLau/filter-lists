@@ -57,6 +57,7 @@ ripple.is##.clearfix.article-aside
 ripple.is##.divider-vertical
 ripple.is###t3-footer
 ripple.is##.wrap
+ripple.is###back-to-top
 
 textnow.com###newCall
 textnow.com##.sidebar-bottom-btn-container
