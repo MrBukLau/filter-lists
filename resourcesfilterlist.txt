@@ -1,0 +1,41 @@
+![Adblock Plus 2.0]
+! Title: Resources Filter List
+! Last modified: 22 May 2018
+! Expires: 7 days (update frequency)
+! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
+! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
+
+1337x.to###M90304ScriptRootC221935
+1337x.to##.news
+
+buffstreamz.com##script:inject(window.open-defuser.js)
+
+filesmerge.com##.slider_item:nth-of-type(1)
+filesmerge.com##.slider_item:nth-of-type(2)
+filesmerge.com##.slider_item:nth-of-type(3)
+filesmerge.com##.slider_item:nth-of-type(4)
+filesmerge.com##.slider_item:nth-of-type(5)
+filesmerge.com##.top-buffer.row:nth-of-type(5)
+filesmerge.com##body > div:nth-of-type(7)
+filesmerge.com##.icon_merge-jpg > .row:nth-of-type(4)
+filesmerge.com##.col-sm-12.col-xs-12 > div > div:nth-of-type(6)
+
+libgen.io###ads10
+libgen.io###ads9
+libgen.io###ads17
+
+nyaa.si##.alert-info.alert
+
+paperrater.com##body > div:nth-of-type(2)
+
+pasted.co###captcha_overlay
+
+search.stream.cr###leaderboard-pixfuture
+
+smallpdf.com###app
+
+symbolab.com##body > a
+symbolab.com##.no-select.print-hide.nl-footer
+symbolab.com###googleAdSenseHomepage
+symbolab.com##.print-hide.sidebar-content
+symbolab.com###install_apps
