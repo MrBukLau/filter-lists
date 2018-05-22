@@ -30,7 +30,6 @@ without any annoyances or intrusions.
   - [Direct Link](https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/sportsfilterlist.txt)
   - [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/sportsfilterlist.txt&title=Sports%20Filter%20List)
 * [Temporary](https://github.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/blob/master/temporaryfilterlist.txt)
-  - This filter list is only for filters that can affect the layout of a website, meaning it will remove certain parts 
-  of a website to make it look cleaner on the screen.
+  - This filter list is only for filters that can affect the functionality of a website.
   - [Direct Link](https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/temporaryfilterlist.txt)
   - [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/temporaryfilterlist.txt&title=Temporary%20Filter%20List)
