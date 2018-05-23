@@ -1,10 +1,11 @@
-![Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: Music Filter List
 ! Last modified: 22 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
 
+! 1001Tracklists ------------------------------------------------------------------------------------------------------------------------
 1001tracklists.com#@#[id][width]
 1001tracklists.com##.center.img15ad
 1001tracklists.com###artworkLeft
@@ -14,11 +15,13 @@
 1001tracklists.com###wavoWrapperCenter
 1001tracklists.com###playerWidget
 
+! DBR.EE --------------------------------------------------------------------------------------------------------------------------------
 dbr.ee##.alert-container
 dbr.ee##div.col-xs-12:nth-of-type(1) > .ad-container
 dbr.ee##.col-md-offset-0.col-md-4.col-sm-offset-2.col-sm-8.col-xs-12 > .ad-container
 dbr.ee##.footer-spacer
 
+! ITD Music -----------------------------------------------------------------------------------------------------------------------------
 itdmusic.in###M317017ScriptRootC211616
 itdmusic.in##.footer-bottom
 itdmusic.in###theme-footer
@@ -29,8 +32,10 @@ itdmusic.in###comments
 itdmusic.in###categort-posts-widget-3
 itdmusic.in###text-3
 
+! Spotify -------------------------------------------------------------------------------------------------------------------------------
 open.spotify.com##.navBar > ul
 
+! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
 pluspremieres.us###ad-container > .adsbygoogle
 pluspremieres.us##.adsense
 pluspremieres.us###Blog1 > .adsbygoogle:nth-of-type(1)
@@ -49,10 +54,12 @@ pluspremieres.us##.hfeed.blog-posts > .adsbygoogle
 pluspremieres.us##center:nth-of-type(2) > div > .adsbygoogle
 pluspremieres.us###carousel
 
+! Pop Leading ---------------------------------------------------------------------------------------------------------------------------
 popleading.com##.doubleTitleStyle118.formBanner2779.formBanner > tbody
 popleading.com###module2849
 popleading.com##.J_webBannerTable.webBannerTable
 popleading.com###module2779
 
+! SoundCould ----------------------------------------------------------------------------------------------------------------------------
 soundcloud.com##.visible.sc-border-light-bottom.featureHeader
 soundcloud.com##.g-flex-row-centered-spread.stream__header
