@@ -1,16 +1,19 @@
-![Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: Resources Filter List
 ! Last modified: 22 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
 
+! Random --------------------------------------------------------------------------------------------------------------------------------
 @@/favicon.ico
 ||www.blogger.com/comment-iframe.g$subdocument
 
+! 1337x ---------------------------------------------------------------------------------------------------------------------------------
 1337x.to###M90304ScriptRootC221935
 1337x.to##.news
 
+! Filesmerge ----------------------------------------------------------------------------------------------------------------------------
 filesmerge.com##.slider_item:nth-of-type(1)
 filesmerge.com##.slider_item:nth-of-type(2)
 filesmerge.com##.slider_item:nth-of-type(3)
@@ -21,18 +24,24 @@ filesmerge.com##body > div:nth-of-type(7)
 filesmerge.com##.icon_merge-jpg > .row:nth-of-type(4)
 filesmerge.com##.col-sm-12.col-xs-12 > div > div:nth-of-type(6)
 
+! Library Genesis -----------------------------------------------------------------------------------------------------------------------
 libgen.io###ads10
 libgen.io###ads9
 libgen.io###ads17
 
+! Nyaa ----------------------------------------------------------------------------------------------------------------------------------
 nyaa.si##.alert-info.alert
 
+! Paper Rater ---------------------------------------------------------------------------------------------------------------------------
 paperrater.com##body > div:nth-of-type(2)
 
+! Pasted --------------------------------------------------------------------------------------------------------------------------------
 pasted.co###captcha_overlay
 
+! SmallPDF ------------------------------------------------------------------------------------------------------------------------------
 smallpdf.com###app
 
+! Symbolab ------------------------------------------------------------------------------------------------------------------------------
 symbolab.com##body > a
 symbolab.com##.no-select.print-hide.nl-footer
 symbolab.com###googleAdSenseHomepage
