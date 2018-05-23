@@ -108,3 +108,8 @@ youtube.com##.ytp-cards-button
 youtube.com##.iv-click-target
 youtube.com###vat-notice
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+youtube.com###inproduct-guide-modal
+youtube.com###yt-lang-aler-tp
+youtube.com###yt-dialog-bg
+youtube.com##.yt-dialog-base
+youtube.com##.iv-promo
