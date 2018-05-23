@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
     <a href="https://github.com/gorhill/uBlock">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/UBlock_Origin.svg/2000px-UBlock_Origin.svg.png" width="200">
+      <img src="https://github.com/MrBukLau/filter-lists-for-ublock-origin/raw/master/images/uBlock%20Origin%20Logo.png" width="200">
     </a>
   <br>
   Filter Lists for uBlock Origin
