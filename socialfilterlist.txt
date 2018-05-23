@@ -96,6 +96,9 @@ weibo.com##.clearfix.PCD_mplayer:nth-of-type(2)
 weibo.com###pl_weibo_directright
 weibo.com###pl_weibo_hotband
 weibo.com###base_reload
+weibo.com##.gn_nav_list > li:nth-of-type(2)
+weibo.com##.gn_nav_list > li:nth-of-type(3)
+weibo.com##.gn_nav_list > li:nth-of-type(4)
 
 ! YouTube -------------------------------------------------------------------------------------------------------------------------------
 youtube.com###masthead-ad
