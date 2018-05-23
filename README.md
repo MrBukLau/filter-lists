@@ -1,6 +1,6 @@
 # Filter Lists for uBlock Origin [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE)
-These are filter lists for [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) that simplify websites, making the pages easier to navigate through 
-without any annoyances or intrusions.
+These are filter lists for [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) 
+that simplify websites, making them easier to navigate through without any annoyances.
 
 ## Available Filter Lists
 * [Minimalist Cryptocurrency](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/minimalistcryptocurrencyfilterlist.txt) - This filter list is for removing unnecessary elements on certain cryptocurrency websites.
