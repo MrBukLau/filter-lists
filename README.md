@@ -13,7 +13,7 @@ without any annoyances or intrusions.
   - [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt&title=Music%20Filter%20List)
 * [Overlay Blocker](https://github.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/blob/master/overlayblockerfilterlist.txt) 
 [(Original Link)](https://github.com/LordBadmintonofYorkshire/Overlay-Blocker)
-  - This filter list is for removing obtrusive overlay elements and various other annoying elements on websites. 
+  - This filter list is for removing annoying elements on certain websites. 
   - [Direct Link](https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/overlayblockerfilterlist.txt)
   - [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/overlayblockerfilterlist.txt&title=Overlay%20Blocker%20Filter%20List)
 * [Resources](https://github.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/blob/master/resourcesfilterlist.txt)
