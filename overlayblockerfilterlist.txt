@@ -1,3 +1,4 @@
+![Adblock Plus 2.0]
 ! Title: Overlay Blocker Filter List
 ! Last modified: 22 May 2018
 ! Expires: 7 days (update frequency)
