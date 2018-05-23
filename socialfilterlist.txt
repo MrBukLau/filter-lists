@@ -1,31 +1,38 @@
-![Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: Social Filter List
 ! Last modified: 22 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
 
+! Discord -------------------------------------------------------------------------------------------------------------------------------
 discordapp.com##.height36-36OHCc.weightMedium-2iZe9B.size14-3iUx6q.notice-2FJMB4.noticeDefault-362Ko2
 discordapp.com##.invite-OjTXrW.channelNotice-1-XFjC
 discordapp.com##.btn-download-apps
 discordapp.com##.channelNotices-41mJbj
 
+! Google Drive --------------------------------------------------------------------------------------------------------------------------
 drive.google.com##.a-nf-Rc-Gd
 
+! Google --------------------------------------------------------------------------------------------------------------------------------
 google.*##div[jsl][data-ved]:if(h4:has-text(People also search for))
 google.*##.exp-outline
 google.com##.hww53CMqxtL__visible.itbXqfXFa__o-q-uKXqAwNiM.hww53CMqxtL__mobile-promo
 
+! Sina Mail -----------------------------------------------------------------------------------------------------------------------------
 m0.mail.sina.com.cn##.ct
 
+! Yahoo Mail ----------------------------------------------------------------------------------------------------------------------------
 mail.yahoo.com###mail-app-component > div:nth-of-type(2)
 mail.yahoo.com##div[aria-label="Messages"]:style(margin-top: -0px !important;)
 mail.yahoo.com##.W_6D6F.k_w.p_R.folder-list > div:nth-of-type(1)
 mail.yahoo.com##.I_T.p_R.o_v.D_F
 mail.yahoo.com##.W_3vHgs.j_ZqTdtW.q_52qC.o_h.e_dRA.U_eo6.Q_6EGz.B_fq7.Z_rJ.p_f.D_F.H_3niBz
 
+! Twitter Mobile ------------------------------------------------------------------------------------------------------------------------
 mobile.twitter.com##._2FU3NGw4
 
+! Reddit (Old Design) -------------------------------------------------------------------------------------------------------------------
 old.reddit.com###onboarding-splash
 old.reddit.com##.listingsignupbar.infobar
 old.reddit.com##.trending-subreddits
@@ -35,12 +42,14 @@ old.reddit.com##.splash-design.splash_wrapper
 old.reddit.com##body:style(overflow-y: scroll !important;)
 old.reddit.com##div.content:before
 
+! Google Product Forums -----------------------------------------------------------------------------------------------------------------
 productforums.google.com##.BOXPGHD-g-b.BOXPGHD-g-w > .BOXPGHD-g-s.BOXPGHD-g-r
 productforums.google.com##.BOXPGHD-g-b.BOXPGHD-g-w
 productforums.google.com##div.BOXPGHD-g-w:nth-of-type(5)
 productforums.google.com##.BOXPGHD-g-h
 productforums.google.com##div.BOXPGHD-g-w:nth-of-type(6)
 
+! Reddit --------------------------------------------------------------------------------------------------------------------------------
 reddit.com##.listingsignupbar.infobar
 reddit.com##.commentsignupbar.infobar
 reddit.com##.seo-comments-recommendations.spacer
@@ -53,6 +62,7 @@ reddit.com##.splash-design.splash_wrapper
 reddit.com##body:style(overflow-y: scroll !important;)
 reddit.com##div.content:before
 
+! Textnow -------------------------------------------------------------------------------------------------------------------------------
 textnow.com##.notification-priming-modal
 textnow.com###rectSlotAd
 textnow.com##.flex-fill.flex-row > .rotation-manager-slot
@@ -65,8 +75,10 @@ textnow.com##.webOnly.new-footer-bare.new-footer
 textnow.com###newCall
 textnow.com##.sidebar-bottom-btn-container
 
+! Twitter -------------------------------------------------------------------------------------------------------------------------------
 twitter.com##.topbar-spacer
 
+! Weibo ---------------------------------------------------------------------------------------------------------------------------------
 weibo.com###v6_pl_ad_yaoyaofans
 weibo.com###v6_pl_content_publishertop
 weibo.com###v6_pl_rightmod_rank
@@ -81,6 +93,7 @@ weibo.com###pl_weibo_directright
 weibo.com###pl_weibo_hotband
 weibo.com###base_reload
 
+! YouTube -------------------------------------------------------------------------------------------------------------------------------
 youtube.com###masthead-ad
 youtube.com##.ytp-ce-covering-overlay
 youtube.com##.ytp-ce-element-shadow
