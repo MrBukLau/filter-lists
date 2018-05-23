@@ -2,6 +2,8 @@
 These are filter lists for [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) that simplify websites, making the pages easier to navigate through 
 without any annoyances or intrusions.
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/blob/master/LICENSE)
+
 ## Available Filter Lists
 * [Minimalist Cryptocurrency](https://github.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/blob/master/minimalistcryptocurrencyfilterlist.txt)
   - This filter list is for removing unnecessary elements on certain cryptocurrency websites.
@@ -32,3 +34,6 @@ without any annoyances or intrusions.
   - This filter list is for removing unnecessary elements on certain streaming websites.
   - [Direct Link](https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt)
   - [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt&title=Streaming%20Filter%20List)
+  
+## License
+[MIT](https://github.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/blob/master/LICENSE)
