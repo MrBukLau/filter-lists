@@ -48,7 +48,7 @@ In order to use these filter lists, make sure you downloaded [uBlock Origin](htt
   - [Direct Link](https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/filter%20lists/socialfilterlist.txt)
   - [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/filter%20lists/socialfilterlist.txt&title=Social%20Filter%20List)
 * [Sports](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter%20lists/sportsfilterlist.txt) - This filter list is for removing unnecessary elements on certain sport websites.
-  - [Direct Link](https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/sportsfilterlist.txt)
+  - [Direct Link](https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/filter%20lists/sportsfilterlist.txt)
   - [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/sportsfilterlist.txt&title=Sports%20Filter%20List)
 * [Streaming](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter%20lists/streamingfilterlist.txt) - This filter list is for removing unnecessary elements on certain streaming websites.
   - [Direct Link](https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/filter%20lists/streamingfilterlist.txt)
