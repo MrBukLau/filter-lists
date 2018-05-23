@@ -1,11 +1,11 @@
-![Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: Overlay Blocker Filter List
 ! Last modified: 22 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/LordBadmintonofYorkshire/Overlay-Blocker/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/LordBadmintonofYorkshire/Overlay-Blocker/master/blocklist.txt
 
-!--- Blocklist
+! Blocklist -----------------------------------------------------------------------------------------------------------------------------
 web.archive.org###visas_style_div
 web.archive.org##.bModal.__bPopup1
 web.archive.org##DIV[style="background-color:#FFFFFF; width:468px; height:95px; border-color:#E1E1E1; border-width:1px; text-align:center;  border-style:solid;"]
