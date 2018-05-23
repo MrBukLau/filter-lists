@@ -8,6 +8,10 @@
 ! Random --------------------------------------------------------------------------------------------------------------------------------
 @@/favicon.ico
 ||www.blogger.com/comment-iframe.g$subdocument
+||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
+||disqus.com/embed.js$script,redirect=disqus.com/embed.js
+||disqus.com/count.js$script
+@@||disqus.com/embed.js?_=1457540*$script
 
 ! 1337x ---------------------------------------------------------------------------------------------------------------------------------
 1337x.to###M90304ScriptRootC221935
