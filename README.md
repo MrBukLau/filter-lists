@@ -8,10 +8,6 @@ These are filter lists for uBlock Origin that remove elements from certain websi
 * [Music](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/musicfilterlist.txt) - This filter list is for removing unnecessary elements on certain music websites.
   - [Direct Link](https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/musicfilterlist.txt)
   - [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/musicfilterlist.txt&title=Music%20Filter%20List)
-* [Overlay Blocker](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/overlayblockerfilterlist.txt) 
-[(Original Link)](https://github.com/LordBadmintonofYorkshire/Overlay-Blocker) - This filter list is for removing annoying elements on certain websites.
-  - [Direct Link](https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/overlayblockerfilterlist.txt)
-  - [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/overlayblockerfilterlist.txt&title=Overlay%20Blocker%20Filter%20List)
 * [Resources](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/resourcesfilterlist.txt) - This filter list is for removing unnecessary elements on certain resource websites.
   - [Direct Link](https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/resourcesfilterlist.txt)
   - [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/resourcesfilterlist.txt&title=Resources%20Filter%20List)
