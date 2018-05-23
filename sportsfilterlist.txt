@@ -1,10 +1,11 @@
-![Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: Sports Filter List
 ! Last modified: 22 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/sportsfilterlist.txt
 
+! CBS Sports -----------------------------------------------------------------------------------------------------------------------------
 cbssports.com###video-northstar-container
 cbssports.com###bitaWrapper
 cbssports.com###ncaab-northstar-with-video
