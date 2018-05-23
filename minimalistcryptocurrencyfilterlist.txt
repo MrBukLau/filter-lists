@@ -1,10 +1,11 @@
-![Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: Minimalist Cryptocurrency Filter List
 ! Last modified: 22 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/minimalistcryptocurrencyfilterlist.txt
 
+! Bitcoin--------------------------------------------------------------------------------------------------------------------------------
 ||coinad.com/ads/show/show.php?a=0EU7NCBQ9KTZ3&b=JLXNJA4GZZQLW$subdocument
 moonbit.co.in###middleColumn > .globalNotice
 moonbit.co.in###BodyPlaceholder_SuccessfulClaimPanel
@@ -46,6 +47,7 @@ moonbit.co.in###middleColumn > div:nth-of-type(1)
 moonbit.co.in###BodyPlaceholder_LoginPanel > p:nth-of-type(1)
 moonbit.co.in##script:inject(setTimeout-defuser.js, layoutController)
 
+! Bitcoin Cash---------------------------------------------------------------------------------------------------------------------------
 ||mellowads.com/view/203233E905A3$subdocument
 ||mellowads.com/view/*$subdocument
 moonbitcoin.cash###slideIn
@@ -64,6 +66,7 @@ moonbitcoin.cash##.modal-footer > [href="terms.htm"]
 moonbitcoin.cash##.col-md-5
 moonbitcoin.cash###FaucetClaimModal > .modal-dialog > .modal-content > .modal-body
 
+! Dash-----------------------------------------------------------------------------------------------------------------------------------
 moondash.co.in##.flexContentAd:nth-of-type(1)
 moondash.co.in##.flexBefore
 moondash.co.in##.flexAfter
@@ -80,6 +83,7 @@ moondash.co.in##.col-md-5
 moondash.co.in##div.col-md-6:nth-of-type(2)
 moondash.co.in###FaucetClaimModal > .modal-dialog > .modal-content > .modal-body
 
+! Doge-----------------------------------------------------------------------------------------------------------------------------------
 ||coinad.com/ads/show/show.php$subdocument
 ||www.dogecoinfaucets.info/button.php$image
 moondoge.co.in###middleColumn > .globalNotice
@@ -122,6 +126,7 @@ moondoge.co.in###BodyPlaceholder_ClaimPanel > h1
 moondoge.co.in###middleColumn > div:nth-of-type(5)
 moondoge.co.in###middleColumn > div:nth-of-type(1)
 
+! Litecoin-------------------------------------------------------------------------------------------------------------------------------
 ||mellowads.com/img/close.png$image
 ||coinad.com/ads/show/show.php$subdocument
 moonliteco.in###BodyPlaceholder_SuccessfulClaimPanel
@@ -162,12 +167,14 @@ moonliteco.in##div:nth-of-type(2) > .labelPara
 moonliteco.in###BodyPlaceholder_ClaimPanel > .labelPara
 moonliteco.in###middleColumn > div:nth-of-type(5)
 
+! Coinpot--------------------------------------------------------------------------------------------------------------------------------
 coinpot.co###wrapper > div:nth-of-type(4)
 coinpot.co###PageContent_HomePageSummary
 coinpot.co##.text-center.footer
 coinpot.co##.mellow.well:nth-of-type(4)
 coinpot.co##.mellow.well:nth-of-type(1)
 
+! Faucethub------------------------------------------------------------------------------------------------------------------------------
 faucethub.io###toast-container
 faucethub.io###footer
 faucethub.io###content-below
