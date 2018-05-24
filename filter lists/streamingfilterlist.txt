@@ -12,6 +12,7 @@ buffstreamz.com###schedule
 buffstreamz.com###banner > .panel-primary.panel
 buffstreamz.com##.navbar-fixed-bottom
 buffstreamz.com##.navbar-right.navbar-nav.nav
+buffstreamz.com##.navbar-fixed-top.navbar-default.navbar
 
 ! Gowatchseries --------------------------------------------------------------------------------------------------------------------------
 ||disqus.com^$script,domain=gowatchseries.co
