@@ -7,6 +7,7 @@
 
 ! Baidu ---------------------------------------------------------------------------------------------------------------------------------
 tieba.baidu.com##.tbui_aside_float_bar
+pan.baidu.com###activateGuidePopupOuter
 
 ! Discord -------------------------------------------------------------------------------------------------------------------------------
 discordapp.com##.height36-36OHCc.weightMedium-2iZe9B.size14-3iUx6q.notice-2FJMB4.noticeDefault-362Ko2
