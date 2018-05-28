@@ -18,9 +18,6 @@ buffstreamz.com##.navbar-fixed-top.navbar-default.navbar
 ||disqus.com^$script,domain=gowatchseries.co
 ||disquscdn.com^$domain=gowatchseries.co
 gowatchseries.co###disqus_thread
-gowatchseries.co##div:nth-of-type(10)
-gowatchseries.co##.detail > div:nth-of-type(1)
-gowatchseries.co###left > div:nth-of-type(9)
 
 ! Ripple ---------------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv/embed/rippleis3/chat$subdocument
