@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Music Filter List
-! Last modified: 22 May 2018
+! Last modified: 28 May 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
@@ -21,7 +21,7 @@ dbr.ee##div.col-xs-12:nth-of-type(1) > .ad-container
 dbr.ee##.col-md-offset-0.col-md-4.col-sm-offset-2.col-sm-8.col-xs-12 > .ad-container
 dbr.ee##.footer-spacer
 
-! ITD Music -----------------------------------------------------------------------------------------------------------------------------
+! iTD Music -----------------------------------------------------------------------------------------------------------------------------
 itdmusic.in###M317017ScriptRootC211616
 itdmusic.in##.footer-bottom
 itdmusic.in###theme-footer
@@ -31,6 +31,10 @@ itdmusic.in##.top-nav
 itdmusic.in###comments
 itdmusic.in###categort-posts-widget-3
 itdmusic.in###text-3
+itdmusic.in##.itdmu-widget.widget
+itdmusic.in###menu-item-47141
+itdmusic.in###menu-item-122862
+itdmusic.in###menu-item-57993
 
 ! Spotify -------------------------------------------------------------------------------------------------------------------------------
 open.spotify.com##.navBar > ul
