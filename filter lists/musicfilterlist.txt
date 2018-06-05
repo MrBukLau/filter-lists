@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Music Filter List
-! Last modified: 28 May 2018
+! Last modified: 04 June 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
@@ -35,6 +35,13 @@ itdmusic.in##.itdmu-widget.widget
 itdmusic.in###menu-item-47141
 itdmusic.in###menu-item-122862
 itdmusic.in###menu-item-57993
+
+! OnlyiPlus -----------------------------------------------------------------------------------------------------------------------------
+onlyiplus.net##.widget_list_mag_wp_300px.widget
+onlyiplus.net##div.widget_text.widget:nth-of-type(5)
+onlyiplus.net##footer
+onlyiplus.net##div.widget_text.widget:nth-of-type(9)
+onlyiplus.net##.homeadv
 
 ! Spotify -------------------------------------------------------------------------------------------------------------------------------
 open.spotify.com##.navBar > ul
