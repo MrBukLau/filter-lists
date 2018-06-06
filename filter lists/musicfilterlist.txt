@@ -59,6 +59,11 @@ pluspremieres.io###ad-container
 pluspremieres.io###post-bottom-wrap
 pluspremieres.io###ad-container
 pluspremieres.io###ad-container > .adsbygoogle
+pluspremieres.io##.hfeed.blog-posts > .adsbygoogle
+pluspremieres.io##.column-center-inner > .adsbygoogle
+pluspremieres.io###HTML4 > .adsbygoogle
+pluspremieres.io##center:nth-of-type(1)
+pluspremieres.io##center:nth-of-type(2) > div
 
 pluspremieres.us###ad-container > .adsbygoogle
 pluspremieres.us##.adsense
