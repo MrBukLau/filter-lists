@@ -28,6 +28,9 @@ filesmerge.com##body > div:nth-of-type(7)
 filesmerge.com##.icon_merge-jpg > .row:nth-of-type(4)
 filesmerge.com##.col-sm-12.col-xs-12 > div > div:nth-of-type(6)
 
+! GitHub --------------------------------------------------------------------------------------------------------------------------------
+github.com##.js-notice
+
 ! Library Genesis -----------------------------------------------------------------------------------------------------------------------
 libgen.io###ads10
 libgen.io###ads9
