@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Resources Filter List
-! Last modified: 22 May 2018
+! Last modified: 06 June 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
