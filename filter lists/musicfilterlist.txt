@@ -22,6 +22,18 @@ dbr.ee##.col-md-offset-0.col-md-4.col-sm-offset-2.col-sm-8.col-xs-12 > .ad-conta
 dbr.ee##.footer-spacer
 
 ! iTD Music -----------------------------------------------------------------------------------------------------------------------------
+itdmusic.com###respond
+itdmusic.com###menu-item-57993
+itdmusic.com###menu-item-122862
+itdmusic.com###menu-item-47141
+itdmusic.com##.top-nav
+itdmusic.com###categort-posts-widget-3
+itdmusic.com###text-3
+itdmusic.com###meta-2
+itdmusic.com##.itdmu-widget.widget
+itdmusic.com###theme-footer
+itdmusic.com##.footer-bottom
+
 itdmusic.in###M317017ScriptRootC211616
 itdmusic.in##.footer-bottom
 itdmusic.in###theme-footer
