@@ -60,8 +60,7 @@ loversofdance.net##.site-description
 loversofdance.net###top-posts-9
 loversofdance.net###recent-posts-widget-with-thumbnails-8
 loversofdance.net###jp-relatedposts
-loversofdance.net##p:nth-of-type(7)
-loversofdance.net##.entry-content > p:nth-of-type(2)
+loversofdance.net##.entry-footer > .comments-link
 
 ! My Free MP3 ---------------------------------------------------------------------------------------------------------------------------
 my-free-mp3.net###footer
