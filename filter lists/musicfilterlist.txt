@@ -61,6 +61,7 @@ loversofdance.net###top-posts-9
 loversofdance.net###recent-posts-widget-with-thumbnails-8
 loversofdance.net###jp-relatedposts
 loversofdance.net##.entry-footer > .comments-link
+loversofdance.net###menu-item-43327
 
 ! My Free MP3 ---------------------------------------------------------------------------------------------------------------------------
 my-free-mp3.net###footer
