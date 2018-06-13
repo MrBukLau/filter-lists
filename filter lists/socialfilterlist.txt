@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Social Filter List
-! Last modified: 25 May 2018
+! Last modified: 13 June 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
@@ -80,6 +80,7 @@ textnow.com##.webOnly.push
 textnow.com##.webOnly.new-footer-bare.new-footer
 textnow.com###newCall
 textnow.com##.sidebar-bottom-btn-container
+textnow.com##.authv2-btn-wrapper
 
 ! Twitter -------------------------------------------------------------------------------------------------------------------------------
 twitter.com##.topbar-spacer
