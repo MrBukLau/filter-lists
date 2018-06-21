@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Resources Filter List
-! Last modified: 06 June 2018
+! Last modified: 20 June 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
@@ -48,6 +48,9 @@ paperrater.com##body > div:nth-of-type(2)
 
 ! Pasted --------------------------------------------------------------------------------------------------------------------------------
 pasted.co###captcha_overlay
+
+! Quora ---------------------------------------------------------------------------------------------------------------------------------
+quora.com##.layout_2col_main > .fixable_clone
 
 ! SmallPDF ------------------------------------------------------------------------------------------------------------------------------
 smallpdf.com###app
