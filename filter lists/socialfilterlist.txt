@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Social Filter List
-! Last modified: 19 June 2018
+! Last modified: 22 June 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
@@ -127,3 +127,4 @@ youtube.com###yt-lang-aler-tp
 youtube.com###yt-dialog-bg
 youtube.com##.yt-dialog-base
 youtube.com##.iv-promo
+youtube.com##.ytd-background-promo-renderer.style-scope.promo-message
