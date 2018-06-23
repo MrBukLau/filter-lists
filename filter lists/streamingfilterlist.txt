@@ -24,7 +24,10 @@ gowatchseries.co##div:nth-of-type(10)
 gowatchseries.co##.detail > div:nth-of-type(1)
 gowatchseries.co###left > div:nth-of-type(9)
 gowatchseries.co##div:nth-of-type(12)
-gowatchseries.co##footer
+gowatchseries.co##.btn
+gowatchseries.co###right
+gowatchseries.co##div.adsheader:nth-of-type(9)
+gowatchseries.co##.watch
 
 ! Ripple ---------------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv/embed/rippleis3/chat$subdocument
