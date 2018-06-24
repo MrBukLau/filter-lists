@@ -36,6 +36,7 @@ itdmusic.com###meta-2
 itdmusic.com##.itdmu-widget.widget
 itdmusic.com###theme-footer
 itdmusic.com##.footer-bottom
+itdmusic.com###text-html-widget-2
 
 itdmusic.in###M317017ScriptRootC211616
 itdmusic.in##.footer-bottom
@@ -50,7 +51,7 @@ itdmusic.in##.itdmu-widget.widget
 itdmusic.in###menu-item-47141
 itdmusic.in###menu-item-122862
 itdmusic.in###menu-item-57993
-itdmusic.com###text-html-widget-2
+itdmusic.in###text-html-widget-2
 
 ! iTunes --------------------------------------------------------------------------------------------------------------------------------
 itunes.apple.com##.we-subscribe
