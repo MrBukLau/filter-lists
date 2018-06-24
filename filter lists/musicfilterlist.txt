@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Music Filter List
-! Last modified: 21 June 2018
+! Last modified: 23 June 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
@@ -119,6 +119,8 @@ popleading.com##.doubleTitleStyle118.formBanner2779.formBanner > tbody
 popleading.com###module2849
 popleading.com##.J_webBannerTable.webBannerTable
 popleading.com###module2779
+popleading.com###newsCommentWrap
+popleading.com##.middlePanel
 
 ! SoundCloud ----------------------------------------------------------------------------------------------------------------------------
 soundcloud.com##.visible.sc-border-light-bottom.featureHeader
