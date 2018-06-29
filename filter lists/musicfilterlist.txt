@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Music Filter List
-! Last modified: 24 June 2018
+! Last modified: 28 June 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
@@ -96,6 +96,7 @@ pluspremieres.io###HTML4 > .adsbygoogle
 pluspremieres.io##center:nth-of-type(1)
 pluspremieres.io##center:nth-of-type(2) > div
 pluspremieres.io##footer
+pluspremieres.io###HTML15
 cbox.ws###frmMain
 
 pluspremieres.us###ad-container > .adsbygoogle
