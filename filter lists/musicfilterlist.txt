@@ -53,6 +53,12 @@ itdmusic.in###menu-item-122862
 itdmusic.in###menu-item-57993
 itdmusic.in###text-html-widget-2
 
+! iTOPMUSIC -----------------------------------------------------------------------------------------------------------------------------
+itopmusic.com###comments-section
+itopmusic.com##p:nth-of-type(3)
+itopmusic.com###secondary
+itopmusic.com##.g1-footer.g1-row-layout-page.g1-row
+
 ! iTunes --------------------------------------------------------------------------------------------------------------------------------
 itunes.apple.com##.we-subscribe
 
