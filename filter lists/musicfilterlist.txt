@@ -24,6 +24,23 @@ dbr.ee##div.col-xs-12:nth-of-type(1) > .ad-container
 dbr.ee##.col-md-offset-0.col-md-4.col-sm-offset-2.col-sm-8.col-xs-12 > .ad-container
 dbr.ee##.footer-spacer
 
+! iLOVEDANCE ----------------------------------------------------------------------------------------------------------------------------
+ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(4)
+ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(3)
+ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(5)
+ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(6)
+ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(2)
+ilovedancemusic.space###jp-relatedposts
+ilovedancemusic.space##.related-posts
+ilovedancemusic.space##.postauthor
+ilovedancemusic.space##li.widget-header.widget:nth-of-type(1)
+ilovedancemusic.space##li.widget-header.widget:nth-of-type(2)
+ilovedancemusic.space##.clearfix.primary-slider-container
+ilovedancemusic.space###text-3
+ilovedancemusic.space###text-4
+ilovedancemusic.space###null-instagram-feed-4
+ilovedancemusic.space###googleplus-badge-4
+
 ! iTD Music -----------------------------------------------------------------------------------------------------------------------------
 itdmusic.com###respond
 itdmusic.com###menu-item-57993
