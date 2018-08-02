@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Social Filter List
-! Last modified: 22 June 2018
+! Last modified: 01 August 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
@@ -107,6 +107,7 @@ weibo.com##.gn_nav_list > li:nth-of-type(2)
 weibo.com##.gn_nav_list > li:nth-of-type(3)
 weibo.com##.gn_nav_list > li:nth-of-type(4)
 weibo.com##.clearfix.tips_warn.W_tips
+weibo.com###plc_bot
 
 ! YouTube -------------------------------------------------------------------------------------------------------------------------------
 youtube.com###masthead-ad
