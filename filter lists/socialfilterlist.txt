@@ -50,6 +50,8 @@ old.reddit.com##.share
 old.reddit.com##.login-required.save-button.link-save-button
 old.reddit.com##.hide-button.state-button
 old.reddit.com##.top-matter > .buttons.flat-list > .login-required.report-button > .access-required.reportbtn
+old.reddit.com##.native-ad-container
+old.reddit.com##.ad-container
 
 ! Google Product Forums -----------------------------------------------------------------------------------------------------------------
 productforums.google.com##.BOXPGHD-g-b.BOXPGHD-g-w > .BOXPGHD-g-s.BOXPGHD-g-r
@@ -70,6 +72,8 @@ reddit.com##.redesign-beta-optin
 reddit.com##.splash-design.splash_wrapper
 reddit.com##body:style(overflow-y: scroll !important;)
 reddit.com##div.content:before
+reddit.com##.native-ad-container
+reddit.com##.ad-container
 
 ! TextNow -------------------------------------------------------------------------------------------------------------------------------
 textnow.com##.notification-priming-modal
