@@ -19,8 +19,8 @@ discordapp.com##.channelNotices-41mJbj
 drive.google.com##.a-nf-Rc-Gd
 
 ! Google --------------------------------------------------------------------------------------------------------------------------------
-google.*##div[jsl][data-ved]:if(h4:has-text(People also search for))
-google.*##.exp-outline
+!google.*##div[jsl][data-ved]:if(h4:has-text(People also search for))
+!google.*##.exp-outline
 google.com##.hww53CMqxtL__visible.itbXqfXFa__o-q-uKXqAwNiM.hww53CMqxtL__mobile-promo
 
 ! Sina Mail -----------------------------------------------------------------------------------------------------------------------------
