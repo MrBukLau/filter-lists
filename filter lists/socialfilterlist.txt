@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Social Filter List
-! Last modified: 01 August 2018
+! Last modified: 10 August 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
@@ -19,8 +19,8 @@ discordapp.com##.channelNotices-41mJbj
 drive.google.com##.a-nf-Rc-Gd
 
 ! Google --------------------------------------------------------------------------------------------------------------------------------
-!google.*##div[jsl][data-ved]:if(h4:has-text(People also search for))
-!google.*##.exp-outline
+google.*##div[jsl][data-ved]:if(h4:has-text(People also search for))
+google.*##.exp-outline
 google.com##.hww53CMqxtL__visible.itbXqfXFa__o-q-uKXqAwNiM.hww53CMqxtL__mobile-promo
 
 ! Sina Mail -----------------------------------------------------------------------------------------------------------------------------
