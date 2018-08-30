@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Streaming Filter List
-! Last modified: 14 August 2018
+! Last modified: 30 August 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt
@@ -14,6 +14,9 @@ buffstreamz.com##.navbar-fixed-bottom
 buffstreamz.com##.navbar-right.navbar-nav.nav
 buffstreamz.com##.navbar-fixed-top.navbar-default.navbar
 
+! GoGoAnime ------------------------------------------------------------------------------------------------------------------------------
+gogoanime.sh##.menu_top_link
+
 ! Gowatchseries --------------------------------------------------------------------------------------------------------------------------
 ||disqus.com^$script,domain=gowatchseries.co
 ||disquscdn.com^$domain=gowatchseries.co
@@ -23,6 +26,8 @@ gowatchseries.co##.detail > div:nth-of-type(3)
 gowatchseries.co##.detail > div:nth-of-type(1)
 gowatchseries.co###left > div:nth-of-type(9)
 gowatchseries.co##.menu_user
+gowatchseries.co###left > div:nth-of-type(10)
+gowatchseries.co##.detail > div:nth-of-type(4)
 
 ! Ripple ---------------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv/embed/rippleis3/chat$subdocument
