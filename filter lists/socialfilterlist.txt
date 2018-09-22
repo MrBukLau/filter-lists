@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Social Filter List
-! Last modified: 10 August 2018
+! Last modified: 22 September 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
@@ -52,6 +52,8 @@ old.reddit.com##.hide-button.state-button
 old.reddit.com##.top-matter > .buttons.flat-list > .login-required.report-button > .access-required.reportbtn
 old.reddit.com##.native-ad-container
 old.reddit.com##.ad-container
+old.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
+old.reddit.com###thing_t3_9hygx8 > .likes.entry > .top-matter > .buttons.flat-list > .give-gold-button
 
 ! Google Product Forums -----------------------------------------------------------------------------------------------------------------
 productforums.google.com##.BOXPGHD-g-b.BOXPGHD-g-w > .BOXPGHD-g-s.BOXPGHD-g-r
