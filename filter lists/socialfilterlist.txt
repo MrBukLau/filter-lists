@@ -46,14 +46,14 @@ old.reddit.com##.splash-design.splash_wrapper
 old.reddit.com##body:style(overflow-y: scroll !important;)
 old.reddit.com##div.content:before
 old.reddit.com##.infobar-toaster-container
-old.reddit.com##.share
-old.reddit.com##.login-required.save-button.link-save-button
-old.reddit.com##.hide-button.state-button
-old.reddit.com##.top-matter > .buttons.flat-list > .login-required.report-button > .access-required.reportbtn
 old.reddit.com##.native-ad-container
 old.reddit.com##.ad-container
 old.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
+old.reddit.com##.share
+old.reddit.com##.buttons.flat-list > .login-required.save-button.link-save-button
+old.reddit.com##.hide-button.state-button
 old.reddit.com##.buttons.flat-list > .give-gold-button
+old.reddit.com##.buttons.flat-list > .login-required.report-button
 old.reddit.com##.buttons.flat-list > .crosspost-button
 
 ! Google Product Forums -----------------------------------------------------------------------------------------------------------------
