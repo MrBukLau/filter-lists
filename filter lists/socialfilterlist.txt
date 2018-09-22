@@ -53,7 +53,8 @@ old.reddit.com##.top-matter > .buttons.flat-list > .login-required.report-button
 old.reddit.com##.native-ad-container
 old.reddit.com##.ad-container
 old.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
-old.reddit.com###thing_t3_9hygx8 > .likes.entry > .top-matter > .buttons.flat-list > .give-gold-button
+old.reddit.com##.buttons.flat-list > .give-gold-button
+old.reddit.com##.buttons.flat-list > .crosspost-button
 
 ! Google Product Forums -----------------------------------------------------------------------------------------------------------------
 productforums.google.com##.BOXPGHD-g-b.BOXPGHD-g-w > .BOXPGHD-g-s.BOXPGHD-g-r
