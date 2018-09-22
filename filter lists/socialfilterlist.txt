@@ -66,7 +66,6 @@ reddit.com##.commentsignupbar.infobar
 reddit.com##.seo-comments-recommendations.spacer
 reddit.com##.spacer.seo-comments
 reddit.com###bottom-comments
-reddit.com###header-bottom-right
 reddit.com###siteTable:before
 reddit.com##.redesign-beta-optin
 reddit.com##.splash-design.splash_wrapper
