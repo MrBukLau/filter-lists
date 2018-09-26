@@ -32,6 +32,9 @@ filesmerge.com##.col-sm-12.col-xs-12 > div > div:nth-of-type(6)
 github.com##.js-notice
 github.com##.rounded-0.f5.px-3.py-2
 
+! Grammarly -----------------------------------------------------------------------------------------------------------------------------
+app.grammarly.com##._5a78f1-container
+
 ! Library Genesis -----------------------------------------------------------------------------------------------------------------------
 libgen.io###ads10
 libgen.io###ads9
