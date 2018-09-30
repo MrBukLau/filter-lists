@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Streaming Filter List
-! Last modified: 30 August 2018
+! Last modified: 29 September 2018
 ! Expires: 7 days (update frequency)
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt
@@ -28,6 +28,11 @@ gowatchseries.co###left > div:nth-of-type(9)
 gowatchseries.co##.menu_user
 gowatchseries.co###left > div:nth-of-type(10)
 gowatchseries.co##.detail > div:nth-of-type(4)
+
+! NBA4Live -------------------------------------------------------------------------------------------------------------------------------
+nba4live.fun###content
+nba4live.fun##form
+nba4live.fun##p
 
 ! Ripple ---------------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv/embed/rippleis3/chat$subdocument
