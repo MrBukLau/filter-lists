@@ -1,7 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Streaming Filter List
-! Last modified: 29 September 2018
-! Expires: 7 days (update frequency)
+! Last modified: 30 September 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt
 
