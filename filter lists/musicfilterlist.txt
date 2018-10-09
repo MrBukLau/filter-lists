@@ -121,6 +121,8 @@ pluspremieres.eu##center:nth-of-type(1)
 pluspremieres.eu##center:nth-of-type(2) > div
 pluspremieres.eu##footer
 pluspremieres.eu###HTML15
+pluspremieres.eu###\31 9905-1
+pluspremieres.eu###\31 9905-28
 cbox.ws###frmMain
 
 ! Pop Leading ---------------------------------------------------------------------------------------------------------------------------
