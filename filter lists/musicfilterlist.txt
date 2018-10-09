@@ -103,43 +103,25 @@ onlyiplus.net##div.widget_text.widget:nth-of-type(9)
 onlyiplus.net##.homeadv
 
 ! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
-pluspremieres.io##script:inject(abort-current-inline-script.js, $, #ad-container)
-pluspremieres.io###Blog1 > ins.adsbygoogle:nth-of-type(1)
-pluspremieres.io###carousel
-pluspremieres.io##ins.adsbygoogle:nth-of-type(2)
-pluspremieres.io##ins.adsbygoogle:nth-of-type(3)
-pluspremieres.io###HTML2
-pluspremieres.io##ins.adsbygoogle:nth-of-type(4)
-pluspremieres.io###ad-container
-pluspremieres.io###post-bottom-wrap
-pluspremieres.io###ad-container
-pluspremieres.io###ad-container > .adsbygoogle
-pluspremieres.io##.hfeed.blog-posts > .adsbygoogle
-pluspremieres.io##.column-center-inner > .adsbygoogle
-pluspremieres.io###HTML4 > .adsbygoogle
-pluspremieres.io##center:nth-of-type(1)
-pluspremieres.io##center:nth-of-type(2) > div
-pluspremieres.io##footer
-pluspremieres.io###HTML15
+pluspremieres.eu##script:inject(abort-current-inline-script.js, $, #ad-container)
+pluspremieres.eu###Blog1 > ins.adsbygoogle:nth-of-type(1)
+pluspremieres.eu###carousel
+pluspremieres.eu##ins.adsbygoogle:nth-of-type(2)
+pluspremieres.eu##ins.adsbygoogle:nth-of-type(3)
+pluspremieres.eu###HTML2
+pluspremieres.eu##ins.adsbygoogle:nth-of-type(4)
+pluspremieres.eu###ad-container
+pluspremieres.eu###post-bottom-wrap
+pluspremieres.eu###ad-container
+pluspremieres.eu###ad-container > .adsbygoogle
+pluspremieres.eu##.hfeed.blog-posts > .adsbygoogle
+pluspremieres.eu##.column-center-inner > .adsbygoogle
+pluspremieres.eu###HTML4 > .adsbygoogle
+pluspremieres.eu##center:nth-of-type(1)
+pluspremieres.eu##center:nth-of-type(2) > div
+pluspremieres.eu##footer
+pluspremieres.eu###HTML15
 cbox.ws###frmMain
-
-pluspremieres.us###ad-container > .adsbygoogle
-pluspremieres.us##.adsense
-pluspremieres.us###Blog1 > .adsbygoogle:nth-of-type(1)
-pluspremieres.us##.adsbygoogle:nth-of-type(2)
-pluspremieres.us##.column-center-outer > .adsbygoogle
-pluspremieres.us###HTML2 > .adsbygoogle
-pluspremieres.us###post-ad > .adsbygoogle
-pluspremieres.us###post-bottom > .adsbygoogle
-pluspremieres.us##script:inject(abort-current-inline-script.js, $, #ad-container)
-pluspremieres.us###post-bottom-wrap
-pluspremieres.us##footer
-pluspremieres.us###HTML6
-pluspremieres.us##.column-center-inner > .adsbygoogle:nth-of-type(1)
-pluspremieres.us###HTML4 > .adsbygoogle
-pluspremieres.us##.hfeed.blog-posts > .adsbygoogle
-pluspremieres.us##center:nth-of-type(2) > div > .adsbygoogle
-pluspremieres.us###carousel
 
 ! Pop Leading ---------------------------------------------------------------------------------------------------------------------------
 popleading.com##.doubleTitleStyle118.formBanner2779.formBanner > tbody
