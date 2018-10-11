@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Resources Filter List
-! Last modified: 30 September 2018
+! Last modified: 11 October 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
 
@@ -26,6 +26,7 @@ filesmerge.com##.top-buffer.row:nth-of-type(5)
 filesmerge.com##body > div:nth-of-type(7)
 filesmerge.com##.icon_merge-jpg > .row:nth-of-type(4)
 filesmerge.com##.col-sm-12.col-xs-12 > div > div:nth-of-type(6)
+filesmerge.com##.box.cool-box
 
 ! GitHub --------------------------------------------------------------------------------------------------------------------------------
 github.com##.js-notice
