@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Resources Filter List
-! Last modified: 11 October 2018
+! Last modified: 14 October 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
 
@@ -34,6 +34,7 @@ github.com##.rounded-0.f5.px-3.py-2
 
 ! Grammarly -----------------------------------------------------------------------------------------------------------------------------
 app.grammarly.com##._5a78f1-container
+grammarly.com##._246dL-_-_-client-components-new_funnel-page--page-white.euqBA-_-_-client-components-new_funnel-page--page-page > div > div:nth-of-type(1)
 
 ! Library Genesis -----------------------------------------------------------------------------------------------------------------------
 libgen.io###ads10
