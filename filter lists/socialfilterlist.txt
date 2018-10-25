@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Social Filter List
-! Last modified: 30 September 2018
+! Last modified: 24 October 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
 
@@ -13,6 +13,7 @@ discordapp.com##.height36-36OHCc.weightMedium-2iZe9B.size14-3iUx6q.notice-2FJMB4
 discordapp.com##.invite-OjTXrW.channelNotice-1-XFjC
 discordapp.com##.btn-download-apps
 discordapp.com##.channelNotices-41mJbj
+discordapp.com##.base-3dtUhz.noWrap-3jynv6.alignStretch-DpGPf3.justifyStart-2NDFzi.directionColumn-35P_nr.vertical-V37hAW.flex-1O1GKY.flex-1xMQg5 > .flexChild-faoVW3
 
 ! Google Drive --------------------------------------------------------------------------------------------------------------------------
 drive.google.com##.a-nf-Rc-Gd
