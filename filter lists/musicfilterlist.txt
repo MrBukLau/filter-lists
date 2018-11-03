@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Music Filter List
-! Last modified: 08 October 2018
+! Last modified: 02 November 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
 
@@ -92,9 +92,6 @@ loversofdance.net###jp-relatedposts
 loversofdance.net##.entry-footer > .comments-link
 loversofdance.net###menu-item-43327
 
-! My Free MP3 ---------------------------------------------------------------------------------------------------------------------------
-my-free-mp3.net###footer
-
 ! OnlyiPlus -----------------------------------------------------------------------------------------------------------------------------
 onlyiplus.net##.widget_list_mag_wp_300px.widget
 onlyiplus.net##div.widget_text.widget:nth-of-type(5)
@@ -124,14 +121,6 @@ pluspremieres.eu###HTML15
 pluspremieres.eu###\31 9905-1
 pluspremieres.eu###\31 9905-28
 cbox.ws###frmMain
-
-! Pop Leading ---------------------------------------------------------------------------------------------------------------------------
-popleading.com##.doubleTitleStyle118.formBanner2779.formBanner > tbody
-popleading.com###module2849
-popleading.com##.J_webBannerTable.webBannerTable
-popleading.com###module2779
-popleading.com###newsCommentWrap
-popleading.com##.middlePanel
 
 ! SoundCloud ----------------------------------------------------------------------------------------------------------------------------
 soundcloud.com##.visible.sc-border-light-bottom.featureHeader
