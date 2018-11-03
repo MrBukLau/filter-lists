@@ -35,6 +35,8 @@ github.com##.rounded-0.f5.px-3.py-2
 ! Grammarly -----------------------------------------------------------------------------------------------------------------------------
 app.grammarly.com##._5a78f1-container
 grammarly.com##._246dL-_-_-client-components-new_funnel-page--page-white.euqBA-_-_-client-components-new_funnel-page--page-page > div > div:nth-of-type(1)
+grammarly.com##._2iHX1-_-_-client-components-new_funnel-short_tos--short_tos-tos
+grammarly.com##._3m5TL-_-_-client-components-new_funnel-social_signup--social_signup-buttonWrapper
 
 ! Library Genesis -----------------------------------------------------------------------------------------------------------------------
 libgen.io###ads10
@@ -52,6 +54,10 @@ paperrater.com##body > div:nth-of-type(2)
 
 ! Pasted --------------------------------------------------------------------------------------------------------------------------------
 pasted.co###captcha_overlay
+
+! ProWritingAid -------------------------------------------------------------------------------------------------------------------------
+prowritingaid.com###beacon-container
+prowritingaid.com##.text-center.row > div.col-xs-12:nth-of-type(3)
 
 ! Quora ---------------------------------------------------------------------------------------------------------------------------------
 quora.com##.layout_2col_main > .fixable_clone
