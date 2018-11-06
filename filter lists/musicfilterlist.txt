@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Music Filter List
-! Last modified: 05 November 2018
+! Last modified: 06 November 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
 
@@ -27,6 +27,7 @@ dbr.ee##.footer-spacer
 downloadtoxix.com###respond
 downloadtoxix.com###jp-relatedposts
 downloadtoxix.com##.related-posts.section
+downloadtoxix.com##.sd-sharing-enabled.sharedaddy
 
 ! iLOVEDANCEMUSIC -----------------------------------------------------------------------------------------------------------------------
 ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(4)
