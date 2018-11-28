@@ -106,6 +106,7 @@ onlyiplus.net##div.widget_text.widget:nth-of-type(9)
 onlyiplus.net##.homeadv
 
 ! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
+@@||ads.themoneytizer.com/s/requestform.js$script,domain=pluspremieres.eu
 pluspremieres.eu##script:inject(abort-current-inline-script.js, $, #ad-container)
 pluspremieres.eu###Blog1 > ins.adsbygoogle:nth-of-type(1)
 pluspremieres.eu###carousel
