@@ -30,6 +30,9 @@ productforums.google.com##div.BOXPGHD-g-w:nth-of-type(5)
 productforums.google.com##.BOXPGHD-g-h
 productforums.google.com##div.BOXPGHD-g-w:nth-of-type(6)
 
+! ProtonMail ----------------------------------------------------------------------------------------------------------------------------
+mail.protonmail.com##.blackFridayModal.pm_modal
+
 ! Reddit --------------------------------------------------------------------------------------------------------------------------------
 reddit.com##.listingsignupbar.infobar
 reddit.com##.commentsignupbar.infobar
