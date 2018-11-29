@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Streaming Filter List
-! Last modified: 24 November 2018
+! Last modified: 28 November 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt
 
@@ -15,6 +15,7 @@ buffstreamz.com##.navbar-fixed-top.navbar-default.navbar
 buffstreamz.com##div.row:nth-of-type(1)
 buffstreamz.com###opr
 buffstreamz.com###webmodal2
+buffstreamz.com###dmModal
 
 ! GoGoAnime ------------------------------------------------------------------------------------------------------------------------------
 gogoanime.sh##.menu_top_link
