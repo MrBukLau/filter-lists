@@ -35,7 +35,7 @@ These filter lists were tested only on [Google Chrome](https://www.google.com/ch
 In order to use these filter lists, make sure you downloaded [uBlock Origin](https://github.com/gorhill/uBlock) or any other adblocker. After that, you can click on the **"Subscribe"** button to add the filter list automatically.
 
 ## Available Filter Lists
-| Filter List                   | Description                                                             |
+| **Filter List**               | **Description**                                                         |
 |:------------------------------|:------------------------------------------------------------------------|
 | **[Minimalist Cryptocurrency](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter%20lists/minimalistcryptocurrencyfilterlist.txt)** <br> ([Subscribe][Minimalist Cryptocurrency Subscribe]) | This filter list is for removing unnecessary elements on certain cryptocurrency websites.
 | **[Music](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter%20lists/musicfilterlist.txt)** <br> ([Subscribe][Music Subscribe]) | This filter list is for removing unnecessary elements on certain music websites.
