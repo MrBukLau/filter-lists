@@ -60,6 +60,8 @@ itdmusic.com###theme-footer
 itdmusic.com##.footer-bottom
 itdmusic.com###text-html-widget-2
 itdmusic.com###facebook-widget-3
+itdmusic.com##.share-post
+itdmusic.com##span:nth-of-type(4)
 
 itdmusic.in###M317017ScriptRootC211616
 itdmusic.in##.footer-bottom
@@ -76,6 +78,8 @@ itdmusic.in###menu-item-122862
 itdmusic.in###menu-item-57993
 itdmusic.in###text-html-widget-2
 itdmusic.in###facebook-widget-3
+itdmusic.in##.share-post
+itdmusic.in##span:nth-of-type(4)
 
 ! iTOPMUSIC -----------------------------------------------------------------------------------------------------------------------------
 itopmusic.com###comments-section
