@@ -15,6 +15,9 @@
   <a href="https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg">
   </a>
+  <a href="https://github.com/gorhill/uBlock/wiki/Static-filter-syntax">
+    <img src="https://img.shields.io/badge/Syntax-uBlock Origin Static-green.svg">
+  </a>
 </p>
 
 <p align="center">
