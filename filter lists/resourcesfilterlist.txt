@@ -63,6 +63,8 @@ prowritingaid.com##.text-center.row > div.col-xs-12:nth-of-type(3)
 quora.com##.layout_2col_main > .fixable_clone
 quora.com##div[id^="__w2_"][id*="_content_box"]
 quora.com##.w4_5
+quora.com##.modal_signup_background
+quora.com##.dialog_wrapper
 
 ! SmallPDF ------------------------------------------------------------------------------------------------------------------------------
 smallpdf.com###app
