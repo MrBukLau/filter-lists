@@ -19,7 +19,7 @@
 <p align="center">
   <a href="#description">Description</a> •
   <a href="#disclaimer">Disclaimer</a> •
-  <a href="#how-to-add-a-filter-list">How to Add a Filter List</a> •
+  <a href="#how-to-add-a-filter-list-to-an-ad-blocker">How to Add a Filter List to an Ad Blocker</a> •
   <a href="#available-filter-lists">Available Filter Lists</a> •
   <a href="#license">License</a>
 </p>
@@ -28,10 +28,10 @@
 These are filter lists for [uBlock Origin](https://github.com/gorhill/uBlock) that remove elements from certain websites, making them easier to navigate through without any annoyances.
 
 ## Disclaimer
-These filter lists were tested only on [Google Chrome](https://www.google.com/chrome/) using [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm). They may or may not work on other web browsers and adblockers. Also, these are my personal filter lists and may not suit everyone. If there are some filters  you disagree with, then feel free to click on the **"Fork"** button and make your own list using these filters.
+These filter lists were only tested on [Google Chrome](https://www.google.com/chrome/) using [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm). They may or may not work on other web browsers and ad blockers. Also, these are my personal filter lists and may not suit everyone. If there are some filters  you disagree with, then feel free to click on the **"Fork"** button and make your own list using these filters.
 
-## How to Add a Filter List
-In order to use these filter lists, make sure you downloaded [uBlock Origin](https://github.com/gorhill/uBlock) or any other adblocker for your web browser. Once you have an adblocker installed on your web browser, you can click on any of the **"Subscribe"** button below to automatically add a filter list to your adblocker.
+## How to Add a Filter List to an Ad Blocker
+In order to add one of these filter lists to an ad blocker, make sure you have an ad blocker installed on your web browser. I recommend using [uBlock Origin](https://github.com/gorhill/uBlock), but any other ad blockers could work with these filter lists. Once you have an ad blocker installed on your web browser, you can click on any of the **"Subscribe"** button below to automatically add a filter list to your ad blocker. Alternatively, you can manually add one of these filter lists by [following the guide on how to import external lists in uBlock Origin](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
 
 ## Available Filter Lists
 | **Filter List**               | **Description**                                                         |
