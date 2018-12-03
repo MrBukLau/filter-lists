@@ -98,6 +98,7 @@ onlyiplus.net##.homeadv
 onlyiplus.net###respond
 onlyiplus.net##.prev-articles
 onlyiplus.net###related-wrap
+onlyiplus.net##div.widget_text.widget:nth-of-type(7)
 
 ! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
 @@||ads.themoneytizer.com/s/requestform.js$script,domain=pluspremieres.eu
