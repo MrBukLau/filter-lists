@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Social Filter List
-! Last modified: 28 November 2018
+! Last modified: 02 December 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
 
@@ -91,6 +91,7 @@ mobile.twitter.com##._2FU3NGw4
 twitter.com##.topbar-spacer
 
 ! Weibo ---------------------------------------------------------------------------------------------------------------------------------
+s.weibo.com##.m-con-r > div.card-wrap:nth-of-type(2)
 weibo.com###v6_pl_ad_yaoyaofans
 weibo.com###v6_pl_content_publishertop
 weibo.com###v6_pl_rightmod_rank
