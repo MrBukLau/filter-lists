@@ -15,7 +15,10 @@
 1001tracklists.com###playerWidget
 
 ! 9Clacks -------------------------------------------------------------------------------------------------------------------------------
-9clacks.org##[href="http://gotdatjuice.com/"]
+9clacks.org##.post-navigation
+9clacks.org###related_posts
+9clacks.org###respond
+9clacks.org##.single-post-thumb
 
 ! DBR.EE --------------------------------------------------------------------------------------------------------------------------------
 dbr.ee##.alert-container
@@ -63,6 +66,7 @@ itdmusic.*###facebook-widget-3
 itdmusic.*##.share-post
 itdmusic.*##span:nth-of-type(4)
 itdmusic.*###M317017ScriptRootC211616
+itdmusic.*##.breaking-news
 
 ! iTOPMUSIC -----------------------------------------------------------------------------------------------------------------------------
 itopmusic.com###comments-section
@@ -85,12 +89,15 @@ loversofdance.net###jp-relatedposts
 loversofdance.net##.entry-footer > .comments-link
 loversofdance.net###menu-item-43327
 
-! OnlyiPlus -----------------------------------------------------------------------------------------------------------------------------
+! OnlyiPlus (MSB) -----------------------------------------------------------------------------------------------------------------------
 onlyiplus.net##.widget_list_mag_wp_300px.widget
 onlyiplus.net##div.widget_text.widget:nth-of-type(5)
 onlyiplus.net##footer
 onlyiplus.net##div.widget_text.widget:nth-of-type(9)
 onlyiplus.net##.homeadv
+onlyiplus.net###respond
+onlyiplus.net##.prev-articles
+onlyiplus.net###related-wrap
 
 ! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
 @@||ads.themoneytizer.com/s/requestform.js$script,domain=pluspremieres.eu
