@@ -29,7 +29,7 @@
 These are filter lists for [uBlock Origin](https://github.com/gorhill/uBlock) that remove elements from certain websites, making them easier to navigate through without any annoyances.
 
 ## Warning
-These filter lists were tested only on [Google Chrome](https://www.google.com/chrome/) using [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm). They may or may not work on other web browsers and adblockers. Also, these are my personal filter lists and may not suit everyone. If there are some filters  you disagree with, then feel free to click on the **"Fork"** button and make your own list.
+These filter lists were tested only on [Google Chrome](https://www.google.com/chrome/) using [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm). They may or may not work on other web browsers and adblockers. Also, these are my personal filter lists and may not suit everyone. If there are some filters  you disagree with, then feel free to click on the **"Fork"** button and make your own list using these filters.
 
 ## Installation
 In order to use these filter lists, make sure you downloaded [uBlock Origin](https://github.com/gorhill/uBlock) or any other adblocker. After that, you can click on the **"Subscribe"** button to add the filter list automatically.
