@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
 ! Last modified: 02 December 2018
