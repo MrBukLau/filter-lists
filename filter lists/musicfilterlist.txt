@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last modified: 02 December 2018
+! Last modified: 03 December 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
 
@@ -94,27 +94,12 @@ onlyiplus.net##.homeadv
 
 ! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
 @@||ads.themoneytizer.com/s/requestform.js$script,domain=pluspremieres.eu
-pluspremieres.eu##script:inject(abort-current-inline-script.js, $, #ad-container)
-pluspremieres.eu###Blog1 > ins.adsbygoogle:nth-of-type(1)
+cbox.ws###frmMain
 pluspremieres.eu###carousel
-pluspremieres.eu##ins.adsbygoogle:nth-of-type(2)
-pluspremieres.eu##ins.adsbygoogle:nth-of-type(3)
-pluspremieres.eu###HTML2
-pluspremieres.eu##ins.adsbygoogle:nth-of-type(4)
-pluspremieres.eu###ad-container
 pluspremieres.eu###post-bottom-wrap
-pluspremieres.eu###ad-container
-pluspremieres.eu###ad-container > .adsbygoogle
-pluspremieres.eu##.hfeed.blog-posts > .adsbygoogle
-pluspremieres.eu##.column-center-inner > .adsbygoogle
-pluspremieres.eu###HTML4 > .adsbygoogle
-pluspremieres.eu##center:nth-of-type(1)
-pluspremieres.eu##center:nth-of-type(2) > div
-pluspremieres.eu##footer
-pluspremieres.eu###HTML15
 pluspremieres.eu###\31 9905-1
 pluspremieres.eu###\31 9905-28
-cbox.ws###frmMain
+pluspremieres.eu###\31 9905-3
 
 ! SoundCloud ----------------------------------------------------------------------------------------------------------------------------
 soundcloud.com##.visible.sc-border-light-bottom.featureHeader
