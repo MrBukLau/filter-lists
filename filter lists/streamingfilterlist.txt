@@ -1,6 +1,6 @@
-[Adblock Plus 2.0]
 ! Title: Streaming Filter List
-! Last modified: 28 November 2018
+! Description: This filter list is for removing unnecessary elements on certain streaming websites.
+! Last modified: 02 December 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt
 
