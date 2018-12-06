@@ -34,6 +34,8 @@ downloadtoxix.com##.sd-sharing-enabled.sharedaddy
 downloadtoxix.com###custom_html-12
 downloadtoxix.com###colophon
 downloadtoxix.com##.header-image
+downloadtoxix.com###recent-posts-widget-with-thumbnails-3
+downloadtoxix.com###text-3
 
 ! iLOVEDANCEMUSIC -----------------------------------------------------------------------------------------------------------------------
 ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(4)
