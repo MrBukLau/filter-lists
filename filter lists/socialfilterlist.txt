@@ -1,6 +1,6 @@
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
-! Last modified: 03 December 2018
+! Last modified: 07 December 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
 
@@ -24,7 +24,6 @@ google.com##.hww53CMqxtL__visible.itbXqfXFa__o-q-uKXqAwNiM.hww53CMqxtL__mobile-p
 drive.google.com##.a-nf-Rc-Gd
 
 ! Google Product Forums -----------------------------------------------------------------------------------------------------------------
-productforums.google.com##.BOXPGHD-g-b.BOXPGHD-g-w > .BOXPGHD-g-s.BOXPGHD-g-r
 productforums.google.com##.BOXPGHD-g-b.BOXPGHD-g-w
 productforums.google.com##div.BOXPGHD-g-w:nth-of-type(5)
 productforums.google.com##.BOXPGHD-g-h
@@ -49,16 +48,11 @@ reddit.com##.ad-container
 
 ! Reddit (Old Design) -------------------------------------------------------------------------------------------------------------------
 old.reddit.com###onboarding-splash
-old.reddit.com##.listingsignupbar.infobar
 old.reddit.com##.trending-subreddits
 old.reddit.com###siteTable:before
-old.reddit.com##.redesign-beta-optin
-old.reddit.com##.splash-design.splash_wrapper
 old.reddit.com##body:style(overflow-y: scroll !important;)
 old.reddit.com##div.content:before
 old.reddit.com##.infobar-toaster-container
-old.reddit.com##.native-ad-container
-old.reddit.com##.ad-container
 old.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
 old.reddit.com##.share
 old.reddit.com##.buttons.flat-list > .login-required.save-button.link-save-button
@@ -127,8 +121,6 @@ youtube.com##.ytp-ce-covering-overlay
 youtube.com##.ytp-ce-element-shadow
 youtube.com##.ytp-ce-covering-image
 youtube.com##.ytp-ce-expanding-image
-youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
-youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
 youtube.com##.ytp-cards-teaser
 youtube.com##.ytp-ce-element
 youtube.com##.ytp-cards-button

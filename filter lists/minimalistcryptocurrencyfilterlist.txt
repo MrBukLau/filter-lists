@@ -1,6 +1,6 @@
 ! Title: Minimalist Cryptocurrency Filter List
 ! Description: This filter list is for removing unnecessary elements on certain cryptocurrency websites.
-! Last modified: 02 December 2018
+! Last modified: 07 December 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/minimalistcryptocurrencyfilterlist.txt
 
@@ -26,7 +26,6 @@ faucethub.io##.news-top
 faucethub.io###newspanel
 
 ! Moon Bitcoin --------------------------------------------------------------------------------------------------------------------------
-||coinad.com/ads/show/show.php?a=0EU7NCBQ9KTZ3&b=JLXNJA4GZZQLW$subdocument
 moonbit.co.in###middleColumn > .globalNotice
 moonbit.co.in###BodyPlaceholder_SuccessfulClaimPanel
 moonbit.co.in###middleColumn > h2:nth-of-type(1)
@@ -68,7 +67,6 @@ moonbit.co.in###BodyPlaceholder_LoginPanel > p:nth-of-type(1)
 moonbit.co.in##script:inject(setTimeout-defuser.js, layoutController)
 
 ! Moon Bitcoin Cash ---------------------------------------------------------------------------------------------------------------------
-||mellowads.com/view/203233E905A3$subdocument
 ||mellowads.com/view/*$subdocument
 moonbitcoin.cash###slideIn
 moonbitcoin.cash##.flexContentAd:nth-of-type(1)
@@ -148,7 +146,6 @@ moondoge.co.in###middleColumn > div:nth-of-type(1)
 
 ! Moon Litecoin -------------------------------------------------------------------------------------------------------------------------
 ||mellowads.com/img/close.png$image
-||coinad.com/ads/show/show.php$subdocument
 moonliteco.in###BodyPlaceholder_SuccessfulClaimPanel
 moonliteco.in###middleColumn > .globalNotice
 moonliteco.in###rhsColumn
