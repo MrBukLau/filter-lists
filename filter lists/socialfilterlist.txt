@@ -144,4 +144,3 @@ youtube.com##.ytd-background-promo-renderer.style-scope.promo-message
 youtube.com###merch-shelf
 youtube.com###list-container
 youtube.com###ticket-shelf
-youtube.com###action-buttons
