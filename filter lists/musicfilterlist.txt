@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last modified: 13 December 2018
+! Last modified: 17 December 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
 
@@ -36,6 +36,7 @@ downloadtoxix.com###colophon
 downloadtoxix.com##.header-image
 downloadtoxix.com###recent-posts-widget-with-thumbnails-3
 downloadtoxix.com###text-3
+downloadtoxix.com###glt-translate-trigger
 
 ! iLOVEDANCEMUSIC -----------------------------------------------------------------------------------------------------------------------
 ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(4)
