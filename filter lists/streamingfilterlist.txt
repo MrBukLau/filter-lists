@@ -1,21 +1,16 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last modified: 02 December 2018
+! Last modified: 18 December 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt
 
 ! Buffstreamz ----------------------------------------------------------------------------------------------------------------------------
-||www.twitch.tv/embed/chatt_cr/chat$subdocument,domain=buffstreamz.com
-buffstreamz.com##script:inject(window.open-defuser.js)
-buffstreamz.com###schedule
-buffstreamz.com###banner > .panel-primary.panel
-buffstreamz.com##.navbar-fixed-bottom
-buffstreamz.com##.navbar-right.navbar-nav.nav
-buffstreamz.com##.navbar-fixed-top.navbar-default.navbar
-buffstreamz.com##div.row:nth-of-type(1)
-buffstreamz.com###opr
-buffstreamz.com###webmodal2
-buffstreamz.com###dmModal
+||www.twitch.tv/embed/chatt_cr/chat
+buffstream.com###schedule
+buffstream.com##.navbar-fixed-top.navbar-default.navbar
+buffstream.com##.navbar-fixed-bottom
+buffstream.com###banner > .panel-primary.panel
+buffstream.com###opr
 
 ! GoGoAnime ------------------------------------------------------------------------------------------------------------------------------
 gogoanime.sh##.menu_top_link
@@ -39,13 +34,10 @@ nba4live.fun##form
 nba4live.fun##p
 
 ! Ripple ---------------------------------------------------------------------------------------------------------------------------------
-||www.twitch.tv/embed/rippleis3/chat$subdocument
+||www.twitch.tv/embed/rippleis7/chat
 ripple.is###mySidenav
-ripple.is##.pagenav.pager
-ripple.is##.magazine.t3-wrapper > div.container:nth-of-type(1)
-ripple.is##.clearfix.article-content > div:nth-of-type(2)
-ripple.is##.clearfix.article-aside
-ripple.is##.divider-vertical
-ripple.is###t3-footer
+ripple.is##.col-md-3.col-sm-4.col-xs-12.t3-sidebar-right.t3-sidebar
 ripple.is##.wrap
-ripple.is###back-to-top
+ripple.is##.clearfix.article-aside
+ripple.is##.pagenav.pager
+ripple.is###t3-footer
