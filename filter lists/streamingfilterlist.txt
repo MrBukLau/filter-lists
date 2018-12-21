@@ -11,6 +11,7 @@ buffstream.to##.navbar-fixed-top.navbar-default.navbar
 buffstream.to##.navbar-fixed-bottom
 buffstream.to###banner > .panel-primary.panel
 buffstream.to###opr
+buffstream.to##div.row:nth-of-type(1)
 
 ! GoGoAnime ------------------------------------------------------------------------------------------------------------------------------
 gogoanime.sh##.menu_top_link
