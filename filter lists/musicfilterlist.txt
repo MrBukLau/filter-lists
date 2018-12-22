@@ -110,6 +110,7 @@ onlyiplus.net##div.widget_text.widget:nth-of-type(7)
 @@||ads.themoneytizer.com/s/requestform.js$script,domain=pluspremieres.eu
 @@||ads.themoneytizer.com/s/requestform3.js$script,domain=pluspremieres.eu
 cbox.ws###frmMain
+pluspremieres.eu##+js(addEventListener-defuser.js, /^(?:contextmenu|copy|keydown)$/)
 pluspremieres.eu###carousel
 pluspremieres.eu###headline
 pluspremieres.eu###post-bottom-wrap
