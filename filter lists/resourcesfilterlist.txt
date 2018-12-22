@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last modified: 02 December 2018
+! Last modified: 21 December 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
 
@@ -42,6 +42,11 @@ grammarly.com##._3m5TL-_-_-client-components-new_funnel-social_signup--social_si
 libgen.io###ads10
 libgen.io###ads9
 libgen.io###ads17
+
+! MediaFire -----------------------------------------------------------------------------------------------------------------------------
+mediafire.com###download_link > a[href="#"]:nth-of-type(1)
+mediafire.com##.social-cont
+mediafire.com##.dl-promo-cont
 
 ! Mega ----------------------------------------------------------------------------------------------------------------------------------
 mega.nz##.almost-full.fm-notification-block
