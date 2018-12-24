@@ -1,17 +1,17 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last modified: 20 December 2018
+! Last modified: 23 December 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt
 
 ! Buffstreamz ----------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv/embed/chatt_cr/chat
-buffstream.to###schedule
-buffstream.to##.navbar-fixed-top.navbar-default.navbar
-buffstream.to##.navbar-fixed-bottom
-buffstream.to###banner > .panel-primary.panel
-buffstream.to###opr
-buffstream.to##div.row:nth-of-type(1)
+buffstream.*###schedule
+buffstream.*##.navbar-fixed-top.navbar-default.navbar
+buffstream.*##.navbar-fixed-bottom
+buffstream.*###banner > .panel-primary.panel
+buffstream.*###opr
+buffstream.*##div.row:nth-of-type(1)
 
 ! GoGoAnime ------------------------------------------------------------------------------------------------------------------------------
 gogoanime.sh##.menu_top_link
