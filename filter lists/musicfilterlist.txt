@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last modified: 21 December 2018
+! Last modified: 24 December 2018
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
 
@@ -94,6 +94,7 @@ loversofdance.net###recent-posts-widget-with-thumbnails-8
 loversofdance.net###jp-relatedposts
 loversofdance.net##.entry-footer > .comments-link
 loversofdance.net###menu-item-43327
+loversofdance.net###glt-translate-trigger
 
 ! OnlyiPlus (MSB) -----------------------------------------------------------------------------------------------------------------------
 onlyiplus.net##.widget_list_mag_wp_300px.widget
