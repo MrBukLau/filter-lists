@@ -37,6 +37,8 @@ downloadtoxix.com##.header-image
 downloadtoxix.com###recent-posts-widget-with-thumbnails-3
 downloadtoxix.com###text-3
 downloadtoxix.com###glt-translate-trigger
+downloadtoxix.com##.site-description
+downloadtoxix.com##.post-navigation.navigation
 
 ! iLOVEDANCEMUSIC -----------------------------------------------------------------------------------------------------------------------
 ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(4)
@@ -95,6 +97,8 @@ loversofdance.net###jp-relatedposts
 loversofdance.net##.entry-footer > .comments-link
 loversofdance.net###menu-item-43327
 loversofdance.net###glt-translate-trigger
+loversofdance.net###recent-posts-widget-with-thumbnails-3
+loversofdance.net##.header-image
 
 ! OnlyiPlus (MSB) -----------------------------------------------------------------------------------------------------------------------
 onlyiplus.net##.widget_list_mag_wp_300px.widget
