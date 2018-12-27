@@ -31,6 +31,8 @@ gowatchseries.co##li.hide_m:nth-of-type(7)
 gowatchseries.co##div:nth-of-type(12)
 gowatchseries.co##.detail > div:nth-of-type(1)
 gowatchseries.co###left > div:nth-of-type(9)
+gowatchseries.co##div.adsheader:nth-of-type(4)
+gowatchseries.co##.croll
 
 ! NBA4Live -------------------------------------------------------------------------------------------------------------------------------
 ||st.chatango.com/h5/gz/r1114182317/id.html$subdocument
