@@ -48,3 +48,6 @@ ripple.is##.wrap
 ripple.is##.clearfix.article-aside
 ripple.is##.pagenav.pager
 ripple.is###t3-footer
+
+! StreamCR -------------------------------------------------------------------------------------------------------------------------------
+scr.cr###disqus_thread
