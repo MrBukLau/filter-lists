@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last modified: 02 January 2019
+! Last modified: 03 January 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
 
@@ -41,23 +41,6 @@ downloadtoxix.com###glt-translate-trigger
 downloadtoxix.com##.site-description
 downloadtoxix.com##.post-navigation.navigation
 
-! iLOVEDANCEMUSIC -----------------------------------------------------------------------------------------------------------------------
-ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(4)
-ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(3)
-ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(5)
-ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(6)
-ilovedancemusic.space##li.widget-sidebar.widget:nth-of-type(2)
-ilovedancemusic.space###jp-relatedposts
-ilovedancemusic.space##.related-posts
-ilovedancemusic.space##.postauthor
-ilovedancemusic.space##li.widget-header.widget:nth-of-type(1)
-ilovedancemusic.space##li.widget-header.widget:nth-of-type(2)
-ilovedancemusic.space##.clearfix.primary-slider-container
-ilovedancemusic.space###text-3
-ilovedancemusic.space###text-4
-ilovedancemusic.space###null-instagram-feed-4
-ilovedancemusic.space###googleplus-badge-4
-
 ! iTD Music -----------------------------------------------------------------------------------------------------------------------------
 itdmusic.*###respond
 itdmusic.*###menu-item-57993
@@ -86,6 +69,14 @@ itopmusic.com##.g1-footer.g1-row-layout-page.g1-row
 ! iTunes --------------------------------------------------------------------------------------------------------------------------------
 itunes.apple.com##.we-subscribe
 itunes.apple.com##.sosumi--subscribe.sosumi
+
+! LOVERSDANCE ----------------------------------------------------------------------------------------------------------------------------
+loversdance.club###wpp-2
+loversdance.club##.related-posts
+loversdance.club###disqus_thread
+loversdance.club###jp-relatedposts
+loversdance.club##.postauthor
+loversdance.club##.clearfix.primary-slider-container
 
 ! Lovers of Dance -----------------------------------------------------------------------------------------------------------------------
 loversofdance.net###respond
