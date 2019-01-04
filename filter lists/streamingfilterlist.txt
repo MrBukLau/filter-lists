@@ -1,6 +1,6 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last modified: 01 January 2019
+! Last modified: 03 January 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt
 
@@ -41,10 +41,8 @@ gowatchseries.co##div.adsheader:nth-of-type(4)
 gowatchseries.co##.croll
 
 ! NBA4Live -------------------------------------------------------------------------------------------------------------------------------
-||st.chatango.com/h5/gz/r1114182317/id.html$subdocument
-nba4live.fun###content
-nba4live.fun##form
-nba4live.fun##p
+||st.chatango.com/h5/gz/r1204181257/id.html$subdocument
+nba4live.club##form
 
 ! Ripple ---------------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv/embed/rippleis7/chat
