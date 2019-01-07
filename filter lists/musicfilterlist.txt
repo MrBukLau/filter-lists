@@ -105,18 +105,13 @@ onlyiplus.net###related-wrap
 onlyiplus.net##div.widget_text.widget:nth-of-type(7)
 
 ! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
-@@||ads.themoneytizer.com/s/requestform.js$script,domain=pluspremieres.eu
-@@||ads.themoneytizer.com/s/requestform3.js$script,domain=pluspremieres.eu
+@@||ads.themoneytizer.com/s/requestform.js$script,domain=pluspremieres.nz
+@@||ads.themoneytizer.com/s/requestform3.js$script,domain=pluspremieres.nz
 cbox.ws###frmMain
-pluspremieres.eu##+js(addEventListener-defuser.js, /^(?:contextmenu|copy|keydown)$/)
-pluspremieres.eu###carousel
-pluspremieres.eu###headline
-pluspremieres.eu###post-bottom-wrap
-pluspremieres.eu###\31 9905-1
-pluspremieres.eu###\31 9905-28
-pluspremieres.eu###\32 2232-1
-pluspremieres.eu###\32 2232-28
-pluspremieres.eu###\32 2232-3
+pluspremieres.*##+js(addEventListener-defuser.js, /^(?:contextmenu|copy|keydown)$/)
+pluspremieres.*###carousel
+pluspremieres.*###headline
+pluspremieres.*###post-bottom-wrap
 
 ! SoundCloud ----------------------------------------------------------------------------------------------------------------------------
 soundcloud.com##.visible.sc-border-light-bottom.featureHeader
