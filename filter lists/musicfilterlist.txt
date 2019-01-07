@@ -105,8 +105,7 @@ onlyiplus.net###related-wrap
 onlyiplus.net##div.widget_text.widget:nth-of-type(7)
 
 ! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
-@@||ads.themoneytizer.com/s/requestform.js$script,domain=pluspremieres.nz
-@@||ads.themoneytizer.com/s/requestform3.js$script,domain=pluspremieres.nz
+@@||ads.themoneytizer.com$script,domain=pluspremieres.*
 cbox.ws###frmMain
 pluspremieres.*##+js(addEventListener-defuser.js, /^(?:contextmenu|copy|keydown)$/)
 pluspremieres.*###carousel
