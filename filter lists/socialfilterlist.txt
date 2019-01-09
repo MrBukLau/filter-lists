@@ -66,7 +66,7 @@ old.reddit.com##.hide-button.state-button
 old.reddit.com##.buttons.flat-list > .give-gold-button
 old.reddit.com##.buttons.flat-list > .login-required.report-button
 old.reddit.com##.buttons.flat-list > .crosspost-button
-old.reddit.com##div.spacer:nth-of-type(6)
+old.reddit.com##[href="/premium"]
 
 ! Sina Mail -----------------------------------------------------------------------------------------------------------------------------
 m0.mail.sina.com.cn##.ct
