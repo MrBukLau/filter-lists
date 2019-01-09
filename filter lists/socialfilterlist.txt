@@ -46,6 +46,7 @@ reddit.com##body:style(overflow-y: scroll !important;)
 reddit.com##div.content:before
 reddit.com##.native-ad-container
 reddit.com##.ad-container
+reddit.com##.premium-banner
 
 ! Reddit (Old Design) -------------------------------------------------------------------------------------------------------------------
 old.reddit.com###onboarding-splash
