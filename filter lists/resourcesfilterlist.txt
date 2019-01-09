@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last modified: 21 December 2018
+! Last modified: 08 January 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
 
@@ -70,6 +70,8 @@ quora.com##div[id^="__w2_"][id*="_content_box"]
 quora.com##.w4_5
 quora.com##.modal_signup_background
 quora.com##.dialog_wrapper
+quora.com##:xpath(//span[contains(text(), 'by')]/ancestor::*[contains(concat(' ', @class, ' '), ' external_link ')]/../../..)
+quora.com##.ComponentSurvey
 
 ! SmallPDF ------------------------------------------------------------------------------------------------------------------------------
 smallpdf.com###app
