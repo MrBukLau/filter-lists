@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last modified: 08 January 2019
+! Last modified: 09 January 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
 
@@ -38,6 +38,11 @@ grammarly.com##._246dL-_-_-client-components-new_funnel-page--page-white.euqBA-_
 grammarly.com##._2iHX1-_-_-client-components-new_funnel-short_tos--short_tos-tos
 grammarly.com##._3m5TL-_-_-client-components-new_funnel-social_signup--social_signup-buttonWrapper
 
+! IntoUpload ----------------------------------------------------------------------------------------------------------------------------
+intoupload.net##.downppi
+intoupload.net##.banneradshome
+intoupload.net###socialmedia
+
 ! Library Genesis -----------------------------------------------------------------------------------------------------------------------
 libgen.io###ads10
 libgen.io###ads9
@@ -63,6 +68,12 @@ pasted.co###captcha_overlay
 ! ProWritingAid -------------------------------------------------------------------------------------------------------------------------
 prowritingaid.com###beacon-container
 prowritingaid.com##.text-center.row > div.col-xs-12:nth-of-type(3)
+
+! Quizlet -------------------------------------------------------------------------------------------------------------------------------
+quizlet.com##.SetPageStickyBanner--hasAdz.SetPageStickyBanner
+quizlet.com##.SetPage-setAdz
+quizlet.com##.SignupWallInline
+quizlet.com##.has-adz.SetPageFooter
 
 ! Quora ---------------------------------------------------------------------------------------------------------------------------------
 quora.com##.layout_2col_main > .fixable_clone
