@@ -16,8 +16,7 @@ discordapp.com##.channelNotices-41mJbj
 discordapp.com##.base-3dtUhz.noWrap-3jynv6.alignStretch-DpGPf3.justifyStart-2NDFzi.directionColumn-35P_nr.vertical-V37hAW.flex-1O1GKY.flex-1xMQg5 > .flexChild-faoVW3
 
 ! Google --------------------------------------------------------------------------------------------------------------------------------
-google.*##div[jsl][data-ved]:if(h4:has-text(People also search for))
-google.*##.exp-outline
+google.*##[id^="ed_"]
 google.com##.hww53CMqxtL__visible.itbXqfXFa__o-q-uKXqAwNiM.hww53CMqxtL__mobile-promo
 
 ! Google Drive --------------------------------------------------------------------------------------------------------------------------
