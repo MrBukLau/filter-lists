@@ -1,6 +1,6 @@
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
-! Last modified: 10 January 2019
+! Last modified: 20 January 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
 
@@ -95,6 +95,7 @@ twitter.com##.topbar-spacer
 
 ! Weibo ---------------------------------------------------------------------------------------------------------------------------------
 s.weibo.com##.m-con-r > div.card-wrap:nth-of-type(2)
+s.weibo.com###pl_band_index
 weibo.com###v6_pl_ad_yaoyaofans
 weibo.com###v6_pl_content_publishertop
 weibo.com###v6_pl_rightmod_rank
