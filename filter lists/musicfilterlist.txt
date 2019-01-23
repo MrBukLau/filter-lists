@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last modified: 22 January 2019
+! Last modified: 23 January 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
 
@@ -40,6 +40,17 @@ downloadtoxix.com###text-3
 downloadtoxix.com###glt-translate-trigger
 downloadtoxix.com##.site-description
 downloadtoxix.com##.post-navigation.navigation
+
+
+! EDMFull -------------------------------------------------------------------------------------------------------------------------------
+edmfull.com##.post-thumbnail
+edmfull.com###featured-content
+edmfull.com###site-header
+edmfull.com###top-posts-2
+edmfull.com###text-5
+edmfull.com###comments
+edmfull.com##.post-navigation.navigation
+edmfull.com###jp-relatedposts
 
 ! iTD Music -----------------------------------------------------------------------------------------------------------------------------
 itdmusic.*###respond
