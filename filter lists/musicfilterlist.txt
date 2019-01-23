@@ -80,7 +80,7 @@ itopmusic.com##.g1-footer.g1-row-layout-page.g1-row
 itunes.apple.com##.we-subscribe
 itunes.apple.com##.sosumi--subscribe.sosumi
 
-! LOVERSDANCE ----------------------------------------------------------------------------------------------------------------------------
+! LOVERSDANCE ---------------------------------------------------------------------------------------------------------------------------
 loversdance.club###wpp-2
 loversdance.club##.related-posts
 loversdance.club###disqus_thread
