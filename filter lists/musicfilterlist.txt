@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last modified: 23 January 2019
+! Last modified: 25 January 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
 
@@ -121,6 +121,8 @@ onlyiplus.net##.fa-youtube.fa
 
 ! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
 @@||ads.themoneytizer.com$script,domain=pluspremieres.nz
+@@||hb.vntsm.com^$xmlhttprequest,domain=pluspremieres.nz
+@@||hb.vntsm.com/v3/live/ad-manager.min.js$script,domain=pluspremieres.nz
 cbox.ws###frmMain
 pluspremieres.*##+js(addEventListener-defuser.js, /^(?:contextmenu|copy|keydown)$/)
 pluspremieres.*###carousel
