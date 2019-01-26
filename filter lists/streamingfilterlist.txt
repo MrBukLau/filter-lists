@@ -1,6 +1,6 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last modified: 22 January 2019
+! Last modified: 25 January 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt
 
@@ -11,11 +11,13 @@ buffstream.*##.navbar-fixed-top.navbar-default.navbar
 buffstream.*##.navbar-fixed-bottom
 buffstream.*###banner > .panel-primary.panel
 buffstream.*###opr
-buffstream.*##div.row:nth-of-type(1)
 bfst.*##body > .row
 bfst.*###banner > .panel-primary.panel
 bfst.*###schedule
 bfst.*##.hidden-xs.theater-button
+bfst.*##.navbar-fixed-top.navbar-default.navbar
+bfst.*##.navbar-fixed-bottom
+bfst.*###opr
 
 ! GoGoAnime ------------------------------------------------------------------------------------------------------------------------------
 gogoanime.sh##.menu_top_link
@@ -38,18 +40,13 @@ gowatchseries.co###left > div:nth-of-type(9)
 gowatchseries.co##div.adsheader:nth-of-type(4)
 gowatchseries.co##.croll
 
-! NBA4Live -------------------------------------------------------------------------------------------------------------------------------
-||st.chatango.com/h5/gz/r1204181257/id.html$subdocument
-nba4live.club##form
-
 ! Ripple ---------------------------------------------------------------------------------------------------------------------------------
-||www.twitch.tv/embed/rippleis7/chat
+||www.twitch.tv/embed/rippleis8/chat$subdocument
 ripple.is###mySidenav
 ripple.is##.col-md-3.col-sm-4.col-xs-12.t3-sidebar-right.t3-sidebar
-ripple.is##.wrap
-ripple.is##.clearfix.article-aside
-ripple.is##.pagenav.pager
 ripple.is###t3-footer
+ripple.is##.pagenav.pager
+ripple.is##.clearfix.article-aside
 
 ! StreamCR -------------------------------------------------------------------------------------------------------------------------------
 scr.cr###disqus_thread
