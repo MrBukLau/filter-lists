@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last modified: 10 January 2019
+! Last modified: 25 January 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
 
@@ -44,9 +44,7 @@ intoupload.net##.banneradshome
 intoupload.net###socialmedia
 
 ! Library Genesis -----------------------------------------------------------------------------------------------------------------------
-libgen.io###ads10
-libgen.io###ads9
-libgen.io###ads17
+lib1.org###message
 
 ! MediaFire -----------------------------------------------------------------------------------------------------------------------------
 mediafire.com###download_link > a[href="#"]:nth-of-type(1)
