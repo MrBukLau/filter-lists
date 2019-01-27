@@ -1,6 +1,6 @@
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
-! Last modified: 20 January 2019
+! Last modified: 27 January 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
 
@@ -69,6 +69,7 @@ old.reddit.com##.buttons.flat-list > .give-gold-button
 old.reddit.com##.buttons.flat-list > .login-required.report-button
 old.reddit.com##.buttons.flat-list > .crosspost-button
 old.reddit.com##[href="/premium"]
+old.reddit.com##.read-next-container
 
 ! Sina Mail -----------------------------------------------------------------------------------------------------------------------------
 m0.mail.sina.com.cn##.ct
