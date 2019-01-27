@@ -25,20 +25,6 @@ gogoanime.sh##.menu_top_link
 ! Gowatchseries --------------------------------------------------------------------------------------------------------------------------
 ||disqus.com^$script,domain=gowatchseries.co
 ||disquscdn.com^$domain=gowatchseries.co
-gowatchseries.co##.btn
-gowatchseries.co##.detail > div:nth-of-type(3)
-gowatchseries.co##li.hide_m:nth-of-type(1)
-gowatchseries.co##li.hide_m:nth-of-type(2)
-gowatchseries.co##li.hide_m:nth-of-type(3)
-gowatchseries.co##li.hide_m:nth-of-type(4)
-gowatchseries.co##li.hide_m:nth-of-type(5)
-gowatchseries.co##li.hide_m:nth-of-type(6)
-gowatchseries.co##li.hide_m:nth-of-type(7)
-gowatchseries.co##div:nth-of-type(12)
-gowatchseries.co##.detail > div:nth-of-type(1)
-gowatchseries.co###left > div:nth-of-type(9)
-gowatchseries.co##div.adsheader:nth-of-type(4)
-gowatchseries.co##.croll
 
 ! Ripple ---------------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv/embed/rippleis8/chat$subdocument
