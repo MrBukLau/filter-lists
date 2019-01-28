@@ -4,6 +4,11 @@
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/minimalistcryptocurrencyfilterlist.txt
 
+! General -------------------------------------------------------------------------------------------------------------------------------
+||coinad.com/ads/show/show.php$subdocument
+||coinad.com/ads/show/show.php$inline-script,first-party
+||mellowads.com/view/*$subdocument
+
 ! Coinpot -------------------------------------------------------------------------------------------------------------------------------
 coinpot.co###wrapper > div:nth-of-type(4)
 coinpot.co###PageContent_HomePageSummary
@@ -67,7 +72,6 @@ moonbit.co.in###BodyPlaceholder_LoginPanel > p:nth-of-type(1)
 moonbit.co.in##script:inject(setTimeout-defuser.js, layoutController)
 
 ! Moon Bitcoin Cash ---------------------------------------------------------------------------------------------------------------------
-||mellowads.com/view/*$subdocument
 moonbitcoin.cash###slideIn
 moonbitcoin.cash##.flexContentAd:nth-of-type(1)
 moonbitcoin.cash##.flexContentAd:nth-of-type(3)
@@ -102,7 +106,6 @@ moondash.co.in##div.col-md-6:nth-of-type(2)
 moondash.co.in###FaucetClaimModal > .modal-dialog > .modal-content > .modal-body
 
 ! Moon Doge -----------------------------------------------------------------------------------------------------------------------------
-||coinad.com/ads/show/show.php$subdocument
 ||www.dogecoinfaucets.info/button.php$image
 moondoge.co.in###middleColumn > .globalNotice
 moondoge.co.in###advert-space-2
