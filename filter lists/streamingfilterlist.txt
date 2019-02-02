@@ -1,11 +1,11 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last modified: 27 January 2019
+! Last modified: 01 February 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt
 
 ! Buffstreamz ----------------------------------------------------------------------------------------------------------------------------
-||www.twitch.tv/embed/chatt_cr/chat$subdocument
+||www.twitch.tv^$subdocument,domain=bfst.to
 buffstream.*###schedule
 buffstream.*##.navbar-fixed-top.navbar-default.navbar
 buffstream.*##.navbar-fixed-bottom
@@ -18,6 +18,9 @@ bfst.*##.hidden-xs.theater-button
 bfst.*##.navbar-fixed-top.navbar-default.navbar
 bfst.*##.navbar-fixed-bottom
 bfst.*###opr
+bfst.*###webmodal2
+bfst.*##.in.modal-backdrop
+bfst.*###html1
 
 ! GoGoAnime ------------------------------------------------------------------------------------------------------------------------------
 gogoanime.sh##.menu_top_link
@@ -27,7 +30,7 @@ gogoanime.sh##.menu_top_link
 ||disquscdn.com^$domain=gowatchseries.co
 
 ! Ripple ---------------------------------------------------------------------------------------------------------------------------------
-||www.twitch.tv/embed/rippleis8/chat$subdocument
+||www.twitch.tv^$subdocument,domain=ripple.is
 ripple.is###mySidenav
 ripple.is##.col-md-3.col-sm-4.col-xs-12.t3-sidebar-right.t3-sidebar
 ripple.is###t3-footer
