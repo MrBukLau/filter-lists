@@ -1,6 +1,6 @@
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
-! Last modified: 01 February 2019
+! Last modified: 08 February 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
 
@@ -142,3 +142,13 @@ youtube.com##.ytd-background-promo-renderer.style-scope.promo-message
 youtube.com###merch-shelf
 youtube.com###list-container
 youtube.com###ticket-shelf
+youtube.com##.expanded.ytd-video-secondary-info-renderer.style-scope
+youtube.com##.size-default.style-suggestive.ytd-video-owner-renderer.style-scope
+youtube.com###clarify-box
+##.video-annotations
+##.branding-img-container
+##.ytp-cards-button.ytp-button
+##.ytp-endscreen-content
+##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
+##.ytd-mealbar-promo-renderer.style-scope
+##.ytd-clarification-renderer.style-scope.yt-simple-endpoint
