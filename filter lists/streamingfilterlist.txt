@@ -40,6 +40,11 @@ ripple.is##.clearfix.article-aside
 ! StreamCR -------------------------------------------------------------------------------------------------------------------------------
 scr.cr###disqus_thread
 
+! theWatchCartoonOnline ------------------------------------------------------------------------------------------------------------------
+thewatchcartoononline.tv##.alert
+thewatchcartoononline.tv##.anti-ad
+thewatchcartoononline.tv##.jcarousel-wrapper
+thewatchcartoononline.tv##.video-title2
 
 ! Twitch ---------------------------------------------------------------------------------------------------------------------------------
 twitch.tv##.tw-z-default.pinned-cheer-v2
