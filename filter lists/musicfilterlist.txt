@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last modified: 01 February 2019
+! Last modified: 26 February 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
 
@@ -14,12 +14,6 @@
 1001tracklists.com###wavoWrapperCenter
 1001tracklists.com###playerWidget
 1001tracklists.com##.socialShare
-
-! 9Clacks -------------------------------------------------------------------------------------------------------------------------------
-9clacks.org##.post-navigation
-9clacks.org###related_posts
-9clacks.org###respond
-9clacks.org##.single-post-thumb
 
 ! DBR.EE --------------------------------------------------------------------------------------------------------------------------------
 dbr.ee##.alert-container
@@ -71,22 +65,9 @@ itdmusic.*##span:nth-of-type(4)
 itdmusic.*###M317017ScriptRootC211616
 itdmusic.*##.breaking-news
 
-! iTOPMUSIC -----------------------------------------------------------------------------------------------------------------------------
-itopmusic.com###comments-section
-itopmusic.com###secondary
-itopmusic.com##.g1-footer.g1-row-layout-page.g1-row
-
 ! iTunes --------------------------------------------------------------------------------------------------------------------------------
 itunes.apple.com##.we-subscribe
 itunes.apple.com##.sosumi--subscribe.sosumi
-
-! LOVERSDANCE ---------------------------------------------------------------------------------------------------------------------------
-loversdance.club###wpp-2
-loversdance.club##.related-posts
-loversdance.club###disqus_thread
-loversdance.club###jp-relatedposts
-loversdance.club##.postauthor
-loversdance.club##.clearfix.primary-slider-container
 
 ! Lovers of Dance -----------------------------------------------------------------------------------------------------------------------
 loversofdance.net###respond
