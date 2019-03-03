@@ -62,7 +62,6 @@ old.reddit.com##.hide-button.state-button
 old.reddit.com##.buttons.flat-list > .give-gold-button
 old.reddit.com##.buttons.flat-list > .login-required.report-button
 old.reddit.com##.buttons.flat-list > .crosspost-button
-old.reddit.com##[href="/premium"]
 old.reddit.com##.read-next-container
 old.reddit.com##.ProfileVoiceAd
 
