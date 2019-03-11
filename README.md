@@ -37,6 +37,7 @@ In order to add one of these filter lists to an ad blocker, make sure you have a
 | **Filter List**               | **Description**                                                         |
 |:------------------------------|:------------------------------------------------------------------------|
 | **[Minimalist Cryptocurrency](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter%20lists/minimalistcryptocurrencyfilterlist.txt)** <br> ([Subscribe][Minimalist Cryptocurrency Subscribe]) | This filter list is for removing unnecessary elements on certain cryptocurrency websites.
+| **[Monetary](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter%20lists/monetaryfilterlist.txt)** <br> ([Subscribe][Monetary Subscribe]) | This filter list is for making sure certain monetary websites work properly.
 | **[Music](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter%20lists/musicfilterlist.txt)** <br> ([Subscribe][Music Subscribe]) | This filter list is for removing unnecessary elements on certain music websites.
 | **[Resources](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter%20lists/resourcesfilterlist.txt)** <br> ([Subscribe][Resource Subscribe]) | This filter list is for removing unnecessary elements on certain resource websites.
 | **[Social](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter%20lists/socialfilterlist.txt)** <br> ([Subscribe][Social Subscribe]) | This filter list is for removing unnecessary elements on certain social websites.
@@ -45,6 +46,7 @@ In order to add one of these filter lists to an ad blocker, make sure you have a
 
 <!-- Subscription List -->
 [Minimalist Cryptocurrency Subscribe]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/filter%20lists/minimalistcryptocurrencyfilterlist.txt&title=Minimalist%20Cryptocurrency%20Filter%20List
+[Monetary Subscribe]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/filter%20lists/monetaryfilterlist.txt&title=Monetary%20Filter%20List
 [Music Subscribe]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/filter%20lists/musicfilterlist.txt&title=Music%20Filter%20List
 [Resource Subscribe]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/filter%20lists/resourcesfilterlist.txt&title=Resources%20Filter%20List
 [Social Subscribe]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/filter%20lists/socialfilterlist.txt&title=Social%20Filter%20List
