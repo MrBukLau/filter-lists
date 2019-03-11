@@ -1,0 +1,18 @@
+! Title: Monetary Filter List
+! Description: This filter list is for making sure certain monetary websites work properly.
+! Last Modified: 10 March 2019
+! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
+! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/monetaryfilterlist.txt
+
+! Gain.GG -------------------------------------------------------------------------------------------------------------------------------
+@@||asmwall.com/framework/public/packages/adscend/site/fingerprint2.min.js$script,first-party
+@@||www.googletagmanager.com^$domain=gain.gg
+
+! More TV Time --------------------------------------------------------------------------------------------------------------------------
+@@||moretvtime.com^$first-party
+
+! Quiz Diva -----------------------------------------------------------------------------------------------------------------------------
+@@||embed.playbuzz.com^$domain=quizdiva.net
+@@||mcd.playbuzz.com^$domain=quizdiva.net
+@@||mcd-sdk.playbuzz.com^$domain=quizdiva.net
+@@||pb-story.playbuzz.com^$domain=quizdiva.net
