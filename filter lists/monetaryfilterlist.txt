@@ -6,6 +6,7 @@
 
 ! Gain.GG -------------------------------------------------------------------------------------------------------------------------------
 @@||asmwall.com/framework/public/packages/adscend/site/fingerprint2.min.js$script,first-party
+@@||comnmon.chaffinchtracking.com/click$popup,domain=gain.gg
 @@||mqh.go2cloud.org/aff_ad$popup,domain=gain.gg
 @@||roll.redirectowl.com/click$popup,domain=gain.gg
 @@||track.ttrack.site/click$popup,domain=gain.gg
