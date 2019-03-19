@@ -1,27 +1,27 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 10 March 2019
+! Last Modified: 18 March 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt
 
 ! Buffstreamz ----------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv^$subdocument,domain=bfst.to
-buffstream.*###schedule
-buffstream.*##.navbar-fixed-top.navbar-default.navbar
-buffstream.*##.navbar-fixed-bottom
+bfst.*###banner > .panel-primary.panel
+bfst.*###html1
+bfst.*###opr
+bfst.*###opz
+bfst.*###schedule
+bfst.*###webmodal2
+bfst.*##.hidden-xs.theater-button
+bfst.*##.in.modal-backdrop
+bfst.*##.navbar-fixed-bottom
+bfst.*##.navbar-fixed-top.navbar-default.navbar
+bfst.*##body > .row
 buffstream.*###banner > .panel-primary.panel
 buffstream.*###opr
-bfst.*##body > .row
-bfst.*###banner > .panel-primary.panel
-bfst.*###schedule
-bfst.*##.hidden-xs.theater-button
-bfst.*##.navbar-fixed-top.navbar-default.navbar
-bfst.*##.navbar-fixed-bottom
-bfst.*###opr
-bfst.*###webmodal2
-bfst.*##.in.modal-backdrop
-bfst.*###html1
-bfst.*###opz
+buffstream.*###schedule
+buffstream.*##.navbar-fixed-bottom
+buffstream.*##.navbar-fixed-top.navbar-default.navbar
 
 ! GoGoAnime ------------------------------------------------------------------------------------------------------------------------------
 gogoanime.sh##.menu_top_link
@@ -33,10 +33,10 @@ gogoanime.sh##.menu_top_link
 ! Ripple ---------------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv^$subdocument,domain=ripple.is
 ripple.is###mySidenav
-ripple.is##.col-md-3.col-sm-4.col-xs-12.t3-sidebar-right.t3-sidebar
 ripple.is###t3-footer
-ripple.is##.pagenav.pager
 ripple.is##.clearfix.article-aside
+ripple.is##.col-md-3.col-sm-4.col-xs-12.t3-sidebar-right.t3-sidebar
+ripple.is##.pagenav.pager
 
 ! StreamCR -------------------------------------------------------------------------------------------------------------------------------
 scr.cr###disqus_thread
