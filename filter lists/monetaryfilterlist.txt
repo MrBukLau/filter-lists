@@ -1,6 +1,6 @@
 ! Title: Monetary Filter List
 ! Description: This filter list is for making sure certain monetary websites work properly.
-! Last Modified: 11 March 2019
+! Last Modified: 18 March 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/monetaryfilterlist.txt
 
@@ -17,6 +17,6 @@
 
 ! Quiz Diva -----------------------------------------------------------------------------------------------------------------------------
 @@||embed.playbuzz.com^$domain=quizdiva.net
-@@||mcd.playbuzz.com^$domain=quizdiva.net
 @@||mcd-sdk.playbuzz.com^$domain=quizdiva.net
+@@||mcd.playbuzz.com^$domain=quizdiva.net
 @@||pb-story.playbuzz.com^$domain=quizdiva.net
