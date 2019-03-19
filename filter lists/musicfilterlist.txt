@@ -1,134 +1,134 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 10 March 2019
+! Last Modified: 18 March 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
 
 ! 1001Tracklists ------------------------------------------------------------------------------------------------------------------------
-1001tracklists.com#@#[id][width]
-1001tracklists.com##.center.img15ad
-1001tracklists.com###artworkLeft
 1001tracklists.com###adLown
-1001tracklists.com###rightDiv
-1001tracklists.com##div:nth-of-type(1) > .noUser
-1001tracklists.com###wavoWrapperCenter
+1001tracklists.com###artworkLeft
 1001tracklists.com###playerWidget
+1001tracklists.com###rightDiv
+1001tracklists.com###wavoWrapperCenter
+1001tracklists.com##.center.img15ad
 1001tracklists.com##.socialShare
+1001tracklists.com##div:nth-of-type(1) > .noUser
+1001tracklists.com#@#[id][width]
 
 ! DBR.EE --------------------------------------------------------------------------------------------------------------------------------
 dbr.ee##.alert-container
-dbr.ee##div.col-xs-12:nth-of-type(1) > .ad-container
 dbr.ee##.col-md-offset-0.col-md-4.col-sm-offset-2.col-sm-8.col-xs-12 > .ad-container
 dbr.ee##.footer-spacer
+dbr.ee##div.col-xs-12:nth-of-type(1) > .ad-container
 
 ! DownloadToxix -------------------------------------------------------------------------------------------------------------------------
-downloadtoxix.com###respond
+downloadtoxix.com###colophon
+downloadtoxix.com###custom_html-12
+downloadtoxix.com###glt-translate-trigger
 downloadtoxix.com###jp-relatedposts
+downloadtoxix.com###recent-posts-widget-with-thumbnails-3
+downloadtoxix.com###respond
+downloadtoxix.com###text-3
+downloadtoxix.com##.header-image
+downloadtoxix.com##.post-navigation.navigation
 downloadtoxix.com##.related-posts.section
 downloadtoxix.com##.sd-sharing-enabled.sharedaddy
-downloadtoxix.com###custom_html-12
-downloadtoxix.com###colophon
-downloadtoxix.com##.header-image
-downloadtoxix.com###recent-posts-widget-with-thumbnails-3
-downloadtoxix.com###text-3
-downloadtoxix.com###glt-translate-trigger
 downloadtoxix.com##.site-description
-downloadtoxix.com##.post-navigation.navigation
 
 
 ! EDMFull -------------------------------------------------------------------------------------------------------------------------------
-edmfull.com##.post-thumbnail
-edmfull.com###featured-content
-edmfull.com###site-header
-edmfull.com###top-posts-2
-edmfull.com###text-5
 edmfull.com###comments
-edmfull.com##.post-navigation.navigation
+edmfull.com###featured-content
 edmfull.com###jp-relatedposts
+edmfull.com###site-header
+edmfull.com###text-5
+edmfull.com###top-posts-2
+edmfull.com##.post-navigation.navigation
+edmfull.com##.post-thumbnail
 
 ! iTD Music -----------------------------------------------------------------------------------------------------------------------------
-itdmusic.*###respond
-itdmusic.*###menu-item-57993
+itdmusic.*###categort-posts-widget-3
+itdmusic.*###facebook-widget-3
+itdmusic.*###M317017ScriptRootC211616
 itdmusic.*###menu-item-122862
 itdmusic.*###menu-item-47141
-itdmusic.*##.top-nav
-itdmusic.*###categort-posts-widget-3
-itdmusic.*###text-3
+itdmusic.*###menu-item-57993
 itdmusic.*###meta-2
-itdmusic.*##.itdmu-widget.widget
-itdmusic.*###theme-footer
-itdmusic.*##.footer-bottom
+itdmusic.*###respond
+itdmusic.*###text-3
 itdmusic.*###text-html-widget-2
-itdmusic.*###facebook-widget-3
-itdmusic.*##.share-post
-itdmusic.*##span:nth-of-type(4)
-itdmusic.*###M317017ScriptRootC211616
+itdmusic.*###theme-footer
 itdmusic.*##.breaking-news
+itdmusic.*##.footer-bottom
+itdmusic.*##.itdmu-widget.widget
+itdmusic.*##.share-post
+itdmusic.*##.top-nav
+itdmusic.*##span:nth-of-type(4)
 
 ! iTunes --------------------------------------------------------------------------------------------------------------------------------
-itunes.apple.com##.we-subscribe
 itunes.apple.com##.sosumi--subscribe.sosumi
+itunes.apple.com##.we-subscribe
 
 ! Lovers of Dance -----------------------------------------------------------------------------------------------------------------------
-loversofdance.net###respond
-loversofdance.net##.post-navigation.navigation
-loversofdance.net###donation_buttons
 loversofdance.net###colophon
-loversofdance.net##.site-description
-loversofdance.net###top-posts-9
-loversofdance.net###recent-posts-widget-with-thumbnails-8
-loversofdance.net###jp-relatedposts
-loversofdance.net##.entry-footer > .comments-link
-loversofdance.net###menu-item-43327
+loversofdance.net###donation_buttons
 loversofdance.net###glt-translate-trigger
+loversofdance.net###jp-relatedposts
+loversofdance.net###menu-item-43327
 loversofdance.net###recent-posts-widget-with-thumbnails-3
+loversofdance.net###recent-posts-widget-with-thumbnails-8
+loversofdance.net###respond
+loversofdance.net###top-posts-9
+loversofdance.net##.entry-footer > .comments-link
 loversofdance.net##.header-image
+loversofdance.net##.post-navigation.navigation
+loversofdance.net##.site-description
 
 ! OnlyiPlus (MSB) -----------------------------------------------------------------------------------------------------------------------
+onlyiplus.net###related-wrap
+onlyiplus.net###respond
+onlyiplus.net##.fa-facebook.fa
+onlyiplus.net##.fa-instagram.fa
+onlyiplus.net##.fa-twitter.fa
+onlyiplus.net##.fa-youtube.fa
+onlyiplus.net##.homeadv
+onlyiplus.net##.prev-articles
 onlyiplus.net##.widget_list_mag_wp_300px.widget
 onlyiplus.net##div.widget_text.widget:nth-of-type(5)
-onlyiplus.net##footer
-onlyiplus.net##div.widget_text.widget:nth-of-type(9)
-onlyiplus.net##.homeadv
-onlyiplus.net###respond
-onlyiplus.net##.prev-articles
-onlyiplus.net###related-wrap
 onlyiplus.net##div.widget_text.widget:nth-of-type(7)
+onlyiplus.net##div.widget_text.widget:nth-of-type(9)
+onlyiplus.net##footer
 onlyiplus.net#@#.top-social
-onlyiplus.net##.fa-facebook.fa
-onlyiplus.net##.fa-twitter.fa
-onlyiplus.net##.fa-instagram.fa
-onlyiplus.net##.fa-youtube.fa
 
 ! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
-@@||ads.themoneytizer.com$script,domain=pluspremieres.nz
-@@||hb.vntsm.com^$xmlhttprequest,domain=pluspremieres.nz
-@@||hb.vntsm.com/v3/live/ad-manager.min.js$script,domain=pluspremieres.nz
+@@||ads.themoneytizer.com$script,domain=pluspremieres.ch
+@@||hb.vntsm.com/v3/live/ad-manager.min.js$script,domain=pluspremieres.ch
+@@||hb.vntsm.com^$xmlhttprequest,domain=pluspremieres.ch
 cbox.ws###frmMain
-pluspremieres.*##+js(addEventListener-defuser.js, /^(?:contextmenu|copy|keydown)$/)
-pluspremieres.*###carousel
-pluspremieres.*###headline
-pluspremieres.*###post-bottom-wrap
 pluspremieres.*###\31 9905-1
 pluspremieres.*###\31 9905-28
 pluspremieres.*###\32 2232-1
 pluspremieres.*###\32 2232-28
 pluspremieres.*###\32 2232-3
+pluspremieres.*###\33 00x600
 pluspremieres.*###\37 28x90bottom
 pluspremieres.*###\37 28x90top
-pluspremieres.*###\33 00x600
+pluspremieres.*###carousel
+pluspremieres.*###headline
+pluspremieres.*###post-bottom-wrap
+pluspremieres.*##+js(addEventListener-defuser.js, /^(?:contextmenu|copy|keydown)$/)
 
 ! SoundCloud ----------------------------------------------------------------------------------------------------------------------------
-soundcloud.com##.visible.sc-border-light-bottom.featureHeader
 soundcloud.com##.g-flex-row-centered-spread.stream__header
-soundcloud.com##.signinInitialStep__socialSignin
 soundcloud.com##.signinInitialStep__divider
+soundcloud.com##.signinInitialStep__socialSignin
+soundcloud.com##.visible.sc-border-light-bottom.featureHeader
 soundcloud.com##p.sc-text-light.signin__text:nth-of-type(2)
 soundcloud.com##p.sc-text-light.signin__text:nth-of-type(3)
 
 ! Spotify -------------------------------------------------------------------------------------------------------------------------------
+accounts.spotify.com##.content > .col-xs-12
 accounts.spotify.com##.content > div.row:nth-of-type(1)
 accounts.spotify.com##.content > div.row:nth-of-type(2)
-accounts.spotify.com##.content > .col-xs-12
-open.spotify.com##.navBar > ul
 open.spotify.com##.navBar > div:nth-of-type(2)
+open.spotify.com##.navBar > ul
