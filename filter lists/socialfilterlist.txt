@@ -9,16 +9,16 @@ pan.baidu.com###activateGuidePopupOuter
 tieba.baidu.com##.tbui_aside_float_bar
 
 ! Discord -------------------------------------------------------------------------------------------------------------------------------
-discordapp.com##.height36-36OHCc.weightMedium-2iZe9B.size14-3iUx6q.notice-2FJMB4.noticeDefault-362Ko2
-discordapp.com##.invite-OjTXrW.channelNotice-1-XFjC
+discordapp.com##.base-3dtUhz.noWrap-3jynv6.alignStretch-DpGPf3.justifyStart-2NDFzi.directionColumn-35P_nr.vertical-V37hAW.flex-1O1GKY.flex-1xMQg5 > .flexChild-faoVW3
 discordapp.com##.btn-download-apps
 discordapp.com##.channelNotices-41mJbj
-discordapp.com##.base-3dtUhz.noWrap-3jynv6.alignStretch-DpGPf3.justifyStart-2NDFzi.directionColumn-35P_nr.vertical-V37hAW.flex-1O1GKY.flex-1xMQg5 > .flexChild-faoVW3
+discordapp.com##.height36-36OHCc.weightMedium-2iZe9B.size14-3iUx6q.notice-2FJMB4.noticeDefault-362Ko2
+discordapp.com##.invite-OjTXrW.channelNotice-1-XFjC
 
 ! Google --------------------------------------------------------------------------------------------------------------------------------
-google.*##div[jsl][data-ved]:if(h4:has-text(People also search for))
 google.*##.exp-outline
 google.*##[id^="ed_"]
+google.*##div[jsl][data-ved]:if(h4:has-text(People also search for))
 google.com##.hww53CMqxtL__visible.itbXqfXFa__o-q-uKXqAwNiM.hww53CMqxtL__mobile-promo
 
 ! Google Drive --------------------------------------------------------------------------------------------------------------------------
@@ -26,56 +26,56 @@ drive.google.com##.a-nf-Rc-Gd
 
 ! Google Product Forums -----------------------------------------------------------------------------------------------------------------
 productforums.google.com##.BOXPGHD-g-b.BOXPGHD-g-w
-productforums.google.com##div.BOXPGHD-g-w:nth-of-type(5)
 productforums.google.com##.BOXPGHD-g-h
+productforums.google.com##div.BOXPGHD-g-w:nth-of-type(5)
 productforums.google.com##div.BOXPGHD-g-w:nth-of-type(6)
 
 ! ProtonMail ----------------------------------------------------------------------------------------------------------------------------
 mail.protonmail.com##.blackFridayModal.pm_modal
 
 ! Reddit --------------------------------------------------------------------------------------------------------------------------------
-reddit.com##.listingsignupbar.infobar
-reddit.com##.commentsignupbar.infobar
-reddit.com##.seo-comments-recommendations.spacer
-reddit.com##.spacer.seo-comments
 reddit.com###bottom-comments
 reddit.com###siteTable:before
+reddit.com##.ad-container
+reddit.com##.commentsignupbar.infobar
+reddit.com##.listingsignupbar.infobar
+reddit.com##.native-ad-container
+reddit.com##.premium-banner
 reddit.com##.redesign-beta-optin
+reddit.com##.seo-comments-recommendations.spacer
+reddit.com##.spacer.seo-comments
 reddit.com##.splash-design.splash_wrapper
 reddit.com##body:style(overflow-y: scroll !important;)
 reddit.com##div.content:before
-reddit.com##.native-ad-container
-reddit.com##.ad-container
-reddit.com##.premium-banner
 
 ! Reddit (Old Design) -------------------------------------------------------------------------------------------------------------------
 old.reddit.com###onboarding-splash
-old.reddit.com##.trending-subreddits
 old.reddit.com###siteTable:before
+old.reddit.com##.infobar-toaster-container
+old.reddit.com##.ProfileVoiceAd
+old.reddit.com##.read-next-container
+old.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
+old.reddit.com##.trending-subreddits
 old.reddit.com##body:style(overflow-y: scroll !important;)
 old.reddit.com##div.content:before
-old.reddit.com##.infobar-toaster-container
-old.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
-old.reddit.com##.read-next-container
-old.reddit.com##.ProfileVoiceAd
 
 ! Sina Mail -----------------------------------------------------------------------------------------------------------------------------
 m0.mail.sina.com.cn##.ct
 
 ! TextNow -------------------------------------------------------------------------------------------------------------------------------
-textnow.com##.notification-priming-modal
-textnow.com###rectSlotAd
-textnow.com##.flex-fill.flex-row > .rotation-manager-slot
 textnow.com###banner
 textnow.com###bannerContainer
-textnow.com##.visible.toast-mask
-textnow.com##.interstitial-banner
-textnow.com##.boxedContainer > .ng-scope
-textnow.com##.webOnly.push
-textnow.com##.webOnly.new-footer-bare.new-footer
 textnow.com###newCall
-textnow.com##.sidebar-bottom-btn-container
+textnow.com###rectSlotAd
 textnow.com##.authv2-btn-wrapper
+textnow.com##.boxedContainer > .ng-scope
+textnow.com##.flex-fill.flex-row > .rotation-manager-slot
+textnow.com##.interstitial-banner
+textnow.com##.notification-priming-modal
+textnow.com##.sidebar-bottom-btn-container
+textnow.com##.visible.toast-mask
+textnow.com##.webOnly.new-footer-bare.new-footer
+textnow.com##.webOnly.push
 textnow.com##div.authv2-field-wrapper.uikit-text-field:nth-of-type(2) > .ng-not-empty.ng-isolate-scope.ng-valid.ng-untouched.ng-pristine > .ng-scope.uikit-text-field > div > .uikit-text-field__message
 
 ! Twitter -------------------------------------------------------------------------------------------------------------------------------
@@ -83,66 +83,66 @@ mobile.twitter.com##._2FU3NGw4
 twitter.com##.topbar-spacer
 
 ! Weibo ---------------------------------------------------------------------------------------------------------------------------------
-s.weibo.com##.m-con-r > div.card-wrap:nth-of-type(2)
 s.weibo.com###pl_band_index
-weibo.com###v6_pl_ad_yaoyaofans
-weibo.com###v6_pl_content_publishertop
-weibo.com###v6_pl_rightmod_rank
-weibo.com###v6_pl_rightmod_recominfo
-weibo.com###v6_pl_rightmod_attfeed
-weibo.com###v6_trustPagelet_recom_member
-weibo.com###v6_pl_rightmod_noticeboard
-weibo.com###WB_webim
+s.weibo.com##.m-con-r > div.card-wrap:nth-of-type(2)
+weibo.com###base_reload
 weibo.com###base_scrollToTop
-weibo.com##.clearfix.PCD_mplayer:nth-of-type(2)
 weibo.com###pl_weibo_directright
 weibo.com###pl_weibo_hotband
-weibo.com###base_reload
+weibo.com###plc_bot
+weibo.com###v6_pl_ad_yaoyaofans
+weibo.com###v6_pl_content_publishertop
+weibo.com###v6_pl_rightmod_attfeed
+weibo.com###v6_pl_rightmod_noticeboard
+weibo.com###v6_pl_rightmod_rank
+weibo.com###v6_pl_rightmod_recominfo
+weibo.com###v6_trustPagelet_recom_member
+weibo.com###WB_webim
+weibo.com##.clearfix.PCD_mplayer:nth-of-type(2)
+weibo.com##.clearfix.tips_warn.W_tips
 weibo.com##.gn_nav_list > li:nth-of-type(2)
 weibo.com##.gn_nav_list > li:nth-of-type(3)
 weibo.com##.gn_nav_list > li:nth-of-type(4)
-weibo.com##.clearfix.tips_warn.W_tips
-weibo.com###plc_bot
 weibo.com##.login_btn_facebook.login_btn.info_list
 
 ! Yahoo Mail ----------------------------------------------------------------------------------------------------------------------------
-mail.yahoo.com###mail-app-component > div:nth-of-type(2)
-mail.yahoo.com##div[aria-label="Messages"]:style(margin-top: -0px !important;)
-mail.yahoo.com##.W_6D6F.k_w.p_R.folder-list > div:nth-of-type(1)
-mail.yahoo.com##.I_T.p_R.o_v.D_F
-mail.yahoo.com##.W_3vHgs.j_ZqTdtW.q_52qC.o_h.e_dRA.U_eo6.Q_6EGz.B_fq7.Z_rJ.p_f.D_F.H_3niBz
-mail.yahoo.com##.rightRailAdContainer
-mail.yahoo.com###norrin-upsell
 mail.yahoo.com###emptyFolderVideo
+mail.yahoo.com###mail-app-component > div:nth-of-type(2)
+mail.yahoo.com###norrin-upsell
+mail.yahoo.com##.I_T.p_R.o_v.D_F
+mail.yahoo.com##.rightRailAdContainer
+mail.yahoo.com##.W_3vHgs.j_ZqTdtW.q_52qC.o_h.e_dRA.U_eo6.Q_6EGz.B_fq7.Z_rJ.p_f.D_F.H_3niBz
+mail.yahoo.com##.W_6D6F.k_w.p_R.folder-list > div:nth-of-type(1)
+mail.yahoo.com##div[aria-label="Messages"]:style(margin-top: -0px !important;)
 
 ! YouTube -------------------------------------------------------------------------------------------------------------------------------
-youtube.com###masthead-ad
-youtube.com##.ytp-ce-covering-overlay
-youtube.com##.ytp-ce-element-shadow
-youtube.com##.ytp-ce-covering-image
-youtube.com##.ytp-ce-expanding-image
-youtube.com##.ytp-cards-teaser
-youtube.com##.ytp-ce-element
-youtube.com##.ytp-cards-button
-youtube.com##.iv-click-target
-youtube.com###vat-notice
-youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
-youtube.com###inproduct-guide-modal
-youtube.com###yt-lang-aler-tp
-youtube.com###yt-dialog-bg
-youtube.com##.yt-dialog-base
-youtube.com##.iv-promo
-youtube.com##.ytd-background-promo-renderer.style-scope.promo-message
-youtube.com###merch-shelf
-youtube.com###list-container
-youtube.com###ticket-shelf
-youtube.com##.expanded.ytd-video-secondary-info-renderer.style-scope
-youtube.com##.size-default.style-suggestive.ytd-video-owner-renderer.style-scope
-youtube.com###clarify-box
-##.video-annotations
 ##.branding-img-container
+##.video-annotations
+##.ytd-clarification-renderer.style-scope.yt-simple-endpoint
+##.ytd-mealbar-promo-renderer.style-scope
 ##.ytp-cards-button.ytp-button
 ##.ytp-endscreen-content
 ##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
-##.ytd-mealbar-promo-renderer.style-scope
-##.ytd-clarification-renderer.style-scope.yt-simple-endpoint
+youtube.com###clarify-box
+youtube.com###inproduct-guide-modal
+youtube.com###list-container
+youtube.com###masthead-ad
+youtube.com###merch-shelf
+youtube.com###ticket-shelf
+youtube.com###vat-notice
+youtube.com###yt-dialog-bg
+youtube.com###yt-lang-aler-tp
+youtube.com##.expanded.ytd-video-secondary-info-renderer.style-scope
+youtube.com##.iv-click-target
+youtube.com##.iv-promo
+youtube.com##.size-default.style-suggestive.ytd-video-owner-renderer.style-scope
+youtube.com##.yt-dialog-base
+youtube.com##.ytd-background-promo-renderer.style-scope.promo-message
+youtube.com##.ytp-cards-button
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-ce-expanding-image
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
