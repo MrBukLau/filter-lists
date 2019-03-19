@@ -1,188 +1,188 @@
 ! Title: Minimalist Cryptocurrency Filter List
 ! Description: This filter list is for removing unnecessary elements on certain cryptocurrency websites.
-! Last Modified: 10 March 2019
+! Last Modified: 18 March 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/minimalistcryptocurrencyfilterlist.txt
 
 ! General -------------------------------------------------------------------------------------------------------------------------------
-||coinad.com/ads/show/show.php$subdocument
 ||coinad.com/ads/show/show.php$inline-script,first-party
+||coinad.com/ads/show/show.php$subdocument
 ||mellowads.com/view/*$subdocument
 
 ! Coinpot -------------------------------------------------------------------------------------------------------------------------------
-coinpot.co###wrapper > div:nth-of-type(4)
 coinpot.co###PageContent_HomePageSummary
-coinpot.co##.text-center.footer
-coinpot.co##.mellow.well:nth-of-type(4)
+coinpot.co###wrapper > div:nth-of-type(4)
 coinpot.co##.mellow.well:nth-of-type(1)
+coinpot.co##.mellow.well:nth-of-type(4)
+coinpot.co##.text-center.footer
 
 ! Faucethub -----------------------------------------------------------------------------------------------------------------------------
-faucethub.io###toast-container
-faucethub.io###footer
-faucethub.io###content-below
-faucethub.io##.header-upper
-faucethub.io##.tabbable > .ad_position
-faucethub.io##.col-md-12:nth-of-type(3) > hr
-faucethub.io##h3:nth-of-type(2)
-faucethub.io##.lead
-faucethub.io##.btn-primary.btn-lg.btn
 faucethub.io###banner
-faucethub.io##.news-top
+faucethub.io###content-below
+faucethub.io###footer
 faucethub.io###newspanel
+faucethub.io###toast-container
+faucethub.io##.btn-primary.btn-lg.btn
+faucethub.io##.col-md-12:nth-of-type(3) > hr
+faucethub.io##.header-upper
+faucethub.io##.lead
+faucethub.io##.news-top
+faucethub.io##.tabbable > .ad_position
+faucethub.io##h3:nth-of-type(2)
 
 ! Moon Bitcoin --------------------------------------------------------------------------------------------------------------------------
-moonbit.co.in###middleColumn > .globalNotice
+moonbit.co.in###BodyPlaceholder_ClaimPanel > h1
+moonbit.co.in###BodyPlaceholder_LoginPanel > p:nth-of-type(1)
 moonbit.co.in###BodyPlaceholder_SuccessfulClaimPanel
-moonbit.co.in###middleColumn > h2:nth-of-type(1)
+moonbit.co.in###lhsTopAd
+moonbit.co.in###middleColumn > .globalNotice
 moonbit.co.in###middleColumn > .para:nth-of-type(1)
 moonbit.co.in###middleColumn > .para:nth-of-type(2)
-moonbit.co.in###middleColumn > p:nth-of-type(3)
-moonbit.co.in##a[href="http://www.alexa.com/toolbar"]
-moonbit.co.in###middleColumn > h3:nth-of-type(1)
 moonbit.co.in###middleColumn > .para:nth-of-type(4)
-moonbit.co.in##h2:nth-of-type(2)
 moonbit.co.in###middleColumn > .para:nth-of-type(5)
-moonbit.co.in###middleColumn > div:nth-of-type(6)
 moonbit.co.in###middleColumn > .para:nth-of-type(6)
 moonbit.co.in###middleColumn > .para:nth-of-type(7)
 moonbit.co.in###middleColumn > .para:nth-of-type(8)
-moonbit.co.in##.para:nth-of-type(9)
-moonbit.co.in##h2:nth-of-type(3)
-moonbit.co.in##.para:nth-of-type(10)
-moonbit.co.in##h2:nth-of-type(4)
-moonbit.co.in##.para:nth-of-type(11)
-moonbit.co.in###middleColumn > h3:nth-of-type(2)
-moonbit.co.in##.para:nth-of-type(12)
-moonbit.co.in###middleColumn > h3:nth-of-type(3)
-moonbit.co.in##.para:nth-of-type(13)
-moonbit.co.in##h2:nth-of-type(5)
-moonbit.co.in##.para:nth-of-type(14)
-moonbit.co.in##h2:nth-of-type(6)
-moonbit.co.in##.para:nth-of-type(15)
-moonbit.co.in##.footer
-moonbit.co.in###lhsTopAd
-moonbit.co.in###rhsTopAd
-moonbit.co.in##.labelPara:nth-of-type(4)
-moonbit.co.in##.labelPara:nth-of-type(3)
-moonbit.co.in###BodyPlaceholder_ClaimPanel > h1
-moonbit.co.in##.labelPara:nth-of-type(1)
-moonbit.co.in###middleColumn > div:nth-of-type(5)
 moonbit.co.in###middleColumn > div:nth-of-type(1)
-moonbit.co.in###BodyPlaceholder_LoginPanel > p:nth-of-type(1)
+moonbit.co.in###middleColumn > div:nth-of-type(5)
+moonbit.co.in###middleColumn > div:nth-of-type(6)
+moonbit.co.in###middleColumn > h2:nth-of-type(1)
+moonbit.co.in###middleColumn > h3:nth-of-type(1)
+moonbit.co.in###middleColumn > h3:nth-of-type(2)
+moonbit.co.in###middleColumn > h3:nth-of-type(3)
+moonbit.co.in###middleColumn > p:nth-of-type(3)
+moonbit.co.in###rhsTopAd
+moonbit.co.in##.footer
+moonbit.co.in##.labelPara:nth-of-type(1)
+moonbit.co.in##.labelPara:nth-of-type(3)
+moonbit.co.in##.labelPara:nth-of-type(4)
+moonbit.co.in##.para:nth-of-type(10)
+moonbit.co.in##.para:nth-of-type(11)
+moonbit.co.in##.para:nth-of-type(12)
+moonbit.co.in##.para:nth-of-type(13)
+moonbit.co.in##.para:nth-of-type(14)
+moonbit.co.in##.para:nth-of-type(15)
+moonbit.co.in##.para:nth-of-type(9)
+moonbit.co.in##a[href="http://www.alexa.com/toolbar"]
+moonbit.co.in##h2:nth-of-type(2)
+moonbit.co.in##h2:nth-of-type(3)
+moonbit.co.in##h2:nth-of-type(4)
+moonbit.co.in##h2:nth-of-type(5)
+moonbit.co.in##h2:nth-of-type(6)
 moonbit.co.in##script:inject(setTimeout-defuser.js, layoutController)
 
 ! Moon Bitcoin Cash ---------------------------------------------------------------------------------------------------------------------
+moonbitcoin.cash###FaucetClaimModal > .modal-dialog > .modal-content > .modal-body
 moonbitcoin.cash###slideIn
+moonbitcoin.cash##.col-md-5
+moonbitcoin.cash##.faucetLabel:nth-of-type(1) > input
+moonbitcoin.cash##.faucetLabel:nth-of-type(1) > label
+moonbitcoin.cash##.faucetLabel:nth-of-type(3)
+moonbitcoin.cash##.flexAfter
+moonbitcoin.cash##.flexBefore
 moonbitcoin.cash##.flexContentAd:nth-of-type(1)
 moonbitcoin.cash##.flexContentAd:nth-of-type(3)
-moonbitcoin.cash##.flexBefore
-moonbitcoin.cash##.flexAfter
 moonbitcoin.cash##.flexFAQ
-moonbitcoin.cash##.socialNetworks2
 moonbitcoin.cash##.footer
-moonbitcoin.cash##.faucetLabel:nth-of-type(1) > label
-moonbitcoin.cash##.faucetLabel:nth-of-type(1) > input
-moonbitcoin.cash##.faucetLabel:nth-of-type(3)
-moonbitcoin.cash##h2
 moonbitcoin.cash##.modal-footer > [href="terms.htm"]
-moonbitcoin.cash##.col-md-5
-moonbitcoin.cash###FaucetClaimModal > .modal-dialog > .modal-content > .modal-body
+moonbitcoin.cash##.socialNetworks2
+moonbitcoin.cash##h2
 
 ! Moon Dash -----------------------------------------------------------------------------------------------------------------------------
-moondash.co.in##.flexContentAd:nth-of-type(1)
-moondash.co.in##.flexBefore
-moondash.co.in##.flexAfter
-moondash.co.in##.flexContentAd:nth-of-type(3)
-moondash.co.in##.socialNetworks2
-moondash.co.in##.flexFAQ
-moondash.co.in##.footer
-moondash.co.in##h2
-moondash.co.in##.faucetLabel:nth-of-type(3)
+moondash.co.in###FaucetClaimModal > .modal-dialog > .modal-content > .modal-body
+moondash.co.in##.col-md-5
 moondash.co.in##.faucetLabel:nth-of-type(1) > input
 moondash.co.in##.faucetLabel:nth-of-type(1) > label
+moondash.co.in##.faucetLabel:nth-of-type(3)
+moondash.co.in##.flexAfter
+moondash.co.in##.flexBefore
+moondash.co.in##.flexContentAd:nth-of-type(1)
+moondash.co.in##.flexContentAd:nth-of-type(3)
+moondash.co.in##.flexFAQ
+moondash.co.in##.footer
 moondash.co.in##.modal-footer > [href="terms.htm"]
-moondash.co.in##.col-md-5
+moondash.co.in##.socialNetworks2
 moondash.co.in##div.col-md-6:nth-of-type(2)
-moondash.co.in###FaucetClaimModal > .modal-dialog > .modal-content > .modal-body
+moondash.co.in##h2
 
 ! Moon Doge -----------------------------------------------------------------------------------------------------------------------------
 ||www.dogecoinfaucets.info/button.php$image
-moondoge.co.in###middleColumn > .globalNotice
+moondoge.co.in###advert-space
 moondoge.co.in###advert-space-2
-moondoge.co.in###middleColumn > h2:nth-of-type(1)
+moondoge.co.in###BodyPlaceholder_ClaimPanel > .labelPara
+moondoge.co.in###BodyPlaceholder_ClaimPanel > h1
+moondoge.co.in###BodyPlaceholder_SuccessfulClaimPanel
+moondoge.co.in###lhsTopAd
+moondoge.co.in###middleColumn > .globalNotice
 moondoge.co.in###middleColumn > .para:nth-of-type(1)
 moondoge.co.in###middleColumn > .para:nth-of-type(2)
-moondoge.co.in###middleColumn > p:nth-of-type(3)
-moondoge.co.in##a[href="http://www.alexa.com/toolbar"]
-moondoge.co.in###middleColumn > h3:nth-of-type(1)
 moondoge.co.in###middleColumn > .para:nth-of-type(4)
-moondoge.co.in##h2:nth-of-type(2)
 moondoge.co.in###middleColumn > .para:nth-of-type(5)
-moondoge.co.in###middleColumn > div:nth-of-type(6)
 moondoge.co.in###middleColumn > .para:nth-of-type(6)
 moondoge.co.in###middleColumn > .para:nth-of-type(7)
 moondoge.co.in###middleColumn > .para:nth-of-type(8)
-moondoge.co.in##h2:nth-of-type(3)
-moondoge.co.in##.para:nth-of-type(9)
-moondoge.co.in##h2:nth-of-type(4)
-moondoge.co.in##.para:nth-of-type(10)
-moondoge.co.in###middleColumn > h3:nth-of-type(2)
-moondoge.co.in##.para:nth-of-type(11)
-moondoge.co.in###middleColumn > h3:nth-of-type(3)
-moondoge.co.in##.para:nth-of-type(12)
-moondoge.co.in##h2:nth-of-type(5)
-moondoge.co.in##.para:nth-of-type(13)
-moondoge.co.in##h2:nth-of-type(6)
-moondoge.co.in##.para:nth-of-type(14)
-moondoge.co.in##.footer
-moondoge.co.in###rhsColumn
-moondoge.co.in###middleColumn > div:nth-of-type(7)
-moondoge.co.in##a[href="http://www.dogecoinfaucets.info/"]
-moondoge.co.in###BodyPlaceholder_SuccessfulClaimPanel
-moondoge.co.in###advert-space
-moondoge.co.in###lhsTopAd
-moondoge.co.in###BodyPlaceholder_ClaimPanel > .labelPara
-moondoge.co.in##div:nth-of-type(2) > .labelPara
-moondoge.co.in###BodyPlaceholder_ClaimPanel > h1
-moondoge.co.in###middleColumn > div:nth-of-type(5)
 moondoge.co.in###middleColumn > div:nth-of-type(1)
+moondoge.co.in###middleColumn > div:nth-of-type(5)
+moondoge.co.in###middleColumn > div:nth-of-type(6)
+moondoge.co.in###middleColumn > div:nth-of-type(7)
+moondoge.co.in###middleColumn > h2:nth-of-type(1)
+moondoge.co.in###middleColumn > h3:nth-of-type(1)
+moondoge.co.in###middleColumn > h3:nth-of-type(2)
+moondoge.co.in###middleColumn > h3:nth-of-type(3)
+moondoge.co.in###middleColumn > p:nth-of-type(3)
+moondoge.co.in###rhsColumn
+moondoge.co.in##.footer
+moondoge.co.in##.para:nth-of-type(10)
+moondoge.co.in##.para:nth-of-type(11)
+moondoge.co.in##.para:nth-of-type(12)
+moondoge.co.in##.para:nth-of-type(13)
+moondoge.co.in##.para:nth-of-type(14)
+moondoge.co.in##.para:nth-of-type(9)
+moondoge.co.in##a[href="http://www.alexa.com/toolbar"]
+moondoge.co.in##a[href="http://www.dogecoinfaucets.info/"]
+moondoge.co.in##div:nth-of-type(2) > .labelPara
+moondoge.co.in##h2:nth-of-type(2)
+moondoge.co.in##h2:nth-of-type(3)
+moondoge.co.in##h2:nth-of-type(4)
+moondoge.co.in##h2:nth-of-type(5)
+moondoge.co.in##h2:nth-of-type(6)
 
 ! Moon Litecoin -------------------------------------------------------------------------------------------------------------------------
 ||mellowads.com/img/close.png$image
-moonliteco.in###BodyPlaceholder_SuccessfulClaimPanel
-moonliteco.in###middleColumn > .globalNotice
-moonliteco.in###rhsColumn
-moonliteco.in###lhsTopAd
+moonliteco.in###advert-space
 moonliteco.in###advert-space-2
-moonliteco.in###middleColumn > h2:nth-of-type(1)
+moonliteco.in###BodyPlaceholder_ClaimPanel > .labelPara
+moonliteco.in###BodyPlaceholder_ClaimPanel > h1
+moonliteco.in###BodyPlaceholder_SuccessfulClaimPanel
+moonliteco.in###lhsTopAd
+moonliteco.in###middleColumn > .globalNotice
 moonliteco.in###middleColumn > .para:nth-of-type(1)
 moonliteco.in###middleColumn > .para:nth-of-type(2)
-moonliteco.in###middleColumn > p:nth-of-type(3)
-moonliteco.in##a[href="http://www.alexa.com/toolbar"]
-moonliteco.in###middleColumn > h3:nth-of-type(1)
 moonliteco.in###middleColumn > .para:nth-of-type(4)
-moonliteco.in##h2:nth-of-type(2)
 moonliteco.in###middleColumn > .para:nth-of-type(5)
-moonliteco.in###middleColumn > div:nth-of-type(6)
 moonliteco.in###middleColumn > .para:nth-of-type(6)
 moonliteco.in###middleColumn > .para:nth-of-type(7)
 moonliteco.in###middleColumn > .para:nth-of-type(8)
-moonliteco.in##h2:nth-of-type(3)
-moonliteco.in##.para:nth-of-type(9)
-moonliteco.in##h2:nth-of-type(4)
-moonliteco.in##.para:nth-of-type(10)
-moonliteco.in###middleColumn > h3:nth-of-type(2)
-moonliteco.in##.para:nth-of-type(11)
-moonliteco.in###middleColumn > h3:nth-of-type(3)
-moonliteco.in##.para:nth-of-type(12)
-moonliteco.in##h2:nth-of-type(5)
-moonliteco.in##.para:nth-of-type(13)
-moonliteco.in##h2:nth-of-type(6)
-moonliteco.in##.para:nth-of-type(14)
-moonliteco.in##.footer
-moonliteco.in###advert-space
-moonliteco.in##a[href="#"]
-moonliteco.in###BodyPlaceholder_ClaimPanel > h1
-moonliteco.in##div:nth-of-type(2) > .labelPara
-moonliteco.in###BodyPlaceholder_ClaimPanel > .labelPara
 moonliteco.in###middleColumn > div:nth-of-type(5)
+moonliteco.in###middleColumn > div:nth-of-type(6)
+moonliteco.in###middleColumn > h2:nth-of-type(1)
+moonliteco.in###middleColumn > h3:nth-of-type(1)
+moonliteco.in###middleColumn > h3:nth-of-type(2)
+moonliteco.in###middleColumn > h3:nth-of-type(3)
+moonliteco.in###middleColumn > p:nth-of-type(3)
+moonliteco.in###rhsColumn
+moonliteco.in##.footer
+moonliteco.in##.para:nth-of-type(10)
+moonliteco.in##.para:nth-of-type(11)
+moonliteco.in##.para:nth-of-type(12)
+moonliteco.in##.para:nth-of-type(13)
+moonliteco.in##.para:nth-of-type(14)
+moonliteco.in##.para:nth-of-type(9)
+moonliteco.in##a[href="#"]
+moonliteco.in##a[href="http://www.alexa.com/toolbar"]
+moonliteco.in##div:nth-of-type(2) > .labelPara
+moonliteco.in##h2:nth-of-type(2)
+moonliteco.in##h2:nth-of-type(3)
+moonliteco.in##h2:nth-of-type(4)
+moonliteco.in##h2:nth-of-type(5)
+moonliteco.in##h2:nth-of-type(6)
