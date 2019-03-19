@@ -1,6 +1,6 @@
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
-! Last Modified: 10 March 2019
+! Last Modified: 18 March 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/socialfilterlist.txt
 
@@ -56,12 +56,6 @@ old.reddit.com##body:style(overflow-y: scroll !important;)
 old.reddit.com##div.content:before
 old.reddit.com##.infobar-toaster-container
 old.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
-old.reddit.com##.share
-old.reddit.com##.buttons.flat-list > .login-required.save-button.link-save-button
-old.reddit.com##.hide-button.state-button
-old.reddit.com##.buttons.flat-list > .give-gold-button
-old.reddit.com##.buttons.flat-list > .login-required.report-button
-old.reddit.com##.buttons.flat-list > .crosspost-button
 old.reddit.com##.read-next-container
 old.reddit.com##.ProfileVoiceAd
 
