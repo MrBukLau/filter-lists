@@ -1,0 +1,14 @@
+! Title: Personal Filter List
+! Description: This filter list is where I keep my personal filters, so it might break some websites.
+! Last Modified: 18 March 2019
+! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
+! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/personalfilterlist.txt
+
+
+! Reddit (Old Design) -------------------------------------------------------------------------------------------------------------------
+old.reddit.com##.buttons.flat-list > .crosspost-button
+old.reddit.com##.buttons.flat-list > .give-gold-button
+old.reddit.com##.buttons.flat-list > .login-required.report-button
+old.reddit.com##.buttons.flat-list > .login-required.save-button.link-save-button
+old.reddit.com##.hide-button.state-button
+old.reddit.com##.share
