@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 18 March 2019
+! Last Modified: 21 March 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
 
@@ -15,6 +15,16 @@
 ! 1337x ---------------------------------------------------------------------------------------------------------------------------------
 1337x.to###M90304ScriptRootC221935
 1337x.to##.news
+
+! Duplichecker --------------------------------------------------------------------------------------------------------------------------
+duplichecker.com###img0
+duplichecker.com###img1
+duplichecker.com###img2
+duplichecker.com###img3
+duplichecker.com###img4
+duplichecker.com###img5
+duplichecker.com###img6
+duplichecker.com##.p8.text-center.mt20.search-panel-sec
 
 ! Filesmerge ----------------------------------------------------------------------------------------------------------------------------
 filesmerge.com##.box.cool-box
