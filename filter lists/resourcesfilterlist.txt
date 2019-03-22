@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 21 March 2019
+! Last Modified: 22 March 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
 
@@ -112,6 +112,7 @@ symbolab.com##.print-hide.sidebar-content
 symbolab.com##body > a
 
 ! TopFreeCash ---------------------------------------------------------------------------------------------------------------------------
+@@||static.parastorage.com/unpkg/gsap@2.0.2/src/minified/plugins/ScrollToPlugin.min.js$script,domain=www.topfreecash.com
 ||www.youtube.com/embed/i9idr_y68J8$subdocument
 topfreecash.com###comp-ipvgh729
 topfreecash.com###comp-jfon2ih7
