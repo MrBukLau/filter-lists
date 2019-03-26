@@ -1,6 +1,6 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 18 March 2019
+! Last Modified: 26 March 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/streamingfilterlist.txt
 
@@ -48,4 +48,5 @@ thewatchcartoononline.tv##.jcarousel-wrapper
 thewatchcartoononline.tv##.video-title2
 
 ! Twitch ---------------------------------------------------------------------------------------------------------------------------------
+twitch.tv##.tw-mg-b-05.tw-flex-column.tw-flex.tw-align-items-center
 twitch.tv##.tw-z-default.pinned-cheer-v2
