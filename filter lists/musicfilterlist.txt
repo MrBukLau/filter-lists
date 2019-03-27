@@ -1,12 +1,13 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 18 March 2019
+! Last Modified: 26 March 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/musicfilterlist.txt
 
 ! 1001Tracklists ------------------------------------------------------------------------------------------------------------------------
 1001tracklists.com###adLown
 1001tracklists.com###artworkLeft
+1001tracklists.com###playbuzz
 1001tracklists.com###playerWidget
 1001tracklists.com###rightDiv
 1001tracklists.com###wavoWrapperCenter
