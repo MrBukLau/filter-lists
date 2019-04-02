@@ -51,6 +51,7 @@ reddit.com##div.content:before
 ! Reddit (Old Design) -------------------------------------------------------------------------------------------------------------------
 old.reddit.com###onboarding-splash
 old.reddit.com###siteTable:before
+old.reddit.com##.happening-now-wrap
 old.reddit.com##.infobar-toaster-container
 old.reddit.com##.onboardingbar.subscribebar.infobar
 old.reddit.com##.ProfileVoiceAd
