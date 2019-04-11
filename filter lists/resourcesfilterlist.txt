@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 22 March 2019
+! Last Modified: 10 April 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
 
@@ -37,6 +37,17 @@ filesmerge.com##.slider_item:nth-of-type(4)
 filesmerge.com##.slider_item:nth-of-type(5)
 filesmerge.com##.top-buffer.row:nth-of-type(5)
 filesmerge.com##body > div:nth-of-type(7)
+
+! GetComics -----------------------------------------------------------------------------------------------------------------------------
+getcomics.info###advanced_floating_content_85155
+getcomics.info##.footer-post-next
+getcomics.info##.footer-widgets
+getcomics.info##.overlay-show.cp-optin-container.cp_id_0bc01.cp-slidein-popup-container.cp-module
+getcomics.info##.post-related-count-3.post-related
+getcomics.info##.pptwj.widget
+getcomics.info##.widget_mailster_signup.widget
+getcomics.info##section.widget_text.widget:nth-of-type(2)
+getcomics.info##section.widget_text.widget:nth-of-type(3)
 
 ! GitHub --------------------------------------------------------------------------------------------------------------------------------
 github.com##.js-notice
