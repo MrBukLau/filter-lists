@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 10 April 2019
+! Last Modified: 16 April 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
 ! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/resourcesfilterlist.txt
 
@@ -77,6 +77,8 @@ mediafire.com##.social-cont
 nyaa.si##.alert-info.alert
 
 ! Paper Rater ---------------------------------------------------------------------------------------------------------------------------
+paperrater.com###g-subform-bottom
+paperrater.com###gramBannerSubFormTop
 paperrater.com##body > div:nth-of-type(2)
 
 ! Pasted --------------------------------------------------------------------------------------------------------------------------------
