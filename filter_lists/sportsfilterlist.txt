@@ -1,8 +1,8 @@
 ! Title: Sports Filter List
 ! Description: This filter list is for removing unnecessary elements on certain sport websites.
 ! Last Modified: 25 April 2019
-! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
-! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/sportsfilterlist.txt
+! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
+! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! CBS Sports -----------------------------------------------------------------------------------------------------------------------------
 ||www.cbssports.com/video/player/embed
