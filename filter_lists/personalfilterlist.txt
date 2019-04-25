@@ -2,7 +2,7 @@
 ! Description: This filter list is where I keep my personal filters, so it might break some websites.
 ! Last Modified: 25 April 2019
 ! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
-! Homepage: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/personalfilterlist.txt
+! Homepage: https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/filter_lists/personalfilterlist.txt
 
 
 ! Reddit (Old Design) -------------------------------------------------------------------------------------------------------------------
