@@ -1,8 +1,8 @@
 ! Title: Minimalist Cryptocurrency Filter List
 ! Description: This filter list is for removing unnecessary elements on certain cryptocurrency websites.
 ! Last Modified: 25 April 2019
-! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
-! Homepage: https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/filter_lists/minimalistcryptocurrencyfilterlist.txt
+! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
+! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! General -------------------------------------------------------------------------------------------------------------------------------
 ||coinad.com/ads/show/show.php$inline-script,first-party
