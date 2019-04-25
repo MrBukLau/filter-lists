@@ -4,5 +4,5 @@ m.imgur.com###app > div.App > div.GalleryHandler:last-child > div.FooterOIA-cont
 m.imgur.com##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
 m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 ! Reddit
-reddit.com##.adlinkbar,.dualpartinterstitial,.topbutton,.xpromoappstorefooter,.xpromopill,.xpromopopup
+reddit.com##.adlinkbar,.commenttools__reply,.dualpartinterstitial,.share,.topbutton,.xpromoappstorefooter,.xpromopill,.xpromopopup
 ##.upsell_banner
