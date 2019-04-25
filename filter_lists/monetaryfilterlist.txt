@@ -1,8 +1,8 @@
 ! Title: Monetary Filter List
 ! Description: This filter list is for making sure certain monetary websites work properly.
 ! Last Modified: 25 April 2019
-! License: https://raw.githubusercontent.com/MrBukLau/Personal-Filter-Lists-for-uBlock-Origin/master/LICENSE
-! Homepage: https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/filter_lists/monetaryfilterlist.txt
+! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
+! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! Gain.GG -------------------------------------------------------------------------------------------------------------------------------
 @@||asmwall.com/framework/public/packages/adscend/site/fingerprint2.min.js$script,first-party
