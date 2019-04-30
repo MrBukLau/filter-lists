@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 25 April 2019
+! Last Modified: 29 April 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -21,20 +21,6 @@ dbr.ee##.alert-container
 dbr.ee##.col-md-offset-0.col-md-4.col-sm-offset-2.col-sm-8.col-xs-12 > .ad-container
 dbr.ee##.footer-spacer
 dbr.ee##div.col-xs-12:nth-of-type(1) > .ad-container
-
-! DownloadToxix -------------------------------------------------------------------------------------------------------------------------
-downloadtoxix.com###colophon
-downloadtoxix.com###custom_html-12
-downloadtoxix.com###glt-translate-trigger
-downloadtoxix.com###jp-relatedposts
-downloadtoxix.com###recent-posts-widget-with-thumbnails-3
-downloadtoxix.com###respond
-downloadtoxix.com###text-3
-downloadtoxix.com##.header-image
-downloadtoxix.com##.post-navigation.navigation
-downloadtoxix.com##.related-posts.section
-downloadtoxix.com##.sd-sharing-enabled.sharedaddy
-downloadtoxix.com##.site-description
 
 
 ! EDMFull -------------------------------------------------------------------------------------------------------------------------------
@@ -69,21 +55,6 @@ itdmusic.*##span:nth-of-type(4)
 ! iTunes --------------------------------------------------------------------------------------------------------------------------------
 itunes.apple.com##.sosumi--subscribe.sosumi
 itunes.apple.com##.we-subscribe
-
-! Lovers of Dance -----------------------------------------------------------------------------------------------------------------------
-loversofdance.net###colophon
-loversofdance.net###donation_buttons
-loversofdance.net###glt-translate-trigger
-loversofdance.net###jp-relatedposts
-loversofdance.net###menu-item-43327
-loversofdance.net###recent-posts-widget-with-thumbnails-3
-loversofdance.net###recent-posts-widget-with-thumbnails-8
-loversofdance.net###respond
-loversofdance.net###top-posts-9
-loversofdance.net##.entry-footer > .comments-link
-loversofdance.net##.header-image
-loversofdance.net##.post-navigation.navigation
-loversofdance.net##.site-description
 
 ! OnlyiPlus (MSB) -----------------------------------------------------------------------------------------------------------------------
 onlyiplus.net###related-wrap
