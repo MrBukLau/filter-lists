@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 29 April 2019
+! Last Modified: 06 May 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -15,23 +15,6 @@
 1001tracklists.com##.socialShare
 1001tracklists.com##div:nth-of-type(1) > .noUser
 1001tracklists.com#@#[id][width]
-
-! DBR.EE --------------------------------------------------------------------------------------------------------------------------------
-dbr.ee##.alert-container
-dbr.ee##.col-md-offset-0.col-md-4.col-sm-offset-2.col-sm-8.col-xs-12 > .ad-container
-dbr.ee##.footer-spacer
-dbr.ee##div.col-xs-12:nth-of-type(1) > .ad-container
-
-
-! EDMFull -------------------------------------------------------------------------------------------------------------------------------
-edmfull.com###comments
-edmfull.com###featured-content
-edmfull.com###jp-relatedposts
-edmfull.com###site-header
-edmfull.com###text-5
-edmfull.com###top-posts-2
-edmfull.com##.post-navigation.navigation
-edmfull.com##.post-thumbnail
 
 ! iTD Music -----------------------------------------------------------------------------------------------------------------------------
 itdmusic.*###categort-posts-widget-3
