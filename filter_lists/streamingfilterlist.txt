@@ -1,11 +1,11 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 25 April 2019
+! Last Modified: 10 May 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! Buffstreamz ----------------------------------------------------------------------------------------------------------------------------
-||www.twitch.tv^$subdocument,domain=bfst.to
+||www.twitch.tv^$subdocument,domain=buffstreamz.com
 bfst.*###banner > .panel-primary.panel
 bfst.*###html1
 bfst.*###opr
@@ -22,6 +22,7 @@ buffstream.*###opr
 buffstream.*###schedule
 buffstream.*##.navbar-fixed-bottom
 buffstream.*##.navbar-fixed-top.navbar-default.navbar
+buffstreamz.*###opz
 
 ! GoGoAnime ------------------------------------------------------------------------------------------------------------------------------
 gogoanime.sh##.menu_top_link
