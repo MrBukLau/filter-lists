@@ -23,6 +23,8 @@ buffstream.*###schedule
 buffstream.*##.navbar-fixed-bottom
 buffstream.*##.navbar-fixed-top.navbar-default.navbar
 buffstreamz.*###opz
+buffstreamz.*##.hidden-xs.theater-button
+buffstreamz.*##body > .row
 
 ! GoGoAnime ------------------------------------------------------------------------------------------------------------------------------
 gogoanime.sh##.menu_top_link
