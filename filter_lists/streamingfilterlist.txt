@@ -6,28 +6,9 @@
 
 ! Buffstreamz ----------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv^$subdocument,domain=buffstreamz.com
-bfst.*###banner > .panel-primary.panel
-bfst.*###html1
-bfst.*###opr
-bfst.*###opz
-bfst.*###schedule
-bfst.*###webmodal2
-bfst.*##.hidden-xs.theater-button
-bfst.*##.in.modal-backdrop
-bfst.*##.navbar-fixed-bottom
-bfst.*##.navbar-fixed-top.navbar-default.navbar
-bfst.*##body > .row
-buffstream.*###banner > .panel-primary.panel
-buffstream.*###opr
-buffstream.*###schedule
-buffstream.*##.navbar-fixed-bottom
-buffstream.*##.navbar-fixed-top.navbar-default.navbar
 buffstreamz.*###opz
 buffstreamz.*##.hidden-xs.theater-button
 buffstreamz.*##body > .row
-
-! GoGoAnime ------------------------------------------------------------------------------------------------------------------------------
-gogoanime.sh##.menu_top_link
 
 ! Gowatchseries --------------------------------------------------------------------------------------------------------------------------
 ||disqus.com^$script,domain=gowatchseries.co
