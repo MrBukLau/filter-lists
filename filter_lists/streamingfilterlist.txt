@@ -1,12 +1,13 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 10 May 2019
+! Last Modified: 12 May 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! Buffstreamz ----------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv^$subdocument,domain=buffstreamz.com
 buffstreamz.*###opz
+buffstreamz.*###schedule
 buffstreamz.*##.hidden-xs.theater-button
 buffstreamz.*##body > .row
 
