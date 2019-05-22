@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 06 May 2019
+! Last Modified: 21 May 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -15,6 +15,11 @@
 1001tracklists.com##.socialShare
 1001tracklists.com##div:nth-of-type(1) > .noUser
 1001tracklists.com#@#[id][width]
+
+! Apple ---------------------------------------------------------------------------------------------------------------------------------
+itunes.apple.com##.sosumi--subscribe.sosumi
+itunes.apple.com##.we-subscribe
+music.apple.com##.no-inversion.we-subscribe
 
 ! iTD Music -----------------------------------------------------------------------------------------------------------------------------
 itdmusic.*###categort-posts-widget-3
@@ -34,10 +39,6 @@ itdmusic.*##.itdmu-widget.widget
 itdmusic.*##.share-post
 itdmusic.*##.top-nav
 itdmusic.*##span:nth-of-type(4)
-
-! iTunes --------------------------------------------------------------------------------------------------------------------------------
-itunes.apple.com##.sosumi--subscribe.sosumi
-itunes.apple.com##.we-subscribe
 
 ! OnlyiPlus (MSB) -----------------------------------------------------------------------------------------------------------------------
 onlyiplus.net###related-wrap
