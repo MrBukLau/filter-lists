@@ -1,6 +1,6 @@
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
-! Last Modified: 25 April 2019
+! Last Modified: 30 May 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -109,16 +109,6 @@ weibo.com##.gn_nav_list > li:nth-of-type(2)
 weibo.com##.gn_nav_list > li:nth-of-type(3)
 weibo.com##.gn_nav_list > li:nth-of-type(4)
 weibo.com##.login_btn_facebook.login_btn.info_list
-
-! Yahoo Mail ----------------------------------------------------------------------------------------------------------------------------
-mail.yahoo.com###emptyFolderVideo
-mail.yahoo.com###mail-app-component > div:nth-of-type(2)
-mail.yahoo.com###norrin-upsell
-mail.yahoo.com##.I_T.p_R.o_v.D_F
-mail.yahoo.com##.rightRailAdContainer
-mail.yahoo.com##.W_3vHgs.j_ZqTdtW.q_52qC.o_h.e_dRA.U_eo6.Q_6EGz.B_fq7.Z_rJ.p_f.D_F.H_3niBz
-mail.yahoo.com##.W_6D6F.k_w.p_R.folder-list > div:nth-of-type(1)
-mail.yahoo.com##div[aria-label="Messages"]:style(margin-top: -0px !important;)
 
 ! YouTube -------------------------------------------------------------------------------------------------------------------------------
 ##.branding-img-container
