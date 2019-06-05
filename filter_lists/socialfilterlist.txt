@@ -1,6 +1,6 @@
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
-! Last Modified: 04 June 2019
+! Last Modified: 05 June 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -115,6 +115,7 @@ weibo.com##.login_btn_facebook.login_btn.info_list
 ##.video-annotations
 ##.ytd-clarification-renderer.style-scope.yt-simple-endpoint
 ##.ytd-mealbar-promo-renderer.style-scope
+##.ytp-ad-text-overlay
 ##.ytp-cards-button.ytp-button
 ##.ytp-endscreen-content
 ##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
