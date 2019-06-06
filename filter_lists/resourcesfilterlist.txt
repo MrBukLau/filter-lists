@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 28 May 2019
+! Last Modified: 05 June 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -92,6 +92,7 @@ prowritingaid.com##.text-center.row > div.col-xs-12:nth-of-type(3)
 ! Quizlet -------------------------------------------------------------------------------------------------------------------------------
 quizlet.com##.has-adz.SetPageFooter
 quizlet.com##.SetPage-adDynamic.SetPage-adz
+quizlet.com##.SetPage-adPreviewMweb.SetPage-adz
 quizlet.com##.SetPage-setAdz
 quizlet.com##.SetPageStickyBanner--hasAdz.SetPageStickyBanner
 quizlet.com##.SignupWallInline
@@ -128,25 +129,3 @@ symbolab.com###install_apps
 symbolab.com##.no-select.print-hide.nl-footer
 symbolab.com##.print-hide.sidebar-content
 symbolab.com##body > a
-
-! TopFreeCash ---------------------------------------------------------------------------------------------------------------------------
-@@||static.parastorage.com/unpkg/gsap@2.0.2/src/minified/plugins/ScrollToPlugin.min.js$script,domain=www.topfreecash.com
-||www.youtube.com/embed/i9idr_y68J8$subdocument
-topfreecash.com###comp-ipvgh729
-topfreecash.com###comp-jfon2ih7
-topfreecash.com###comp-jge66nnt
-topfreecash.com###comp-jl8m0bgh
-topfreecash.com###comp-jmu5aoxp
-topfreecash.com###comp-jmu7nsqw
-topfreecash.com###comp-jmu7qdl9
-topfreecash.com###comp-jmu7r6b0
-topfreecash.com###comp-jmu7sv6a
-topfreecash.com###comp-jmufv6hh
-topfreecash.com###comp-jmuh6two
-topfreecash.com###comp-jpemfycv
-topfreecash.com###comp-jq1qozr0
-topfreecash.com###comp-jq7opso5
-topfreecash.com###comp-jq7oq1cg
-topfreecash.com###comp-jq7oqmr9
-topfreecash.com###comp-jq97ewvw
-topfreecash.com###comp-jqfd1wa6facebookShareButton
