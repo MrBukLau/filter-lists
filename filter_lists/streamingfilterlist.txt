@@ -1,6 +1,6 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 12 May 2019
+! Last Modified: 19 June 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -10,10 +10,6 @@ buffstreamz.*###opz
 buffstreamz.*###schedule
 buffstreamz.*##.hidden-xs.theater-button
 buffstreamz.*##body > .row
-
-! Gowatchseries --------------------------------------------------------------------------------------------------------------------------
-||disqus.com^$script,domain=gowatchseries.co
-||disquscdn.com^$domain=gowatchseries.co
 
 ! Ripple ---------------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv^$subdocument,domain=ripple.is
