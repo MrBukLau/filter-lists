@@ -1,6 +1,6 @@
 ! Title: Sports Filter List
 ! Description: This filter list is for removing unnecessary elements on certain sport websites.
-! Last Modified: 25 April 2019
+! Last Modified: 24 June 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -14,7 +14,6 @@ cbssports.com###ncaab-northstar-with-video
 cbssports.com###right-rail-container > .tweets-container.desktop-view
 cbssports.com###video-northstar-bug-container
 cbssports.com###video-northstar-container
-cbssports.com##.col-12 > .row > .col-8 > div.row:nth-of-type(1)
 cbssports.com##.desktop-view.mlb-league.gametracker-app__section--tweets-large-desktop.gametracker-app__section
 cbssports.com##.door-shopping.article-list-block
 cbssports.com##.latest-news-box
