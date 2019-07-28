@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 19 June 2019
+! Last Modified: 27 July 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -75,6 +75,9 @@ pluspremieres.*###post-bottom-wrap
 pluspremieres.*##+js(addEventListener-defuser.js, /^(?:contextmenu|copy|keydown)$/)
 pluspremieres.*##+js(noeval.js)
 pluspremieres.*#@#+js(setTimeout-defuser.js, replace)
+
+! ShareMania ----------------------------------------------------------------------------------------------------------------------------
+||sharemania.us/styles/revo/xenforo/avatars/*$popup,first-party
 
 ! SoundCloud ----------------------------------------------------------------------------------------------------------------------------
 soundcloud.com##.g-flex-row-centered-spread.stream__header
