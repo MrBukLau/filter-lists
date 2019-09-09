@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 28 July 2019
+! Last Modified: 08 September 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -93,3 +93,5 @@ soundcloud.com##p.sc-text-light.signin__text:nth-of-type(3)
 accounts.spotify.com##.content > .col-xs-12
 accounts.spotify.com##.content > div.row:nth-of-type(1)
 accounts.spotify.com##.content > div.row:nth-of-type(2)
+open.spotify.com##._28f55dbe6c35681a96ab5d1b11d0b0e1-scss
+open.spotify.com##.btn-black.btn--no-margin.btn
