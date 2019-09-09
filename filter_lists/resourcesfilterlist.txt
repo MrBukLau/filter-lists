@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 20 July 2019
+! Last Modified: 08 September 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -85,6 +85,7 @@ paperrater.com##body > div:nth-of-type(2)
 
 ! Pasted --------------------------------------------------------------------------------------------------------------------------------
 pasted.co###captcha_overlay
+tny.cz###captcha_overlay
 
 ! ProWritingAid -------------------------------------------------------------------------------------------------------------------------
 prowritingaid.com###beacon-container
