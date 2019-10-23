@@ -1,6 +1,6 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 19 June 2019
+! Last Modified: 22 October 2019
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -17,7 +17,10 @@ ripple.is###mySidenav
 ripple.is###t3-footer
 ripple.is##.clearfix.article-aside
 ripple.is##.col-md-3.col-sm-4.col-xs-12.t3-sidebar-right.t3-sidebar
+ripple.is##.drop_h1
+ripple.is##.drop_h3
 ripple.is##.pagenav.pager
+ripple.is##table
 
 ! StreamCR -------------------------------------------------------------------------------------------------------------------------------
 scr.cr###disqus_thread
