@@ -3,6 +3,11 @@ m.imgur.com###app > div.App > div.GalleryHandler:last-child > div.FloatingOIA-co
 m.imgur.com###app > div.App > div.GalleryHandler:last-child > div.FooterOIA-container.sg_hide_element:nth-child(3)
 m.imgur.com##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
 m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
+! MyAnimeList
+myanimelist.net##div.welcome-back.popup-background.fade-in
 ! Reddit
+amp.reddit.com###container > div.App > div:last-child
 reddit.com##.adlinkbar,.commenttools__reply,.dualpartinterstitial,.m-linkbutton,.postfooter__share,.topbutton,.topposts,.xpromoappstorefooter,.xpromochoicebanner,.xpromopill
+reddit.com##.xpromopopup__action:first-child
+reddit.com##.xpromopopup__header
 ##.upsell_banner
