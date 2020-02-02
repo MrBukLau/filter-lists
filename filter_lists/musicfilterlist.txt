@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 18 January 2020
+! Last Modified: 02 February 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -20,6 +20,9 @@
 itunes.apple.com##.sosumi--subscribe.sosumi
 itunes.apple.com##.we-subscribe
 music.apple.com##.no-inversion.we-subscribe
+
+! Chartoo -------------------------------------------------------------------------------------------------------------------------------
+chartoo.com###bq
 
 ! iTD Music -----------------------------------------------------------------------------------------------------------------------------
 itdmusic.*###categort-posts-widget-3
@@ -96,3 +99,4 @@ accounts.spotify.com##.content > div.row:nth-of-type(1)
 accounts.spotify.com##.content > div.row:nth-of-type(2)
 open.spotify.com##._28f55dbe6c35681a96ab5d1b11d0b0e1-scss
 open.spotify.com##.btn-black.btn--no-margin.btn
+open.spotify.com##.NavBar__download-item.navBar-item--with-icon-left.navBar-item
