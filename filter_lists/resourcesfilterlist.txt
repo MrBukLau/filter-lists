@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 21 January 2020
+! Last Modified: 13 February 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -119,6 +119,9 @@ quora.com##:xpath(//span[contains(text(), 'by')]/ancestor::*[contains(concat(' '
 quora.com##div[id^="__w2_"][id*="_content_box"]
 
 ! Rate My Professors --------------------------------------------------------------------------------------------------------------------
+ratemyprofessors.com###beacon-container
+ratemyprofessors.com##.dQXOgC.CCPAFooter__StyledCCPAFooter-sc-1sx9bs3-0
+ratemyprofessors.com##.gfTyxp.StickyLeaderboard__StyledStickyLeaderboard-sc-1smpoa4-0
 ratemyprofessors.com##.popoutContainer
 ratemyprofessors.com##.right-chegg
 ratemyprofessors.com##.slide.sticky-wrapper
