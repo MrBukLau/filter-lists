@@ -1,6 +1,6 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 29 January 2020
+! Last Modified: 22 February 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -10,11 +10,6 @@ buffstreamz.*###opz
 buffstreamz.*###schedule
 buffstreamz.*##.hidden-xs.theater-button
 buffstreamz.*##body > .row
-
-! Crackstreams ---------------------------------------------------------------------------------------------------------------------------
-||st.chatango.com/h5/gz/r0127201409/id.html$subdocument
-||st.chatango.com/h5/gz/r0915191710/id.html$subdocument
-||st.chatango.com/h5/gz/r1219191415/id.html$subdocument
 
 ! Ripple ---------------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv^$subdocument,domain=ripple.is
