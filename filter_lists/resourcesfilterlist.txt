@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 10 March 2020
+! Last Modified: 09 April 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -104,6 +104,7 @@ quizlet.com##.SetPage-adzWrapper
 quizlet.com##.SetPage-setAdz
 quizlet.com##.SetPageStickyBanner--hasAdz.SetPageStickyBanner
 quizlet.com##.SetPageTerms-embeddedDesktopAdz
+quizlet.com##.SetPageTermsStickyBanner--hasAdz.SetPageTermsStickyBanner
 quizlet.com##.SignupWallInline
 quizlet.com##.SiteAd-houseSkyscraper
 quizlet.com##.StickySkyscraperAdz
