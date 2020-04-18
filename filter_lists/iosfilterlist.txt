@@ -6,8 +6,11 @@ m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 ! MyAnimeList
 myanimelist.net##div.welcome-back.popup-background.fade-in
 ! Reddit
-amp.reddit.com###container > div.App > div:last-child
-reddit.com##.adlinkbar,.commenttools__reply,.dualpartinterstitial,.m-linkbutton,.postfooter__share,.topbutton,.topposts,.xpromoappstorefooter,.xpromochoicebanner,.xpromopill
+reddit.com##.adlinkbar
+reddit.com##.announcement
+reddit.com##.commentspagetools__login
+reddit.com##.postfooter__share
+reddit.com##.topposts
+reddit.com##.xpromochoicebanner
 reddit.com##.xpromopopup__action:first-child
 reddit.com##.xpromopopup__header
-##.upsell_banner
