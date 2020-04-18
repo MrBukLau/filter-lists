@@ -11,6 +11,7 @@ reddit.com##.announcement
 reddit.com##.commentspagetools__login
 reddit.com##.postfooter__share
 reddit.com##.topposts
+reddit.com##.xpromoappstorefooter
 reddit.com##.xpromochoicebanner
 reddit.com##.xpromopopup__action:first-child
 reddit.com##.xpromopopup__header
