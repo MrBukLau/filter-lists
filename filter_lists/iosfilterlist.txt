@@ -13,5 +13,6 @@ reddit.com##.postfooter__share
 reddit.com##.topposts
 reddit.com##.xpromoappstorefooter
 reddit.com##.xpromochoicebanner
+reddit.com##.xpromopill
 reddit.com##.xpromopopup__action:first-child
 reddit.com##.xpromopopup__header
