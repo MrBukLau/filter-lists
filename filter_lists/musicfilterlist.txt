@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 17 April 2020
+! Last Modified: 25 April 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -44,22 +44,6 @@ itdmusic.*##.itdmu-widget.widget
 itdmusic.*##.share-post
 itdmusic.*##.top-nav
 itdmusic.*##span:nth-of-type(4)
-
-! OnlyiPlus (MSB) -----------------------------------------------------------------------------------------------------------------------
-onlyiplus.net###related-wrap
-onlyiplus.net###respond
-onlyiplus.net##.fa-facebook.fa
-onlyiplus.net##.fa-instagram.fa
-onlyiplus.net##.fa-twitter.fa
-onlyiplus.net##.fa-youtube.fa
-onlyiplus.net##.homeadv
-onlyiplus.net##.prev-articles
-onlyiplus.net##.widget_list_mag_wp_300px.widget
-onlyiplus.net##div.widget_text.widget:nth-of-type(5)
-onlyiplus.net##div.widget_text.widget:nth-of-type(7)
-onlyiplus.net##div.widget_text.widget:nth-of-type(9)
-onlyiplus.net##footer
-onlyiplus.net#@#.top-social
 
 ! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
 @@||vntsm.com/*/live/$script,xhr,domain=pluspremieres.nl
