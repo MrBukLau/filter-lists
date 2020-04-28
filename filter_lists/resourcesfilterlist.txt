@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 09 April 2020
+! Last Modified: 27 April 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -134,7 +134,9 @@ ratemyprofessors.com##.sticky.adRail
 
 ! SmallPDF ------------------------------------------------------------------------------------------------------------------------------
 smallpdf.com###__cond-1113853
+smallpdf.com##.bYbgQN.sc-1o2e7ef-0
 smallpdf.com##.cOMTYz.rvu14i-0
+smallpdf.com##.FoQAX.sc-1lt7696-4
 
 ! StudyBlue -----------------------------------------------------------------------------------------------------------------------------
 studyblue.com##.slide-in.js-slideup-banner.slideup-banner
