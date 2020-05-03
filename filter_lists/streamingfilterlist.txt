@@ -1,12 +1,15 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 15 March 2020
+! Last Modified: 02 May 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! Anime Twist ----------------------------------------------------------------------------------------------------------------------------
 twist.moe##.donations
 twist.moe##.notification-msg
+
+! AnimeUpdate ----------------------------------------------------------------------------------------------------------------------------
+||lowtyroguer.com^$popup
 
 ! Buffstreamz ----------------------------------------------------------------------------------------------------------------------------
 ||www.twitch.tv^$subdocument,domain=buffstreamz.com
