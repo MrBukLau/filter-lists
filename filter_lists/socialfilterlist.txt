@@ -1,6 +1,6 @@
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
-! Last Modified: 16 April 2020
+! Last Modified: 06 May 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -9,13 +9,14 @@ pan.baidu.com###activateGuidePopupOuter
 tieba.baidu.com##.tbui_aside_float_bar
 
 ! Discord -------------------------------------------------------------------------------------------------------------------------------
-discordapp.com##.base-3dtUhz.noWrap-3jynv6.alignStretch-DpGPf3.justifyStart-2NDFzi.directionColumn-35P_nr.vertical-V37hAW.flex-1O1GKY.flex-1xMQg5 > .flexChild-faoVW3
-discordapp.com##.btn-download-apps
-discordapp.com##.channelNotices-41mJbj
-discordapp.com##.height36-36OHCc.size14-3iUx6q.notice-2FJMB4.noticeDefault-362Ko2
-discordapp.com##.height36-36OHCc.weightMedium-2iZe9B.size14-3iUx6q.notice-2FJMB4.noticeDefault-362Ko2
-discordapp.com##.invite-OjTXrW.channelNotice-1-XFjC
-discordapp.com##.quickswitcher-35bYg4.channelNotice-1-XFjC
+discord.com##.base-3dtUhz.noWrap-3jynv6.alignStretch-DpGPf3.justifyStart-2NDFzi.directionColumn-35P_nr.vertical-V37hAW.flex-1O1GKY.flex-1xMQg5 > .flexChild-faoVW3
+discord.com##.btn-download-apps
+discord.com##.channelNotices-41mJbj
+discord.com##.domainMigrationMessage-U5nQas.container-1TN8xD
+discord.com##.height36-36OHCc.size14-3iUx6q.notice-2FJMB4.noticeDefault-362Ko2
+discord.com##.height36-36OHCc.weightMedium-2iZe9B.size14-3iUx6q.notice-2FJMB4.noticeDefault-362Ko2
+discord.com##.invite-OjTXrW.channelNotice-1-XFjC
+discord.com##.quickswitcher-35bYg4.channelNotice-1-XFjC
 
 ! Google --------------------------------------------------------------------------------------------------------------------------------
 google.*##.exp-outline
