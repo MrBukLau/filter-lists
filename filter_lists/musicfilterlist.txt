@@ -17,11 +17,15 @@
 1001tracklists.com#@#[id][width]
 
 ! Apple Music ---------------------------------------------------------------------------------------------------------------------------
+itunes.apple.com##.no-inversion.we-subscribe
 music.apple.com##.locale-switcher__banner.locale-switcher--amweb
 music.apple.com##.upsell-banner
 
 ! Chartoo -------------------------------------------------------------------------------------------------------------------------------
 chartoo.com###bq
+
+! Free MP3 Download ---------------------------------------------------------------------------------------------------------------------
+free-mp3-download.net###toast-container
 
 ! Hikarinoakariost ----------------------------------------------------------------------------------------------------------------------
 ||bireoeeifqmpay.com^$domain=hikarinoakariost.info
