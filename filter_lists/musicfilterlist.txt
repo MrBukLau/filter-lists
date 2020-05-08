@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 07 May 2020
+! Last Modified: 08 May 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -54,6 +54,10 @@ itdmusic.*##.itdmu-widget.widget
 itdmusic.*##.share-post
 itdmusic.*##.top-nav
 itdmusic.*##span:nth-of-type(4)
+
+! MuXiv Music ---------------------------------------------------------------------------------------------------------------------------
+muxiv.net###ads-general
+muxiv.net###ads-wrapper
 
 ! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
 @@||vntsm.com/*/live/$script,xhr,domain=pluspremieres.nl
