@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 27 April 2020
+! Last Modified: 12 May 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -79,6 +79,7 @@ mediafire.com##.social-cont
 ! Mega ----------------------------------------------------------------------------------------------------------------------------------
 mega.nz##.active.top-login-warning
 mega.nz##.almost-full.fm-notification-block
+mega.nz##.full.fm-notification-block
 
 ! Nyaa ----------------------------------------------------------------------------------------------------------------------------------
 nyaa.si##.alert-info.alert
