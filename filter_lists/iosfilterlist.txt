@@ -1,6 +1,8 @@
 ! Imgur
 m.imgur.com###app > div.App > div.GalleryHandler:last-child > div.FloatingOIA-container:nth-child(3)
 m.imgur.com###app > div.App > div.GalleryHandler:last-child > div.FooterOIA-container.sg_hide_element:nth-child(3)
+m.imgur.com###app > div.App > div.GalleryHandler:last-child > div.SeeImgurOIA-container.SeeImgurOIA-container-visible:nth-child(4)
+m.imgur.com###app > div.App > div.GalleryHandler:last-child > div.SeeImgurOIA-overlay.SeeImgurOIA-overlay-visible:nth-child(3)
 m.imgur.com##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
 m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 ! MyAnimeList
