@@ -29,7 +29,6 @@ chartoo.com###bq
 free-mp3-download.net###toast-container
 
 ! Hikarinoakariost ----------------------------------------------------------------------------------------------------------------------
-||bireoeeifqmpay.com^$domain=hikarinoakariost.info
 hikarinoakariost.info###ays_tooltip
 hikarinoakariost.info##.td-container-wrap.td-header-top-menu-full
 hikarinoakariost.info##.thanks_button_div
