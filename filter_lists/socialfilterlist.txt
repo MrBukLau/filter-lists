@@ -1,6 +1,6 @@
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
-! Last Modified: 10 May 2020
+! Last Modified: 19 May 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -23,15 +23,6 @@ google.*##.exp-outline
 google.*##[id^="ed_"]
 google.*##div[jsl][data-ved]:if(h4:has-text(People also search for))
 google.com##.hww53CMqxtL__visible.itbXqfXFa__o-q-uKXqAwNiM.hww53CMqxtL__mobile-promo
-
-! Google Drive --------------------------------------------------------------------------------------------------------------------------
-drive.google.com##.a-nf-Rc-Gd
-
-! Google Product Forums -----------------------------------------------------------------------------------------------------------------
-productforums.google.com##.BOXPGHD-g-b.BOXPGHD-g-w
-productforums.google.com##.BOXPGHD-g-h
-productforums.google.com##div.BOXPGHD-g-w:nth-of-type(5)
-productforums.google.com##div.BOXPGHD-g-w:nth-of-type(6)
 
 ! MyAnimeList ---------------------------------------------------------------------------------------------------------------------------
 myanimelist.net##.fade-in.popup-background.welcome-back
@@ -90,10 +81,6 @@ textnow.com##.visible.toast-mask
 textnow.com##.webOnly.new-footer-bare.new-footer
 textnow.com##.webOnly.push
 textnow.com##div.authv2-field-wrapper.uikit-text-field:nth-of-type(2) > .ng-not-empty.ng-isolate-scope.ng-valid.ng-untouched.ng-pristine > .ng-scope.uikit-text-field > div > .uikit-text-field__message
-
-! Twitter -------------------------------------------------------------------------------------------------------------------------------
-mobile.twitter.com##._2FU3NGw4
-twitter.com##.topbar-spacer
 
 ! VK ------------------------------------------------------------------------------------------------------------------------------------
 vk.com###covid_banner
