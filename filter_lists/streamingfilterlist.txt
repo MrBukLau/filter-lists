@@ -33,12 +33,16 @@ ripple.is##.pagenav.pager
 ripple.is##table
 
 ! Sports24 -------------------------------------------------------------------------------------------------------------------------------
+||www.twitch.tv/embed/sports24c/chat$subdocument
+sports24.*###chat
+sports24.*###vi-sticky-ad
 sports24.*##.adrespl
 sports24.*##.border-top.pt-md-5.my-md-5.pt-4
 sports24.*##.container > a.btn-outline-primary.btn:nth-of-type(1)
 sports24.*##a.btn-outline-primary.btn:nth-of-type(2)
 sports24.*##div#gamecard.card:nth-of-type(2)
 sports24.*##div#gamecard.card:nth-of-type(7)
+sports24.*##div.row:nth-of-type(5)
 sports24.*##div.row:nth-of-type(6)
 
 ! StreamCR -------------------------------------------------------------------------------------------------------------------------------
