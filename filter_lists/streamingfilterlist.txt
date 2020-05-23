@@ -40,6 +40,7 @@ sports24.*##.adrespl
 sports24.*##.border-top.pt-md-5.my-md-5.pt-4
 sports24.*##.container > a.btn-outline-primary.btn:nth-of-type(1)
 sports24.*##a.btn-outline-primary.btn:nth-of-type(2)
+sports24.*##a.play.btn-block.btn-lg.btn-default.btn
 sports24.*##div#gamecard.card:nth-of-type(2)
 sports24.*##div#gamecard.card:nth-of-type(7)
 sports24.*##div.row:nth-of-type(5)
