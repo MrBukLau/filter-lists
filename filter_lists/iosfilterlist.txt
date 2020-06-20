@@ -15,6 +15,7 @@ reddit.com##.adlinkbar
 reddit.com##.announcement
 reddit.com##.commentspagetools__login
 reddit.com##.legacyannouncement
+reddit.com##.outerbannercontainer
 reddit.com##.postfooter__share
 reddit.com##.topposts
 reddit.com##.xpromoappstorefooter
