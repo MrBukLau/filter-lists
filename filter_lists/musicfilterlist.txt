@@ -60,26 +60,13 @@ muxiv.net###ads-general
 muxiv.net###ads-wrapper
 
 ! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
-@@||vntsm.com/*/live/$script,xhr,domain=pluspremieres.to
 cbox.ws###frmMain
-pluspremieres.*###\31 9905-1
-pluspremieres.*###\31 9905-28
-pluspremieres.*###\32 2232-1
-pluspremieres.*###\32 2232-28
-pluspremieres.*###\32 2232-3
-pluspremieres.*###\33 00x600
 pluspremieres.*###\37 28x90bottom
 pluspremieres.*###\37 28x90top
 pluspremieres.*###carousel
 pluspremieres.*###headline
 pluspremieres.*###post-bottom-wrap
-pluspremieres.*###scrollAd
-pluspremieres.*###twitter-widget-0
-pluspremieres.*##+js(addEventListener-defuser.js, /^(?:contextmenu|copy|keydown)$/)
-pluspremieres.*##+js(noeval.js)
-pluspremieres.*##div.vm-footer
-pluspremieres.*##div.vm-footer-container
-pluspremieres.*#@#+js(setTimeout-defuser.js, replace)
+pluspremieres.*##.adcheck
 
 ! ShareMania ----------------------------------------------------------------------------------------------------------------------------
 ||dairouzy.net^$popup,domain=sharemania.us
