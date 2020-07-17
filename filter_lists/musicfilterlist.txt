@@ -1,10 +1,10 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 09 July 2020
+! Last Modified: 17 July 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
-! 1001Tracklists ------------------------------------------------------------------------------------------------------------------------
+! 1001Tracklists
 1001tracklists.com###adLown
 1001tracklists.com###artworkLeft
 1001tracklists.com###playbuzz
@@ -16,24 +16,24 @@
 1001tracklists.com##div:nth-of-type(1) > .noUser
 1001tracklists.com#@#[id][width]
 
-! Apple Music ---------------------------------------------------------------------------------------------------------------------------
+! Apple Music
 itunes.apple.com##.sosumi--subscribe.sosumi
 itunes.apple.com##.we-subscribe
 music.apple.com##.locale-switcher__banner.locale-switcher--amweb
 music.apple.com##.upsell-banner
 
-! Chartoo -------------------------------------------------------------------------------------------------------------------------------
+! Chartoo
 chartoo.com###bq
 
-! Free MP3 Download ---------------------------------------------------------------------------------------------------------------------
+! Free MP3 Download
 free-mp3-download.net###toast-container
 
-! Hikarinoakariost ----------------------------------------------------------------------------------------------------------------------
+! Hikarinoakariost
 hikarinoakariost.info###ays_tooltip
 hikarinoakariost.info##.td-container-wrap.td-header-top-menu-full
 hikarinoakariost.info##.thanks_button_div
 
-! iTD Music -----------------------------------------------------------------------------------------------------------------------------
+! iTD Music
 itdmusic.*###categort-posts-widget-3
 itdmusic.*###facebook-widget-3
 itdmusic.*###M317017ScriptRootC211616
@@ -55,11 +55,11 @@ itdmusic.*##.share-post
 itdmusic.*##.top-nav
 itdmusic.*##span:nth-of-type(4)
 
-! MuXiv Music ---------------------------------------------------------------------------------------------------------------------------
+! MuXiv Music
 muxiv.net###ads-general
 muxiv.net###ads-wrapper
 
-! Plus Premieres ------------------------------------------------------------------------------------------------------------------------
+! Plus Premieres
 cbox.ws###frmMain
 pluspremieres.*###\37 28x90bottom
 pluspremieres.*###\37 28x90top
@@ -68,12 +68,12 @@ pluspremieres.*###headline
 pluspremieres.*###post-bottom-wrap
 pluspremieres.*##.adcheck
 
-! ShareMania ----------------------------------------------------------------------------------------------------------------------------
+! ShareMania
 ||dairouzy.net^$popup,domain=sharemania.us
 ||i.imgur.com^$popup,domain=sharemania.us
 ||sharemania.us/styles/revo/xenforo/avatars/*$popup,first-party
 
-! SoundCloud ----------------------------------------------------------------------------------------------------------------------------
+! SoundCloud
 soundcloud.com##.g-flex-row-centered-spread.stream__header
 soundcloud.com##.signinInitialStep__divider
 soundcloud.com##.signinInitialStep__socialSignin
@@ -81,7 +81,7 @@ soundcloud.com##.visible.sc-border-light-bottom.featureHeader
 soundcloud.com##p.sc-text-light.signin__text:nth-of-type(2)
 soundcloud.com##p.sc-text-light.signin__text:nth-of-type(3)
 
-! Spotify -------------------------------------------------------------------------------------------------------------------------------
+! Spotify
 accounts.spotify.com##.content > .col-xs-12
 accounts.spotify.com##.content > div.row:nth-of-type(1)
 accounts.spotify.com##.content > div.row:nth-of-type(2)
