@@ -1,10 +1,10 @@
 ! Title: Sports Filter List
 ! Description: This filter list is for removing unnecessary elements on certain sport websites.
-! Last Modified: 16 April 2020
+! Last Modified: 17 July 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
-! CBS Sports -----------------------------------------------------------------------------------------------------------------------------
+! CBS Sports
 ||www.cbssports.com/video/player/embed
 cbssports.com###bitaWrapper
 cbssports.com###cbs-network-bar
@@ -21,5 +21,5 @@ cbssports.com##.Newsletter-container
 cbssports.com##.partner-watch-ad-container
 cbssports.com##.ticket-city.article-list-block
 
-! ESPN -----------------------------------------------------------------------------------------------------------------------------------
+! ESPN
 espn.com##.promo-banner-container
