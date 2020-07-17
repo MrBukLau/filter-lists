@@ -1,36 +1,22 @@
 ! Title: Minimalist Cryptocurrency Filter List
 ! Description: This filter list is for removing unnecessary elements on certain cryptocurrency websites.
-! Last Modified: 25 April 2019
+! Last Modified: 17 July 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
-! General -------------------------------------------------------------------------------------------------------------------------------
+! General Filters
 ||coinad.com/ads/show/show.php$inline-script,first-party
 ||coinad.com/ads/show/show.php$subdocument
 ||mellowads.com/view/*$subdocument
 
-! Coinpot -------------------------------------------------------------------------------------------------------------------------------
+! Coinpot
 coinpot.co###PageContent_HomePageSummary
 coinpot.co###wrapper > div:nth-of-type(4)
 coinpot.co##.mellow.well:nth-of-type(1)
 coinpot.co##.mellow.well:nth-of-type(4)
 coinpot.co##.text-center.footer
 
-! Faucethub -----------------------------------------------------------------------------------------------------------------------------
-faucethub.io###banner
-faucethub.io###content-below
-faucethub.io###footer
-faucethub.io###newspanel
-faucethub.io###toast-container
-faucethub.io##.btn-primary.btn-lg.btn
-faucethub.io##.col-md-12:nth-of-type(3) > hr
-faucethub.io##.header-upper
-faucethub.io##.lead
-faucethub.io##.news-top
-faucethub.io##.tabbable > .ad_position
-faucethub.io##h3:nth-of-type(2)
-
-! Moon Bitcoin --------------------------------------------------------------------------------------------------------------------------
+! Moon Bitcoin
 moonbit.co.in###BodyPlaceholder_ClaimPanel > h1
 moonbit.co.in###BodyPlaceholder_LoginPanel > p:nth-of-type(1)
 moonbit.co.in###BodyPlaceholder_SuccessfulClaimPanel
@@ -71,7 +57,7 @@ moonbit.co.in##h2:nth-of-type(5)
 moonbit.co.in##h2:nth-of-type(6)
 moonbit.co.in##script:inject(setTimeout-defuser.js, layoutController)
 
-! Moon Bitcoin Cash ---------------------------------------------------------------------------------------------------------------------
+! Moon Bitcoin Cash
 moonbitcoin.cash###FaucetClaimModal > .modal-dialog > .modal-content > .modal-body
 moonbitcoin.cash###slideIn
 moonbitcoin.cash##.col-md-5
@@ -88,7 +74,7 @@ moonbitcoin.cash##.modal-footer > [href="terms.htm"]
 moonbitcoin.cash##.socialNetworks2
 moonbitcoin.cash##h2
 
-! Moon Dash -----------------------------------------------------------------------------------------------------------------------------
+! Moon Dash
 moondash.co.in###FaucetClaimModal > .modal-dialog > .modal-content > .modal-body
 moondash.co.in##.col-md-5
 moondash.co.in##.faucetLabel:nth-of-type(1) > input
@@ -105,7 +91,7 @@ moondash.co.in##.socialNetworks2
 moondash.co.in##div.col-md-6:nth-of-type(2)
 moondash.co.in##h2
 
-! Moon Doge -----------------------------------------------------------------------------------------------------------------------------
+! Moon Doge
 ||www.dogecoinfaucets.info/button.php$image
 moondoge.co.in###advert-space
 moondoge.co.in###advert-space-2
@@ -147,7 +133,7 @@ moondoge.co.in##h2:nth-of-type(4)
 moondoge.co.in##h2:nth-of-type(5)
 moondoge.co.in##h2:nth-of-type(6)
 
-! Moon Litecoin -------------------------------------------------------------------------------------------------------------------------
+! Moon Litecoin
 ||mellowads.com/img/close.png$image
 moonliteco.in###advert-space
 moonliteco.in###advert-space-2
