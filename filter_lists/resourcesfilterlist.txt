@@ -1,10 +1,10 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 12 May 2020
+! Last Modified: 17 July 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
-! Random --------------------------------------------------------------------------------------------------------------------------------
+! General Filters
 @@/favicon.ico
 @@||disqus.com/embed.js?_=1457540*$script
 ||disqus.com/count.js$script
@@ -12,11 +12,11 @@
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
 ||www.blogger.com/comment-iframe.g$subdocument
 
-! 1337x ---------------------------------------------------------------------------------------------------------------------------------
+! 1337x
 1337x.to###M90304ScriptRootC221935
 1337x.to##.news
 
-! Duplichecker --------------------------------------------------------------------------------------------------------------------------
+! Duplichecker
 duplichecker.com###img0
 duplichecker.com###img1
 duplichecker.com###img2
@@ -26,7 +26,7 @@ duplichecker.com###img5
 duplichecker.com###img6
 duplichecker.com##.p8.text-center.mt20.search-panel-sec
 
-! Filesmerge ----------------------------------------------------------------------------------------------------------------------------
+! Filesmerge
 filesmerge.com##.box.cool-box
 filesmerge.com##.col-sm-12.col-xs-12 > div > div:nth-of-type(6)
 filesmerge.com##.icon_merge-jpg > .row:nth-of-type(4)
@@ -38,7 +38,7 @@ filesmerge.com##.slider_item:nth-of-type(5)
 filesmerge.com##.top-buffer.row:nth-of-type(5)
 filesmerge.com##body > div:nth-of-type(7)
 
-! GetComics -----------------------------------------------------------------------------------------------------------------------------
+! GetComics
 getcomics.info###advanced_floating_content_85155
 getcomics.info##.footer-post-next
 getcomics.info##.footer-widgets
@@ -49,11 +49,11 @@ getcomics.info##.widget_mailster_signup.widget
 getcomics.info##section.widget_text.widget:nth-of-type(2)
 getcomics.info##section.widget_text.widget:nth-of-type(3)
 
-! GitHub --------------------------------------------------------------------------------------------------------------------------------
+! GitHub
 github.com##.js-notice
 github.com##.rounded-0.f5.px-3.py-2
 
-! Grammarly -----------------------------------------------------------------------------------------------------------------------------
+! Grammarly
 app.grammarly.com##._3b47561f-extension_banner-bannerContainer
 app.grammarly.com##._5a78f1-container
 app.grammarly.com##._bebd3200-business_banner-banner
@@ -63,41 +63,36 @@ grammarly.com##._35qoR-_-_-_-_-_-client-components-new_funnel-social_signup--soc
 grammarly.com##._35qoRjC
 grammarly.com##._3m5TL-_-_-client-components-new_funnel-social_signup--social_signup-buttonWrapper
 
-! IntoUpload ----------------------------------------------------------------------------------------------------------------------------
-intoupload.net###socialmedia
-intoupload.net##.banneradshome
-intoupload.net##.downppi
-
-! Library Genesis -----------------------------------------------------------------------------------------------------------------------
+! Library Genesis
 lib1.org###message
 
-! MediaFire -----------------------------------------------------------------------------------------------------------------------------
+! MediaFire
 mediafire.com###download_link > a[href="#"]:nth-of-type(1)
 mediafire.com##.dl-promo-cont
 mediafire.com##.social-cont
 
-! Mega ----------------------------------------------------------------------------------------------------------------------------------
+! Mega
 mega.nz##.active.top-login-warning
 mega.nz##.almost-full.fm-notification-block
 mega.nz##.full.fm-notification-block
 
-! Nyaa ----------------------------------------------------------------------------------------------------------------------------------
+! Nyaa
 nyaa.si##.alert-info.alert
 
-! Paper Rater ---------------------------------------------------------------------------------------------------------------------------
+! Paper Rater
 paperrater.com###g-subform-bottom
 paperrater.com###gramBannerSubFormTop
 paperrater.com##body > div:nth-of-type(2)
 
-! Pasted --------------------------------------------------------------------------------------------------------------------------------
+! Pasted
 pasted.co###captcha_overlay
 tny.cz###captcha_overlay
 
-! ProWritingAid -------------------------------------------------------------------------------------------------------------------------
+! ProWritingAid
 prowritingaid.com###beacon-container
 prowritingaid.com##.text-center.row > div.col-xs-12:nth-of-type(3)
 
-! Quizlet -------------------------------------------------------------------------------------------------------------------------------
+! Quizlet
 quizlet.com##.has-adz.SetPageFooter
 quizlet.com##.SetPage-adDynamic.SetPage-adz
 quizlet.com##.SetPage-adPreviewMweb.SetPage-adz
@@ -110,7 +105,7 @@ quizlet.com##.SignupWallInline
 quizlet.com##.SiteAd-houseSkyscraper
 quizlet.com##.StickySkyscraperAdz
 
-! Quora ---------------------------------------------------------------------------------------------------------------------------------
+! Quora
 quora.com##.ComponentSurvey
 quora.com##.dialog_wrapper
 quora.com##.layout_2col_main > .fixable_clone
@@ -124,7 +119,7 @@ quora.com##:xpath(//p[not(@class="ui_qtext_para") and contains(text(), 'sponsore
 quora.com##:xpath(//span[contains(text(), 'by')]/ancestor::*[contains(concat(' ', @class, ' '), ' external_link ')]/../../..)
 quora.com##div[id^="__w2_"][id*="_content_box"]
 
-! Rate My Professors --------------------------------------------------------------------------------------------------------------------
+! Rate My Professors
 ratemyprofessors.com###beacon-container
 ratemyprofessors.com##.dQXOgC.CCPAFooter__StyledCCPAFooter-sc-1sx9bs3-0
 ratemyprofessors.com##.gfTyxp.StickyLeaderboard__StyledStickyLeaderboard-sc-1smpoa4-0
@@ -133,16 +128,16 @@ ratemyprofessors.com##.right-chegg
 ratemyprofessors.com##.slide.sticky-wrapper
 ratemyprofessors.com##.sticky.adRail
 
-! SmallPDF ------------------------------------------------------------------------------------------------------------------------------
+! SmallPDF
 smallpdf.com###__cond-1113853
 smallpdf.com##.bYbgQN.sc-1o2e7ef-0
 smallpdf.com##.cOMTYz.rvu14i-0
 smallpdf.com##.FoQAX.sc-1lt7696-4
 
-! StudyBlue -----------------------------------------------------------------------------------------------------------------------------
+! StudyBlue
 studyblue.com##.slide-in.js-slideup-banner.slideup-banner
 
-! Symbolab ------------------------------------------------------------------------------------------------------------------------------
+! Symbolab
 symbolab.com###googleAdSenseHomepage
 symbolab.com###install_apps
 symbolab.com##.no-select.print-hide.nl-footer
