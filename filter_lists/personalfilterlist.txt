@@ -1,11 +1,11 @@
 ! Title: Personal Filter List
 ! Description: This filter list is where I keep my personal filters, so it might break some websites.
-! Last Modified: 28 April 2019
+! Last Modified: 17 July 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 
-! Reddit (Old Design) -------------------------------------------------------------------------------------------------------------------
+! Reddit (Old Design)
 old.reddit.com##.awardings-bar
 old.reddit.com##.buttons.flat-list > .crosspost-button
 old.reddit.com##.buttons.flat-list > .give-gold-button
