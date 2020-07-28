@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 21 July 2020
+! Last Modified: 28 July 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -15,6 +15,17 @@
 1001tracklists.com##.socialShare
 1001tracklists.com##div:nth-of-type(1) > .noUser
 1001tracklists.com#@#[id][width]
+
+! AllThingsM4A
+allthingsm4a.blogspot.com###banner2
+allthingsm4a.blogspot.com###comments
+allthingsm4a.blogspot.com###featured-posts-section
+allthingsm4a.blogspot.com###HTML68
+allthingsm4a.blogspot.com###PopularPosts1
+allthingsm4a.blogspot.com###related-post
+allthingsm4a.blogspot.com##.halaman
+allthingsm4a.blogspot.com##.sharelight
+allthingsm4a.blogspot.com##.shorturl
 
 ! Apple Music
 apps.apple.com##.sosumi--subscribe.sosumi
@@ -88,5 +99,6 @@ accounts.spotify.com##.content > .col-xs-12
 accounts.spotify.com##.content > div.row:nth-of-type(1)
 accounts.spotify.com##.content > div.row:nth-of-type(2)
 open.spotify.com##._28f55dbe6c35681a96ab5d1b11d0b0e1-scss
+open.spotify.com##._501e41d6d88f38a5545d3107aef0f7ab-scss > div:nth-of-type(3)
 open.spotify.com##.btn-black.btn--no-margin.btn
 open.spotify.com##.NavBar__download-item.navBar-item
