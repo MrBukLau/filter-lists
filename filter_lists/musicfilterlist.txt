@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 27 August 2020
+! Last Modified: 20 October 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -43,6 +43,7 @@ chartoo.com###bq
 free-mp3-download.net###toast-container
 
 ! Hikarinoakariost
+||s.w.org/images/core/emoji/13.0.0/svg/1f525.svg$image,domain=hikarinoakariost.info
 hikarinoakariost.info###ays_tooltip
 hikarinoakariost.info##.td-container-wrap.td-header-top-menu-full
 hikarinoakariost.info##.tdc-content-wrap.td-container
