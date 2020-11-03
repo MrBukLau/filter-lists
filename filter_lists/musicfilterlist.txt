@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 31 October 2020
+! Last Modified: 02 November 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -48,7 +48,7 @@ free-mp3-download.net###toast-container
 ||s.w.org/images/core/emoji/13.0.0/svg/1f525.svg$image,domain=hikarinoakariost.info
 hikarinoakariost.info###ays_tooltip
 hikarinoakariost.info##.td-container-wrap.td-header-top-menu-full
-hikarinoakariost.info##.tdc-content-wrap.td-container
+hikarinoakariost.info##.tdc-content-wrap
 hikarinoakariost.info##.thanks_button_div
 
 ! iTD Music
