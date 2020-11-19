@@ -1,37 +1,15 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 19 July 2020
+! Last Modified: 18 November 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
-
-! Anime Twist
-twist.moe##.donations
-twist.moe##.notification-msg
 
 ! AnimeKisa
 animekisa.tv##.slider
 animekisa.tv##widgetbot-crate
 
-! Buffstreamz
-||www.twitch.tv^$subdocument,domain=buffstreamz.com
-buffstreamz.*###opz
-buffstreamz.*###schedule
-buffstreamz.*##.hidden-xs.theater-button
-buffstreamz.*##body > .row
-
 ! Crackstreams
 ||st.chatango.com
-
-! Ripple
-||www.twitch.tv^$subdocument,domain=ripple.is
-ripple.is###mySidenav
-ripple.is###t3-footer
-ripple.is##.clearfix.article-aside
-ripple.is##.col-md-3.col-sm-4.col-xs-12.t3-sidebar-right.t3-sidebar
-ripple.is##.drop_h1
-ripple.is##.drop_h3
-ripple.is##.pagenav.pager
-ripple.is##table
 
 ! Sports24
 ||www.twitch.tv/embed/sports24c/chat$subdocument
@@ -47,12 +25,6 @@ sports24.*##div#gamecard.card:nth-of-type(6)
 sports24.*##div#gamecard.card:nth-of-type(7)
 sports24.*##div.row:nth-of-type(5)
 sports24.*##div.row:nth-of-type(6)
-
-! theWatchCartoonOnline
-thewatchcartoononline.tv##.alert
-thewatchcartoononline.tv##.anti-ad
-thewatchcartoononline.tv##.jcarousel-wrapper
-thewatchcartoononline.tv##.video-title2
 
 ! Twitch
 twitch.tv##.tw-flex-grow-1 > div:nth-of-type(1) > div.side-nav-section:nth-of-type(2)
