@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 17 July 2020
+! Last Modified: 25 November 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -15,6 +15,9 @@
 ! 1337x
 1337x.to###M90304ScriptRootC221935
 1337x.to##.news
+
+! Dubox
+dubox.com##.login-third-party
 
 ! Duplichecker
 duplichecker.com###img0
@@ -38,17 +41,6 @@ filesmerge.com##.slider_item:nth-of-type(5)
 filesmerge.com##.top-buffer.row:nth-of-type(5)
 filesmerge.com##body > div:nth-of-type(7)
 
-! GetComics
-getcomics.info###advanced_floating_content_85155
-getcomics.info##.footer-post-next
-getcomics.info##.footer-widgets
-getcomics.info##.overlay-show.cp-optin-container.cp_id_0bc01.cp-slidein-popup-container.cp-module
-getcomics.info##.post-related-count-3.post-related
-getcomics.info##.pptwj.widget
-getcomics.info##.widget_mailster_signup.widget
-getcomics.info##section.widget_text.widget:nth-of-type(2)
-getcomics.info##section.widget_text.widget:nth-of-type(3)
-
 ! GitHub
 github.com##.js-notice
 github.com##.rounded-0.f5.px-3.py-2
@@ -70,11 +62,6 @@ lib1.org###message
 mediafire.com###download_link > a[href="#"]:nth-of-type(1)
 mediafire.com##.dl-promo-cont
 mediafire.com##.social-cont
-
-! Mega
-mega.nz##.active.top-login-warning
-mega.nz##.almost-full.fm-notification-block
-mega.nz##.full.fm-notification-block
 
 ! Nyaa
 nyaa.si##.alert-info.alert
