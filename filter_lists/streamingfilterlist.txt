@@ -1,12 +1,15 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 18 November 2020
+! Last Modified: 25 November 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! AnimeKisa
 animekisa.tv##.slider
 animekisa.tv##widgetbot-crate
+
+! AnimePahe
+animepahe.com##.alert-info.alert
 
 ! Crackstreams
 ||st.chatango.com
