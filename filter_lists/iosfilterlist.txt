@@ -1,3 +1,12 @@
+! Title: iOS Filter List
+! Description: This filter list can be used in AdGuard for iOS to remove mobile annoyances.
+! Last Modified: 18 December 2020
+! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
+! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
+
+! Google
+google.com###sfooter
+
 ! Imgur
 m.imgur.com###app > div.App > div.App-topSidebar:nth-child(2) > div:first-child
 m.imgur.com###app > div.App > div.GalleryHandler:last-child > div.FloatingOIA-container:nth-child(3)
