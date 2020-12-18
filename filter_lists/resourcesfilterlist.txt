@@ -1,16 +1,11 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 06 December 2020
+! Last Modified: 18 December 2020
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! General Filters
 @@/favicon.ico
-@@||disqus.com/embed.js?_=1457540*$script
-||disqus.com/count.js$script
-||disqus.com/embed.js$script,redirect=disqus.com/embed.js
-||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
-||www.blogger.com/comment-iframe.g$subdocument
 
 ! 1337x
 1337x.to###M90304ScriptRootC221935
@@ -52,8 +47,11 @@ app.grammarly.com##._5a78f1-container
 app.grammarly.com##._bebd3200-business_banner-banner
 app.grammarly.com##._bf450a46-banner-container
 grammarly.com##._14vdX-_-_-client-components-tos--tos-tos
+grammarly.com##._1fQat-space
 grammarly.com##._35qoR-_-_-_-_-_-client-components-new_funnel-social_signup--social_signup-buttonWrapper
+grammarly.com##._35qoR-buttonWrapper
 grammarly.com##._35qoRjC
+grammarly.com##._3La9e-or
 grammarly.com##._3m5TL-_-_-client-components-new_funnel-social_signup--social_signup-buttonWrapper
 
 ! Library Genesis
