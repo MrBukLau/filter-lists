@@ -31,4 +31,5 @@ reddit.com##.xpromoappstorefooter
 reddit.com##.xpromochoicebanner
 reddit.com##.xpromopill
 reddit.com##.xpromopopup__action:first-child
+reddit.com##.xpromopopup__footer:last-child
 reddit.com##.xpromopopup__header
