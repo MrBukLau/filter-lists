@@ -12,7 +12,7 @@
 </h4>
 
 <p align="center">
-  <a href="https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
+  <a href="https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
   <a href="https://github.com/gorhill/uBlock/wiki/Static-filter-syntax"><img src="https://img.shields.io/badge/Syntax-uBlock Origin Static-red.svg"></a>
 </p>
 
@@ -57,4 +57,4 @@ In order to add one of these filter lists to a content blocker, please make sure
 [Streaming Subscribe]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MrBukLau/filter-lists-for-ublock-origin/master/filter_lists/streamingfilterlist.txt&title=Streaming%20Filter%20List
 
 ## License
-[MIT](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md)
+[MIT](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE)
