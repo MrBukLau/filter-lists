@@ -1,7 +1,7 @@
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
-! Last Modified: 15 November 2020
-! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE.md
+! Last Modified: 21 December 2020
+! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! Baidu
