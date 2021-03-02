@@ -15,24 +15,6 @@ animekisa.tv##widgetbot-crate
 ! AnimePahe
 animepahe.com##.alert-info.alert
 
-! Sports24
-||www.twitch.tv/embed/sports24c/chat$subdocument
-sports24.*###cedato-unit
-sports24.*###chat
-sports24.*###footylight
-sports24.*###vi-sticky-ad
-sports24.*##.adrespl
-sports24.*##.border-top.pt-md-5.my-md-5.pt-4
-sports24.*##.container > .col
-sports24.*##.container > a.btn-outline-primary.btn:nth-of-type(1)
-sports24.*##a.btn-outline-primary.btn:nth-of-type(2)
-sports24.*##a.play.btn-block.btn-lg.btn-default.btn
-sports24.*##div#gamecard.card:nth-of-type(2)
-sports24.*##div#gamecard.card:nth-of-type(6)
-sports24.*##div#gamecard.card:nth-of-type(7)
-sports24.*##div.row:nth-of-type(5)
-sports24.*##div.row:nth-of-type(6)
-
 ! Twitch
 twitch.tv##.tw-flex-grow-1 > div:nth-of-type(1) > div.side-nav-section:nth-of-type(2)
 twitch.tv##.tw-pd-y-3.tw-mg-y-2.tw-full-width.tw-flex-column.tw-flex.tw-c-background-alt-2.tw-align-items-center
