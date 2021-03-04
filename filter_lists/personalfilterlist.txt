@@ -1,14 +1,16 @@
 ! Title: Personal Filter List
 ! Description: This filter list is where I keep my personal filters, so it might break some websites.
-! Last Modified: 21 December 2020
+! Last Modified: 04 March 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! General Filters
 @@||disqus.com/embed.js?_=1457540*$script
+||cbox.ws/box$subdocument
 ||disqus.com/count.js$script
 ||disqus.com/embed.js$script,redirect=disqus.com/embed.js
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
+||st.chatango.com$subdocument
 ||www.blogger.com/comment-iframe.g$subdocument
 
 ! Reddit (Old Design)
