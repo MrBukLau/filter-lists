@@ -1,11 +1,12 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 13 March 2021
+! Last Modified: 18 March 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
-! General Filters
+! Watermark Filters
 telerium.digital##.clappr-watermark
+uhdstreams.club##[href="http://hdstreamss.club"]
 
 ! AnimeKisa
 animekisa.tv##.slider
