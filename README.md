@@ -6,10 +6,12 @@
   <br>
 </h1>
 
-<p align="center"><b>
+<p align="center">
+  <b>
   Additional filters for 
   <a href="https://github.com/gorhill/uBlock" target="_blank">uBlock Origin</a>
-</p></b>
+  </b>
+</p>
 
 <p align="center">
   <a href="https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
