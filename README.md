@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-    <img src="https://github.com/MrBukLau/filter-lists-for-ublock-origin/raw/master/images/uBlock%20Origin%20Logo.png" width="200">
+  <img src="https://github.com/MrBukLau/filter-lists-for-ublock-origin/raw/master/images/uBlock%20Origin%20Logo.png" width="200">
   <br>
   Filter Lists for uBlock Origin
   <br>
@@ -11,10 +11,10 @@
   <a href="https://github.com/gorhill/uBlock" target="_blank">uBlock Origin</a>
 </h4>
 
-<p align="center">
+<h4 align="center">
   <a href="https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
   <a href="https://github.com/gorhill/uBlock/wiki/Static-filter-syntax"><img src="https://img.shields.io/badge/Syntax-uBlock Origin Static-red.svg"></a>
-</p>
+</h4>
 
 <p align="center">
   <a href="#description">Description</a> •
