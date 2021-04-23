@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 22 April 2021
+! Last Modified: 23 April 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -10,9 +10,6 @@
 ! 1337x
 1337x.to###M90304ScriptRootC221935
 1337x.to##.news
-
-! Dubox
-dubox.com##.share-guide
 
 ! Duplichecker
 duplichecker.com###img0
@@ -42,9 +39,7 @@ github.com##.rounded-0.f5.px-3.py-2
 
 ! Grammarly
 app.grammarly.com##._3b47561f-extension_banner-bannerContainer
-app.grammarly.com##._5a78f1-container
 app.grammarly.com##._bebd3200-business_banner-banner
-app.grammarly.com##._bf450a46-banner-container
 
 ! Library Genesis
 lib1.org###message
@@ -121,3 +116,6 @@ symbolab.com###install_apps
 symbolab.com##.no-select.print-hide.nl-footer
 symbolab.com##.print-hide.sidebar-content
 symbolab.com##body > a
+
+! TeraBox
+terabox.com##.share-guide
