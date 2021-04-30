@@ -4,6 +4,9 @@
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
+! Overlay Filters
+teleriumtv.net###overlay
+
 ! Watermark Filters
 kwik.cx##div.plyr.plyr:after
 telerium.digital##.clappr-watermark
