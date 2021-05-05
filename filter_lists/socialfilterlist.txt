@@ -56,6 +56,7 @@ twitter.com##.r-zchlnj.r-1xcajam.r-12vffkv.r-1d2f490.r-1p0dtai.r-aqfbo4.css-1dbj
 twitter.com##[aria-label$="trending now" i]
 
 ! YouTube
+youtube-nocookie.com##.ytp-show-tiles.ytp-endscreen-paginate.videowall-endscreen.ytp-player-content.html5-endscreen
 youtube.com##.ytp-cards-button.ytp-button
 youtube.com##.ytp-endscreen-content
 youtube.com##.ytp-show-tiles.ytp-endscreen-paginate.videowall-endscreen.ytp-player-content.html5-endscreen
