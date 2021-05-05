@@ -56,34 +56,5 @@ twitter.com##.r-zchlnj.r-1xcajam.r-12vffkv.r-1d2f490.r-1p0dtai.r-aqfbo4.css-1dbj
 twitter.com##[aria-label$="trending now" i]
 
 ! YouTube
-##.branding-img-container
-##.video-annotations
-##.ytd-clarification-renderer.style-scope.yt-simple-endpoint
-##.ytd-mealbar-promo-renderer.style-scope
-##.ytp-ad-text-overlay
-##.ytp-cards-button.ytp-button
-##.ytp-endscreen-content
-##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
-youtube.com###clarify-box
-youtube.com###inproduct-guide-modal
-youtube.com###list-container
-youtube.com###masthead-ad
-youtube.com###sponsor-button
-youtube.com###ticket-shelf
-youtube.com###vat-notice
-youtube.com###yt-dialog-bg
-youtube.com###yt-lang-aler-tp
-youtube.com##.expanded.ytd-video-secondary-info-renderer.style-scope
-youtube.com##.iv-click-target
-youtube.com##.iv-promo
-youtube.com##.size-default.style-suggestive.ytd-video-owner-renderer.style-scope
-youtube.com##.yt-dialog-base
-youtube.com##.ytd-background-promo-renderer.style-scope.promo-message
-youtube.com##.ytp-cards-button
-youtube.com##.ytp-cards-teaser
-youtube.com##.ytp-ce-covering-image
-youtube.com##.ytp-ce-covering-overlay
-youtube.com##.ytp-ce-element
-youtube.com##.ytp-ce-element-shadow
-youtube.com##.ytp-ce-expanding-image
-youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+youtube.com##.ytp-cards-button.ytp-button
+youtube.com##.ytp-endscreen-content
