@@ -1,15 +1,11 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 24 April 2021
+! Last Modified: 04 May 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! General Filters
 @@/favicon.ico
-
-! 1337x
-1337x.to###M90304ScriptRootC221935
-1337x.to##.news
 
 ! Duplichecker
 duplichecker.com###img0
@@ -33,21 +29,9 @@ filesmerge.com##.slider_item:nth-of-type(5)
 filesmerge.com##.top-buffer.row:nth-of-type(5)
 filesmerge.com##body > div:nth-of-type(7)
 
-! GitHub
-github.com##.js-notice
-github.com##.rounded-0.f5.px-3.py-2
-
 ! Grammarly
 app.grammarly.com##._3b47561f-extension_banner-bannerContainer
 app.grammarly.com##._bebd3200-business_banner-banner
-
-! Library Genesis
-lib1.org###message
-
-! MediaFire
-mediafire.com###download_link > a[href="#"]:nth-of-type(1)
-mediafire.com##.dl-promo-cont
-mediafire.com##.social-cont
 
 ! Nyaa
 nyaa.si##.alert-info.alert
@@ -79,20 +63,6 @@ quizlet.com##.SignupWallInline
 quizlet.com##.SiteAd-houseSkyscraper
 quizlet.com##.StickySkyscraperAdz
 
-! Quora
-quora.com##.ComponentSurvey
-quora.com##.dialog_wrapper
-quora.com##.layout_2col_main > .fixable_clone
-quora.com##.modal_signup_background
-quora.com##.pagedlist_item:has(.content_dismiss_title:has-text(/^you dismissed this ad/i))
-quora.com##.promoted_answer_wrapper
-quora.com##.UnifiedAnswerPagedList:not(.PagedListFoo):has(.content_dismiss_title:has-text(/^you dismissed this ad/i))
-quora.com##.UnifiedAnswerPagedList:not(.PagedListFoo):has(.promoted_answer_link)
-quora.com##.w4_5
-quora.com##:xpath(//p[not(@class="ui_qtext_para") and contains(text(), 'sponsored') and contains(text(), 'by')]/../../../parent::div[@id])
-quora.com##:xpath(//span[contains(text(), 'by')]/ancestor::*[contains(concat(' ', @class, ' '), ' external_link ')]/../../..)
-quora.com##div[id^="__w2_"][id*="_content_box"]
-
 ! Rate My Professors
 ratemyprofessors.com###beacon-container
 ratemyprofessors.com##.dQXOgC.CCPAFooter__StyledCCPAFooter-sc-1sx9bs3-0
@@ -101,22 +71,6 @@ ratemyprofessors.com##.popoutContainer
 ratemyprofessors.com##.right-chegg
 ratemyprofessors.com##.slide.sticky-wrapper
 ratemyprofessors.com##.sticky.adRail
-
-! SmallPDF
-smallpdf.com###__cond-1113853
-smallpdf.com##.bYbgQN.sc-1o2e7ef-0
-smallpdf.com##.cOMTYz.rvu14i-0
-smallpdf.com##.FoQAX.sc-1lt7696-4
-
-! StudyBlue
-studyblue.com##.slide-in.js-slideup-banner.slideup-banner
-
-! Symbolab
-symbolab.com###googleAdSenseHomepage
-symbolab.com###install_apps
-symbolab.com##.no-select.print-hide.nl-footer
-symbolab.com##.print-hide.sidebar-content
-symbolab.com##body > a
 
 ! TeraBox
 terabox.com##.share-guide
