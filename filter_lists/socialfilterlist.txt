@@ -58,3 +58,4 @@ twitter.com##[aria-label$="trending now" i]
 ! YouTube
 youtube.com##.ytp-cards-button.ytp-button
 youtube.com##.ytp-endscreen-content
+youtube.com##.ytp-show-tiles.ytp-endscreen-paginate.videowall-endscreen.ytp-player-content.html5-endscreen
