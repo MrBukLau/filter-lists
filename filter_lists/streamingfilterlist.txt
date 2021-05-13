@@ -19,6 +19,7 @@ animekisa.tv##widgetbot-crate
 
 ! AnimePahe
 ||allowandgo.com
+||roxoenos.xyz
 animepahe.com##.alert-info.alert
 animepahe.com##.ann-unblock.show.fade.alert-dismissible.alert-top.alert
 
