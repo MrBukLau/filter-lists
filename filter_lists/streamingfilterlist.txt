@@ -1,6 +1,6 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 13 June 2021
+! Last Modified: 14 June 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -20,8 +20,9 @@ animekisa.tv##widgetbot-crate
 ! AnimePahe
 ||allowandgo.com
 ||roxoenos.xyz
-animepahe.com##.alert-info.alert
-animepahe.com##.ann-unblock.show.fade.alert-dismissible.alert-top.alert
+animepahe.*##.alert-info.alert
+animepahe.*##.ann-fakesite.show.fade.alert-dismissible.alert-top.alert
+animepahe.*##.ann-unblock.show.fade.alert-dismissible.alert-top.alert
 
 ! Crunchyroll
 crunchyroll.com###showmedia_free_trial_signup
