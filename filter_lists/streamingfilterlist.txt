@@ -5,7 +5,7 @@
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! Overlay Filters
-teleriumtv.net###overlay
+teleriumtv.*###overlay
 
 ! Watermark Filters
 kwik.cx##div.plyr.plyr:after
