@@ -1,6 +1,6 @@
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
-! Last Modified: 04 May 2021
+! Last Modified: 15 June 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -19,6 +19,9 @@ google.*##.hww53CMqxtL__visible.itbXqfXFa__o-q-uKXqAwNiM.hww53CMqxtL__mobile-pro
 google.*##[id^="ed_"]
 google.*##[id^="eob_"]
 google.*##div[jsl][data-ved]:if(h4:has-text(People also search for))
+
+! ProtonMail
+account.protonmail.com##[class^="flex"]:has-text(Welcome to the new ProtonMail design)
 
 ! Reddit
 reddit.com###bottom-comments
