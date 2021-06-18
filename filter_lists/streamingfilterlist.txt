@@ -21,8 +21,7 @@ animekisa.tv##widgetbot-crate
 ||allowandgo.com
 ||roxoenos.xyz
 animepahe.*##.alert-info.alert
-animepahe.*##.ann-fakesite.show.fade.alert-dismissible.alert-top.alert
-animepahe.*##.ann-unblock.show.fade.alert-dismissible.alert-top.alert
+animepahe.*##.alert-top.alert
 
 ! Crunchyroll
 crunchyroll.com###showmedia_free_trial_signup
