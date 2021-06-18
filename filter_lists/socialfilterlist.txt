@@ -1,6 +1,6 @@
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
-! Last Modified: 15 June 2021
+! Last Modified: 17 June 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -11,6 +11,7 @@ tieba.baidu.com##.tbui_aside_float_bar
 ! Discord
 discord.com##.colorDefault-22HBa0.notice-3bPHh-
 discord.com##.invite-OjTXrW.channelNotice-1-XFjC
+discord.com##.padded-302COx.outer-1AjyKL.card-2qZngs
 discord.com##.quickswitcher-35bYg4.channelNotice-1-XFjC
 
 ! Google
@@ -26,11 +27,9 @@ account.protonmail.com##[class^="flex"]:has-text(Welcome to the new ProtonMail d
 ! Reddit
 reddit.com###bottom-comments
 reddit.com###siteTable:before
-reddit.com##.ad-container
 reddit.com##.commentsignupbar.infobar
 reddit.com##.listingsignupbar.infobar
 reddit.com##.native-ad-container
-reddit.com##.premium-banner
 reddit.com##.redesign-beta-optin
 reddit.com##.seo-comments-recommendations.spacer
 reddit.com##.spacer.seo-comments
@@ -39,7 +38,6 @@ reddit.com##body:style(overflow-y: scroll !important;)
 reddit.com##div.content:before
 
 ! Reddit (Old Design)
-||events.redditmedia.com^ 
 ||out.reddit.com^
 old.reddit.com###onboarding-splash
 old.reddit.com###siteTable:before
