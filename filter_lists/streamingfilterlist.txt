@@ -1,6 +1,6 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 14 June 2021
+! Last Modified: 17 June 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -32,3 +32,14 @@ crunchyroll.com##.opt-in
 twitch.tv##.tw-flex-grow-1 > div:nth-of-type(1) > div.side-nav-section:nth-of-type(2)
 twitch.tv##.tw-pd-y-3.tw-mg-y-2.tw-full-width.tw-flex-column.tw-flex.tw-c-background-alt-2.tw-align-items-center
 twitch.tv##.tw-relative.find-me
+
+! Yoursports
+yrsprts.stream###snackbar
+yrsprts.stream###whole > div > .row
+yrsprts.stream##.w3-black.w3-bar > .w3-tiny.w3-hover-blue-gray.w3-button.w3-bar-item
+yrsprts.stream##.w3-center.w3-container > .row
+yrsprts.stream##.w3-center.w3-container > .w3-bar
+yrsprts.stream##.w3-tiny.w3-hide-small.w3-hover-black.w3-black.w3-button.w3-bar-item
+yrsprts.stream##[class^="w3-hover-grayscale"]
+yrsprts.stream##[class^="w3-mobile w3-hover-grayscale"]
+yrsprts.stream##body > .w3-center.w3-small
