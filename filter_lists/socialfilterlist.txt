@@ -1,6 +1,6 @@
 ! Title: Social Filter List
 ! Description: This filter list is for removing unnecessary elements on certain social websites.
-! Last Modified: 17 June 2021
+! Last Modified: 30 June 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -13,6 +13,7 @@ discord.com##.colorDefault-22HBa0.notice-3bPHh-
 discord.com##.invite-OjTXrW.channelNotice-1-XFjC
 discord.com##.padded-302COx.outer-1AjyKL.card-2qZngs
 discord.com##.quickswitcher-35bYg4.channelNotice-1-XFjC
+discord.com##[class^="layer-v9HyYc"]:has-text(New User Profiles!)
 
 ! Google
 google.*##.exp-outline
