@@ -27,6 +27,7 @@ account.protonmail.com##[class^="flex"]:has-text(Welcome to the new ProtonMail d
 
 ! Reddit (Old Design)
 old.reddit.com##.commentsignupbar.infobar
+old.reddit.com##.pinnable-content.pinned
 old.reddit.com##.read-next-container
 
 ! Twitter
