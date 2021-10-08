@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 24 June 2021
+! Last Modified: 08 October 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -16,8 +16,6 @@
 1001tracklists.com##div:nth-of-type(1) > .noUser
 
 ! Apple Music
-apps.apple.com##.sosumi--subscribe.sosumi
-apps.apple.com##.we-subscribe
 music.apple.com###dt-modal-container
 music.apple.com##.hydrated.banner-upsell
 music.apple.com##.locale-switcher-banner.locale-switcher--amweb
@@ -44,39 +42,17 @@ hikarinoakariost.info##.tdc-content-wrap
 hikarinoakariost.info##.thanks_button_div
 
 ! iTD Music
-itdmusic.*###categort-posts-widget-3
-itdmusic.*###facebook-widget-3
-itdmusic.*###M317017ScriptRootC211616
-itdmusic.*###M332989ScriptRootC382100
-itdmusic.*###menu-item-122862
-itdmusic.*###menu-item-47141
-itdmusic.*###menu-item-57993
-itdmusic.*###meta-2
-itdmusic.*###respond
-itdmusic.*###text-2
-itdmusic.*###text-3
-itdmusic.*###text-html-widget-2
-itdmusic.*###theme-footer
-itdmusic.*##.breaking-news
-itdmusic.*##.e3lan-bottom
-itdmusic.*##.footer-bottom
-itdmusic.*##.itdmu-widget.widget
-itdmusic.*##.share-post
-itdmusic.*##.top-nav
-itdmusic.*##span:nth-of-type(4)
+itdmusics.*##+js(abort-current-script, addEventListener, google_ad_client)
+itdmusics.*##+js(abort-on-property-write, _pop)
+itdmusics.*##+js(abort-on-property-write, _pop)
+itdmusics.*##+js(no-floc)
+itdmusics.*##+js(popads-dummy)
+itdmusics.*##.e3lan-bottom
+itdmusics.*##.itdmu-widget.widget
 
 ! MuXiv Music
 muxiv.net###ads-general
 muxiv.net###ads-wrapper
-
-! Plus Premieres
-cbox.ws###frmMain
-pluspremieres.*###\37 28x90bottom
-pluspremieres.*###\37 28x90top
-pluspremieres.*###carousel
-pluspremieres.*###headline
-pluspremieres.*###post-bottom-wrap
-pluspremieres.*##.adcheck
 
 ! ShareMania
 ||dairouzy.net^$popup,domain=sharemania.us
