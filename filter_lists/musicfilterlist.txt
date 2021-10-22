@@ -44,7 +44,6 @@ hikarinoakariost.info##.thanks_button_div
 ! iTD Music
 itdmusics.*##+js(abort-current-script, addEventListener, google_ad_client)
 itdmusics.*##+js(abort-on-property-write, _pop)
-itdmusics.*##+js(abort-on-property-write, _pop)
 itdmusics.*##+js(no-floc)
 itdmusics.*##+js(popads-dummy)
 itdmusics.*##.e3lan-bottom
