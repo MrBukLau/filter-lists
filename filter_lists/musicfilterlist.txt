@@ -36,10 +36,6 @@ hikarinoakari.com###ays_tooltip
 hikarinoakari.com##.td-container-wrap.td-header-top-menu-full
 hikarinoakari.com##.tdc-content-wrap
 hikarinoakari.com##.thanks_button_div
-hikarinoakariost.info###ays_tooltip
-hikarinoakariost.info##.td-container-wrap.td-header-top-menu-full
-hikarinoakariost.info##.tdc-content-wrap
-hikarinoakariost.info##.thanks_button_div
 
 ! iTD Music
 itdmusics.*##+js(abort-current-script, addEventListener, google_ad_client)
@@ -59,8 +55,6 @@ muxiv.net###ads-wrapper
 ||sharemania.us/styles/revo/xenforo/avatars/*$popup,first-party
 
 ! Spotify
-open.spotify.com##._186766435454b6e18fec29440fbb9fc4-scss._110dbc41d89af63f97cdd8b7cd7fea47-scss._3f37264be67c8f40fa9f76449afdb4bd-scss
-open.spotify.com##.e628850198dd4b611f8d7ebc057a4734-scss > div:nth-of-type(3)
 open.spotify.com##.GenericModal__overlay--afterOpen.GenericModal__overlay--animated.GenericModal__overlay
 open.spotify.com##[class^="link-subtle"]:has-text(Install App)
 open.spotify.com##[class^="Root__now-playing-bar"]:has-text(Preview of Spotify)
