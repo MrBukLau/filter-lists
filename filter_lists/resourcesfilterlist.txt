@@ -1,6 +1,6 @@
 ! Title: Resources Filter List
 ! Description: This filter list is for removing unnecessary elements on certain resource websites.
-! Last Modified: 17 June 2021
+! Last Modified: 28 October 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -72,4 +72,5 @@ ratemyprofessors.com##.right-chegg
 ratemyprofessors.com##.sticky.adRail
 
 ! TeraBox
+terabox.com##.membership-tip-wrap
 terabox.com##.share-guide
