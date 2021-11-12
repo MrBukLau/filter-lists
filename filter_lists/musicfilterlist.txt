@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 22 October 2021
+! Last Modified: 12 November 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -16,11 +16,9 @@
 1001tracklists.com##div:nth-of-type(1) > .noUser
 
 ! Apple Music
-music.apple.com###dt-modal-container
 music.apple.com##.hydrated.banner-upsell
 music.apple.com##.locale-switcher-banner.locale-switcher--amweb
-music.apple.com##.locale-switcher__banner.locale-switcher--amweb
-music.apple.com##.upsell-banner
+music.apple.com##[aria-label="Subscription" i]
 
 ! Chartoo
 chartoo.com###bq
