@@ -1,6 +1,6 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 09 November 2021
+! Last Modified: 27 November 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -10,6 +10,10 @@
 animepahe.*##.alert-info.alert
 animepahe.*##.alert-top.alert
 kwik.cx##div.plyr.plyr:after
+
+! AniMixPlay
+dailymotion.com##.np_carousel-list-wrapper
+dailymotion.com##.np_Darken
 
 ! Crunchyroll
 crunchyroll.com###showmedia_free_trial_signup
