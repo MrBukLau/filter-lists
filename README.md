@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://github.com/MrBukLau/filter-lists-for-ublock-origin/raw/master/images/uBlock%20Origin%20Logo.png" width="200">
+  <img src="https://i.imgur.com/gHZokvm.png" width="200">
   <br>
   Filter Lists for uBlock Origin
   <br>
