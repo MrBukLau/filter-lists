@@ -31,8 +31,9 @@ reddit.com##.xpromochoicebanner
 reddit.com##.xpromoinfeed
 reddit.com##.xpromopill
 reddit.com##button[class="action last"]
+reddit.com##shreddit-async-loader[bundlename="top_button"]
 reddit.com##shreddit-comments-page-ad
 reddit.com##shreddit-post[view-context="ListingBelowLinkedPosts"]
 reddit.com##shreddit-post[view-context="ListingBelowSubredditPosts"]
-reddit.com##xpromo-top-button
+reddit.com##xpromo-footer
 reddit.com##xpromo-untagged-content-blocking-modal
