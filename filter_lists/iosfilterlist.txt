@@ -1,6 +1,6 @@
 ! Title: iOS Filter List
 ! Description: This filter list can be used in AdGuard for iOS to remove mobile annoyances.
-! Last Modified: 04 December 2021
+! Last Modified: 05 December 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -32,7 +32,6 @@ reddit.com##.postfooter__share
 reddit.com##.rereddit-promo
 reddit.com##.topics-links-block
 reddit.com##.topposts
-reddit.com##.useapp
 reddit.com##.xpromoappstorefooter
 reddit.com##.xpromoblockingmodal
 reddit.com##.xpromochoicebanner
@@ -41,8 +40,10 @@ reddit.com##.xpromopill
 reddit.com##.xpromopopup__action:first-child
 reddit.com##.xpromopopup__footer:last-child
 reddit.com##.xpromopopup__header
+reddit.com##button[class="action last"]
 reddit.com##shreddit-comments-page-ad
 reddit.com##shreddit-experience-tree
 reddit.com##shreddit-post[view-context="ListingBelowLinkedPosts"]
 reddit.com##shreddit-post[view-context="ListingBelowSubredditPosts"]
+reddit.com##xpromo-top-button
 reddit.com##xpromo-untagged-content-blocking-modal
