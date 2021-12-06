@@ -4,9 +4,6 @@
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
-! Gfycat
-gfycat.com###root > div > div.core-layout-container > div.main-container:last-child > main.component-container > div.share-container.share-mobile-container:first-child > div:first-child > a > img
-
 ! Google
 google.com###stUuGf
 
@@ -25,6 +22,7 @@ reddit.com##.lb-header
 reddit.com##.postfooter__share
 reddit.com##.rereddit-promo
 reddit.com##.topics-links-block
+reddit.com##.topposts
 reddit.com##.xpromoappstorefooter
 reddit.com##.xpromoblockingmodal
 reddit.com##.xpromochoicebanner
