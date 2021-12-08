@@ -4,6 +4,10 @@
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
+! Funimation
+funimation.com##.v-dialog__content
+funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
+
 ! Google
 google.com###stUuGf
 
