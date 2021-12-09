@@ -1,12 +1,13 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 27 November 2021
+! Last Modified: 08 December 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! AnimePahe
 ||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
 ||i.animepahe.com/snapshots
+animepahe.*##.alert-danger.alert
 animepahe.*##.alert-info.alert
 animepahe.*##.alert-top.alert
 kwik.cx##div.plyr.plyr:after
