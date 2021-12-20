@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 12 November 2021
+! Last Modified: 20 December 2021
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -24,6 +24,7 @@ music.apple.com##[aria-label="Subscription" i]
 chartoo.com###bq
 chartoo.com###ej
 chartoo.com###eq
+chartoo.com###fx
 
 ! Free MP3 Download
 free-mp3-download.net###toast-container
@@ -36,10 +37,6 @@ hikarinoakari.com##.tdc-content-wrap
 hikarinoakari.com##.thanks_button_div
 
 ! iTD Music
-itdmusics.*##+js(abort-current-script, addEventListener, google_ad_client)
-itdmusics.*##+js(abort-on-property-write, _pop)
-itdmusics.*##+js(no-floc)
-itdmusics.*##+js(popads-dummy)
 itdmusics.*##.e3lan-bottom
 itdmusics.*##.itdmu-widget.widget
 
