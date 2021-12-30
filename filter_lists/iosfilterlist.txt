@@ -21,23 +21,38 @@ m.imgur.com##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
 m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 
 ! Reddit
+reddit.com###blocking-modal-blur-container:style(filter: none !important;)
 reddit.com##._13GEaJc1u3mPvCCGhfLQG4
+reddit.com##.getappfooter
+reddit.com##.joinbuttonfull
 reddit.com##.lb-footer
 reddit.com##.lb-header
+reddit.com##.m-blurred:style(filter: none !important;)
+reddit.com##.navframe:style(overflow: scroll !important;)
 reddit.com##.postfooter__share
+reddit.com##.previewdrawer
+reddit.com##.scroll-disabled:style(overflow: scroll !important; position: static !important;)
+reddit.com##.scroll-is-blocked:style(overflow: scroll !important;)
 reddit.com##.topics-links-block
+reddit.com##.topnav__promobutton
 reddit.com##.topposts
 reddit.com##.xpromoappstorefooter
 reddit.com##.xpromoblockingmodal
 reddit.com##.xpromochoicebanner
 reddit.com##.xpromoinfeed
+reddit.com##.xpromonsfwblocking__warning
+reddit.com##.xpromonsfwblockingmodal
 reddit.com##.xpromopill
 reddit.com##.xpromopopup
+reddit.com##[data-testid="bottom-cell-wrapper"]
 reddit.com##article[style*="z-index: 1;"]
 reddit.com##button[class="action last"]
 reddit.com##shreddit-comments-page-ad
+reddit.com##shreddit-experience-tree
 reddit.com##shreddit-post[view-context="ListingBelowLinkedPosts"]
 reddit.com##shreddit-post[view-context="ListingBelowSubredditPosts"]
 reddit.com##shreddit-rereddit-promo
 reddit.com##xpromo-footer
+reddit.com##xpromo-nsfw-blocking-container
+reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
