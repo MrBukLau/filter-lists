@@ -24,7 +24,6 @@ m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
 reddit.com##._13GEaJc1u3mPvCCGhfLQG4
 reddit.com##.communityheader-subscribe-button
-reddit.com##.communityheader-text-row.m-top-margin:nth-child(4)
 reddit.com##.getappfooter
 reddit.com##.joinbuttonfull
 reddit.com##.lb-footer
