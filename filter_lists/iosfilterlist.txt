@@ -12,7 +12,9 @@ funimation.com##.v-dialog__content
 funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
 
 ! Google
-google.com###stUuGf
+google.*###stUuGf
+google.*##[data-it="rq"]
+google.*##[id^="eob_"]
 
 ! Imgur
 m.imgur.com###app > div.App > div.App-topSidebar:nth-child(2) > div:first-child
@@ -25,6 +27,8 @@ m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 
 ! Reddit
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
+reddit.com###container > div.app > div.appmainpage:first-child > div.navframe:nth-child(3) > div > div.navframe__below-top-nav.m-tall > div > div.subredditaboutpage > div.communityheader:first-child > div.communityheader-text-row.m-top-margin:nth-child(4) > ul.topiclist
+reddit.com###container > div.app > div.appmainpage:first-child > div.navframe:nth-child(3) > div > div.navframe__below-top-nav.m-tall > div:first-child > div.postsfromsubredditpage > div.communityheader:first-child > div.communityheader-text-row.m-top-margin:nth-child(4) > ul.topiclist
 reddit.com##._13GEaJc1u3mPvCCGhfLQG4
 reddit.com##.communityheader-subscribe-button
 reddit.com##.getappfooter
