@@ -4,7 +4,7 @@
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
-! General Filters
+! General Web Browsing Filters
 #%#AG_onLoad(function(){(document.querySelector("[name='apple-itunes-app']") || {remove: () => 0}).remove()});
 
 ! Funimation
