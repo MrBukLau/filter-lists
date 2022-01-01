@@ -14,8 +14,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
-  <a href="https://github.com/gorhill/uBlock/wiki/Static-filter-syntax"><img src="https://img.shields.io/badge/Syntax-uBlock Origin Static-red.svg"></a>
+  <a href="https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-181717?style=flat-square&logo=github"></a>
+  <a href="https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters"><img src="https://img.shields.io/badge/Syntax-AdGuard-68BC71?style=flat-square&logo=adguard"></a>
+  <a href="https://github.com/gorhill/uBlock/wiki/Static-filter-syntax"><img src="https://img.shields.io/badge/Syntax-uBlock Origin Static-800000?style=flat-square&logo=ublock-origin"></a>
 </p>
 
 <p align="center">
