@@ -65,3 +65,8 @@ reddit.com##xpromo-footer
 reddit.com##xpromo-nsfw-blocking-container
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
+
+! Yelp
+m.yelp.com###smart-banner
+m.yelp.com##div[class="banner__09f24__xj7JL border-color--default__09f24__rTIuQ"]
+m.yelp.com##div[class="u-space-r2 u-space-b4 u-space-l2 border-color--default__09f24__rTIuQ"]
