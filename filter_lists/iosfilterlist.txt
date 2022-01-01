@@ -68,5 +68,5 @@ reddit.com##xpromo-untagged-content-blocking-modal
 
 ! Yelp
 m.yelp.com###smart-banner
-m.yelp.com##div[class="banner__09f24__xj7JL border-color--default__09f24__rTIuQ"]
-m.yelp.com##div[class="u-space-r2 u-space-b4 u-space-l2 border-color--default__09f24__rTIuQ"]
+m.yelp.com##yelp-react-root:nth-child(2) > div:first-child > div.border-color--default__09f24__rTIuQ > div.banner__09f24__xj7JL.border-color--default__09f24__rTIuQ:last-child
+m.yelp.com##yelp-react-root:nth-child(2) > div:first-child > div.border-color--default__09f24__rTIuQ > div.content__09f24__3k5HU.border-color--default__09f24__rTIuQ.overflow--scrolly__09f24__1Igdd:nth-child(7) > div.u-space-r2.u-space-b4.u-space-l2.border-color--default__09f24__rTIuQ:nth-child(3)
