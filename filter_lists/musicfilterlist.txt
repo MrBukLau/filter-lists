@@ -1,6 +1,6 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 20 December 2021
+! Last Modified: 01 January 2022
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -44,6 +44,9 @@ itdmusics.*##.itdmu-widget.widget
 muxiv.net###ads-general
 muxiv.net###ads-wrapper
 
+! Online Audio Converter
+online-audio-converter.com###allapps-extension-popup
+
 ! ShareMania
 ||dairouzy.net^$popup,domain=sharemania.us
 ||i.imgur.com^$popup,domain=sharemania.us
@@ -53,6 +56,7 @@ muxiv.net###ads-wrapper
 open.spotify.com##.GenericModal__overlay--afterOpen.GenericModal__overlay--animated.GenericModal__overlay
 open.spotify.com##[class^="link-subtle"]:has-text(Install App)
 open.spotify.com##[class^="Root__now-playing-bar"]:has-text(Preview of Spotify)
+open.spotify.com##section[class="evYs3tmO5rBqdxPWnIMP QyANtc_r7ff_tqrf5Bvc"]:has-text(More by)
 
 ! TinMp3
 tinmp3.com###show-slide
