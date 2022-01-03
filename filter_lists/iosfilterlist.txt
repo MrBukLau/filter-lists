@@ -15,6 +15,11 @@ animepahe.*##.alert-info.alert
 animepahe.*##.alert-top.alert
 kwik.cx##div.plyr.plyr:after
 
+! Crunchyroll
+crunchyroll.com###message_box:has-text(Don't miss any of the Demon Slayer)
+crunchyroll.com###showmedia_free_trial_signup
+crunchyroll.com##.get-funimation-section
+
 ! Funimation
 funimation.com##.header-promo-ribbon-wrap
 funimation.com##.v-dialog__content
