@@ -22,8 +22,6 @@ funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
 
 ! Google
 google.*###stUuGf
-google.*##[data-it="rq"]
-google.*##[id^="eob_"]
 
 ! Imgur
 m.imgur.com###app > div.App > div.App-topSidebar:nth-child(2) > div:first-child
