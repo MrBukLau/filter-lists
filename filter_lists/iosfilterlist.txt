@@ -1,6 +1,6 @@
 ! Title: iOS Filter List
 ! Description: This filter list can be used in AdGuard for iOS to remove mobile annoyances.
-! Last Modified: 02 January 2022
+! Last Modified: 03 January 2022
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -16,7 +16,7 @@ animepahe.*##.alert-top.alert
 kwik.cx##div.plyr.plyr:after
 
 ! Crunchyroll
-crunchyroll.com###message_box:has-text(Don't miss any of the Demon Slayer)
+crunchyroll.com###message_box
 crunchyroll.com###showmedia_free_trial_signup
 crunchyroll.com##.get-funimation-section
 crunchyroll.com##.welcome-featured-media
