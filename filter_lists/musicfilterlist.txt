@@ -1,19 +1,8 @@
 ! Title: Music Filter List
 ! Description: This filter list is for removing unnecessary elements on certain music websites.
-! Last Modified: 01 January 2022
+! Last Modified: 03 January 2022
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
-
-! 1001Tracklists
-1001tracklists.com###adLown
-1001tracklists.com###artworkLeft
-1001tracklists.com###playbuzz
-1001tracklists.com###playerWidget
-1001tracklists.com###rightDiv
-1001tracklists.com###wavoWrapperCenter
-1001tracklists.com##.center.img15ad
-1001tracklists.com##.socialShare
-1001tracklists.com##div:nth-of-type(1) > .noUser
 
 ! Apple Music
 music.apple.com##.hydrated.banner-upsell
@@ -40,23 +29,11 @@ hikarinoakari.com##.thanks_button_div
 itdmusics.*##.e3lan-bottom
 itdmusics.*##.itdmu-widget.widget
 
-! MuXiv Music
-muxiv.net###ads-general
-muxiv.net###ads-wrapper
-
 ! Online Audio Converter
 online-audio-converter.com###allapps-extension-popup
-
-! ShareMania
-||dairouzy.net^$popup,domain=sharemania.us
-||i.imgur.com^$popup,domain=sharemania.us
-||sharemania.us/styles/revo/xenforo/avatars/*$popup,first-party
 
 ! Spotify
 open.spotify.com##.GenericModal__overlay--afterOpen.GenericModal__overlay--animated.GenericModal__overlay
 open.spotify.com##[class^="link-subtle"]:has-text(Install App)
 open.spotify.com##[class^="Root__now-playing-bar"]:has-text(Preview of Spotify)
 open.spotify.com##section[class="evYs3tmO5rBqdxPWnIMP QyANtc_r7ff_tqrf5Bvc"]:has-text(More by)
-
-! TinMp3
-tinmp3.com###show-slide
