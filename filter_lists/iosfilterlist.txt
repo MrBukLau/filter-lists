@@ -42,7 +42,7 @@ m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
 reddit.com###container > div.app > div.appmainpage:first-child > div.navframe:nth-child(3) > div > div.navframe__below-top-nav.m-tall > div > div.subredditaboutpage > div.communityheader:first-child > div.communityheader-text-row.m-top-margin:nth-child(4) > ul.topiclist
 reddit.com###container > div.app > div.appmainpage:first-child > div.navframe:nth-child(3) > div > div.navframe__below-top-nav.m-tall > div:first-child > div.postsfromsubredditpage > div.communityheader:first-child > div.communityheader-text-row.m-top-margin:nth-child(4) > ul.topiclist
-reddit.com##._13GEaJc1u3mPvCCGhfLQG4
+reddit.com##._13geajc1u3mpvccghflqg4
 reddit.com##.communityheader-subscribe-button
 reddit.com##.getappfooter
 reddit.com##.joinbuttonfull
