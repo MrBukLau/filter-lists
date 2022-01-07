@@ -8,11 +8,9 @@
 #%#AG_onLoad(function(){(document.querySelector('meta[name="apple-itunes-app"]')||{remove:()=>0}).remove()});
 
 ! 9GAG
-9gag.com##.download-app-container
-9gag.com##.noscroll(overflow: auto !important;)
-9gag.com##.open-in-app
-9gag.com##.post-signup-list-banner
-9gag.com##.use-app
+9gag.com###jsid-app > div.drawer-layout:nth-child(3) > div.content-wrap:last-child > div:last-child > div > div.footer:last-child > div.download-app-container > a.download-app.yellow
+9gag.com###jsid-app > div:first-child > header.navbar > div.right.use-app:last-child
+9gag.com###stream-2 > div.post-signup-list-banner:nth-child(2)
 
 ! AnimePahe
 ||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
@@ -37,8 +35,7 @@ funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
 google.*###stUuGf
 
 ! iFunny
-ifunny.co##.aq4y
-ifunny.co##.scrolldisabled(overflow: auto !important;)
+ifunny.co###App > div._0sJI.aq4y:nth-child(6)
 
 ! Imgur
 m.imgur.com###app > div.App > div.App-topSidebar:nth-child(2) > div:first-child
