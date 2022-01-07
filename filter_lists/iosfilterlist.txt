@@ -7,6 +7,13 @@
 ! General Web Browsing Filters
 #%#AG_onLoad(function(){(document.querySelector('meta[name="apple-itunes-app"]')||{remove:()=>0}).remove()});
 
+! 9GAG
+9gag.com##.download-app-container
+9gag.com##.noscroll(overflow: auto !important;)
+9gag.com##.open-in-app
+9gag.com##.post-signup-list-banner
+9gag.com##.use-app
+
 ! AnimePahe
 ||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
 ||i.animepahe.com/snapshots
@@ -28,6 +35,10 @@ funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
 
 ! Google
 google.*###stUuGf
+
+! iFunny
+ifunny.co##.emdm
+ifunny.co##.scrolldisabled(overflow: auto !important;)
 
 ! Imgur
 m.imgur.com###app > div.App > div.App-topSidebar:nth-child(2) > div:first-child
