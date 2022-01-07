@@ -37,7 +37,7 @@ funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
 google.*###stUuGf
 
 ! iFunny
-ifunny.co##.emdm
+ifunny.co##.aq4y
 ifunny.co##.scrolldisabled(overflow: auto !important;)
 
 ! Imgur
