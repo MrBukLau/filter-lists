@@ -20,8 +20,9 @@ dailymotion.com##.np_Darken
 crunchyroll.com###message_box
 crunchyroll.com###showmedia_free_trial_signup
 crunchyroll.com##.get-funimation-section
+crunchyroll.com##.premium-message
 crunchyroll.com##.welcome-featured-media
-crunchyroll.com#%#AG_onLoad(function(){setTimeout(function(){document.querySelector('meta[name="apple-itunes-app"]')||{remove:()=>0}).remove();},1E4);})
+crunchyroll.com##li.large-margin-bottom:has-text(Try Free Trial)
 
 ! Funimation
 funimation.com##.header-promo-ribbon-wrap
