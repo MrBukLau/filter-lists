@@ -21,9 +21,11 @@ crunchyroll.com###message_box
 crunchyroll.com###showmedia_free_trial_signup
 crunchyroll.com##.get-funimation-section
 crunchyroll.com##.welcome-featured-media
+crunchyroll.com#%#AG_onLoad(function(){setTimeout(function(){document.querySelector('meta[name="apple-itunes-app"]')||{remove:()=>0}).remove();},300);})
 
 ! Funimation
 funimation.com##.header-promo-ribbon-wrap
+funimation.com##.home-subscription-banner
 funimation.com##.v-dialog__content
 funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
 
