@@ -12,25 +12,6 @@
 9gag.com###jsid-app > div:first-child > header.navbar > div.right.use-app:last-child
 9gag.com###stream-2 > div.post-signup-list-banner:nth-child(2)
 
-! AnimePahe
-||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
-||i.animepahe.com/snapshots
-animepahe.*##.alert-danger.alert
-animepahe.*##.alert-info.alert
-animepahe.*##.alert-top.alert
-kwik.cx##div.plyr.plyr:after
-
-! Crunchyroll
-crunchyroll.com###message_box
-crunchyroll.com###showmedia_free_trial_signup
-crunchyroll.com##.get-funimation-section
-crunchyroll.com##.welcome-featured-media
-
-! Funimation
-funimation.com##.header-promo-ribbon-wrap
-funimation.com##.v-dialog__content
-funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
-
 ! Google
 google.*###stUuGf
 
