@@ -1,6 +1,6 @@
 ! Title: iOS Filter List
 ! Description: This filter list can be used in AdGuard for iOS to remove mobile annoyances.
-! Last Modified: 07 January 2022
+! Last Modified: 09 January 2022
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -12,8 +12,18 @@
 9gag.com###jsid-app > div:first-child > header.navbar > div.right.use-app:last-child
 9gag.com###stream-2 > div.post-signup-list-banner:nth-child(2)
 
+! Bleacher Report
+syndication.bleacherreport.com###branch-banner
+syndication.bleacherreport.com###content > amp-iframe.i-amphtml-element.i-amphtml-layout-fixed-height.i-amphtml-layout-size-defined.i-amphtml-built.i-amphtml-layout
+
 ! Google
 google.*###stUuGf
+google.*##.bB4gff
+google.*##.imso-hide-loading.O8LF7c.IvuoRc
+google.*##.oSAsx
+google.*##.rKJOcDNwrHj__pb-dfr.rKJOcDNwrHj__pb-s
+google.*##.Vxqcxf
+google.*##.zU3lCe
 
 ! Imgur
 m.imgur.com###app > div.App > div.App-topSidebar:nth-child(2) > div:first-child
@@ -23,6 +33,12 @@ m.imgur.com###app > div.App > div.GalleryHandler:last-child > div.SeeImgurOIA-co
 m.imgur.com###app > div.App > div.GalleryHandler:last-child > div.SeeImgurOIA-overlay.SeeImgurOIA-overlay-visible:nth-child(3)
 m.imgur.com##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
 m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
+
+! LinkedIn
+linkedin.com##.apptivation-promo.promo-banner
+
+! Quora
+quora.com###root > div.q-box:last-child > div.q-box > div.q-box > div.q-sticky.qu-zIndex--header:first-child > div.q-flex.qu-bg--red.qu-alignItems--center.spacing_log_header_main > div.q-flex.qu-pr--small:last-child > button.q-click-wrapper.ClickWrapper___StyledClickWrapperBox-zoqi4f-0.bIwtPb.base___StyledClickWrapper-lx6eke-1.cKqizz.qu-mr--small.qu-borderRadius--pill.qu-alignItems--center.qu-justifyContent--center.qu-whiteSpace--nowrap.qu-userSelect--none.qu-display--inline-flex.qu-tapHighlight--white.qu-textAlign--center.qu-cursor--pointer:first-child
 
 ! Reddit
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
@@ -63,6 +79,11 @@ reddit.com##xpromo-footer
 reddit.com##xpromo-nsfw-blocking-container
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
+
+! theScore
+thescore.com###app-container > div:nth-child(2)
+thescore.com##.the-score-article-ad-unit
+thescore.com##button[class^="GetTheAppModal__getTheAppButton"]
 
 ! Yelp
 m.yelp.com###smart-banner
