@@ -79,6 +79,7 @@ reddit.com##xpromo-footer
 reddit.com##xpromo-nsfw-blocking-container[slot="blurred"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
+reddit.com#%#AG_onLoad(function(){let blurredContainers=document.querySelectorAll("shreddit-blurred-container");let containers=document.querySelectorAll("xpromo-nsfw-blocking-container");if(containers.length>0){for(c of containers){let stl=document.createElement("STYLE");stl.innerHTML=".prompt {display: none !important}";c.shadowRoot.appendChild(stl);}}if(blurredContainers.length>0){for(b of blurredContainers){b.removeAttribute("blurred");}}});
 
 ! theScore
 thescore.com###app-container > div:nth-child(2)
