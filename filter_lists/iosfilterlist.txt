@@ -17,8 +17,23 @@
 syndication.bleacherreport.com###branch-banner
 syndication.bleacherreport.com###content > amp-iframe.i-amphtml-element.i-amphtml-layout-fixed-height.i-amphtml-layout-size-defined.i-amphtml-built.i-amphtml-layout
 
+! Booking.com
+booking.com###gta-link-generalfooteriphone
+
+! CheapTickets
+cheaptickets.com##.uitk-app-hero
+
+! Cleveland Clinic
+my.clevelandclinic.org##.ad-mobile--sticky
+
 ! Craigslist
 craigslist.org##.tryapp
+
+! Expedia
+expedia.com##.uitk-experimental-messaging-card
+
+! Funimation
+funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
 
 ! Google
 google.*###stUuGf
@@ -40,6 +55,12 @@ m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 
 ! LinkedIn
 linkedin.com##.apptivation-promo.promo-banner
+
+! Orbitz
+orbitz.com##.uitk-app-hero
+
+! Priceline.com
+priceline.com###app-download-banner
 
 ! Quora
 quora.com###root > div.q-box:last-child > div.q-box > div.q-box > div.q-sticky.qu-zIndex--header:first-child > div.q-flex.qu-bg--red.qu-alignItems--center.spacing_log_header_main > div.q-flex.qu-pr--small:last-child > button.q-click-wrapper.ClickWrapper___StyledClickWrapperBox-zoqi4f-0.bIwtPb.base___StyledClickWrapper-lx6eke-1.cKqizz.qu-mr--small.qu-borderRadius--pill.qu-alignItems--center.qu-justifyContent--center.qu-whiteSpace--nowrap.qu-userSelect--none.qu-display--inline-flex.qu-tapHighlight--white.qu-textAlign--center.qu-cursor--pointer:first-child
@@ -94,8 +115,22 @@ thescore.com###app-container > div:nth-child(2)
 thescore.com##.the-score-article-ad-unit
 thescore.com##button[class^="GetTheAppModal__getTheAppButton"]
 
+! Travelocity
+travelocity.com##.uitk-app-hero
+
+! Twitch
+m.twitch.tv##div[class*="ScCoreButtonLabel"]:has-text(Open in App)
+
+! Vrbo
+vrbo.com##div[class*="app-download-banner-box"]
+
 ! Yelp
 m.yelp.com###smart-banner
+m.yelp.com##a[class*="link__"]:has-text(Open in App)
+m.yelp.com##div[class*="2BTbv"]:has-text(Open in App)
+m.yelp.com##div[class*="banner__"]:has-text(Yelp for iPhone)
+m.yelp.com##div[class*="cta-menubar-pitch_left-icons"]:has-text(Open in App)
+m.yelp.com##div[class*="u-space-r2"]:has-text(Open in the Yelp App)
 
 ! Zillow
 zillow.com###local-app-upsell
