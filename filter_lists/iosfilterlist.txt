@@ -17,11 +17,9 @@
 syndication.bleacherreport.com###branch-banner
 syndication.bleacherreport.com###content > amp-iframe.i-amphtml-element.i-amphtml-layout-fixed-height.i-amphtml-layout-size-defined.i-amphtml-built.i-amphtml-layout
 
-! Booking.com
+! Booking Holdings
 booking.com###gta-link-generalfooteriphone
-
-! CheapTickets
-cheaptickets.com##.uitk-app-hero
+priceline.com###app-download-banner
 
 ! Cleveland Clinic
 my.clevelandclinic.org##.ad-mobile--sticky
@@ -29,8 +27,17 @@ my.clevelandclinic.org##.ad-mobile--sticky
 ! Craigslist
 craigslist.org##.tryapp
 
-! Expedia
+! Expedia Group
+carrentals.com,cheaptickets.com,orbitz.com,travelocity.com,wotif.com##.uitk-app-hero
+cheaptickets.com,ebookers.com,expedia.com,orbitz.com,travelocity.com,wotif.com##.uitk-spacing.SpacingContainer.uitk-spacing-padding-block-six.uitk-spacing-padding-inline-three:has-text(the app)
 expedia.com##.uitk-experimental-messaging-card
+hotwire.com###root > div.page-home:nth-child(2) > div.rtb-container.pattern-gray-sm:nth-child(2) > div.content
+hotwire.com##.app-download-banner
+hotwire.com##.hero-mobile-banner
+vrbo.com##div[class*="app-download-banner-box"]
+
+! FedEx
+fedex.com##fedex-smart-banner
 
 ! Funimation
 funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
@@ -55,12 +62,6 @@ m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 
 ! LinkedIn
 linkedin.com##.apptivation-promo.promo-banner
-
-! Orbitz
-orbitz.com##.uitk-app-hero
-
-! Priceline.com
-priceline.com###app-download-banner
 
 ! Quora
 quora.com###root > div.q-box:last-child > div.q-box > div.q-box > div.q-sticky.qu-zIndex--header:first-child > div.q-flex.qu-bg--red.qu-alignItems--center.spacing_log_header_main > div.q-flex.qu-pr--small:last-child > button.q-click-wrapper.ClickWrapper___StyledClickWrapperBox-zoqi4f-0.bIwtPb.base___StyledClickWrapper-lx6eke-1.cKqizz.qu-mr--small.qu-borderRadius--pill.qu-alignItems--center.qu-justifyContent--center.qu-whiteSpace--nowrap.qu-userSelect--none.qu-display--inline-flex.qu-tapHighlight--white.qu-textAlign--center.qu-cursor--pointer:first-child
@@ -115,14 +116,8 @@ thescore.com###app-container > div:nth-child(2)
 thescore.com##.the-score-article-ad-unit
 thescore.com##button[class^="GetTheAppModal__getTheAppButton"]
 
-! Travelocity
-travelocity.com##.uitk-app-hero
-
 ! Twitch
 m.twitch.tv##div[class*="ScCoreButtonLabel"]:has-text(Open in App)
-
-! Vrbo
-vrbo.com##div[class*="app-download-banner-box"]
 
 ! Yelp
 m.yelp.com###smart-banner
