@@ -1,6 +1,6 @@
 ! Title: Streaming Filter List
 ! Description: This filter list is for removing unnecessary elements on certain streaming websites.
-! Last Modified: 14 January 2022
+! Last Modified: 15 January 2022
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -19,9 +19,11 @@ dailymotion.com##.np_Darken
 ! Crunchyroll
 crunchyroll.com###message_box
 crunchyroll.com###showmedia_free_trial_signup
+crunchyroll.com###slidebox
 crunchyroll.com##.get-funimation-section
 crunchyroll.com##.premium-message
 crunchyroll.com##.welcome-featured-media
+crunchyroll.com##[href*="https://got.cr/PremiumTrial-NewsBanner"]
 crunchyroll.com##li.large-margin-bottom:has-text(Try Free Trial)
 
 ! Funimation
