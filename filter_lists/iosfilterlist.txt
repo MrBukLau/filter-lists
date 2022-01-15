@@ -1,6 +1,6 @@
 ! Title: iOS Filter List
 ! Description: This filter list can be used in AdGuard for iOS to remove mobile annoyances.
-! Last Modified: 14 January 2022
+! Last Modified: 15 January 2022
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -18,6 +18,8 @@ syndication.bleacherreport.com###branch-banner
 syndication.bleacherreport.com###content > amp-iframe.i-amphtml-element.i-amphtml-layout-fixed-height.i-amphtml-layout-size-defined.i-amphtml-built.i-amphtml-layout
 
 ! Booking Holdings
+agoda.com##.ModalPortal:has-text(in our app)
+agoda.com##div[class*="WhiteBanner__AppBanner"]
 booking.com###gta-link-generalfooteriphone
 priceline.com###app-download-banner
 
@@ -106,6 +108,9 @@ reddit.com##xpromo-footer
 reddit.com##xpromo-nsfw-blocking-container[slot="blurred"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
+
+! SignUpGenius
+signupgenius.com##.sug-notice--privacy
 
 ! Spotify
 open.spotify.com##.tippy-box.tippy-now-playing-bar
