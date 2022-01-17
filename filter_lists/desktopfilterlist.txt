@@ -3,3 +3,90 @@
 ! Last Modified: 16 January 2022
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
+
+! AnimePahe
+||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
+||i.animepahe.com/snapshots
+animepahe.*##.alert-danger.alert
+animepahe.*##.alert-info.alert
+animepahe.*##.alert-top.alert
+kwik.cx##div.plyr.plyr:after
+
+! AniMixPlay
+dailymotion.com##.np_carousel-list-wrapper,domain=animixplay.to
+dailymotion.com##.np_Darken,domain=animixplay.to
+
+! Apple Music
+music.apple.com##.hydrated.banner-upsell
+music.apple.com##.locale-switcher-banner.locale-switcher--amweb
+music.apple.com##[aria-label="Subscription" i]
+
+! Chartoo
+chartoo.com###bq
+chartoo.com###ej
+chartoo.com###eq
+chartoo.com###fx
+
+! Crunchyroll
+crunchyroll.com###message_box
+crunchyroll.com###showmedia_free_trial_signup
+crunchyroll.com###slidebox
+crunchyroll.com##.get-funimation-section
+crunchyroll.com##.premium-message
+crunchyroll.com##.welcome-featured-media
+crunchyroll.com##[href*="https://got.cr/PremiumTrial-NewsBanner"]
+crunchyroll.com##li.large-margin-bottom:has-text(Try Free Trial)
+
+! Discord
+discord.com##.colorDefault-22HBa0.notice-3bPHh-
+discord.com##.invite-OjTXrW.channelNotice-1-XFjC
+discord.com##.padded-302COx.outer-1AjyKL.card-2qZngs
+discord.com##.quickswitcher-35bYg4.channelNotice-1-XFjC
+discord.com##[class^="layer-v9HyYc"]:has-text(New User Profiles!)
+
+! Free MP3 Download
+free-mp3-download.net###toast-container
+
+! Funimation
+funimation.com##.header-promo-ribbon-wrap
+funimation.com##.home-subscription-banner
+funimation.com##.v-dialog__content
+
+! Google
+google.*##[id^="eob_"]
+
+! Hikarinoakariost
+hikarinoakari.com###ays_tooltip
+hikarinoakari.com##.td-container-wrap.td-header-top-menu-full
+hikarinoakari.com##.tdc-content-wrap
+hikarinoakari.com##.thanks_button_div
+
+! iTD Music
+itdmusics.*##.e3lan-bottom
+itdmusics.*##.itdmu-widget.widget
+
+! NBAbite
+tinyurl.is##.splash.container:has-text(Have Your Ads Here)
+
+! Online Audio Converter
+online-audio-converter.com###allapps-extension-popup
+
+! Reddit
+old.reddit.com###redesign-beta-optin-btn
+old.reddit.com##.commentsignupbar.infobar
+old.reddit.com##.listingsignupbar.infobar
+old.reddit.com##.pinnable-content.pinned
+old.reddit.com##.read-next-container
+
+! Spotify
+open.spotify.com##.GenericModal__overlay--afterOpen.GenericModal__overlay--animated.GenericModal__overlay
+open.spotify.com##.Upqw01TOXETOmR5Td7Dj.X7lQWw2Ly_RZVPEFj2QY.Qt5xfSWikz6CLU8Vobxs:has-text(Upgrade)
+open.spotify.com##[class^="link-subtle"]:has-text(Install App)
+open.spotify.com##[class^="Root__now-playing-bar"]:has-text(Preview of Spotify)
+open.spotify.com##section[class="evYs3tmO5rBqdxPWnIMP QyANtc_r7ff_tqrf5Bvc"]:has-text(More by)
+
+! YouTube
+youtube-nocookie.com##.ytp-show-tiles.ytp-endscreen-paginate.videowall-endscreen.ytp-player-content.html5-endscreen
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-chrome-top-buttons
+youtube.com##.ytp-endscreen-content
