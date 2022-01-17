@@ -1,0 +1,5 @@
+! Title: Desktop Filter List
+! Description: This filter list is for removing unnecessary elements on the desktop version of websites.
+! Last Modified: 16 January 2022
+! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
+! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
