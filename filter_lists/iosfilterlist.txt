@@ -5,8 +5,7 @@
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! General Web Browsing Filters
-#%#AG_onLoad(document.querySelector('meta[name*="apple-itunes-app"]')||{remove:()=>0}).remove());
-!#%#AG_onLoad(function(){(document.querySelector('meta[name="apple-itunes-app"]')||{remove:()=>0}).remove()});
+#%#AG_onLoad(function(){(document.querySelector('meta[name="apple-itunes-app"]')||{remove:()=>0}).remove()});
 ||adj.st
 ||app.adjust.com
 ||record.webpartners.co
