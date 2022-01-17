@@ -44,6 +44,7 @@ In order to add one of these filter lists to a content blocker, please make sure
 ## Available Filter Lists
 | **Filter Lists**               | **Description**                                                         |
 |:-------------------------------|:------------------------------------------------------------------------|
+| **[Desktop][Desktop List]** <br> ([Subscribe][Desktop Subscription]) | This filter list is for removing annoyances on the desktop version of websites.
 | **[iOS][iOS List]** <br> ([Subscribe][iOS Subscription]) | Unlike the other filter lists here, this one was not made for uBlock Origin. This filter list was only tested on the iOS version of Safari using AdGuard. These filters work best on [AdGuard with a paid subscription](https://apps.apple.com/us/app/adguard-adblock-privacy/id1047223162) and [AdGuard Pro](https://apps.apple.com/us/app/adguard-pro-adblock-privacy/id1126386264) because "Advanced Protection" is a premium feature, meaning that it is only for paid users of AdGuard. Furthermore, "Advanced Protection" on the iOS version of AdGuard is a Safari web extension, which means that some of these filters will only work on iOS 15.
 | **[Monetary][Monetary List]** <br> ([Subscribe][Monetary Subscription]) | This filter list is for making sure certain monetary websites work properly.
 | **[Music][Music List]** <br> ([Subscribe][Music Subscription]) | This filter list is for removing unnecessary elements on certain music websites.
@@ -54,6 +55,7 @@ In order to add one of these filter lists to a content blocker, please make sure
 | **[Streaming][Streaming List]** <br> ([Subscribe][Streaming Subscription]) | This filter list is for removing unnecessary elements on certain streaming websites.
 
 <!-- Filter Lists -->
+[Desktop List]: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter_lists/desktopfilterlist.txt
 [iOS List]: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter_lists/iosfilterlist.txt
 [Monetary List]: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter_lists/monetaryfilterlist.txt
 [Music List]: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter_lists/musicfilterlist.txt
@@ -64,6 +66,7 @@ In order to add one of these filter lists to a content blocker, please make sure
 [Streaming List]: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter_lists/streamingfilterlist.txt
 
 <!-- Subscription Lists -->
+[Desktop Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists-for-ublock-origin/raw/master/filter_lists/desktopfilterlist.txt&title=Desktop%20Filter%20List
 [iOS Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists-for-ublock-origin/raw/master/filter_lists/iosfilterlist.txt&title=iOS%20Filter%20List
 [Monetary Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists-for-ublock-origin/raw/master/filter_lists/monetaryfilterlist.txt&title=Monetary%20Filter%20List
 [Music Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists-for-ublock-origin/raw/master/filter_lists/musicfilterlist.txt&title=Music%20Filter%20List
