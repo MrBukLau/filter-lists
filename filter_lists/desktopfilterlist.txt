@@ -1,6 +1,6 @@
 ! Title: Desktop Filter List
 ! Description: This filter list is for removing annoyances on the desktop version of websites.
-! Last Modified: 16 January 2022
+! Last Modified: 17 January 2022
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -62,8 +62,8 @@ hikarinoakari.com##.tdc-content-wrap
 hikarinoakari.com##.thanks_button_div
 
 ! iTD Music
-itdmusics.*##.e3lan-bottom
-itdmusics.*##.itdmu-widget.widget
+itdmusics.com##.e3lan-bottom
+itdmusics.com##.itdmu-widget.widget
 
 ! NBAbite
 tinyurl.is##.splash.container:has-text(Have Your Ads Here)
