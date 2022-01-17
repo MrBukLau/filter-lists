@@ -13,8 +13,8 @@ animepahe.*##.alert-top.alert
 kwik.cx##div.plyr.plyr:after
 
 ! AniMixPlay
-dailymotion.com##.np_carousel-list-wrapper,domain=animixplay.to
-dailymotion.com##.np_Darken,domain=animixplay.to
+dailymotion.com##.np_carousel-list-wrapper
+dailymotion.com##.np_Darken
 
 ! Apple Music
 music.apple.com##.hydrated.banner-upsell
