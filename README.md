@@ -14,6 +14,13 @@
   </b>
   <br>
   <br>
+  <a href="#description">Description</a> •
+  <a href="#disclaimer">Disclaimer</a> •
+  <a href="#how-to-add-a-filter-list-to-a-content-blocker">How to Add a Filter List to a Content Blocker</a> •
+  <a href="#available-filter-lists">Available Filter Lists</a> •
+  <a href="#license">License</a>
+  <br>
+  <br>
   <a href="https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-181717?style=for-the-badge&logo=github">
   </a>
@@ -23,13 +30,6 @@
   <a href="https://github.com/gorhill/uBlock/wiki/Static-filter-syntax">
     <img src="https://img.shields.io/badge/Syntax-uBlock%20Origin%20Static-800000?style=for-the-badge&logo=ublock-origin">
   </a>
-  <br>
-  <br>
-  <a href="#description">Description</a> •
-  <a href="#disclaimer">Disclaimer</a> •
-  <a href="#how-to-add-a-filter-list-to-a-content-blocker">How to Add a Filter List to a Content Blocker</a> •
-  <a href="#available-filter-lists">Available Filter Lists</a> •
-  <a href="#license">License</a>
 </div>
 
 ## Description
