@@ -1,6 +1,6 @@
 ! Title: Desktop Filter List
 ! Description: This filter list is for removing annoyances on the desktop version of websites.
-! Last Modified: 17 January 2022
+! Last Modified: 18 January 2022
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -35,6 +35,8 @@ crunchyroll.com##.get-funimation-section
 crunchyroll.com##.premium-message
 crunchyroll.com##.welcome-featured-media
 crunchyroll.com##[href*="https://got.cr/PremiumTrial-NewsBanner"]
+crunchyroll.com##div[class="css-1dbjc4n r-1pi2tsx r-1d2f490 r-u8s1d r-ipm5af r-13qz1uu"]:style(background-color: rgba(0, 0, 0, 0) !important;)
+crunchyroll.com##div[data-testid="vilos-large_play_pause_button"]
 crunchyroll.com##li.large-margin-bottom:has-text(Try Free Trial)
 
 ! Discord
@@ -50,7 +52,10 @@ free-mp3-download.net###toast-container
 ! Funimation
 funimation.com##.header-promo-ribbon-wrap
 funimation.com##.home-subscription-banner
+funimation.com##.meta-overlay:style(background-image: none !important;)
 funimation.com##.v-dialog__content
+funimation.com##i[class*="meta-overlay__funi-logo"]
+funimation.com##ul[class*="meta-overlay__data-block"]
 
 ! Google
 google.*##[id^="eob_"]
