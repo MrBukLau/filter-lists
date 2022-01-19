@@ -35,8 +35,14 @@ crunchyroll.com##.get-funimation-section
 crunchyroll.com##.premium-message
 crunchyroll.com##.welcome-featured-media
 crunchyroll.com##[href*="https://got.cr/PremiumTrial-NewsBanner"]
+crunchyroll.com##a[token="comingsoon_now"] > img:style(filter: blur(16px) !important;)
 crunchyroll.com##div[class="css-1dbjc4n r-1pi2tsx r-1d2f490 r-u8s1d r-ipm5af r-13qz1uu"]:style(background-color: rgba(0, 0, 0, 0) !important;)
 crunchyroll.com##div[data-testid="vilos-large_play_pause_button"]
+crunchyroll.com##img[class="landscape"]:style(filter: blur(16px) !important;)
+crunchyroll.com##img[class="media-thumb-wide"]:style(filter: blur(16px) !important;)
+crunchyroll.com##img[class="mug"]:style(filter: blur(16px) !important;)
+crunchyroll.com##img[class="thumbnail"]:style(filter: blur(16px) !important;)
+crunchyroll.com##img[class="welcome-media-mug"]:style(filter: blur(16px) !important;)
 crunchyroll.com##li.large-margin-bottom:has-text(Try Free Trial)
 
 ! Discord
@@ -54,6 +60,7 @@ funimation.com##.header-promo-ribbon-wrap
 funimation.com##.home-subscription-banner
 funimation.com##.meta-overlay:style(background-image: none !important;)
 funimation.com##.v-dialog__content
+funimation.com##div[data-test="episode-card__key-art"]:style(filter: blur(16px) !important;)
 funimation.com##i[class*="meta-overlay__funi-logo"]
 funimation.com##ul[class*="meta-overlay__data-block"]
 
