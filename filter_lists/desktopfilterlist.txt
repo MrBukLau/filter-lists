@@ -6,10 +6,10 @@
 
 ! AnimePahe
 ||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
-||i.animepahe.com/snapshots
 animepahe.*##.alert-danger.alert
 animepahe.*##.alert-info.alert
 animepahe.*##.alert-top.alert
+animepahe.*##div[class="episode-snapshot"]:style(filter: blur(16px) !important;)
 kwik.cx##div.plyr.plyr:after
 
 ! AniMixPlay
