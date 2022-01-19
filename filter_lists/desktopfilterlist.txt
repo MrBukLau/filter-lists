@@ -10,7 +10,7 @@ animepahe.*##.alert-danger.alert
 animepahe.*##.alert-info.alert
 animepahe.*##.alert-top.alert
 animepahe.*##div[class="episode-snapshot"]:style(filter: blur(16px) !important;)
-kwik.cx##div.plyr.plyr:after
+kwik.cx##.plyr::after:style(content: none !important;)
 
 ! AniMixPlay
 dailymotion.com##.np_carousel-list-wrapper
