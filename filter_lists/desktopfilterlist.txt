@@ -52,6 +52,9 @@ discord.com##.padded-302COx.outer-1AjyKL.card-2qZngs
 discord.com##.quickswitcher-35bYg4.channelNotice-1-XFjC
 discord.com##[class^="layer-v9HyYc"]:has-text(New User Profiles!)
 
+! Fandom
+fandom.com##div[id="SurveyModule"]
+
 ! Free MP3 Download
 free-mp3-download.net###toast-container
 
