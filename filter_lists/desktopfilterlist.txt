@@ -1,6 +1,6 @@
 ! Title: Desktop Filter List
 ! Description: This filter list is for removing annoyances on the desktop version of websites.
-! Last Modified: 19 January 2022
+! Last Modified: 20 January 2022
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -40,7 +40,7 @@ crunchyroll.com##div[class="css-1dbjc4n r-1pi2tsx r-1d2f490 r-u8s1d r-ipm5af r-1
 crunchyroll.com##div[data-testid="vilos-large_play_pause_button"]
 crunchyroll.com##img[class="landscape"]:style(filter: blur(16px) !important;)
 crunchyroll.com##img[class="media-thumb-wide"]:style(filter: blur(16px) !important;)
-crunchyroll.com##img[class="mug"]:style(filter: blur(16px) !important;)
+crunchyroll.com##img[class="mug"][alt]:style(filter: blur(16px) !important;)
 crunchyroll.com##img[class="thumbnail"]:style(filter: blur(16px) !important;)
 crunchyroll.com##img[class="welcome-media-mug"]:style(filter: blur(16px) !important;)
 crunchyroll.com##li.large-margin-bottom:has-text(Try Free Trial)
