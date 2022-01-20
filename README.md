@@ -2,7 +2,6 @@
   <img src="https://i.imgur.com/gHZokvm.png" width="200">
   <br>
   Filter Lists for uBlock Origin
-  <br>
 </h1>
 
 <div align="center">
@@ -33,19 +32,20 @@
 </div>
 
 ## Description
-This repository contains filter lists for [uBlock Origin](https://github.com/gorhill/uBlock). These filter lists are used to remove elements from certain websites, making those websites easier to navigate through without any annoyances.
+This repository contains filter lists for [uBlock Origin][uBlock Origin GitHub Link]. These filter lists are used to remove elements from certain websites, making those websites easier to navigate through without any annoyances.
+
 
 ## Disclaimer
-The filter lists in this repository were only tested on the desktop version of [Google Chrome](https://www.google.com/chrome/) using [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm). Because of that, they may or may not work on other web browsers and content blockers. Also, the filter lists in this repository are made to fit my needs and might not be suitable for everyone. If there are filters that you do not want to use, feel free to click on the **"Fork"** button to create a copy of these filter lists so that you can edit them to suit your needs.
+The filter lists in this repository were only tested on the desktop version of [Google Chrome](https://www.google.com/chrome/) using [uBlock Origin][uBlock Origin Chrome Web Store Link]. Because of that, they may or may not work on other web browsers and content blockers. Also, the filter lists in this repository are made to fit my needs and might not be suitable for everyone. If there are filters that you do not want to use, feel free to click on the **"Fork"** button to create a copy of these filter lists so that you can edit them to suit your needs.
 
 ## How to Add a Filter List to a Content Blocker
-In order to add one of these filter lists to a content blocker, please make sure you have a content blocker installed on your web browser. I recommend using [uBlock Origin](https://github.com/gorhill/uBlock), but these filter lists could possibly work with any other content blockers. Once you have a content blocker installed on your web browser, you can left-click on any of the **"Subscribe"** button below to automatically add a filter list to your content blocker. Alternatively, you can manually add one of these filter lists by [following the guide on how to import external lists in uBlock Origin](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
+In order to add one of these filter lists to a content blocker, please make sure you have a content blocker installed on your web browser. I recommend using [uBlock Origin][uBlock Origin GitHub Link], but these filter lists could possibly work with any other content blockers. Once you have a content blocker installed on your web browser, you can left-click on any of the **"Subscribe"** button below to automatically add a filter list to your content blocker. Alternatively, you can manually add one of these filter lists by [following the guide on how to import external lists in uBlock Origin](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web).
 
 ## Available Filter Lists
 | **Filter Lists**               | **Description**                                                         |
 |:-------------------------------|:------------------------------------------------------------------------|
 | **[Desktop][Desktop List]** <br> ([Subscribe][Desktop Subscription]) | This filter list is for removing annoyances on the desktop version of websites.
-| **[iOS][iOS List]** <br> ([Subscribe][iOS Subscription]) | Unlike the other filter lists here, this one was not made for uBlock Origin. This filter list was only tested on the iOS version of Safari using AdGuard. These filters work best on [AdGuard with a paid subscription](https://apps.apple.com/us/app/adguard-adblock-privacy/id1047223162) and [AdGuard Pro](https://apps.apple.com/us/app/adguard-pro-adblock-privacy/id1126386264) because "Advanced Protection" is a premium feature, meaning that it is only for paid users of AdGuard. Furthermore, "Advanced Protection" on the iOS version of AdGuard is a Safari web extension, which means that some of these filters will only work on iOS 15.
+| **[iOS][iOS List]** <br> ([Subscribe][iOS Subscription]) | This filter list is for removing annoyances on the mobile version of websites. <br><br> Note: Unlike the other filter lists here, this one was not made for uBlock Origin. This filter list was only tested on the iOS version of Safari using AdGuard. These filters work best on [AdGuard with a paid subscription][AdGuard App Store Link] and [AdGuard Pro][AdGuard Pro App Store Link] because "Advanced Protection" is a premium feature, meaning that it is only for paid users of AdGuard. Furthermore, "Advanced Protection" on the iOS version of AdGuard is a Safari web extension, which means that some of these filters will only work on iOS 15.
 | **[Monetary][Monetary List]** <br> ([Subscribe][Monetary Subscription]) | This filter list is for making sure certain monetary websites work properly.
 | **[Music][Music List]** <br> ([Subscribe][Music Subscription]) | This filter list is for removing unnecessary elements on certain music websites.
 | **[Personal][Personal List]** <br> ([Subscribe][Personal Subscription]) | This filter list is where I keep my personal filters, so it might break some websites.
@@ -53,6 +53,15 @@ In order to add one of these filter lists to a content blocker, please make sure
 | **[Social][Social List]** <br> ([Subscribe][Social Subscription]) | This filter list is for removing unnecessary elements on certain social websites.
 | **[Sports][Sports List]** <br> ([Subscribe][Sports Subscription]) | This filter list is for removing unnecessary elements on certain sport websites.
 | **[Streaming][Streaming List]** <br> ([Subscribe][Streaming Subscription]) | This filter list is for removing unnecessary elements on certain streaming websites.
+
+## License
+[MIT](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE)
+
+<!-- Application Links -->
+[AdGuard App Store Link]: https://apps.apple.com/us/app/adguard-adblock-privacy/id1047223162
+[AdGuard Pro App Store Link]: https://apps.apple.com/us/app/adguard-pro-adblock-privacy/id1126386264
+[uBlock Origin Chrome Web Store Link]: https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm
+[uBlock Origin GitHub Link]: https://github.com/gorhill/uBlock
 
 <!-- Filter Lists -->
 [Desktop List]: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/filter_lists/desktopfilterlist.txt
@@ -75,6 +84,3 @@ In order to add one of these filter lists to a content blocker, please make sure
 [Social Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists-for-ublock-origin/raw/master/filter_lists/socialfilterlist.txt&title=Social%20Filter%20List
 [Sports Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists-for-ublock-origin/raw/master/filter_lists/sportsfilterlist.txt&title=Sports%20Filter%20List
 [Streaming Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists-for-ublock-origin/raw/master/filter_lists/streamingfilterlist.txt&title=Streaming%20Filter%20List
-
-## License
-[MIT](https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE)
