@@ -4,10 +4,8 @@
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
-! Smart App Banners Removal Filters
-!##head > meta[name="apple-itunes-app"]:remove()
-!*##head > meta[name="apple-itunes-app"]:remove()
-adguard.com,crunchyroll.com,fandom.com,funimation.com,github.com##head > meta[name="apple-itunes-app"]:remove()
+! Smart App Banners Removal
+107ist.org,adguard.com,apple.com,bedbathandbeyond.com,booking.com,costco.com,crunchyroll.com,dominos.com,fandom.com,foxnews.com,ft.com,funimation.com,github.com,google.com,kptv.com,nypost.com,papajohns.com,target.com,twitch.tv,un.org,voanews.com,walmart.com,yahoo.com,yelp.com##head > meta[name="apple-itunes-app"]:remove()
 
 ! 9GAG
 9gag.com###jsid-app > div.drawer-layout:nth-child(3) > div.content-wrap:last-child > div:last-child > div > div.footer:last-child > div.download-app-container > a.download-app.yellow
@@ -19,6 +17,7 @@ adguard.com,crunchyroll.com,fandom.com,funimation.com,github.com##head > meta[na
 ||app.adjust.com
 
 ! Bleacher Report
+bleacherreport.com##div[class*="appInstallButton"]
 syndication.bleacherreport.com###branch-banner
 syndication.bleacherreport.com###content > amp-iframe.i-amphtml-element.i-amphtml-layout-fixed-height.i-amphtml-layout-size-defined.i-amphtml-built.i-amphtml-layout
 
@@ -27,6 +26,9 @@ agoda.com##.ModalPortal:has-text(in our app)
 agoda.com##div[class*="WhiteBanner__AppBanner"]
 booking.com###gta-link-generalfooteriphone
 priceline.com###app-download-banner
+
+! CBS News
+cbsnews.com###smart-banner-download
 
 ! Cleveland Clinic
 my.clevelandclinic.org##.ad-mobile--sticky
@@ -48,6 +50,9 @@ fandom.com###article-featured-video-container
 
 ! FedEx
 fedex.com##fedex-smart-banner
+
+! Fox News
+foxnews.com###toapp
 
 ! Funimation
 funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
@@ -71,7 +76,7 @@ m.imgur.com##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
 m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 
 ! LinkedIn
-linkedin.com##.apptivation-promo.promo-banner
+linkedin.com##div[class*="apptivation-promo"]
 
 ! Quora
 quora.com###root > div.q-box:last-child > div.q-box > div.q-box > div.q-sticky.qu-zIndex--header:first-child > div.q-flex.qu-bg--red.qu-alignItems--center.spacing_log_header_main > div.q-flex.qu-pr--small:last-child > button.q-click-wrapper.ClickWrapper___StyledClickWrapperBox-zoqi4f-0.bIwtPb.base___StyledClickWrapper-lx6eke-1.cKqizz.qu-mr--small.qu-borderRadius--pill.qu-alignItems--center.qu-justifyContent--center.qu-whiteSpace--nowrap.qu-userSelect--none.qu-display--inline-flex.qu-tapHighlight--white.qu-textAlign--center.qu-cursor--pointer:first-child
@@ -123,6 +128,9 @@ signupgenius.com##.sug-notice--privacy
 ! Spotify
 open.spotify.com##.tippy-box.tippy-now-playing-bar
 open.spotify.com##button[class*="LoginTopBar__OpenAppButton"]
+
+! The Undefeated
+theundefeated.com##.ad-prevent-jump
 
 ! theScore
 thescore.com###app-container > div:nth-child(2)
