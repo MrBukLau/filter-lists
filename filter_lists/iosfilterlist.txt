@@ -1,19 +1,20 @@
 ! Title: iOS Filter List
 ! Description: This filter list is for removing annoyances on the mobile version of websites.
-! Last Modified: 16 January 2022
+! Last Modified: 19 January 2022
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! General Web Browsing Filters
-#%#AG_onLoad(function(){(document.querySelector('meta[name="apple-itunes-app"]')||{remove:()=>0}).remove()});
-||adj.st
-||app.adjust.com
-||record.webpartners.co
+##head > meta[name="apple-itunes-app"]:remove()
 
 ! 9GAG
 9gag.com###jsid-app > div.drawer-layout:nth-child(3) > div.content-wrap:last-child > div:last-child > div > div.footer:last-child > div.download-app-container > a.download-app.yellow
 9gag.com###jsid-app > div:first-child > header.navbar > div.right.use-app:last-child
 9gag.com###stream-2 > div.post-signup-list-banner:nth-child(2)
+
+! Adjust
+||adj.st
+||app.adjust.com
 
 ! Bleacher Report
 syndication.bleacherreport.com###branch-banner
