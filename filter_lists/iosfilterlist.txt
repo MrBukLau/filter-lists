@@ -5,8 +5,8 @@
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
 ! Smart App Banners Removal Filters
-##head > meta[name="apple-itunes-app"]:remove()
-*##head > meta[name="apple-itunes-app"]:remove()
+!##head > meta[name="apple-itunes-app"]:remove()
+!*##head > meta[name="apple-itunes-app"]:remove()
 adguard.com,crunchyroll.com,fandom.com,funimation.com,github.com##head > meta[name="apple-itunes-app"]:remove()
 
 ! 9GAG
