@@ -1,6 +1,6 @@
 ! Title: iOS Filter List
 ! Description: This filter list is for removing annoyances on the mobile version of websites.
-! Last Modified: 19 January 2022
+! Last Modified: 20 January 2022
 ! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
 ! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
 
@@ -40,6 +40,9 @@ hotwire.com###root > div.page-home:nth-child(2) > div.rtb-container.pattern-gray
 hotwire.com##.app-download-banner
 hotwire.com##.hero-mobile-banner
 vrbo.com##div[class*="app-download-banner-box"]
+
+! Fandom
+fandom.com###article-featured-video-container
 
 ! FedEx
 fedex.com##fedex-smart-banner
