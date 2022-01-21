@@ -1,8 +1,7 @@
-! Title: Desktop Filter List
+! Title: MrBukLau's Desktop Filters
 ! Description: This filter list is for removing annoyances on the desktop version of websites.
-! Last Modified: 20 January 2022
-! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
-! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
+! Homepage: https://github.com/MrBukLau/filter-lists
+! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
 ! AnimePahe
 ||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
