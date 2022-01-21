@@ -1,8 +1,7 @@
-! Title: iOS Filter List
+! Title: MrBukLau's Mobile Filters
 ! Description: This filter list is for removing annoyances on the mobile version of websites.
-! Last Modified: 20 January 2022
-! License: https://github.com/MrBukLau/filter-lists-for-ublock-origin/blob/master/LICENSE
-! Homepage: https://github.com/MrBukLau/filter-lists-for-ublock-origin
+! Homepage: https://github.com/MrBukLau/filter-lists
+! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
 ! Smart App Banners Removal
 107ist.org,aa.com,adguard.com,aeromexico.com,airtransat.com,alaskaair.com,apple.com,bakersplus.com,bedbathandbeyond.com,bestbuy.com,bjs.com,booking.com,citymarket.com,copaair.com,costco.com,crunchyroll.com,deepl.com,dillons.com,dominos.com,emirates.com,fandom.com,flyfrontier.com,flytap.com,food4less.com,foodsco.net,foxnews.com,fredmeyer.com,frysfood.com,ft.com,funimation.com,github.com,google.*,harristeeter.com,ikea.com,jaycfoods.com,kingsoopers.com,kptv.com,kroger.com,lufthansa.com,nordstrom.com,nypost.com,papajohns.com,pay-less.com,qfc.com,ralphs.com,roblox.com,saksfifthavenue.com,singaporeair.com,smithsfoodanddrug.com,southwest.com,swiss.com,tacobell.com,target.com,thaiairways.com,trello.com,turkishairlines.com,twitch.tv,udemy.com,un.org,united.com,vitacost.com,vk.com,voanews.com,vrv.co,walmart.com,yahoo.com,yelp.com,zoom.us##head > meta[name="apple-itunes-app"]:remove()
