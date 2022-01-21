@@ -72,7 +72,7 @@ No further actions are necessary. After adding a filter list from this repositor
 |:----------------|:----------------|
 | **[Desktop][Desktop List]** <br> ([Subscribe][Desktop Subscription]) | **Description:** This filter list is for removing annoyances on the desktop version of websites. <br> **Key Filters:** <br> - Blur out episode screenshots on AnimePahe, Crunchyroll, and Funimation to avoid spoilers <br> - Remove the dark overlay when watching a video on Crunchyroll and Funimation <br> - Remove the play and pause buttons that pop up at the center of the screen when watching a video on Crunchyroll <br> - Remove the top-right corner watermarks on AnimePahe and Funimation <br> **Made for:** [uBlock Origin on Google Chrome][uBlock Origin Chrome Web Store Link]
 | **[Mobile][Mobile List]** <br> ([Subscribe][Mobile Subscription]) | **Description:** This filter list is for removing annoyances on the mobile version of websites. <br> **Key Filters:** <br> - Remove "Download the App" and "Open in App" buttons and overlays on various websites <br> - Remove pop-ups, banners, and other annoyances on Reddit <br> - Remove the NSFW prompt on Reddit to allow the viewing of NSFW pictures and videos <br> **Made for:** [AdGuard With a Paid Subscription on iOS][AdGuard App Store Link] or [AdGuard Pro on iOS][AdGuard Pro App Store Link]
-| **[Smart App Banner Removal][Smart App Banner Removal List]** <br> ([Subscribe][Smart App Banner Removal Subscription]) | **Description:** This filter list is for removing [Smart App Banners][Smart App Banners Link] on iOS. <br> **Made for:** [AdGuard With a Paid Subscription on iOS][AdGuard App Store Link] or [AdGuard Pro on iOS][AdGuard Pro App Store Link]
+| **[Smart App Banner Removal][Smart App Banner Removal List]** <br> ([Subscribe][Smart App Banner Removal Subscription]) | **Description:** This filter list is for removing [Smart App Banners][Smart App Banners Apple View Link] on iOS. <br> **Disclaimer:** These filters do not remove the [Smart App Banners][Smart App Banners Apple Open Link] that show up when you already have the application installed on your device. <br> **Information:** Here is a [link][Smart App Banners Apple Link] about Smart App Banners on iOS. <br> **Issues:** [Click Here][Smart App Banners Issues Link] <br> **Made for:** [AdGuard With a Paid Subscription on iOS][AdGuard App Store Link] or [AdGuard Pro on iOS][AdGuard Pro App Store Link]
 
 ## License
 [MIT](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE)
@@ -90,7 +90,10 @@ No further actions are necessary. After adding a filter list from this repositor
 [Smart App Banner Removal List]: https://github.com/MrBukLau/filter-lists/blob/master/filters/smartappbannerremovalfilters.txt
 
 <!-- Information Links -->
-[Smart App Banners Link]: https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners
+[Smart App Banners Apple Link]: https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners
+[Smart App Banners Apple Open Link]: https://docs-assets.developer.apple.com/published/c55cd28f16/rendered2x-1605721896.png
+[Smart App Banners Apple View Link]: https://docs-assets.developer.apple.com/published/20ab7d726b/rendered2x-1605721898.png
+[Smart App Banners Issues Link]: https://github.com/MrBukLau/filter-lists/issues/2
 [uBlock Origin Guide]: https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web
 
 <!-- Subscription Lists -->
