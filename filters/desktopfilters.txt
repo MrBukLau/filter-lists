@@ -81,6 +81,7 @@ itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget.widget
 
 ! NBAbite
+nbabite.com###nordd
 tinyurl.is##.splash.container:has-text(Have Your Ads Here)
 
 ! Online Audio Converter
