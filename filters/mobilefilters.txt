@@ -74,6 +74,9 @@ m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 ! LinkedIn
 linkedin.com##div[class*="apptivation-promo"]
 
+! Mozilla
+mozilla.org###firefox-app-store-banner
+
 ! PayPal
 paypal.com###PPAppDownloadBannerContainer
 
