@@ -1,0 +1,4 @@
+! Title: MrBukLau's Smart App Banner Removal Filters
+! Description: This filter list is for removing Smart App Banners on iOS.
+! Homepage: https://github.com/MrBukLau/filter-lists
+! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
