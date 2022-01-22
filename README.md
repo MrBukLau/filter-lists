@@ -52,7 +52,11 @@ This repository contains filter lists that can be added to content blockers, suc
 1. Download and install AdGuard from the App Store (Make sure to pay for a subscription or purchase the Pro version)
     - [AdGuard][AdGuard App Store Link] - Free With Optional Paid Subscription
     - [AdGuard Pro][AdGuard Pro App Store Link] - One-Time Purchase
-2. Open the AdGuard application to enable "Safari Protection" and "Advanced Protection" in the Protection section
+2. Open the AdGuard application and go to the Protection section
+    <br>
+    2a. Turn on "Safari Protection" by tapping the toggle button
+    <br>
+    2b. Turn on "Advanced Protection" by tapping the toggle button
 3. Close the AdGuard application and open the Settings application
 4. Click on the following options in the Settings application: `Safari > Extensions`
     <br>
@@ -62,7 +66,7 @@ This repository contains filter lists that can be added to content blockers, suc
 5. Close the Settings application and open the AdGuard application
 6. Click on the following options in the AdGuard application: `Protection > Safari protection > Filters > Custom`
     <br>
-    6a. Turn on the "Custom" section by tapping the toggle button at the top
+    6a. Turn on the use of "Custom" filters by tapping the toggle button
     <br>
     6b. Add a filter list from this repository to AdGuard by clicking on the "Add a filter" button, pasting the raw GitHub link from this repository into the "Filter URL" field, clicking the "Next" button, and clicking the "Add" button after reviewing the prompt to confirm that it is the correct filter list
 #### uBlock Origin on Google Chrome (Desktop)
@@ -74,9 +78,9 @@ No further actions are necessary. After adding a filter list from this repositor
 ## Available Filter Lists
 | **Filter List** | **Information** |
 |:----------------|:----------------|
-| **[Desktop][Desktop List]** <br> ([Subscribe][Desktop Subscription]) | **Description:** This filter list is for removing annoyances on the desktop version of websites. <br> **Key Filters:** <br> - Blur out episode screenshots on AnimePahe, Crunchyroll, and Funimation to avoid spoilers <br> - Remove the dark overlay when watching a video on Crunchyroll and Funimation <br> - Remove the play and pause buttons that pop up at the center of the screen when watching a video on Crunchyroll <br> - Remove the top-right corner watermarks on AnimePahe and Funimation <br> **Made for:** [uBlock Origin on Google Chrome][uBlock Origin Chrome Web Store Link]
-| **[Mobile][Mobile List]** <br> ([Subscribe][Mobile Subscription]) | **Description:** This filter list is for removing annoyances on the mobile version of websites. <br> **Key Filters:** <br> - Remove "Download the App" and "Open in App" buttons and overlays on various websites <br> - Remove pop-ups, banners, and other annoyances on Reddit <br> - Remove the NSFW prompt on Reddit to allow the viewing of NSFW pictures and videos <br> **Made for:** [AdGuard With a Paid Subscription on iOS][AdGuard App Store Link] or [AdGuard Pro on iOS][AdGuard Pro App Store Link]
-| **[Smart App Banner Removal][Smart App Banner Removal List]** <br> ([Subscribe][Smart App Banner Removal Subscription]) | **Description:** This filter list is for removing [Smart App Banners][Smart App Banners Apple View Link] on iOS. <br> **Disclaimer:** These filters do not remove the [Smart App Banners][Smart App Banners Apple Open Link] that show up when you already have the application installed on your device. <br> **Information:** Here is a [link][Smart App Banners Apple Link] about Smart App Banners on iOS. <br> **Issues:** [Click Here][Smart App Banners Issues Link] <br> **Made for:** [AdGuard With a Paid Subscription on iOS][AdGuard App Store Link] or [AdGuard Pro on iOS][AdGuard Pro App Store Link]
+| **[Desktop][Desktop List]** <br> ([Subscribe][Desktop Subscription]) | **Description:** This filter list is for removing annoyances on the desktop version of websites. <br> **Key Filters:** <br> - Blur out episode screenshots on AnimePahe, Crunchyroll, and Funimation to avoid spoilers <br> - Remove the dark overlay when watching a video on Crunchyroll and Funimation <br> - Remove the play and pause buttons that pop up at the center of the screen when watching a video on Crunchyroll <br> - Remove the top-right corner watermarks on AnimePahe and Funimation
+| **[Mobile][Mobile List]** <br> ([Subscribe][Mobile Subscription]) | **Description:** This filter list is for removing annoyances on the mobile version of websites. <br> **Key Filters:** <br> - Remove "Download the App" and "Open in App" buttons and overlays on various websites <br> - Remove pop-ups, banners, and other annoyances on Reddit <br> - Remove the NSFW prompt on Reddit to allow the viewing of NSFW pictures and videos
+| **[Smart App Banner Removal][Smart App Banner Removal List]** <br> ([Subscribe][Smart App Banner Removal Subscription]) | **Description:** This filter list is for removing [Smart App Banners][Smart App Banners Apple View Link] on iOS. <br> **Disclaimer:** These filters do not remove the [Smart App Banners][Smart App Banners Apple Open Link] that show up when you already have the application installed on your device. <br> **Information:** Here is a [link][Smart App Banners Apple Link] about Smart App Banners on iOS. <br> **Issues:** [Click Here][Smart App Banners Issues Link]
 
 ## License
 [MIT](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE)
