@@ -3,26 +3,5 @@
 ! Homepage: https://github.com/MrBukLau/filter-lists
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
-! Airliners
-aa.com,aeromexico.com,airchina.*,airtransat.com,alaskaair.com,copaair.com,emirates.com,flyfrontier.com,flytap.com,hawaiianairlines.com,lufthansa.com,singaporeair.com,southwest.com,swiss.com,thaiairways.com,turkishairlines.com,united.com##head > meta[name="apple-itunes-app"]:remove()
-
-! Entertainment
-crunchyroll.com,fandom.com,funimation.com,jango.com,roblox.com,shazam.com,vrv.co##head > meta[name="apple-itunes-app"]:remove()
-
-! Marketplaces
-axs.com,booking.com,loopnet.com,tickpick.com##head > meta[name="apple-itunes-app"]:remove()
-
-! News
-9news.com,abc11.com,cnbc.com,columbian.com,fansided.com,fox10tv.com,fox13news.com,fox19.com,fox26houston.com,foxnews.com,foxweather.com,ft.com,kbtx.com,kcci.com,kgw.com,khou.com,king5.com,kptv.com,kstp.com,ky3.com,marca.com,nbc12.com,nypost.com,vmagazine.com,voanews.com,wafb.com,waff.com,wbtv.com,wdsu.com,weatherbug.com,wistv.com,witn.com,wsmv.com##head > meta[name="apple-itunes-app"]:remove()
-
-! Organizations
-107ist.org,adguard.com,un.org##head > meta[name="apple-itunes-app"]:remove()
-
-! Restaurants
-applebees.com,bobevans.com,cheddars.com,dickeys.com,dominos.com,dunkindonuts.com,hungryhowies.com,ihop.com,jollibeefoods.com,outback.com,papajohns.com,sonicdrivein.com,tacobell.com##head > meta[name="apple-itunes-app"]:remove()
-
-! Retailers
-apple.com,bakersplus.com,bedbathandbeyond.com,bestbuy.com,bjs.com,citymarket.com,costco.com,dillons.com,food4less.com,foodsco.net,fredmeyer.com,freshdirect.com,frysfood.com,harristeeter.com,ikea.com,jaycfoods.com,kingsoopers.com,kroger.com,nordstrom.com,pay-less.com,qfc.com,ralphs.com,saksfifthavenue.com,smithsfoodanddrug.com,target.com,vitacost.com,walmart.com##head > meta[name="apple-itunes-app"]:remove()
-
-! Social
-deepl.com,duolingo.com,github.com,google.*,resy.com,trello.com,twitch.tv,udemy.com,vk.com,yahoo.com,yelp.com,zoom.us##head > meta[name="apple-itunes-app"]:remove()
+! Report missing websites at https://github.com/MrBukLau/filter-lists/issues/2
+107ist.org,9news.com,aa.com,abc11.com,adguard.com,aeromexico.com,airchina.*,airtransat.com,alaskaair.com,apple.com,applebees.com,axs.com,bakersplus.com,bedbathandbeyond.com,bestbuy.com,bjs.com,bobevans.com,booking.com,cheddars.com,citymarket.com,cnbc.com,columbian.com,copaair.com,costco.com,crunchyroll.com,deepl.com,dickeys.com,dillons.com,dominos.com,dunkindonuts.com,duolingo.com,emirates.com,fandom.com,fansided.com,flyfrontier.com,flytap.com,food4less.com,foodsco.net,fox10tv.com,fox13news.com,fox19.com,fox26houston.com,foxnews.com,foxweather.com,fredmeyer.com,freshdirect.com,frysfood.com,ft.com,funimation.com,github.com,google.*,harristeeter.com,hawaiianairlines.com,hungryhowies.com,ihop.com,ikea.com,jango.com,jaycfoods.com,jollibeefoods.com,kbtx.com,kcci.com,kgw.com,khou.com,king5.com,kingsoopers.com,kptv.com,kroger.com,kstp.com,ky3.com,loopnet.com,lufthansa.com,marca.com,nbc12.com,nordstrom.com,nypost.com,outback.com,papajohns.com,pay-less.com,qfc.com,ralphs.com,resy.com,roblox.com,saksfifthavenue.com,shazam.com,singaporeair.com,smithsfoodanddrug.com,sonicdrivein.com,southwest.com,swiss.com,tacobell.com,target.com,thaiairways.com,tickpick.com,trello.com,turkishairlines.com,twitch.tv,udemy.com,un.org,united.com,vitacost.com,vk.com,vmagazine.com,voanews.com,vrv.co,wafb.com,waff.com,walmart.com,wbtv.com,wdsu.com,weatherbug.com,wistv.com,witn.com,wsmv.com,yahoo.com,yelp.com,zoom.us##head > meta[name="apple-itunes-app"]:remove()
