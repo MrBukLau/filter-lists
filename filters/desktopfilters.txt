@@ -81,7 +81,9 @@ itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget.widget
 
 ! NBA Streams
-nbabite.com,rnbastreams.com###nordd
+crackstreams.gg,nbabite.com,rnbastreams.com###nordd
+nbabite.com##.post_tags
+rnbastreams.com###event-tags
 tinyurl.is##.splash.container:has-text(Have Your Ads Here)
 
 ! Online Audio Converter
