@@ -54,11 +54,7 @@ crunchyroll.com##img[class="welcome-media-mug"]:style(filter: blur(16px) !import
 crunchyroll.com##li.large-margin-bottom:has-text(Try Free Trial)
 
 ! Discord
-discord.com##.colorDefault-22HBa0.notice-3bPHh-
-discord.com##.invite-OjTXrW.channelNotice-1-XFjC
-discord.com##.padded-302COx.outer-1AjyKL.card-2qZngs
-discord.com##.quickswitcher-35bYg4.channelNotice-1-XFjC
-discord.com##[class^="layer-v9HyYc"]:has-text(New User Profiles!)
+discord.com##div[class*="channelNotice"]
 
 ! Fandom
 fandom.com##div[id="SurveyModule"]
