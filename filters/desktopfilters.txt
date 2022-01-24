@@ -22,8 +22,13 @@ music.apple.com##.locale-switcher-banner.locale-switcher--amweb
 music.apple.com##[aria-label="Subscription" i]
 
 ! CBS Sports
+cbssports.com##.ticket-tab
+cbssports.com##div[class*="GamblingPartnerAd-image"]
 cbssports.com##div[class*="taboola-recommends"]
 !#if !env_mobile
+cbssports.com##.hq-anchor-container:remove()
+cbssports.com##.sportsline-td
+cbssports.com##.tickets-td
 cbssports.com##div[class="GamblingPartnerAd"]
 cbssports.com##div[id="hud-container"][class*="desktop-view"]:style(top: 0px !important;)
 cbssports.com##div[id="mantle_skin"][data-component="headerSticky"]:style(margin: 110px 0 0 0 !important;)
