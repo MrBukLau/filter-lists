@@ -86,6 +86,10 @@ hikarinoakari.com##.thanks_button_div
 itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget.widget
 
+! MyAnimeList
+myanimelist.net##.ad-sticky-wrapper
+myanimelist.net##.pda_top
+
 ! NBA Streams
 crackstreams.gg,nbabite.com,rnbastreams.com###nordd
 nbabite.com##.post_tags
