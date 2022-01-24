@@ -28,7 +28,6 @@ cbsnews.com###smart-banner-download
 
 ! CBS Sports
 cbssports.com###skybox-top-wrapper
-cbssports.com##.not-article
 
 ! Cleveland Clinic
 my.clevelandclinic.org##.ad-mobile--sticky
