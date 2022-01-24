@@ -62,6 +62,9 @@ google.*##.rKJOcDNwrHj__pb-dfr.rKJOcDNwrHj__pb-s
 google.*##.Vxqcxf
 google.*##.zU3lCe
 
+! Gopuff
+gopuff.com##.jr-smart-banner.iOS
+
 ! Imgur
 m.imgur.com##.Gallery-moreOnImgur
 m.imgur.com##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
