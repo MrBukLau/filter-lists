@@ -56,6 +56,11 @@ foxnews.com###toapp
 ! Funimation
 funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
 
+! Genius
+genius.com##div[class*="AppleMusicPlayer__PositioningContainer"]
+genius.com##div[class*="InreadAdmobile__Container"]
+genius.com##div[class*="StickyBannerAd__Container"]
+
 ! Google
 google.*###stUuGf
 google.*##.bB4gff
