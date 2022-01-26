@@ -20,6 +20,9 @@ dailymotion.com##.np_Darken
 music.apple.com##.hydrated.banner-upsell
 music.apple.com##.locale-switcher-banner.locale-switcher--amweb
 music.apple.com##[aria-label="Subscription" i]
+!#if !env_mobile
+||music.apple.com$removeparam=app
+!#endif
 
 ! CBS Sports
 cbssports.com##.ticket-tab
