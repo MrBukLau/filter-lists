@@ -119,6 +119,9 @@ old.reddit.com##.read-next-container
 ! Seedr
 seedr.cc##div[class*="joyride-tip-guide"]
 
+! SignUpGenius
+signupgenius.com##.sug-notice--privacy
+
 ! Spotify
 open.spotify.com##.GenericModal__overlay--afterOpen.GenericModal__overlay--animated.GenericModal__overlay
 open.spotify.com##.Upqw01TOXETOmR5Td7Dj.X7lQWw2Ly_RZVPEFj2QY.Qt5xfSWikz6CLU8Vobxs:has-text(Upgrade)
