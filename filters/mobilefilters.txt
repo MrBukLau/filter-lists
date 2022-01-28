@@ -131,9 +131,6 @@ reddit.com##xpromo-nsfw-blocking-container[slot="blurred"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
 
-! SignUpGenius
-signupgenius.com##.sug-notice--privacy
-
 ! Spotify
 open.spotify.com##.tippy-box.tippy-now-playing-bar
 open.spotify.com##button[class*="LoginTopBar__OpenAppButton"]
