@@ -3,6 +3,9 @@
 ! Homepage: https://github.com/MrBukLau/filter-lists
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
+! 1337x
+1337x.*,x1337x.*##[href="/vpnd-stoptracking"]
+
 ! AnimePahe
 ||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
 animepahe.*##.alert-danger.alert
