@@ -109,7 +109,7 @@ myanimelist.net##.pda_top
 crackstreams.gg,nbabite.com,rnbastreams.com###nordd
 nbabite.com##.post_tags
 rnbastreams.com###event-tags
-sportsnest.co##div[id="ad"]:remove()
+sportsnest.co##div[id="ad"]
 tinyurl.is##.splash.container:has-text(Have Your Ads Here)
 
 ! Online Audio Converter
