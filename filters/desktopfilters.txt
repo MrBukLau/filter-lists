@@ -113,6 +113,7 @@ sportsnest.co##div[id="ad"]
 tinyurl.is##.splash.container:has-text(Have Your Ads Here)
 !#if ext_ublock
 tinyurl.is##+js(rc, disabled, a.btn, stay)
+tinyurl.is##a[id="skip-btn"]:style(-webkit-border-radius: 100px !important;)
 tinyurl.is##a[id="skip-btn"]:style(box-shadow: none !important;)
 !#endif
 
