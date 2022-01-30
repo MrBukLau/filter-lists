@@ -91,12 +91,23 @@ google.*##[id^="eob_"]
 ! Hikarinoakariost
 hikarinoakari.com###ays_tooltip
 hikarinoakari.com##.td-container-wrap.td-header-top-menu-full
+hikarinoakari.com##.td_block_related_posts
 hikarinoakari.com##.tdc-content-wrap
 hikarinoakari.com##.thanks_button_div
+hikarinoakari.com##.widget_text.text-42.widget.td_block_template_1
 
 ! iTD Music
 itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget.widget
+
+! Music Clutter
+musiclutter.xyz###footer-wrapper > .row
+musiclutter.xyz###recent-boxes
+musiclutter.xyz###recent-boxes2
+musiclutter.xyz###related-wrap
+musiclutter.xyz##.featured
+musiclutter.xyz##.FeaturedPost
+musiclutter.xyz##.ib-nav
 
 ! MyAnimeList
 myanimelist.net##.ad-sticky-wrapper
@@ -110,6 +121,7 @@ crackstreams.gg,nbabite.com,rnbastreams.com###nordd
 nbabite.com##.post_tags
 rnbastreams.com###event-tags
 sportsnest.co##div[id="ad"]
+sportsurge.net##.HeaderUyari
 tinyurl.is##.splash.container:has-text(Have Your Ads Here)
 !#if ext_ublock
 tinyurl.is##+js(rc, disabled, a.btn, stay)
