@@ -79,6 +79,8 @@ funimation.com##.home-subscription-banner
 funimation.com##.meta-overlay:style(background-image: none !important;)
 funimation.com##.v-dialog__content
 funimation.com##a[class*="meta-overlay__back-btn"]
+funimation.com##div[class="v-image__image v-image__image--cover"]:style(background-image: none !important;)
+funimation.com##div[class="v-responsive__sizer"]:style(padding-bottom: 0% !important;)
 funimation.com##div[data-test="episode-card__key-art"]:style(filter: blur(16px) !important;)
 funimation.com##i[class*="meta-overlay__funi-logo"]
 funimation.com##ul[class*="meta-overlay__data-block"]
