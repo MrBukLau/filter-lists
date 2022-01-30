@@ -111,13 +111,6 @@ nbabite.com##.post_tags
 rnbastreams.com###event-tags
 sportsnest.co##div[id="ad"]
 tinyurl.is##.splash.container:has-text(Have Your Ads Here)
-!#if adguard
-tinyurl.is##a[id="skip-btn"]:style(background-image: -webkit-linear-gradient(45deg, #9C27B0 0%, #2148b1 100%) !important;)
-tinyurl.is#%#//scriptlet('remove-attr', 'class', 'a.btn', 'stay')
-!#endif
-!#if env_mobile
-tinyurl.is##.navbar-header
-!#endif
 !#if ext_ublock
 tinyurl.is##+js(ra, class, a.btn, stay)
 tinyurl.is##a[id="skip-btn"]:style(-webkit-border-radius: 100px !important;)
