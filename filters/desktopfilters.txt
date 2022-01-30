@@ -113,11 +113,11 @@ tinyurl.is##.splash.container:has-text(Have Your Ads Here)
 online-audio-converter.com###allapps-extension-popup
 
 ! Reddit
-old.reddit.com###redesign-beta-optin-btn
-old.reddit.com##.commentsignupbar.infobar
-old.reddit.com##.listingsignupbar.infobar
-old.reddit.com##.pinnable-content.pinned
-old.reddit.com##.read-next-container
+hd.reddit.com,np.reddit.com,old.reddit.com###redesign-beta-optin-btn
+hd.reddit.com,np.reddit.com,old.reddit.com##.commentsignupbar.infobar
+hd.reddit.com,np.reddit.com,old.reddit.com##.listingsignupbar.infobar
+hd.reddit.com,np.reddit.com,old.reddit.com##.pinnable-content.pinned
+hd.reddit.com,np.reddit.com,old.reddit.com##.read-next-container
 
 ! Seedr
 seedr.cc##div[class*="joyride-tip-guide"]
