@@ -92,9 +92,8 @@ mozilla.org###firefox-app-store-banner
 ! NBA Streams
 !#if adguard_app_ios
 tinyurl.is##.navbar-header
-tinyurl.is##a[id="skip-btn"]:style(background-image: -webkit-linear-gradient(45deg, #9C27B0 0%, #2148b1 100%) !important;)
-tinyurl.is##a[id="skip-btn"]:style(text-align: center !important;)
-tinyurl.is#%#//scriptlet('remove-attr', 'class', 'a.btn', 'stay')
+tinyurl.is##a[id="skip-btn"]:style(box-shadow: none !important;)
+tinyurl.is#%#//scriptlet('remove-class', 'disabled', 'a.btn', 'stay')
 !#endif
 
 ! PayPal
