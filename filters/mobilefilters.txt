@@ -12,6 +12,7 @@
 ||adj.st
 ||app.adjust.com
 ||app.appsflyer.com
+||mcaril.com
 
 ! Bleacher Report
 bleacherreport.com##div[class*="appInstallButton"]
