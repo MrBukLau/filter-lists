@@ -36,7 +36,6 @@ cbssports.com##.hq-anchor-container:remove()
 cbssports.com##.sportsline-td
 cbssports.com##.tickets-td
 cbssports.com##div[id="hud-container"][class*="desktop-view"]:style(top: 0px !important;)
-cbssports.com##div[id="mantle_skin"][data-component="headerSticky"]:style(margin: 110px 0 0 0 !important;)
 cbssports.com##div[id="sharethrough-ad"]
 !#endif
 
@@ -98,6 +97,9 @@ itdmusics.com##.itdmu-widget.widget
 
 ! MyAnimeList
 myanimelist.net##.ad-sticky-wrapper
+myanimelist.net##.border_top
+myanimelist.net##.left.mxj.widget
+myanimelist.net##.pb24:has-text(MALxJapan):remove()
 myanimelist.net##.pda_top
 
 ! NBA Streams
