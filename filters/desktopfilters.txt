@@ -123,6 +123,8 @@ myanimelist.net##.pb24:has-text(MALxJapan):remove()
 myanimelist.net##.pda_top
 
 ! NBA Streams
+blacktiesports.net##[href="https://reddit.nflbite.com/"]
+blacktiesports.net##div[class*="bookmark"]
 crackstreams.gg,nbabite.com,rnbastreams.com###nordd
 nbabite.com##.post_tags
 rnbastreams.com###event-tags
