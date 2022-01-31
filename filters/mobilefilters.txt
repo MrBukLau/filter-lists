@@ -94,8 +94,7 @@ mozilla.org###firefox-app-store-banner
 
 ! NBA Streams
 !#if adguard_app_ios
-tinyurl.is##.navbar-header
-tinyurl.is##a[id="skip-btn"]:style(box-shadow: none !important;)
+tinyurl.is##.navbar-header:has-text(Your Link is loading)
 tinyurl.is#%#//scriptlet('remove-class', 'disabled', 'a.btn', 'stay')
 !#endif
 
