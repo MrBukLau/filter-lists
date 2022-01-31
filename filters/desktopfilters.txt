@@ -100,6 +100,12 @@ hikarinoakari.com##.widget_text.text-42.widget.td_block_template_1
 itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget.widget
 
+! KonosubaManga
+!#if adguard
+konosubamanga.com#%#//scriptlet('abort-current-inline-script', 'decodeURIComponent', 'ai_')
+konosubamanga.com#%#//scriptlet('prevent-setInterval', 'visibility', '1000')
+!#endif
+
 ! Music Clutter
 musiclutter.xyz###footer-wrapper > .row
 musiclutter.xyz###recent-boxes
