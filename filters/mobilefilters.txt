@@ -83,9 +83,6 @@ m.imgur.com##.Gallery-moreOnImgur
 m.imgur.com##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
 m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 
-! KonosubaManga
-||konosubamanga.com^$inline-script
-
 ! LinkedIn
 linkedin.com##div[class*="apptivation-promo"]
 
@@ -94,7 +91,7 @@ mozilla.org###firefox-app-store-banner
 
 ! NBA Streams
 !#if adguard_app_ios
-tinyurl.is##.navbar-header:has-text(Your Link is loading)
+tinyurl.is##.navbar-header:has-text(Your Link is loading):remove()
 tinyurl.is#%#//scriptlet('remove-class', 'disabled', 'a.btn', 'stay')
 !#endif
 
