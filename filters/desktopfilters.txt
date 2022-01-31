@@ -131,7 +131,8 @@ tinyurl.is##+js(rc, disabled, a.btn, stay)
 tinyurl.is##.navbar-header
 tinyurl.is##a[id="skip-btn"]:style(-webkit-border-radius: 100px !important;)
 tinyurl.is##a[id="skip-btn"]:style(box-shadow: none !important;)
-tinyurl.is##a[id="skip-btn"]:style(padding: 8px 500px !important;)
+tinyurl.is##li[style="margin-bottom: 5px;"]:style(float: none !important;)
+tinyurl.is##ul[class="nav navbar-nav navbar-right"]:style(float: none !important;)
 !#endif
 !#endif
 
