@@ -133,7 +133,7 @@ tinyurl.is##.splash.container:has-text(Have Your Ads Here)
 !#if ext_ublock
 $removeparam=sport
 tinyurl.is##+js(rc, disabled, a.btn, stay)
-tinyurl.is##.navbar-header:has-text(Your Link is loading)
+tinyurl.is##.navbar-header:has-text(Your Link is loading):remove()
 tinyurl.is##a[id="skip-btn"]:has-text(Click Here to Watch):style(-webkit-border-radius: 100px !important;)
 tinyurl.is##a[id="skip-btn"]:has-text(Click Here to Watch):style(box-shadow: none !important;)
 tinyurl.is##li[style="margin-bottom: 5px;"]:has-text(Click Here to Watch):style(float: none !important;)
