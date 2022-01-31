@@ -163,7 +163,7 @@ m.yelp.com##a[class*="link__"]:has-text(Open in App)
 m.yelp.com##div[class*="2BTbv"]:has-text(Open in App)
 m.yelp.com##div[class*="banner__"]:has-text(Yelp for iPhone)
 m.yelp.com##div[class*="cta-menubar-pitch_left-icons"]:has-text(Open in App)
-m.yelp.com##div[class*="u-space-r2"]:has-text(Open in the Yelp App)
+m.yelp.com##div[class*="u-space-"]:has-text(Open in the Yelp App)
 
 ! Zillow
 zillow.com###local-app-upsell
