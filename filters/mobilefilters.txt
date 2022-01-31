@@ -83,6 +83,9 @@ m.imgur.com##.Gallery-moreOnImgur
 m.imgur.com##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
 m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 
+! KonosubaManga
+||konosubamanga.com^$inline-script
+
 ! LinkedIn
 linkedin.com##div[class*="apptivation-promo"]
 
