@@ -118,6 +118,7 @@ reddit.com##.previewdrawer
 reddit.com##.prompt
 reddit.com##.scroll-disabled:style(overflow: auto !important; position: static !important;)
 reddit.com##.scroll-is-blocked:style(overflow: auto !important;)
+reddit.com##.sidebar-grid:style(filter: none !important;)
 reddit.com##.topics-links-block
 reddit.com##.topnav__promobutton
 reddit.com##.topposts
