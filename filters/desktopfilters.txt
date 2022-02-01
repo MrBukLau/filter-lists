@@ -145,6 +145,7 @@ tinyurl.is##ul[class="nav navbar-nav navbar-right"]:has-text(Click Here to Watch
 
 ! Online Audio Converter
 online-audio-converter.com###allapps-extension-popup
+online-audio-converter.com##.like_row
 
 ! Reddit
 hd.reddit.com,np.reddit.com,old.reddit.com###redesign-beta-optin-btn
