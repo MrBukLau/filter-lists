@@ -29,8 +29,8 @@ priceline.com###app-download-banner
 cbsnews.com###smart-banner-download
 
 ! CBS Sports
+cbssports.com###cbs-site-footer
 cbssports.com###skybox-top-wrapper
-cbssports.com##.cbs-site-footer
 
 ! Cleveland Clinic
 my.clevelandclinic.org##.ad-mobile--sticky
