@@ -6,6 +6,13 @@
 ! 1337x
 1337x.*,x1337x.*##[href="/vpnd-stoptracking"]
 
+! Amazon
+||adtago.s3.amazonaws.com^
+||advertising-api-eu.amazon.com^
+||advice-ads.s3.amazonaws.com^
+||affiliationjs.s3.amazonaws.com^
+||analyticsengine.s3.amazonaws.com^
+
 ! AnimePahe
 ||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
 animepahe.*##.alert-danger.alert
@@ -66,6 +73,9 @@ crunchyroll.com##li.large-margin-bottom:has-text(Try Free Trial)
 
 ! Discord
 discord.com##div[class*="channelNotice"]
+
+! Facebook
+||an.facebook.com^
 
 ! Fandom
 fandom.com##div[id="SurveyModule"]
@@ -155,7 +165,12 @@ tinyurl.is##ul[class="nav navbar-nav navbar-right"]:has-text(Click Here to Watch
 online-audio-converter.com###allapps-extension-popup
 online-audio-converter.com##.like_row
 
+! Pinterest
+||ads-dev.pinterest.com^
+||widgets.pinterest.com^
+
 ! Reddit
+||d.reddit.com^
 hd.reddit.com,np.reddit.com,old.reddit.com###redesign-beta-optin-btn
 hd.reddit.com,np.reddit.com,old.reddit.com##.commentsignupbar.infobar
 hd.reddit.com,np.reddit.com,old.reddit.com##.listingsignupbar.infobar
@@ -164,6 +179,9 @@ hd.reddit.com,np.reddit.com,old.reddit.com##.read-next-container
 
 ! Seedr
 seedr.cc##div[class*="joyride-tip-guide"]
+
+! Sentry
+||app.getsentry.com^
 
 ! SignUpGenius
 signupgenius.com##.sug-notice--privacy
@@ -175,6 +193,9 @@ open.spotify.com##[class^="link-subtle"]:has-text(Install App)
 open.spotify.com##[class^="Root__now-playing-bar"]:has-text(Preview of Spotify)
 open.spotify.com##section[class="evYs3tmO5rBqdxPWnIMP QyANtc_r7ff_tqrf5Bvc"]:has-text(More by)
 open.spotify.com#@#div > div[aria-live="polite"]
+
+! Twitter
+||advertising.twitter.com^
 
 ! YouTube
 youtube-nocookie.com##.ytp-show-tiles.ytp-endscreen-paginate.videowall-endscreen.ytp-player-content.html5-endscreen
