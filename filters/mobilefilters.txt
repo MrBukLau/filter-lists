@@ -9,10 +9,10 @@
 9gag.com###stream-2 > div.post-signup-list-banner:nth-child(2)
 
 ! App Store
-||adj.st
-||app.adjust.com
-||app.appsflyer.com
-||mcaril.com
+||adj.st^
+||app.adjust.com^
+||app.appsflyer.com^
+||mcaril.com^
 
 ! Bleacher Report
 bleacherreport.com##div[class*="appInstallButton"]
