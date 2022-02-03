@@ -35,7 +35,14 @@ if (document.location.href.includes("www.reddit.com") && !document.location.href
 
 /// tinyurl-is-bypasser.js
 /// alias tuib.js
-// Based on: https://greasyfork.org/en/discussions/development/55607-help-i-try-to-make-a-userscript-that-automatically-click-on-a-button-when-the-button-show-up
-if (document.location.href.includes("tinyurl.is")) {
-    document.querySelector("a[id='skip-btn']").click();
-}
+// Based on: https://stackoverflow.com/questions/6990231/how-do-i-make-greasemonkey-click-a-link-that-has-specific-text
+(function() {
+    window.addEventListener('load', function() {
+        if (document.location.href.includes("tinyurl.is")) {
+            var targetLink = $("a:contains('Click Here to Watch')");
+            if (targetLink && targetLink.length) {
+                window.location.href = targetLink[0].href;
+            }
+        }
+    })
+})()
