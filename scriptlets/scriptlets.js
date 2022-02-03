@@ -29,7 +29,7 @@ if (document.location.href.includes("music.apple.com")) {
 /// old-reddit-redirection.js
 /// alias orr.js
 // Based on: https://greasyfork.org/en/scripts/44669-bring-back-old-reddit
-if (!document.location.href.includes("www.reddit.com/poll/")) {
+if (document.location.href.includes("www.reddit.com") && !document.location.href.includes("www.reddit.com/poll")) {
     window.location.replace("https://old.reddit.com" + window.location.pathname + window.location.search);
 }
 
