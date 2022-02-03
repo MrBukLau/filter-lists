@@ -1,0 +1,11 @@
+! Title: MrBukLau's Scriptlet Filters
+! Description: This filter list is for using MrBukLau's scriptlets in uBlock Origin.
+! Homepage: https://github.com/MrBukLau/filter-lists
+! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
+
+! Apple Music
+music.apple.com##+js(amaaraet)
+mzstatic.com##+js(amaaraet)
+
+! Reddit
+www.reddit.com##+js(orr)
