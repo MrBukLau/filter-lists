@@ -32,3 +32,13 @@ if (document.location.href.includes("music.apple.com")) {
 if (!document.location.href.includes("www.reddit.com/poll/")) {
     window.location.replace("https://old.reddit.com" + window.location.pathname + window.location.search);
 }
+
+/// tinyurl-is-bypasser.js
+/// alias tuib.js
+// Based on: https://stackoverflow.com/questions/6990231/how-do-i-make-greasemonkey-click-a-link-that-has-specific-text
+if (document.location.href.includes("tinyurl.is")) {
+    var targetLink = $("a:contains('Click Here to Watch')");
+    if (targetLink && targetLink.length) {
+        window.location.href = targetLink[0].href;
+    }
+}
