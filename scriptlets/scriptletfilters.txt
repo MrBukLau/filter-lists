@@ -9,3 +9,6 @@ mzstatic.com##+js(amaaraet)
 
 ! Reddit
 www.reddit.com##+js(orr)
+
+! Tinyurl.is
+tinyurl.is##+js(tuib)
