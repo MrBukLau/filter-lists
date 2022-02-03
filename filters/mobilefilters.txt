@@ -92,6 +92,7 @@ mozilla.org###firefox-app-store-banner
 
 ! MyAnimeList
 myanimelist.net##.mxj
+myanimelist.net##a[class="btn-forum-manga-store"]
 myanimelist.net##div[class="header2 ac po-r"]:has-text(MALxJapan)
 myanimelist.net##div[class="slider-outer anime-detail"]
 myanimelist.net##div[class="slider-outer manga-detail"]
@@ -101,6 +102,7 @@ myanimelist.net##h2[class="anime-detail head slider"]:has-text(Anime)
 myanimelist.net##h2[class="header3 pt16 pb16 mb8"]:has-text(Manga Store)
 myanimelist.net##h3[class="header3 pb12"]:has-text(MALxJapan)
 myanimelist.net##h3[class="header3 pt16 pb16 mb8"]:has-text(Manga Store)
+myanimelist.net##h3[class="header3 pt24 pb12 mt24 mb8"]:has-text(Manga Store)
 myanimelist.net##h3[class="manga-detail head slider mt12"]:has-text(More Manga Suggestions)
 
 ! NBA Streams
