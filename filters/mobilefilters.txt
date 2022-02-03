@@ -94,9 +94,8 @@ mozilla.org###firefox-app-store-banner
 myanimelist.net##.mxj
 myanimelist.net##div[class="header2 ac po-r"]:has-text(MALxJapan)
 myanimelist.net##div[class="slider-outer anime-detail"]
+myanimelist.net##div[class="slider-outer manga-detail"]
 myanimelist.net##div[class="slider-wrap"]:has-text(Preview)
-myanimelist.net##div[id="broadcast-block"]
-myanimelist.net##div[slider-outer manga-detail]
 myanimelist.net##h2[class="anime-detail head slider mt12"]:has-text(More Anime Suggestions)
 myanimelist.net##h2[class="anime-detail head slider"]:has-text(Anime)
 myanimelist.net##h2[class="header3 pt16 pb16 mb8"]:has-text(Manga Store)
