@@ -80,6 +80,7 @@ No further actions are necessary. After adding a filter list from this repositor
 |:----------------|:----------------|
 | **[Desktop][Desktop List]** <br> ([Subscribe][Desktop Subscription]) | **Description:** This filter list is for removing annoyances on the desktop version of websites. <br> **Disclaimer:** These filters were only tested on Google Chrome, which means that they may or may not work on other web browsers. <br> **Key Filters:** <br> - Blur out episode screenshots on AnimePahe, Crunchyroll, and Funimation to avoid spoilers <br> - Remove the dark overlay when watching a video on Crunchyroll and Funimation <br> - Remove the play/pause buttons that pop up at the center of the screen when watching a video on AnimePahe and Crunchyroll <br> - Remove the top-right corner watermarks on AnimePahe and Funimation
 | **[Mobile][Mobile List]** <br> ([Subscribe][Mobile Subscription]) | **Description:** This filter list is for removing annoyances on the mobile version of websites. <br> **Disclaimer:** These filters were only tested on Safari for iOS, which means that they may or may not work on other web browsers and operating systems. <br> **Key Filters:** <br> - Prevent infinite scrolling on Imgur's mobile website <br> - Remove "Download the App" overlays and "Open in App" buttons on the mobile version of various websites <br> - Remove pop-ups, banners, and other annoyances on Reddit's mobile website <br> - Remove the NSFW prompt on Reddit's mobile website to allow for the viewing of NSFW pictures and videos
+| **[Scriptlet][Scriptlet List]** <br> ([Subscribe][Scriptlet Subscription]) | **Description:** This filter list is for using [MrBukLau's Scriptlets][Scriptlet Link] in [uBlock Origin][uBlock Origin GitHub Link]. <br> **Disclaimer:** These filters were only tested on Google Chrome, which means that they may or may not work on other web browsers. <br> **Key Filters:** <br> - Change the image format and resolution for album artworks on Apple Music <br> - Redirect Reddit links to Old Reddit <br> - Translate everything to English on Apple Music
 | **[Smart App Banner Removal][Smart App Banner Removal List]** <br> ([Subscribe][Smart App Banner Removal Subscription]) | **Description:** This filter list is for removing [Smart App Banners][Smart App Banners Apple View Link] on iOS. <br> **Disclaimer:** These filters do not remove the [Smart App Banners][Smart App Banners Apple Open Link] that show up when you already have the application installed on your device. To learn more about Smart App Banners on iOS, click on this [link][Smart App Banners Apple Link]. <br> **Issues:** [Click Here][Smart App Banners Issues Link]
 
 ## License
@@ -95,9 +96,11 @@ No further actions are necessary. After adding a filter list from this repositor
 <!-- Filter Lists -->
 [Desktop List]: https://github.com/MrBukLau/filter-lists/blob/master/filters/desktopfilters.txt
 [Mobile List]: https://github.com/MrBukLau/filter-lists/blob/master/filters/mobilefilters.txt
+[Scriptlet List]: https://github.com/MrBukLau/filter-lists/blob/master/scriptlets/scriptletfilters.txt
 [Smart App Banner Removal List]: https://github.com/MrBukLau/filter-lists/blob/master/filters/smartappbannerremovalfilters.txt
 
 <!-- Information Links -->
+[Scriptlet Link]: https://github.com/MrBukLau/filter-lists/blob/master/scriptlets/scriptlets.js
 [Smart App Banners Apple Link]: https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners
 [Smart App Banners Apple Open Link]: https://docs-assets.developer.apple.com/published/c55cd28f16/rendered2x-1605721896.png
 [Smart App Banners Apple View Link]: https://docs-assets.developer.apple.com/published/20ab7d726b/rendered2x-1605721898.png
@@ -107,4 +110,5 @@ No further actions are necessary. After adding a filter list from this repositor
 <!-- Subscription Lists -->
 [Desktop Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists/raw/master/filters/desktopfilters.txt&title=MrBukLau%27s%20Desktop%20Filters
 [Mobile Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists/raw/master/filters/mobilefilters.txt&title=MrBukLau%27s%20Mobile%20Filters
+[Scriptlet Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists/raw/master/scriptlets/scriptletfilters.txt&title=MrBukLau%27s%20Scriptlet%20Filters
 [Smart App Banner Removal Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists/raw/master/filters/smartappbannerremovalfilters.txt&title=MrBukLau%27s%20Smart%20App%20Banner%20Removal%20Filters
