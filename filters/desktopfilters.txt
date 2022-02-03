@@ -139,6 +139,7 @@ myanimelist.net##.border_top
 myanimelist.net##.left.mxj.widget
 myanimelist.net##.pb24:has-text(MALxJapan):remove()
 myanimelist.net##.pda_top
+myanimelist.net##div[id="broadcast-block"]
 myanimelist.net##span[class*="button_pin"]
 
 ! NBA Streams
