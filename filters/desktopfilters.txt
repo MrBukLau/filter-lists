@@ -136,6 +136,7 @@ musiclutter.xyz##.ib-nav
 ! MyAnimeList
 myanimelist.net##.ad-sticky-wrapper
 myanimelist.net##.border_top
+myanimelist.net##.footer-ranking
 myanimelist.net##.left.mxj.widget
 myanimelist.net##.pb24:has-text(MALxJapan):remove()
 myanimelist.net##.pda_top
