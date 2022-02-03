@@ -1,3 +1,5 @@
+// MrBukLau's Scriptlets
+
 /// apple-music-album-artwork-resizer-and-english-translation.js
 /// alias amaaraet.js
 // Based on: https://github.com/MrBukLau/userscripts/blob/master/javascripts/apple-music-album-artwork-resizer-and-english-translation.user.js
