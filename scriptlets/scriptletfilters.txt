@@ -1,5 +1,5 @@
 ! Title: MrBukLau's Scriptlet Filters
-! Description: This filter list is for using MrBukLau's scriptlets in uBlock Origin.
+! Description: This filter list is for using MrBukLau's Scriptlets in uBlock Origin.
 ! Homepage: https://github.com/MrBukLau/filter-lists
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
