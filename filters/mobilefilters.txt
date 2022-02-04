@@ -149,6 +149,7 @@ reddit.com##.xpromopopup
 reddit.com##[data-testid="bottom-cell-wrapper"]
 reddit.com##article[style*="z-index: 1;"]
 reddit.com##button[class="action last"]
+reddit.com##input[placeholder="Search Reddit"][type="search"]:style(color: #000 !important;)
 reddit.com##shreddit-comments-page-ad
 reddit.com##shreddit-experience-tree
 reddit.com##shreddit-post[view-context="ListingBelowLinkedPosts"]
