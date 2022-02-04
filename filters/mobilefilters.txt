@@ -32,9 +32,6 @@ cbsnews.com###smart-banner-download
 cbssports.com###cbs-site-footer
 cbssports.com###skybox-top-wrapper
 
-! Cleveland Clinic
-my.clevelandclinic.org##.ad-mobile--sticky
-
 ! Craigslist
 craigslist.org##.tryapp
 
