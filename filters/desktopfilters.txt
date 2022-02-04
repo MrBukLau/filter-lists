@@ -105,7 +105,9 @@ hikarinoakari.com##.td_block_related_posts
 hikarinoakari.com##.tdc-content-wrap
 hikarinoakari.com##.thanks_button_div
 hikarinoakari.com##.widget_text.text-42.widget.td_block_template_1
+!#if ext_ublock
 ouo.*##+js(rc, disabled, button.btn, stay)
+!#endif
 
 ! iTD Music
 itdmusics.com##.e3lan-bottom
