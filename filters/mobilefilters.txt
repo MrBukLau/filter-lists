@@ -108,6 +108,7 @@ myanimelist.net##h3[class="manga-detail head slider mt12"]:has-text(More Manga S
 tinyurl.is##.navbar-header:has-text(Your Link is loading):remove()
 tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
 tinyurl.is#%#//scriptlet('remove-class', 'disabled', 'a.btn', 'stay')
+tinyurl.is#%#AG_onLoad((function(){window.addEventListener('load',function(){if(document.location.href.includes("tinyurl.is")){vartargetLink=$("a:contains('ClickHeretoWatch')");if(targetLink&&targetLink.length){window.location.href=targetLink[0].href;}}})})());
 !#endif
 
 ! PayPal
