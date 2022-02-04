@@ -26,6 +26,16 @@ if (document.location.href.includes("music.apple.com")) {
     }
 }
 
+/// hikarinoakariost-bypasser.js
+/// alias hnab.js
+// Based on: https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript
+if (document.location.href.includes("hikarinoakari.com/out")) {
+    var delayInMilliseconds = 1000;
+    setTimeout(function() {
+        document.querySelector("a[class='link']").click();
+    }, delayInMilliseconds);
+}
+
 /// old-reddit-redirection.js
 /// alias orr.js
 // Based on: https://greasyfork.org/en/scripts/44669-bring-back-old-reddit
