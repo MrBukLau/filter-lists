@@ -7,6 +7,9 @@
 music.apple.com##+js(amaaraet)
 mzstatic.com##+js(amaaraet)
 
+! Hikarinoakariost
+hikarinoakari.com##+js(hnab)
+
 ! Reddit
 www.reddit.com##+js(orr)
 
