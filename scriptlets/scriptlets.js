@@ -4,6 +4,7 @@
 /// alias amaaraet.js
 // Based on: https://github.com/MrBukLau/userscripts/blob/master/javascripts/apple-music-album-artwork-resizer-and-english-translation.user.js
 (function() {
+    'use strict';
     if (document.location.href.includes("music.apple.com")) {
         var oldUrlSearch = window.location.search;
         if (window.location.href.indexOf("?i=") > -1) {
@@ -32,6 +33,7 @@
 /// alias hnab.js
 // Based on: https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript
 (function() {
+    'use strict';
     if (document.location.href.includes("hikarinoakari.com/out")) {
         var delayInMilliseconds = 1000;
         setTimeout(function() {
@@ -44,15 +46,34 @@
 /// alias orr.js
 // Based on: https://greasyfork.org/en/scripts/44669-bring-back-old-reddit
 (function() {
+    'use strict';
     if (document.location.href.includes("www.reddit.com") && !document.location.href.includes("www.reddit.com/poll")) {
         window.location.replace("https://old.reddit.com" + window.location.pathname + window.location.search);
     }
+})();
+
+/// ouo-io-bypasser.js
+/// alias oib.js
+// Based on: https://greasyfork.org/en/scripts/419509-skipper-for-ouo-io-by-imba
+(function() {
+    'use strict';
+    window.addEventListener('load', function() {
+        if (document.location.href.includes("ouo.io") || document.location.href.includes("ouo.press")) {
+            if (document.getElementById("form-captcha") === null) {
+                document.getElementsByTagName("form")[0].submit();
+            }
+            if (document.getElementById("form-captcha").click) {
+                document.getElementsByTagName("form")[0].submit();
+            }
+        }
+    })
 })();
 
 /// tinyurl-is-bypasser.js
 /// alias tuib.js
 // Based on: https://stackoverflow.com/questions/6990231/how-do-i-make-greasemonkey-click-a-link-that-has-specific-text
 (function() {
+    'use strict';
     window.addEventListener('load', function() {
         if (document.location.href.includes("tinyurl.is")) {
             var targetLink = $("a:contains('Click Here to Watch')");
