@@ -10,6 +10,9 @@ mzstatic.com##+js(amaaraet)
 ! Hikarinoakariost
 hikarinoakari.com##+js(hnab)
 
+! Ouo.io
+ouo.*##+js(oib)
+
 ! Reddit
 www.reddit.com##+js(orr)
 
