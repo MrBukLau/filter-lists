@@ -150,7 +150,7 @@ reddit.com##article[style*="z-index: 1;"]
 reddit.com##button[class="action last"]
 reddit.com##input[placeholder="Search Reddit"][type="search"]:style(color: #000 !important;)
 reddit.com##shreddit-ad-post
-reddit.com##shreddit-app:has(shreddit-aspect-ratio[style],shreddit-embed[html*="Streamable embed"][providername="Streamable"]):style(min-width: 615px !important;)
+reddit.com##shreddit-app:has(shreddit-aspect-ratio[style*="--aspect-ratio: 0.5"],shreddit-embed[html*="Streamable embed"][providername="Streamable"]):style(min-width: 615px !important;)
 reddit.com##shreddit-aspect-ratio:has(shreddit-async-loader[bundlename="media_player_loader"]):style(--aspect-ratio: 1 !important;)
 reddit.com##shreddit-aspect-ratio:has(shreddit-embed[html*="Streamable embed"][providername="Streamable"]):style(min-height: 125px !important; min-width: 600px !important;)
 reddit.com##shreddit-comments-page-ad
