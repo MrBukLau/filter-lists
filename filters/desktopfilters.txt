@@ -156,12 +156,10 @@ rnbastreams.com###event-tags
 sportsnest.co##div[id="ad"]
 sportsurge.net##.HeaderUyari
 tinyurl.is##.splash.container:has-text(Have Your Ads Here)
-!#if !env_mobile
+tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
 !#if ext_ublock
 $removeparam=sport
 tinyurl.is##+js(rc, disabled, a.btn, stay)
-tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
-!#endif
 !#endif
 
 ! Online Audio Converter
