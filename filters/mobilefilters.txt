@@ -100,7 +100,6 @@ myanimelist.net##h3[class="header3 pb12"]:has-text(MALxJapan)
 
 ! NBA Streams
 !#if adguard_app_ios
-tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
 tinyurl.is#%#//scriptlet('remove-class', 'disabled', 'a.btn', 'stay')
 tinyurl.is#%#AG_onLoad((function(){window.addEventListener('load',function(){if(document.location.href.includes("tinyurl.is")){var targetLink=$("a:contains('Click Here to Watch')");if(targetLink&&targetLink.length){window.location.href=targetLink[0].href;}}})})());
 !#endif
