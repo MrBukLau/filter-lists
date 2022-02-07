@@ -35,6 +35,9 @@ cbssports.com###skybox-top-wrapper
 ! Craigslist
 craigslist.org##.tryapp
 
+! ESPN
+espn.com##.ad-slot-inview
+
 ! Expedia Group
 carrentals.com,cheaptickets.com,orbitz.com,travelocity.com,wotif.com##.uitk-app-hero
 cheaptickets.com,ebookers.com,expedia.com,orbitz.com,travelocity.com,wotif.com##.uitk-spacing.SpacingContainer.uitk-spacing-padding-block-six.uitk-spacing-padding-inline-three:has-text(the app)
@@ -88,6 +91,7 @@ linkedin.com##div[class*="apptivation-promo"]
 mozilla.org###firefox-app-store-banner
 
 ! MyAnimeList
+myanimelist.net##.ad-block-for-billboard
 myanimelist.net##.mxj
 myanimelist.net##a[class="btn-forum-manga-store"]
 myanimelist.net##div[class="header2 ac po-r"]:has-text(MALxJapan)
