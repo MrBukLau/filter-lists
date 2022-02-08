@@ -42,6 +42,22 @@
     }
 })();
 
+/// itdmusic-bypasser.js
+/// alias itdmb.js
+// Based on: https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript
+(function() {
+    'use strict';
+    if (document.location.href.includes("itdmusic.top")) {
+        var delayInMilliseconds = 1000;
+        setTimeout(function() {
+            document.querySelector("button[class='btn btn-primary btn-captcha']").click();
+        }, delayInMilliseconds);
+        setTimeout(function() {
+            document.querySelector("a[class='btn']").click();
+        }, delayInMilliseconds * 8);
+    }
+})();
+
 /// old-reddit-redirection.js
 /// alias orr.js
 // Based on: https://greasyfork.org/en/scripts/44669-bring-back-old-reddit
