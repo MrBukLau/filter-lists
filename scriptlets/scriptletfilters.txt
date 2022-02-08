@@ -10,6 +10,9 @@ mzstatic.com##+js(amaaraet)
 ! Hikarinoakariost
 hikarinoakari.com##+js(hnab)
 
+! iTD Music
+itdmusic.top##+js(itdmb)
+
 ! Ouo.io
 ouo.*##+js(oib)
 
