@@ -90,8 +90,8 @@ No further actions are necessary. After adding a filter list from this repositor
 [MIT](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE)
 
 <!-- Application Links -->
-[AdGuard App Store Link]: https://apps.apple.com/us/app/adguard-adblock-privacy/id1047223162
-[AdGuard Pro App Store Link]: https://apps.apple.com/us/app/adguard-pro-adblock-privacy/id1126386264
+[AdGuard App Store Link]: https://apps.apple.com/app/id1047223162
+[AdGuard Pro App Store Link]: https://apps.apple.com/app/id1126386264
 [AdGuard Website Link]: https://adguard.com/
 [uBlock Origin Chrome Web Store Link]: https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm
 [uBlock Origin GitHub Link]: https://github.com/gorhill/uBlock
