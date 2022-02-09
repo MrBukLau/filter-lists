@@ -17,7 +17,7 @@ itdmusic.top##+js(itdmb)
 ouo.*##+js(oib)
 
 ! Reddit
-old.reddit.com##+js(ortr)
+old.reddit.com##+js(oroltb)
 www.reddit.com##+js(orr)
 
 ! Tinyurl.is
