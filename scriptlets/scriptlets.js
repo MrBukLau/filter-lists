@@ -58,18 +58,8 @@
     }
 })();
 
-/// old-reddit-redirection.js
-/// alias orr.js
-// Based on: https://greasyfork.org/en/scripts/44669-bring-back-old-reddit
-(function() {
-    'use strict';
-    if (document.location.href.includes("www.reddit.com") && !document.location.href.includes("www.reddit.com/poll")) {
-        window.location.replace("https://old.reddit.com" + window.location.pathname + window.location.search);
-    }
-})();
-
-/// old-reddit-tracking-remover.js
-/// alias ortr.js
+/// old-reddit-outbound-link-tracking-blocker.js
+/// alias oroltb.js
 // Based on: https://reddit.com/r/privacy/comments/4aqdg0/reddit_started_tracking_the_links_we_click_heres/
 (function() {
     'use strict';
@@ -86,6 +76,16 @@
             }
         }
     })
+})();
+
+/// old-reddit-redirection.js
+/// alias orr.js
+// Based on: https://greasyfork.org/en/scripts/44669-bring-back-old-reddit
+(function() {
+    'use strict';
+    if (document.location.href.includes("www.reddit.com") && !document.location.href.includes("www.reddit.com/poll")) {
+        window.location.replace("https://old.reddit.com" + window.location.pathname + window.location.search);
+    }
 })();
 
 /// ouo-io-bypasser.js
