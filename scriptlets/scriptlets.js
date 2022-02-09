@@ -68,6 +68,26 @@
     }
 })();
 
+/// old-reddit-tracking-remover.js
+/// alias ortr.js
+// Based on: https://reddit.com/r/privacy/comments/4aqdg0/reddit_started_tracking_the_links_we_click_heres/
+(function() {
+    'use strict';
+    window.addEventListener('load', function() {
+        if (document.location.href.includes("old.reddit.com")) {
+            var a_col = document.getElementsByTagName('a');
+            var a, actual_url;
+            for (var i = 0; i < a_col.length; i++) {
+                a = a_col[i];
+                actual_url = a.getAttribute('data-href-url');
+                if (actual_url) {
+                    a.setAttribute('data-outbound-url', actual_url);
+                }
+            }
+        }
+    })
+})();
+
 /// ouo-io-bypasser.js
 /// alias oib.js
 // Based on: https://greasyfork.org/en/scripts/419509-skipper-for-ouo-io-by-imba
