@@ -157,8 +157,10 @@ sportsnest.co##div[id="ad"]
 sportsurge.net##.HeaderUyari
 tinyurl.is##.splash.container:has-text(Have Your Ads Here)
 tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
-!#if ext_ublock
+!#if !env_mobile
 $removeparam=sport
+!#endif
+!#if ext_ublock
 tinyurl.is##+js(rc, disabled, a.btn, stay)
 !#endif
 
@@ -177,6 +179,12 @@ hd.reddit.com,np.reddit.com,old.reddit.com##.commentsignupbar.infobar
 hd.reddit.com,np.reddit.com,old.reddit.com##.listingsignupbar.infobar
 hd.reddit.com,np.reddit.com,old.reddit.com##.pinnable-content.pinned
 hd.reddit.com,np.reddit.com,old.reddit.com##.read-next-container
+!#if !env_mobile
+||reddit.com^$removeparam=utm_content
+||reddit.com^$removeparam=utm_medium
+||reddit.com^$removeparam=utm_name
+||reddit.com^$removeparam=utm_source
+!#endif
 
 ! Seedr
 seedr.cc##div[class*="joyride-tip-guide"]
