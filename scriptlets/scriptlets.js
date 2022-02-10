@@ -25,13 +25,13 @@
         var oldUrlSearch = window.location.search;
         if (window.location.href.indexOf("?i=") > -1) {
             if (!/\&l=en$/.test(oldUrlSearch)) {
-                var newURL = window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "&l=en" + window.location.hash;
-                window.location.replace(newURL);
+                var newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "&l=en" + window.location.hash;
+                window.location.replace(newUrl);
             }
         } else {
             if (!/\?l=en$/.test(oldUrlSearch)) {
-                var newURL = window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "?l=en" + window.location.hash;
-                window.location.replace(newURL);
+                var newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "?l=en" + window.location.hash;
+                window.location.replace(newUrl);
             }
         }
     }
@@ -73,13 +73,13 @@
     'use strict';
     window.addEventListener('load', function() {
         if (document.location.href.includes("old.reddit.com")) {
-            var a_col = document.getElementsByTagName('a');
-            var a, actual_url;
-            for (var i = 0; i < a_col.length; i++) {
-                a = a_col[i];
-                actual_url = a.getAttribute('data-href-url');
-                if (actual_url) {
-                    a.setAttribute('data-outbound-url', actual_url);
+            var aCol = document.getElementsByTagName('a');
+            var a, actualUrl;
+            for (var i = 0; i < aCol.length; i++) {
+                a = aCol[i];
+                actualUrl = a.getAttribute('data-href-url');
+                if (actualUrl) {
+                    a.setAttribute('data-outbound-url', actualUrl);
                 }
             }
         }
