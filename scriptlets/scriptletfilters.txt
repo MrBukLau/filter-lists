@@ -4,8 +4,8 @@
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
 ! Apple Music
-music.apple.com##+js(amaaraet)
-mzstatic.com##+js(amaaraet)
+music.apple.com##+js(amet)
+mzstatic.com##+js(amaar)
 
 ! Hikarinoakariost
 hikarinoakari.com##+js(hnab)
