@@ -154,7 +154,9 @@ reddit.com##xpromo-footer
 reddit.com##xpromo-nsfw-blocking-container[slot="blurred"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
+!#if adguard_app_ios
 reddit.com#%#AG_onLoad((function(){if(document.location.href.includes("amp.reddit.com")){window.location.replace("https://www.reddit.com"+window.location.pathname+window.location.search);}})());
+!#endif
 
 ! SoundCloud
 m.soundcloud.com##a[class*="Header"]:has-text(Listen in app)
