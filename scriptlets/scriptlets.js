@@ -66,8 +66,8 @@
     }
 })();
 
-/// old-reddit-outbound-link-tracking-blocker.js
-/// alias oroltb.js
+/// old-reddit-outbound-click-tracking-blocker.js
+/// alias oroctb.js
 // Based on: https://reddit.com/r/privacy/comments/4aqdg0/reddit_started_tracking_the_links_we_click_heres/
 (function() {
     'use strict';
