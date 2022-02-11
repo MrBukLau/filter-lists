@@ -35,7 +35,7 @@ craigslist.org##.tryapp
 
 ! Crunchyroll
 !#if adguard_app_ios
-crunchyroll.com#%#AG_onLoad((function(){if(document.location.href.includes("crunchyroll.com/interstitial")){document.querySelector("a[class='desktop-site-link']").click();}})());
+crunchyroll.com#%#AG_onLoad((function(){if(document.location.href.includes("crunchyroll.com/interstitial")){var delayInMilliseconds=1000;setTimeout(function(){document.querySelector("a[class='desktop-site-link']").click();},delayInMilliseconds);}})());
 !#endif
 
 ! ESPN
