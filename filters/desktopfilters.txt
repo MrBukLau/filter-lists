@@ -162,6 +162,7 @@ tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !
 $removeparam=sport
 !#endif
 !#if ext_ublock
+tinyurl.is##+js(nano-setInterval-booster)
 tinyurl.is##+js(rc, disabled, a.btn, stay)
 !#endif
 
