@@ -52,18 +52,25 @@
 
 /// itdmusic-bypasser.js
 /// alias itdmb.js
-// Based on: https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript
+// Based on: https://stackoverflow.com/questions/26254957/if-class-exists-do-something-with-javascript/26254988
 (function() {
     'use strict';
-    if (document.location.href.includes("itdmusic.top")) {
-        var delayInMilliseconds = 1000;
-        setTimeout(function() {
+    window.addEventListener('load', function() {
+        var firstButton = document.getElementsByClassName('btn btn-primary btn-captcha');
+        if (firstButton.length > 0) {
             document.querySelector("button[class='btn btn-primary btn-captcha']").click();
-        }, delayInMilliseconds);
-        setTimeout(function() {
-            document.querySelector("a[class='btn']").click();
-        }, delayInMilliseconds * 3);
-    }
+        }
+        var secondButton = document.getElementsByClassName('skip-ad');
+        if (secondButton.length > 0) {
+            var targetLink = $("a:contains('Skip Ad')");
+            if (targetLink && targetLink.length) {
+                var delayInMilliseconds = 1000;
+                setTimeout(function() {
+                    window.location.href = targetLink[0].href;
+                }, delayInMilliseconds);
+            }
+        }
+    })
 })();
 
 /// old-reddit-outbound-click-tracking-blocker.js
