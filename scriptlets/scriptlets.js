@@ -62,7 +62,7 @@
         }, delayInMilliseconds);
         setTimeout(function() {
             document.querySelector("a[class='btn']").click();
-        }, delayInMilliseconds);
+        }, delayInMilliseconds * 3);
     }
 })();
 
