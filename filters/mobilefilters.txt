@@ -25,15 +25,16 @@ agoda.com##div[class*="WhiteBanner__AppBanner"]
 booking.com###gta-link-generalfooteriphone
 priceline.com###app-download-banner
 
-! CBS News
+! CBS
 cbsnews.com###smart-banner-download
-
-! CBS Sports
 cbssports.com###cbs-site-footer
 cbssports.com###skybox-top-wrapper
 
 ! Craigslist
 craigslist.org##.tryapp
+
+! Crunchyroll
+crunchyroll.com#%#AG_onLoad((function(){if(document.location.href.includes("crunchyroll.com/interstitial")){document.querySelector("a[class='desktop-site-link']").click();}})());
 
 ! ESPN
 espn.com##.ad-slot-inview
@@ -157,6 +158,9 @@ reddit.com##xpromo-untagged-content-blocking-modal
 !#if adguard_app_ios
 reddit.com#%#AG_onLoad((function(){if(document.location.href.includes("amp.reddit.com")){window.location.replace("https://www.reddit.com"+window.location.pathname+window.location.search);}})());
 !#endif
+
+! SB Nation
+##div[class*="adblock-allowlist-messaging"]
 
 ! SoundCloud
 m.soundcloud.com##a[class*="Header"]:has-text(Listen in app)
