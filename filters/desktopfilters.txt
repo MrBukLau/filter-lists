@@ -110,9 +110,11 @@ ouo.*##+js(rc, disabled, button.btn, stay)
 !#endif
 
 ! iTD Music
-itdmusic.top##+js(nano-setInterval-booster)
 itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget.widget
+!#if ext_ublock
+itdmusic.top##+js(nano-setInterval-booster)
+!#endif
 
 ! KonosubaManga
 !#if adguard
