@@ -111,7 +111,8 @@ ouo.*##+js(rc, disabled, button.btn, stay)
 itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget.widget
 !#if ext_ublock
-itdmusic.top##+js(nano-setInterval-booster)
+itdmusic.top##+js(nano-sib)
+markipli.com##+js(nano-sib)
 !#endif
 
 ! KonosubaManga
@@ -162,7 +163,7 @@ tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !
 $removeparam=sport
 !#endif
 !#if ext_ublock
-tinyurl.is##+js(nano-setInterval-booster)
+tinyurl.is##+js(nano-sib)
 tinyurl.is##+js(rc, disabled, a.btn, stay)
 !#endif
 
