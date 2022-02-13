@@ -92,7 +92,7 @@ No further actions are necessary. After adding a filter list from this repositor
 
 ## Special Thanks
 ### Filters
-#### For Providing Information That Helped Me to Create Some of These Filters
+#### For Providing Information That Helped Me Create Some of These Filters
 - **d3ward on GitHub**
     - [Amazon, Facebook, Pinterest, Reddit, Sentry, and Twitter Filters](https://github.com/d3ward/toolz)
 - **Karmesinrot on GitHub**
@@ -104,12 +104,12 @@ No further actions are necessary. After adding a filter list from this repositor
 - **IMBA Lawly on Greasy Fork**
     - [Skipper for Ouo.io](https://greasyfork.org/en/scripts/419509-skipper-for-ouo-io-by-imba)
 - **OperaSona on Reddit**
-    - [Don’t Track My Clicks, Reddit](https://reddit.com/r/privacy/comments/4aqdg0/reddit_started_tracking_the_links_we_click_heres/)
+    - [Don't Track My Clicks, Reddit](https://reddit.com/r/privacy/comments/4aqdg0/reddit_started_tracking_the_links_we_click_heres/)
 - **RandomUsername404 on Greasy Fork**
     - [Bring Back Old Reddit](https://greasyfork.org/en/scripts/44669-bring-back-old-reddit)
-#### For Providing Some Coding Tips
+#### For Providing Coding Tips That Helped Me Create Some of These Scriptlets
 - **Brock Adams on Stack Overflow**
-    - [Change a Page’s URL Parameters in JavaScript](https://stackoverflow.com/questions/16065937/changing-a-pages-url-parameters)
+    - [Change a Page's URL Parameters in JavaScript](https://stackoverflow.com/questions/16065937/changing-a-pages-url-parameters)
     - [Click a Link That Has Specific Text in JavaScript](https://stackoverflow.com/questions/6990231/how-do-i-make-greasemonkey-click-a-link-that-has-specific-text)
 - **HIRA THAKUR on Stack Overflow**
     - [Set a Time Delay in JavaScript](https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript)
