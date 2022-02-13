@@ -150,6 +150,11 @@ lyrical-nonsense.com##.playblocktop
 lyrical-nonsense.com##div[class*="playblockbtm"]
 lyrical-nonsense.com##div[class*="responsive"]
 
+! Mojo Sakun
+!#if ext_ublock
+mojosakun.blogspot.com##+js(set, nocontextmenu, noopFunc)
+!#endif
+
 ! Music Clutter
 musiclutter.xyz###footer-wrapper > .row
 musiclutter.xyz###recent-boxes
