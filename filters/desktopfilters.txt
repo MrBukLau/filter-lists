@@ -121,6 +121,25 @@ konosubamanga.com#%#//scriptlet('abort-current-inline-script', 'decodeURICompone
 konosubamanga.com#%#//scriptlet('prevent-setInterval', 'visibility', '1000')
 !#endif
 
+! Live TV
+###nordd
+blacktiesports.net##[href="https://reddit.nflbite.com/"]
+blacktiesports.net##div[class*="bookmark"]
+live94today.com##.js-demo-avd.demo-avd
+nbabite.com##.post_tags
+rnbastreams.com###event-tags
+sportsnest.co##div[id="ad"]
+sportsurge.net##.HeaderUyari
+tinyurl.is##.splash.container:has-text(Have Your Ads Here)
+tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
+!#if !env_mobile
+$removeparam=sport
+!#endif
+!#if ext_ublock
+tinyurl.is##+js(nano-sib)
+tinyurl.is##+js(rc, disabled, a.btn, stay)
+!#endif
+
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
 lyrical-nonsense.com##.lyricside
@@ -148,24 +167,6 @@ myanimelist.net##.pb24:has-text(MALxJapan):remove()
 myanimelist.net##.pda_top
 myanimelist.net##div[id="broadcast-block"]
 myanimelist.net##span[class*="button_pin"]
-
-! NBA Streams
-blacktiesports.net##[href="https://reddit.nflbite.com/"]
-blacktiesports.net##div[class*="bookmark"]
-crackstreams.gg,nbabite.com,rnbastreams.com###nordd
-nbabite.com##.post_tags
-rnbastreams.com###event-tags
-sportsnest.co##div[id="ad"]
-sportsurge.net##.HeaderUyari
-tinyurl.is##.splash.container:has-text(Have Your Ads Here)
-tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
-!#if !env_mobile
-$removeparam=sport
-!#endif
-!#if ext_ublock
-tinyurl.is##+js(nano-sib)
-tinyurl.is##+js(rc, disabled, a.btn, stay)
-!#endif
 
 ! Online Audio Converter
 online-audio-converter.com###allapps-extension-popup
