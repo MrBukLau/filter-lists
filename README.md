@@ -91,14 +91,23 @@ No further actions are necessary. After adding a filter list from this repositor
 | **[Smart App Banner Removal][Smart App Banner Removal Filter]** | **Raw:** <br> [Click Here][Smart App Banner Removal Raw] <br><br> **Subscribe:** <br> [Click Here][Smart App Banner Removal Subscription] | **Description:** This filter list is for removing [Smart App Banners][Smart App Banners Apple View Link] on iOS. <br> **Disclaimer:** These filters do not remove the [Smart App Banners][Smart App Banners Apple Open Link] that show up when you already have the application installed on your device. To learn more about Smart App Banners on iOS, click on this [link][Smart App Banners Apple Link]. <br> **Issues:** [Click Here][Smart App Banners Issues Link]
 
 ## Special Thanks
-### For creating the original userscripts
+### Filters
+#### For Providing Information That Helped Me to Create Some of These Filters
+- **d3ward on GitHub**
+    - [Amazon, Facebook, Pinterest, Reddit, Sentry, and Twitter Filters](https://github.com/d3ward/toolz)
+- **Karmesinrot on GitHub**
+    - [AnimePahe, Crunchyroll, and Funimation Filters](https://github.com/Karmesinrot/Anifiltrs)
+- **StephenP on Greasy Fork**
+    - [Reddit Filters](https://greasyfork.org/en/scripts/395497-login-reminder-popup-remover)
+### Scriptlets
+#### For Creating the Original Userscripts
 - **IMBA Lawly on Greasy Fork**
     - [Skipper for Ouo.io](https://greasyfork.org/en/scripts/419509-skipper-for-ouo-io-by-imba)
 - **OperaSona on Reddit**
     - [Don’t Track My Clicks, Reddit](https://reddit.com/r/privacy/comments/4aqdg0/reddit_started_tracking_the_links_we_click_heres/)
 - **RandomUsername404 on Greasy Fork**
     - [Bring Back Old Reddit](https://greasyfork.org/en/scripts/44669-bring-back-old-reddit)
-### For providing some coding tips
+#### For Providing Some Coding Tips
 - **Brock Adams on Stack Overflow**
     - [Change a Page’s URL Parameters in JavaScript](https://stackoverflow.com/questions/16065937/changing-a-pages-url-parameters)
     - [Click a Link That Has Specific Text in JavaScript](https://stackoverflow.com/questions/6990231/how-do-i-make-greasemonkey-click-a-link-that-has-specific-text)
