@@ -126,6 +126,8 @@ konosubamanga.com#%#//scriptlet('prevent-setInterval', 'visibility', '1000')
 blacktiesports.net##[href="https://reddit.nflbite.com/"]
 blacktiesports.net##div[class*="bookmark"]
 live94today.com##.js-demo-avd.demo-avd
+live94today.com##.owl-carousel
+live94today.com##[href^="https://go.nordvpn.net/aff_c"]
 nbabite.com##.post_tags
 rnbastreams.com###event-tags
 sportsnest.co##div[id="ad"]
