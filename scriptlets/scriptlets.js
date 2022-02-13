@@ -2,7 +2,6 @@
 
 /// apple-music-album-artwork-resizer.js
 /// alias amaar.js
-// Based on: https://greasyfork.org/en/discussions/requests/55817-replace-string-in-an-url
 (function() {
     'use strict';
     if (document.location.href.includes("mzstatic.com/image/thumb")) {
@@ -18,7 +17,6 @@
 
 /// apple-music-english-translation.js
 /// alias amet.js
-// Based on: https://stackoverflow.com/questions/16065937/changing-a-pages-url-parameters
 (function() {
     'use strict';
     if (document.location.href.includes("music.apple.com")) {
@@ -39,7 +37,6 @@
 
 /// hikarinoakariost-bypasser.js
 /// alias hnab.js
-// Based on: https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript
 (function() {
     'use strict';
     if (document.location.href.includes("hikarinoakari.com/out")) {
@@ -52,7 +49,6 @@
 
 /// itdmusic-bypasser.js
 /// alias itdmb.js
-// Based on: https://stackoverflow.com/questions/26254957/if-class-exists-do-something-with-javascript/26254988
 (function() {
     'use strict';
     window.addEventListener('load', function() {
@@ -75,7 +71,6 @@
 
 /// old-reddit-outbound-click-tracking-blocker.js
 /// alias oroctb.js
-// Based on: https://reddit.com/r/privacy/comments/4aqdg0/reddit_started_tracking_the_links_we_click_heres/
 (function() {
     'use strict';
     window.addEventListener('load', function() {
@@ -95,7 +90,6 @@
 
 /// old-reddit-redirection.js
 /// alias orr.js
-// Based on: https://greasyfork.org/en/scripts/44669-bring-back-old-reddit
 (function() {
     'use strict';
     if (document.location.href.includes("www.reddit.com") && !document.location.href.includes("www.reddit.com/poll")) {
@@ -105,7 +99,6 @@
 
 /// ouo-io-bypasser.js
 /// alias oib.js
-// Based on: https://greasyfork.org/en/scripts/419509-skipper-for-ouo-io-by-imba
 (function() {
     'use strict';
     window.addEventListener('load', function() {
@@ -122,7 +115,6 @@
 
 /// tinyurl-is-bypasser.js
 /// alias tuib.js
-// Based on: https://stackoverflow.com/questions/6990231/how-do-i-make-greasemonkey-click-a-link-that-has-specific-text
 (function() {
     'use strict';
     window.addEventListener('load', function() {
