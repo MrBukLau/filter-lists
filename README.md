@@ -27,6 +27,10 @@
     Available Filter Lists
   </a>
   •
+  <a href="#special-thanks">
+    Special Thanks
+  </a>
+  •
   <a href="#license">
     License
   </a>
@@ -85,6 +89,29 @@ No further actions are necessary. After adding a filter list from this repositor
 | **[Mobile][Mobile Filter]** | **Raw:** <br> [Click Here][Mobile Raw] <br><br> **Subscribe:** <br> [Click Here][Mobile Subscription] | **Description:** This filter list is for removing annoyances on the mobile version of websites. <br> **Disclaimer:** These filters were only tested on Safari for iOS, which means that they may or may not work on other web browsers and operating systems. Also, this filter list includes [MrBukLau's Smart App Banner Removal Filters][Smart App Banner Removal Filter]. <br> **Key Filters:** <br> - Prevent infinite scrolling on Imgur's mobile website <br> - Remove "Download the App" overlays and "Open in App" buttons on the mobile version of various websites <br> - Remove pop-ups, banners, and other annoyances on Reddit's mobile website <br> - Remove the NSFW prompt on Reddit's mobile website to allow for the viewing of NSFW pictures and videos
 | **[Scriptlet][Scriptlet Filter]** | **Raw:** <br> [Click Here][Scriptlet Raw] <br><br> **Subscribe:** <br> [Click Here][Scriptlet Subscription] | **Description:** This filter list is for using [MrBukLau's Scriptlets][Scriptlet File Link] in uBlock Origin. <br> **Disclaimer:** These filters were only tested on Google Chrome, which means that they may or may not work on other web browsers. To learn how to use these scriptlets with uBlock Origin, click on this [link][uBlock Origin Scriptlet Guide]. To view the raw file of the actual scriptlets, click on this [link][Scriptlet Raw File Link]. <br> **Key Filters:** <br> - Block Reddit from logging and tracking outbound clicks on Old Reddit <br> - Bypass Ouo.io, Tinyurl.is, and other URL shorteners <br> - Redirect Reddit links to Old Reddit <br> - Translate everything to English on Apple Music
 | **[Smart App Banner Removal][Smart App Banner Removal Filter]** | **Raw:** <br> [Click Here][Smart App Banner Removal Raw] <br><br> **Subscribe:** <br> [Click Here][Smart App Banner Removal Subscription] | **Description:** This filter list is for removing [Smart App Banners][Smart App Banners Apple View Link] on iOS. <br> **Disclaimer:** These filters do not remove the [Smart App Banners][Smart App Banners Apple Open Link] that show up when you already have the application installed on your device. To learn more about Smart App Banners on iOS, click on this [link][Smart App Banners Apple Link]. <br> **Issues:** [Click Here][Smart App Banners Issues Link]
+
+## Special Thanks
+**Brock Adams on Stack Overflow**
+- Coding Tips: [Change a Page’s URL Parameters in JavaScript](https://stackoverflow.com/questions/16065937/changing-a-pages-url-parameters)
+- Coding Tips: [Click a Link That Has Specific Text in JavaScript](https://stackoverflow.com/questions/6990231/how-do-i-make-greasemonkey-click-a-link-that-has-specific-text)
+
+**HIRA THAKUR on Stack Overflow**
+- Coding Tips: [Set a Time Delay in JavaScript](https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript)
+
+**IMBA Lawly on Greasy Fork**
+- Original Userscript: [Skipper for Ouo.io](https://greasyfork.org/en/scripts/419509-skipper-for-ouo-io-by-imba)
+
+**OperaSona on Reddit**
+- Original Userscript: [Don’t Track My Clicks, Reddit](https://reddit.com/r/privacy/comments/4aqdg0/reddit_started_tracking_the_links_we_click_heres/)
+
+**RandomUsername404 on Greasy Fork**
+- Original Userscript: [Bring Back Old Reddit](https://greasyfork.org/en/scripts/44669-bring-back-old-reddit)
+
+**VisioN on Stack Overflow**
+- Coding Tips: [Determine if an Element Exist in JavaScript](https://stackoverflow.com/questions/26254957/if-class-exists-do-something-with-javascript/26254988)
+
+**Vivre on Greasy Fork**
+- Coding Tips: [Replace a String in an URL in JavaScript](https://greasyfork.org/en/discussions/requests/55817-replace-string-in-an-url)
 
 ## License
 [MIT](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE)
