@@ -52,6 +52,7 @@ vrbo.com##div[class*="app-download-banner-box"]
 
 ! Fandom
 fandom.com###article-featured-video-container
+fandom.com##.pathfinder-notification--bottom
 
 ! FedEx
 fedex.com##fedex-smart-banner
