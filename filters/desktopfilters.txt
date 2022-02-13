@@ -152,7 +152,7 @@ lyrical-nonsense.com##div[class*="responsive"]
 
 ! Mojo Sakun
 !#if ext_ublock
-mojosakun.blogspot.com##+js(set, nocontextmenu, noopFunc)
+mojosakun.blogspot.com##+js(acis, document.oncontextmenu)
 !#endif
 
 ! Music Clutter
