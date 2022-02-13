@@ -151,6 +151,9 @@ lyrical-nonsense.com##div[class*="playblockbtm"]
 lyrical-nonsense.com##div[class*="responsive"]
 
 ! Mojo Sakun
+controlc.com##[href^="http://redact.dev"]
+mojosakun.blogspot.com###HTML4
+mojosakun.blogspot.com###Image5
 !#if ext_ublock
 mojosakun.blogspot.com##+js(acis, document.oncontextmenu)
 !#endif
