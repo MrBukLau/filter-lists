@@ -140,6 +140,9 @@ tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !
 !#if !env_mobile
 $removeparam=sport
 !#endif
+!#if adguard
+tinyurl.is#%#//scriptlet('remove-class', 'disabled', 'a.btn', 'stay')
+!#endif
 !#if ext_ublock
 tinyurl.is##+js(nano-sib)
 tinyurl.is##+js(rc, disabled, a.btn, stay)
