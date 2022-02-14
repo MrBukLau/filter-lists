@@ -34,6 +34,12 @@ music.apple.com##[aria-label="Subscription"]
 ||music.apple.com$removeparam=app
 !#endif
 
+! Bugsnag
+||api.bugsnag.com^
+||app.bugsnag.com^
+||notify.bugsnag.com^
+||sessions.bugsnag.com^
+
 ! CBS Sports
 cbssports.com##.ticket-tab
 cbssports.com##div[class*="GamblingPartnerAd"]
@@ -211,6 +217,7 @@ seedr.cc##div[class*="joyride-tip-guide"]
 
 ! Sentry
 ||app.getsentry.com^
+||browser.sentry-cdn.com^
 
 ! SignUpGenius
 signupgenius.com##.sug-notice--privacy
