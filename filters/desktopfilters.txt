@@ -18,7 +18,7 @@
 animepahe.*##.alert-danger.alert
 animepahe.*##.alert-info.alert
 animepahe.*##.alert-top.alert
-animepahe.*##div[class="episode-snapshot"]:style(filter: blur(16px) !important;)
+animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
 kwik.cx##.plyr::after:style(content: none !important;)
 kwik.cx##button[type="button"][class="plyr__control plyr__control--overlaid"][data-plyr="play"][aria-label="Play"]
 
@@ -29,7 +29,7 @@ dailymotion.com##.np_Darken
 ! Apple Music
 music.apple.com##.hydrated.banner-upsell
 music.apple.com##.locale-switcher-banner.locale-switcher--amweb
-music.apple.com##[aria-label="Subscription" i]
+music.apple.com##[aria-label="Subscription"]
 !#if !env_mobile
 ||music.apple.com$removeparam=app
 !#endif
