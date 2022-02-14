@@ -39,7 +39,10 @@ cbssports.com##.ticket-tab
 cbssports.com##div[class*="GamblingPartnerAd"]
 cbssports.com##div[class*="taboola-recommends"]
 !#if !env_mobile
+cbssports.com##.Article-seoBox
+cbssports.com##.cbs-site-nav:style(position: static !important;)
 cbssports.com##.hq-anchor-container:remove()
+cbssports.com##.nav-network-bar:style(position: static !important;)
 cbssports.com##.sportsline-td
 cbssports.com##.tickets-td
 cbssports.com##div[class="page-shell gametracker-page"] > div[id="mantle_skin"][data-component="headerSticky"]:style(margin: 110px 0 0 0 !important;)
