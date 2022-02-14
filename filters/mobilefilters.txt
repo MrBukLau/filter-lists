@@ -4,9 +4,13 @@
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
 ! 9GAG
-9gag.com###jsid-app > div.drawer-layout:nth-child(3) > div.content-wrap:last-child > div:last-child > div > div.footer:last-child > div.download-app-container > a.download-app.yellow
-9gag.com###jsid-app > div:first-child > header.navbar > div.right.use-app:last-child
-9gag.com###stream-2 > div.post-signup-list-banner:nth-child(2)
+9gag.com##.noscroll:style(overflow: auto !important;)
+9gag.com##.post-signup-list-banner
+9gag.com##div[class="download-app-container"]
+9gag.com##div[class="overlay-layer layer-more visible open-in-app"]
+9gag.com##div[class="right use-app"]
+9gag.com##div[style*="padding-top"]:style(padding-top: 0px !important;)
+9gag.com##div[style="position: fixed; width: 100vw; top: 50px; z-index: 8;"]:style(position: static !important;)
 
 ! App Store
 ||adj.st^
@@ -113,7 +117,7 @@ tinyurl.is#%#AG_onLoad((function(){window.addEventListener('load',function(){if(
 paypal.com###PPAppDownloadBannerContainer
 
 ! Quora
-quora.com###root > div.q-box:last-child > div.q-box > div.q-box > div.q-sticky.qu-zIndex--header:first-child > div.q-flex.qu-bg--red.qu-alignItems--center.spacing_log_header_main > div.q-flex.qu-pr--small:last-child > button.q-click-wrapper.ClickWrapper___StyledClickWrapperBox-zoqi4f-0.bIwtPb.base___StyledClickWrapper-lx6eke-1.cKqizz.qu-mr--small.qu-borderRadius--pill.qu-alignItems--center.qu-justifyContent--center.qu-whiteSpace--nowrap.qu-userSelect--none.qu-display--inline-flex.qu-tapHighlight--white.qu-textAlign--center.qu-cursor--pointer:first-child
+quora.com##button[type="button"]:has-text(Open in App)
 
 ! Reddit
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
@@ -184,6 +188,9 @@ thescore.com##button[class^="GetTheAppModal__getTheAppButton"]
 
 ! Twitch
 m.twitch.tv##div[class*="ScCoreButtonLabel"]:has-text(Open in App)
+
+! Yahoo
+yahoo.com##a[id="app-promo"][class*="app-promo"]
 
 ! Yelp
 m.yelp.com###smart-banner
