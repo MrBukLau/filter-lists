@@ -40,7 +40,7 @@ cbssports.com##div[class*="GamblingPartnerAd"]
 cbssports.com##div[class*="taboola-recommends"]
 !#if !env_mobile
 cbssports.com##.Article-seoBox
-cbssports.com##.cbs-site-nav:style(position: static !important;)
+cbssports.com##.cbs-site-nav:style(top: 0px !important;)
 cbssports.com##.hq-anchor-container:remove()
 cbssports.com##.nav-network-bar:style(position: static !important;)
 cbssports.com##.sportsline-td
