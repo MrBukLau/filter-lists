@@ -9,7 +9,6 @@
 9gag.com##div[class="download-app-container"]
 9gag.com##div[class="overlay-layer layer-more visible open-in-app"]
 9gag.com##div[class="right use-app"]
-9gag.com##div[style="min-height: 50vh; position: relative;"][data-v-561960f2][data-v-07ed01f7]
 9gag.com##div[style="padding-top: 146px;"]:style(padding-top: 0px !important;)
 9gag.com##div[style="padding-top: 98px;"]:style(padding-top: 0px !important;)
 9gag.com##div[style="position: fixed; width: 100vw; top: 50px; z-index: 8;"]:style(position: static !important;)
