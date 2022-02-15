@@ -94,7 +94,7 @@ No further actions are necessary. After adding a filter list from this repositor
 ### Filters
 #### For Providing Information That Helped Me Create Some of These Filters
 - **d3ward on GitHub**
-    - [Amazon, Facebook, Pinterest, Reddit, Sentry, and Twitter Filters](https://github.com/d3ward/toolz)
+    - [Amazon, Bugsnag, Facebook, Pinterest, Reddit, Sentry, and Twitter Filters](https://github.com/d3ward/toolz)
 - **Karmesinrot on GitHub**
     - [AnimePahe, Crunchyroll, and Funimation Filters](https://github.com/Karmesinrot/Anifiltrs)
 - **StephenP on Greasy Fork**
