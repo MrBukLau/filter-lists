@@ -132,6 +132,10 @@ konosubamanga.com#%#//scriptlet('prevent-setInterval', 'visibility', '1000')
 
 ! Live TV
 ###nordd
+bdnewszh.com##.billboard-banner
+bdnewszh.com##.footer-sticky-banner
+bdnewszh.com##.left-sticky-banner
+bdnewszh.com##.right-sticky-banner
 blacktiesports.net##[href="https://reddit.nflbite.com/"]
 blacktiesports.net##div[class*="bookmark"]
 live94today.com##.js-demo-avd.demo-avd
