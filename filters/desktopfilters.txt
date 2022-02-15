@@ -139,6 +139,7 @@ konosubamanga.com#%#//scriptlet('prevent-setInterval', 'visibility', '1000')
 ||tracker.openwebtorrent.com^$domain=bdnewszh.com
 ||your-download-now.com^$domain=bdnewszh.com
 bdnewszh.com##.billboard-banner
+bdnewszh.com##.content-banner
 bdnewszh.com##.footer-sticky-banner
 bdnewszh.com##.left-sticky-banner
 bdnewszh.com##.right-sticky-banner
