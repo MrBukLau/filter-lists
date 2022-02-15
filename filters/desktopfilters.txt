@@ -132,6 +132,12 @@ konosubamanga.com#%#//scriptlet('prevent-setInterval', 'visibility', '1000')
 
 ! Live TV
 ###nordd
+||dntchnyghet.com^$domain=bdnewszh.com
+||najsdnkdqpsd.com^$domain=bdnewszh.com
+||psauwush.net^$domain=bdnewszh.com
+||tracker.novage.com.ua^$domain=bdnewszh.com
+||tracker.openwebtorrent.com^$domain=bdnewszh.com
+||your-download-now.com^$domain=bdnewszh.com
 bdnewszh.com##.billboard-banner
 bdnewszh.com##.footer-sticky-banner
 bdnewszh.com##.left-sticky-banner
