@@ -154,6 +154,11 @@ sportsnest.co##div[id="ad"]
 sportsurge.net##.HeaderUyari
 tinyurl.is##.splash.container:has-text(Have Your Ads Here)
 tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
+watchsports.to##[href^="/bet"]
+watchsports.to##a[class="w3-button w3-bar-item w3-hover-dark-gray w3-black w3-padding-small w3-tiny w3-border w3-border-dark-gray"]:has-text(HD)
+watchsports.to##div[style="display: flex;justify-content: center;height: 230px; width: 100%; max-width: 800px;margin: 10px auto !important;"]
+watchsports.to##div[style="width: 100%; max-width: 720px; margin: 10px auto;display:block;"]:has-text(HD)
+watchsports.to##div[style="width:299px;height:249px;overflow:hidden;margin:0 auto;position:absolute;z-index:3;top:50%;left:50%;margin-left:-150px;margin-top:-125px;"]
 !#if !env_mobile
 $removeparam=sport
 !#endif
