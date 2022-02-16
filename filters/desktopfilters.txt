@@ -178,7 +178,7 @@ controlc.com##[href^="http://redact.dev"]
 mojosakun.blogspot.com###HTML4
 mojosakun.blogspot.com###Image5
 !#if ext_ublock
-mojosakun.blogspot.com##+js(acis, document.oncontextmenu)
+mojosakun.blogspot.com##+js(acs, document.oncontextmenu)
 !#endif
 
 ! Music Clutter
