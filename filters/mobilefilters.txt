@@ -95,6 +95,12 @@ m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 ! LinkedIn
 linkedin.com##div[class*="apptivation-promo"]
 
+! Live TV
+watchsports.to##a[class*="w3-center"][style="width:100%"][href][target="_blank"]
+!#if adguard_app_ios
+tinyurl.is#%#AG_onLoad((function(){window.addEventListener('load',function(){if(document.location.href.includes("tinyurl.is")){var targetLink=$("a:contains('Click Here to Watch')");if(targetLink&&targetLink.length){window.location.href=targetLink[0].href;}}})})());
+!#endif
+
 ! Mozilla
 mozilla.org###firefox-app-store-banner
 
@@ -105,11 +111,6 @@ myanimelist.net##.mxj
 myanimelist.net##div[class="header2 ac po-r"]:has-text(MALxJapan)
 myanimelist.net##div[style="height:14px;margin:0;padding:0;"]:style(height: 0px !important;)
 myanimelist.net##h3[class="header3 pb12"]:has-text(MALxJapan)
-
-! NBA Streams
-!#if adguard_app_ios
-tinyurl.is#%#AG_onLoad((function(){window.addEventListener('load',function(){if(document.location.href.includes("tinyurl.is")){var targetLink=$("a:contains('Click Here to Watch')");if(targetLink&&targetLink.length){window.location.href=targetLink[0].href;}}})})());
-!#endif
 
 ! PayPal
 paypal.com###PPAppDownloadBannerContainer
