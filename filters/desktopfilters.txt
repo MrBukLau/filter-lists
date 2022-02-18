@@ -242,6 +242,9 @@ hd.reddit.com,np.reddit.com,old.reddit.com##.read-next-container
 ||reddit.com^$removeparam=utm_source
 !#endif
 
+! SB Nation
+##.remixd-wrapper
+
 ! Seedr
 seedr.cc##div[class*="joyride-tip-guide"]
 
