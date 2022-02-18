@@ -25,12 +25,14 @@ $removeparam=sport
 ||browser.sentry-cdn.com^
 ||d.reddit.com^
 ||dntchnyghet.com^
+||fwetxfvxsjtw.com^
 ||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
 ||jstjpniwb.xyz^
 ||music.apple.com^$removeparam=app
 ||najsdnkdqpsd.com^
 ||notify.bugsnag.com^
 ||psauwush.net^
+||qmhnetqgevxmk.com^
 ||reddit.com^$removeparam=utm_content
 ||reddit.com^$removeparam=utm_medium
 ||reddit.com^$removeparam=utm_name
@@ -39,6 +41,7 @@ $removeparam=sport
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
 ||widgets.pinterest.com^
+||wkjaaaduw.com^
 ||your-download-now.com^
 
 !--------------------------------------!
