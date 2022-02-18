@@ -33,7 +33,6 @@ priceline.com###app-download-banner
 
 ! CBS
 cbsnews.com###smart-banner-download
-cbssports.com###cbs-site-footer
 cbssports.com###skybox-top-wrapper
 
 ! Craigslist
@@ -167,7 +166,6 @@ reddit.com#%#AG_onLoad((function(){if(document.location.href.includes("amp.reddi
 !#endif
 
 ! SB Nation
-##.remixd-wrapper
 ##div[class*="adblock-allowlist-messaging"]
 
 ! SoundCloud
@@ -176,9 +174,6 @@ m.soundcloud.com##a[class*="Header"]:has-text(Listen in app)
 ! Spotify
 open.spotify.com##.tippy-box.tippy-now-playing-bar
 open.spotify.com##button[class*="LoginTopBar__OpenAppButton"]
-
-! The Undefeated
-theundefeated.com##.ad-prevent-jump
 
 ! theScore
 thescore.com###app-container > div:nth-child(2)
