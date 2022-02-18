@@ -35,6 +35,16 @@
 ||widgets.pinterest.com^
 ||your-download-now.com^
 
+!---------------------------------------!
+!---------- Parameter Filters ----------!
+!---------------------------------------!
+$removeparam=sport
+||music.apple.com$removeparam=app
+||reddit.com^$removeparam=utm_content
+||reddit.com^$removeparam=utm_medium
+||reddit.com^$removeparam=utm_name
+||reddit.com^$removeparam=utm_source
+
 !--------------------------------------!
 !---------- Specific Filters ----------!
 !--------------------------------------!
@@ -57,9 +67,6 @@ dailymotion.com##.np_Darken
 music.apple.com##.hydrated.banner-upsell
 music.apple.com##.locale-switcher-banner.locale-switcher--amweb
 music.apple.com##[aria-label="Subscription"]
-!#if !env_mobile
-$removeparam=app,domain=music.apple.com
-!#endif
 
 ! CBS Sports
 cbssports.com##.ticket-tab
@@ -235,12 +242,6 @@ hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.commentsignupbar.info
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.listingsignupbar.infobar
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.pinnable-content.pinned
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.read-next-container
-!#if !env_mobile
-$removeparam=utm_content,domain=reddit.com
-$removeparam=utm_medium,domain=reddit.com
-$removeparam=utm_name,domain=reddit.com
-$removeparam=utm_source,domain=reddit.com
-!#endif
 
 ! Seedr
 seedr.cc##div[class*="joyride-tip-guide"]
