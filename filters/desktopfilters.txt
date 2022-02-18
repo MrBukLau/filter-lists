@@ -3,18 +3,45 @@
 ! Homepage: https://github.com/MrBukLau/filter-lists
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
+!-------------------------------------!
+!---------- General Filters ----------!
+!-------------------------------------!
+###ad
+###nordd
+##.remixd-wrapper
+##div[class*="adblock-allowlist-messaging"]
+||ads-dev.pinterest.com^
+||adtago.s3.amazonaws.com^
+||advertising-api-eu.amazon.com^
+||advertising.twitter.com^
+||advice-ads.s3.amazonaws.com^
+||affiliationjs.s3.amazonaws.com^
+||an.facebook.com^
+||analyticsengine.s3.amazonaws.com^
+||api.bugsnag.com^
+||app.bugsnag.com^
+||app.getsentry.com^
+||browser.sentry-cdn.com^
+||d.reddit.com^
+||dntchnyghet.com^
+||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
+||jstjpniwb.xyz^
+||najsdnkdqpsd.com^
+||notify.bugsnag.com^
+||psauwush.net^
+||sessions.bugsnag.com^
+||tracker.novage.com.ua^
+||tracker.openwebtorrent.com^
+||widgets.pinterest.com^
+||your-download-now.com^
+
+!--------------------------------------!
+!---------- Specific Filters ----------!
+!--------------------------------------!
 ! 1337x
 1337x.*,x1337x.*##[href="/vpnd-stoptracking"]
 
-! Amazon
-||adtago.s3.amazonaws.com^
-||advertising-api-eu.amazon.com^
-||advice-ads.s3.amazonaws.com^
-||affiliationjs.s3.amazonaws.com^
-||analyticsengine.s3.amazonaws.com^
-
 ! AnimePahe
-||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
 animepahe.*##.alert-danger.alert
 animepahe.*##.alert-info.alert
 animepahe.*##.alert-top.alert
@@ -33,12 +60,6 @@ music.apple.com##[aria-label="Subscription"]
 !#if !env_mobile
 ||music.apple.com$removeparam=app
 !#endif
-
-! Bugsnag
-||api.bugsnag.com^
-||app.bugsnag.com^
-||notify.bugsnag.com^
-||sessions.bugsnag.com^
 
 ! CBS Sports
 cbssports.com##.ticket-tab
@@ -82,9 +103,6 @@ crunchyroll.com##li.large-margin-bottom:has-text(Try Free Trial)
 
 ! Discord
 discord.com##div[class*="channelNotice"]
-
-! Facebook
-||an.facebook.com^
 
 ! Fandom
 fandom.com###SurveyModule
@@ -131,14 +149,6 @@ konosubamanga.com#%#//scriptlet('prevent-setInterval', 'visibility', '1000')
 !#endif
 
 ! Live TV
-||dntchnyghet.com^$domain=bdnewszh.com
-||icelz.s3.amazonaws.com/icelzstreamlogo.png$popup,domain=icelz.newsrade.com
-||jstjpniwb.xyz^$domain=icelz.newsrade.com
-||najsdnkdqpsd.com^$domain=bdnewszh.com
-||psauwush.net^$domain=bdnewszh.com|icelz.newsrade.com
-||tracker.novage.com.ua^$domain=bdnewszh.com
-||tracker.openwebtorrent.com^$domain=bdnewszh.com
-||your-download-now.com^$domain=bdnewszh.com
 bdnewszh.com##.billboard-banner
 bdnewszh.com##.content-banner
 bdnewszh.com##.footer-sticky-banner
@@ -171,9 +181,6 @@ watchsports.to##div[style="width: 100%; max-width: 720px; margin: 10px auto;disp
 watchsports.to##div[style="width:299px;height:249px;overflow:hidden;margin:0 auto;position:absolute;z-index:3;top:50%;left:50%;margin-left:-150px;margin-top:-125px;"]
 watchsports.to##hr[style="height:1px; visibility:hidden; margin-bottom:-1px;"]
 watchsports.to##input[id="hawtS"][style="margin:0 auto;align:center;max-height:30px;max-width:200px;padding:5px;"][type="text"][placeholder="Find Event"][ng-model="findhawt"]:style(margin: 20px !important;)
-!#if !env_mobile
-$removeparam=sport
-!#endif
 !#if adguard
 tinyurl.is#%#//scriptlet('remove-class', 'disabled', 'a.btn', 'stay')
 !#endif
@@ -222,30 +229,15 @@ myanimelist.net##span[class*="button_pin"]
 online-audio-converter.com###allapps-extension-popup
 online-audio-converter.com##.like_row
 
-! Pinterest
-||ads-dev.pinterest.com^
-||widgets.pinterest.com^
-
 ! Reddit
-||d.reddit.com^
-hd.reddit.com,np.reddit.com,old.reddit.com###redesign-beta-optin-btn
-hd.reddit.com,np.reddit.com,old.reddit.com##.commentsignupbar.infobar
-hd.reddit.com,np.reddit.com,old.reddit.com##.listingsignupbar.infobar
-hd.reddit.com,np.reddit.com,old.reddit.com##.pinnable-content.pinned
-hd.reddit.com,np.reddit.com,old.reddit.com##.read-next-container
-!#if !env_mobile
-||reddit.com^$removeparam=utm_content
-||reddit.com^$removeparam=utm_medium
-||reddit.com^$removeparam=utm_name
-||reddit.com^$removeparam=utm_source
-!#endif
+hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com###redesign-beta-optin-btn
+hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.commentsignupbar.infobar
+hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.listingsignupbar.infobar
+hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.pinnable-content.pinned
+hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.read-next-container
 
 ! Seedr
 seedr.cc##div[class*="joyride-tip-guide"]
-
-! Sentry
-||app.getsentry.com^
-||browser.sentry-cdn.com^
 
 ! SignUpGenius
 signupgenius.com##.sug-notice--privacy
@@ -258,17 +250,8 @@ open.spotify.com##[class^="Root__now-playing-bar"]:has-text(Preview of Spotify)
 open.spotify.com##section[class="evYs3tmO5rBqdxPWnIMP QyANtc_r7ff_tqrf5Bvc"]:has-text(More by)
 open.spotify.com#@#div > div[aria-live="polite"]
 
-! Twitter
-||advertising.twitter.com^
-
 ! YouTube
 youtube-nocookie.com##.ytp-show-tiles.ytp-endscreen-paginate.videowall-endscreen.ytp-player-content.html5-endscreen
 youtube.com##.ytp-ce-element
 youtube.com##.ytp-chrome-top-buttons
 youtube.com##.ytp-endscreen-content
-
-! Generic Filters
-###ad
-###nordd
-##.remixd-wrapper
-##div[class*="adblock-allowlist-messaging"]
