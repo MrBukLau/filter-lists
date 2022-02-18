@@ -10,6 +10,7 @@
 ###nordd
 ##.remixd-wrapper
 ##div[class*="adblock-allowlist-messaging"]
+$removeparam=sport
 ||ads-dev.pinterest.com^
 ||adtago.s3.amazonaws.com^
 ||advertising-api-eu.amazon.com^
@@ -26,24 +27,19 @@
 ||dntchnyghet.com^
 ||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
 ||jstjpniwb.xyz^
+||music.apple.com^$removeparam=app
 ||najsdnkdqpsd.com^
 ||notify.bugsnag.com^
 ||psauwush.net^
+||reddit.com^$removeparam=utm_content
+||reddit.com^$removeparam=utm_medium
+||reddit.com^$removeparam=utm_name
+||reddit.com^$removeparam=utm_source
 ||sessions.bugsnag.com^
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
 ||widgets.pinterest.com^
 ||your-download-now.com^
-
-!---------------------------------------!
-!---------- Parameter Filters ----------!
-!---------------------------------------!
-$removeparam=sport
-||music.apple.com$removeparam=app
-||reddit.com^$removeparam=utm_content
-||reddit.com^$removeparam=utm_medium
-||reddit.com^$removeparam=utm_name
-||reddit.com^$removeparam=utm_source
 
 !--------------------------------------!
 !---------- Specific Filters ----------!
