@@ -126,6 +126,10 @@ funimation.com##div[data-test="episode-card__key-art"]:style(filter: blur(16px) 
 funimation.com##i[class*="meta-overlay__funi-logo"]
 funimation.com##ul[class*="meta-overlay__data-block"]
 
+! Genius
+genius.com##div[class*="InreadAddesktop__Container"]
+genius.com##div[class*="SidebarAd__Container"]
+
 ! Google
 google.*##[id^="eob_"]
 
