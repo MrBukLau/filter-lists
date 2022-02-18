@@ -4,7 +4,7 @@
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
 !-------------------------------------!
-!---------- General Filters ----------!
+!---------- Generic Filters ----------!
 !-------------------------------------!
 ###ad
 ###nordd
