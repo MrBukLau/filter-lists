@@ -58,7 +58,7 @@ music.apple.com##.hydrated.banner-upsell
 music.apple.com##.locale-switcher-banner.locale-switcher--amweb
 music.apple.com##[aria-label="Subscription"]
 !#if !env_mobile
-||music.apple.com$removeparam=app
+$removeparam=app,domain=music.apple.com
 !#endif
 
 ! CBS Sports
@@ -235,6 +235,12 @@ hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.commentsignupbar.info
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.listingsignupbar.infobar
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.pinnable-content.pinned
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.read-next-container
+!#if !env_mobile
+$removeparam=utm_content,domain=reddit.com
+$removeparam=utm_medium,domain=reddit.com
+$removeparam=utm_name,domain=reddit.com
+$removeparam=utm_source,domain=reddit.com
+!#endif
 
 ! Seedr
 seedr.cc##div[class*="joyride-tip-guide"]
