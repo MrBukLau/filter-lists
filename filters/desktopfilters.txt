@@ -45,6 +45,7 @@ cbssports.com##.ticket-tab
 cbssports.com##div[class*="GamblingPartnerAd"]
 cbssports.com##div[class*="taboola-recommends"]
 !#if !env_mobile
+cbssports.com###sharethrough-ad
 cbssports.com##.Article-seoBox
 cbssports.com##.cbs-site-nav:style(top: 0px !important;)
 cbssports.com##.hq-anchor-container:remove()
@@ -53,7 +54,6 @@ cbssports.com##.sportsline-td
 cbssports.com##.tickets-td
 cbssports.com##div[class="page-shell gametracker-page"] > div[id="mantle_skin"][data-component="headerSticky"]:style(margin: 110px 0 0 0 !important;)
 cbssports.com##div[id="hud-container"][class*="desktop-view"]:style(top: 0px !important;)
-cbssports.com##div[id="sharethrough-ad"]
 !#endif
 
 ! Chartoo
@@ -87,7 +87,7 @@ discord.com##div[class*="channelNotice"]
 ||an.facebook.com^
 
 ! Fandom
-fandom.com##div[id="SurveyModule"]
+fandom.com###SurveyModule
 
 ! Free MP3 Download
 free-mp3-download.net###toast-container
@@ -131,7 +131,6 @@ konosubamanga.com#%#//scriptlet('prevent-setInterval', 'visibility', '1000')
 !#endif
 
 ! Live TV
-###nordd
 ||dntchnyghet.com^$domain=bdnewszh.com
 ||icelz.s3.amazonaws.com/icelzstreamlogo.png$popup,domain=icelz.newsrade.com
 ||jstjpniwb.xyz^$domain=icelz.newsrade.com
@@ -159,15 +158,14 @@ live94today.com##.owl-carousel
 live94today.com##[href^="https://go.nordvpn.net/aff_c"]
 nbabite.com##.post_tags
 rnbastreams.com###event-tags
-sportsnest.co##div[id="ad"]
 sportsurge.net##.HeaderUyari
 tinyurl.is##.splash.container:has-text(Have Your Ads Here)
 tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
+watchsports.to###snackbar:has-text(Stream may require USA IP)
 watchsports.to##[href^="/bet"]
 watchsports.to##a[class="w3-button w3-bar-item w3-hover-dark-gray w3-black w3-padding-small w3-tiny w3-border w3-border-dark-gray"]:has-text(HD)
 watchsports.to##div[class="row"][style="margin-top:2px:width:100%;"]:has-text(Embed this stream on your website)
 watchsports.to##div[class="w3-container w3-center"][style="width:96%;margin:0 auto;padding-top:20px;"]:style(padding-top: 0px !important;)
-watchsports.to##div[id="snackbar"]:has-text(Stream may require USA IP)
 watchsports.to##div[style="display: flex;justify-content: center;height: 230px; width: 100%; max-width: 800px;margin: 10px auto !important;"]
 watchsports.to##div[style="width: 100%; max-width: 720px; margin: 10px auto;display:block;"]:has-text(HD)
 watchsports.to##div[style="width:299px;height:249px;overflow:hidden;margin:0 auto;position:absolute;z-index:3;top:50%;left:50%;margin-left:-150px;margin-top:-125px;"]
@@ -210,6 +208,7 @@ musiclutter.xyz##.FeaturedPost
 musiclutter.xyz##.ib-nav
 
 ! MyAnimeList
+myanimelist.net###broadcast-block
 myanimelist.net##.ad-sticky-wrapper
 myanimelist.net##.border_top
 myanimelist.net##.btn-forum-manga-store
@@ -217,7 +216,6 @@ myanimelist.net##.footer-ranking
 myanimelist.net##.left.mxj.widget
 myanimelist.net##.pb24:has-text(MALxJapan):remove()
 myanimelist.net##.pda_top
-myanimelist.net##div[id="broadcast-block"]
 myanimelist.net##span[class*="button_pin"]
 
 ! Online Audio Converter
@@ -241,9 +239,6 @@ hd.reddit.com,np.reddit.com,old.reddit.com##.read-next-container
 ||reddit.com^$removeparam=utm_name
 ||reddit.com^$removeparam=utm_source
 !#endif
-
-! SB Nation
-##.remixd-wrapper
 
 ! Seedr
 seedr.cc##div[class*="joyride-tip-guide"]
@@ -271,3 +266,9 @@ youtube-nocookie.com##.ytp-show-tiles.ytp-endscreen-paginate.videowall-endscreen
 youtube.com##.ytp-ce-element
 youtube.com##.ytp-chrome-top-buttons
 youtube.com##.ytp-endscreen-content
+
+! Generic Filters
+###ad
+###nordd
+##.remixd-wrapper
+##div[class*="adblock-allowlist-messaging"]
