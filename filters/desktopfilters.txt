@@ -134,6 +134,7 @@ konosubamanga.com#%#//scriptlet('prevent-setInterval', 'visibility', '1000')
 ###nordd
 ||dntchnyghet.com^$domain=bdnewszh.com
 ||icelz.s3.amazonaws.com/icelzstreamlogo.png$popup,domain=icelz.newsrade.com
+||jstjpniwb.xyz^$domain=icelz.newsrade.com
 ||najsdnkdqpsd.com^$domain=bdnewszh.com
 ||psauwush.net^$domain=bdnewszh.com|icelz.newsrade.com
 ||tracker.novage.com.ua^$domain=bdnewszh.com
@@ -147,11 +148,12 @@ bdnewszh.com##.right-sticky-banner
 blacktiesports.net##[href="https://reddit.nflbite.com/"]
 blacktiesports.net##div[class*="bookmark"]
 icelz.newsrade.com##a[href*="agacelebir.com"][rel="nofollow norefferer noopener"]
+icelz.newsrade.com##div[style*="z-index: 2147483647"]
 icelz.newsrade.com##iframe[src*="cxckxxrffumcha.xyz"]
 icelz.newsrade.com##iframe[src*="jstjpniwb.xyz"]
 icelz.newsrade.com##iframe[src*="psauwush.net"]
 icelz.newsrade.com##iframe[src="about:blank"]
-icelz.newsrade.com##iframe[style="width: 100% !important; height: 216px !important; opacity: 1 !important; max-width: 420px !important; border: none !important; position: fixed !important; display: block !important; z-index: 2147483647 !important; inset: 15px 0px auto auto !important; background: transparent !important;"]
+icelz.newsrade.com##iframe[style*="z-index: 2147483647"]
 live94today.com##.js-demo-avd.demo-avd
 live94today.com##.owl-carousel
 live94today.com##[href^="https://go.nordvpn.net/aff_c"]
