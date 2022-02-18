@@ -98,7 +98,7 @@ linkedin.com##div[class*="apptivation-promo"]
 ! Live TV
 watchsports.to##a[class*="w3-center"][style="width:100%"][href][target="_blank"]
 !#if adguard_app_ios
-tinyurl.is#%#AG_onLoad((function(){window.addEventListener('load',function(){if(document.location.href.includes("tinyurl.is")){var targetLink=$("a:contains('Click Here to Watch')");if(targetLink&&targetLink.length){window.location.href=targetLink[0].href;}}})})());
+tinyurl.is#%#AG_onLoad((function(){if(document.location.href.includes("tinyurl.is")){var delayInMilliseconds=1000;setTimeout(function(){var targetLink=$("a:contains('Click Here to Watch')");if(targetLink&&targetLink.length){window.location.href=targetLink[0].href;}},delayInMilliseconds);}})());
 !#endif
 
 ! Mozilla
