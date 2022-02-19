@@ -18,6 +18,10 @@ $removeparam=sport
 ||advice-ads.s3.amazonaws.com^
 ||affiliationjs.s3.amazonaws.com^
 ||an.facebook.com^
+||analytics-sg.tiktok.com^
+||analytics.facebook.com^
+||analytics.pinterest.com^
+||analytics.pointdrive.linkedin.com^
 ||analyticsengine.s3.amazonaws.com^
 ||api.bugsnag.com^
 ||app.bugsnag.com^
@@ -25,9 +29,11 @@ $removeparam=sport
 ||browser.sentry-cdn.com^
 ||d.reddit.com^
 ||dntchnyghet.com^
+||extmaps-api.yandex.net^
 ||fwetxfvxsjtw.com^
 ||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
 ||jstjpniwb.xyz^
+||luckyorange.net^
 ||music.apple.com^$removeparam=app
 ||najsdnkdqpsd.com^
 ||notify.bugsnag.com^
