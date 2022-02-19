@@ -98,7 +98,7 @@ No further actions are necessary. After adding a filter list from this repositor
 - **Karmesinrot on GitHub**
     - [Anime Filters](https://github.com/Karmesinrot/Anifiltrs)
 - **StephenP on Greasy Fork**
-    - [Reddit Filters](https://greasyfork.org/en/scripts/395497-login-reminder-popup-remover)
+    - [Social Filters](https://greasyfork.org/en/scripts/395497-login-reminder-popup-remover)
 ### Scriptlets
 #### For Creating the Original Userscripts
 - **IMBA Lawly on Greasy Fork**
