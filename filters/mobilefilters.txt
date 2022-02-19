@@ -7,9 +7,28 @@
 !---------- Generic Filters ----------!
 !-------------------------------------!
 ||adj.st^
+||analytics-api.samsunghealthcn.com^
 ||app.adjust.com^
 ||app.appsflyer.com^
+||logbak.hicloud.com^
+||logservice.hicloud.com^
+||logservice1.hicloud.com^
 ||mcaril.com^
+||metrics-dra.dt.hicloud.com^
+||metrics.data.hicloud.com^
+||metrics.icloud.com^
+||metrics.mzstatic.com^
+||metrics1.data.hicloud.com^
+||metrics2.data.hicloud.com^
+||metrics3.data.hicloud.com^
+||metrics4.data.hicloud.com^
+||metrics5.data.hicloud.com^
+||open.oneplus.net^
+||sa.api.intl.miui.com^
+||samsung-com.112.2o7.net^
+||supportmetrics.apple.com^
+||tracking.india.miui.com^
+||tracking.rus.miui.com^
 
 !--------------------------------------!
 !---------- Specific Filters ----------!
