@@ -51,7 +51,7 @@
 ||wkjaaaduw.com^
 ||your-download-now.com^
 
-! Parameter Filters
+! URL Parameter Filters
 $removeparam=sport
 ||music.apple.com^$removeparam=app
 ||reddit.com^$removeparam=utm_content
