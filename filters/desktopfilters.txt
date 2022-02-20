@@ -6,11 +6,13 @@
 !-------------------------------------!
 !---------- Generic Filters ----------!
 !-------------------------------------!
+! Cosmetic Filters
 ###ad
 ###nordd
 ##.remixd-wrapper
 ##div[class*="adblock-allowlist-messaging"]
-$removeparam=sport
+
+! Network Filters
 ||ads-dev.pinterest.com^
 ||adtago.s3.amazonaws.com^
 ||advertising-api-eu.amazon.com^
@@ -28,28 +30,34 @@ $removeparam=sport
 ||app.getsentry.com^
 ||browser.sentry-cdn.com^
 ||d.reddit.com^
+||eupvgndxeggmwbr.xyz^
 ||extmaps-api.yandex.net^
 ||fwetxfvxsjtw.com^
 ||grootcho.com^
 ||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
 ||jstjpniwb.xyz^
+||leucdqvemholt.com^
 ||luckyorange.net^
-||music.apple.com^$removeparam=app
 ||najsdnkdqpsd.com^
 ||notify.bugsnag.com^
 ||olssucyoddvt.com^
 ||psauwush.net^
 ||qmhnetqgevxmk.com^
-||reddit.com^$removeparam=utm_content
-||reddit.com^$removeparam=utm_medium
-||reddit.com^$removeparam=utm_name
-||reddit.com^$removeparam=utm_source
+||raptapee.com^
 ||sessions.bugsnag.com^
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
 ||widgets.pinterest.com^
 ||wkjaaaduw.com^
 ||your-download-now.com^
+
+! Parameter Filters
+$removeparam=sport
+||music.apple.com^$removeparam=app
+||reddit.com^$removeparam=utm_content
+||reddit.com^$removeparam=utm_medium
+||reddit.com^$removeparam=utm_name
+||reddit.com^$removeparam=utm_source
 
 !--------------------------------------!
 !---------- Specific Filters ----------!
