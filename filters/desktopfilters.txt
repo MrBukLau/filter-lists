@@ -28,7 +28,6 @@ $removeparam=sport
 ||app.getsentry.com^
 ||browser.sentry-cdn.com^
 ||d.reddit.com^
-||dntchnyghet.com^
 ||extmaps-api.yandex.net^
 ||fwetxfvxsjtw.com^
 ||grootcho.com^
@@ -194,9 +193,9 @@ watchsports.to##[href^="/bet"]
 watchsports.to##a[class="w3-button w3-bar-item w3-hover-dark-gray w3-black w3-padding-small w3-tiny w3-border w3-border-dark-gray"]:has-text(HD)
 watchsports.to##div[class="row"][style="margin-top:2px:width:100%;"]:has-text(Embed this stream on your website)
 watchsports.to##div[class="w3-container w3-center"][style="width:96%;margin:0 auto;padding-top:20px;"]:style(padding-top: 0px !important;)
+watchsports.to##div[style*="overflow:hidden;margin:0 auto;position:absolute;z-index:3;top:50%;left:50%;margin-left:-150px;margin-top:-125px;"]
 watchsports.to##div[style="display: flex;justify-content: center;height: 230px; width: 100%; max-width: 800px;margin: 10px auto !important;"]
 watchsports.to##div[style="width: 100%; max-width: 720px; margin: 10px auto;display:block;"]:has-text(HD)
-watchsports.to##div[style="width:299px;height:249px;overflow:hidden;margin:0 auto;position:absolute;z-index:3;top:50%;left:50%;margin-left:-150px;margin-top:-125px;"]
 watchsports.to##hr[style="height:1px; visibility:hidden; margin-bottom:-1px;"]
 watchsports.to##input[id="hawtS"][style="margin:0 auto;align:center;max-height:30px;max-width:200px;padding:5px;"][type="text"][placeholder="Find Event"][ng-model="findhawt"]:style(margin: 20px !important;)
 !#if adguard
