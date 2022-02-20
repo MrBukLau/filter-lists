@@ -31,12 +31,14 @@ $removeparam=sport
 ||dntchnyghet.com^
 ||extmaps-api.yandex.net^
 ||fwetxfvxsjtw.com^
+||grootcho.com^
 ||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
 ||jstjpniwb.xyz^
 ||luckyorange.net^
 ||music.apple.com^$removeparam=app
 ||najsdnkdqpsd.com^
 ||notify.bugsnag.com^
+||olssucyoddvt.com^
 ||psauwush.net^
 ||qmhnetqgevxmk.com^
 ||reddit.com^$removeparam=utm_content
