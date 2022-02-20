@@ -6,6 +6,7 @@
 !-------------------------------------!
 !---------- Generic Filters ----------!
 !-------------------------------------!
+! Network Filters
 ||adj.st^
 ||analytics-api.samsunghealthcn.com^
 ||app.adjust.com^
