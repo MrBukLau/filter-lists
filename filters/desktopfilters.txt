@@ -243,9 +243,9 @@ myanimelist.net##.ad-sticky-wrapper
 myanimelist.net##.border_top
 myanimelist.net##.btn-forum-manga-store
 myanimelist.net##.footer-ranking
-myanimelist.net##.mxj
 myanimelist.net##.pb24:has-text(MALxJapan)
 myanimelist.net##div[class*="pda"]
+myanimelist.net##div[class="widget mxj left"]
 myanimelist.net##span[class*="button_pin"]
 
 ! Online Audio Converter
@@ -257,6 +257,7 @@ hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.read-next-container
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.redesign-beta-optin
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##div[class="pinnable-content pinned"]
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##section[class="infobar commentsignupbar"]
+hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##section[class="infobar listingsignupbar"]
 
 ! Seedr
 seedr.cc##div[class*="joyride-tip-guide"]
