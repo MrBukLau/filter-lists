@@ -196,6 +196,8 @@ rnbastreams.com###event-tags
 sportsurge.net##.HeaderUyari
 tinyurl.is##.splash.container:has-text(Have Your Ads Here)
 tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
+volokit2.com##.backtotop
+volokit2.com##.widget-area
 watchsports.to###snackbar:has-text(Stream may require USA IP)
 watchsports.to##[href^="/bet"]
 watchsports.to##a[class="w3-button w3-bar-item w3-hover-dark-gray w3-black w3-padding-small w3-tiny w3-border w3-border-dark-gray"]:has-text(HD)
