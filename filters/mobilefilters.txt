@@ -134,6 +134,7 @@ mozilla.org###firefox-app-store-banner
 ! MyAnimeList
 myanimelist.net##.ad-block-for-billboard
 myanimelist.net##.btn-mal-service-outer
+myanimelist.net##.mxj
 myanimelist.net##div[class="header2 ac po-r"]:has-text(MALxJapan)
 myanimelist.net##div[style="height:14px;margin:0;padding:0;"]:style(height: 0px !important;)
 myanimelist.net##h3[class="header3 pb12"]:has-text(MALxJapan)
