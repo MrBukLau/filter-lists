@@ -66,9 +66,7 @@ $removeparam=sport
 1337x.*,x1337x.*##[href="/vpnd-stoptracking"]
 
 ! AnimePahe
-animepahe.*##.alert-danger.alert
-animepahe.*##.alert-info.alert
-animepahe.*##.alert-top.alert
+animepahe.*##.alert
 animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
 kwik.cx##.plyr::after:style(content: none !important;)
 kwik.cx##button[type="button"][class="plyr__control plyr__control--overlaid"][data-plyr="play"][aria-label="Play"]
@@ -78,9 +76,9 @@ dailymotion.com##.np_carousel-list-wrapper
 dailymotion.com##.np_Darken
 
 ! Apple Music
-music.apple.com##.hydrated.banner-upsell
-music.apple.com##.locale-switcher-banner.locale-switcher--amweb
 music.apple.com##[aria-label="Subscription"]
+music.apple.com##cwc-music-upsell-banner-web
+music.apple.com##div[data-test-locale-switcher-banner]
 
 ! CBS Sports
 cbssports.com##.ticket-tab
