@@ -253,11 +253,10 @@ online-audio-converter.com###allapps-extension-popup
 online-audio-converter.com##.like_row
 
 ! Reddit
-hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com###redesign-beta-optin-btn
-hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.commentsignupbar.infobar
-hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.listingsignupbar.infobar
-hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.pinnable-content.pinned
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.read-next-container
+hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.redesign-beta-optin
+hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##div[class="pinnable-content pinned"]
+hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##section[class="infobar commentsignupbar"]
 
 ! Seedr
 seedr.cc##div[class*="joyride-tip-guide"]
