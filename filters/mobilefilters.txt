@@ -51,7 +51,6 @@ autozone.com##._3f3af7
 bleacherreport.com##div[class*="appInstallButton"]
 bleacherreport.com##form[class="cell newsletterSubsModule flyIn show"]
 syndication.bleacherreport.com###branch-banner
-syndication.bleacherreport.com##amp-iframe[class="i-amphtml-layout-fixed-height i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built i-amphtml-layout"]
 
 ! CBS
 cbsnews.com###smart-banner-download
