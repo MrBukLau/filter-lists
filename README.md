@@ -69,13 +69,13 @@ This repository contains filter lists that can be added to content blockers, suc
     <br>
     4a. Content Blocker Section: Turn on all the AdGuard options to allow "Safari Protection" to work in Safari
     <br>
-    4b. Extension Section: Turn on AdGuard and click the "Allow" option in the permission area to allow "Advanced Protection" to work in Safari
+    4b. Extension Section: Turn on AdGuard and click on the "Allow" option in the permission area to allow "Advanced Protection" to work in Safari
 5. Close the Settings application and open the AdGuard application
 6. Click on the following options in the AdGuard application: `Protection > Safari protection > Filters > Custom`
     <br>
     6a. Turn on the use of "Custom" filters by tapping the toggle button
     <br>
-    6b. Add a filter list from this repository to AdGuard by clicking on the "Add a filter" button, pasting the raw GitHub link from this repository into the "Filter URL" field, clicking the "Next" button, and clicking the "Add" button after reviewing the prompt to confirm that it is the correct filter list
+    6b. Add a filter list from this repository to AdGuard by clicking on the "Add a filter" button, pasting the raw GitHub link from this repository into the "Filter URL" field, clicking on the "Next" button, and clicking on the "Add" button after reviewing the prompt to confirm that it is the correct filter list
 #### uBlock Origin on Google Chrome (Desktop)
 1. Add the uBlock Origin extension by downloading it from the [Chrome Web Store][uBlock Origin Chrome Web Store Link] or [GitHub][uBlock Origin GitHub Link]
 2. After adding the extension, follow this [guide][uBlock Origin Filter Guide] to manually import a filter list from this repository to uBlock Origin or left-click on any of the **"Subscribe"** buttons below to automatically add a filter list to uBlock Origin
