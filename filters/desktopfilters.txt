@@ -272,6 +272,9 @@ open.spotify.com##button[class*="Upqw01TOXETOmR5Td7Dj"]:has-text(Upgrade)
 open.spotify.com##section[class*="QyANtc_r7ff_tqrf5Bvc"]:has-text(More by)
 open.spotify.com#@#div > div[aria-live="polite"]
 
+! Writer
+writer.com##.CampaignType--popup
+
 ! YouTube
 youtube.com##.ytp-ce-element
 youtube.com##.ytp-chrome-top-buttons
