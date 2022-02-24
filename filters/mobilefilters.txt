@@ -51,13 +51,7 @@ autozone.com##._3f3af7
 bleacherreport.com##div[class*="appInstallButton"]
 bleacherreport.com##form[class="cell newsletterSubsModule flyIn show"]
 syndication.bleacherreport.com###branch-banner
-syndication.bleacherreport.com###content > amp-iframe.i-amphtml-element.i-amphtml-layout-fixed-height.i-amphtml-layout-size-defined.i-amphtml-built.i-amphtml-layout
-
-! Booking Holdings
-agoda.com##.ModalPortal:has-text(in our app)
-agoda.com##div[class*="WhiteBanner__AppBanner"]
-booking.com###gta-link-generalfooteriphone
-priceline.com###app-download-banner
+syndication.bleacherreport.com##amp-iframe[class="i-amphtml-layout-fixed-height i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built i-amphtml-layout"]
 
 ! CBS
 cbsnews.com###smart-banner-download
@@ -74,15 +68,6 @@ crunchyroll.com#%#AG_onLoad((function(){if(document.location.href.includes("crun
 ! ESPN
 espn.com##.ad-slot-inview
 espn.com##.AppPromo
-
-! Expedia Group
-carrentals.com,cheaptickets.com,orbitz.com,travelocity.com,wotif.com##.uitk-app-hero
-cheaptickets.com,ebookers.com,expedia.com,orbitz.com,travelocity.com,wotif.com##.uitk-spacing.SpacingContainer.uitk-spacing-padding-block-six.uitk-spacing-padding-inline-three:has-text(the app)
-expedia.com##.uitk-experimental-messaging-card
-hotwire.com###root > div.page-home:nth-child(2) > div.rtb-container.pattern-gray-sm:nth-child(2) > div.content
-hotwire.com##.app-download-banner
-hotwire.com##.hero-mobile-banner
-vrbo.com##div[class*="app-download-banner-box"]
 
 ! Fandom
 fandom.com###article-featured-video-container
@@ -197,7 +182,6 @@ reddit.com#%#AG_onLoad((function(){if(document.location.href.includes("amp.reddi
 m.soundcloud.com##a[class*="Header"]:has-text(Listen in app)
 
 ! Spotify
-open.spotify.com##.tippy-box.tippy-now-playing-bar
 open.spotify.com##button[class*="LoginTopBar__OpenAppButton"]
 
 ! The Undefeated
