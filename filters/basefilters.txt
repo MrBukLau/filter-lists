@@ -1,5 +1,5 @@
-! Title: MrBukLau's Desktop Filters
-! Description: This filter list is for removing annoyances on the desktop version of websites.
+! Title: MrBukLau's Base Filters
+! Description: This filter list is for removing annoyances on various websites.
 ! Homepage: https://github.com/MrBukLau/filter-lists
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
