@@ -67,9 +67,9 @@ This repository contains filter lists that can be added to content blockers, suc
 3. Close the AdGuard application and open the Settings application
 4. Click on the following options in the Settings application: `Safari > Extensions`
     <br>
-    4a. Content Blocker Section: Turn on all the AdGuard options to allow "Safari Protection" to work in Safari
+    4a. "Allow These Content Blockers" Section: Turn on all the AdGuard options to allow "Safari Protection" to work in Safari ([Guide][Content Blockers Guide])
     <br>
-    4b. Extension Section: Turn on AdGuard and click on the "Allow" option in the permission area to allow "Advanced Protection" to work in Safari
+    4b. "Allow These Extensions" Section: Turn on AdGuard and click on the "Allow" option in the permission area to allow "Advanced Protection" to work in Safari ([Guide][Safari Web Extensions Guide])
 5. Close the Settings application and open the AdGuard application
 6. Click on the following options in the AdGuard application: `Protection > Safari protection > Filters > Custom`
     <br>
@@ -135,6 +135,8 @@ No further actions are necessary. After adding a filter list from this repositor
 [Smart App Banner Removal Filter]: https://github.com/MrBukLau/filter-lists/blob/master/filters/smartappbannerremovalfilters.txt
 
 <!-- Information Links -->
+[Content Blockers Guide]: https://www.macrumors.com/how-to/enable-content-blockers-safari/
+[Safari Web Extensions Guide]: https://adguard.com/en/blog/adguard-4-3-for-ios.html
 [Scriptlet File Link]: https://github.com/MrBukLau/filter-lists/blob/master/scriptlets/scriptlets.js
 [Scriptlet Raw File Link]: https://github.com/MrBukLau/filter-lists/raw/master/scriptlets/scriptlets.js
 [Smart App Banners Apple Link]: https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners
