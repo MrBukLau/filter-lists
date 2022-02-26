@@ -98,6 +98,9 @@ google.*##.zU3lCe
 ! Gopuff
 gopuff.com##.jr-smart-banner.iOS
 
+! Healthline
+healthline.com##.myFinance-ad-unit
+
 ! Imgur
 m.imgur.com##.Gallery-moreOnImgur
 m.imgur.com##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
