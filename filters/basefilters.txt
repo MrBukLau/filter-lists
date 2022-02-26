@@ -90,15 +90,15 @@ cbssports.com##.ticket-tab
 cbssports.com##div[class*="GamblingPartnerAd"]
 cbssports.com##div[class*="taboola-recommends"]
 !#if !env_mobile
+cbssports.com###hud-container[class*="desktop-view"]:style(top: 0px !important;)
 cbssports.com###sharethrough-ad
 cbssports.com##.Article-seoBox
 cbssports.com##.cbs-site-nav:style(top: 0px !important;)
+cbssports.com##.gametracker-page > #mantle_skin[data-component="headerSticky"]:style(margin: 110px 0 0 0 !important;)
 cbssports.com##.hq-anchor-container:remove()
 cbssports.com##.nav-network-bar:style(position: static !important;)
 cbssports.com##.sportsline-td
 cbssports.com##.tickets-td
-cbssports.com##div[class="page-shell gametracker-page"] > div[id="mantle_skin"][data-component="headerSticky"]:style(margin: 110px 0 0 0 !important;)
-cbssports.com##div[id="hud-container"][class*="desktop-view"]:style(top: 0px !important;)
 !#endif
 
 ! Chartoo
