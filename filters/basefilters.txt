@@ -75,6 +75,11 @@ kwik.cx##button[type="button"][class="plyr__control plyr__control--overlaid"][da
 dailymotion.com##.np_carousel-list-wrapper
 dailymotion.com##.np_Darken
 
+! AppDB
+appdb.to##.app[data-v-06d5e39c]::before
+appdb.to##.banner
+appdb.to##.vue-notification-group
+
 ! Apple Music
 music.apple.com##[aria-label="Subscription"]
 music.apple.com##cwc-music-upsell-banner-web
@@ -272,6 +277,9 @@ open.spotify.com##[class^="Root__now-playing-bar"]:has-text(Preview of Spotify)
 open.spotify.com##button[class*="Upqw01TOXETOmR5Td7Dj"]:has-text(Upgrade)
 open.spotify.com##section[class*="QyANtc_r7ff_tqrf5Bvc"]:has-text(More by)
 open.spotify.com#@#div > div[aria-live="polite"]
+
+! The Anime Index
+piracy.moe##[href*="https://privateinternetaccess.com/offer/PiracyMoe"]
 
 ! Writer
 writer.com##.CampaignType--popup
