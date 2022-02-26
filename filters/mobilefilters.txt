@@ -202,7 +202,7 @@ webmd.com###lln-toppks
 webmd.com##div[id*="mnet-ia-instream-"]
 
 ! Yahoo
-yahoo.com##a[id="app-promo"][class*="app-promo"]
+yahoo.com###app-promo
 
 ! Yelp
 m.yelp.com###smart-banner
