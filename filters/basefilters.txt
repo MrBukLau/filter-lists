@@ -58,6 +58,8 @@ $removeparam=sport
 ||reddit.com^$removeparam=utm_medium
 ||reddit.com^$removeparam=utm_name
 ||reddit.com^$removeparam=utm_source
+||spotify.com^$removeparam=utm_medium
+||spotify.com^$removeparam=utm_source
 
 !--------------------------------------!
 !---------- Specific Filters ----------!
