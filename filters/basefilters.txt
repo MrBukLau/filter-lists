@@ -52,14 +52,8 @@
 ||your-download-now.com^
 
 ! URL Parameter Filters
+$removeparam=/^utm_/,domain=reddit.com|spotify.com
 $removeparam=sport
-||music.apple.com^$removeparam=app
-||reddit.com^$removeparam=utm_content
-||reddit.com^$removeparam=utm_medium
-||reddit.com^$removeparam=utm_name
-||reddit.com^$removeparam=utm_source
-||spotify.com^$removeparam=utm_medium
-||spotify.com^$removeparam=utm_source
 
 !--------------------------------------!
 !---------- Specific Filters ----------!
