@@ -269,10 +269,9 @@ seedr.cc##div[class*="joyride-tip-guide"]
 signupgenius.com##.sug-notice--privacy
 
 ! Spotify
-open.spotify.com##[class^="link-subtle"]:has-text(Install App)
-open.spotify.com##[class^="Root__now-playing-bar"]:has-text(Preview of Spotify)
-open.spotify.com##button[class*="Upqw01TOXETOmR5Td7Dj"]:has-text(Upgrade)
-open.spotify.com##section[class*="QyANtc_r7ff_tqrf5Bvc"]:has-text(/^More by/)
+open.spotify.com##.link-subtle[draggable][href="/download"]
+open.spotify.com##button[type="button"][aria-label="Upgrade to Premium"][title="Upgrade to Premium"]
+open.spotify.com##section[data-testid="component-shelf"][aria-label^="More by"]
 open.spotify.com#@#div > div[aria-live="polite"]
 
 ! The Anime Index
