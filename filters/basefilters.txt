@@ -58,9 +58,6 @@ $removeparam=sport
 !--------------------------------------!
 !---------- Specific Filters ----------!
 !--------------------------------------!
-! 1337x
-1337x.*,x1337x.*##a[href="/vpnd-stoptracking"]
-
 ! AnimePahe
 animepahe.*##.alert
 animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
@@ -135,9 +132,9 @@ free-mp3-download.net###toast-container
 funimation.com##.header-promo-ribbon-wrap
 funimation.com##.home-subscription-banner
 funimation.com##.meta-overlay:style(background-image: none !important;)
-funimation.com##.meta-overlay__back-btn[href][aria-label="Back"]
-funimation.com##.meta-overlay__data-block[data-test="meta-overlay__data-block"]
-funimation.com##.meta-overlay__funi-logo[style]
+funimation.com##.meta-overlay__back-btn
+funimation.com##.meta-overlay__data-block
+funimation.com##.meta-overlay__funi-logo
 funimation.com##.v-dialog__content
 funimation.com##div[data-test="episode-card__key-art"]:style(filter: blur(16px) !important;)
 
@@ -260,9 +257,6 @@ hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.redesign-beta-optin
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##div[class="pinnable-content pinned"]
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##section[class="infobar commentsignupbar"]
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##section[class="infobar listingsignupbar"]
-
-! Seedr
-seedr.cc##.joyride-list
 
 ! SignUpGenius
 signupgenius.com##.sug-notice--privacy
