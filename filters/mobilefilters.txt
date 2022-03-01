@@ -49,6 +49,7 @@ autozone.com##._3f3af7
 
 ! Bleacher Report
 bleacherreport.com##.appInstallButton
+bleacherreport.com##.fixedBottom
 bleacherreport.com##.newsletterSubsModule
 syndication.bleacherreport.com###branch-banner
 
@@ -195,7 +196,7 @@ thescore.com##.the-score-article-ad-unit
 thescore.com##button[class^="GetTheAppModal__getTheAppButton"]
 
 ! Twitch
-m.twitch.tv##a[class^="ScCoreButton"][href^="https://twitch.app.link/"]
+m.twitch.tv##div[class^="ScCoreButtonLabel"]:has-text(Open in App)
 
 ! WebMD
 webmd.com###lln-toppks
