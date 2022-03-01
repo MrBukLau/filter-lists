@@ -48,8 +48,8 @@
 autozone.com##._3f3af7
 
 ! Bleacher Report
-bleacherreport.com##div[class*="appInstallButton"]
-bleacherreport.com##form[class="cell newsletterSubsModule flyIn show"]
+bleacherreport.com##.appInstallButton
+bleacherreport.com##.newsletterSubsModule
 syndication.bleacherreport.com###branch-banner
 
 ! CBS
@@ -79,12 +79,12 @@ fedex.com##fedex-smart-banner
 funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
 
 ! Genius
-genius.com##div[class*="AppleMusicPlayer__PositioningContainer"]
-genius.com##div[class*="InreadAdmobile__Container"]
-genius.com##div[class*="StickyBannerAd__Container"]
+genius.com##div[class^="AppleMusicPlayer__PositioningContainer"]
+genius.com##div[class^="InreadAdmobile__Container"]
+genius.com##div[class^="StickyBannerAd__Container"]
 
 ! Giphy
-giphy.com##div[class*="OpenInAppContainer"]
+giphy.com##div[class^="OpenInAppContainer"]
 
 ! Google
 google.*###stUuGf
@@ -107,10 +107,10 @@ m.imgur.com##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
 m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 
 ! LinkedIn
-linkedin.com##div[class*="apptivation-promo"]
+linkedin.com##div[class^="apptivation-promo"]
 
 ! Live TV
-watchsports.to##a[class*="w3-center"][style="width:100%"][href][target="_blank"]
+watchsports.to##.w3-center[style="width:100%"][href][target="_blank"]
 !#if adguard_app_ios
 tinyurl.is#%#AG_onLoad((function(){if(document.location.href.includes("tinyurl.is")){var delayInMilliseconds=1000;setTimeout(function(){var targetLink=$("a:contains('Click Here to Watch')");if(targetLink&&targetLink.length){window.location.href=targetLink[0].href;}},delayInMilliseconds);}})());
 !#endif
@@ -181,10 +181,10 @@ reddit.com#%#AG_onLoad((function(){if(document.location.href.includes("amp.reddi
 !#endif
 
 ! SoundCloud
-m.soundcloud.com##a[class*="Header"]:has-text(Listen in app)
+m.soundcloud.com##a[data-testid="open-in-app-link"]
 
 ! Spotify
-open.spotify.com##button[class*="LoginTopBar__OpenAppButton"]
+open.spotify.com##button[data-testid="open-app-button"]
 
 ! The Undefeated
 theundefeated.com##.ad-prevent-jump
@@ -195,7 +195,7 @@ thescore.com##.the-score-article-ad-unit
 thescore.com##button[class^="GetTheAppModal__getTheAppButton"]
 
 ! Twitch
-m.twitch.tv##div[class*="ScCoreButtonLabel"]:has-text(Open in App)
+m.twitch.tv##a[class^="ScCoreButton"][href^="https://twitch.app.link/"]
 
 ! WebMD
 webmd.com###lln-toppks
