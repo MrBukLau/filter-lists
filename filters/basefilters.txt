@@ -178,11 +178,7 @@ bdnewszh.com##.left-sticky-banner
 bdnewszh.com##.right-sticky-banner
 blacktiesports.net##.bookmark[style]
 blacktiesports.net##a[href="https://reddit.nflbite.com/"]
-icelz.newsrade.com##a[href*="agacelebir.com"][rel="nofollow norefferer noopener"]
 icelz.newsrade.com##div[style*="z-index: 2147483647"]
-icelz.newsrade.com##iframe[src*="cxckxxrffumcha.xyz"]
-icelz.newsrade.com##iframe[src*="jstjpniwb.xyz"]
-icelz.newsrade.com##iframe[src*="psauwush.net"]
 icelz.newsrade.com##iframe[src="about:blank"]
 icelz.newsrade.com##iframe[style*="z-index: 2147483647"]
 nbabite.com##.post_tags
