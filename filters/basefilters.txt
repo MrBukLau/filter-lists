@@ -10,7 +10,7 @@
 ###ad
 ###nordd
 ##.remixd-wrapper
-##div[class*="adblock-allowlist-messaging"]
+##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
 ||ads-dev.pinterest.com^
@@ -74,7 +74,7 @@ appdb.to##.banner
 appdb.to##.vue-notification-group
 
 ! Apple Music
-music.apple.com##[aria-label="Subscription"]
+music.apple.com##.dt-modal__container[role="dialog"][aria-label="Subscription"]
 music.apple.com##cwc-music-upsell-banner-web
 music.apple.com##div[data-test-locale-switcher-banner]
 
