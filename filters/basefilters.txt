@@ -274,7 +274,7 @@ open.spotify.com##section[data-testid="component-shelf"][aria-label^="More by"]
 open.spotify.com#@#div > div[aria-live="polite"]
 
 ! The Anime Index
-piracy.moe##[href^="https://privateinternetaccess.com/offer/PiracyMoe"]
+piracy.moe##a[href^="https://privateinternetaccess.com/offer/PiracyMoe"]
 
 ! Writer
 writer.com##.CampaignType--popup
