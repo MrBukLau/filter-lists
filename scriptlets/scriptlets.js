@@ -21,7 +21,7 @@
     'use strict';
     if (document.location.href.includes("music.apple.com")) {
         var oldUrlSearch = window.location.search;
-        if (window.location.href.indexOf("?i=") > -1) {
+        if (window.location.href.indexOf("?") > -1) {
             if (!/\&l=en$/.test(oldUrlSearch)) {
                 var newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "&l=en" + window.location.hash;
                 window.location.replace(newUrl);
