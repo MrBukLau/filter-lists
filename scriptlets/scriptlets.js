@@ -21,15 +21,15 @@
     'use strict';
     if (document.location.href.includes("music.apple.com")) {
         var oldUrlSearch = window.location.search;
-        if (window.location.href.indexOf("?") > -1) {
+        if ((oldUrlSearch.indexOf("?") > -1) && (oldUrlSearch.indexOf("?l=") === -1)) {
             if (!/\&l=en$/.test(oldUrlSearch)) {
-                var newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "&l=en" + window.location.hash;
-                window.location.replace(newUrl);
+                var newUrlWithAddedParameter = window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "&l=en" + window.location.hash;
+                window.location.replace(newUrlWithAddedParameter);
             }
         } else {
             if (!/\?l=en$/.test(oldUrlSearch)) {
-                var newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "?l=en" + window.location.hash;
-                window.location.replace(newUrl);
+                var newUrlWithNewParameter = window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "?l=en" + window.location.hash;
+                window.location.replace(newUrlWithNewParameter);
             }
         }
     }
