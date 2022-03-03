@@ -212,6 +212,7 @@ lyrical-nonsense.com##.lyricside
 lyrical-nonsense.com##.matchedsidebarhome
 lyrical-nonsense.com##.playblockbtm
 lyrical-nonsense.com##.playblocktop
+lyrical-nonsense.com##div[class^="responsive"][class$="inc"]
 
 ! Mojo Sakun
 controlc.com##a[href^="http://redact.dev"]
