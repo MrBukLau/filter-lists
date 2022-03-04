@@ -90,6 +90,7 @@ giphy.com##div[class^="OpenInAppContainer"]
 ! Google
 google.*###stUuGf
 google.*##.bB4gff
+google.*##.gSBiC.SVDhZe.QhOYcb.R1JuAe
 google.*##.imso-hide-loading.O8LF7c.IvuoRc
 google.*##.oSAsx
 google.*##.rKJOcDNwrHj__pb-dfr.rKJOcDNwrHj__pb-s
