@@ -52,18 +52,20 @@
 (function() {
     'use strict';
     window.addEventListener('load', function() {
-        var firstButton = document.getElementsByClassName('btn btn-primary btn-captcha');
-        if (firstButton.length > 0) {
-            document.querySelector("button[class='btn btn-primary btn-captcha']").click();
-        }
-        var secondButton = document.getElementsByClassName('skip-ad');
-        if (secondButton.length > 0) {
-            var targetLink = $("a:contains('Skip Ad')");
-            if (targetLink && targetLink.length) {
-                var delayInMilliseconds = 1000;
-                setTimeout(function() {
-                    window.location.href = targetLink[0].href;
-                }, delayInMilliseconds);
+        if (document.location.href.includes("itdmusic.top")) {
+            var firstButton = document.getElementsByClassName('btn btn-primary btn-captcha');
+            if (firstButton.length > 0) {
+                document.querySelector("button[class='btn btn-primary btn-captcha']").click();
+            }
+            var secondButton = document.getElementsByClassName('skip-ad');
+            if (secondButton.length > 0) {
+                var targetLink = $("a:contains('Skip Ad')");
+                if (targetLink && targetLink.length) {
+                    var delayInMilliseconds = 1000;
+                    setTimeout(function() {
+                        window.location.href = targetLink[0].href;
+                    }, delayInMilliseconds);
+                }
             }
         }
     })
