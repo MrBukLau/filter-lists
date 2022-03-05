@@ -1,7 +1,7 @@
 // MrBukLau's Scriptlets
 
-/// apple-music-album-artwork-format-changer.js
-/// alias amaafc.js
+/// apple-music-artwork-format-changer.js
+/// alias amafc.js
 (function() {
     'use strict';
     if (document.location.href.includes("mzstatic.com/image/thumb")) {
@@ -11,12 +11,14 @@
     }
 })();
 
-/// apple-music-album-artwork-size-changer.js
-/// alias amaasc.js
+/// apple-music-artwork-size-changer.js
+/// alias amasc.js
 (function() {
     'use strict';
     if (document.location.href.includes("mzstatic.com/image/thumb")) {
-        if (location.href.match("200x200")) {
+        if (location.href.match("190x190")) {
+            location.href = location.href.replace("190x190", "2000x2000");
+        } else if (location.href.match("200x200")) {
             location.href = location.href.replace("200x200", "2000x2000");
         } else if (location.href.match("270x270")) {
             location.href = location.href.replace("270x270", "2000x2000");
@@ -24,6 +26,8 @@
             location.href = location.href.replace("300x300", "2000x2000");
         } else if (location.href.match("305x305")) {
             location.href = location.href.replace("305x305", "2000x2000");
+        } else if (location.href.match("380x380")) {
+            location.href = location.href.replace("380x380", "2000x2000");
         } else if (location.href.match("400x400")) {
             location.href = location.href.replace("400x400", "2000x2000");
         } else if (location.href.match("500x500")) {
