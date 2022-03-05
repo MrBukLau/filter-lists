@@ -1,13 +1,21 @@
 // MrBukLau's Scriptlets
 
-/// apple-music-album-artwork-resizer.js
-/// alias amaar.js
+/// apple-music-album-artwork-format-changer.js
+/// alias amaafc.js
 (function() {
     'use strict';
     if (document.location.href.includes("mzstatic.com/image/thumb")) {
         if (location.href.match(".webp")) {
             location.href = location.href.replace(".webp", ".jpeg");
         }
+    }
+})();
+
+/// apple-music-album-artwork-size-changer.js
+/// alias amaasc.js
+(function() {
+    'use strict';
+    if (document.location.href.includes("mzstatic.com/image/thumb")) {
         if (location.href.match("200x200")) {
             location.href = location.href.replace("200x200", "2000x2000");
         } else if (location.href.match("270x270")) {
