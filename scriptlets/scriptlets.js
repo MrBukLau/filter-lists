@@ -5,12 +5,29 @@
 (function() {
     'use strict';
     if (document.location.href.includes("mzstatic.com/image/thumb")) {
-        if (location.href.match("600x600bb.webp")) {
-            location.href = location.href.replace("600x600bb.webp", "2000x2000.jpeg");
-        } else if (location.href.match("600x600bf.webp")) {
-            location.href = location.href.replace("600x600bf.webp", "2000x2000.jpeg");
-        } else if (location.href.match("1000x1000bb.webp")) {
-            location.href = location.href.replace("1000x1000bb.webp", "2000x2000.jpeg");
+        if (location.href.match(".webp")) {
+            location.href = location.href.replace(".webp", ".jpeg");
+        }
+        if (location.href.match("200x200")) {
+            location.href = location.href.replace("200x200", "2000x2000");
+        } else if (location.href.match("270x270")) {
+            location.href = location.href.replace("270x270", "2000x2000");
+        } else if (location.href.match("300x300")) {
+            location.href = location.href.replace("300x300", "2000x2000");
+        } else if (location.href.match("305x305")) {
+            location.href = location.href.replace("305x305", "2000x2000");
+        } else if (location.href.match("400x400")) {
+            location.href = location.href.replace("400x400", "2000x2000");
+        } else if (location.href.match("500x500")) {
+            location.href = location.href.replace("500x500", "2000x2000");
+        } else if (location.href.match("540x540")) {
+            location.href = location.href.replace("540x540", "2000x2000");
+        } else if (location.href.match("600x600")) {
+            location.href = location.href.replace("600x600", "2000x2000");
+        } else if (location.href.match("610x610")) {
+            location.href = location.href.replace("610x610", "2000x2000");
+        } else if (location.href.match("1000x1000")) {
+            location.href = location.href.replace("1000x1000", "2000x2000");
         }
     }
 })();
