@@ -68,6 +68,7 @@ crunchyroll.com#%#AG_onLoad((function(){if(document.location.href.includes("crun
 ! ESPN
 espn.com##.ad-slot-inview
 espn.com##.AppPromo
+espn.com##.promo-banner-container
 
 ! Fandom
 fandom.com###article-featured-video-container
