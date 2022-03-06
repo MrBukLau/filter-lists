@@ -4,7 +4,7 @@
 /// alias amafc.js
 (function() {
     'use strict';
-    if (document.location.href.includes("mzstatic.com/image/thumb")) {
+    if (document.location.href.includes(".mzstatic.com/image/thumb/")) {
         if (location.href.match(".webp")) {
             location.href = location.href.replace(".webp", ".jpeg");
         }
@@ -15,7 +15,7 @@
 /// alias amasc.js
 (function() {
     'use strict';
-    if (document.location.href.includes("mzstatic.com/image/thumb")) {
+    if (document.location.href.includes(".mzstatic.com/image/thumb/")) {
         if (location.href.match("190x190")) {
             location.href = location.href.replace("190x190", "2000x2000");
         } else if (location.href.match("200x200")) {
@@ -48,7 +48,7 @@
 /// alias amet.js
 (function() {
     'use strict';
-    if (document.location.href.includes("music.apple.com")) {
+    if (document.location.href.includes("/music.apple.com/")) {
         var oldUrlSearch = window.location.search;
         if ((oldUrlSearch.indexOf("?") > -1) && (oldUrlSearch.indexOf("?l=") === -1)) {
             if (!/\&l=en$/.test(oldUrlSearch)) {
@@ -68,7 +68,7 @@
 /// alias hnab.js
 (function() {
     'use strict';
-    if (document.location.href.includes("hikarinoakari.com/out")) {
+    if (document.location.href.includes("/hikarinoakari.com/out/")) {
         var delayInMilliseconds = 1000;
         setTimeout(function() {
             document.querySelector("a[class='link']").click();
@@ -81,7 +81,7 @@
 (function() {
     'use strict';
     window.addEventListener('load', function() {
-        if (document.location.href.includes("itdmusic.top")) {
+        if (document.location.href.includes("/itdmusic.top/")) {
             var firstButton = document.getElementsByClassName('btn btn-primary btn-captcha');
             if (firstButton.length > 0) {
                 document.querySelector("button[class='btn btn-primary btn-captcha']").click();
@@ -105,7 +105,7 @@
 (function() {
     'use strict';
     window.addEventListener('load', function() {
-        if (document.location.href.includes("old.reddit.com")) {
+        if (document.location.href.includes("/old.reddit.com/")) {
             var aCol = document.getElementsByTagName('a');
             var a, actualUrl;
             for (var i = 0; i < aCol.length; i++) {
@@ -123,7 +123,7 @@
 /// alias orr.js
 (function() {
     'use strict';
-    if (document.location.href.includes("www.reddit.com") && !document.location.href.includes("www.reddit.com/poll")) {
+    if (document.location.href.includes("/www.reddit.com/") && !document.location.href.includes("/www.reddit.com/poll/")) {
         window.location.replace("https://old.reddit.com" + window.location.pathname + window.location.search);
     }
 })();
@@ -133,7 +133,7 @@
 (function() {
     'use strict';
     window.addEventListener('load', function() {
-        if (document.location.href.includes("ouo.io") || document.location.href.includes("ouo.press")) {
+        if (document.location.href.includes("/ouo.io/") || document.location.href.includes("/ouo.press/")) {
             if (document.getElementById("form-captcha") === null) {
                 document.getElementsByTagName("form")[0].submit();
             }
@@ -149,7 +149,7 @@
 (function() {
     'use strict';
     window.addEventListener('load', function() {
-        if (document.location.href.includes("tinyurl.is")) {
+        if (document.location.href.includes("/tinyurl.is/")) {
             var targetLink = $("a:contains('Click Here to Watch')");
             if (targetLink && targetLink.length) {
                 window.location.href = targetLink[0].href;
