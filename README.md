@@ -108,6 +108,8 @@ No further actions are necessary. After adding a filter list from this repositor
 - **RandomUsername404 on Greasy Fork**
     - [Bring Back Old Reddit](https://greasyfork.org/en/scripts/44669-bring-back-old-reddit)
 #### For Providing Coding Tips That Enabled Me to Create Some of These Scriptlets
+- **artlung on Stack Overflow**
+    - [Add a Target Attribute to an Anchor Element](https://stackoverflow.com/questions/804256/how-do-i-add-target-blank-to-a-link-within-a-specified-div)
 - **Brock Adams on Stack Overflow**
     - [Change a Page's URL Parameters in JavaScript](https://stackoverflow.com/questions/16065937/changing-a-pages-url-parameters)
     - [Click a Link That Has Specific Text in JavaScript](https://stackoverflow.com/questions/6990231/how-do-i-make-greasemonkey-click-a-link-that-has-specific-text)
