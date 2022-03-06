@@ -148,12 +148,14 @@
 /// alias rlintf.js
 (function() {
     "use strict";
-    if (document.location.href.includes("/rentry.co/") || document.location.href.includes("/rentry.org/")) {
-        let anchor = document.getElementsByTagName("a");
-        for (let i = 0; i < anchor.length; i++) {
-            anchor[i].setAttribute("target", "_blank");
+    window.addEventListener("load", function() {
+        if (document.location.href.includes("/rentry.co/") || document.location.href.includes("/rentry.org/")) {
+            let anchor = document.getElementsByTagName("a");
+            for (let i = 0; i < anchor.length; i++) {
+                anchor[i].setAttribute("target", "_blank");
+            }
         }
-    }
+    });
 })();
 
 /// tinyurl-is-bypasser.js
