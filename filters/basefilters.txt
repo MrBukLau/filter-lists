@@ -261,7 +261,7 @@ hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##section[class="infobar
 
 ! Rentry
 !#if ext_ublock
-rentry.*##+js(ra, target, a.btn)
+rentry.*##+js(ra, target, a.btn, stay)
 !#endif
 
 ! SignUpGenius
