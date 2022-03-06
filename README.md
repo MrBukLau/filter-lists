@@ -116,9 +116,9 @@ No further actions are necessary. After adding a filter list from this repositor
 - **HIRA THAKUR on Stack Overflow**
     - [Set a Time Delay in JavaScript](https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript)
 - **VisioN on Stack Overflow**
-    - [Determine if an Element Exist in JavaScript](https://stackoverflow.com/questions/26254957/if-class-exists-do-something-with-javascript/26254988)
+    - [Determine if an Element Exists in JavaScript](https://stackoverflow.com/questions/26254957/if-class-exists-do-something-with-javascript/26254988)
 - **Vivre on Greasy Fork**
-    - [Replace a String in an URL in JavaScript](https://greasyfork.org/en/discussions/requests/55817-replace-string-in-an-url)
+    - [Replace a String in a URL in JavaScript](https://greasyfork.org/en/discussions/requests/55817-replace-string-in-an-url)
 
 ## License
 [MIT](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE)
