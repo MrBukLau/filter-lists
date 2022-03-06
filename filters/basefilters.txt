@@ -184,9 +184,14 @@ icelz.newsrade.com##iframe[style*="z-index: 2147483647"]:remove()
 nbabite.com###jdj
 nbabite.com##.post_tags
 rnbastreams.com###event-tags
+rnbastreams.com###nordd
+soccerstreams.net##.alert
+soccerstreams.net##.body > .container
+soccerstreams.net##[id^="event-tags"]
 sportsurge.net##.HeaderUyari
 tinyurl.is##.container:has-text(Have Your Ads Here)
 tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
+uhdstreams.club##div[data-watermark]
 volokit2.com##.backtotop
 volokit2.com##.widget-area
 watchsports.to###hawtS[style="margin:0 auto;align:center;max-height:30px;max-width:200px;padding:5px;"][type="text"][placeholder="Find Event"][ng-model="findhawt"]:style(margin: 20px !important;)
