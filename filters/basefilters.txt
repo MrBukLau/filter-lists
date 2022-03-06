@@ -177,9 +177,10 @@ bdnewszh.com##.left-sticky-banner
 bdnewszh.com##.right-sticky-banner
 blacktiesports.net##.bookmark[style]
 blacktiesports.net##a[href="https://reddit.nflbite.com/"]
-icelz.newsrade.com##div[style*="z-index: 2147483647"]
-icelz.newsrade.com##iframe[src="about:blank"]
-icelz.newsrade.com##iframe[style*="z-index: 2147483647"]
+icelz.newsrade.com##a[href][rel="nofollow norefferer noopener"][style]:remove()
+icelz.newsrade.com##iframe[src="about:blank"]:remove()
+icelz.newsrade.com##iframe[src][style="width: 1px; height: 1px; opacity: 0;"]:remove()
+icelz.newsrade.com##iframe[style*="z-index: 2147483647"]:remove()
 nbabite.com###jdj
 nbabite.com##.post_tags
 rnbastreams.com###event-tags
@@ -199,9 +200,12 @@ watchsports.to##div[style="display: flex;justify-content: center;height: 230px; 
 watchsports.to##div[style="width: 100%; max-width: 720px; margin: 10px auto;display:block;"]:has-text(HD)
 watchsports.to##hr[style="height:1px; visibility:hidden; margin-bottom:-1px;"]
 !#if adguard
+icelz.newsrade.com#%#//scriptlet('remove-attr', 'target', 'a.btn')
+tinyurl.is#%#//scriptlet('adjust-setInterval')
 tinyurl.is#%#//scriptlet('remove-class', 'disabled', 'a.btn', 'stay')
 !#endif
 !#if ext_ublock
+icelz.newsrade.com##+js(ra, target, a.btn)
 tinyurl.is##+js(nano-sib)
 tinyurl.is##+js(rc, disabled, a.btn, stay)
 !#endif
