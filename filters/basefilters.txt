@@ -8,7 +8,6 @@
 !-------------------------------------!
 ! Cosmetic Filters
 ###ad
-###nordd
 ##.remixd-wrapper
 ##div[class^="adblock-allowlist-messaging"]
 
@@ -181,6 +180,7 @@ blacktiesports.net##a[href="https://reddit.nflbite.com/"]
 icelz.newsrade.com##div[style*="z-index: 2147483647"]
 icelz.newsrade.com##iframe[src="about:blank"]
 icelz.newsrade.com##iframe[style*="z-index: 2147483647"]
+nbabite.com###jdj
 nbabite.com##.post_tags
 rnbastreams.com###event-tags
 sportsurge.net##.HeaderUyari
