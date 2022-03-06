@@ -62,7 +62,7 @@ craigslist.org##.tryapp
 
 ! Crunchyroll
 !#if adguard_app_ios
-crunchyroll.com#%#AG_onLoad((function(){if(document.location.href.includes("/www.crunchyroll.com/interstitial/")){var delayInMilliseconds=500;setTimeout(function(){document.querySelector("a[class='desktop-site-link']").click();},delayInMilliseconds);}})());
+crunchyroll.com#%#AG_onLoad((function(){if(document.location.href.includes("/www.crunchyroll.com/interstitial/")){let delayInMilliseconds=500;setTimeout(function(){document.querySelector("a[class='desktop-site-link']").click();},delayInMilliseconds);}})());
 !#endif
 
 ! ESPN
@@ -115,7 +115,7 @@ linkedin.com##div[class^="apptivation-promo"]
 ! Live TV
 watchsports.to##.w3-center[style="width:100%"][href][target="_blank"]
 !#if adguard_app_ios
-tinyurl.is#%#AG_onLoad((function(){if(document.location.href.includes("/tinyurl.is/")){var delayInMilliseconds=500;setTimeout(function(){var targetLink=$("a:contains('Click Here to Watch')");if(targetLink&&targetLink.length){window.location.href=targetLink[0].href;}},delayInMilliseconds);}})());
+tinyurl.is#%#AG_onLoad((function(){if(document.location.href.includes("/tinyurl.is/")){let delayInMilliseconds=500;setTimeout(function(){let targetLink=$("a:contains('Click Here to Watch')");if(targetLink&&targetLink.length){window.location.href=targetLink[0].href;}},delayInMilliseconds);}})());
 !#endif
 
 ! Mozilla
