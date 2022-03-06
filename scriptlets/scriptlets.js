@@ -148,7 +148,7 @@
 /// alias rlintf.js
 (function() {
     "use strict";
-    if (document.location.href.includes("/rentry.org/")) {
+    if (document.location.href.includes("/rentry.co/") || document.location.href.includes("/rentry.org/")) {
         let anchor = document.getElementsByTagName("a");
         for (let i = 0; i < anchor.length; i++) {
             anchor[i].setAttribute("target", "_blank");
