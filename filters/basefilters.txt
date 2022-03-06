@@ -259,6 +259,11 @@ hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##div[class="pinnable-co
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##section[class="infobar commentsignupbar"]
 hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##section[class="infobar listingsignupbar"]
 
+! Rentry
+!#if ext_ublock
+rentry.*##+js(ra, target, a.btn)
+!#endif
+
 ! SignUpGenius
 signupgenius.com##.sug-notice--privacy
 
