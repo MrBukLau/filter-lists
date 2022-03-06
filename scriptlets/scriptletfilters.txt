@@ -4,7 +4,7 @@
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
 ! Apple Music
-music.apple.com##+js(amet)
+music.apple.com##+js(amete)
 mzstatic.com##+js(amafc)
 mzstatic.com##+js(amasc)
 
@@ -19,7 +19,10 @@ ouo.*##+js(oib)
 
 ! Reddit
 old.reddit.com##+js(oroctb)
-www.reddit.com##+js(orr)
+www.reddit.com##+js(orre)
+
+! Rentry
+rentry.*##+js(rlintf)
 
 ! Tinyurl.is
 tinyurl.is##+js(tuib)
