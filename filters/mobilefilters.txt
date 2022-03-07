@@ -57,6 +57,9 @@ syndication.bleacherreport.com###branch-banner
 cbsnews.com###smart-banner-download
 cbssports.com###skybox-top-wrapper
 
+! Cleveland Clinic
+clevelandclinic.org#%#AG_onLoad((function(){if(document.location.href.includes("/health.clevelandclinic.org/")){if(location.href.match("/amp/")){location.href=location.href.replace("/amp/","");}}})());
+
 ! Craigslist
 craigslist.org##.tryapp
 
