@@ -1,5 +1,5 @@
 ! Title: MrBukLau's Mobile Filters
-! Description: This filter list is for removing annoyances on the mobile version of websites.
+! Description: This filter list is for removing annoyances on various mobile websites.
 ! Homepage: https://github.com/MrBukLau/filter-lists
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
