@@ -39,7 +39,6 @@
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
 ||widgets.pinterest.com^
-||your-download-now.com^
 
 ! URL Parameter Filters
 $removeparam=/^utm_/,domain=reddit.com|spotify.com
