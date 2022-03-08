@@ -33,7 +33,6 @@
 ||browser.sentry-cdn.com^
 ||d.reddit.com^
 ||extmaps-api.yandex.net^
-||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
 ||luckyorange.net^
 ||notify.bugsnag.com^
 ||sessions.bugsnag.com^
@@ -53,6 +52,7 @@ $removeparam=sport
 animepahe.*##.alert
 animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
 kwik.cx##.plyr::after:style(content: none !important;)
+kwik.cx##.plyr__poster
 kwik.cx##button[type="button"][class="plyr__control plyr__control--overlaid"][data-plyr="play"][aria-label="Play"]
 
 ! AniMixPlay
