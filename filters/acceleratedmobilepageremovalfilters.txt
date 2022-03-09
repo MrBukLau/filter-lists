@@ -1,0 +1,6 @@
+! Title: MrBukLau's Accelerated Mobile Page Removal Filters
+! Description: This filter list is for removing Accelerated Mobile Pages on iOS.
+! Homepage: https://github.com/MrBukLau/filter-lists
+! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
+
+! Report missing websites at https://github.com/MrBukLau/filter-lists/issues
