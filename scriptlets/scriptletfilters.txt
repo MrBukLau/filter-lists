@@ -5,8 +5,7 @@
 
 ! Apple Music
 music.apple.com##+js(amete)
-mzstatic.com##+js(amafc)
-mzstatic.com##+js(amasc)
+mzstatic.com##+js(amafasc)
 
 ! Hikarinoakariost
 hikarinoakari.com##+js(hnab)
