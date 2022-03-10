@@ -65,6 +65,7 @@ appdb.to##.vue-notification-group
 
 ! Apple Music
 music.apple.com##.dt-modal__container[role="dialog"][aria-label="Subscription"]
+music.apple.com##.web-navigation__native-upsell
 music.apple.com##cwc-music-upsell-banner-web
 music.apple.com##div[data-test-locale-switcher-banner]
 
@@ -266,6 +267,7 @@ signupgenius.com##.sug-notice--privacy
 ! Spotify
 open.spotify.com##.link-subtle[draggable][href="/download"]
 open.spotify.com##button[type="button"][aria-label="Upgrade to Premium"][title="Upgrade to Premium"]
+open.spotify.com##div[data-testid="signup-bar"]:upward(.Root__now-playing-bar)
 open.spotify.com##section[data-testid="component-shelf"][aria-label^="More by"]
 open.spotify.com#@#div > div[aria-live="polite"]
 
