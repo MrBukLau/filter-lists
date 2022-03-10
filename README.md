@@ -148,7 +148,7 @@ No further actions are necessary. After adding a filter list from this repositor
 
 <!-- Information Links -->
 [Accelerated Mobile Pages Wikipedia Link]: https://en.wikipedia.org/wiki/Accelerated_Mobile_Pages
-[Content Blockers Guide]: https://www.macrumors.com/how-to/enable-content-blockers-safari/
+[Content Blockers Guide]: https://macrumors.com/how-to/enable-content-blockers-safari/
 [Safari Web Extensions Guide]: https://adguard.com/en/blog/adguard-4-3-for-ios.html
 [Scriptlet File Link]: https://github.com/MrBukLau/filter-lists/blob/master/scriptlets/scriptlets.js
 [Scriptlet Raw File Link]: https://github.com/MrBukLau/filter-lists/raw/master/scriptlets/scriptlets.js
@@ -156,7 +156,7 @@ No further actions are necessary. After adding a filter list from this repositor
 [Smart App Banners Apple Open Link]: https://docs-assets.developer.apple.com/published/c55cd28f16/rendered2x-1605721896.png
 [Smart App Banners Apple View Link]: https://docs-assets.developer.apple.com/published/20ab7d726b/rendered2x-1605721898.png
 [uBlock Origin Filter Guide]: https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web
-[uBlock Origin Scriptlet Guide]: https://www.xaloez.com/blog/UblockOriginScriptlets/index.html
+[uBlock Origin Scriptlet Guide]: https://xaloez.com/blog/UblockOriginScriptlets/index.html
 
 <!-- Raw Lists -->
 [Accelerated Mobile Page Removal Raw]: https://github.com/MrBukLau/filter-lists/raw/master/filters/acceleratedmobilepageremovalfilters.txt
