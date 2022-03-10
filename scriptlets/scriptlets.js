@@ -79,10 +79,10 @@
             if (secondButton.length > 0) {
                 let targetLink = $("a:contains('Skip Ad')");
                 if (targetLink && targetLink.length) {
-                    let delayInMilliseconds = 1000;
-                    setTimeout(function() {
+                    let runInMilliseconds = 100;
+                    setInterval(function() {
                         window.location.href = targetLink[0].href;
-                    }, delayInMilliseconds);
+                    }, runInMilliseconds);
                 }
             }
         }
@@ -113,9 +113,7 @@
 (function() {
     "use strict";
     if (window.location.href.includes("/www.reddit.com/") && !window.location.href.includes("/www.reddit.com/poll/")) {
-        if (window.location.href.match("/www.reddit.com/")) {
-            window.location.href = window.location.href.replace("/www.reddit.com/", "/old.reddit.com/");
-        }
+        window.location.href = window.location.href.replace("/www.reddit.com/", "/old.reddit.com/");
     }
 })();
 
