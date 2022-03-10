@@ -51,6 +51,7 @@ autozone.com##._3f3af7
 bleacherreport.com##.appInstallButton
 bleacherreport.com##.fixedBottom
 bleacherreport.com##.newsletterSubsModule
+bleacherreport.com##.stickyAdvert
 syndication.bleacherreport.com###branch-banner
 
 ! CBS
@@ -64,6 +65,9 @@ craigslist.org##.tryapp
 !#if adguard_app_ios
 crunchyroll.com#%#AG_onLoad((function(){if(document.location.href.includes("/www.crunchyroll.com/interstitial/")){let delayInMilliseconds=500;setTimeout(function(){document.querySelector("a[class='desktop-site-link']").click();},delayInMilliseconds);}})());
 !#endif
+
+! Deadspin
+deadspin.com###splashy-ad-container-top
 
 ! ESPN
 espn.com##.ad-slot-inview
@@ -117,6 +121,9 @@ watchsports.to##.w3-center[style="width:100%"][href][target="_blank"]
 !#if adguard_app_ios
 tinyurl.is#%#AG_onLoad((function(){if(document.location.href.includes("/tinyurl.is/")){let delayInMilliseconds=500;setTimeout(function(){let targetLink=$("a:contains('Click Here to Watch')");if(targetLink&&targetLink.length){window.location.href=targetLink[0].href;}},delayInMilliseconds);}})());
 !#endif
+
+! Major League Baseball
+mlb.com##.ad
 
 ! Mozilla
 mozilla.org###firefox-app-store-banner
