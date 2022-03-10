@@ -56,9 +56,7 @@ This repository contains filter lists that can be added to content blockers, suc
 ## Getting Started
 ### Installation
 #### AdGuard on Safari (Mobile - iOS 15 or Above)
-1. Download and install AdGuard from the App Store (Make sure to pay for a subscription or purchase the Pro version)
-    - [AdGuard][AdGuard App Store Link] - Free With Optional Paid Subscription
-    - [AdGuard Pro][AdGuard Pro App Store Link] - One-Time Purchase
+1. Download and install [AdGuard][AdGuard App Store Link] or [AdGuard Pro][AdGuard Pro App Store Link] from the App Store (Buy a subscription if downloading the free version)
 2. Open the AdGuard application and go to the Protection section
     <br>
     2a. Turn on "Safari Protection" by tapping the toggle button
@@ -77,7 +75,7 @@ This repository contains filter lists that can be added to content blockers, suc
     <br>
     6b. Add a filter list from this repository to AdGuard by clicking on the "Add a filter" button, pasting the raw GitHub link from this repository into the "Filter URL" field, clicking on the "Next" button, and clicking on the "Add" button after reviewing the prompt to confirm that it is the correct filter list
 #### uBlock Origin on Google Chrome (Desktop)
-1. Add the uBlock Origin extension by downloading it from the [Chrome Web Store][uBlock Origin Chrome Web Store Link] or [GitHub][uBlock Origin GitHub Link]
+1. Download and install the uBlock Origin extension by downloading it from the [Chrome Web Store][uBlock Origin Chrome Web Store Link] or [GitHub][uBlock Origin GitHub Link]
 2. After downloading and installing the extension, follow this [guide][uBlock Origin Filter Guide] to manually import a filter list from this repository to uBlock Origin or left-click on any of the **"Subscribe"** buttons below to automatically add a filter list to uBlock Origin
     <br>
     2a. When [MrBukLau's Scriptlet Filters][Scriptlet Filter] is imported to uBlock Origin, [MrBukLau's Scriptlets][Scriptlet File Link] also has to be imported to uBlock Origin, so follow this [guide][uBlock Origin Scriptlet Guide] to learn how to add this scriptlet file to uBlock Origin
