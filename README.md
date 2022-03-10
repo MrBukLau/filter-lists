@@ -78,7 +78,9 @@ This repository contains filter lists that can be added to content blockers, suc
     6b. Add a filter list from this repository to AdGuard by clicking on the "Add a filter" button, pasting the raw GitHub link from this repository into the "Filter URL" field, clicking on the "Next" button, and clicking on the "Add" button after reviewing the prompt to confirm that it is the correct filter list
 #### uBlock Origin on Google Chrome (Desktop)
 1. Add the uBlock Origin extension by downloading it from the [Chrome Web Store][uBlock Origin Chrome Web Store Link] or [GitHub][uBlock Origin GitHub Link]
-2. After adding the extension, follow this [guide][uBlock Origin Filter Guide] to manually import a filter list from this repository to uBlock Origin or left-click on any of the **"Subscribe"** buttons below to automatically add a filter list to uBlock Origin
+2. After downloading and installing the extension, follow this [guide][uBlock Origin Filter Guide] to manually import a filter list from this repository to uBlock Origin or left-click on any of the **"Subscribe"** buttons below to automatically add a filter list to uBlock Origin
+    <br>
+    2a. When [MrBukLau's Scriptlet Filters][Scriptlet Filter] is imported to uBlock Origin, [MrBukLau's Scriptlets][Scriptlet File Link] also has to be imported to uBlock Origin, so follow this [guide][uBlock Origin Scriptlet Guide] to learn how to add this scriptlet file to uBlock Origin
 ### Usage
 No further actions are necessary. After adding a filter list from this repository to a content blocker, that filter list will work and remove annoyances without any user input.
 
@@ -88,7 +90,7 @@ No further actions are necessary. After adding a filter list from this repositor
 |:-----------------|:----------|:----------------|
 | **[Base][Base Filter]** | **Raw:** <br> [Click Here][Base Raw] <br><br> **Subscribe:** <br> [Click Here][Base Subscription] | **Description:** <br> This filter list is for removing annoyances on various websites. <br><br> **Disclaimer:** <br> These filters were only tested on Google Chrome for desktop and Safari for iOS, which means that they may or may not work on other web browsers. <br><br> **Key Filters:** <br> - Blur video thumbnails on Crunchyroll and other streaming websites <br> - Hide a variety of annoying banners on various websites <br> - Remove video player annoyances on Crunchyroll and other streaming websites
 | **[Mobile][Mobile Filter]** | **Raw:** <br> [Click Here][Mobile Raw] <br><br> **Subscribe:** <br> [Click Here][Mobile Subscription] | **Description:** <br> This filter list is for removing annoyances on various mobile websites. <br><br> **Disclaimer:** <br> These filters were only tested on Safari for iOS, which means that they may or may not work on other web browsers. This filter list works better when it is used together with [MrBukLau's Base Filters][Base Filter]. Also, this filter list includes [MrBukLau's Accelerated Mobile Page Removal Filters][Accelerated Mobile Page Removal Filter] and [MrBukLau's Smart App Banner Removal Filters][Smart App Banner Removal Filter]. <br><br> **Key Filters:** <br> - Hide the "Download the App" annoyances on various mobile websites <br> - Prevent infinite scrolling on Imgur's mobile website <br> - Remove a variety of annoyances on Reddit's mobile website
-| **[Scriptlet][Scriptlet Filter]** | **Raw:** <br> [Click Here][Scriptlet Raw] <br><br> **Subscribe:** <br> [Click Here][Scriptlet Subscription] | **Description:** <br> This filter list is for using [MrBukLau's Scriptlets][Scriptlet File Link] in uBlock Origin. <br><br> **Disclaimer:** <br> These filters were only tested on Google Chrome for desktop, which means that they may or may not work on other web browsers. To learn how to use these scriptlets with uBlock Origin, click on this [link][uBlock Origin Scriptlet Guide]. To view the raw file of the actual scriptlets, click on this [link][Scriptlet Raw File Link]. <br><br> **Key Filters:** <br> - Bypass Ouo.io, Tinyurl.is, and other URL shorteners <br> - Redirect Reddit links to Old Reddit <br> - Translate everything to English on Apple Music
+| **[Scriptlet][Scriptlet Filter]** | **Raw:** <br> [Click Here][Scriptlet Raw] <br><br> **Subscribe:** <br> [Click Here][Scriptlet Subscription] | **Description:** <br> This filter list is for using [MrBukLau's Scriptlets][Scriptlet File Link] in uBlock Origin. <br><br> **Disclaimer:** <br> These filters were only tested on Google Chrome for desktop, which means that they may or may not work on other web browsers. This filter list works better when it is used together with [MrBukLau's Base Filters][Base Filter]. To view the raw file of the scriptlets, click on this [link][Scriptlet Raw File Link]. <br><br> **Key Filters:** <br> - Bypass Ouo.io, Tinyurl.is, and other URL shorteners <br> - Redirect Reddit links to Old Reddit <br> - Translate everything to English on Apple Music
 ### Specialized Filter Lists
 | **Filter Lists** | **Links** | **Information** |
 |:-----------------|:----------|:----------------|
@@ -98,6 +100,8 @@ No further actions are necessary. After adding a filter list from this repositor
 ## Special Thanks
 ### Filters
 #### For Providing Information That Enabled Me to Create Some of These Filters
+- **avatar_adg on Reddit**
+    - [Social Filters](https://reddit.com/r/Adguard/comments/7o0ly5/blocking_imgur_mobiles_promoted_content/ds6sdg8/)
 - **d3ward on GitHub**
     - [Analytics and Tracking Filters](https://github.com/d3ward/toolz)
 - **Karmesinrot on GitHub**
@@ -110,8 +114,6 @@ No further actions are necessary. After adding a filter list from this repositor
     - [Skipper for Ouo.io](https://greasyfork.org/en/scripts/419509-skipper-for-ouo-io-by-imba)
 - **OperaSona on Reddit**
     - [Don't Track My Clicks, Reddit](https://reddit.com/r/privacy/comments/4aqdg0/reddit_started_tracking_the_links_we_click_heres/)
-- **RandomUsername404 on Greasy Fork**
-    - [Bring Back Old Reddit](https://greasyfork.org/en/scripts/44669-bring-back-old-reddit)
 #### For Providing JavaScript Codes That Enabled Me to Create Some of These Scriptlets
 - **artlung on Stack Overflow**
     - [Add a Target Attribute to an Element](https://stackoverflow.com/questions/804256/how-do-i-add-target-blank-to-a-link-within-a-specified-div)
@@ -120,6 +122,8 @@ No further actions are necessary. After adding a filter list from this repositor
     - [Click a Link That Has Specific Text](https://stackoverflow.com/questions/6990231/how-do-i-make-greasemonkey-click-a-link-that-has-specific-text)
 - **HIRA THAKUR on Stack Overflow**
     - [Set a Time Delay](https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript)
+- **Mark Byers on Stack Overflow**
+    - [Combine Two Replace Methods Into a Single Expression](https://stackoverflow.com/questions/7990879/how-to-combine-str-replace-expressions-in-javascript)
 - **VisioN on Stack Overflow**
     - [Determine if an Element Exists](https://stackoverflow.com/questions/26254957/if-class-exists-do-something-with-javascript/26254988)
 - **Vivre on Greasy Fork**
@@ -152,7 +156,7 @@ No further actions are necessary. After adding a filter list from this repositor
 [Smart App Banners Apple Open Link]: https://docs-assets.developer.apple.com/published/c55cd28f16/rendered2x-1605721896.png
 [Smart App Banners Apple View Link]: https://docs-assets.developer.apple.com/published/20ab7d726b/rendered2x-1605721898.png
 [uBlock Origin Filter Guide]: https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web
-[uBlock Origin Scriptlet Guide]: https://github.com/gorhill/uBlock/wiki/Advanced-settings#userresourceslocation
+[uBlock Origin Scriptlet Guide]: https://www.xaloez.com/blog/UblockOriginScriptlets/index.html
 
 <!-- Raw Lists -->
 [Accelerated Mobile Page Removal Raw]: https://github.com/MrBukLau/filter-lists/raw/master/filters/acceleratedmobilepageremovalfilters.txt
