@@ -78,7 +78,7 @@ This repository contains filter lists that can be added to content blockers, suc
 1. Download the uBlock Origin extension from the [Chrome Web Store][uBlock Origin Chrome Web Store Link] or [GitHub][uBlock Origin GitHub Link]
 2. After downloading and installing the extension, follow this [guide][uBlock Origin Filter Guide] to manually import a filter list from this repository to uBlock Origin or left-click on any of the **"Subscribe"** buttons below to automatically add a filter list to uBlock Origin
     <br>
-    2a. When [MrBukLau's Scriptlet Filters][Scriptlet Filter] is imported to uBlock Origin, [MrBukLau's Scriptlets][Scriptlet File Link] also has to be imported to uBlock Origin, so follow this [guide][uBlock Origin Scriptlet Guide] to learn how to add this scriptlet file to uBlock Origin
+    2a. If [MrBukLau's Scriptlet Filters][Scriptlet Filter] is chosen to be imported to uBlock Origin, [MrBukLau's Scriptlets][Scriptlet File Link] also has to be imported to uBlock Origin, so follow this [guide][uBlock Origin Scriptlet Guide] to learn how to add this scriptlet file to uBlock Origin
 ### Usage
 No further actions are necessary. After adding a filter list from this repository to a content blocker, that filter list will work and remove annoyances without any user input.
 
