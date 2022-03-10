@@ -79,7 +79,7 @@
             if (secondButton.length > 0) {
                 let targetLink = $("a:contains('Skip Ad')");
                 if (targetLink && targetLink.length) {
-                    let runInMilliseconds = 100;
+                    let runInMilliseconds = 500;
                     setInterval(function() {
                         window.location.href = targetLink[0].href;
                     }, runInMilliseconds);
