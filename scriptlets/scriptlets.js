@@ -89,6 +89,23 @@
     });
 })();
 
+/// itdmusic-download-link-retriever.js
+/// alias itdmdlr.js
+(function() {
+    "use strict";
+    if (window.location.href.includes("/itdmusic.top/")) {
+        let queryString = window.location.search;
+        let urlParams = new URLSearchParams(queryString);
+        let downloadUrl = urlParams.get('url');
+        if (window.location.href.match("url=http")) {
+            window.location.replace(downloadUrl);
+        } else {
+            let newUrl = window.location.protocol + "//" + downloadUrl;
+            window.location.replace(newUrl);
+        }
+    }
+})();
+
 /// old-reddit-outbound-click-tracking-blocker.js
 /// alias oroctb.js
 (function() {
