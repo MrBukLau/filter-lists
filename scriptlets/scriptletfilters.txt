@@ -12,6 +12,7 @@ hikarinoakari.com##+js(hnab)
 
 ! iTD Music
 itdmusic.top##+js(itdmb)
+itdmusic.top##+js(itdmdlr)
 
 ! Ouo.io
 ouo.*##+js(oib)
