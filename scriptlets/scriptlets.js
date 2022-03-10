@@ -96,7 +96,7 @@
     if (window.location.href.includes("/itdmusic.top/")) {
         let queryString = window.location.search;
         let urlParams = new URLSearchParams(queryString);
-        let downloadUrl = urlParams.get('url');
+        let downloadUrl = urlParams.get("url");
         if (window.location.href.match("url=http")) {
             window.location.replace(downloadUrl);
         } else {
