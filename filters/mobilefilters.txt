@@ -229,8 +229,10 @@ amp.theguardian.com#%#AG_onLoad((function(){if(window.location.href.match("/amp.
 bbc.com,foxnews.com#%#AG_onLoad((function(){if(window.location.href.match(".amp")){window.location.href=window.location.href.replace(".amp","");}})());
 cnet.com#%#AG_onLoad((function(){if(window.location.href.match("/google-amp/")){window.location.href=window.location.href.replace("/google-amp/","/");}})());
 deadspin.com,huffpost.com,macworld.com,wired.com#%#AG_onLoad((function(){if(window.location.href.match("/amp")){window.location.href=window.location.href.replace("/amp","/");}})());
+mlb.com#%#AG_onLoad((function(){if(window.location.href.match("/amp/")&&window.location.href.match(".html")){window.location.href=window.location.href.replace("/amp/","/").replace(".html","");}})());
 nfl.com#%#AG_onLoad((function(){if(window.location.href.match("/www.nfl.com/_amp/")){window.location.href=window.location.href.replace("/www.nfl.com/_amp/","/www.nfl.com/news/");}})());
 si.com#%#AG_onLoad((function(){if(window.location.href.match("/.amp/")){window.location.href=window.location.href.replace("/.amp/","/");}})());
+syndication.bleacherreport.com#%#AG_onLoad((function(){if(window.location.href.match("/syndication.bleacherreport.com/amp/")&&window.location.href.match(".amp.html")){window.location.href=window.location.href.replace("/syndication.bleacherreport.com/amp/","/bleacherreport.com/articles/").replace(".amp.html","");}})());
 theverge.com#%#AG_onLoad((function(){if(window.location.href.match("/platform/amp/")){window.location.href=window.location.href.replace("/platform/amp/","/");}})());
 !#endif
 
