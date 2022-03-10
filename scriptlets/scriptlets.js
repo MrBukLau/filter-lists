@@ -70,7 +70,7 @@
 (function() {
     "use strict";
     window.addEventListener("load", function() {
-        if (window.location.href.includes("/itdmusic.top/")) {
+        if (window.location.href.includes("/itdmusic.top/") && !window.location.href.includes("/skipads/")) {
             let firstButton = document.getElementsByClassName("btn btn-primary btn-captcha");
             if (firstButton.length > 0) {
                 document.querySelector("button[class='btn btn-primary btn-captcha']").click();
@@ -93,7 +93,7 @@
 /// alias itdmdlr.js
 (function() {
     "use strict";
-    if (window.location.href.includes("/itdmusic.top/")) {
+    if (window.location.href.includes("/itdmusic.top/") && !window.location.href.includes("/skipads/")) {
         let queryString = window.location.search;
         let urlParams = new URLSearchParams(queryString);
         let downloadUrl = urlParams.get("url");
