@@ -151,6 +151,7 @@ ouo.*##+js(rc, disabled, button.btn, stay)
 itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget
 !#if ext_ublock
+itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
 markipli.com##+js(nano-sib)
 !#endif
