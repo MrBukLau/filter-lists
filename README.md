@@ -99,35 +99,35 @@ No further actions are necessary. After adding a filter list from this repositor
 ### Filters
 #### For Providing Information That Enabled Me to Create Some of These Filters
 - **avatar_adg on Reddit**
-    - [Social Filters](https://reddit.com/r/Adguard/comments/7o0ly5/blocking_imgur_mobiles_promoted_content/ds6sdg8/)
+    - [Social Filters](https://reddit.com/r/Adguard/comments/7o0ly5/comment/ds6sdg8/)
 - **d3ward on GitHub**
     - [Analytics and Tracking Filters](https://github.com/d3ward/toolz)
 - **Karmesinrot on GitHub**
     - [Anime Filters](https://github.com/Karmesinrot/Anifiltrs)
 - **StephenP on Greasy Fork**
-    - [Social Filters](https://greasyfork.org/en/scripts/395497-login-reminder-popup-remover)
+    - [Social Filters](https://greasyfork.org/en/scripts/395497)
 ### Scriptlets
 #### For Creating the Original Userscripts
 - **IMBA Lawly on Greasy Fork**
-    - [Skipper for Ouo.io](https://greasyfork.org/en/scripts/419509-skipper-for-ouo-io-by-imba)
+    - [Skipper for Ouo.io](https://greasyfork.org/en/scripts/419509)
 - **OperaSona on Reddit**
-    - [Don't Track My Clicks, Reddit](https://reddit.com/r/privacy/comments/4aqdg0/reddit_started_tracking_the_links_we_click_heres/)
+    - [Don't Track My Clicks, Reddit](https://reddit.com/r/privacy/comments/4aqdg0/)
 #### For Providing JavaScript Codes That Enabled Me to Create Some of These Scriptlets
 - **artlung on Stack Overflow**
-    - [Add a Target Attribute to an Element](https://stackoverflow.com/questions/804256/how-do-i-add-target-blank-to-a-link-within-a-specified-div)
+    - [Add a Target Attribute to an Element](https://stackoverflow.com/a/804360)
 - **Brock Adams on Stack Overflow**
-    - [Change a Page's URL Parameters](https://stackoverflow.com/questions/16065937/changing-a-pages-url-parameters)
-    - [Click a Link That Has Specific Text](https://stackoverflow.com/questions/6990231/how-do-i-make-greasemonkey-click-a-link-that-has-specific-text)
+    - [Change a Page's URL Parameters](https://stackoverflow.com/a/16070740)
+    - [Click a Link That Has Specific Text](https://stackoverflow.com/a/6990386)
 - **HIRA THAKUR on Stack Overflow**
-    - [Set a Time Delay](https://stackoverflow.com/questions/17883692/how-to-set-time-delay-in-javascript)
+    - [Set a Time Delay](https://stackoverflow.com/a/17883743)
 - **James Hibbard and Yaphi Berhanu on SitePoint**
     - [Get a URL Parameter](https://sitepoint.com/get-url-parameters-with-javascript/)
 - **Mark Byers on Stack Overflow**
-    - [Combine Two Replace Methods Into a Single Expression](https://stackoverflow.com/questions/7990879/how-to-combine-str-replace-expressions-in-javascript)
+    - [Combine Two Replace Methods Into a Single Expression](https://stackoverflow.com/a/7990896)
 - **VisioN on Stack Overflow**
-    - [Determine if an Element Exists](https://stackoverflow.com/questions/26254957/if-class-exists-do-something-with-javascript/26254988)
+    - [Determine if an Element Exists](https://stackoverflow.com/a/26254984)
 - **Vivre on Greasy Fork**
-    - [Replace a String in the URL](https://greasyfork.org/en/discussions/requests/55817-replace-string-in-an-url)
+    - [Replace a String in the URL](https://greasyfork.org/en/discussions/requests/55817)
 
 ## License
 [MIT](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE)
