@@ -127,7 +127,7 @@ No further actions are necessary. After adding a filter list from this repositor
 - **VisioN on Stack Overflow**
     - [Determine if an Element Exists](https://stackoverflow.com/a/26254984)
 - **Vivre on Greasy Fork**
-    - [Replace a String in the URL](https://greasyfork.org/en/discussions/requests/55817)
+    - [Replace a String in the URL](https://greasyfork.org/en/discussions/requests/55817#comment-144843)
 
 ## License
 [MIT](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE)
