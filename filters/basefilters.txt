@@ -193,11 +193,13 @@ watchsports.to##div[style="width: 100%; max-width: 720px; margin: 10px auto;disp
 watchsports.to##hr[style="height:1px; visibility:hidden; margin-bottom:-1px;"]
 !#if adguard
 icelz.newsrade.com#%#//scriptlet('remove-attr', 'target', 'a.btn', 'stay')
+icelz.newsrade.com#%#//scriptlet('remove-class', 'chat', 'div.app-container')
 tinyurl.is#%#//scriptlet('adjust-setInterval')
 tinyurl.is#%#//scriptlet('remove-class', 'disabled', 'a.btn', 'stay')
 !#endif
 !#if ext_ublock
 icelz.newsrade.com##+js(ra, target, a.btn, stay)
+icelz.newsrade.com##+js(rc, chat, div.app-container)
 tinyurl.is##+js(nano-sib)
 tinyurl.is##+js(rc, disabled, a.btn, stay)
 !#endif
