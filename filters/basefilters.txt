@@ -156,12 +156,6 @@ itdmusic.top##+js(nano-sib)
 markipli.com##+js(nano-sib)
 !#endif
 
-! KonosubaManga
-!#if adguard
-konosubamanga.com#%#//scriptlet('abort-current-inline-script', 'decodeURIComponent', 'ai_')
-konosubamanga.com#%#//scriptlet('prevent-setInterval', 'visibility', '1000')
-!#endif
-
 ! Live TV
 aas.works##.vjs-watermark
 bdnewszh.com##.billboard-banner
@@ -198,12 +192,12 @@ watchsports.to##div[style="display: flex;justify-content: center;height: 230px; 
 watchsports.to##div[style="width: 100%; max-width: 720px; margin: 10px auto;display:block;"]:has-text(HD)
 watchsports.to##hr[style="height:1px; visibility:hidden; margin-bottom:-1px;"]
 !#if adguard
-icelz.newsrade.com#%#//scriptlet('remove-attr', 'target', 'a.btn')
+icelz.newsrade.com#%#//scriptlet('remove-attr', 'target', 'a.btn', 'stay')
 tinyurl.is#%#//scriptlet('adjust-setInterval')
 tinyurl.is#%#//scriptlet('remove-class', 'disabled', 'a.btn', 'stay')
 !#endif
 !#if ext_ublock
-icelz.newsrade.com##+js(ra, target, a.btn)
+icelz.newsrade.com##+js(ra, target, a.btn, stay)
 tinyurl.is##+js(nano-sib)
 tinyurl.is##+js(rc, disabled, a.btn, stay)
 !#endif
@@ -232,6 +226,9 @@ musiclutter.xyz###related-wrap
 musiclutter.xyz##.featured
 musiclutter.xyz##.FeaturedPost
 musiclutter.xyz##.ib-nav
+!#if ext_ublock
+musiclutter.xyz##+js(ra, target, a, stay)
+!#endif
 
 ! MyAnimeList
 myanimelist.net###broadcast-block
