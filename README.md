@@ -121,11 +121,11 @@ No further actions are necessary. After adding a filter list from this repositor
     - [Add a Target Attribute to an Element](https://stackoverflow.com/a/804360)
 - **Brock Adams on Stack Overflow**
     - [Change a Page's URL Parameters](https://stackoverflow.com/a/16070740)
-    - [Click a Link That Has Specific Text](https://stackoverflow.com/a/6990386)
+    - [Click on a Link Based on Its Text](https://stackoverflow.com/a/6990386)
 - **HIRA THAKUR on Stack Overflow**
     - [Delay the Execution of a Function](https://stackoverflow.com/a/17883743)
 - **James Hibbard and Yaphi Berhanu on SitePoint**
-    - [Get a URL Parameter](https://sitepoint.com/get-url-parameters-with-javascript/)
+    - [Retrieve a Specific Parameter From the URL](https://sitepoint.com/get-url-parameters-with-javascript/)
 - **Mark Byers on Stack Overflow**
     - [Combine Two Replace Methods Into a Single Expression](https://stackoverflow.com/a/7990896)
 - **VisioN on Stack Overflow**
