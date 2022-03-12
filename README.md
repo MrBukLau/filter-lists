@@ -97,16 +97,20 @@ No further actions are necessary. After adding a filter list from this repositor
 
 ## Special Thanks
 ### Filters
-#### For Providing Information That Enabled Me to Create Some of These Filters
+#### For Creating the Original Filters
 - **avatar_adg on Reddit**
     - [Social Filters](https://reddit.com/r/Adguard/comments/7o0ly5/comment/ds6sdg8/)
 - **d3ward on GitHub**
     - [Analytics and Tracking Filters](https://github.com/d3ward/toolz)
+#### For Providing Information That Enabled Me to Create Some of These Filters
 - **Karmesinrot on GitHub**
     - [Anime Filters](https://github.com/Karmesinrot/Anifiltrs)
 - **StephenP on Greasy Fork**
     - [Social Filters](https://greasyfork.org/en/scripts/395497)
 ### Scriptlets
+#### For Creating the Original Scriptlets
+- **uBlock-user on GitHub**
+    - [Scriptlet for Setting an Attribute](https://github.com/uBlock-user/uBO-Scriptlets)
 #### For Creating the Original Userscripts
 - **IMBA Lawly on Greasy Fork**
     - [Skipper for Ouo.io](https://greasyfork.org/en/scripts/419509)
