@@ -123,13 +123,13 @@ No further actions are necessary. After adding a filter list from this repositor
     - [Change a Page's URL Parameters](https://stackoverflow.com/a/16070740)
     - [Click a Link That Has Specific Text](https://stackoverflow.com/a/6990386)
 - **HIRA THAKUR on Stack Overflow**
-    - [Set a Time Delay](https://stackoverflow.com/a/17883743)
+    - [Set a Time Delay for a Function](https://stackoverflow.com/a/17883743)
 - **James Hibbard and Yaphi Berhanu on SitePoint**
     - [Get a URL Parameter](https://sitepoint.com/get-url-parameters-with-javascript/)
 - **Mark Byers on Stack Overflow**
     - [Combine Two Replace Methods Into a Single Expression](https://stackoverflow.com/a/7990896)
 - **VisioN on Stack Overflow**
-    - [Determine if an Element Exists Using the Class Name](https://stackoverflow.com/a/26254984)
+    - [Determine if an Element With a Defined Class Exists](https://stackoverflow.com/a/26254984)
 - **Vivre on Greasy Fork**
     - [Replace a String in the URL](https://greasyfork.org/en/discussions/requests/55817#comment-144843)
 
