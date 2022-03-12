@@ -118,9 +118,9 @@ No further actions are necessary. After adding a filter list from this repositor
     - [Don't Track My Clicks, Reddit](https://reddit.com/r/privacy/comments/4aqdg0/)
 #### For Providing JavaScript Codes That Enabled Me to Create Some of These Scriptlets
 - **artlung on Stack Overflow**
-    - [Add a Target Attribute to an Element](https://stackoverflow.com/a/804360)
+    - [Set a New Attribute to an Existing Element](https://stackoverflow.com/a/804360)
 - **Brock Adams on Stack Overflow**
-    - [Change a Page's URL Parameters](https://stackoverflow.com/a/16070740)
+    - [Add a New Parameter to the URL](https://stackoverflow.com/a/16070740)
     - [Click on a Link Based on Its Text](https://stackoverflow.com/a/6990386)
 - **HIRA THAKUR on Stack Overflow**
     - [Delay the Execution of a Function](https://stackoverflow.com/a/17883743)
@@ -129,9 +129,9 @@ No further actions are necessary. After adding a filter list from this repositor
 - **Mark Byers on Stack Overflow**
     - [Combine Two Replace Methods Into a Single Expression](https://stackoverflow.com/a/7990896)
 - **VisioN on Stack Overflow**
-    - [Determine if an Element With a Defined Class Exists](https://stackoverflow.com/a/26254984)
+    - [Check if an Element With a Defined Class Exists in the HTML Document](https://stackoverflow.com/a/26254984)
 - **Vivre on Greasy Fork**
-    - [Replace a String in the URL](https://greasyfork.org/en/discussions/requests/55817#comment-144843)
+    - [Replace a String in the URL With Another String](https://greasyfork.org/en/discussions/requests/55817#comment-144843)
 
 ## License
 [MIT](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE)
