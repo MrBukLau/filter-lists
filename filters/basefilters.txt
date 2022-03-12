@@ -271,6 +271,10 @@ piracy.moe##a[href^="https://privateinternetaccess.com/offer/PiracyMoe"]
 
 ! Writer
 writer.com##.CampaignType--popup
+writer.com##.get-extension
+!#if ext_ublock
+writer.com##+js(rc, om-position-popup, html, stay)
+!#endif
 
 ! YouTube
 youtube.com##.ytp-ce-element
