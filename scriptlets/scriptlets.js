@@ -6,18 +6,18 @@
 /// alias sa.js
 (function() {
     "use strict";
-    const token = '{{1}}';
-    if (token === '' || token === '{{1}}') {
+    const token = "{{1}}";
+    if (token === "" || token === "{{1}}") {
         return;
     }
     const tokens = token.split(/\s*\|\s*/);
-    const attrValue = '{{2}}';
-    let selector = '{{3}}';
-    if (selector === '' || selector === '{{3}}') {
-        selector = `[${tokens.join('],[')}]`;
+    const attrValue = "{{2}}";
+    let selector = "{{3}}";
+    if (selector === "" || selector === "{{3}}") {
+        selector = `[${tokens.join("],[")}]`;
     }
     let timer;
-    const behavior = '{{4}}';
+    const behavior = "{{4}}";
     const setattr = () => {
         timer = undefined;
         const nodes = document.querySelectorAll(selector);
@@ -42,7 +42,7 @@
                 addedNodes,
                 removedNodes
             } = mutations[i];
-            if (type === 'attributes') {
+            if (type === "attributes") {
                 skip = false;
             }
             for (let j = 0; j < addedNodes.length && skip; j++) {
@@ -78,12 +78,12 @@
             subtree: true,
         });
     };
-    if (document.readyState !== 'complete' && /\bcomplete\b/.test(behavior)) {
-        window.addEventListener('load', start, {
+    if (document.readyState !== "complete" && /\bcomplete\b/.test(behavior)) {
+        window.addEventListener("load", start, {
             once: true
         });
-    } else if (document.readyState === 'loading') {
-        window.addEventListener('DOMContentLoaded', start, {
+    } else if (document.readyState === "loading") {
+        window.addEventListener("DOMContentLoaded", start, {
             once: true
         });
     } else {
