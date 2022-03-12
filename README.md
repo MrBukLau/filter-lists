@@ -76,7 +76,7 @@ This repository contains filter lists that can be added to content blockers, suc
     6b. Add a filter list from this repository to AdGuard by clicking on the "Add a filter" button, pasting the raw GitHub link from this repository into the "Filter URL" field, clicking on the "Next" button, and clicking on the "Add" button after reviewing the prompt to confirm that it is the correct filter list
 #### uBlock Origin on Google Chrome (Desktop)
 1. Download the uBlock Origin extension from the [Chrome Web Store][uBlock Origin Chrome Web Store Link] or [GitHub][uBlock Origin GitHub Link]
-2. After downloading and installing the extension, follow this [guide][uBlock Origin Filter Guide] to manually import a filter list from this repository to uBlock Origin or left-click on any of the **"Subscribe"** buttons below to automatically add a filter list to uBlock Origin
+2. After downloading and installing the extension, follow this [guide][uBlock Origin Filter Guide] to manually import a filter list from this repository to uBlock Origin or click on any of the **"Subscribe"** buttons below to automatically add a filter list to uBlock Origin
     <br>
     2a. If [MrBukLau's Scriptlet Filters][Scriptlet Filter] is chosen to be imported to uBlock Origin, [MrBukLau's Scriptlets][Scriptlet File Link] also has to be imported to uBlock Origin, so follow this [guide][uBlock Origin Scriptlet Guide] to learn how to add this scriptlet file to uBlock Origin
 ### Usage
@@ -118,14 +118,14 @@ No further actions are necessary. After adding a filter list from this repositor
     - [Don't Track My Clicks, Reddit](https://reddit.com/r/privacy/comments/4aqdg0/)
 #### For Providing JavaScript Codes That Enabled Me to Create Some of These Scriptlets
 - **artlung on Stack Overflow**
-    - [Set a New Attribute to All the Elements With the Same Information](https://stackoverflow.com/a/804360)
+    - [Set a New Attribute for All Elements With the Same Attribute](https://stackoverflow.com/a/804360)
 - **Brock Adams on Stack Overflow**
     - [Add a New Parameter to the URL](https://stackoverflow.com/a/16070740)
     - [Click on a Link Based on Its Text](https://stackoverflow.com/a/6990386)
 - **HIRA THAKUR on Stack Overflow**
     - [Delay the Execution of a Function](https://stackoverflow.com/a/17883743)
 - **James Hibbard and Yaphi Berhanu on SitePoint**
-    - [Retrieve a Specific Parameter From the URL](https://sitepoint.com/get-url-parameters-with-javascript/)
+    - [Get a Specific Parameter From the URL](https://sitepoint.com/get-url-parameters-with-javascript/)
 - **Mark Byers on Stack Overflow**
     - [Combine Two Replace Methods Into a Single Expression](https://stackoverflow.com/a/7990896)
 - **VisioN on Stack Overflow**
