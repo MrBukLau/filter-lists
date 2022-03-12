@@ -1,7 +1,10 @@
-// MrBukLau's Scriptlets
+/*************************/
+/* MrBukLau's Scriptlets */
+/*************************/
 
-// Generic Scriptlets
-
+/**********************/
+/* Generic Scriptlets */
+/**********************/
 /// set-attr.js
 /// alias sa.js
 (function() {
@@ -91,8 +94,9 @@
     }
 })();
 
-// Specific Scriptlets
-
+/***********************/
+/* Specific Scriptlets */
+/***********************/
 /// apple-music-artwork-format-and-size-changer.js
 /// alias amafasc.js
 (function() {
