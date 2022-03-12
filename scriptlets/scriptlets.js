@@ -162,6 +162,20 @@
     }
 })();
 
+/// icelz-onclick-remover.js
+/// alias ior.js
+(function() {
+    "use strict";
+    window.addEventListener("load", function() {
+        if (window.location.href.includes("/icelz.newsrade.com/")) {
+            let anchor = document.querySelectorAll("a[class='channel-link'][href]");
+            for (let i = 0; i < anchor.length; i++) {
+                anchor[i].removeAttribute("onclick");
+            }
+        }
+    });
+})();
+
 /// itdmusic-bypasser.js
 /// alias itdmb.js
 (function() {
