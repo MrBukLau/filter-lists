@@ -160,8 +160,8 @@
     }
 })();
 
-/// icelz-onclick-remover.js
-/// alias ior.js
+/// icelz-onclick-attribute-remover.js
+/// alias ioar.js
 (function() {
     "use strict";
     window.addEventListener("load", function() {
@@ -254,20 +254,6 @@
             }
             if (document.getElementById("form-captcha").click) {
                 document.getElementsByTagName("form")[0].submit();
-            }
-        }
-    });
-})();
-
-/// rentry-links-in-new-tabs-forcer.js
-/// alias rlintf.js
-(function() {
-    "use strict";
-    window.addEventListener("load", function() {
-        if (window.location.href.includes("/rentry.co/") || window.location.href.includes("/rentry.org/")) {
-            let anchor = document.getElementsByTagName("a");
-            for (let i = 0; i < anchor.length; i++) {
-                anchor[i].setAttribute("target", "_blank");
             }
         }
     });
