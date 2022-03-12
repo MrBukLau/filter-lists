@@ -123,7 +123,7 @@ No further actions are necessary. After adding a filter list from this repositor
     - [Change a Page's URL Parameters](https://stackoverflow.com/a/16070740)
     - [Click a Link That Has Specific Text](https://stackoverflow.com/a/6990386)
 - **HIRA THAKUR on Stack Overflow**
-    - [Set a Time Delay for a Function](https://stackoverflow.com/a/17883743)
+    - [Delay the Execution of a Function](https://stackoverflow.com/a/17883743)
 - **James Hibbard and Yaphi Berhanu on SitePoint**
     - [Get a URL Parameter](https://sitepoint.com/get-url-parameters-with-javascript/)
 - **Mark Byers on Stack Overflow**
