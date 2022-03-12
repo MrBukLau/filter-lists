@@ -1,6 +1,4 @@
-/*************************/
-/* MrBukLau's Scriptlets */
-/*************************/
+// MrBukLau's Scriptlets
 
 /**********************/
 /* Generic Scriptlets */
