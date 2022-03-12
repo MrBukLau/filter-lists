@@ -153,10 +153,9 @@
 (function() {
     "use strict";
     if (window.location.href.includes("/hikarinoakari.com/out/")) {
-        let delayInMilliseconds = 1000;
         setTimeout(function() {
             document.querySelector("a[class='link']").click();
-        }, delayInMilliseconds);
+        }, 750);
     }
 })();
 
@@ -188,10 +187,9 @@
             if (secondButton.length > 0) {
                 let targetLink = $("a:contains('Skip Ad')");
                 if (targetLink && targetLink.length) {
-                    let delayInMilliseconds = 750;
                     setTimeout(function() {
                         window.location.href = targetLink[0].href;
-                    }, delayInMilliseconds);
+                    }, 750);
                 }
             }
         }
