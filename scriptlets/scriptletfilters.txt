@@ -11,7 +11,7 @@ mzstatic.com##+js(amafasc)
 hikarinoakari.com##+js(hnab)
 
 ! Icelz
-icelz.newsrade.com##+js(ior)
+icelz.newsrade.com##+js(ioar)
 icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/mlb, a[onclick="window.open('https://icelz.newsrade.com/mlb');"])
 icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/mlb, a[onclick="window.open('https://icelz.newsrade.tk/mlb');"])
 icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/nba, a[onclick="window.open('https://icelz.newsrade.com/nba');"])
@@ -37,8 +37,7 @@ old.reddit.com##+js(oroctb)
 www.reddit.com##+js(orre)
 
 ! Rentry
-rentry.*##+js(ra, target, a.btn, stay)
-rentry.*##+js(rlintf)
+rentry.*##+js(sa, target, _blank, a[rel="nofollow noopener"])
 
 ! Tinyurl.is
 tinyurl.is##+js(tuib)
