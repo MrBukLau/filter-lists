@@ -70,10 +70,6 @@ music.apple.com##cwc-music-upsell-banner-web
 music.apple.com##div[data-test-locale-switcher-banner]
 
 ! CBS Sports
-cbssports.com##.taboola-recommends
-cbssports.com##.ticket-tab
-cbssports.com##div[class^="GamblingPartnerAd"]
-!#if (!adguard_app_ios)
 cbssports.com###hud-container[class*="desktop-view"]:style(top: 0px !important;)
 cbssports.com###sharethrough-ad
 cbssports.com##.Article-seoBox
@@ -82,8 +78,10 @@ cbssports.com##.gametracker-page > #mantle_skin[data-component="headerSticky"]:s
 cbssports.com##.hq-anchor-container:remove()
 cbssports.com##.nav-network-bar:style(position: static !important;)
 cbssports.com##.sportsline-td
+cbssports.com##.taboola-recommends
+cbssports.com##.ticket-tab
 cbssports.com##.tickets-td
-!#endif
+cbssports.com##div[class^="GamblingPartnerAd"]
 
 ! Chartoo
 chartoo.com###bq
@@ -189,9 +187,6 @@ watchsports.to##div[style*="overflow:hidden;margin:0 auto;position:absolute;z-in
 watchsports.to##div[style="display: flex;justify-content: center;height: 230px; width: 100%; max-width: 800px;margin: 10px auto !important;"]
 watchsports.to##div[style="width: 100%; max-width: 720px; margin: 10px auto;display:block;"]:has-text(HD)
 watchsports.to##hr[style="height:1px; visibility:hidden; margin-bottom:-1px;"]
-!#if (!adguard_app_ios)
-icelz.newsrade.com##+js(rc, chat, div.app-container)
-!#endif
 
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
