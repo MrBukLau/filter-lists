@@ -37,8 +37,7 @@ old.reddit.com##+js(oroctb)
 www.reddit.com##+js(orre)
 
 ! Rentry
-rentry.*##+js(sa, target, _blank, a[href^="https://rentry."])
-rentry.*##+js(sa, target, _blank, a[rel="nofollow noopener"])
+rentry.*##+js(sa, target, _blank, a[href^="http"])
 
 ! Tinyurl.is
 tinyurl.is##+js(tuib)
