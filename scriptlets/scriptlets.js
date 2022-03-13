@@ -236,7 +236,8 @@
 (function() {
     "use strict";
     if (window.location.href.includes("/www.reddit.com/") && !window.location.href.includes("/www.reddit.com/poll/")) {
-        window.location.href = window.location.href.replace("/www.reddit.com/", "/old.reddit.com/");
+        let newUrl = window.location.href.replace("/www.reddit.com/", "/old.reddit.com/");
+        window.location.replace(newUrl);
     }
 })();
 
