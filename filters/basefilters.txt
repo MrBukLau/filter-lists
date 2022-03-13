@@ -73,7 +73,7 @@ music.apple.com##div[data-test-locale-switcher-banner]
 cbssports.com##.taboola-recommends
 cbssports.com##.ticket-tab
 cbssports.com##div[class^="GamblingPartnerAd"]
-!#if !env_mobile
+!#if (!adguard_app_ios)
 cbssports.com###hud-container[class*="desktop-view"]:style(top: 0px !important;)
 cbssports.com###sharethrough-ad
 cbssports.com##.Article-seoBox
@@ -143,17 +143,13 @@ hikarinoakari.com##.td_block_related_posts
 hikarinoakari.com##.tdc-content-wrap
 hikarinoakari.com##.thanks_button_div
 hikarinoakari.com##.widget_text:has-text(Are strongly recomended to download the last version from Win Rar to unzip the files from this site)
-!#if ext_ublock
 ouo.*##+js(rc, disabled, button.btn, stay)
-!#endif
 
 ! iTD Music
-itdmusics.com##.e3lan-bottom
-itdmusics.com##.itdmu-widget
-!#if ext_ublock
 itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
-!#endif
+itdmusics.com##.e3lan-bottom
+itdmusics.com##.itdmu-widget
 
 ! Live TV
 aas.works##.vjs-watermark
@@ -164,6 +160,7 @@ bdnewszh.com##.left-sticky-banner
 bdnewszh.com##.right-sticky-banner
 blacktiesports.net##.bookmark[style]
 blacktiesports.net##a[href="https://reddit.nflbite.com/"]
+icelz.newsrade.com##+js(ra, target, a.btn, stay)
 icelz.newsrade.com##a[href][rel="nofollow norefferer noopener"][style]:remove()
 icelz.newsrade.com##iframe[src="about:blank"]:remove()
 icelz.newsrade.com##iframe[src][style="width: 1px; height: 1px; opacity: 0;"]:remove()
@@ -176,6 +173,8 @@ soccerstreams.net##.alert
 soccerstreams.net##.body > .container
 soccerstreams.net##[id^="event-tags"]
 sportsurge.net##.HeaderUyari
+tinyurl.is##+js(nano-sib)
+tinyurl.is##+js(rc, disabled, a.btn, stay)
 tinyurl.is##.container:has-text(Have Your Ads Here)
 tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
 uhdstreams.club,watchsports.to##div[data-watermark]
@@ -190,15 +189,8 @@ watchsports.to##div[style*="overflow:hidden;margin:0 auto;position:absolute;z-in
 watchsports.to##div[style="display: flex;justify-content: center;height: 230px; width: 100%; max-width: 800px;margin: 10px auto !important;"]
 watchsports.to##div[style="width: 100%; max-width: 720px; margin: 10px auto;display:block;"]:has-text(HD)
 watchsports.to##hr[style="height:1px; visibility:hidden; margin-bottom:-1px;"]
-!#if adguard
-icelz.newsrade.com#%#//scriptlet('remove-attr', 'target', 'a.btn', 'stay')
-tinyurl.is#%#//scriptlet('remove-class', 'disabled', 'a.btn', 'stay')
-!#endif
-!#if ext_ublock
-icelz.newsrade.com##+js(ra, target, a.btn, stay)
+!#if (!adguard_app_ios)
 icelz.newsrade.com##+js(rc, chat, div.app-container)
-tinyurl.is##+js(nano-sib)
-tinyurl.is##+js(rc, disabled, a.btn, stay)
 !#endif
 
 ! Lyrical Nonsense
@@ -213,21 +205,17 @@ lyrical-nonsense.com##div[class^="responsive"][class$="inc"]
 controlc.com##a[href^="http://redact.dev"]
 mojosakun.blogspot.com###HTML4
 mojosakun.blogspot.com###Image5
-!#if ext_ublock
 mojosakun.blogspot.com##+js(acs, document.oncontextmenu)
-!#endif
 
 ! Music Clutter
 musiclutter.xyz###footer-wrapper > .row
 musiclutter.xyz###recent-boxes
 musiclutter.xyz###recent-boxes2
 musiclutter.xyz###related-wrap
+musiclutter.xyz##+js(ra, target, a, stay)
 musiclutter.xyz##.featured
 musiclutter.xyz##.FeaturedPost
 musiclutter.xyz##.ib-nav
-!#if ext_ublock
-musiclutter.xyz##+js(ra, target, a, stay)
-!#endif
 
 ! MyAnimeList
 myanimelist.net###broadcast-block
@@ -267,11 +255,9 @@ open.spotify.com#@#div > div[aria-live="polite"]
 piracy.moe##a[href^="https://privateinternetaccess.com/offer/PiracyMoe"]
 
 ! Writer
+writer.com##+js(rc, om-position-popup, html, stay)
 writer.com##.CampaignType--popup
 writer.com##.get-extension
-!#if ext_ublock
-writer.com##+js(rc, om-position-popup, html, stay)
-!#endif
 
 ! YouTube
 youtube.com##.ytp-ce-element
