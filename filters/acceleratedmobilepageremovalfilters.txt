@@ -5,13 +5,13 @@
 
 ! Report missing websites at https://github.com/MrBukLau/filter-lists/issues
 247sports.com#%#AG_onLoad((function(){if(window.location.href.match("/Amp/")){window.location.href=window.location.href.replace("/Amp/","/");}})());
-9to5mac.com,abcnews.go.com,aljazeera.com,cbc.ca,cbsnews.com,cbssports.com,clutchpoints.com,cnbc.com,dailymail.co.uk,deadline.com,health.clevelandclinic.org,nba.com,nbcsports.com,news.sky.com,nypost.com,reuters.com,sportingnews.com,techcrunch.com,thesun.co.uk,today.com,variety.com,wsj.com#%#AG_onLoad((function(){if(window.location.href.match("/amp/")){window.location.href=window.location.href.replace("/amp/","/");}})());
+9to5mac.com,abcnews.go.com,aljazeera.com,cbc.ca,cbsnews.com,cbssports.com,clutchpoints.com,cnbc.com,dailymail.co.uk,deadline.com,health.clevelandclinic.org,nba.com,nbcnews.com,nbcsports.com,news.sky.com,nypost.com,reuters.com,sportingnews.com,techcrunch.com,thesun.co.uk,today.com,variety.com,wsj.com#%#AG_onLoad((function(){if(window.location.href.match("/amp/")){window.location.href=window.location.href.replace("/amp/","/");}})());
 amp.cnn.com#%#AG_onLoad((function(){if(window.location.href.match("/amp.cnn.com/cnn/")){window.location.href=window.location.href.replace("/amp.cnn.com/cnn/","/www.cnn.com/");}})());
 amp.reddit.com#%#AG_onLoad((function(){if(window.location.href.match("/amp.reddit.com/")){window.location.href=window.location.href.replace("/amp.reddit.com/","/www.reddit.com/");}})());
 amp.theguardian.com#%#AG_onLoad((function(){if(window.location.href.match("/amp.theguardian.com/")){window.location.href=window.location.href.replace("/amp.theguardian.com/","/www.theguardian.com/");}})());
-bbc.com,foxnews.com#%#AG_onLoad((function(){if(window.location.href.match(".amp")){window.location.href=window.location.href.replace(".amp","");}})());
+bbc.*,foxnews.com#%#AG_onLoad((function(){if(window.location.href.match(".amp")){window.location.href=window.location.href.replace(".amp","");}})());
 cnet.com#%#AG_onLoad((function(){if(window.location.href.match("/google-amp/")){window.location.href=window.location.href.replace("/google-amp/","/");}})());
-deadspin.com,huffpost.com,macworld.com,wired.com#%#AG_onLoad((function(){if(window.location.href.match("/amp")){window.location.href=window.location.href.replace("/amp","/");}})());
+deadspin.com,huffpost.com,lifehacker.com,macworld.com,wired.com#%#AG_onLoad((function(){if(window.location.href.match("/amp")){window.location.href=window.location.href.replace("/amp","/");}})());
 mlb.com#%#AG_onLoad((function(){if(window.location.href.match("/amp/")&&window.location.href.match(".html")){window.location.href=window.location.href.replace("/amp/","/").replace(".html","");}})());
 nfl.com#%#AG_onLoad((function(){if(window.location.href.match("/www.nfl.com/_amp/")){window.location.href=window.location.href.replace("/www.nfl.com/_amp/","/www.nfl.com/news/");}})());
 si.com#%#AG_onLoad((function(){if(window.location.href.match("/.amp/")){window.location.href=window.location.href.replace("/.amp/","/");}})());
