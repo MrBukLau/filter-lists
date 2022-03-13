@@ -153,7 +153,6 @@ itdmusics.com##.itdmu-widget
 !#if ext_ublock
 itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
-markipli.com##+js(nano-sib)
 !#endif
 
 ! Live TV
