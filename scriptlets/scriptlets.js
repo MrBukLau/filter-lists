@@ -216,7 +216,8 @@
                 let targetLink = $("a:contains('Skip Ad')");
                 if (targetLink && targetLink.length) {
                     setTimeout(function() {
-                        window.location.href = targetLink[0].href;
+                        let newUrl = targetLink[0].href;
+                        window.location.replace(newUrl);
                     }, 750);
                 }
             }
@@ -277,7 +278,8 @@
         if (window.location.href.includes("/tinyurl.is/")) {
             let targetLink = $("a:contains('Click Here to Watch')");
             if (targetLink && targetLink.length) {
-                window.location.href = targetLink[0].href;
+                let newUrl = targetLink[0].href;
+                window.location.replace(newUrl);
             }
         }
     });
