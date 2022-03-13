@@ -3,6 +3,22 @@
 /**********************/
 /* Generic Scriptlets */
 /**********************/
+/// get-url-param.js
+/// alias gup.js
+(function() {
+    "use strict";
+    if (window.location.href.includes("?url=") || window.location.href.includes("&url=")) {
+        let urlParams = new URLSearchParams(window.location.search);
+        let urlReplacement = urlParams.get("url");
+        if (window.location.href.match("url=http")) {
+            window.location.replace(urlReplacement);
+        } else {
+            let newUrl = window.location.protocol + "//" + urlReplacement;
+            window.location.replace(newUrl);
+        }
+    }
+})();
+
 /// set-attr.js
 /// alias sa.js
 (function() {
@@ -89,22 +105,6 @@
         });
     } else {
         start();
-    }
-})();
-
-/// url-from-parameter-getter.js
-/// alias ufpg.js
-(function() {
-    "use strict";
-    if (window.location.href.includes("?url=") || window.location.href.includes("&url=")) {
-        let urlParams = new URLSearchParams(window.location.search);
-        let urlReplacement = urlParams.get("url");
-        if (window.location.href.match("url=http")) {
-            window.location.replace(urlReplacement);
-        } else {
-            let newUrl = window.location.protocol + "//" + urlReplacement;
-            window.location.replace(newUrl);
-        }
     }
 })();
 
