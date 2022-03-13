@@ -96,7 +96,7 @@
 /// alias ufpg.js
 (function() {
     "use strict";
-    if (window.location.href.includes("?url=") && window.location.href.includes("&url=")) {
+    if (window.location.href.includes("?url=") || window.location.href.includes("&url=")) {
         let urlParams = new URLSearchParams(window.location.search);
         let urlReplacement = urlParams.get("url");
         if (window.location.href.match("url=http")) {
