@@ -7,8 +7,11 @@
 music.apple.com##+js(amete)
 mzstatic.com##+js(amafasc)
 
+! Clk.sh
+clk.sh##+js(gup)
+
 ! Fc.lc
-fc.lc##+js(ufpg)
+fc.lc##+js(gup)
 
 ! Hikarinoakariost
 hikarinoakari.com##+js(hnab)
@@ -29,8 +32,8 @@ icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/ufc, a[onclick="win
 icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/ufc, a[onclick="window.open('https://icelz.newsrade.tk/ufc');"])
 
 ! iTD Music
+itdmusic.top##+js(gup)
 itdmusic.top##+js(itdmb)
-itdmusic.top##+js(ufpg)
 
 ! Ouo.io
 ouo.*##+js(oib)
