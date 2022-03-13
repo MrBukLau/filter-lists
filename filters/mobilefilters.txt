@@ -115,7 +115,7 @@ m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 linkedin.com##div[class^="apptivation-promo"]
 
 ! Live TV
-tinyurl.is#%#AG_onLoad((function(){if(document.location.href.includes("/tinyurl.is/")){setTimeout(function(){let targetLink=$("a:contains('Click Here to Watch')");if(targetLink&&targetLink.length){window.location.href=targetLink[0].href;}},500);}})());
+tinyurl.is#%#AG_onLoad((function(){if(document.location.href.includes("/tinyurl.is/")){setTimeout(function(){let targetLink=$("a:contains('Click Here to Watch')");if(targetLink&&targetLink.length){let newUrl=targetLink[0].href;window.location.replace(newUrl);}},500);}})());
 watchsports.to##.w3-center[style="width:100%"][href][target="_blank"]
 
 ! Major League Baseball
