@@ -92,6 +92,22 @@
     }
 })();
 
+/// url-from-parameter-getter.js
+/// alias ufpg.js
+(function() {
+    "use strict";
+    if (window.location.href.includes("?url=") && window.location.href.includes("&url=")) {
+        let urlParams = new URLSearchParams(window.location.search);
+        let urlReplacement = urlParams.get("url");
+        if (window.location.href.match("url=http")) {
+            window.location.replace(urlReplacement);
+        } else {
+            let newUrl = window.location.protocol + "//" + urlReplacement;
+            window.location.replace(newUrl);
+        }
+    }
+})();
+
 /***********************/
 /* Specific Scriptlets */
 /***********************/
@@ -194,23 +210,6 @@
             }
         }
     });
-})();
-
-/// itdmusic-download-link-retriever.js
-/// alias itdmdlr.js
-(function() {
-    "use strict";
-    if (window.location.href.includes("/itdmusic.top/") && window.location.href.includes("url=")) {
-        let queryString = window.location.search;
-        let urlParams = new URLSearchParams(queryString);
-        let downloadUrl = urlParams.get("url");
-        if (window.location.href.match("url=http")) {
-            window.location.replace(downloadUrl);
-        } else {
-            let newUrl = window.location.protocol + "//" + downloadUrl;
-            window.location.replace(newUrl);
-        }
-    }
 })();
 
 /// old-reddit-outbound-click-tracking-blocker.js
