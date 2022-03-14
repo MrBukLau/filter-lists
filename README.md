@@ -119,8 +119,6 @@ No further actions are necessary. After adding a filter list from this repositor
 - **OperaSona on Reddit**
     - [Don't Track My Clicks, Reddit](https://reddit.com/r/privacy/comments/4aqdg0/)
 #### For Providing JavaScript Codes That Enabled Me to Create Some of These Scriptlets
-- **artlung on Stack Overflow**
-    - [Set a New Attribute for All Elements With the Same Attribute](https://stackoverflow.com/a/804360)
 - **Brock Adams on Stack Overflow**
     - [Add a New Parameter to the URL](https://stackoverflow.com/a/16070740)
     - [Click on a Link Based on Its Text](https://stackoverflow.com/a/6990386)
