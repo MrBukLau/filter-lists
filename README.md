@@ -105,6 +105,8 @@ No further actions are necessary. After adding a filter list from this repositor
 #### For Providing Information That Enabled Me to Create Some of These Filters
 - **AdguardTeam on GitHub**
     - [AMP Filters](https://github.com/AdguardTeam/DisableAMP)
+- **DandelionSprout on GitHub**
+    - [URL Parameter Filters](https://github.com/DandelionSprout/adfilt)
 - **Karmesinrot on GitHub**
     - [Anime Filters](https://github.com/Karmesinrot/Anifiltrs)
 - **StephenP on Greasy Fork**
