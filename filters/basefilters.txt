@@ -181,7 +181,7 @@ footybite.cc###kis
 footybite.cc,nbabite.com##[dir="auto"]
 footybite.cc,nbabite.com##h1
 icelz.newsrade.com##+js(ra, target, a.btn, stay)
-icelz.newsrade.com##.bmpui-ui-titlebar
+icelz.newsrade.com##.bmpui-label-metadata
 icelz.newsrade.com##iframe[src="about:blank"]:remove()
 icelz.newsrade.com##iframe[src][style="width: 1px; height: 1px; opacity: 0;"]:remove()
 icelz.newsrade.com##iframe[style*="z-index: 2147483647"]:remove()
