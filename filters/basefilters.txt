@@ -63,6 +63,8 @@ $removeparam=sport
 ! AnimePahe
 animepahe.*##.alert
 animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
+animepahe.*##script[data-cfasync="false"][type="text/javascript"][src]:remove()
+animepahe.*##script[type="text/javascript"][src$="matomo.js"]:remove()
 kwik.cx##.plyr::after:style(content: none !important;)
 kwik.cx##.plyr__poster
 kwik.cx##button[type="button"][class="plyr__control plyr__control--overlaid"][data-plyr="play"][aria-label="Play"]
@@ -154,6 +156,7 @@ hikarinoakari.com##.td_block_related_posts
 hikarinoakari.com##.tdc-content-wrap
 hikarinoakari.com##.thanks_button_div
 hikarinoakari.com##.widget_text:has-text(Are strongly recomended to download the last version from Win Rar to unzip the files from this site)
+hikarinoakari.com##script[type="text/javascript"][src$="min.js"][crossorigin="anonymous"]:remove()
 ouo.*##+js(rc, disabled, button.btn, stay)
 
 ! iTD Music
@@ -205,6 +208,8 @@ tinyurl.is##+js(nano-sib)
 tinyurl.is##+js(rc, disabled, a.btn, stay)
 tinyurl.is##.container:has-text(Have Your Ads Here)
 tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
+uhdstreams.club##[src$="nflbite.png"]:upward(a)
+uhdstreams.club##[src$="soccer.png"]:upward(a)
 uhdstreams.club,watchsports.to##div[data-watermark]
 volokit2.com##.backtotop
 volokit2.com##.widget-area
