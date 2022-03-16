@@ -42,12 +42,16 @@
 ! URL Parameter Filters
 $removeparam=/^utm_/,domain=reddit.com|spotify.com
 $removeparam=sport
+@@||google.*/url?$removeparam=ved
 ||google.*/search$removeparam=aqs
 ||google.*/search$removeparam=bih
 ||google.*/search$removeparam=biw
+||google.*/search$removeparam=cshid
 ||google.*/search$removeparam=ei
 ||google.*/search$removeparam=gs_lcp
 ||google.*/search$removeparam=gs_ssp
+||google.*/search$removeparam=ie
+||google.*/search$removeparam=iflsig
 ||google.*/search$removeparam=oq
 ||google.*/search$removeparam=rlz
 ||google.*/search$removeparam=sa
@@ -55,6 +59,9 @@ $removeparam=sport
 ||google.*/search$removeparam=source
 ||google.*/search$removeparam=sourceid
 ||google.*/search$removeparam=uact
+||google.*/search$removeparam=ved
+||open.spotify.com^$removeparam=nd
+||open.spotify.com^$removeparam=si
 
 !--------------------------------------!
 !---------- Specific Filters ----------!
@@ -185,6 +192,9 @@ footybite.cc###event-tags
 footybite.cc###kis
 footybite.cc,nbabite.com##[dir="auto"]
 footybite.cc,nbabite.com##h1
+freestreams-live1.com##link[rel="dns-prefetch"][href]:remove()
+freestreams-live1.com##link[rel="preconnect"][href]:remove()
+freestreams-live1.com##script[data-cfasync="false"][src$="compatibility.js"]:remove()
 givemenbastreams.com,matchtime.co,weakstreams.com##script[type="text/javascript"][src$="su.js"]:remove()
 icelz.newsrade.com##+js(ra, target, a.btn, stay)
 icelz.newsrade.com##.bmpui-label-metadata
