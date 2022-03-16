@@ -163,7 +163,9 @@ itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget
 
 ! Live TV
+1stream.top,volokit2.com##script[type="text/javascript"][src$="atg.js"]:remove()
 aas.works##.vjs-watermark
+aas.works##img[src$="nflbite.png"]:upward(.widget_media_image)
 bdnewszh.com###adoverly:remove()
 bdnewszh.com##.billboard-banner
 bdnewszh.com##.content-banner
@@ -173,6 +175,7 @@ bdnewszh.com##.powerdby
 bdnewszh.com##.right-sticky-banner
 bdnewszh.com##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]:remove()
 bdnewszh.com##iframe[src="about:blank"][style="position: absolute; width: 1px; height: 1px; display: none; opacity: 0;"]:remove()
+bdnewszh.com##next-route-announcer:remove()
 bdnewszh.com##script[type="text/javascript"][src$="ads.js"]:remove()
 blacktiesports.net##.bookmark[style]
 blacktiesports.net##a[href="https://reddit.nflbite.com/"]
@@ -180,11 +183,13 @@ footybite.cc###event-tags
 footybite.cc###kis
 footybite.cc,nbabite.com##[dir="auto"]
 footybite.cc,nbabite.com##h1
+givemenbastreams.com,matchtime.co,weakstreams.com##script[type="text/javascript"][src$="su.js"]:remove()
 icelz.newsrade.com##+js(ra, target, a.btn, stay)
 icelz.newsrade.com##.bmpui-label-metadata
 icelz.newsrade.com##iframe[src="about:blank"]:remove()
 icelz.newsrade.com##iframe[src][style="width: 1px; height: 1px; opacity: 0;"]:remove()
 icelz.newsrade.com##iframe[style*="z-index: 2147483647"]:remove()
+icelz.newsrade.com##script[src$="tag.min.js"]:remove()
 nbabite.com###jdj
 nbabite.com##.filter-section
 nbabite.com##.header-inner:style(display: block !important;)
@@ -212,6 +217,7 @@ watchsports.to##div[style*="overflow:hidden;margin:0 auto;position:absolute;z-in
 watchsports.to##div[style="display: flex;justify-content: center;height: 230px; width: 100%; max-width: 800px;margin: 10px auto !important;"]
 watchsports.to##div[style="width: 100%; max-width: 720px; margin: 10px auto;display:block;"]:has-text(HD)
 watchsports.to##hr[style="height:1px; visibility:hidden; margin-bottom:-1px;"]
+weakstreams.com##.nflbite
 
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
