@@ -11,10 +11,10 @@
 ||analytics-api.samsunghealthcn.com^
 ||app.adjust.com^
 ||app.appsflyer.com^
+||i-kwik-cx.cdn.ampproject.org/i/i.kwik.cx/snapshot
 ||logbak.hicloud.com^
 ||logservice.hicloud.com^
 ||logservice1.hicloud.com^
-||mcaril.com^
 ||metrics-dra.dt.hicloud.com^
 ||metrics.data.hicloud.com^
 ||metrics.icloud.com^
@@ -80,7 +80,7 @@ fandom.com##.pathfinder-notification--bottom
 fedex.com##fedex-smart-banner
 
 ! Funimation
-funimation.com##div[class="smartbanner smartbanner--ios js_smartbanner"]
+funimation.com##.js_smartbanner
 
 ! Genius
 genius.com##div[class^="AppleMusicPlayer__PositioningContainer"]
@@ -101,7 +101,7 @@ google.*##.Vxqcxf
 google.*##.zU3lCe
 
 ! Gopuff
-gopuff.com##.jr-smart-banner.iOS
+gopuff.com##.jr-smart-banner
 
 ! Healthline
 healthline.com##.myFinance-ad-unit
