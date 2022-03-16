@@ -11,7 +11,6 @@
 ##.remixd-wrapper
 ##div[class*="_adAfterContent_"]
 ##div[class*="_adBeforeContent_"]
-##div[class="mls-o-match-strip__footer mls-o-match-strip__footer--no-match-promo mls-o-match-strip__footer--visible-promos"]
 ##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
