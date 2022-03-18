@@ -145,6 +145,7 @@ reddit.com###container > div.app > div.appmainpage:first-child > div.navframe:nt
 reddit.com###container > div.app > div.appmainpage:first-child > div.navframe:nth-child(3) > div > div.navframe__below-top-nav.m-tall > div:first-child > div.postsfromsubredditpage > div.communityheader:first-child > div.communityheader-text-row.m-top-margin:nth-child(4) > ul.topiclist
 reddit.com##._13geajc1u3mpvccghflqg4
 reddit.com##.communityheader-subscribe-button
+reddit.com##.control:style(filter: none !important;)
 reddit.com##.getappfooter
 reddit.com##.joinbuttonfull
 reddit.com##.lb-footer
@@ -171,9 +172,7 @@ reddit.com##.xpromopopup
 reddit.com##[data-testid="bottom-cell-wrapper"]
 reddit.com##article[style*="z-index: 1;"]
 reddit.com##button[class="action last"]
-reddit.com##input[placeholder="Search Reddit"][type="search"]:style(color: #000 !important;)
 reddit.com##shreddit-ad-post
-reddit.com##shreddit-aspect-ratio:has(shreddit-async-loader[bundlename="media_player_loader"]):style(--aspect-ratio: 1 !important;)
 reddit.com##shreddit-comments-page-ad
 reddit.com##shreddit-experience-tree
 reddit.com##shreddit-post[view-context="ListingBelowLinkedPosts"]
