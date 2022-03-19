@@ -202,6 +202,8 @@ m.twitch.tv##div[class^="ScCoreButtonLabel"]:has-text(Open in App)
 
 ! WebMD
 webmd.com###lln-toppks
+webmd.com##.medianet-ctr
+webmd.com##.promoWrapper
 webmd.com##div[id*="mnet-ia-instream-"]
 
 ! Yahoo
