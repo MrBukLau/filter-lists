@@ -284,6 +284,10 @@ hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##section[class="infobar
 ! SignUpGenius
 signupgenius.com##.sug-notice--privacy
 
+! Slider
+slider.kz###fullwrapper
+slider.kz###r_bash
+
 ! Spotify
 open.spotify.com##.link-subtle[draggable][href="/download"]
 open.spotify.com##button[type="button"][aria-label="Upgrade to Premium"][title="Upgrade to Premium"]
