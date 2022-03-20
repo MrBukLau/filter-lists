@@ -172,7 +172,7 @@ itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget
 
 ! Live TV
-1stream.top,matchtime.co,volokit2.com##script[type="text/javascript"][src$="/atg.js"]:remove()
+1stream.top,volokit2.com##script[type="text/javascript"][src$="/atg.js"]:remove()
 aas.works##.vjs-watermark
 aas.works##img[src$="nflbite.png"]:upward(.widget_media_image)
 bdnewszh.com###adoverly:remove()
@@ -189,9 +189,9 @@ bdnewszh.com##iframe[src="javascript:false"][style="display: none;"]:remove()
 bdnewszh.com##next-route-announcer:remove()
 bdnewszh.com##script[src$="/a.js"]:remove()
 bdnewszh.com##script[src$="/tag.min.js"]:remove()
-bdnewszh.com##script[type="text/javascript"][crossorigin="anonymous"]:remove()
 bdnewszh.com##script[type="text/javascript"][src$="/ads.js"]:remove()
 bdnewszh.com##script[type="text/javascript"][src*=".aniview.com/"]:upward(div):remove()
+bdnewszh.com,volokit2.com##script[type="text/javascript"][crossorigin="anonymous"]:remove()
 blacktiesports.net##.bookmark[style]
 blacktiesports.net##a[href="https://reddit.nflbite.com/"]
 footybite.cc###event-tags
