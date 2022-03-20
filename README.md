@@ -65,9 +65,9 @@ This repository contains filter lists that can be added to content blockers, suc
 3. Close the AdGuard application and open the Settings application
 4. Click on the following options in the Settings application: `Safari > Extensions`
     <br>
-    4a. "Allow These Content Blockers" Section: Turn on all the AdGuard options to allow "Safari Protection" to work in Safari ([Guide][Content Blockers Guide])
+    4a. "Allow These Content Blockers" Section: Turn on all the AdGuard options to allow "Safari Protection" to work in Safari ([Guide][Content Blockers Guide Link])
     <br>
-    4b. "Allow These Extensions" Section: Turn on AdGuard and click on the "Allow" option in the permission area to allow "Advanced Protection" to work in Safari ([Guide][Safari Web Extensions Guide])
+    4b. "Allow These Extensions" Section: Turn on AdGuard and click on the "Allow" option in the permission area to allow "Advanced Protection" to work in Safari ([Guide][Safari Web Extensions Guide Link])
 5. Close the Settings application and open the AdGuard application
 6. Click on the following options in the AdGuard application: `Protection > Safari protection > Filters > Custom`
     <br>
@@ -76,9 +76,9 @@ This repository contains filter lists that can be added to content blockers, suc
     6b. Add a filter list from this repository to AdGuard by clicking on the "Add a filter" button, pasting the raw GitHub link from this repository into the "Filter URL" field, clicking on the "Next" button, and clicking on the "Add" button after reviewing the prompt to confirm that it is the correct filter list
 #### uBlock Origin on Google Chrome (Desktop)
 1. Download the uBlock Origin extension from the [Chrome Web Store][uBlock Origin Chrome Web Store Link] or [GitHub][uBlock Origin GitHub Link]
-2. After downloading and installing the extension, follow this [guide][uBlock Origin Filter Guide] to manually import a filter list from this repository to uBlock Origin or click on any of the **"Subscribe"** buttons below to automatically add a filter list to uBlock Origin
+2. After downloading and installing the extension, follow this [guide][uBlock Origin Filter Guide Link] to manually import a filter list from this repository to uBlock Origin or click on any of the **"Subscribe"** buttons below to automatically add a filter list to uBlock Origin
     <br>
-    2a. If [MrBukLau's Scriptlet Filters][Scriptlet Filter] is chosen to be imported to uBlock Origin, [MrBukLau's Scriptlets][Scriptlet File Link] also has to be imported to uBlock Origin, so follow this [guide][uBlock Origin Scriptlet Guide] to learn how to add this scriptlet file to uBlock Origin
+    2a. If [MrBukLau's Scriptlet Filters][Scriptlet Filter] is chosen to be imported to uBlock Origin, [MrBukLau's Scriptlets][Scriptlet File Link] also has to be imported to uBlock Origin, so follow this [guide][uBlock Origin Scriptlet Guide Link] to learn how to add this scriptlet file to uBlock Origin
 ### Usage
 No further actions are necessary. After adding a filter list from this repository to a content blocker, that filter list will work and remove annoyances without any user input.
 
@@ -150,18 +150,20 @@ No further actions are necessary. After adding a filter list from this repositor
 [Scriptlet Filter]: https://github.com/MrBukLau/filter-lists/blob/master/scriptlets/scriptletfilters.txt
 [Smart App Banner Removal Filter]: https://github.com/MrBukLau/filter-lists/blob/master/filters/smartappbannerremovalfilters.txt
 
+<!-- Guide Links -->
+[Content Blockers Guide Link]: https://macrumors.com/how-to/enable-content-blockers-safari/
+[Safari Web Extensions Guide Link]: https://kb.adguard.com/en/ios/safari-web-extension#install
+[uBlock Origin Filter Guide Link]: https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web
+[uBlock Origin Scriptlet Guide Link]: https://xaloez.com/blog/UblockOriginScriptlets/index.html
+
 <!-- Information Links -->
 [Accelerated Mobile Pages Home Page Link]: https://amp.dev/
 [Accelerated Mobile Pages Wikipedia Link]: https://en.wikipedia.org/wiki/Accelerated_Mobile_Pages
-[Content Blockers Guide]: https://macrumors.com/how-to/enable-content-blockers-safari/
-[Safari Web Extensions Guide]: https://kb.adguard.com/en/ios/safari-web-extension#install
 [Scriptlet File Link]: https://github.com/MrBukLau/filter-lists/blob/master/scriptlets/scriptlets.js
 [Scriptlet Raw File Link]: https://github.com/MrBukLau/filter-lists/raw/master/scriptlets/scriptlets.js
 [Smart App Banners Apple Link]: https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners
 [Smart App Banners Apple Open Link]: https://docs-assets.developer.apple.com/published/c55cd28f16/rendered2x-1605721896.png
 [Smart App Banners Apple View Link]: https://docs-assets.developer.apple.com/published/20ab7d726b/rendered2x-1605721898.png
-[uBlock Origin Filter Guide]: https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web
-[uBlock Origin Scriptlet Guide]: https://xaloez.com/blog/UblockOriginScriptlets/index.html
 
 <!-- Raw Lists -->
 [Accelerated Mobile Page Removal Raw]: https://github.com/MrBukLau/filter-lists/raw/master/filters/acceleratedmobilepageremovalfilters.txt
