@@ -154,7 +154,7 @@ No further actions are necessary. After adding a filter list from this repositor
 [Accelerated Mobile Pages Home Page Link]: https://amp.dev/
 [Accelerated Mobile Pages Wikipedia Link]: https://en.wikipedia.org/wiki/Accelerated_Mobile_Pages
 [Content Blockers Guide]: https://macrumors.com/how-to/enable-content-blockers-safari/
-[Safari Web Extensions Guide]: https://adguard.com/en/blog/adguard-4-3-for-ios.html
+[Safari Web Extensions Guide]: https://kb.adguard.com/en/ios/safari-web-extension#install
 [Scriptlet File Link]: https://github.com/MrBukLau/filter-lists/blob/master/scriptlets/scriptlets.js
 [Scriptlet Raw File Link]: https://github.com/MrBukLau/filter-lists/raw/master/scriptlets/scriptlets.js
 [Smart App Banners Apple Link]: https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners
