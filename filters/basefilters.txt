@@ -70,7 +70,7 @@ $removeparam=sport
 animepahe.*##.alert
 animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
 animepahe.*##script[data-cfasync="false"][type="text/javascript"][src]:remove()
-animepahe.*##script[type="text/javascript"][src$="matomo.js"]:remove()
+animepahe.*##script[type="text/javascript"][src$="/matomo.js"]:remove()
 kwik.cx##.plyr::after:style(content: none !important;)
 kwik.cx##.plyr__poster
 kwik.cx##button[type="button"][class="plyr__control plyr__control--overlaid"][data-plyr="play"][aria-label="Play"]
@@ -162,7 +162,7 @@ hikarinoakari.com##.td_block_related_posts
 hikarinoakari.com##.tdc-content-wrap
 hikarinoakari.com##.thanks_button_div
 hikarinoakari.com##.widget_text:has-text(Are strongly recomended to download the last version from Win Rar to unzip the files from this site)
-hikarinoakari.com##script[type="text/javascript"][src$="min.js"][crossorigin="anonymous"]:remove()
+hikarinoakari.com##script[type="text/javascript"][crossorigin="anonymous"]:remove()
 ouo.*##+js(rc, disabled, button.btn, stay)
 
 ! iTD Music
@@ -172,10 +172,11 @@ itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget
 
 ! Live TV
-1stream.top,matchtime.co,volokit2.com##script[type="text/javascript"][src$="atg.js"]:remove()
+1stream.top,matchtime.co,volokit2.com##script[type="text/javascript"][src$="/atg.js"]:remove()
 aas.works##.vjs-watermark
 aas.works##img[src$="nflbite.png"]:upward(.widget_media_image)
 bdnewszh.com###adoverly:remove()
+bdnewszh.com##+js(ra, src, script[src*="/nehuihkn.com/"], stay)
 bdnewszh.com##.billboard-banner
 bdnewszh.com##.content-banner
 bdnewszh.com##.footer-sticky-banner
@@ -184,8 +185,13 @@ bdnewszh.com##.powerdby
 bdnewszh.com##.right-sticky-banner
 bdnewszh.com##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]:remove()
 bdnewszh.com##iframe[src="about:blank"][style="position: absolute; width: 1px; height: 1px; display: none; opacity: 0;"]:remove()
+bdnewszh.com##iframe[src="javascript:false"][style="display: none;"]:remove()
 bdnewszh.com##next-route-announcer:remove()
-bdnewszh.com##script[type="text/javascript"][src$="ads.js"]:remove()
+bdnewszh.com##script[src$="/a.js"]:remove()
+bdnewszh.com##script[src$="/tag.min.js"]:remove()
+bdnewszh.com##script[type="text/javascript"][crossorigin="anonymous"]:remove()
+bdnewszh.com##script[type="text/javascript"][src$="/ads.js"]:remove()
+bdnewszh.com##script[type="text/javascript"][src*=".aniview.com/"]:upward(div):remove()
 blacktiesports.net##.bookmark[style]
 blacktiesports.net##a[href="https://reddit.nflbite.com/"]
 footybite.cc###event-tags
@@ -194,14 +200,14 @@ footybite.cc,nbabite.com##[dir="auto"]
 footybite.cc,nbabite.com##h1
 freestreams-live1.com##link[rel="dns-prefetch"][href]:remove()
 freestreams-live1.com##link[rel="preconnect"][href]:remove()
-freestreams-live1.com##script[data-cfasync="false"][src$="compatibility.js"]:remove()
-givemenbastreams.com,tinyurl.is,weakstreams.com##script[type="text/javascript"][src$="su.js"]:remove()
+freestreams-live1.com##script[data-cfasync="false"][src$="/compatibility.js"]:remove()
+givemenbastreams.com,tinyurl.is,weakstreams.com##script[type="text/javascript"][src$="/su.js"]:remove()
 icelz.newsrade.com##+js(ra, target, a.btn, stay)
 icelz.newsrade.com##.bmpui-label-metadata
 icelz.newsrade.com##iframe[src="about:blank"]:remove()
 icelz.newsrade.com##iframe[src][style="width: 1px; height: 1px; opacity: 0;"]:remove()
 icelz.newsrade.com##iframe[style*="z-index: 2147483647"]:remove()
-icelz.newsrade.com##script[src$="tag.min.js"]:remove()
+icelz.newsrade.com##script[src$="/tag.min.js"]:remove()
 nbabite.com###jdj
 nbabite.com##.filter-section
 nbabite.com##.header-inner:style(display: block !important;)
