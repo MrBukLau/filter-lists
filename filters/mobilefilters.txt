@@ -7,7 +7,6 @@
 !---------- Generic Filters ----------!
 !-------------------------------------!
 ! Cosmetic Filters
-###splashy-ad-container-top
 ##html > head > meta[name="apple-itunes-app"]:remove()
 
 ! Network Filters
@@ -93,6 +92,10 @@ giphy.com##div[class^="OpenInAppContainer"]
 
 ! GitHub
 github.com##html > head > meta[name="apple-itunes-app"]:remove()
+
+! G/O Media
+avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###splashy-ad-container-top
+avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_ad-sticky-footer:upward(.js_sticky-footer)
 
 ! Google
 google.*###stUuGf
