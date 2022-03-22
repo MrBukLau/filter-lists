@@ -91,6 +91,9 @@ genius.com##div[class^="StickyBannerAd__Container"]
 ! Giphy
 giphy.com##div[class^="OpenInAppContainer"]
 
+! GitHub
+github.com##html > head > meta[name="apple-itunes-app"]:remove()
+
 ! Google
 google.*###stUuGf
 google.*##.bB4gff
