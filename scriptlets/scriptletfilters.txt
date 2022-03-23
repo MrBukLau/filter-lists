@@ -47,3 +47,6 @@ rentry.*##+js(sa, target, _blank, a[href^="http"])
 
 ! Tinyurl.is
 tinyurl.is##+js(tuib)
+
+! YouTube
+youtube.com##+js(ysd)
