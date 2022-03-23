@@ -81,6 +81,7 @@ fedex.com##fedex-smart-banner
 
 ! Funimation
 funimation.com##.js_smartbanner
+funimation.com##html > head > meta[name="apple-itunes-app"]:remove()
 
 ! Genius
 genius.com##div[class^="AppleMusicPlayer__PositioningContainer"]
