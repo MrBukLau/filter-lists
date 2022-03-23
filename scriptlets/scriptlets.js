@@ -289,8 +289,26 @@
 /// alias ysd.js
 (function() {
     "use strict";
-    if (window.location.href.includes("/www.youtube.com/shorts/")) {
-        let newUrl = window.location.href.replace("/shorts/", "/watch?v=");
-        window.location.replace(newUrl);
+    let oldHref = document.location.href;
+    if (window.location.href.indexOf("youtube.com/shorts") > -1) {
+        window.location.replace(window.location.toString().replace(/shorts/, "/watch/"));
     }
+    window.onload = function() {
+        let bodyList = document.querySelector("body");
+        let observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (oldHref !== document.location.href) {
+                    oldHref = document.location.href;
+                    if (window.location.href.indexOf("youtube.com/shorts") > -1) {
+                        window.location.replace(window.location.toString().replace(/shorts/, "/watch/"));
+                    }
+                }
+            });
+        });
+        let config = {
+            childList: true,
+            subtree: true
+        };
+        observer.observe(bodyList, config);
+    };
 })();
