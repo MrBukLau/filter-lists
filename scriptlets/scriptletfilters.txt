@@ -4,7 +4,7 @@
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
 ! Apple Music
-music.apple.com##+js(amete)
+music.apple.com##+js(amet)
 mzstatic.com##+js(amafasc)
 
 ! Clk.sh
