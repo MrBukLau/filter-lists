@@ -244,8 +244,8 @@
     });
 })();
 
-/// old-reddit-redirection-enabler.js
-/// alias orre.js
+/// old-reddit-redirector.js
+/// alias orr.js
 (function() {
     "use strict";
     if (window.location.href.includes("/www.reddit.com/") && !window.location.href.includes("/www.reddit.com/poll/")) {
@@ -285,8 +285,8 @@
     });
 })();
 
-/// youtube-shorts-disabler.js
-/// alias ysd.js
+/// youtube-shorts-redirector.js
+/// alias ysr.js
 (function() {
     "use strict";
     let oldHref = document.location.href;
