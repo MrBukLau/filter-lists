@@ -40,7 +40,7 @@ ouo.*##+js(oib)
 
 ! Reddit
 old.reddit.com##+js(oroctb)
-www.reddit.com##+js(orre)
+www.reddit.com##+js(orr)
 
 ! Rentry
 rentry.*##+js(sa, target, _blank, a[href^="http"])
@@ -49,4 +49,4 @@ rentry.*##+js(sa, target, _blank, a[href^="http"])
 tinyurl.is##+js(tuib)
 
 ! YouTube
-youtube.com##+js(ysd)
+youtube.com##+js(ysr)
