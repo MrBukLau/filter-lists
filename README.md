@@ -116,6 +116,8 @@ No further actions are necessary. After adding a filter list from this repositor
 - **uBlock-user on GitHub**
     - [Scriptlet for Setting an Attribute](https://github.com/uBlock-user/uBO-Scriptlets)
 #### For Creating the Original Userscripts
+- **Fuim on Greasy Fork**
+    - [YouTube Shorts Redirect](https://greasyfork.org/en/scripts/439993)
 - **IMBA Lawly on Greasy Fork**
     - [Skipper for Ouo.io](https://greasyfork.org/en/scripts/419509)
 - **OperaSona on Reddit**
