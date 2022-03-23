@@ -284,3 +284,13 @@
         }
     });
 })();
+
+/// youtube-shorts-disabler.js
+/// alias ysd.js
+(function() {
+    "use strict";
+    if (window.location.href.includes("/www.youtube.com/shorts/")) {
+        let newUrl = window.location.href.replace("/shorts/", "/watch?v=");
+        window.location.replace(newUrl);
+    }
+})();
