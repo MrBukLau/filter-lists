@@ -156,8 +156,8 @@
     }
 })();
 
-/// apple-music-english-translation-enabler.js
-/// alias amete.js
+/// apple-music-english-translator.js
+/// alias amet.js
 (function() {
     "use strict";
     if (window.location.href.includes("/music.apple.com/")) {
