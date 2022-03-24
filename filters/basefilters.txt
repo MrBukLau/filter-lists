@@ -187,7 +187,6 @@ bdnewszh.com##.right-sticky-banner
 bdnewszh.com##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]:remove()
 bdnewszh.com##iframe[src="about:blank"][style="position: absolute; width: 1px; height: 1px; display: none; opacity: 0;"]:remove()
 bdnewszh.com##iframe[src="javascript:false"][style="display: none;"]:remove()
-bdnewszh.com##next-route-announcer:remove()
 bdnewszh.com##script[src$="/a.js"]:remove()
 bdnewszh.com##script[src$="/tag.min.js"]:remove()
 bdnewszh.com##script[type="text/javascript"][src$="/ads.js"]:remove()
@@ -233,11 +232,13 @@ watchsports.to###hawtS[style="margin:0 auto;align:center;max-height:30px;max-wid
 watchsports.to###snackbar:has-text(Stream may require USA IP)
 watchsports.to##a[class="w3-button w3-bar-item w3-hover-dark-gray w3-black w3-padding-small w3-tiny w3-border w3-border-dark-gray"]:has-text(HD)
 watchsports.to##a[href^="/bet"]
+watchsports.to##a[href^="a?watch="]
 watchsports.to##div[class="w3-container w3-center"][style="width:96%;margin:0 auto;padding-top:20px;"]:style(padding-top: 0px !important;)
 watchsports.to##div[style*="overflow:hidden;margin:0 auto;position:absolute;z-index:3;top:50%;left:50%;margin-left:-150px;margin-top:-125px;"]
 watchsports.to##div[style="display: flex;justify-content: center;height: 230px; width: 100%; max-width: 800px;margin: 10px auto !important;"]
 watchsports.to##div[style="width: 100%; max-width: 720px; margin: 10px auto;display:block;"]:has-text(HD)
 watchsports.to##hr[style="height:1px; visibility:hidden; margin-bottom:-1px;"]
+watchsports.to##span[class="w3-tiny w3-display-middle"] > br:first-child
 weakstreams.com##.nflbite
 
 ! Lyrical Nonsense
@@ -249,9 +250,11 @@ lyrical-nonsense.com##.playblocktop
 lyrical-nonsense.com##div[class^="responsive"][class$="inc"]
 
 ! Mojo Sakun
-controlc.com##a[href^="http://redact.dev"]
+controlc.com##a[href^="http://redact.dev"]:upward(div)
 mojosakun.blogspot.com###HTML4
+mojosakun.blogspot.com###HTML99
 mojosakun.blogspot.com###Image5
+mojosakun.blogspot.com###related-wrap
 mojosakun.blogspot.com##+js(acs, document.oncontextmenu)
 
 ! Music Clutter
@@ -303,7 +306,7 @@ open.spotify.com##section[data-testid="component-shelf"][aria-label^="More by"]
 open.spotify.com#@#div > div[aria-live="polite"]
 
 ! The Anime Index
-piracy.moe##a[href^="https://privateinternetaccess.com/offer/PiracyMoe"]
+piracy.moe##a[href^="https://privateinternetaccess.com/offer/PiracyMoe"]:upward(div)
 
 ! Writer
 writer.com##+js(rc, om-position-popup, html, stay)
