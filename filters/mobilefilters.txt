@@ -241,5 +241,5 @@ tinyurl.is#%#(function(){if(document.location.href.includes("/tinyurl.is/")){set
 9to5google.com,forbes.com#%#(function(){if(window.location.href.match("/amp/")){let newUrl=window.location.href.replace("/amp/","/");window.location.replace(newUrl);}})();
 
 ! Force Enable Dark Mode on Reddit's Mobile Website
-reddit.com#%#(function(){const needle="nightMode";const needles=needle.split(/\s*\|\s*/);let selector="body[class*='sw-body-class']";const addclass=ev=>{if(ev){window.removeEventListener(ev.type,addclass,true);}const nodes=document.querySelectorAll(selector);try{for(const node of nodes){node.classList.add(...needles);}}catch{ }};if(document.readyState==="loading"){window.addEventListener("DOMContentLoaded",addclass,true);}else{addclass();}})();
+reddit.com#%#(function(){const needle="nightMode";const needles=needle.split(/\s*\|\s*/);let selector="body[class*='sw-body-class']";const addClass=ev=>{if(ev){window.removeEventListener(ev.type,addClass,true);}const nodes=document.querySelectorAll(selector);try{for(const node of nodes){node.classList.add(...needles);}}catch{}};if(document.readyState==="loading"){window.addEventListener("DOMContentLoaded",addClass,true);}else{addClass();}})();
 reddit.com#%#//scriptlet('remove-class', 'dayMode', 'body[class*="nightMode"]')
