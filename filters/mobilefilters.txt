@@ -47,6 +47,9 @@
 9gag.com##div[style="padding-top: 98px;"]:style(padding-top: 0px !important;)
 9gag.com##div[style="position: fixed; width: 100vw; top: 50px; z-index: 8;"]:style(position: static !important;)
 
+! Apple
+apple.com##html > head > meta[name="apple-itunes-app"]:remove()
+
 ! AutoZone
 autozone.com##._3f3af7
 
