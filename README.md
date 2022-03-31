@@ -83,17 +83,11 @@ This repository contains filter lists that can be added to content blockers, suc
 No further actions are necessary. After adding a filter list from this repository to a content blocker, that filter list will work and remove annoyances without any user input.
 
 ## Available Filter Lists
-### Generalized Filter Lists
 | **Filter Lists** | **Links** | **Information** |
 |:-----------------|:----------|:----------------|
 | **[Base][Base Filter]** | **Raw:** <br> [Click Here][Base Raw] <br><br> **Subscribe:** <br> [Click Here][Base Subscription] | **Description:** <br> This filter list is for removing annoyances on various websites. <br><br> **Disclaimer:** <br> These filters were only tested on Google Chrome for desktop and Safari for iOS, which means that they may or may not work on other web browsers. <br><br> **Key Filters:** <br> - Blur video thumbnails on Crunchyroll and other streaming websites <br> - Eliminate annoying pop-under and pop-up advertisements on various websites <br> - Hide video player annoyances on Crunchyroll and other streaming websites <br> - Remove useless URL parameters on Google Search and other websites
 | **[Mobile][Mobile Filter]** | **Raw:** <br> [Click Here][Mobile Raw] <br><br> **Subscribe:** <br> [Click Here][Mobile Subscription] | **Description:** <br> This filter list is for removing annoyances on various mobile websites. <br><br> **Disclaimer:** <br> These filters were only tested on Safari for iOS, which means that they may or may not work on other web browsers. This filter list works better when it is used together with [MrBukLau's Base Filters][Base Filter]. When using this filter list on an Apple device, please make sure to enable "Advanced Protection" in AdGuard. Also, please make sure that Apple device is running at least iOS 15.4. <br><br> **Key Filters:** <br> - Disable Accelerated Mobile Pages on iOS <br> - Hide annoyances on Reddit's mobile website <br> - Prevent infinite scrolling on Imgur's mobile website <br> - Remove Smart App Banners on every website for iOS
 | **[Scriptlet][Scriptlet Filter]** | **Raw:** <br> [Click Here][Scriptlet Raw] <br><br> **Subscribe:** <br> [Click Here][Scriptlet Subscription] | **Description:** <br> This filter list is for using [MrBukLau's Scriptlets][Scriptlet File Link] in uBlock Origin. <br><br> **Disclaimer:** <br> These filters were only tested on Google Chrome for desktop, which means that they may or may not work on other web browsers. This filter list works better when it is used together with [MrBukLau's Base Filters][Base Filter]. To view the raw file of the actual scriptlets, click on this [link][Scriptlet Raw File Link]. <br><br> **Key Filters:** <br> - Bypass Ouo.io, Tinyurl.is, and other URL shorteners <br> - Redirect Reddit links to Old Reddit <br> - Set a new attribute to an existing element <br> - Translate everything to English on Apple Music
-### Specialized Filter Lists
-| **Filter Lists** | **Links** | **Information** |
-|:-----------------|:----------|:----------------|
-| **[Accelerated Mobile Page Removal][Accelerated Mobile Page Removal Filter]** | **Raw:** <br> [Click Here][Accelerated Mobile Page Removal Raw] <br><br> **Subscribe:** <br> [Click Here][Accelerated Mobile Page Removal Subscription] | **Description:** <br> This filter list is for removing [Accelerated Mobile Pages][Accelerated Mobile Pages Home Page Link] on iOS. <br><br> **Disclaimer:** <br> When using this filter list on an Apple device, please make sure to enable "Advanced Protection" in AdGuard. Also, please make sure that Apple device is running at least iOS 15.4. To learn more about Accelerated Mobile Pages, click on this [link][Accelerated Mobile Pages Wikipedia Link]. <br><br> **Issues:** <br> If you encounter an Accelerated Mobile Page while using this filter list on Safari for iOS, please create an issue that includes the website's URL. Also, if this filter list causes an Accelerated Mobile Page to reload in an infinite loop, please create an issue that includes the website's URL.
-| **[Smart App Banner Removal][Smart App Banner Removal Filter]** | **Raw:** <br> [Click Here][Smart App Banner Removal Raw] <br><br> **Subscribe:** <br> [Click Here][Smart App Banner Removal Subscription] | **Description:** <br> This filter list is for removing [Smart App Banners][Smart App Banners Apple View Link] on iOS. <br><br> **Disclaimer:** <br> When using this filter list on an Apple device, please make sure to enable "Advanced Protection" in AdGuard. Regarding the filters themselves, they cannot remove any [Smart App Banner][Smart App Banners Apple Open Link] that shows up when the application is already downloaded and installed on your Apple device. To learn more about Smart App Banners on iOS, click on this [link][Smart App Banners Apple Link]. <br><br> **Issues:** <br> If a Smart App Banner appears when you are browsing on Safari for iOS, please refresh the page once or twice. If the banner does not disappear on that web page after you have refreshed the page, please create an issue that includes the website's URL.
 
 ## Special Thanks
 ### Filters
@@ -146,11 +140,9 @@ No further actions are necessary. After adding a filter list from this repositor
 [uBlock Origin GitHub Link]: https://github.com/gorhill/uBlock
 
 <!-- Filter Lists -->
-[Accelerated Mobile Page Removal Filter]: https://github.com/MrBukLau/filter-lists/blob/master/filters/acceleratedmobilepageremovalfilters.txt
 [Base Filter]: https://github.com/MrBukLau/filter-lists/blob/master/filters/basefilters.txt
 [Mobile Filter]: https://github.com/MrBukLau/filter-lists/blob/master/filters/mobilefilters.txt
 [Scriptlet Filter]: https://github.com/MrBukLau/filter-lists/blob/master/scriptlets/scriptletfilters.txt
-[Smart App Banner Removal Filter]: https://github.com/MrBukLau/filter-lists/blob/master/filters/smartappbannerremovalfilters.txt
 
 <!-- Guide Links -->
 [Content Blockers Guide Link]: https://macrumors.com/how-to/enable-content-blockers-safari/
@@ -158,25 +150,16 @@ No further actions are necessary. After adding a filter list from this repositor
 [uBlock Origin Filter Guide Link]: https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web
 [uBlock Origin Scriptlet Guide Link]: https://xaloez.com/blog/UblockOriginScriptlets/index.html
 
-<!-- Information Links -->
-[Accelerated Mobile Pages Home Page Link]: https://amp.dev/
-[Accelerated Mobile Pages Wikipedia Link]: https://en.wikipedia.org/wiki/Accelerated_Mobile_Pages
+<!-- JavaScript Links -->
 [Scriptlet File Link]: https://github.com/MrBukLau/filter-lists/blob/master/scriptlets/scriptlets.js
 [Scriptlet Raw File Link]: https://github.com/MrBukLau/filter-lists/raw/master/scriptlets/scriptlets.js
-[Smart App Banners Apple Link]: https://developer.apple.com/documentation/webkit/promoting_apps_with_smart_app_banners
-[Smart App Banners Apple Open Link]: https://docs-assets.developer.apple.com/published/c55cd28f16/rendered2x-1605721896.png
-[Smart App Banners Apple View Link]: https://docs-assets.developer.apple.com/published/20ab7d726b/rendered2x-1605721898.png
 
 <!-- Raw Lists -->
-[Accelerated Mobile Page Removal Raw]: https://github.com/MrBukLau/filter-lists/raw/master/filters/acceleratedmobilepageremovalfilters.txt
 [Base Raw]: https://github.com/MrBukLau/filter-lists/raw/master/filters/basefilters.txt
 [Mobile Raw]: https://github.com/MrBukLau/filter-lists/raw/master/filters/mobilefilters.txt
 [Scriptlet Raw]: https://github.com/MrBukLau/filter-lists/raw/master/scriptlets/scriptletfilters.txt
-[Smart App Banner Removal Raw]: https://github.com/MrBukLau/filter-lists/raw/master/filters/smartappbannerremovalfilters.txt
 
 <!-- Subscription Lists -->
-[Accelerated Mobile Page Removal Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists/raw/master/filters/acceleratedmobilepageremovalfilters.txt&title=MrBukLau%27s%20Accelerated%20Mobile%20Page%20Removal%20Filters
 [Base Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists/raw/master/filters/basefilters.txt&title=MrBukLau%27s%20Base%20Filters
 [Mobile Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists/raw/master/filters/mobilefilters.txt&title=MrBukLau%27s%20Mobile%20Filters
 [Scriptlet Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists/raw/master/scriptlets/scriptletfilters.txt&title=MrBukLau%27s%20Scriptlet%20Filters
-[Smart App Banner Removal Subscription]: https://subscribe.adblockplus.org/?location=https://github.com/MrBukLau/filter-lists/raw/master/filters/smartappbannerremovalfilters.txt&title=MrBukLau%27s%20Smart%20App%20Banner%20Removal%20Filters
