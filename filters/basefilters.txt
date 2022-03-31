@@ -173,7 +173,6 @@ itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget
 
 ! Live TV
-1stream.top,volokit2.com##script[type="text/javascript"][src$="/atg.js"]:remove()
 aas.works##.vjs-watermark
 aas.works##img[src$="nflbite.png"]:upward(.widget_media_image)
 bdnewszh.com###adoverly:remove()
@@ -200,8 +199,6 @@ footybite.cc,nbabite.com##[dir="auto"]
 footybite.cc,nbabite.com##h1
 freestreams-live1.com##link[rel="dns-prefetch"][href]:remove()
 freestreams-live1.com##link[rel="preconnect"][href]:remove()
-freestreams-live1.com##script[data-cfasync="false"][src$="/compatibility.js"]:remove()
-givemenbastreams.com,tinyurl.is,weakstreams.com##script[type="text/javascript"][src$="/su.js"]:remove()
 icelz.newsrade.com##+js(ra, target, a.btn, stay)
 icelz.newsrade.com##.bmpui-label-metadata
 icelz.newsrade.com##iframe[src="about:blank"]:remove()
