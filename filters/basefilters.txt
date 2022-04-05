@@ -67,8 +67,10 @@ $removeparam=sport
 !---------- Specific Filters ----------!
 !--------------------------------------!
 ! AnimePahe
+animepahe.*##+js(aopr, open)
 animepahe.*##.alert
 animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
+animepahe.*##iframe[style*="z-index: 2147483647"]:remove()
 animepahe.*##script[data-cfasync="false"][type="text/javascript"][src]:remove()
 animepahe.*##script[type="text/javascript"][src$="/matomo.js"]:remove()
 kwik.cx##.plyr::after:style(content: none !important;)
