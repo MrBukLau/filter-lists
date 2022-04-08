@@ -60,6 +60,12 @@ $removeparam=sport
 ||google.*/search$removeparam=sourceid
 ||google.*/search$removeparam=uact
 ||google.*/search$removeparam=ved
+||music.apple.com^$removeparam=app
+||music.apple.com^$removeparam=at
+||music.apple.com^$removeparam=cc
+||music.apple.com^$removeparam=ct
+||music.apple.com^$removeparam=ls
+||music.apple.com^$removeparam=uo
 ||open.spotify.com^$removeparam=nd
 ||open.spotify.com^$removeparam=si
 
