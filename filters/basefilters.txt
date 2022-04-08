@@ -299,7 +299,7 @@ slider.kz###r_bash
 
 ! Spotify
 open.spotify.com##.link-subtle[draggable][href="/download"]
-open.spotify.com##button[type="button"][aria-label="Upgrade to Premium"][title="Upgrade to Premium"]
+open.spotify.com##button[aria-label="Upgrade to Premium"]
 open.spotify.com##div[data-testid="signup-bar"]:upward(.Root__now-playing-bar)
 open.spotify.com##section[data-testid="component-shelf"][aria-label^="More by"]
 open.spotify.com#@#div > div[aria-live="polite"]
