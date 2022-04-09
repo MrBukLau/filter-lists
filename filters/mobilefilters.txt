@@ -39,6 +39,7 @@
 !--------------------------------------!
 ! 9GAG
 9gag.com##.download-app-container
+9gag.com##.inline-banner
 9gag.com##.noscroll:style(overflow: auto !important;)
 9gag.com##.post-signup-list-banner
 9gag.com##div[class="overlay-layer layer-more visible open-in-app"]
@@ -92,7 +93,7 @@ genius.com##div[class^="InreadAdmobile__Container"]
 genius.com##div[class^="StickyBannerAd__Container"]
 
 ! Giphy
-giphy.com##div[class^="OpenInAppContainer"]
+giphy.com##div[class*="OpenInAppContainer"]
 
 ! GitHub
 github.com##html > head > meta[name="apple-itunes-app"]:remove()
