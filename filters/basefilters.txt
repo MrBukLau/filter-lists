@@ -72,6 +72,12 @@ $removeparam=sport
 !--------------------------------------!
 !---------- Specific Filters ----------!
 !--------------------------------------!
+! 9Anime
+9anime.*##+js(nosiif, /try\s*{for \(var/)
+9anime.*##+js(nostif, /function [a-z]\(\) {(var [a-z]=[a-z];)?\([a-z]=[a-z]\|\|null !=/)
+9anime.*##+js(nostif, /function\(\) {return [a-z]\["[a-z]{2}"\]\(\);}/)
+9anime.*##.alert
+
 ! AnimePahe
 animepahe.*##+js(aopr, open)
 animepahe.*##.alert
