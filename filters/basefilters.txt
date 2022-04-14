@@ -297,9 +297,6 @@ open.spotify.com##div[data-testid="signup-bar"]:upward(.Root__now-playing-bar)
 open.spotify.com##section[data-testid="component-shelf"][aria-label^="More by"]
 open.spotify.com#@#div > div[aria-live="polite"]
 
-! The Anime Index
-piracy.moe##a[href^="https://privateinternetaccess.com/offer/PiracyMoe"]:upward(div)
-
 ! Twitter
 twitter.com##[aria-label$="trending now" i]
 twitter.com##[aria-label="who to follow" i]:upward(1)
