@@ -187,8 +187,6 @@ itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget
 
 ! Live TV
-aas.works##.vjs-watermark
-aas.works##img[src$="nflbite.png"]:upward(.widget_media_image)
 bdnewszh.com###adoverly:remove()
 bdnewszh.com##+js(ra, src, script[src*="/nehuihkn.com/"], stay)
 bdnewszh.com##.billboard-banner
@@ -205,14 +203,11 @@ bdnewszh.com##script[src$="/tag.min.js"]:remove()
 bdnewszh.com##script[type="text/javascript"][src$="/ads.js"]:remove()
 bdnewszh.com##script[type="text/javascript"][src*=".aniview.com/"]:upward(div):remove()
 bdnewszh.com,volokit2.com##script[type="text/javascript"][crossorigin="anonymous"]:remove()
-blacktiesports.net##.bookmark[style]
-blacktiesports.net##a[href="https://reddit.nflbite.com/"]
 footybite.cc###event-tags
 footybite.cc###kis
+footybite.cc##.alert
 footybite.cc,nbabite.com##[dir="auto"]
 footybite.cc,nbabite.com##h1
-freestreams-live1.com##link[rel="dns-prefetch"][href]:remove()
-freestreams-live1.com##link[rel="preconnect"][href]:remove()
 icelz.newsrade.com##+js(ra, target, a.btn, stay)
 icelz.newsrade.com##.bmpui-label-metadata
 icelz.newsrade.com##iframe[src="about:blank"]:remove()
@@ -229,28 +224,13 @@ nbabite.com##.post_tags
 nbabite.com##.toggle
 nbabite.com##h2
 nbabite.com##p
-out.glhf.to,uhdstreams.club,watchsports.to##div[data-watermark]
 sportsurge.net##.HeaderUyari
 tinyurl.is##+js(nano-sib)
 tinyurl.is##+js(rc, disabled, a.btn, stay)
 tinyurl.is##.container:has-text(Have Your Ads Here)
 tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
-uhdstreams.club##[src$="nflbite.png"]:upward(a)
-uhdstreams.club##[src$="soccer.png"]:upward(a)
 volokit2.com##.backtotop
 volokit2.com##.widget-area
-watchsports.to###hawtS[style="margin:0 auto;align:center;max-height:30px;max-width:200px;padding:5px;"][type="text"][placeholder="Find Event"][ng-model="findhawt"]:style(margin: 20px !important;)
-watchsports.to###snackbar:has-text(Stream may require USA IP)
-watchsports.to##a[class="w3-button w3-bar-item w3-hover-dark-gray w3-black w3-padding-small w3-tiny w3-border w3-border-dark-gray"]:has-text(HD)
-watchsports.to##a[href^="/bet"]
-watchsports.to##a[href^="a?watch="]
-watchsports.to##div[class="w3-container w3-center"][style="width:96%;margin:0 auto;padding-top:20px;"]:style(padding-top: 0px !important;)
-watchsports.to##div[style*="overflow:hidden;margin:0 auto;position:absolute;z-index:3;top:50%;left:50%;margin-left:-150px;margin-top:-125px;"]
-watchsports.to##div[style="display: flex;justify-content: center;height: 230px; width: 100%; max-width: 800px;margin: 10px auto !important;"]
-watchsports.to##div[style="width: 100%; max-width: 720px; margin: 10px auto;display:block;"]:has-text(HD)
-watchsports.to##hr[style="height:1px; visibility:hidden; margin-bottom:-1px;"]
-watchsports.to##span[class="w3-tiny w3-display-middle"] > br:first-child
-weakstreams.com##.nflbite
 
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
@@ -312,6 +292,7 @@ slider.kz###r_bash
 ! Spotify
 open.spotify.com##.link-subtle[draggable][href="/download"]
 open.spotify.com##button[aria-label="Upgrade to Premium"]
+open.spotify.com##div[aria-label="In-App Message Modal"]:upward(.ReactModalPortal)
 open.spotify.com##div[data-testid="signup-bar"]:upward(.Root__now-playing-bar)
 open.spotify.com##section[data-testid="component-shelf"][aria-label^="More by"]
 open.spotify.com#@#div > div[aria-live="polite"]
