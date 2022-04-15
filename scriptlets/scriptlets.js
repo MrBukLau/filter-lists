@@ -13,8 +13,7 @@
         if (window.location.href.match("url=http")) {
             window.location.replace(urlReplacement);
         } else {
-            let newUrl = window.location.protocol + "//" + urlReplacement;
-            window.location.replace(newUrl);
+            window.location.replace(window.location.protocol + "//" + urlReplacement);
         }
     }
 })();
@@ -117,41 +116,29 @@
     "use strict";
     if (window.location.href.includes(".mzstatic.com/image/thumb/")) {
         if (window.location.href.match("190x190") && window.location.href.match(".webp")) {
-            let newUrl1 = window.location.href.replace("190x190", "2000x2000").replace(".webp", ".jpeg");
-            window.location.replace(newUrl1);
+            window.location.replace(window.location.toString().replace("190x190", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("200x200") && window.location.href.match(".webp")) {
-            let newUrl2 = window.location.href.replace("200x200", "2000x2000").replace(".webp", ".jpeg");
-            window.location.replace(newUrl2);
+            window.location.replace(window.location.toString().replace("200x200", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("270x270") && window.location.href.match(".webp")) {
-            let newUrl3 = window.location.href.replace("270x270", "2000x2000").replace(".webp", ".jpeg");
-            window.location.replace(newUrl3);
+            window.location.replace(window.location.toString().replace("270x270", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("300x300") && window.location.href.match(".webp")) {
-            let newUrl4 = window.location.href.replace("300x300", "2000x2000").replace(".webp", ".jpeg");
-            window.location.replace(newUrl4);
+            window.location.replace(window.location.toString().replace("300x300", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("305x305") && window.location.href.match(".webp")) {
-            let newUrl5 = window.location.href.replace("305x305", "2000x2000").replace(".webp", ".jpeg");
-            window.location.replace(newUrl5);
+            window.location.replace(window.location.toString().replace("305x305", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("380x380") && window.location.href.match(".webp")) {
-            let newUrl6 = window.location.href.replace("380x380", "2000x2000").replace(".webp", ".jpeg");
-            window.location.replace(newUrl6);
+            window.location.replace(window.location.toString().replace("380x380", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("400x400") && window.location.href.match(".webp")) {
-            let newUrl7 = window.location.href.replace("400x400", "2000x2000").replace(".webp", ".jpeg");
-            window.location.replace(newUrl7);
+            window.location.replace(window.location.toString().replace("400x400", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("500x500") && window.location.href.match(".webp")) {
-            let newUrl8 = window.location.href.replace("500x500", "2000x2000").replace(".webp", ".jpeg");
-            window.location.replace(newUrl8);
+            window.location.replace(window.location.toString().replace("500x500", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("540x540") && window.location.href.match(".webp")) {
-            let newUrl9 = window.location.href.replace("540x540", "2000x2000").replace(".webp", ".jpeg");
-            window.location.replace(newUrl9);
+            window.location.replace(window.location.toString().replace("540x540", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("600x600") && window.location.href.match(".webp")) {
-            let newUrl10 = window.location.href.replace("600x600", "2000x2000").replace(".webp", ".jpeg");
-            window.location.replace(newUrl10);
+            window.location.replace(window.location.toString().replace("600x600", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("610x610") && window.location.href.match(".webp")) {
-            let newUrl11 = window.location.href.replace("610x610", "2000x2000").replace(".webp", ".jpeg");
-            window.location.replace(newUrl11);
+            window.location.replace(window.location.toString().replace("610x610", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("1000x1000") && window.location.href.match(".webp")) {
-            let newUrl12 = window.location.href.replace("1000x1000", "2000x2000").replace(".webp", ".jpeg");
-            window.location.replace(newUrl12);
+            window.location.replace(window.location.toString().replace("1000x1000", "2000x2000").replace(".webp", ".jpeg"));
         }
     }
 })();
@@ -164,13 +151,11 @@
         let oldUrlSearch = window.location.search;
         if ((oldUrlSearch.indexOf("?") > -1) && (oldUrlSearch.indexOf("?l=") === -1)) {
             if (!/\&l=en$/.test(oldUrlSearch)) {
-                let newUrlWithAddedParameter = window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "&l=en" + window.location.hash;
-                window.location.replace(newUrlWithAddedParameter);
+                window.location.replace(window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "&l=en" + window.location.hash);
             }
         } else {
             if (!/\?l=en$/.test(oldUrlSearch)) {
-                let newUrlWithNewParameter = window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "?l=en" + window.location.hash;
-                window.location.replace(newUrlWithNewParameter);
+                window.location.replace(window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "?l=en" + window.location.hash);
             }
         }
     }
@@ -249,8 +234,7 @@
 (function() {
     "use strict";
     if (window.location.href.includes("/www.reddit.com/") && !window.location.href.includes("/www.reddit.com/poll/")) {
-        let newUrl = window.location.href.replace("/www.reddit.com/", "/old.reddit.com/");
-        window.location.replace(newUrl);
+        window.location.replace(window.location.toString().replace("/www.reddit.com/", "/old.reddit.com/"));
     }
 })();
 
@@ -291,7 +275,7 @@
     "use strict";
     let oldHref = document.location.href;
     if (window.location.href.indexOf("youtube.com/shorts") > -1) {
-        window.location.replace(window.location.toString().replace(/shorts/, "/watch/"));
+        window.location.replace(window.location.toString().replace("/shorts/", "/watch?v="));
     }
     window.onload = function() {
         let bodyList = document.querySelector("body");
@@ -300,7 +284,7 @@
                 if (oldHref !== document.location.href) {
                     oldHref = document.location.href;
                     if (window.location.href.indexOf("youtube.com/shorts") > -1) {
-                        window.location.replace(window.location.toString().replace(/shorts/, "/watch/"));
+                        window.location.replace(window.location.toString().replace("/shorts/", "/watch?v="));
                     }
                 }
             });
