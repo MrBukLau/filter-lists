@@ -264,7 +264,7 @@ myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]:u
 myanimelist.net##.ad-sticky-wrapper
 myanimelist.net##.border_top
 myanimelist.net##.btn-forum-manga-store
-myanimelist.net##.clearfix[style="margin:20px;"]:has(div[style="float:left;"], div[style="float:right;"]):style(margin: 0px !important;)
+myanimelist.net##.clearfix[style^="margin:"][style$="20px;"]:has(div[style="float:left;"], div[style="float:right;"]):style(margin: 0px !important;)
 myanimelist.net##.footer-ranking
 myanimelist.net##.pb24:has-text(MALxJapan)
 myanimelist.net##div[class="widget mxj left"]
