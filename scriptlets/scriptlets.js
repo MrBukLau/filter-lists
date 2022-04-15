@@ -280,7 +280,7 @@
     window.onload = function() {
         let bodyList = document.querySelector("body");
         let observer = new MutationObserver(function(mutations) {
-            mutations.forEach(function(mutation) {
+            mutations.forEach(function() {
                 if (oldHref !== document.location.href) {
                     oldHref = document.location.href;
                     if (window.location.href.indexOf("youtube.com/shorts") > -1) {
