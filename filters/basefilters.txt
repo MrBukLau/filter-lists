@@ -63,10 +63,17 @@ $removeparam=sport
 ||music.apple.com^$removeparam=app
 ||music.apple.com^$removeparam=at
 ||music.apple.com^$removeparam=cc
+||music.apple.com^$removeparam=cId
 ||music.apple.com^$removeparam=ct
+||music.apple.com^$removeparam=itscg
+||music.apple.com^$removeparam=itsct
+||music.apple.com^$removeparam=lId
 ||music.apple.com^$removeparam=ls
+||music.apple.com^$removeparam=sr
+||music.apple.com^$removeparam=src
 ||music.apple.com^$removeparam=uo
 ||open.spotify.com^$removeparam=nd
+||open.spotify.com^$removeparam=referral
 ||open.spotify.com^$removeparam=si
 
 !--------------------------------------!
