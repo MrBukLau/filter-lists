@@ -35,6 +35,7 @@
 ||luckyorange.net^
 ||notify.bugsnag.com^
 ||sessions.bugsnag.com^
+||stotoowu.net^
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
 ||widgets.pinterest.com^
@@ -212,15 +213,21 @@ bdnewszh.com##script[type="text/javascript"][src*=".aniview.com/"]:upward(div):r
 bdnewszh.com,volokit2.com##script[type="text/javascript"][crossorigin="anonymous"]:remove()
 footybite.cc###event-tags
 footybite.cc###kis
-footybite.cc##.alert
+footybite.cc,nbabite.com##.alert
 footybite.cc,nbabite.com##[dir="auto"]
 footybite.cc,nbabite.com##h1
 icelz.newsrade.com##+js(ra, target, a.btn, stay)
 icelz.newsrade.com##.bmpui-label-metadata
+icelz.newsrade.com##.desktopad:remove()
+icelz.newsrade.com##.mobilead:remove()
+icelz.newsrade.com##.sharethis-inline-share-buttons
+icelz.newsrade.com##[style*="z-index: 2147483647"]:remove()
 icelz.newsrade.com##iframe[src="about:blank"]:remove()
 icelz.newsrade.com##iframe[src][style="width: 1px; height: 1px; opacity: 0;"]:remove()
-icelz.newsrade.com##iframe[style*="z-index: 2147483647"]:remove()
+icelz.newsrade.com##script[data-cfasync="false"]:remove()
+icelz.newsrade.com##script[src$="/sfp.js"]:remove()
 icelz.newsrade.com##script[src$="/tag.min.js"]:remove()
+icelz.newsrade.com##script[type="text/javascript"][src*="/arkfacialdaybreak.com/"]:remove()
 nbabite.com###jdj
 nbabite.com##.filter-section
 nbabite.com##.header-inner:style(display: block !important;)
