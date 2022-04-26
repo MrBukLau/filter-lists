@@ -13,6 +13,9 @@ clk.sh##+js(gup)
 ! Fc.lc
 fc.lc##+js(gup)
 
+! GitHub
+gist.github.com##+js(sa, target, _blank, p > a[href^="http"])
+
 ! Hikarinoakariost
 hikarinoakari.com##+js(hnab)
 
