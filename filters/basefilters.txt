@@ -175,6 +175,9 @@ funimation.com##div[data-test="episode-card__key-art"]:style(filter: blur(16px) 
 genius.com##div[class^="InreadAddesktop__Container"]
 genius.com##div[class^="SidebarAd__Container"]
 
+! GitHub
+gist.github.com##.gist-detail-intro
+
 ! Google
 google.*##[id^="eob_"]
 
