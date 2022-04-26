@@ -199,8 +199,10 @@ itdmusics.com##.itdmu-widget
 1stream.top##a[href*="/www.buymeacoffee.com/"]
 1stream.top##a[href="https://redi1.soccerstreams.net/"]
 1stream.top##script[type="text/javascript"][src$="/atg.js"]:remove()
+ace7.usite.pro###chat:style(background-color: transparent !important;)
+ace7.usite.pro###footer:style(background-color: transparent !important;)
+ace7.usite.pro###stream:style(background-color: transparent !important;)
 ace7.usite.pro##a[href="https://scor.nbabite.com/"]
-ace7.usite.pro##script[style="width: 100%;height: 90%;"]:remove()
 ace7.usite.pro##script[type="text/javascript"][src*=".safestgatetocontent.com/"]:remove()
 bdnewszh.com###adoverly:remove()
 bdnewszh.com##+js(ra, src, script[src*="/nehuihkn.com/"], stay)
