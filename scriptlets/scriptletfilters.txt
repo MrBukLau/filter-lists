@@ -14,7 +14,7 @@ clk.sh##+js(gup)
 fc.lc##+js(gup)
 
 ! GitHub
-gist.github.com##+js(sa, target, _blank, ul[dir="auto"] > li > a[href^="http"])
+gist.github.com##+js(sa, target, _blank, ul[dir="auto"] > li > a[href^="http"], loop)
 
 ! Hikarinoakariost
 hikarinoakari.com##+js(hnab)
