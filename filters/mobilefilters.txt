@@ -6,9 +6,6 @@
 !-------------------------------------!
 !---------- Generic Filters ----------!
 !-------------------------------------!
-! Cosmetic Filters
-##html > head > meta[name="apple-itunes-app"]:remove()
-
 ! Network Filters
 ||adj.st^
 ||analytics-api.samsunghealthcn.com^
@@ -47,9 +44,6 @@
 9gag.com##div[style="padding-top: 146px;"]:style(padding-top: 96px !important;)
 9gag.com##div[style="padding-top: 98px;"]:style(padding-top: 48px !important;)
 
-! Apple
-apple.com##html > head > meta[name="apple-itunes-app"]:remove()
-
 ! AutoZone
 autozone.com##._3f3af7
 
@@ -81,7 +75,6 @@ fedex.com##fedex-smart-banner
 
 ! Funimation
 funimation.com##.js_smartbanner
-funimation.com##html > head > meta[name="apple-itunes-app"]:remove()
 
 ! G/O Media
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###splashy-ad-container-top
@@ -94,9 +87,6 @@ genius.com##div[class^="StickyBannerAd__Container"]
 
 ! Giphy
 giphy.com##div[class*="OpenInAppContainer"]
-
-! GitHub
-github.com##html > head > meta[name="apple-itunes-app"]:remove()
 
 ! Google
 google.*###stUuGf
@@ -190,9 +180,6 @@ reddit.com##xpromo-nsfw-blocking-container[slot="blurred"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
 
-! Reuters
-reuters.com##html > head > meta[name="apple-itunes-app"]:remove()
-
 ! SoundCloud
 m.soundcloud.com##a[data-testid="open-in-app-link"]
 
@@ -244,3 +231,6 @@ tinyurl.is#%#(function(){if(document.location.href.includes("/tinyurl.is/")){set
 ! Force Enable Dark Mode on Reddit's Mobile Website
 reddit.com#%#(function(){const needle="nightMode";const needles=needle.split(/\s*\|\s*/);let selector="body[class*='sw-body-class']";const addClass=ev=>{if(ev){window.removeEventListener(ev.type,addClass,true);}const nodes=document.querySelectorAll(selector);try{for(const node of nodes){node.classList.add(...needles);}}catch{}};if(document.readyState==="loading"){window.addEventListener("DOMContentLoaded",addClass,true);}else{addClass();}})();
 reddit.com#%#//scriptlet('remove-class', 'dayMode', 'body[class*="nightMode"]')
+
+! Remove Smart App Banners on iOS
+#%#(function(){window.addEventListener("load",function(){(document.querySelector("meta[name='apple-itunes-app']")||{remove:()=>0}).remove();});})();
