@@ -287,7 +287,10 @@ musiclutter.xyz##.ib-nav
 
 ! MyAnimeList
 myanimelist.net###broadcast-block
+myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]:upward(.border_bottom[style="padding:8px 0px 8px 0px;margin:0px 0px 8px 0px;"])
 myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]:upward(.news-unit)
+myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]:upward(div[style="padding: 20px 0px;display: inline-block;"])
+myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]:upward(div[style="padding: 20px 40px;display: inline-block;"])
 myanimelist.net##.ad-sticky-wrapper
 myanimelist.net##.border_top
 myanimelist.net##.btn-forum-manga-store
@@ -296,6 +299,7 @@ myanimelist.net##.footer-ranking
 myanimelist.net##.pb24:has-text(MALxJapan)
 myanimelist.net##div[class="widget mxj left"]
 myanimelist.net##div[class^="pda"]
+myanimelist.net##div[style="overflow: hidden; padding: 10px 0; border-bottom: solid #cdcdcd 1px"]:has(div[style="padding: 20px 40px;display: inline-block;"], div[style="padding: 20px 0px;display: inline-block;"])
 myanimelist.net##span[class*="button_pin"]
 
 ! Online Audio Converter
@@ -303,11 +307,11 @@ online-audio-converter.com###allapps-extension-popup
 online-audio-converter.com##.like_row
 
 ! Reddit
-hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.read-next-container
-hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##.redesign-beta-optin
-hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##div[class="pinnable-content pinned"]
-hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##section[class="infobar commentsignupbar"]
-hd.reddit.com,nm.reddit.com,np.reddit.com,old.reddit.com##section[class="infobar listingsignupbar"]
+reddit.com##.read-next-container
+reddit.com##.redesign-beta-optin
+reddit.com##div[class="pinnable-content pinned"]
+reddit.com##section[class="infobar commentsignupbar"]
+reddit.com##section[class="infobar listingsignupbar"]
 
 ! SignUpGenius
 signupgenius.com##.sug-notice--privacy
