@@ -87,36 +87,19 @@ No further actions are necessary. After adding a filter list from this repositor
 |:-----------------|:----------|:----------------|
 | **[Base][Base Filter]** | **Raw:** <br> [Click Here][Base Raw] <br><br> **Subscribe:** <br> [Click Here][Base Subscription] | **Description:** <br> This filter list is for removing annoyances on various websites. <br><br> **Disclaimer:** <br> These filters were only tested on Google Chrome for desktop and Safari for iOS, which means that they may or may not work on other web browsers. <br><br> **Key Filters:** <br> - Blur video thumbnails on Crunchyroll and other streaming websites <br> - Eliminate annoying pop-under and pop-up advertisements on various websites <br> - Hide video player annoyances on Crunchyroll and other streaming websites <br> - Remove useless URL parameters on Google Search and other websites
 | **[Mobile][Mobile Filter]** | **Raw:** <br> [Click Here][Mobile Raw] <br><br> **Subscribe:** <br> [Click Here][Mobile Subscription] | **Description:** <br> This filter list is for removing annoyances on various mobile websites. <br><br> **Disclaimer:** <br> These filters were only tested on Safari for iOS, which means that they may or may not work on other web browsers. This filter list works better when it is used together with [MrBukLau's Base Filters][Base Filter]. When using this filter list on an Apple device, please make sure to enable "Advanced Protection" in AdGuard. Also, please make sure that Apple device is running at least iOS 15.4. <br><br> **Key Filters:** <br> - Disable Accelerated Mobile Pages on iOS <br> - Hide annoyances on Reddit's mobile website <br> - Prevent infinite scrolling on Imgur's mobile website <br> - Remove Smart App Banners on every website for iOS
-| **[Scriptlet][Scriptlet Filter]** | **Raw:** <br> [Click Here][Scriptlet Raw] <br><br> **Subscribe:** <br> [Click Here][Scriptlet Subscription] | **Description:** <br> This filter list is for using [MrBukLau's Scriptlets][Scriptlet File Link] in uBlock Origin. <br><br> **Disclaimer:** <br> These filters were only tested on Google Chrome for desktop, which means that they may or may not work on other web browsers. This filter list works better when it is used together with [MrBukLau's Base Filters][Base Filter]. To view the raw file of the actual scriptlets, click on this [link][Scriptlet Raw File Link]. <br><br> **Key Filters:** <br> - Bypass Ouo.io, Tinyurl.is, and other URL shorteners <br> - Redirect Reddit links to Old Reddit <br> - Set a new attribute to an existing element <br> - Translate everything to English on Apple Music
+| **[Scriptlet][Scriptlet Filter]** | **Raw:** <br> [Click Here][Scriptlet Raw] <br><br> **Subscribe:** <br> [Click Here][Scriptlet Subscription] | **Description:** <br> This filter list is for using [MrBukLau's Scriptlets][Scriptlet File Link] in uBlock Origin. <br><br> **Disclaimer:** <br> These filters were only tested on Google Chrome for desktop, which means that they may or may not work on other web browsers. This filter list works better when it is used together with [MrBukLau's Base Filters][Base Filter]. To view the raw file of the actual scriptlets, click on this [link][Scriptlet Raw File Link]. <br><br> **Key Filters:** <br> - Bypass Ouo.io, Tinyurl.is, and other URL shorteners <br> - Redirect regular Reddit links to Old Reddit <br> - Set a new attribute to an existing element <br> - Translate everything to English on Apple Music
 
 ## Special Thanks
-### Filters
-#### For Creating the Original Filters
+### For Creating the Original Filters, Scriptlets, and Userscripts
 - **avatar_adg on Reddit**
-    - [Social Filters](https://reddit.com/r/Adguard/comments/7o0ly5/comment/ds6sdg8/)
-- **d3ward on GitHub**
-    - [Analytics and Tracking Filters](https://github.com/d3ward/toolz)
-#### For Providing Information That Enabled Me to Create Some of These Filters
-- **AdguardTeam on GitHub**
-    - [AMP Removal Filters](https://github.com/AdguardTeam/DisableAMP)
-- **DandelionSprout on GitHub**
-    - [URL Parameter Filters](https://github.com/DandelionSprout/adfilt)
-- **Karmesinrot on GitHub**
-    - [Anime Filters](https://github.com/Karmesinrot/Anifiltrs)
-- **StephenP on Greasy Fork**
-    - [Social Filters](https://greasyfork.org/en/scripts/395497)
-### Scriptlets
-#### For Creating the Original Scriptlets
-- **uBlock-user on GitHub**
-    - [Scriptlet for Setting an Attribute](https://github.com/uBlock-user/uBO-Scriptlets)
-#### For Creating the Original Userscripts
+    - Filter: [Prevent Infinite Scrolling on Imgur's Mobile Website](https://reddit.com/r/Adguard/comments/7o0ly5/comment/ds6sdg8/)
 - **Fuim on Greasy Fork**
-    - [YouTube Shorts Redirect](https://greasyfork.org/en/scripts/439993)
+    - Userscript: [YouTube Shorts Redirect](https://greasyfork.org/en/scripts/439993)
 - **IMBA Lawly on Greasy Fork**
-    - [Skipper for Ouo.io](https://greasyfork.org/en/scripts/419509)
-- **OperaSona on Reddit**
-    - [Don't Track My Clicks, Reddit](https://reddit.com/r/privacy/comments/4aqdg0/)
-#### For Providing JavaScript Codes That Enabled Me to Create Some of These Scriptlets
+    - Userscript: [Skipper for Ouo.io](https://greasyfork.org/en/scripts/419509)
+- **uBlock-user on GitHub**
+    - Scriptlet: [Set a New Attribute to an Existing Element](https://github.com/uBlock-user/uBO-Scriptlets)
+### For Providing JavaScript Codes That Enabled Me to Create Some of These Scriptlets
 - **Brock Adams on Stack Overflow**
     - [Add a New Parameter to the URL](https://stackoverflow.com/a/16070740)
     - [Click on a Link Based on Its Text](https://stackoverflow.com/a/6990386)
@@ -128,6 +111,17 @@ No further actions are necessary. After adding a filter list from this repositor
     - [Check if an Element With a Defined Class Exists in the HTML Document](https://stackoverflow.com/a/26254984)
 - **Vivre on Greasy Fork**
     - [Replace a String in the URL With Another String](https://greasyfork.org/en/discussions/requests/55817#comment-144843)
+### For Providing Valuable Information That Enabled Me to Create Some of These Filters
+- **AdguardTeam on GitHub**
+    - [Accelerated Mobile Pages Filters](https://github.com/AdguardTeam/DisableAMP)
+- **d3ward on GitHub**
+    - [Analytics and Tracking Filters](https://github.com/d3ward/toolz)
+- **DandelionSprout on GitHub**
+    - [URL Parameter Filters](https://github.com/DandelionSprout/adfilt)
+- **Karmesinrot on GitHub**
+    - [Anime Filters](https://github.com/Karmesinrot/Anifiltrs)
+- **StephenP on Greasy Fork**
+    - [Social Filters](https://greasyfork.org/en/scripts/395497)
 
 ## License
 [MIT](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE)
