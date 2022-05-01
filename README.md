@@ -113,7 +113,7 @@ No further actions are necessary. After adding a filter list from this repositor
     - [Replace a String in the URL With Another String](https://greasyfork.org/en/discussions/requests/55817#comment-144843)
 ### For Providing Valuable Information That Enabled Me to Create Some of These Filters
 - **AdguardTeam on GitHub**
-    - [Accelerated Mobile Pages Filters](https://github.com/AdguardTeam/DisableAMP)
+    - [Accelerated Mobile Page Filters](https://github.com/AdguardTeam/DisableAMP)
 - **d3ward on GitHub**
     - [Analytics and Tracking Filters](https://github.com/d3ward/toolz)
 - **DandelionSprout on GitHub**
