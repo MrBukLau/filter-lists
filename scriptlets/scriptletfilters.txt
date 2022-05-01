@@ -42,7 +42,6 @@ itdmusic.top##+js(itdmb)
 ouo.*##+js(oib)
 
 ! Reddit
-old.reddit.com##+js(oroctb)
 www.reddit.com##+js(orr)
 
 ! Rentry
