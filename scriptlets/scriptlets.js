@@ -210,25 +210,6 @@
     });
 })();
 
-/// old-reddit-outbound-click-tracking-blocker.js
-/// alias oroctb.js
-(function() {
-    "use strict";
-    window.addEventListener("load", function() {
-        if (window.location.href.includes("/old.reddit.com/")) {
-            let aCol = document.getElementsByTagName("a");
-            let a, actualUrl;
-            for (let i = 0; i < aCol.length; i++) {
-                a = aCol[i];
-                actualUrl = a.getAttribute("data-href-url");
-                if (actualUrl) {
-                    a.setAttribute("data-outbound-url", actualUrl);
-                }
-            }
-        }
-    });
-})();
-
 /// old-reddit-redirector.js
 /// alias orr.js
 (function() {
