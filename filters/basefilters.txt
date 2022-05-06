@@ -89,7 +89,9 @@ $removeparam=sport
 ! AnimePahe
 animepahe.*##+js(aopr, open)
 animepahe.*##.alert
+animepahe.*##.content-wrapper:style(padding-bottom: 20px !important;)
 animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
+animepahe.*##footer
 animepahe.*##iframe[style*="z-index: 2147483647"]:remove()
 animepahe.*##script[data-cfasync="false"][type="text/javascript"][src]:remove()
 animepahe.*##script[type="text/javascript"][src$="/matomo.js"]:remove()
@@ -226,9 +228,11 @@ bdnewszh.com,volokit2.com##script[type="text/javascript"][crossorigin="anonymous
 footybite.cc###event-tags
 footybite.cc###kis
 footybite.cc###nordd
+footybite.cc##h3
 footybite.cc,nbabite.com##.alert
 footybite.cc,nbabite.com##[dir="auto"]
 footybite.cc,nbabite.com##h1
+footybite.cc,nbabite.com##h2
 icelz.newsrade.com##+js(ra, target, a.btn, stay)
 icelz.newsrade.com##.bmpui-label-metadata
 icelz.newsrade.com##.desktopad:remove()
@@ -249,7 +253,6 @@ nbabite.com##.header-titles-wrapper:style(max-width: 100% !important;)
 nbabite.com##.live-btn
 nbabite.com##.post_tags
 nbabite.com##.toggle
-nbabite.com##h2
 nbabite.com##p
 sportsurge.net##.HeaderUyari
 tinyurl.is##+js(nano-sib)
@@ -307,6 +310,8 @@ online-audio-converter.com###allapps-extension-popup
 online-audio-converter.com##.like_row
 
 ! Reddit
+reddit.com##+js(ra, data-outbound-url, .outbound)
+reddit.com##+js(set, Object.prototype.allowClickTracking, false)
 reddit.com##.read-next-container
 reddit.com##.redesign-beta-optin
 reddit.com##div[class="pinnable-content pinned"]
