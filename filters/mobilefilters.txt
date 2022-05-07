@@ -6,6 +6,9 @@
 !-------------------------------------!
 !---------- Generic Filters ----------!
 !-------------------------------------!
+! Cosmetic Filters
+##.js_smartbanner
+
 ! Network Filters
 ||adj.st^
 ||analytics-api.samsunghealthcn.com^
@@ -73,9 +76,6 @@ fandom.com##.pathfinder-notification--bottom
 ! FedEx
 fedex.com##fedex-smart-banner
 
-! Funimation
-funimation.com##.js_smartbanner
-
 ! G/O Media
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###splashy-ad-container-top
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_ad-sticky-footer:upward(.js_sticky-footer)
@@ -109,12 +109,14 @@ m.imgur.com##.Gallery-moreOnImgur
 m.imgur.com##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
 m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
 
+! KidsHealth
+kidshealth.org###kh-partner-ad
+
 ! LinkedIn
 linkedin.com##div[class^="apptivation-promo"]
 
 ! Live TV
 icelz.newsrade.com#@#.bmpui-label-metadata
-watchsports.to##.w3-center[style="width:100%"][href][target="_blank"]
 
 ! Major League Baseball
 mlb.com##.ad
@@ -199,6 +201,7 @@ m.twitch.tv##div[class^="ScCoreButtonLabel"]:has-text(Open in App)
 webmd.com###lln-toppks
 webmd.com##.medianet-ctr
 webmd.com##.promoWrapper
+webmd.com##div[class$="-para-ad"]
 webmd.com##div[id*="mnet-ia-instream-"]
 
 ! Yahoo
