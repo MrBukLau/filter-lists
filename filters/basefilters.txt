@@ -117,6 +117,7 @@ music.apple.com##div[data-test-locale-switcher-banner]
 ! CBS Sports
 cbssports.com###hud-container[class*="desktop-view"]:style(top: 0px !important;)
 cbssports.com###sharethrough-ad
+cbssports.com##+js(ra, target, a[href^="/nba/gametracker/"], stay)
 cbssports.com##.Article-seoBox
 cbssports.com##.cbs-site-nav:style(top: 0px !important;)
 cbssports.com##.gametracker-page > #mantle_skin[data-component="headerSticky"]:style(margin: 110px 0 0 0 !important;)
@@ -330,7 +331,6 @@ open.spotify.com##.link-subtle[draggable][href="/download"]
 open.spotify.com##button[aria-label="Upgrade to Premium"]
 open.spotify.com##div[aria-label="In-App Message Modal"]:upward(.ReactModalPortal)
 open.spotify.com##div[data-testid="signup-bar"]:upward(.Root__now-playing-bar)
-open.spotify.com##section[data-testid="component-shelf"][aria-label^="More by"]
 open.spotify.com#@#div > div[aria-live="polite"]
 
 ! Twitter
