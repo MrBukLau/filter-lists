@@ -71,7 +71,10 @@ espn.com##.promo-banner-container
 
 ! Fandom
 fandom.com###article-featured-video-container
+fandom.com##.notifications-box
 fandom.com##.pathfinder-notification--bottom
+fandom.com##.render-wiki-recommendations
+fandom.com##div[data-testid="QuizBanner"]
 
 ! FedEx
 fedex.com##fedex-smart-banner
@@ -85,18 +88,19 @@ genius.com##div[class^="AppleMusicPlayer__PositioningContainer"]
 genius.com##div[class^="InreadAdmobile__Container"]
 genius.com##div[class^="StickyBannerAd__Container"]
 
+! Gfycat
+gfycat.com##.pro-cta:has-text(No ads, always HD experience with Gfycat Pro.)
+
 ! Giphy
 giphy.com##div[class*="OpenInAppContainer"]
 
 ! Google
 google.*###stUuGf
 google.*##.bB4gff
-google.*##.gSBiC.SVDhZe.QhOYcb.R1JuAe
-google.*##.imso-hide-loading.O8LF7c.IvuoRc
-google.*##.oSAsx
-google.*##.rKJOcDNwrHj__pb-dfr.rKJOcDNwrHj__pb-s
-google.*##.Vxqcxf
 google.*##.zU3lCe
+google.*##div[class="imso-hide-loading O8LF7c IvuoRc"]
+google.*##div[class="rKJOcDNwrHj__pb-dfr rKJOcDNwrHj__pb-s"]
+google.*##div[jsname="suEOdc"]
 
 ! Gopuff
 gopuff.com##.jr-smart-banner
