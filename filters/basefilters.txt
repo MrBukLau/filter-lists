@@ -120,10 +120,15 @@ cbssports.com###sharethrough-ad
 cbssports.com##+js(ra, target, a[href^="/nba/gametracker/"], stay)
 cbssports.com##.Article-seoBox
 cbssports.com##.cbs-site-nav:style(top: 0px !important;)
-cbssports.com##.gametracker-page > #mantle_skin[data-component="headerSticky"]:style(margin: 110px 0 0 0 !important;)
-cbssports.com##.hq-anchor-container:remove()
+cbssports.com##.door-shopping:upward(.container > .row > .row)
+cbssports.com##.game-tracker-body > .mantle-skin[data-component="headerSticky"]:style(margin: 110px 0 0 0 !important;)
+cbssports.com##.gametracker-page > .mantle-skin[data-component="headerSticky"]:style(margin: 110px 0 0 0 !important;)
+cbssports.com##.native-story-ad
 cbssports.com##.nav-network-bar:style(position: static !important;)
+cbssports.com##.Newsletter-container:upward(.article > .Article-bodyContent > .shortcode)
+cbssports.com##.PageLayout--adRail:style(grid-template-columns: none !important;)
 cbssports.com##.sportsline-td
+cbssports.com##.SportslinePromotionContainer
 cbssports.com##.taboola-recommends
 cbssports.com##.ticket-tab
 cbssports.com##.tickets-td
@@ -240,6 +245,7 @@ icelz.newsrade.com##.desktopad:remove()
 icelz.newsrade.com##.mobilead:remove()
 icelz.newsrade.com##.sharethis-inline-share-buttons
 icelz.newsrade.com##[style*="z-index: 2147483647"]:remove()
+icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
 icelz.newsrade.com##iframe[src="about:blank"]:remove()
 icelz.newsrade.com##iframe[src][style="width: 1px; height: 1px; opacity: 0;"]:remove()
 icelz.newsrade.com##script[data-cfasync="false"][type="text/javascript"]:remove()
@@ -272,7 +278,7 @@ lyrical-nonsense.com##.playblocktop
 lyrical-nonsense.com##div[class^="responsive"][class$="inc"]
 
 ! Mojo Sakun
-controlc.com##a[href^="http://redact.dev"]:upward(div)
+controlc.com##a[href^="http://redact.dev"]:upward(2)
 mojosakun.blogspot.com###HTML4
 mojosakun.blogspot.com###HTML99
 mojosakun.blogspot.com###Image5
@@ -332,6 +338,9 @@ open.spotify.com##button[aria-label="Upgrade to Premium"]
 open.spotify.com##div[aria-label="In-App Message Modal"]:upward(.ReactModalPortal)
 open.spotify.com##div[data-testid="signup-bar"]:upward(.Root__now-playing-bar)
 open.spotify.com#@#div > div[aria-live="polite"]
+
+! Twitch
+twitch.tv##.tw-callout-message:upward(.stream-chat > .chat-room > .chat-room__content > .chat-input > .Layout-sc-nxg1ff-0)
 
 ! Twitter
 twitter.com##[aria-label$="trending now" i]
