@@ -185,6 +185,7 @@ genius.com##div[class^="SidebarAd__Container"]
 
 ! GitHub
 gist.github.com##.gist-detail-intro
+github.com##.flash-warn:has-text(Sign in to comment)
 
 ! Google
 google.*##[id^="eob_"]
