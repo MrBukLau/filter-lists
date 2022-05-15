@@ -149,13 +149,16 @@
     "use strict";
     if (window.location.href.includes("/music.apple.com/")) {
         let oldUrlSearch = window.location.search;
-        if ((oldUrlSearch.indexOf("?") > -1) && (oldUrlSearch.indexOf("?l=") === -1)) {
-            if (!/\&l=en$/.test(oldUrlSearch)) {
-                window.location.replace(window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "&l=en" + window.location.hash);
-            }
-        } else {
-            if (!/\?l=en$/.test(oldUrlSearch)) {
-                window.location.replace(window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "?l=en" + window.location.hash);
+        let urlParams = new URLSearchParams(oldUrlSearch);
+        if (urlParams.has("l") === false) {
+            if (oldUrlSearch.indexOf("?") === -1) {
+                if (!/\?l=en/.test(oldUrlSearch)) {
+                    window.location.replace(window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "?l=en" + window.location.hash);
+                }
+            } else {
+                if (!/\&l=en/.test(oldUrlSearch)) {
+                    window.location.replace(window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "&l=en" + window.location.hash);
+                }
             }
         }
     }
