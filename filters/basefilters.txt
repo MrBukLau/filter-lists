@@ -320,6 +320,7 @@ online-audio-converter.com##.like_row
 ! Reddit
 reddit.com##+js(ra, data-outbound-url, .outbound)
 reddit.com##+js(set, Object.prototype.allowClickTracking, false)
+reddit.com##.login-form-side:style(position: static !important;)
 reddit.com##.read-next-container
 reddit.com##.redesign-beta-optin
 reddit.com##div[class="pinnable-content pinned"]
