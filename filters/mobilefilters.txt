@@ -94,6 +94,9 @@ gfycat.com##.pro-cta:has-text(No ads, always HD experience with Gfycat Pro.)
 ! Giphy
 giphy.com##div[class*="OpenInAppContainer"]
 
+! GoodRx
+goodrx.com##div[data-qa="advertisement"]
+
 ! Google
 google.*###stUuGf
 google.*##.bB4gff
@@ -204,6 +207,8 @@ m.twitch.tv##div[class^="ScCoreButtonLabel"]:has-text(Open in App)
 ! WebMD
 webmd.com###lln-toppks
 webmd.com##.medianet-ctr
+webmd.com##.mobile-ad-inside-center
+webmd.com##.ovr-lazy-ad
 webmd.com##.promoWrapper
 webmd.com##div[class$="-para-ad"]
 webmd.com##div[id*="mnet-ia-instream-"]
