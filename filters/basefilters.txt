@@ -163,6 +163,9 @@ crunchyroll.com##li[class="large-margin-bottom"]:has-text(Try Free Trial)
 ! Discord
 discord.com##div[class*="channelNotice"]
 
+! ESPN
+espn.com##aside[data-behavior="article_related"]
+
 ! Fandom
 fandom.com###SurveyModule
 
