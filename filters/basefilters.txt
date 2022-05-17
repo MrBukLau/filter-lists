@@ -265,6 +265,9 @@ nbabite.com##.live-btn
 nbabite.com##.post_tags
 nbabite.com##.toggle
 nbabite.com##p
+onhockey.tv##a[href^="https://record.revmasters.com/"]
+onhockey.tv##table[width="1270"][border="0"][cellpadding="0"][cellspacing="0"]:has-text(We do not host or upload any videos on our website.):upward(2)
+onhockey.tv##table[width="1278"][height="60"][border="0"][cols="3"][cellpadding="0"][cellspacing="0"]
 sportsurge.net##.HeaderUyari
 tinyurl.is##+js(nano-sib)
 tinyurl.is##+js(rc, disabled, a.btn, stay)
