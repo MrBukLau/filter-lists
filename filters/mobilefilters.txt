@@ -213,6 +213,9 @@ webmd.com##.promoWrapper
 webmd.com##div[class$="-para-ad"]
 webmd.com##div[id*="mnet-ia-instream-"]
 
+! Western Hockey League
+whl.ca###app-banner--holder
+
 ! Yahoo
 yahoo.com###app-promo
 
