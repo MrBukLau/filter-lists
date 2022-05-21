@@ -70,7 +70,7 @@ espn.com##.AppPromo
 espn.com##.promo-banner-container
 
 ! Fandom
-fandom.com##.article-featured-video
+fandom.com##.article-featured-video:remove()
 fandom.com##.notifications-box
 fandom.com##.recirculation-prefooter
 fandom.com##div[data-testid="QuizBanner"]
@@ -137,7 +137,11 @@ myanimelist.net##.btn-mal-service-outer
 myanimelist.net##.mxj
 myanimelist.net##div[class="header2 ac po-r"]:has-text(MALxJapan)
 myanimelist.net##div[style="height:14px;margin:0;padding:0;"]:style(height: 0px !important;)
+myanimelist.net##h2[class="anime-detail head slider mt12"]:has-text(More Anime Suggestions)
+myanimelist.net##h2[class="anime-detail head slider mt12"]:has-text(More Anime Suggestions) + div[class="slider-outer anime-detail"]
 myanimelist.net##h3[class="header3 pb12"]:has-text(MALxJapan)
+myanimelist.net##h3[class="manga-detail head slider mt12"]:has-text(More Manga Suggestions)
+myanimelist.net##h3[class="manga-detail head slider mt12"]:has-text(More Manga Suggestions) + div[class="slider-outer manga-detail"]
 
 ! PayPal
 paypal.com###PPAppDownloadBannerContainer
