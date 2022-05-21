@@ -70,11 +70,11 @@ espn.com##.AppPromo
 espn.com##.promo-banner-container
 
 ! Fandom
-fandom.com###article-featured-video-container
+fandom.com##.article-featured-video
 fandom.com##.notifications-box
-fandom.com##.pathfinder-notification--bottom
-fandom.com##.render-wiki-recommendations
+fandom.com##.recirculation-prefooter
 fandom.com##div[data-testid="QuizBanner"]
+fandom.com##h2:has-text(Fandom Trivia)
 
 ! FedEx
 fedex.com##fedex-smart-banner
