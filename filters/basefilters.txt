@@ -170,10 +170,12 @@ discord.com##div[class*="channelNotice"]
 
 ! ESPN
 espn.com###gamepackage-cliplist:remove()
-espn.com###gamepackage-news
+espn.com###gamepackage-incontentbetting
+espn.com###gamepackage-news:has-text(NBA News)
 espn.com##.article > .container > .article-body > p > strong > a[href^="https://promo.espn.com/"]:upward(2)
 espn.com##.Scoreboard:style(max-width: none !important;)
 espn.com##.ScoreboardPage > .PageLayout__RightAside:remove()
+espn.com##article[class="sub-module editorial"]:has-text(Latest Soccer Videos):has(ul[data-behavior="video_playlist"]):remove()
 espn.com##aside[data-behavior="article_related"]
 
 ! Fandom
