@@ -167,7 +167,11 @@ discord.com##div[class*="channelNotice"]
 espn.com##aside[data-behavior="article_related"]
 
 ! Fandom
+fandom.com###mixed-content-footer
 fandom.com###SurveyModule
+fandom.com###WikiaBar
+fandom.com##.featured-video-player-container
+fandom.com##div[class^="render-wiki-recommendations"]
 
 ! Free MP3 Download
 free-mp3-download.net###toast-container
