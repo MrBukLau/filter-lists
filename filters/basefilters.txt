@@ -99,12 +99,15 @@ kwik.cx##.plyr::after:style(content: none !important;)
 kwik.cx##.plyr__poster
 kwik.cx##button[type="button"][class="plyr__control plyr__control--overlaid"][data-plyr="play"][aria-label="Play"]
 
+! AnimeSchedule
+animeschedule.net###header-temporary-banner
+
 ! AniMixPlay
 dailymotion.com##.np_carousel-list-wrapper
 dailymotion.com##.np_Darken
 
 ! AppDB
-appdb.to##.app[data-v-06d5e39c]::before
+appdb.to##.app::before
 appdb.to##.banner
 appdb.to##.vue-notification-group
 
@@ -164,6 +167,7 @@ crunchyroll.com##li[class="large-margin-bottom"]:has-text(Try Free Trial)
 discord.com##div[class*="channelNotice"]
 
 ! ESPN
+espn.com##.article > .container > .article-body > p > strong > a[href^="https://promo.espn.com/"]:upward(2)
 espn.com##aside[data-behavior="article_related"]
 
 ! Fandom
