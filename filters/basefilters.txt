@@ -88,6 +88,9 @@ $removeparam=/^utm_/,domain=reddit.com|spotify.com
 ! Advance Publications
 oregonlive.com##.sharebar__bookmark--tooltip
 
+! AniDB
+anidb.net##.hint
+
 ! AnimePahe
 animepahe.*##+js(aopr, open)
 animepahe.*##.alert
