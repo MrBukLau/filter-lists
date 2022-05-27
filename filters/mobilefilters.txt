@@ -88,9 +88,6 @@ genius.com##div[class^="AppleMusicPlayer__PositioningContainer"]
 genius.com##div[class^="InreadAdmobile__Container"]
 genius.com##div[class^="StickyBannerAd__Container"]
 
-! Gfycat
-gfycat.com##.pro-cta:has-text(No ads, always HD experience with Gfycat Pro.)
-
 ! Giphy
 giphy.com##div[class*="OpenInAppContainer"]
 
@@ -112,9 +109,12 @@ gopuff.com##.jr-smart-banner
 healthline.com##.myFinance-ad-unit
 
 ! Imgur
-m.imgur.com##.Gallery-moreOnImgur
-m.imgur.com##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
-m.imgur.com##.GalleryInfiniteScroll > div > div:not([class])
+imgur.io##.Ad
+imgur.io##.Ad-emptyMessage
+imgur.io##.Gallery-moreOnImgur
+imgur.io##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
+imgur.io##.GalleryInfiniteScroll > div > div:not([class])
+imgur.io##.get-app-block
 
 ! KidsHealth
 kidshealth.org###kh-partner-ad
@@ -248,6 +248,9 @@ tinyurl.is#%#(function(){if(document.location.href.includes("/tinyurl.is/")){set
 ! Force Enable Dark Mode on Reddit's Mobile Website
 reddit.com#%#(function(){const needle="nightMode";const needles=needle.split(/\s*\|\s*/);let selector="body[class*='sw-body-class']";const addClass=ev=>{if(ev){window.removeEventListener(ev.type,addClass,true);}const nodes=document.querySelectorAll(selector);try{for(const node of nodes){node.classList.add(...needles);}}catch{}};if(document.readyState==="loading"){window.addEventListener("DOMContentLoaded",addClass,true);}else{addClass();}})();
 reddit.com#%#//scriptlet('remove-class', 'dayMode', 'body[class*="nightMode"]')
+
+! Redirect From Imgur's Old Mobile Website to Imgur's New Mobile Website
+m.imgur.com#%#(function(){if(window.location.href.includes("/m.imgur.com/")){window.location.replace(window.location.toString().replace("/m.imgur.com/","/imgur.io/"));}})();
 
 ! Remove Smart App Banners on iOS
 ##html > head > meta[name="apple-itunes-app"]:remove()
