@@ -85,6 +85,11 @@ $removeparam=/^utm_/,domain=reddit.com|spotify.com
 9anime.*##+js(nostif, /function\(\) {return [a-z]\["[a-z]{2}"\]\(\);}/)
 9anime.*##.alert
 
+! 9GAG
+9gag.com##.comment-signup-banner
+9gag.com##.signup-list-banner
+9gag.com##.signup-side-banner
+
 ! Advance Publications
 oregonlive.com##.sharebar__bookmark--tooltip
 
@@ -204,6 +209,10 @@ funimation.com##div[data-test="episode-card__key-art"]:style(filter: blur(16px) 
 ! Genius
 genius.com##div[class^="InreadAddesktop__Container"]
 genius.com##div[class^="SidebarAd__Container"]
+
+! Gfycat
+gfycat.com##.pro-cta:has-text(No ads, always HD experience with Gfycat Pro.)
+gfycat.com##.signup-call-to-action
 
 ! GitHub
 gist.github.com##.gist-detail-intro
