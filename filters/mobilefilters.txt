@@ -110,7 +110,9 @@ healthline.com##.myFinance-ad-unit
 
 ! Imgur
 imgur.io##.Ad
+imgur.io##.Ad-adhesive
 imgur.io##.Ad-emptyMessage
+imgur.io##.Ad-isFixed
 imgur.io##.Gallery-moreOnImgur
 imgur.io##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
 imgur.io##.GalleryInfiniteScroll > div > div:not([class])
