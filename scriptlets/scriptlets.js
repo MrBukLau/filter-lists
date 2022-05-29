@@ -213,6 +213,19 @@
     });
 })();
 
+/// nyaa-dark-mode-enabler.js
+/// alias ndme.js
+(function() {
+    "use strict";
+    window.addEventListener("DOMContentLoaded", function() {
+        if (window.location.href.includes("/nyaa.si/")) {
+            if (!document.body.classList.contains("dark")) {
+                document.querySelector("a[id='themeToggle']").click();
+            }
+        }
+    });
+})();
+
 /// old-reddit-redirector.js
 /// alias orr.js
 (function() {
