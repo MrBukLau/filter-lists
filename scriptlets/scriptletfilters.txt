@@ -39,6 +39,9 @@ icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/ufc, a[onclick="win
 itdmusic.top##+js(gup)
 itdmusic.top##+js(itdmb)
 
+! Nyaa
+nyaa.si##+js(ndme)
+
 ! Ouo.io
 ouo.*##+js(oib)
 
