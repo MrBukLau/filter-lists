@@ -351,6 +351,9 @@ myanimelist.net##span[class*="button_pin"]
 online-audio-converter.com###allapps-extension-popup
 online-audio-converter.com##.like_row
 
+! Proton
+proton.me##.flex-item-fluid:has-text(Introducing the updated Proton):upward(1)
+
 ! Reddit
 reddit.com##+js(ra, data-outbound-url, .outbound)
 reddit.com##+js(set, Object.prototype.allowClickTracking, false)
@@ -374,6 +377,10 @@ open.spotify.com##button[aria-label="Upgrade to Premium"]
 open.spotify.com##div[aria-label="In-App Message Modal"]:upward(.ReactModalPortal)
 open.spotify.com##div[data-testid="signup-bar"]:upward(.Root__now-playing-bar)
 open.spotify.com#@#div > div[aria-live="polite"]
+
+! The Index
+theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
+theindex.moe##div[class^="SupportBanner_banner"]
 
 ! Twitch
 twitch.tv##.tw-callout-message:upward(.stream-chat > .chat-room > .chat-room__content > .chat-input > .Layout-sc-nxg1ff-0)
