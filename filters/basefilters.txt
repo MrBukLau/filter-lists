@@ -175,6 +175,8 @@ crunchyroll.com##li[class="large-margin-bottom"]:has-text(Try Free Trial)
 
 ! Discord
 discord.com##div[class*="channelNotice"]
+discord.com##div[class^="card-"]:has-text(We can customize Active Now, and other parts of Discord, based on information like who you talk to and what games you play.)
+discord.com##div[class^="notice-"]:has-text(Get the desktop app!)
 
 ! ESPN
 espn.com###gamepackage-cliplist:remove()
