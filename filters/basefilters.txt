@@ -219,6 +219,7 @@ gfycat.com##.signup-call-to-action
 ! GitHub
 gist.github.com##.gist-detail-intro
 github.com##.flash-warn:has-text(Sign in to comment)
+github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 
 ! Google
 google.*##[id^="eob_"]
