@@ -345,10 +345,14 @@ myanimelist.net##.btn-forum-manga-store
 myanimelist.net##.clearfix[style^="margin:"][style$="20px;"]:has(div[style="float:left;"], div[style="float:right;"]):style(margin: 0px !important;)
 myanimelist.net##.footer-ranking
 myanimelist.net##.pb24:has-text(MALxJapan)
+myanimelist.net##.text-ribbon
 myanimelist.net##div[class="widget mxj left"]
 myanimelist.net##div[class^="pda"]
 myanimelist.net##div[style="overflow: hidden; padding: 10px 0; border-bottom: solid #cdcdcd 1px"]:has(div[style="padding: 20px 40px;display: inline-block;"], div[style="padding: 20px 0px;display: inline-block;"])
 myanimelist.net##span[class*="button_pin"]
+
+! National Basketball Association
+nba.com##div[class^="DisplayAd_genericAd_"]
 
 ! Online Audio Converter
 online-audio-converter.com###allapps-extension-popup
