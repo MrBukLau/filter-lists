@@ -245,11 +245,6 @@ itdmusics.com##.itdmu-widget
 1stream.top##a[href*="/www.buymeacoffee.com/"]
 1stream.top##a[href="https://redi1.soccerstreams.net/"]
 1stream.top##script[type="text/javascript"][src$="/atg.js"]:remove()
-ace7.usite.pro###chat:style(background-color: transparent !important;)
-ace7.usite.pro###footer:style(background-color: transparent !important;)
-ace7.usite.pro###stream:style(background-color: transparent !important;)
-ace7.usite.pro##a[href="https://scor.nbabite.com/"]
-ace7.usite.pro##script[type="text/javascript"][src*=".safestgatetocontent.com/"]:remove()
 bdnewszh.com###adoverly:remove()
 bdnewszh.com##+js(ra, src, script[src*="/nehuihkn.com/"], stay)
 bdnewszh.com##.billboard-banner
@@ -304,6 +299,11 @@ tinyurl.is##+js(nano-sib)
 tinyurl.is##+js(rc, disabled, a.btn, stay)
 tinyurl.is##.container:has-text(Have Your Ads Here)
 tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
+usite.pro###chat:style(background-color: transparent !important;)
+usite.pro###footer:style(background-color: transparent !important;)
+usite.pro###stream:style(background-color: transparent !important;)
+usite.pro##a[href="https://scor.nbabite.com/"]
+usite.pro##script[type="text/javascript"][src*=".profitablecpmgate.com/"]:remove()
 volokit2.com##.backtotop
 volokit2.com##.widget-area
 
