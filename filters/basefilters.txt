@@ -15,6 +15,7 @@
 
 ! Network Filters
 ||ads-dev.pinterest.com^
+||adsdk.yandex.ru^
 ||adtago.s3.amazonaws.com^
 ||advertising-api-eu.amazon.com^
 ||advertising.twitter.com^
