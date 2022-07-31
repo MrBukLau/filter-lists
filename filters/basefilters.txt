@@ -20,6 +20,7 @@
 ||advertising.twitter.com^
 ||advice-ads.s3.amazonaws.com^
 ||affiliationjs.s3.amazonaws.com^
+||amazonclix.com^
 ||an.facebook.com^
 ||analytics-sg.tiktok.com^
 ||analytics.facebook.com^
@@ -41,7 +42,7 @@
 ||widgets.pinterest.com^
 
 ! URL Parameter Filters
-$removeparam=/^utm_/,domain=reddit.com|spotify.com
+$removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 @@||google.*/url?$removeparam=ved
 ||google.*/search$removeparam=aqs
 ||google.*/search$removeparam=bih
@@ -289,6 +290,7 @@ nbabite.com##.header-navigation-wrapper
 nbabite.com##.header-titles-wrapper:style(max-width: 100% !important;)
 nbabite.com##.live-btn
 nbabite.com##.post_tags
+nbabite.com##.sport-section:has-text(News):upward(2)
 nbabite.com##.toggle
 nbabite.com##p
 onhockey.tv##a[href^="https://record.revmasters.com/"]
