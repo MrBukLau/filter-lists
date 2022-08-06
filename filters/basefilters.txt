@@ -85,6 +85,7 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 9anime.*##+js(nosiif, /try\s*{for \(var/)
 9anime.*##+js(nostif, /function [a-z]\(\) {(var [a-z]=[a-z];)?\([a-z]=[a-z]\|\|null !=/)
 9anime.*##+js(nostif, /function\(\) {return [a-z]\["[a-z]{2}"\]\(\);}/)
+9anime.*##.adx
 9anime.*##.alert
 
 ! 9GAG
@@ -117,6 +118,10 @@ animeschedule.net###header-temporary-banner
 ! AniMixPlay
 dailymotion.com##.np_carousel-list-wrapper
 dailymotion.com##.np_Darken
+
+! AniPlaylist
+aniplaylist.com##.adswrapper:upward(1)
+aniplaylist.com##a[href="/my-aniplaylist"][title="Create your own playlist"]:upward(2)
 
 ! AppDB
 appdb.to##.app::before
@@ -225,6 +230,9 @@ github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 
 ! Google
 google.*##[id^="eob_"]
+
+! Greasy Fork
+greasyfork.org##.ad
 
 ! Hikarinoakariost
 hikarinoakari.com###ays_tooltip
@@ -356,6 +364,16 @@ myanimelist.net##span[class*="button_pin"]
 
 ! National Basketball Association
 nba.com##div[class^="DisplayAd_genericAd_"]
+
+! NMac Ked
+nmac.to###recommended
+nmac.to###sizzlin-wrapper
+nmac.to##.ad
+nmac.to##.comments-area:style(margin: auto !important;)
+nmac.to##.it-ad
+nmac.to##div[class="tabbable tabs-below"]
+nmac.to##div[style="margin-left: auto; margin-right: auto; text-align: center; "]
+nmac.to##div[style="margin-left: auto; margin-right: auto; text-align: center; margin-bottom: -5px; "]
 
 ! Online Audio Converter
 online-audio-converter.com###allapps-extension-popup
