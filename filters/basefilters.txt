@@ -195,7 +195,6 @@ espn.com##aside[data-behavior="article_related"]
 ! Fandom
 fandom.com###mixed-content-footer
 fandom.com###SurveyModule
-fandom.com###WikiaBar
 fandom.com##.featured-video-player-container:remove()
 fandom.com##div[class^="render-wiki-recommendations"]
 
