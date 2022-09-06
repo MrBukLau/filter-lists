@@ -21,6 +21,7 @@
 ||advertising.twitter.com^
 ||advice-ads.s3.amazonaws.com^
 ||affiliationjs.s3.amazonaws.com^
+||amazonaax.com^
 ||amazonclix.com^
 ||an.facebook.com^
 ||analytics-sg.tiktok.com^
@@ -32,6 +33,7 @@
 ||app.bugsnag.com^
 ||app.getsentry.com^
 ||browser.sentry-cdn.com^
+||bunnycdn.ru/*/all.js$domain=9anime.*
 ||d.reddit.com^
 ||extmaps-api.yandex.net^
 ||luckyorange.net^
@@ -62,6 +64,7 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 ||google.*/search$removeparam=sourceid
 ||google.*/search$removeparam=uact
 ||google.*/search$removeparam=ved
+||music.apple.com^$removeparam=/^ign-/
 ||music.apple.com^$removeparam=app
 ||music.apple.com^$removeparam=at
 ||music.apple.com^$removeparam=cc
