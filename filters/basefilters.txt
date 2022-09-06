@@ -33,7 +33,6 @@
 ||app.bugsnag.com^
 ||app.getsentry.com^
 ||browser.sentry-cdn.com^
-||bunnycdn.ru/*/all.js$domain=9anime.*
 ||d.reddit.com^
 ||extmaps-api.yandex.net^
 ||luckyorange.net^
