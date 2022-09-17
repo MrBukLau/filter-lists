@@ -176,6 +176,7 @@ reddit.com##.topnav__promobutton
 reddit.com##.topposts
 reddit.com##.xpromoappstorefooter
 reddit.com##.xpromoblockingmodal
+reddit.com##.xpromobottombar
 reddit.com##.xpromochoicebanner
 reddit.com##.xpromoinfeed
 reddit.com##.xpromonsfwblocking__warning
