@@ -151,6 +151,11 @@ myanimelist.net##h3[class="manga-detail head slider mt12"]:has-text(More Manga S
 ! PayPal
 paypal.com###PPAppDownloadBannerContainer
 
+! Platt Electric Supply
+platt.com##.cookie[role="alert"]
+platt.com##div[class="v-application--wrap"] > a[href="https://apple.co/3KZACWo"]
+platt.com##main[class="v-main"][style="padding: 188px 0px 0px;"]:style(padding: 128px 0px 0px !important;)
+
 ! Quora
 quora.com##button[type="button"]:has-text(Open in App)
 
@@ -265,3 +270,4 @@ m.youtube.com#%#(function(){let oldHref=document.location.href;if(window.locatio
 ##html > head > meta[name="apple-itunes-app"]:remove()
 #%#(function(){window.addEventListener("load",function(){(document.querySelector("meta[name='apple-itunes-app']")||{remove:()=>0}).remove();});})();
 #?#meta[name="apple-itunes-app"]:remove()
+github.com#?#meta[name="apple-itunes-app"]:remove()
