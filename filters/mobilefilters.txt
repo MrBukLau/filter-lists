@@ -10,6 +10,7 @@
 ##.js_smartbanner
 
 ! Network Filters
+||ad.samsungadhub.com^
 ||adj.st^
 ||analytics-api.samsunghealthcn.com^
 ||app.adjust.com^
@@ -30,6 +31,7 @@
 ||open.oneplus.net^
 ||sa.api.intl.miui.com^
 ||samsung-com.112.2o7.net^
+||samsungadhub.com^
 ||supportmetrics.apple.com^
 ||tracking.india.miui.com^
 ||tracking.rus.miui.com^
@@ -253,13 +255,13 @@ tinyurl.is#%#(function(){if(document.location.href.includes("/tinyurl.is/")){set
 reddit.com#%#(function(){const needle="nightMode";const needles=needle.split(/\s*\|\s*/);let selector="body[class*='sw-body-class']";const addClass=ev=>{if(ev){window.removeEventListener(ev.type,addClass,true);}const nodes=document.querySelectorAll(selector);try{for(const node of nodes){node.classList.add(...needles);}}catch{}};if(document.readyState==="loading"){window.addEventListener("DOMContentLoaded",addClass,true);}else{addClass();}})();
 reddit.com#%#//scriptlet('remove-class', 'dayMode', 'body[class*="nightMode"]')
 
-! Redirect From Imgur's Old Mobile Website to Imgur's New Mobile Website
+! Redirect Imgur to the New Mobile Domain
 m.imgur.com#%#(function(){if(window.location.href.includes("/m.imgur.com/")){window.location.replace(window.location.toString().replace("/m.imgur.com/","/imgur.io/"));}})();
 
-! Redirect YouTube Shorts Links to Watch Links
+! Redirect YouTube Shorts to the Normal Player
 m.youtube.com#%#(function(){let oldHref=document.location.href;if(window.location.href.indexOf("youtube.com/shorts")>-1){window.location.replace(window.location.toString().replace("/shorts/","/watch?v="));}window.onload=function(){let bodyList=document.querySelector("body");let observer=new MutationObserver(function(mutations){mutations.forEach(function(){if(oldHref!==document.location.href){oldHref=document.location.href;if(window.location.href.indexOf("youtube.com/shorts")>-1){window.location.replace(window.location.toString().replace("/shorts/","/watch?v="));}}});});let config={childList:true,subtree:true};observer.observe(bodyList,config);};})();
 
 ! Remove Smart App Banners on iOS
 ##html > head > meta[name="apple-itunes-app"]:remove()
 #%#(function(){window.addEventListener("load",function(){(document.querySelector("meta[name='apple-itunes-app']")||{remove:()=>0}).remove();});})();
-github.com##html > head > meta[name="apple-itunes-app"]:remove()
+#?#meta[name="apple-itunes-app"]:remove()
