@@ -197,6 +197,7 @@ reddit.com##shreddit-comments-page-ad
 reddit.com##shreddit-experience-tree
 reddit.com##shreddit-post[view-context^="ListingBelow"][view-context$="Posts"]
 reddit.com##shreddit-rereddit-promo
+reddit.com##slot[name="use-app"]
 reddit.com##xpromo-footer
 reddit.com##xpromo-nsfw-blocking-container[slot="blurred"]
 reddit.com##xpromo-nsfw-blocking-modal
