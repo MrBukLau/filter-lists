@@ -191,10 +191,14 @@ reddit.com##.xpromonsfwblockingmodal
 reddit.com##.xpromopill
 reddit.com##.xpromopopup
 reddit.com##button[class="action last"]
+reddit.com##continue-chat-in-app-modal:remove()
 reddit.com##shreddit-ad-post
 reddit.com##shreddit-app:style(--shreddit-bottom-padding: 8px !important;)
+reddit.com##shreddit-async-loader[bundlename="faceplate_alerts"]
 reddit.com##shreddit-comments-page-ad
 reddit.com##shreddit-experience-tree
+reddit.com##shreddit-good-visit-tracker:remove()
+reddit.com##shreddit-overlay-display:remove()
 reddit.com##shreddit-post[view-context^="ListingBelow"][view-context$="Posts"]
 reddit.com##shreddit-rereddit-promo
 reddit.com##slot[name="use-app"]
