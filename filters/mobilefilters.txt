@@ -224,6 +224,13 @@ thescore.com##button[class^="GetTheAppModal__getTheAppButton"]
 ! Twitch
 m.twitch.tv##div[class^="ScCoreButtonLabel"]:has-text(Open in App)
 
+! Walmart
+walmart.com##.alert-bar
+walmart.com##button[data-automation-id="sb-btn-get-the-app"]:upward(2)
+walmart.com##div[data-testid="buy-box-ad"]
+walmart.com##div[id^="ITEM-MarqueeDisplayAd-marquee"]
+walmart.com##div[id^="ITEM-SponsoredProductCarousel-"]
+
 ! WebMD
 webmd.com###lln-toppks
 webmd.com##.medianet-ctr
