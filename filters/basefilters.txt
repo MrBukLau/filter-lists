@@ -38,6 +38,7 @@
 ||luckyorange.net^
 ||notify.bugsnag.com^
 ||sessions.bugsnag.com^
+||smetrics.samsung.com^
 ||stotoowu.net^
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
@@ -224,6 +225,7 @@ gfycat.com##.pro-cta:has-text(No ads, always HD experience with Gfycat Pro.)
 gfycat.com##.signup-call-to-action
 
 ! GitHub
+d3ward.github.io##._notif
 gist.github.com##.gist-detail-intro
 github.com##.flash-warn:has-text(Sign in to comment)
 github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
@@ -255,22 +257,6 @@ itdmusics.com##.itdmu-widget
 1stream.top##a[href*="/www.buymeacoffee.com/"]
 1stream.top##a[href="https://redi1.soccerstreams.net/"]
 1stream.top##script[type="text/javascript"][src$="/atg.js"]:remove()
-bdnewszh.com###adoverly:remove()
-bdnewszh.com##+js(ra, src, script[src*="/nehuihkn.com/"], stay)
-bdnewszh.com##.billboard-banner
-bdnewszh.com##.content-banner
-bdnewszh.com##.footer-sticky-banner
-bdnewszh.com##.left-sticky-banner
-bdnewszh.com##.powerdby
-bdnewszh.com##.right-sticky-banner
-bdnewszh.com##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]:remove()
-bdnewszh.com##iframe[src="about:blank"][style="position: absolute; width: 1px; height: 1px; display: none; opacity: 0;"]:remove()
-bdnewszh.com##iframe[src="javascript:false"][style="display: none;"]:remove()
-bdnewszh.com##script[src$="/a.js"]:remove()
-bdnewszh.com##script[src$="/tag.min.js"]:remove()
-bdnewszh.com##script[type="text/javascript"][src$="/ads.js"]:remove()
-bdnewszh.com##script[type="text/javascript"][src*=".aniview.com/"]:upward(div):remove()
-bdnewszh.com,volokit2.com##script[type="text/javascript"][crossorigin="anonymous"]:remove()
 footybite.cc###event-tags
 footybite.cc###kis
 footybite.cc###nordd
@@ -292,6 +278,10 @@ icelz.newsrade.com##script[data-cfasync="false"][type="text/javascript"]:remove(
 icelz.newsrade.com##script[src$="/sfp.js"]:remove()
 icelz.newsrade.com##script[src$="/tag.min.js"]:remove()
 icelz.newsrade.com##script[type="text/javascript"][src*="/arkfacialdaybreak.com/"]:remove()
+mygoodstream.pw##.adsbyvli
+mygoodstream.pw##.blockchain-btn:upward(1)
+mygoodstream.pw##script[type="text/javascript"][async][crossorigin="anonymous"]:remove()
+mygoodstream.pw##script[type="text/javascript"][src*="/adv1/"]:remove()
 nbabite.com###jdj
 nbabite.com##.filter-section
 nbabite.com##.header-inner:style(display: block !important;)
@@ -310,13 +300,6 @@ tinyurl.is##+js(nano-sib)
 tinyurl.is##+js(rc, disabled, a.btn, stay)
 tinyurl.is##.container:has-text(Have Your Ads Here)
 tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
-usite.pro###chat:style(background-color: transparent !important;)
-usite.pro###footer:style(background-color: transparent !important;)
-usite.pro###stream:style(background-color: transparent !important;)
-usite.pro##a[href="https://scor.nbabite.com/"]
-usite.pro##script[type="text/javascript"][src*=".profitablecpmgate.com/"]:remove()
-volokit2.com##.backtotop
-volokit2.com##.widget-area
 
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
