@@ -279,7 +279,8 @@ icelz.newsrade.com##script[src$="/sfp.js"]:remove()
 icelz.newsrade.com##script[src$="/tag.min.js"]:remove()
 icelz.newsrade.com##script[type="text/javascript"][src*="/arkfacialdaybreak.com/"]:remove()
 mygoodstream.pw##.adsbyvli
-mygoodstream.pw##.blockchain-btn:upward(1)
+mygoodstream.pw##.sharethis-inline-share-buttons:upward(1)
+mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
 mygoodstream.pw##script[type="text/javascript"][async][crossorigin="anonymous"]:remove()
 mygoodstream.pw##script[type="text/javascript"][src*="/adv1/"]:remove()
 nbabite.com###jdj
@@ -295,6 +296,8 @@ nbabite.com##p
 onhockey.tv##a[href^="https://record.revmasters.com/"]
 onhockey.tv##table[width="1270"][border="0"][cellpadding="0"][cellspacing="0"]:has-text(We do not host or upload any videos on our website.):upward(2)
 onhockey.tv##table[width="1278"][height="60"][border="0"][cols="3"][cellpadding="0"][cellspacing="0"]
+redditsport.live##div[id^="ezoic-pub-ad-placeholder-"]:upward(1)
+redditsport.live##tbody[id^="stats"]:upward(1)
 sportsurge.net##.HeaderUyari
 tinyurl.is##+js(nano-sib)
 tinyurl.is##+js(rc, disabled, a.btn, stay)
