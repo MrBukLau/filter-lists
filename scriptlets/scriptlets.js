@@ -143,11 +143,11 @@
     }
 })();
 
-/// apple-music-english-translator.js
-/// alias amet.js
+/// apple-music-japanese-to-english-album-translator.js
+/// alias amjteat.js
 (function() {
     "use strict";
-    if (window.location.href.includes("/music.apple.com/")) {
+    if (window.location.href.includes("/music.apple.com/jp/album/")) {
         let oldUrlSearch = window.location.search;
         let urlParams = new URLSearchParams(oldUrlSearch);
         if (urlParams.has("l") === false) {
