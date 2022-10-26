@@ -129,10 +129,11 @@ appdb.to##.banner
 appdb.to##.vue-notification-group
 
 ! Apple Music
-music.apple.com##.dt-modal__container[role="dialog"][aria-label="Subscription"]
-music.apple.com##.web-navigation__native-upsell
-music.apple.com##cwc-music-upsell-banner-web
-music.apple.com##div[data-test-locale-switcher-banner]
+music.apple.com##.commerce-modal-container:upward(.portal)
+music.apple.com##.navigation__native-cta
+music.apple.com##.upsell-banner
+music.apple.com##div[aria-label="Choose country or region banner"]
+music.apple.com##div[aria-label="国または地域のバナーを選択します"]
 
 ! CBS Sports
 cbssports.com###hud-container[class*="desktop-view"]:style(top: 0px !important;)
