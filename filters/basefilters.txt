@@ -228,6 +228,7 @@ gfycat.com##.signup-call-to-action
 ! GitHub
 d3ward.github.io##._notif
 gist.github.com##.gist-detail-intro
+github.com##.Banner--warning
 github.com##.flash-warn:has-text(Sign in to comment)
 github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 
@@ -279,8 +280,11 @@ icelz.newsrade.com##script[data-cfasync="false"][type="text/javascript"]:remove(
 icelz.newsrade.com##script[src$="/sfp.js"]:remove()
 icelz.newsrade.com##script[src$="/tag.min.js"]:remove()
 icelz.newsrade.com##script[type="text/javascript"][src*="/arkfacialdaybreak.com/"]:remove()
+mygoodstream.pw###includedheader > br
 mygoodstream.pw##.adsbyvli
+mygoodstream.pw##.bmc-button:upward(1)
 mygoodstream.pw##.sharethis-inline-share-buttons:upward(1)
+mygoodstream.pw##.w-webflow-badge
 mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
 mygoodstream.pw##script[type="text/javascript"][async][crossorigin="anonymous"]:remove()
 mygoodstream.pw##script[type="text/javascript"][src*="/adv1/"]:remove()
