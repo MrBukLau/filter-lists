@@ -121,10 +121,14 @@
             window.location.replace(window.location.toString().replace("200x200", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("270x270") && window.location.href.match(".webp")) {
             window.location.replace(window.location.toString().replace("270x270", "2000x2000").replace(".webp", ".jpeg"));
+        } else if (window.location.href.match("296x296") && window.location.href.match(".webp")) {
+            window.location.replace(window.location.toString().replace("296x296", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("300x300") && window.location.href.match(".webp")) {
             window.location.replace(window.location.toString().replace("300x300", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("305x305") && window.location.href.match(".webp")) {
             window.location.replace(window.location.toString().replace("305x305", "2000x2000").replace(".webp", ".jpeg"));
+        } else if (window.location.href.match("316x316") && window.location.href.match(".webp")) {
+            window.location.replace(window.location.toString().replace("316x316", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("380x380") && window.location.href.match(".webp")) {
             window.location.replace(window.location.toString().replace("380x380", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("400x400") && window.location.href.match(".webp")) {
@@ -133,10 +137,14 @@
             window.location.replace(window.location.toString().replace("500x500", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("540x540") && window.location.href.match(".webp")) {
             window.location.replace(window.location.toString().replace("540x540", "2000x2000").replace(".webp", ".jpeg"));
+        } else if (window.location.href.match("592x592") && window.location.href.match(".webp")) {
+            window.location.replace(window.location.toString().replace("592x592", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("600x600") && window.location.href.match(".webp")) {
             window.location.replace(window.location.toString().replace("600x600", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("610x610") && window.location.href.match(".webp")) {
             window.location.replace(window.location.toString().replace("610x610", "2000x2000").replace(".webp", ".jpeg"));
+        } else if (window.location.href.match("632x632") && window.location.href.match(".webp")) {
+            window.location.replace(window.location.toString().replace("632x632", "2000x2000").replace(".webp", ".jpeg"));
         } else if (window.location.href.match("1000x1000") && window.location.href.match(".webp")) {
             window.location.replace(window.location.toString().replace("1000x1000", "2000x2000").replace(".webp", ".jpeg"));
         }
