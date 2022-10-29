@@ -161,8 +161,11 @@ quora.com##button[type="button"]:has-text(Open in App)
 
 ! Reddit
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
+reddit.com##._13geajc1u3mpvccghflqg4
 reddit.com##.communityheader-subscribe-button
+reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader-text-row > .topiclist
+reddit.com##.communityheader__backlink
 reddit.com##.getappfooter
 reddit.com##.joinbuttonfull
 reddit.com##.lb-footer
