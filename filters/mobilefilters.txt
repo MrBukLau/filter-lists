@@ -49,6 +49,9 @@
 9gag.com##div[style="padding-top: 146px;"]:style(padding-top: 96px !important;)
 9gag.com##div[style="padding-top: 98px;"]:style(padding-top: 48px !important;)
 
+! Amazon
+amazon.com##.sparkle-container[data-name="sparkle_dp_delivery_unrecog"]
+
 ! AutoZone
 autozone.com##._3f3af7
 
