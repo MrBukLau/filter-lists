@@ -262,7 +262,15 @@ itdmusics.com##.itdmu-widget
 footybite.cc###event-tags
 footybite.cc###kis
 footybite.cc###nordd
+footybite.cc##.back-to-top
+footybite.cc##.col-md-8:style(width: 100% !important;)
+footybite.cc##.tweets:upward(3)
+footybite.cc##.twitter-follow-btn:upward(1)
+footybite.cc##a[href="/blog"]:upward(4)
+footybite.cc##a[href="/undefined"]:upward(1)
 footybite.cc##h3
+footybite.cc##img[alt="discord join button"]:upward(1)
+footybite.cc##strong:has-text(Footybite Reddit Soccer Streams):upward(3)
 footybite.cc,nbabite.com##.alert
 footybite.cc,nbabite.com##[dir="auto"]
 footybite.cc,nbabite.com##h1
@@ -297,6 +305,7 @@ nbabite.com##.live-btn
 nbabite.com##.post_tags
 nbabite.com##.sport-section:has-text(News):upward(2)
 nbabite.com##.toggle
+nbabite.com##.twitter-follow-button
 nbabite.com##p
 onhockey.tv##a[href^="https://record.revmasters.com/"]
 onhockey.tv##table[width="1270"][border="0"][cellpadding="0"][cellspacing="0"]:has-text(We do not host or upload any videos on our website.):upward(2)
