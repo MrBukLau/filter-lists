@@ -414,8 +414,6 @@ spotifyreleaselist.netlify.app###ua
 
 ! StreamingSites
 streamingsites.com##.best-sites-component
-streamingsites.com##div[class*="_adverticementBlock__"]:upward(1)
-streamingsites.com##div[style*="/images/adverticement/"]:upward(2)
 
 ! The Index
 theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
