@@ -135,6 +135,9 @@ music.apple.com##.upsell-banner
 music.apple.com##div[aria-label="Choose country or region banner"]
 music.apple.com##div[aria-label="国または地域のバナーを選択します"]
 
+! Black Friday
+blackfriday.com##.email-signup-sticky
+
 ! CBS Sports
 cbssports.com###hud-container[class*="desktop-view"]:style(top: 0px !important;)
 cbssports.com###sharethrough-ad
@@ -405,6 +408,14 @@ open.spotify.com##button[aria-label="Upgrade to Premium"]
 open.spotify.com##div[aria-label="In-App Message Modal"]:upward(.ReactModalPortal)
 open.spotify.com##div[data-testid="signup-bar"]:upward(.Root__now-playing-bar)
 open.spotify.com#@#div > div[aria-live="polite"]
+
+! Spotify Release List
+spotifyreleaselist.netlify.app###ua
+
+! StreamingSites
+streamingsites.com##.best-sites-component
+streamingsites.com##div[class*="_adverticementBlock__"]:upward(1)
+streamingsites.com##div[style*="/images/adverticement/"]:upward(2)
 
 ! The Index
 theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
