@@ -38,7 +38,7 @@
 ||banquetunarmedgrater.com^
 ||befirstcdn.com^
 ||browser.sentry-cdn.com^
-||cloudfront.net^$domain=1stream.top
+||cloudfront.net^$domain=1stream.eu|1stream.top
 ||d.reddit.com^
 ||datatechone.com^
 ||eehuzaih.com^
@@ -286,9 +286,9 @@ itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget
 
 ! Live TV
-1stream.top##.top-head-player
-1stream.top##a[href*="/www.buymeacoffee.com/"]
-1stream.top##a[href="https://redi1.soccerstreams.net/"]
+1stream.*##.top-head-player
+1stream.*##a[href*="/www.buymeacoffee.com/"]
+1stream.*##a[href="https://redi1.soccerstreams.net/"]
 footybite.cc###event-tags
 footybite.cc###kis
 footybite.cc###nordd
