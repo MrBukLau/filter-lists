@@ -44,7 +44,9 @@
 ||eehuzaih.com^
 ||exploitnookconsequently.com^
 ||extmaps-api.yandex.net^
+||friendshipmale.com^
 ||gfmxbgspdf.com^
+||haglance.com^
 ||inpage-push.com^
 ||intelligenceadx.com^
 ||intorterraon.com^
@@ -54,12 +56,15 @@
 ||notify.bugsnag.com^
 ||offerimage.com^
 ||ortostrikehem.xyz^
+||quietsewing.com^
 ||roebuckwagged.com^
 ||sadgbcytpnjfy.com^
+||serversmatrixaggregation.com^
 ||sessions.bugsnag.com^
 ||smetrics.samsung.com^
 ||stotoowu.net^
 ||sudrauls.com^
+||thefacux.com^
 ||tlxuytpxp.com^
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
