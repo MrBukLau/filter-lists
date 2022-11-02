@@ -14,7 +14,9 @@
 ##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
+||addresseepaper.com^
 ||ads-dev.pinterest.com^
+||adsco.re^
 ||adsdk.yandex.ru^
 ||adtago.s3.amazonaws.com^
 ||advertising-api-eu.amazon.com^
@@ -32,17 +34,42 @@
 ||api.bugsnag.com^
 ||app.bugsnag.com^
 ||app.getsentry.com^
+||arkfacialdaybreak.com^
+||banquetunarmedgrater.com^
+||befirstcdn.com^
 ||browser.sentry-cdn.com^
+||cloudfront.net^$domain=1stream.top
 ||d.reddit.com^
+||datatechone.com^
+||eehuzaih.com^
+||exploitnookconsequently.com^
 ||extmaps-api.yandex.net^
+||gfmxbgspdf.com^
+||inpage-push.com^
+||intelligenceadx.com^
+||intorterraon.com^
 ||luckyorange.net^
+||lvttpeffew.com^
+||nossairt.net^
 ||notify.bugsnag.com^
+||offerimage.com^
+||ortostrikehem.xyz^
+||roebuckwagged.com^
+||sadgbcytpnjfy.com^
 ||sessions.bugsnag.com^
 ||smetrics.samsung.com^
 ||stotoowu.net^
+||sudrauls.com^
+||tlxuytpxp.com^
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
+||tzegilo.com^
+||ughtcallmeoo.xyz^
+||unaces.com^
 ||widgets.pinterest.com^
+||woafoame.net^
+||youradexchange.com^
+||zoozistu.net^
 
 ! URL Parameter Filters
 $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
@@ -105,9 +132,6 @@ animepahe.*##.alert
 animepahe.*##.content-wrapper:style(padding-bottom: 20px !important;)
 animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
 animepahe.*##footer
-animepahe.*##iframe[style*="z-index: 2147483647"]:remove()
-animepahe.*##script[data-cfasync="false"][type="text/javascript"][src]:remove()
-animepahe.*##script[type="text/javascript"][src$="/matomo.js"]:remove()
 kwik.cx##.plyr::after:style(content: none !important;)
 kwik.cx##.plyr__poster
 kwik.cx##button[type="button"][class="plyr__control plyr__control--overlaid"][data-plyr="play"][aria-label="Play"]
@@ -248,7 +272,6 @@ hikarinoakari.com##.td_block_related_posts
 hikarinoakari.com##.tdc-content-wrap
 hikarinoakari.com##.thanks_button_div
 hikarinoakari.com##.widget_text:has-text(Are strongly recomended to download the last version from Win Rar to unzip the files from this site)
-hikarinoakari.com##script[type="text/javascript"][crossorigin="anonymous"]:remove()
 ouo.*##+js(rc, disabled, button.btn, stay)
 
 ! iTD Music
@@ -261,7 +284,6 @@ itdmusics.com##.itdmu-widget
 1stream.top##.top-head-player
 1stream.top##a[href*="/www.buymeacoffee.com/"]
 1stream.top##a[href="https://redi1.soccerstreams.net/"]
-1stream.top##script[type="text/javascript"][src$="/atg.js"]:remove()
 footybite.cc###event-tags
 footybite.cc###kis
 footybite.cc###nordd
@@ -283,22 +305,13 @@ icelz.newsrade.com##.bmpui-label-metadata
 icelz.newsrade.com##.desktopad:remove()
 icelz.newsrade.com##.mobilead:remove()
 icelz.newsrade.com##.sharethis-inline-share-buttons
-icelz.newsrade.com##[style*="z-index: 2147483647"]:remove()
 icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
-icelz.newsrade.com##iframe[src="about:blank"]:remove()
-icelz.newsrade.com##iframe[src][style="width: 1px; height: 1px; opacity: 0;"]:remove()
-icelz.newsrade.com##script[data-cfasync="false"][type="text/javascript"]:remove()
-icelz.newsrade.com##script[src$="/sfp.js"]:remove()
-icelz.newsrade.com##script[src$="/tag.min.js"]:remove()
-icelz.newsrade.com##script[type="text/javascript"][src*="/arkfacialdaybreak.com/"]:remove()
 mygoodstream.pw###includedheader > br
 mygoodstream.pw##.adsbyvli
 mygoodstream.pw##.bmc-button:upward(1)
 mygoodstream.pw##.sharethis-inline-share-buttons:upward(1)
 mygoodstream.pw##.w-webflow-badge
 mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
-mygoodstream.pw##script[type="text/javascript"][async][crossorigin="anonymous"]:remove()
-mygoodstream.pw##script[type="text/javascript"][src*="/adv1/"]:remove()
 nbabite.com###jdj
 nbabite.com##.filter-section
 nbabite.com##.header-inner:style(display: block !important;)
