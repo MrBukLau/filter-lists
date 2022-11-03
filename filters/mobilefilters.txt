@@ -203,7 +203,7 @@ reddit.com##shreddit-app:style(--shreddit-bottom-padding: 8px !important;)
 reddit.com##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
 reddit.com##shreddit-async-loader[bundlename="faceplate_alerts"]
 reddit.com##shreddit-comments-page-ad
-reddit.com##shreddit-experience-tree
+reddit.com##shreddit-experience-tree:remove()
 reddit.com##shreddit-good-visit-tracker:remove()
 reddit.com##shreddit-overlay-display:remove()
 reddit.com##shreddit-post[view-context^="ListingBelow"][view-context$="Posts"]
