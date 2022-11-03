@@ -46,6 +46,8 @@
 ||extmaps-api.yandex.net^
 ||friendshipmale.com^
 ||gfmxbgspdf.com^
+||glalsoow.com^
+||gmmkycehdqglujv.com^
 ||haglance.com^
 ||inpage-push.com^
 ||intelligenceadx.com^
@@ -58,21 +60,25 @@
 ||ortostrikehem.xyz^
 ||quietsewing.com^
 ||roebuckwagged.com^
+||rtmark.net^
 ||sadgbcytpnjfy.com^
 ||serversmatrixaggregation.com^
 ||sessions.bugsnag.com^
 ||smetrics.samsung.com^
 ||stotoowu.net^
 ||sudrauls.com^
+||thaudray.com^
 ||thefacux.com^
 ||tlxuytpxp.com^
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
 ||tzegilo.com^
 ||ughtcallmeoo.xyz^
+||umbra.lol^
 ||unaces.com^
 ||widgets.pinterest.com^
 ||woafoame.net^
+||wrgjvpiwxejb.com^
 ||youradexchange.com^
 ||zoozistu.net^
 
