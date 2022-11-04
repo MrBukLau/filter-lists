@@ -242,6 +242,12 @@ fandom.com###SurveyModule
 fandom.com##.featured-video-player-container:remove()
 fandom.com##div[class^="render-wiki-recommendations"]
 
+! Flashscore
+flashscore.com###box-over-content-detail
+flashscore.com##.adsbackground-wrapper
+flashscore.com##.detailLeaderboard
+flashscore.com##.seoAdWrapper
+
 ! Free MP3 Download
 free-mp3-download.net###toast-container
 
@@ -425,6 +431,14 @@ signupgenius.com##.sug-notice--privacy
 ! Slider
 slider.kz###fullwrapper
 slider.kz###r_bash
+
+! Snopes
+snopes.com###related_badgetype_articles
+snopes.com##.banner_ad_between_sections
+snopes.com##.main-content > .main_outer_wrapper > .scroll-posts > .article_rail_wrapper > .right-column
+snopes.com##.outer-ad-unit-wrapper
+snopes.com##.sidebar_ad
+snopes.com##div[data-piano-show="non-member"]
 
 ! Spotify
 open.spotify.com##.link-subtle[draggable][href="/download"]
