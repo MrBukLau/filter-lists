@@ -38,7 +38,7 @@
 ||banquetunarmedgrater.com^
 ||befirstcdn.com^
 ||browser.sentry-cdn.com^
-||cloudfront.net^$domain=1stream.eu|1stream.top
+||cloudfront.net^$domain=1stream.link
 ||d.reddit.com^
 ||datatechone.com^
 ||eehuzaih.com^
@@ -72,6 +72,7 @@
 ||tlxuytpxp.com^
 ||tracker.novage.com.ua^
 ||tracker.openwebtorrent.com^
+||turdsarnatta.com^
 ||tzegilo.com^
 ||ughtcallmeoo.xyz^
 ||umbra.lol^
@@ -246,6 +247,7 @@ fandom.com##div[class^="render-wiki-recommendations"]
 flashscore.com###box-over-content-detail
 flashscore.com##.adsbackground-wrapper
 flashscore.com##.detailLeaderboard
+flashscore.com##.extraContent
 flashscore.com##.seoAdWrapper
 
 ! Free MP3 Download
@@ -298,9 +300,15 @@ itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget
 
 ! Live TV
+1stream.*###wp_chat
+1stream.*##.col-md-push-3:style(left: 0% !important;)
+1stream.*##.text-center:has-text(1Stream will provide free live streaming)
 1stream.*##.top-head-player
 1stream.*##a[href*="/www.buymeacoffee.com/"]
 1stream.*##a[href="https://redi1.soccerstreams.net/"]
+1stream.*##br + br + br + br + hr
+1stream.*##h1[style*="z-index: 999999;"]
+1stream.*##small
 footybite.cc###event-tags
 footybite.cc###kis
 footybite.cc###nordd
