@@ -130,7 +130,7 @@ kidshealth.org###kh-partner-ad
 linkedin.com##div[class^="apptivation-promo"]
 
 ! Live TV
-icelz.newsrade.com#@#.bmpui-label-metadata
+icelz.newsrade.com,mygoodstream.pw#@#.bmpui-label-metadata
 
 ! Major League Baseball
 mlb.com##.ad
