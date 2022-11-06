@@ -32,6 +32,7 @@
 ||analytics.pointdrive.linkedin.com^
 ||analyticsengine.s3.amazonaws.com^
 ||api.bugsnag.com^
+||apoorv.pro^
 ||app.bugsnag.com^
 ||app.getsentry.com^
 ||arkfacialdaybreak.com^
@@ -51,7 +52,9 @@
 ||haglance.com^
 ||inpage-push.com^
 ||intelligenceadx.com^
+||intellipopup.com^
 ||intorterraon.com^
+||jeckoort.com^
 ||luckyorange.net^
 ||lvttpeffew.com^
 ||nossairt.net^
@@ -326,14 +329,16 @@ footybite.cc,nbabite.com##[dir="auto"]
 footybite.cc,nbabite.com##h1
 footybite.cc,nbabite.com##h2
 icelz.newsrade.com##+js(ra, target, a.btn, stay)
-icelz.newsrade.com##.bmpui-label-metadata
 icelz.newsrade.com##.desktopad:remove()
 icelz.newsrade.com##.mobilead:remove()
 icelz.newsrade.com##.sharethis-inline-share-buttons
 icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
+icelz.newsrade.com,mygoodstream.pw##+js(acis, ConsoleBan)
+icelz.newsrade.com,mygoodstream.pw##.bmpui-label-metadata
 mygoodstream.pw###includedheader > br
 mygoodstream.pw##.adsbyvli
 mygoodstream.pw##.bmc-button:upward(1)
+mygoodstream.pw##.bmpui-ui-watermark
 mygoodstream.pw##.sharethis-inline-share-buttons:upward(1)
 mygoodstream.pw##.w-webflow-badge
 mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
