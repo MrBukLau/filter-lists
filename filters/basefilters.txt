@@ -339,8 +339,10 @@ mygoodstream.pw###includedheader > br
 mygoodstream.pw##.adsbyvli
 mygoodstream.pw##.bmc-button:upward(1)
 mygoodstream.pw##.bmpui-ui-watermark
+mygoodstream.pw##.embed-responsive[style^="box-shadow"]:style(box-shadow: none !important;)
 mygoodstream.pw##.sharethis-inline-share-buttons:upward(1)
 mygoodstream.pw##.w-webflow-badge
+mygoodstream.pw##h5:has-text(Copyright)
 mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
 nbabite.com###jdj
 nbabite.com##.filter-section
