@@ -102,10 +102,15 @@ goodrx.com##div[data-qa="advertisement"]
 ! Google
 google.*###stUuGf
 google.*##.bB4gff
+google.*##.torspo_view__follow-button
+google.*##.XfM3uf[data-url*="/apps.apple.com/"]:upward(.MjjYud)
+google.*##.XHtXtb[data-url*="/apps.apple.com/"]:upward(.MjjYud)
 google.*##.zU3lCe
 google.*##div[class="imso-hide-loading O8LF7c IvuoRc"]
 google.*##div[class="rKJOcDNwrHj__pb-dfr rKJOcDNwrHj__pb-s"]
+google.*##div[data-show-open-app]
 google.*##div[jsname="suEOdc"]
+google.*##hr[class="vjdC3 hcuDkb"]
 
 ! Gopuff
 gopuff.com##.jr-smart-banner
