@@ -39,7 +39,7 @@
 ||banquetunarmedgrater.com^
 ||befirstcdn.com^
 ||browser.sentry-cdn.com^
-||cloudfront.net^$domain=1stream.link
+||cloudfront.net^$domain=1stream.*
 ||d.reddit.com^
 ||datatechone.com^
 ||eehuzaih.com^
@@ -155,6 +155,10 @@ kwik.cx##button[type="button"][class="plyr__control plyr__control--overlaid"][da
 animeschedule.net###header-temporary-banner
 
 ! AniMixPlay
+animixplay.to##.leftside > #announcement
+animixplay.to##.leftside > #featuredcard
+animixplay.to##.leftside > #pwaContainer
+animixplay.to##.leftside > #readmorebtn
 dailymotion.com##.np_carousel-list-wrapper
 dailymotion.com##.np_Darken
 
