@@ -211,9 +211,13 @@ chartoo.com###fx
 crunchyroll.com###message_box
 crunchyroll.com###showmedia_free_trial_signup
 crunchyroll.com###slidebox
+crunchyroll.com##.erc-premium-header-link
+crunchyroll.com##.erc-up-next-section:style(filter: blur(16px) !important;)
 crunchyroll.com##.get-funimation-section
 crunchyroll.com##.premium-message
 crunchyroll.com##.welcome-featured-media
+crunchyroll.com##a[class^="playable-card-mini-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
+crunchyroll.com##a[class^="playable-card-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
 crunchyroll.com##a[href^="https://got.cr/"][href*="PremiumTrial-NewsBanner"]
 crunchyroll.com##a[href^="https://www.crunchyroll.com/premium_comparison"]
 crunchyroll.com##a[href^="https://www.crunchyroll.com/welcome"]
