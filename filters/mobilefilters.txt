@@ -69,6 +69,9 @@ cbssports.com###skybox-top-wrapper
 ! Craigslist
 craigslist.org##.tryapp
 
+! Crunchyroll
+crunchyroll.com#@#div[data-testid="vilos-large_play_pause_button"]
+
 ! ESPN
 espn.com##.ad-slot-inview
 espn.com##.AppPromo
