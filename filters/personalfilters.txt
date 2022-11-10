@@ -2,3 +2,32 @@
 ! Description: This filter list is for removing designs and features on various websites that I consider to be useless but could be useful to other people, meaning that these filters are only beneficial to me.
 ! Homepage: https://github.com/MrBukLau/filter-lists
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
+
+! iOS Filters
+!#if adguard_app_ios
+gist.github.com##.gisthead
+gist.github.com##.Header
+google.*##.hdtb-mitem:has(a[href*="/maps.google.com/maps"])
+google.*##.nPDzT[href*="/maps.google.com/maps"]
+google.*##.NZmxZe[href*="/maps.google.com/maps"]
+!#endif
+
+! Universal Filters
+github.com##.file-navigation-options
+github.com##.footer
+github.com##.js-file-commit-form:style(padding-bottom: 1rem !important;)
+github.com##.js-yearly-contributions
+github.com##.pagehead-actions:has(a[aria-label="Edit this Gist"]) > li + li
+github.com##.pagehead-actions:not(:has(a[aria-label="Edit this Gist"]))
+github.com##img[class="achievement-badge-sidebar"]:upward(3)
+open.spotify.com##.LKgm9fCDTO7wqig_5U1q[data-testid="rootlist-container"]:style(margin-top: 0px !important;)
+open.spotify.com##.r9YzlaAPnM2LGK97GSfa
+open.spotify.com##button[aria-label="Save to Your Library"]
+open.spotify.com##button[data-testid="create-playlist-button"]
+open.spotify.com##section[data-testid="component-shelf"][aria-label="Top podcasts"]
+rentry.*##.container:style(padding-bottom: 1rem !important;)
+rentry.*##div[class="text-center w-100 mb-3"]
+||reddit.com/r/mls^$document
+||reddit.com/r/nba^$document
+||reddit.com/r/ripcity^$document
+||reddit.com/r/timbers^$document
