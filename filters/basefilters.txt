@@ -48,6 +48,7 @@
 ||friendshipmale.com^
 ||gfmxbgspdf.com^
 ||glalsoow.com^
+||glufoksy.com^
 ||gmmkycehdqglujv.com^
 ||haglance.com^
 ||inpage-push.com^
@@ -291,6 +292,7 @@ github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 
 ! Google
 google.*##[id^="eob_"]
+google.*##div[role="dialog"]:has-text(Give feedback on these results?)
 
 ! Greasy Fork
 greasyfork.org##.ad
