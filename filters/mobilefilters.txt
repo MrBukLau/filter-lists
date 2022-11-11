@@ -114,6 +114,9 @@ google.*##div[class="rKJOcDNwrHj__pb-dfr rKJOcDNwrHj__pb-s"]
 google.*##div[data-show-open-app]
 google.*##div[jsname="suEOdc"]
 google.*##hr[class="vjdC3 hcuDkb"]
+google.*#%#//scriptlet('abort-current-inline-script', 'document.cookie', 'YES+')
+google.*#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', CONSENT)
+google.*$$script[tag-content="consentCookiePayload"]
 
 ! Gopuff
 gopuff.com##.jr-smart-banner
@@ -136,9 +139,6 @@ kidshealth.org###kh-partner-ad
 
 ! LinkedIn
 linkedin.com##div[class^="apptivation-promo"]
-
-! Live TV
-icelz.newsrade.com,mygoodstream.pw#@#.bmpui-label-metadata
 
 ! Major League Baseball
 mlb.com##.ad
@@ -174,6 +174,8 @@ quora.com##button[type="button"]:has-text(Open in App)
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
 reddit.com##+js(aeld, touchmove)
 reddit.com##+js(aeld, wheel)
+reddit.com##+js(nosiif, /^/)
+reddit.com##+js(nostif, /^/)
 reddit.com##._13geajc1u3mpvccghflqg4
 reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
@@ -206,6 +208,8 @@ reddit.com##.xpromonsfwblocking__warning
 reddit.com##.xpromonsfwblockingmodal
 reddit.com##.xpromopill
 reddit.com##.xpromopopup
+reddit.com##.xpromopopuprpl
+reddit.com##body:style(pointer-events: auto !important;)
 reddit.com##button[class="action last"]
 reddit.com##continue-chat-in-app-modal:remove()
 reddit.com##div[class*="XPromo"]
@@ -221,6 +225,7 @@ reddit.com##shreddit-post[view-context^="ListingBelow"][view-context$="Posts"]
 reddit.com##shreddit-rereddit-promo
 reddit.com##slot[name="use-app"]
 reddit.com##xpromo-footer
+reddit.com##xpromo-new-app-selector
 reddit.com##xpromo-nsfw-blocking-container[slot="blurred"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
@@ -288,9 +293,6 @@ tinyurl.is#%#(function(){if(document.location.href.includes("/tinyurl.is/")){set
 ! Force Enable Dark Mode on Reddit's Mobile Website
 reddit.com#%#(function(){const needle="nightMode";const needles=needle.split(/\s*\|\s*/);let selector="body[class*='sw-body-class']";const addClass=ev=>{if(ev){window.removeEventListener(ev.type,addClass,true);}const nodes=document.querySelectorAll(selector);try{for(const node of nodes){node.classList.add(...needles);}}catch{}};if(document.readyState==="loading"){window.addEventListener("DOMContentLoaded",addClass,true);}else{addClass();}})();
 reddit.com#%#//scriptlet('remove-class', 'dayMode', 'body[class*="nightMode"]')
-
-! Redirect Imgur to the New Mobile Domain
-m.imgur.com#%#(function(){if(window.location.href.includes("/m.imgur.com/")){window.location.replace(window.location.toString().replace("/m.imgur.com/","/imgur.io/"));}})();
 
 ! Redirect YouTube Shorts to the Normal Player
 m.youtube.com#%#(function(){let oldHref=document.location.href;if(window.location.href.indexOf("youtube.com/shorts")>-1){window.location.replace(window.location.toString().replace("/shorts/","/watch?v="));}window.onload=function(){let bodyList=document.querySelector("body");let observer=new MutationObserver(function(mutations){mutations.forEach(function(){if(oldHref!==document.location.href){oldHref=document.location.href;if(window.location.href.indexOf("youtube.com/shorts")>-1){window.location.replace(window.location.toString().replace("/shorts/","/watch?v="));}}});});let config={childList:true,subtree:true};observer.observe(bodyList,config);};})();
