@@ -20,6 +20,7 @@ github.com##.js-yearly-contributions
 github.com##.pagehead-actions:has(a[aria-label="Edit this Gist"]) > li + li
 github.com##.pagehead-actions:not(:has(a[aria-label="Edit this Gist"]))
 github.com##img[class="achievement-badge-sidebar"]:upward(3)
+icelz.newsrade.com,mygoodstream.pw##.bmpui-label-metadata
 open.spotify.com##.LKgm9fCDTO7wqig_5U1q[data-testid="rootlist-container"]:style(margin-top: 0px !important;)
 open.spotify.com##.r9YzlaAPnM2LGK97GSfa
 open.spotify.com##button[aria-label="Save to Your Library"]
