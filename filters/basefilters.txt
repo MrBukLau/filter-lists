@@ -179,6 +179,10 @@ music.apple.com##.upsell-banner
 music.apple.com##div[aria-label="Choose country or region banner"]
 music.apple.com##div[aria-label="国または地域のバナーを選択します"]
 
+! Best Buy
+bestbuy.com##.embedded-leaderboard
+bestbuy.com##.sku-list-display-ad
+
 ! Black Friday
 blackfriday.com##.email-signup-sticky
 
