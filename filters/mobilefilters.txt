@@ -191,7 +191,6 @@ reddit.com##.previewdrawer
 reddit.com##.prompt
 reddit.com##.scroll-disabled:style(overflow: auto !important; position: static !important;)
 reddit.com##.scroll-is-blocked:style(overflow: auto !important; position: static !important;)
-reddit.com##.scroll-is-blocked:style(overflow: auto !important;)
 reddit.com##.shreddit-pagination:style(margin-bottom: 0px !important;)
 reddit.com##.sidebar-grid:style(filter: none !important;)
 reddit.com##.slideimagemaindiv[style="object-fit: cover;"][src]:style(object-fit: contain !important;)
@@ -213,7 +212,6 @@ reddit.com##body:style(overflow-x: auto !important;)
 reddit.com##body:style(pointer-events: auto !important;)
 reddit.com##button[class="action last"]
 reddit.com##continue-chat-in-app-modal:remove()
-reddit.com##div[class*="XPromo"]
 reddit.com##shreddit-ad-post
 reddit.com##shreddit-app:style(--shreddit-bottom-padding: 8px !important;)
 reddit.com##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
