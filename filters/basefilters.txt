@@ -37,9 +37,11 @@
 ||app.getsentry.com^
 ||arkfacialdaybreak.com^
 ||banquetunarmedgrater.com^
+||barscreative1.com^
 ||befirstcdn.com^
+||betailbedpan.com^
 ||browser.sentry-cdn.com^
-||cloudfront.net^$domain=1stream.*
+||cloudfront.net^$domain=1stream.*|animixplay.to
 ||d.reddit.com^
 ||datatechone.com^
 ||eehuzaih.com^
@@ -55,22 +57,28 @@
 ||intelligenceadx.com^
 ||intellipopup.com^
 ||intorterraon.com^
+||itahandkeight.xyz^
 ||jeckoort.com^
 ||luckyorange.net^
 ||lvttpeffew.com^
+||majorityevaluatewiped.com^
 ||nossairt.net^
 ||notify.bugsnag.com^
 ||offerimage.com^
 ||ortostrikehem.xyz^
+||pinprickplums.com^
 ||quietsewing.com^
+||raupsoap.com^
 ||roebuckwagged.com^
 ||rtmark.net^
 ||sadgbcytpnjfy.com^
+||sb4you1.com^
 ||serversmatrixaggregation.com^
 ||sessions.bugsnag.com^
 ||smetrics.samsung.com^
 ||stotoowu.net^
 ||sudrauls.com^
+||syenitetatler.tech^
 ||thaudray.com^
 ||thefacux.com^
 ||tlxuytpxp.com^
@@ -79,8 +87,11 @@
 ||turdsarnatta.com^
 ||tzegilo.com^
 ||ughtcallmeoo.xyz^
+||ujautifuleed.xyz^
 ||umbra.lol^
 ||unaces.com^
+||unseenreport.com^
+||violondeaf.guru^
 ||widgets.pinterest.com^
 ||woafoame.net^
 ||wrgjvpiwxejb.com^
@@ -181,7 +192,6 @@ music.apple.com##div[aria-label="国または地域のバナーを選択しま�
 
 ! Best Buy
 bestbuy.com##.embedded-leaderboard
-bestbuy.com##.sku-list-display-ad
 
 ! Black Friday
 blackfriday.com##.email-signup-sticky
