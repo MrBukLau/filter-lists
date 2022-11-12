@@ -174,8 +174,6 @@ quora.com##button[type="button"]:has-text(Open in App)
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
 reddit.com##+js(aeld, touchmove)
 reddit.com##+js(aeld, wheel)
-reddit.com##+js(nosiif, /^/)
-reddit.com##+js(nostif, /^/)
 reddit.com##._13geajc1u3mpvccghflqg4
 reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
@@ -192,6 +190,7 @@ reddit.com##.postfooter__share
 reddit.com##.previewdrawer
 reddit.com##.prompt
 reddit.com##.scroll-disabled:style(overflow: auto !important; position: static !important;)
+reddit.com##.scroll-is-blocked:style(overflow: auto !important; position: static !important;)
 reddit.com##.scroll-is-blocked:style(overflow: auto !important;)
 reddit.com##.shreddit-pagination:style(margin-bottom: 0px !important;)
 reddit.com##.sidebar-grid:style(filter: none !important;)
@@ -209,6 +208,8 @@ reddit.com##.xpromonsfwblockingmodal
 reddit.com##.xpromopill
 reddit.com##.xpromopopup
 reddit.com##.xpromopopuprpl
+reddit.com##.xpromopopuprplnew
+reddit.com##body:style(overflow-x: auto !important;)
 reddit.com##body:style(pointer-events: auto !important;)
 reddit.com##button[class="action last"]
 reddit.com##continue-chat-in-app-modal:remove()
@@ -219,11 +220,13 @@ reddit.com##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
 reddit.com##shreddit-async-loader[bundlename="faceplate_alerts"]
 reddit.com##shreddit-comments-page-ad
 reddit.com##shreddit-experience-tree
+reddit.com##shreddit-experience-tree:remove()
 reddit.com##shreddit-good-visit-tracker:remove()
 reddit.com##shreddit-overlay-display:remove()
 reddit.com##shreddit-post[view-context^="ListingBelow"][view-context$="Posts"]
 reddit.com##shreddit-rereddit-promo
 reddit.com##slot[name="use-app"]
+reddit.com##xpromo-app-selector
 reddit.com##xpromo-footer
 reddit.com##xpromo-new-app-selector
 reddit.com##xpromo-nsfw-blocking-container[slot="blurred"]
