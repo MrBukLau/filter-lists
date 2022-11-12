@@ -55,6 +55,13 @@ amazon.com##.sparkle-container[data-name="sparkle_dp_delivery_unrecog"]
 ! AutoZone
 autozone.com##._3f3af7
 
+! Best Buy
+bestbuy.com##.sku-list-display-ad
+bestbuy.com##div[id^="shop-blue-assist-"]
+bestbuy.com##div[id^="shop-dedicated-sponsored-carousel-"]
+bestbuy.com##div[id^="shop-display-ad-"]
+bestbuy.com##div[id^="shop-google-adsense-"]
+
 ! Bleacher Report
 bleacherreport.com##.appInstallButton
 bleacherreport.com##.fixedBottom
@@ -175,10 +182,7 @@ reddit.com###blocking-modal-blur-container:style(filter: none !important;)
 reddit.com##+js(aeld, touchmove)
 reddit.com##+js(aeld, wheel)
 reddit.com##._13geajc1u3mpvccghflqg4
-reddit.com##.communityheader-subscribe-button
-reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader-text-row > .topiclist
-reddit.com##.communityheader__backlink
 reddit.com##.getappfooter
 reddit.com##.joinbuttonfull
 reddit.com##.lb-footer
@@ -186,7 +190,6 @@ reddit.com##.lb-header
 reddit.com##.m-blurred:style(filter: none !important;)
 reddit.com##.navframe:style(overflow: auto !important;)
 reddit.com##.postcontent__img[src]:style(object-fit: contain !important;)
-reddit.com##.postfooter__share
 reddit.com##.previewdrawer
 reddit.com##.prompt
 reddit.com##.scroll-disabled:style(overflow: auto !important; position: static !important;)
@@ -210,7 +213,6 @@ reddit.com##.xpromopopuprpl
 reddit.com##.xpromopopuprplnew
 reddit.com##body:style(overflow-x: auto !important;)
 reddit.com##body:style(pointer-events: auto !important;)
-reddit.com##button[class="action last"]
 reddit.com##continue-chat-in-app-modal:remove()
 reddit.com##shreddit-ad-post
 reddit.com##shreddit-app:style(--shreddit-bottom-padding: 8px !important;)
