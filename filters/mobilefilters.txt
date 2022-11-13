@@ -240,7 +240,6 @@ m.soundcloud.com##a[data-testid="open-in-app-link"]
 open.spotify.com##button[data-testid="open-app-button"]
 
 ! Target
-target.com##div[class*="_PubAdWrapper-"]
 target.com##div[data-test="@web/baseboardAd"]
 
 ! The Undefeated
@@ -286,6 +285,7 @@ m.yelp.com##div[class*="u-space-"]:has-text(Open in the Yelp App)
 
 ! YouTube
 m.youtube.com##.rich-section-content:has-text(New look, still YouTube)
+m.youtube.com##.searchbox-voice-search-wrapper
 
 ! Zillow
 zillow.com###local-app-upsell
