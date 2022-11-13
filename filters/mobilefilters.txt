@@ -110,20 +110,19 @@ giphy.com##div[class*="OpenInAppContainer"]
 goodrx.com##div[data-qa="advertisement"]
 
 ! Google
+google.*###lb
 google.*###stUuGf
 google.*##.bB4gff
 google.*##.torspo_view__follow-button
 google.*##.XfM3uf[data-url*="/apps.apple.com/"]:upward(.MjjYud)
 google.*##.XHtXtb[data-url*="/apps.apple.com/"]:upward(.MjjYud)
 google.*##.zU3lCe
+google.*##body:style(overflow: auto !important; position: static !important;)
 google.*##div[class="imso-hide-loading O8LF7c IvuoRc"]
 google.*##div[class="rKJOcDNwrHj__pb-dfr rKJOcDNwrHj__pb-s"]
 google.*##div[data-show-open-app]
 google.*##div[jsname="suEOdc"]
 google.*##hr[class="vjdC3 hcuDkb"]
-google.*#%#//scriptlet('abort-current-inline-script', 'document.cookie', 'YES+')
-google.*#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', CONSENT)
-google.*$$script[tag-content="consentCookiePayload"]
 
 ! Gopuff
 gopuff.com##.jr-smart-banner
@@ -202,6 +201,7 @@ reddit.com##.topnav__promobutton
 reddit.com##.topposts
 reddit.com##.xpromoappstorefooter
 reddit.com##.xpromoblockingmodal
+reddit.com##.xpromoblockingmodalrpl
 reddit.com##.xpromobottombar
 reddit.com##.xpromochoicebanner
 reddit.com##.xpromoinfeed
@@ -238,6 +238,10 @@ m.soundcloud.com##a[data-testid="open-in-app-link"]
 
 ! Spotify
 open.spotify.com##button[data-testid="open-app-button"]
+
+! Target
+target.com##div[class*="_PubAdWrapper-"]
+target.com##div[data-test="@web/baseboardAd"]
 
 ! The Undefeated
 theundefeated.com##.ad-prevent-jump
@@ -279,6 +283,9 @@ m.yelp.com##div[class*="2BTbv"]:has-text(Open in App)
 m.yelp.com##div[class*="banner__"]:has-text(Yelp for iPhone)
 m.yelp.com##div[class*="cta-menubar-pitch_left-icons"]:has-text(Open in App)
 m.yelp.com##div[class*="u-space-"]:has-text(Open in the Yelp App)
+
+! YouTube
+m.youtube.com##.rich-section-content:has-text(New look, still YouTube)
 
 ! Zillow
 zillow.com###local-app-upsell
