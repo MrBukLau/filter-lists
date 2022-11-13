@@ -190,6 +190,9 @@ music.apple.com##.upsell-banner
 music.apple.com##div[aria-label="Choose country or region banner"]
 music.apple.com##div[aria-label="国または地域のバナーを選択します"]
 
+! Bed Bath & Beyond
+bedbathandbeyond.com##.modalEOWrapper
+
 ! Best Buy
 bestbuy.com##.embedded-leaderboard
 
@@ -493,6 +496,10 @@ spotifyreleaselist.netlify.app###ua
 ! StreamingSites
 streamingsites.com##.best-sites-component
 
+! Target
+target.com##div[class*="_PubAdWrapper-"]:upward(1)
+target.com#@#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:has-text(sponsored)
+
 ! The Index
 theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
 theindex.moe##div[class^="SupportBanner_banner"]
@@ -510,6 +517,7 @@ writer.com##.CampaignType--popup
 writer.com##.get-extension
 
 ! YouTube
+youtube.com###voice-search-button
 youtube.com##.ytp-ce-element
 youtube.com##.ytp-chrome-top-buttons
 youtube.com##.ytp-endscreen-content
