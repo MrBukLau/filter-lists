@@ -222,6 +222,9 @@ chartoo.com###ej
 chartoo.com###eq
 chartoo.com###fx
 
+! Costco
+costco.com###email-popup-title
+
 ! Crunchyroll
 crunchyroll.com###message_box
 crunchyroll.com###showmedia_free_trial_signup
