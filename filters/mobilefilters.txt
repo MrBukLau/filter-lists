@@ -156,9 +156,9 @@ quora.com##button[type="button"]:has-text(Open in App)
 
 ! Reddit
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
-reddit.com##+js(aeld, touchmove)
-reddit.com##+js(aeld, wheel)
+reddit.com##+js(aeld, touchmove|wheel)
 reddit.com##._13geajc1u3mpvccghflqg4
+reddit.com##.blurred:style(filter: none !important; background: none !important;)
 reddit.com##.communityheader-text-row > .topiclist
 reddit.com##.getappfooter
 reddit.com##.joinbuttonfull
@@ -174,6 +174,7 @@ reddit.com##.scroll-is-blocked:style(overflow: auto !important; position: static
 reddit.com##.shreddit-pagination:style(margin-bottom: 0px !important;)
 reddit.com##.sidebar-grid:style(filter: none !important;)
 reddit.com##.slideimagemaindiv[style="object-fit: cover;"][src]:style(object-fit: contain !important;)
+reddit.com##.theme-beta
 reddit.com##.topics-links-block
 reddit.com##.topnav__promobutton
 reddit.com##.topposts
@@ -189,13 +190,13 @@ reddit.com##.xpromopill
 reddit.com##.xpromopopup
 reddit.com##.xpromopopuprpl
 reddit.com##.xpromopopuprplnew
-reddit.com##body:style(overflow-x: auto !important;)
-reddit.com##body:style(pointer-events: auto !important;)
+reddit.com##body:style(overflow: auto !important; position: static !important; pointer-events: auto !important;)
 reddit.com##continue-chat-in-app-modal:remove()
 reddit.com##shreddit-ad-post
 reddit.com##shreddit-app:style(--shreddit-bottom-padding: 8px !important;)
 reddit.com##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
 reddit.com##shreddit-async-loader[bundlename="faceplate_alerts"]
+reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]
 reddit.com##shreddit-comments-page-ad
 reddit.com##shreddit-experience-tree
 reddit.com##shreddit-experience-tree:remove()
@@ -230,6 +231,9 @@ thescore.com##button[class^="GetTheAppModal__getTheAppButton"]
 
 ! Twitch
 m.twitch.tv##div[class^="ScCoreButtonLabel"]:has-text(Open in App)
+
+! Twitter
+twitter.com##div[class="css-1dbjc4n r-1iusvr4 r-16y2uox r-97wbjc"]
 
 ! Walmart
 walmart.com##.alert-bar
