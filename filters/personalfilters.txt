@@ -13,11 +13,12 @@ google.*##.NZmxZe[href*="/maps.google.com/maps"]
 reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader__backlink
+reddit.com##.nightMode > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-color: rgb(36, 160, 237);"]:style(background-color: #000 !important; background-image: none !important;)
 reddit.com##.postfooter__share
 reddit.com##button[class="action last"][href]
 reddit.com##faceplate-tracker[class][source="shreddit_comment_count_button"]
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
-reddit.com##shreddit-comment[class="top-level"]:style(border-top: 4px solid var(--color-tone-5) !important; padding: 0rem 1rem 0rem !important;)
+reddit.com##shreddit-comment[class="top-level"]:style(border-top: 4px solid var(--color-tone-5) !important; padding: 0.8rem 1rem 0.4rem !important;)
 reddit.com##shreddit-flair
 reddit.com##shreddit-join-link
 reddit.com##shreddit-profile-actions
