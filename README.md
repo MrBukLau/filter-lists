@@ -114,8 +114,6 @@ No further actions are necessary. After adding a filter list from this repositor
 ### For Providing Valuable Information That Enabled Me to Create Some of These Filters
 - **AdguardTeam on GitHub**
     - [Accelerated Mobile Page Filters](https://github.com/AdguardTeam/DisableAMP)
-- **d3ward on GitHub**
-    - [Analytics and Tracking Filters](https://github.com/d3ward/toolz)
 - **DandelionSprout on GitHub**
     - [URL Parameter Filters](https://github.com/DandelionSprout/adfilt)
 - **Karmesinrot on GitHub**
