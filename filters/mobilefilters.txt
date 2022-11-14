@@ -156,7 +156,7 @@ quora.com##button[type="button"]:has-text(Open in App)
 
 ! Reddit
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
-reddit.com##+js(aeld, touchmove|wheel)
+reddit.com##+js(aeld, touchmove)
 reddit.com##._13geajc1u3mpvccghflqg4
 reddit.com##.blurred:style(filter: none !important; background: none !important;)
 reddit.com##.communityheader-text-row > .topiclist
