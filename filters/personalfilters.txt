@@ -13,6 +13,7 @@ google.*##.NZmxZe[href*="/maps.google.com/maps"]
 reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader__backlink
+reddit.com##.nightMode > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-color"]:style(background-color: #000 !important;)
 reddit.com##.nightMode > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-color"][style*="background-image"]:style(background-color: #000 !important; background-image: none !important;)
 reddit.com##.postfooter__share
 reddit.com##button[class="action last"][href]
