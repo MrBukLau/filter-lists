@@ -88,7 +88,7 @@ giphy.com##div[class*="OpenInAppContainer"]
 goodrx.com##div[data-qa="advertisement"]
 
 ! Google
-google.*###lb
+google.*###lb:has-text(Access your Google services with one sign-in)
 google.*###stUuGf
 google.*##.bB4gff
 google.*##.torspo_view__follow-button
