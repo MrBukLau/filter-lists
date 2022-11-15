@@ -7,9 +7,6 @@
 !#if adguard_app_ios
 gist.github.com##.gisthead
 gist.github.com##.Header
-google.*##.hdtb-mitem:has(a[href*="/maps.google.com/maps"])
-google.*##.nPDzT[href*="/maps.google.com/maps"]
-google.*##.NZmxZe[href*="/maps.google.com/maps"]
 reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader__backlink
