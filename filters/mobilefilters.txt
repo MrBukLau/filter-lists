@@ -101,6 +101,7 @@ google.*##div[class="rKJOcDNwrHj__pb-dfr rKJOcDNwrHj__pb-s"]
 google.*##div[data-show-open-app]
 google.*##div[jsname="suEOdc"]
 google.*##hr[class="vjdC3 hcuDkb"]
+google.*##span[jsname="EFexIf"]
 
 ! Gopuff
 gopuff.com##.jr-smart-banner
@@ -156,6 +157,7 @@ quora.com##button[type="button"]:has-text(Open in App)
 
 ! Reddit
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
+reddit.com###post-image:style(margin-bottom: 0rem !important;)
 reddit.com##+js(aeld, touchmove)
 reddit.com##._13geajc1u3mpvccghflqg4
 reddit.com##.blurred:style(filter: none !important; background: none !important;)
@@ -175,7 +177,6 @@ reddit.com##.scroll-is-blocked:style(overflow: auto !important; position: static
 reddit.com##.shreddit-pagination:style(margin-bottom: 0px !important;)
 reddit.com##.sidebar-grid:style(filter: none !important;)
 reddit.com##.slideimagemaindiv[style="object-fit: cover;"][src]:style(object-fit: contain !important;)
-reddit.com##.theme-beta
 reddit.com##.topics-links-block
 reddit.com##.topnav__promobutton
 reddit.com##.topposts
