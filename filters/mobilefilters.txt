@@ -109,6 +109,9 @@ gopuff.com##.jr-smart-banner
 ! Healthline
 healthline.com##.myFinance-ad-unit
 
+! IMDb
+m.imdb.com##.footer__app
+
 ! Imgur
 imgur.io##.Ad
 imgur.io##.Ad-adhesive
