@@ -31,8 +31,10 @@ github.com##.pagehead-actions:has(a[aria-label="Edit this Gist"]) > li + li
 github.com##.pagehead-actions:not(:has(a[aria-label="Edit this Gist"]))
 github.com##img[class="achievement-badge-sidebar"]:upward(3)
 icelz.newsrade.com,mygoodstream.pw##.bmpui-label-metadata
+open.spotify.com##.LayoutResizer__resize-bar
 open.spotify.com##.LKgm9fCDTO7wqig_5U1q[data-testid="rootlist-container"]:style(margin-top: 0px !important;)
 open.spotify.com##.r9YzlaAPnM2LGK97GSfa
+open.spotify.com##.Root__nav-bar:style(width: 230px !important;)
 open.spotify.com##button[aria-label="Save to Your Library"]
 open.spotify.com##button[data-testid="create-playlist-button"]
 open.spotify.com##section[data-testid="component-shelf"][aria-label="Top podcasts"]
