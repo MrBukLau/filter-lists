@@ -260,22 +260,11 @@ itdmusics.com##.itdmu-widget
 1stream.*##br + br + br + br + hr
 1stream.*##h1[style*="z-index: 999999;"]
 1stream.*##small
-footybite.cc###event-tags
-footybite.cc###kis
-footybite.cc###nordd
-footybite.cc##.back-to-top
-footybite.cc##.col-md-8:style(width: 100% !important;)
-footybite.cc##.tweets:upward(3)
-footybite.cc##.twitter-follow-btn:upward(1)
-footybite.cc##a[href="/blog"]:upward(4)
-footybite.cc##a[href="/undefined"]:upward(1)
-footybite.cc##h3
-footybite.cc##img[alt="discord join button"]:upward(1)
-footybite.cc##strong:has-text(Footybite Reddit Soccer Streams):upward(3)
-footybite.cc,nbabite.com##.alert
-footybite.cc,nbabite.com##[dir="auto"]
-footybite.cc,nbabite.com##h1
-footybite.cc,nbabite.com##h2
+9goal.tv###chat-toggle
+9goal.tv##.match-section:style(background-color: #000 !important; padding-right: 1.5rem !important; padding-top: 1.5rem !important;)
+9goal.tv##.match-social:upward(1)
+9goal.tv##.ms-chat
+9goal.tv##.mt-social
 icelz.newsrade.com##+js(ra, target, a.btn, stay)
 icelz.newsrade.com##.desktopad:remove()
 icelz.newsrade.com##.mobilead:remove()
@@ -290,27 +279,15 @@ mygoodstream.pw##.sharethis-inline-share-buttons:upward(1)
 mygoodstream.pw##.w-webflow-badge
 mygoodstream.pw##h5:has-text(Copyright)
 mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
-nbabite.com###jdj
-nbabite.com##.filter-section
-nbabite.com##.header-inner:style(display: block !important;)
-nbabite.com##.header-navigation-wrapper
-nbabite.com##.header-titles-wrapper:style(max-width: 100% !important;)
-nbabite.com##.live-btn
-nbabite.com##.post_tags
-nbabite.com##.sport-section:has-text(News):upward(2)
-nbabite.com##.toggle
-nbabite.com##.twitter-follow-button
-nbabite.com##p
 onhockey.tv##a[href^="https://record.revmasters.com/"]
 onhockey.tv##table[width="1270"][border="0"][cellpadding="0"][cellspacing="0"]:has-text(We do not host or upload any videos on our website.):upward(2)
 onhockey.tv##table[width="1278"][height="60"][border="0"][cols="3"][cellpadding="0"][cellspacing="0"]
 redditsport.live##div[id^="ezoic-pub-ad-placeholder-"]:upward(1)
 redditsport.live##tbody[id^="stats"]:upward(1)
-sportsurge.net##.HeaderUyari
-tinyurl.is##+js(nano-sib)
-tinyurl.is##+js(rc, disabled, a.btn, stay)
-tinyurl.is##.container:has-text(Have Your Ads Here)
-tinyurl.is##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
+tinyurl.*##+js(nano-sib)
+tinyurl.*##+js(rc, disabled, a.btn, stay)
+tinyurl.*##.container:has-text(Have Your Ads Here)
+tinyurl.*##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
 
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
