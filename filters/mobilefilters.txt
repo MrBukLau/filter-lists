@@ -128,6 +128,9 @@ kidshealth.org###kh-partner-ad
 ! LinkedIn
 linkedin.com##div[class^="apptivation-promo"]
 
+! Live TV
+9goal.tv#@#.match-section:style(background-color: #000 !important; padding-right: 1.5rem !important; padding-top: 1.5rem !important;)
+
 ! Major League Baseball
 mlb.com##.ad
 
@@ -283,6 +286,7 @@ zillow.com###pfs-upsell
 !---------- JavaScript Filters ----------!
 !----------------------------------------!
 ! Bypass Pages
+tinyurl.*#%#(function(){setTimeout(function(){let targetLink=$("a:contains('Click Here to Watch')");if(targetLink&&targetLink.length){let newUrl=targetLink[0].href;window.location.replace(newUrl);}},500);})();
 tinyurl.*#%#(function(){window.addEventListener("load",function(){let targetLink=$("a:contains('Click Here to Watch')");if(targetLink&&targetLink.length){let newUrl=targetLink[0].href;window.location.replace(newUrl);}});})();
 
 ! Disable Accelerated Mobile Pages
