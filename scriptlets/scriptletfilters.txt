@@ -42,7 +42,7 @@ hikarinoakari.com##+js(hnab)
 itdmusic.top##+js(gup)
 itdmusic.top##+js(itdmb)
 ouo.*##+js(oib)
-tinyurl.*##+js(tuib)
+tinyurl.*##+js(tub)
 
 ! YouTube
 youtube.com##+js(ysr)
