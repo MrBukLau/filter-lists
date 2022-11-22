@@ -188,11 +188,9 @@
 (function() {
     "use strict";
     window.addEventListener("load", function() {
-        if (window.location.href.includes("/icelz.newsrade.com/")) {
-            let anchor = document.querySelectorAll("a[class='channel-link'][href]");
-            for (let i = 0; i < anchor.length; i++) {
-                anchor[i].removeAttribute("onclick");
-            }
+        let anchor = document.querySelectorAll("a[class='channel-link'][href]");
+        for (let i = 0; i < anchor.length; i++) {
+            anchor[i].removeAttribute("onclick");
         }
     });
 })();
@@ -202,20 +200,18 @@
 (function() {
     "use strict";
     window.addEventListener("load", function() {
-        if (window.location.href.includes("/itdmusic.top/")) {
-            let firstButton = document.getElementsByClassName("btn btn-primary btn-captcha");
-            if (firstButton.length > 0) {
-                document.querySelector("button[class='btn btn-primary btn-captcha']").click();
-            }
-            let secondButton = document.getElementsByClassName("skip-ad");
-            if (secondButton.length > 0) {
-                let targetLink = $("a:contains('Skip Ad')");
-                if (targetLink && targetLink.length) {
-                    setTimeout(function() {
-                        let newUrl = targetLink[0].href;
-                        window.location.replace(newUrl);
-                    }, 750);
-                }
+        let firstButton = document.getElementsByClassName("btn btn-primary btn-captcha");
+        if (firstButton.length > 0) {
+            document.querySelector("button[class='btn btn-primary btn-captcha']").click();
+        }
+        let secondButton = document.getElementsByClassName("skip-ad");
+        if (secondButton.length > 0) {
+            let targetLink = $("a:contains('Skip Ad')");
+            if (targetLink && targetLink.length) {
+                setTimeout(function() {
+                    let newUrl = targetLink[0].href;
+                    window.location.replace(newUrl);
+                }, 750);
             }
         }
     });
@@ -226,10 +222,8 @@
 (function() {
     "use strict";
     window.addEventListener("DOMContentLoaded", function() {
-        if (window.location.href.includes("/nyaa.si/")) {
-            if (!document.body.classList.contains("dark")) {
-                document.querySelector("a[id='themeToggle']").click();
-            }
+        if (!document.body.classList.contains("dark")) {
+            document.querySelector("a[id='themeToggle']").click();
         }
     });
 })();
@@ -248,13 +242,11 @@
 (function() {
     "use strict";
     window.addEventListener("load", function() {
-        if (window.location.href.includes("/ouo.io/") || window.location.href.includes("/ouo.press/")) {
-            if (document.getElementById("form-captcha") === null) {
-                document.getElementsByTagName("form")[0].submit();
-            }
-            if (document.getElementById("form-captcha").click) {
-                document.getElementsByTagName("form")[0].submit();
-            }
+        if (document.getElementById("form-captcha") === null) {
+            document.getElementsByTagName("form")[0].submit();
+        }
+        if (document.getElementById("form-captcha").click) {
+            document.getElementsByTagName("form")[0].submit();
         }
     });
 })();
@@ -264,12 +256,10 @@
 (function() {
     "use strict";
     window.addEventListener("load", function() {
-        if (window.location.href.includes("/tinyurl.is/")) {
-            let targetLink = $("a:contains('Click Here to Watch')");
-            if (targetLink && targetLink.length) {
-                let newUrl = targetLink[0].href;
-                window.location.replace(newUrl);
-            }
+        let targetLink = $("a:contains('Click Here to Watch')");
+        if (targetLink && targetLink.length) {
+            let newUrl = targetLink[0].href;
+            window.location.replace(newUrl);
         }
     });
 })();
