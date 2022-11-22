@@ -7,18 +7,9 @@
 music.apple.com##+js(amjteat)
 mzstatic.com##+js(amafasc)
 
-! Clk.sh
-clk.sh##+js(gup)
-
-! Fc.lc
-fc.lc##+js(gup)
-
 ! GitHub
 gist.github.com##+js(sa, target, _blank, article[itemprop="text"] > p[dir="auto"] > a[href^="http"], loop)
 gist.github.com##+js(sa, target, _blank, article[itemprop="text"] > ul[dir="auto"] > li > a[href^="http"], loop)
-
-! Hikarinoakariost
-hikarinoakari.com##+js(hnab)
 
 ! Icelz
 icelz.newsrade.com##+js(ioar)
@@ -35,15 +26,8 @@ icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/tv, a[onclick="wind
 icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/ufc, a[onclick="window.open('https://icelz.newsrade.com/ufc');"])
 icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/ufc, a[onclick="window.open('https://icelz.newsrade.tk/ufc');"])
 
-! iTD Music
-itdmusic.top##+js(gup)
-itdmusic.top##+js(itdmb)
-
 ! Nyaa
 nyaa.si##+js(ndme)
-
-! Ouo.io
-ouo.*##+js(oib)
 
 ! Reddit
 www.reddit.com##+js(orr)
@@ -51,8 +35,14 @@ www.reddit.com##+js(orr)
 ! Rentry
 rentry.*##+js(sa, target, _blank, a[href^="http"])
 
-! Tinyurl.is
-tinyurl.is##+js(tuib)
+! URL Shorteners
+clk.sh##+js(gup)
+fc.lc##+js(gup)
+hikarinoakari.com##+js(hnab)
+itdmusic.top##+js(gup)
+itdmusic.top##+js(itdmb)
+ouo.*##+js(oib)
+tinyurl.*##+js(tuib)
 
 ! YouTube
 youtube.com##+js(ysr)
