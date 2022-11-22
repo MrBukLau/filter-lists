@@ -251,8 +251,8 @@
     });
 })();
 
-/// tinyurl-is-bypasser.js
-/// alias tuib.js
+/// tinyurl-bypasser.js
+/// alias tub.js
 (function() {
     "use strict";
     window.addEventListener("load", function() {
