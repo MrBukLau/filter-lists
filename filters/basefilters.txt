@@ -400,7 +400,7 @@ theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
 theindex.moe##div[class^="SupportBanner_banner"]
 
 ! Twitch
-twitch.tv##.tw-callout-message:upward(.stream-chat > .chat-room > .chat-room__content > .chat-input > .Layout-sc-nxg1ff-0)
+twitch.tv##.tw-callout-message:upward(.stream-chat > .chat-room > .chat-room__content > .chat-input > div[class^="Layout-sc-"])
 
 ! Twitter
 twitter.com##[aria-label$="trending now" i]
