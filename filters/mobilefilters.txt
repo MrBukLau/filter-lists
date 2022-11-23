@@ -150,6 +150,9 @@ myanimelist.net##h3[class="header3 pb12"]:has-text(MALxJapan)
 myanimelist.net##h3[class="manga-detail head slider mt12"]:has-text(More Manga Suggestions)
 myanimelist.net##h3[class="manga-detail head slider mt12"]:has-text(More Manga Suggestions) + div[class="slider-outer manga-detail"]
 
+! Oxygen
+oxygen.com##.blog-post__ad-wrapper
+
 ! PayPal
 paypal.com###PPAppDownloadBannerContainer
 
