@@ -32,7 +32,7 @@ github.com##.pagehead-actions:has(a[aria-label="Edit this Gist"]) > li + li
 github.com##.pagehead-actions:not(:has(a[aria-label="Edit this Gist"]))
 github.com##img[class="achievement-badge-sidebar"]:upward(3)
 icelz.newsrade.com,mygoodstream.pw##.bmpui-label-metadata
-live.watchnbastreams.com##body[style="background-color:#2f2929;"] > center > .col-lg-10:style(height: 600px !important; float: none !important;)
+live.watchnbastreams.com##body[style="background-color:#2f2929;"] > center > .col-lg-10:style(float: none !important; height: 600px !important;)
 live.watchnbastreams.com##body[style="background-color:#2f2929;"] > center > div[style="float:left; padding: 0px 0px 0px 0px;"]
 live.watchnbastreams.com##body[style="background-color:#2f2929;"] > center > h1
 live.watchnbastreams.com##body[style="background-color:#2f2929;"] > center > h3
