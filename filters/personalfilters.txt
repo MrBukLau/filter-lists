@@ -7,7 +7,7 @@
 !#if adguard_app_ios
 gist.github.com##.gisthead
 gist.github.com##.Header
-icelz.newsrade.com,live.watchnbastreams.com##.media-control
+icelz.newsrade.com,live.watchnbastreams.com,sportsonline.to##.media-control
 reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader__backlink
