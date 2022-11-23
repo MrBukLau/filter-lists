@@ -343,8 +343,12 @@ nmac.to##div[style="margin-left: auto; margin-right: auto; text-align: center; m
 online-audio-converter.com###allapps-extension-popup
 online-audio-converter.com##.like_row
 
-! Proton
-proton.me##.flex-item-fluid:has-text(Introducing the updated Proton):upward(1)
+! Oxygen
+oxygen.com##.blog-post-section__insider-exclusive
+oxygen.com##.blog-post__related-content
+oxygen.com##.blog-post__vertical_description
+oxygen.com##.embedded-entity[data-embed-button="related_content"]
+oxygen.com##.homepage-section__insider-exclusive
 
 ! Reddit
 reddit.com##+js(ra, data-outbound-url, .outbound)
