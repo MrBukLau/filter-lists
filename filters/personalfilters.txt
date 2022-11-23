@@ -42,7 +42,7 @@ github.com##.js-yearly-contributions
 github.com##.pagehead-actions:has(a[aria-label="Edit this Gist"]) > li + li
 github.com##.pagehead-actions:not(:has(a[aria-label="Edit this Gist"]))
 github.com##img[class="achievement-badge-sidebar"]:upward(3)
-icelz.newsrade.com##+js(rc, chat, div.app-container, stay)
+icelz.newsrade.com##+js(rc, chat, div.app-container)
 icelz.newsrade.com##.app-container:style(background-color: var(--theme-color) !important;)
 icelz.newsrade.com##.channel-header
 icelz.newsrade.com##.chat-page-overlay
@@ -67,9 +67,5 @@ rentry.*##.container:style(padding-bottom: 1rem !important;)
 rentry.*##div[class="text-center w-100 mb-3"]
 ||24timezones.com^$domain=live.watchnbastreams.com
 ||chatango.com^$domain=live.watchnbastreams.com
-||reddit.com/r/mls^$document
-||reddit.com/r/nba^$document
-||reddit.com/r/ripcity^$document
-||reddit.com/r/timbers^$document
 ||sharethis.com^$domain=icelz.newsrade.com
 ||twitch.tv^$domain=icelz.newsrade.com
