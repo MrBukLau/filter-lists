@@ -7,7 +7,7 @@
 !#if adguard_app_ios
 gist.github.com##.gisthead
 gist.github.com##.Header
-live.watchnbastreams.com##.media-control
+icelz.newsrade.com,live.watchnbastreams.com##.media-control
 reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader__backlink
@@ -24,6 +24,17 @@ reddit.com##shreddit-profile-actions
 !#endif
 
 ! Universal Filters
+animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
+crunchyroll.com##.erc-up-next-section:style(filter: blur(16px) !important;)
+crunchyroll.com##a[class^="playable-card-mini-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
+crunchyroll.com##a[class^="playable-card-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
+crunchyroll.com##a[token="comingsoon_now"] > img:style(filter: blur(16px) !important;)
+crunchyroll.com##img[class="landscape"][src^="https://img1.ak.crunchyroll.com/i/"]:style(filter: blur(16px) !important;)
+crunchyroll.com##img[class="media-thumb-wide"]:style(filter: blur(16px) !important;)
+crunchyroll.com##img[class="mug"][alt]:style(filter: blur(16px) !important;)
+crunchyroll.com##img[class="thumbnail"]:style(filter: blur(16px) !important;)
+crunchyroll.com##img[class="welcome-media-mug"]:style(filter: blur(16px) !important;)
+funimation.com##div[data-test="episode-card__key-art"]:style(filter: blur(16px) !important;)
 github.com##.file-navigation-options
 github.com##.footer
 github.com##.js-file-commit-form:style(padding-bottom: 1rem !important;)
@@ -31,6 +42,14 @@ github.com##.js-yearly-contributions
 github.com##.pagehead-actions:has(a[aria-label="Edit this Gist"]) > li + li
 github.com##.pagehead-actions:not(:has(a[aria-label="Edit this Gist"]))
 github.com##img[class="achievement-badge-sidebar"]:upward(3)
+icelz.newsrade.com##+js(rc, chat, div.app-container, stay)
+icelz.newsrade.com##.app-container:style(background-color: var(--theme-color) !important;)
+icelz.newsrade.com##.channel-header
+icelz.newsrade.com##.chat-page-overlay
+icelz.newsrade.com##.chat-window
+icelz.newsrade.com##.overlay
+icelz.newsrade.com##.page-content:style(background-color: var(--theme-color) !important; padding: 60px 15px 15px !important;)
+icelz.newsrade.com##div[data-tooltip="Watching Now"]:upward(.video-info)
 icelz.newsrade.com,mygoodstream.pw##.bmpui-label-metadata
 live.watchnbastreams.com##body[style="background-color:#2f2929;"] > center > .col-lg-10:style(float: none !important; height: 600px !important;)
 live.watchnbastreams.com##body[style="background-color:#2f2929;"] > center > div[style="float:left; padding: 0px 0px 0px 0px;"]
@@ -52,3 +71,5 @@ rentry.*##div[class="text-center w-100 mb-3"]
 ||reddit.com/r/nba^$document
 ||reddit.com/r/ripcity^$document
 ||reddit.com/r/timbers^$document
+||sharethis.com^$domain=icelz.newsrade.com
+||twitch.tv^$domain=icelz.newsrade.com
