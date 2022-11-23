@@ -7,6 +7,7 @@
 !#if adguard_app_ios
 gist.github.com##.gisthead
 gist.github.com##.Header
+live.watchnbastreams.com##.media-control
 reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader__backlink
@@ -31,6 +32,11 @@ github.com##.pagehead-actions:has(a[aria-label="Edit this Gist"]) > li + li
 github.com##.pagehead-actions:not(:has(a[aria-label="Edit this Gist"]))
 github.com##img[class="achievement-badge-sidebar"]:upward(3)
 icelz.newsrade.com,mygoodstream.pw##.bmpui-label-metadata
+live.watchnbastreams.com##body[style="background-color:#2f2929;"] > center > .col-lg-10:style(height: 600px !important; float: none !important;)
+live.watchnbastreams.com##body[style="background-color:#2f2929;"] > center > div[style="float:left; padding: 0px 0px 0px 0px;"]
+live.watchnbastreams.com##body[style="background-color:#2f2929;"] > center > h1
+live.watchnbastreams.com##body[style="background-color:#2f2929;"] > center > h3
+live.watchnbastreams.com##body[style="background-color:#2f2929;"] > center > p
 open.spotify.com##.LayoutResizer__resize-bar
 open.spotify.com##.LKgm9fCDTO7wqig_5U1q[data-testid="rootlist-container"]:style(margin-top: 0px !important;)
 open.spotify.com##.r9YzlaAPnM2LGK97GSfa
@@ -40,6 +46,8 @@ open.spotify.com##button[data-testid="create-playlist-button"]
 open.spotify.com##section[data-testid="component-shelf"][aria-label="Top podcasts"]
 rentry.*##.container:style(padding-bottom: 1rem !important;)
 rentry.*##div[class="text-center w-100 mb-3"]
+||24timezones.com^$domain=live.watchnbastreams.com
+||chatango.com^$domain=live.watchnbastreams.com
 ||reddit.com/r/mls^$document
 ||reddit.com/r/nba^$document
 ||reddit.com/r/ripcity^$document
