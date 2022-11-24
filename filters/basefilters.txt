@@ -250,15 +250,11 @@ itdmusics.com##.itdmu-widget
 1stream.*##br + br + br + br + hr
 1stream.*##h1[style*="z-index: 999999;"]
 1stream.*##small
-9goal.tv###chat-toggle
-9goal.tv##.match-section:style(background-color: #000 !important; padding-right: 1.5rem !important; padding-top: 1.5rem !important;)
 9goal.tv##.match-social:upward(1)
-9goal.tv##.ms-chat
 9goal.tv##.mt-social
 icelz.newsrade.com##+js(acis, ConsoleBan)
 icelz.newsrade.com##+js(acis, https://bit.ly/3R6YyKP)
 icelz.newsrade.com##+js(acis, prototype.ban)
-icelz.newsrade.com##+js(ra, target, a.btn, stay)
 icelz.newsrade.com##.desktopad:remove()
 icelz.newsrade.com##.mobilead:remove()
 icelz.newsrade.com##.sharethis-inline-share-buttons
@@ -362,6 +358,11 @@ reddit.com##section[class="infobar listingsignupbar"]
 
 ! SignUpGenius
 signupgenius.com##.sug-notice--privacy
+
+! Slickdeals
+slickdeals.net##.announcementBar
+slickdeals.net##.bp-p-slickdealsHeader_disclaimer
+slickdeals.net##.omegaBanner
 
 ! Slider
 slider.kz###fullwrapper
