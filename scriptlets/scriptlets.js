@@ -183,18 +183,6 @@
     }
 })();
 
-/// icelz-onclick-attribute-remover.js
-/// alias ioar.js
-(function() {
-    "use strict";
-    window.addEventListener("load", function() {
-        let anchor = document.querySelectorAll("a[class='channel-link'][href]");
-        for (let i = 0; i < anchor.length; i++) {
-            anchor[i].removeAttribute("onclick");
-        }
-    });
-})();
-
 /// itdmusic-bypasser.js
 /// alias itdmb.js
 (function() {
