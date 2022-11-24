@@ -252,20 +252,22 @@ itdmusics.com##.itdmu-widget
 1stream.*##small
 9goal.tv##.match-social:upward(1)
 9goal.tv##.mt-social
-icelz.newsrade.com##+js(acis, ConsoleBan)
 icelz.newsrade.com##+js(acis, https://bit.ly/3R6YyKP)
-icelz.newsrade.com##+js(acis, prototype.ban)
 icelz.newsrade.com##.desktopad:remove()
 icelz.newsrade.com##.mobilead:remove()
 icelz.newsrade.com##.sharethis-inline-share-buttons
 icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
+icelz.newsrade.com,mygoodstream.pw##+js(acis, ConsoleBan)
+icelz.newsrade.com,mygoodstream.pw##+js(acis, prototype.ban)
 mygoodstream.pw###includedheader > br
 mygoodstream.pw##.adsbyvli
 mygoodstream.pw##.bmc-button:upward(1)
 mygoodstream.pw##.bmpui-ui-watermark
 mygoodstream.pw##.embed-responsive[style^="box-shadow"]:style(box-shadow: none !important;)
+mygoodstream.pw##.jw-logo
 mygoodstream.pw##.sharethis-inline-share-buttons:upward(1)
 mygoodstream.pw##.w-webflow-badge
+mygoodstream.pw##div[data-watermark]
 mygoodstream.pw##h5:has-text(Copyright)
 mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
 onhockey.tv##a[href^="https://record.revmasters.com/"]
