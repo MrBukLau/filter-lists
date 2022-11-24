@@ -128,9 +128,6 @@ kidshealth.org###kh-partner-ad
 ! LinkedIn
 linkedin.com##div[class^="apptivation-promo"]
 
-! Live TV
-9goal.tv#@#.match-section:style(background-color: #000 !important; padding-right: 1.5rem !important; padding-top: 1.5rem !important;)
-
 ! Major League Baseball
 mlb.com##.ad
 
@@ -223,6 +220,12 @@ reddit.com##xpromo-new-nsfw-blocking-modal
 reddit.com##xpromo-nsfw-blocking-container[slot="blurred"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
+
+! Slickdeals
+slickdeals.net##.bottomFullBar
+slickdeals.net##.bp-p-cashbackDealCardPromo
+slickdeals.net##.mobileAdFluid
+slickdeals.net##.sdModalOverlay
 
 ! SoundCloud
 m.soundcloud.com##a[data-testid="open-in-app-link"]
