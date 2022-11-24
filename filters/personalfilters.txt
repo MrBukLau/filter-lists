@@ -25,6 +25,7 @@ reddit.com##shreddit-profile-actions
 
 ! Universal Filters
 9goal.tv###chat-toggle
+9goal.tv##.match-section:style(background-color: #000 !important; padding-left: 1.6rem !important; padding-right: 1.6rem !important; padding-top: 1.6rem !important;)
 9goal.tv##.ms-chat
 9goal.tv##.ms-detail
 animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
@@ -69,6 +70,6 @@ open.spotify.com##section[data-testid="component-shelf"][aria-label="Top podcast
 rentry.*##.container:style(padding-bottom: 1rem !important;)
 rentry.*##div[class="text-center w-100 mb-3"]
 ||24timezones.com^$domain=live.watchnbastreams.com
-||chatango.com^$domain=live.watchnbastreams.com
+||chatango.com^$domain=live.watchnbastreams.com|mygoodstream.pw
 ||sharethis.com^$domain=icelz.newsrade.com
 ||twitch.tv^$domain=icelz.newsrade.com
