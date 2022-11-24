@@ -5,9 +5,9 @@
 
 ! iOS Filters
 !#if adguard_app_ios
+1stream.*,icelz.newsrade.com,live.watchnbastreams.com,sportsonline.to##.media-control
 gist.github.com##.gisthead
 gist.github.com##.Header
-icelz.newsrade.com,live.watchnbastreams.com,sportsonline.to##.media-control
 reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader__backlink
@@ -24,6 +24,9 @@ reddit.com##shreddit-profile-actions
 !#endif
 
 ! Universal Filters
+9goal.tv###chat-toggle
+9goal.tv##.ms-chat
+9goal.tv##.ms-detail
 animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
 crunchyroll.com##.erc-up-next-section:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-mini-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
