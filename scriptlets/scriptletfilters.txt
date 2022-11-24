@@ -11,21 +11,6 @@ mzstatic.com##+js(amafasc)
 gist.github.com##+js(sa, target, _blank, article[itemprop="text"] > p[dir="auto"] > a[href^="http"], loop)
 gist.github.com##+js(sa, target, _blank, article[itemprop="text"] > ul[dir="auto"] > li > a[href^="http"], loop)
 
-! Icelz
-icelz.newsrade.com##+js(ioar)
-icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/mlb, a[onclick="window.open('https://icelz.newsrade.com/mlb');"])
-icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/mlb, a[onclick="window.open('https://icelz.newsrade.tk/mlb');"])
-icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/nba, a[onclick="window.open('https://icelz.newsrade.com/nba');"])
-icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/nba, a[onclick="window.open('https://icelz.newsrade.tk/nba');"])
-icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/nfl, a[onclick="window.open('https://icelz.newsrade.com/nfl');"])
-icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/nfl, a[onclick="window.open('https://icelz.newsrade.tk/nfl');"])
-icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/soccer, a[onclick="window.open('https://icelz.newsrade.com/soccer');"])
-icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/soccer, a[onclick="window.open('https://icelz.newsrade.tk/soccer');"])
-icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/tv, a[onclick="window.open('https://icelz.newsrade.com/tv');"])
-icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/tv, a[onclick="window.open('https://icelz.newsrade.tk/tv');"])
-icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/ufc, a[onclick="window.open('https://icelz.newsrade.com/ufc');"])
-icelz.newsrade.com##+js(sa, href, https://icelz.newsrade.com/ufc, a[onclick="window.open('https://icelz.newsrade.tk/ufc');"])
-
 ! Nyaa
 nyaa.si##+js(ndme)
 
