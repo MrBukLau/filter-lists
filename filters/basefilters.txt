@@ -329,6 +329,11 @@ mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
 ! National Basketball Association
 nba.com##div[class^="DisplayAd_genericAd_"]
 
+! NBABite
+nbabite.com##.alert
+nbabite.com##.post_tags
+nbabite.com##.twitter-follow-button
+
 ! NMac Ked
 nmac.to###recommended
 nmac.to###sizzlin-wrapper
