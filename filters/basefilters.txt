@@ -56,14 +56,30 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 !--------------------------------------!
 !---------- Specific Filters ----------!
 !--------------------------------------!
+! 1Stream
+1stream.*###wp_chat
+1stream.*##.col-md-push-3:style(left: 0% !important;)
+1stream.*##.text-center:has-text(1Stream will provide free live streaming)
+1stream.*##.top-head-player
+1stream.*##a[href*="/www.buymeacoffee.com/"]
+1stream.*##a[href="https://redi1.soccerstreams.net/"]
+1stream.*##br + br + br + br + hr
+1stream.*##h1[style*="z-index: 999999;"]
+1stream.*##small
+
 ! 9Anime
 9anime.*##.adx
 9anime.*##.alert
+9anime.me##+js(ra, target, ul > li > a[href], stay)
 
 ! 9GAG
 9gag.com##.comment-signup-banner
 9gag.com##.signup-list-banner
 9gag.com##.signup-side-banner
+
+! 9Goal
+9goal.tv##.match-social:upward(1)
+9goal.tv##.mt-social
 
 ! Advance Publications
 oregonlive.com##.sharebar__bookmark--tooltip
@@ -234,51 +250,22 @@ hikarinoakari.com##.thanks_button_div
 hikarinoakari.com##.widget_text:has-text(Are strongly recomended to download the last version from Win Rar to unzip the files from this site)
 ouo.*##+js(rc, disabled, button.btn, stay)
 
+! Icelz
+icelz.newsrade.com##+js(acis, ConsoleBan)
+icelz.newsrade.com##+js(acis, https://bit.ly/3R6YyKP)
+icelz.newsrade.com##+js(acis, prototype.ban)
+icelz.newsrade.com##+js(ra, target, a.btn, stay)
+icelz.newsrade.com##.desktopad:remove()
+icelz.newsrade.com##.mobilead:remove()
+icelz.newsrade.com##.sharethis-inline-share-buttons
+icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
+
 ! iTD Music
 itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
 itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget
-
-! Live TV
-1stream.*###wp_chat
-1stream.*##.col-md-push-3:style(left: 0% !important;)
-1stream.*##.text-center:has-text(1Stream will provide free live streaming)
-1stream.*##.top-head-player
-1stream.*##a[href*="/www.buymeacoffee.com/"]
-1stream.*##a[href="https://redi1.soccerstreams.net/"]
-1stream.*##br + br + br + br + hr
-1stream.*##h1[style*="z-index: 999999;"]
-1stream.*##small
-9goal.tv##.match-social:upward(1)
-9goal.tv##.mt-social
-icelz.newsrade.com##+js(acis, https://bit.ly/3R6YyKP)
-icelz.newsrade.com##.desktopad:remove()
-icelz.newsrade.com##.mobilead:remove()
-icelz.newsrade.com##.sharethis-inline-share-buttons
-icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
-icelz.newsrade.com,mygoodstream.pw##+js(acis, ConsoleBan)
-icelz.newsrade.com,mygoodstream.pw##+js(acis, prototype.ban)
-mygoodstream.pw###includedheader > br
-mygoodstream.pw##.adsbyvli
-mygoodstream.pw##.bmc-button:upward(1)
-mygoodstream.pw##.bmpui-ui-watermark
-mygoodstream.pw##.embed-responsive[style^="box-shadow"]:style(box-shadow: none !important;)
-mygoodstream.pw##.jw-logo
-mygoodstream.pw##.sharethis-inline-share-buttons:upward(1)
-mygoodstream.pw##.w-webflow-badge
-mygoodstream.pw##div[data-watermark]
-mygoodstream.pw##h5:has-text(Copyright)
-mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
-onhockey.tv##a[href^="https://record.revmasters.com/"]
-onhockey.tv##table[width="1270"][border="0"][cellpadding="0"][cellspacing="0"]:has-text(We do not host or upload any videos on our website.):upward(2)
-onhockey.tv##table[width="1278"][height="60"][border="0"][cols="3"][cellpadding="0"][cellspacing="0"]
-redditsport.live##div[id^="ezoic-pub-ad-placeholder-"]:upward(1)
-redditsport.live##tbody[id^="stats"]:upward(1)
-tinyurl.*##+js(nano-sib)
-tinyurl.*##+js(rc, disabled, a.btn, stay)
-tinyurl.*##.container:has-text(Have Your Ads Here)
-tinyurl.*##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
+itdmusics.com##a[id$="-adsby"]:upward(1)
 
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
@@ -324,6 +311,21 @@ myanimelist.net##div[class^="pda"]
 myanimelist.net##div[style="overflow: hidden; padding: 10px 0; border-bottom: solid #cdcdcd 1px"]:has(div[style="padding: 20px 40px;display: inline-block;"], div[style="padding: 20px 0px;display: inline-block;"])
 myanimelist.net##span[class*="button_pin"]
 
+! MyGoodStream
+mygoodstream.pw###includedheader > br
+mygoodstream.pw##+js(acis, ConsoleBan)
+mygoodstream.pw##+js(acis, prototype.ban)
+mygoodstream.pw##.adsbyvli
+mygoodstream.pw##.bmc-button:upward(1)
+mygoodstream.pw##.bmpui-ui-watermark
+mygoodstream.pw##.embed-responsive[style^="box-shadow"]:style(box-shadow: none !important;)
+mygoodstream.pw##.jw-logo
+mygoodstream.pw##.sharethis-inline-share-buttons:upward(1)
+mygoodstream.pw##.w-webflow-badge
+mygoodstream.pw##div[data-watermark]
+mygoodstream.pw##h5:has-text(Copyright)
+mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
+
 ! National Basketball Association
 nba.com##div[class^="DisplayAd_genericAd_"]
 
@@ -336,6 +338,11 @@ nmac.to##.it-ad
 nmac.to##div[class="tabbable tabs-below"]
 nmac.to##div[style="margin-left: auto; margin-right: auto; text-align: center; "]
 nmac.to##div[style="margin-left: auto; margin-right: auto; text-align: center; margin-bottom: -5px; "]
+
+! OnHockey
+onhockey.tv##a[href^="https://record.revmasters.com/"]
+onhockey.tv##table[width="1270"][border="0"][cellpadding="0"][cellspacing="0"]:has-text(We do not host or upload any videos on our website.):upward(2)
+onhockey.tv##table[width="1278"][height="60"][border="0"][cols="3"][cellpadding="0"][cellspacing="0"]
 
 ! Online Audio Converter
 online-audio-converter.com###allapps-extension-popup
@@ -357,6 +364,10 @@ reddit.com##.redesign-beta-optin
 reddit.com##div[class="pinnable-content pinned"]
 reddit.com##section[class="infobar commentsignupbar"]
 reddit.com##section[class="infobar listingsignupbar"]
+
+! Reddit Sport Live
+redditsport.live##div[id^="ezoic-pub-ad-placeholder-"]:upward(1)
+redditsport.live##tbody[id^="stats"]:upward(1)
 
 ! SignUpGenius
 signupgenius.com##.sug-notice--privacy
@@ -399,12 +410,19 @@ target.com#@#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:has-tex
 theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
 theindex.moe##div[class^="SupportBanner_banner"]
 
+! TinyURL
+tinyurl.*##+js(nano-sib)
+tinyurl.*##+js(rc, disabled, a.btn, stay)
+tinyurl.*##.container:has-text(Have Your Ads Here)
+tinyurl.*##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
+
 ! Twitch
 twitch.tv##.tw-callout-message:upward(.stream-chat > .chat-room > .chat-room__content > .chat-input > div[class^="Layout-sc-"])
 
 ! Twitter
 twitter.com##[aria-label$="trending now" i]
 twitter.com##[aria-label="who to follow" i]:upward(1)
+twitter.com##div[data-testid="BottomBar"]
 
 ! Writer
 writer.com##+js(rc, om-position-popup, html, stay)
