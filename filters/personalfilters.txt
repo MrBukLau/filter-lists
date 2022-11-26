@@ -28,6 +28,10 @@ reddit.com##shreddit-profile-actions
 9goal.tv##.match-section:style(background-color: #000 !important; padding-left: 1.6rem !important; padding-right: 1.6rem !important; padding-top: 1.6rem !important;)
 9goal.tv##.ms-chat
 9goal.tv##.ms-detail
+9goaltv.to###chat-toggle
+9goaltv.to##.match-section:style(background-color: #000 !important; padding-left: 1.6rem !important; padding-right: 1.6rem !important; padding-top: 1.6rem !important;)
+9goaltv.to##.ms-chat
+9goaltv.to##.ms-detail
 animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
 crunchyroll.com##.erc-up-next-section:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-mini-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
