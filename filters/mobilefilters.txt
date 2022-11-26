@@ -281,6 +281,7 @@ m.yelp.com##div[class*="cta-menubar-pitch_left-icons"]:has-text(Open in App)
 m.yelp.com##div[class*="u-space-"]:has-text(Open in the Yelp App)
 
 ! YouTube
+m.youtube.com##.mobile-topbar-header-voice-search-button
 m.youtube.com##.rich-section-content:has-text(New look, still YouTube)
 m.youtube.com##.searchbox-voice-search-wrapper
 
