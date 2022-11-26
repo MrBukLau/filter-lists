@@ -80,6 +80,8 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 ! 9Goal
 9goal.tv##.match-social:upward(1)
 9goal.tv##.mt-social
+9goaltv.to##.match-social:upward(1)
+9goaltv.to##.mt-social
 
 ! Advance Publications
 oregonlive.com##.sharebar__bookmark--tooltip
