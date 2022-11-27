@@ -73,6 +73,12 @@ open.spotify.com##button[data-testid="create-playlist-button"]
 open.spotify.com##section[data-testid="component-shelf"][aria-label="Top podcasts"]
 rentry.*##.container:style(padding-bottom: 1rem !important;)
 rentry.*##div[class="text-center w-100 mb-3"]
+seedr.cc###files-menu-item
+seedr.cc###introduction-menu-item
+seedr.cc###settings-menu-item
+seedr.cc###walkthrough-menu-item
+seedr.cc###wishlist-menu-item
+seedr.cc##.menu-separator
 ||24timezones.com^$domain=live.watchnbastreams.com
 ||chatango.com^$domain=live.watchnbastreams.com|mygoodstream.pw
 ||sharethis.com^$domain=icelz.newsrade.com
