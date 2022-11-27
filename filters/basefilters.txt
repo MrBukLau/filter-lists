@@ -376,6 +376,10 @@ reddit.com##section[class="infobar listingsignupbar"]
 redditsport.live##div[id^="ezoic-pub-ad-placeholder-"]:upward(1)
 redditsport.live##tbody[id^="stats"]:upward(1)
 
+! Seedr
+seedr.cc###subscription-menu-item
+seedr.cc##.account-upgrade
+
 ! SignUpGenius
 signupgenius.com##.sug-notice--privacy
 
