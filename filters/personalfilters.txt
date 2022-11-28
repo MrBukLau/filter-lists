@@ -14,6 +14,8 @@ reddit.com##.communityheader__backlink
 reddit.com##.nightMode > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-color"]:style(background-color: #000 !important;)
 reddit.com##.nightMode > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-color"][style*="background-image"]:style(background-color: #000 !important; background-image: none !important;)
 reddit.com##.postfooter__share
+reddit.com##body > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-color"]:style(background-color: transparent !important;)
+reddit.com##body > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-color"][style*="background-image"]:style(background-color: transparent !important; background-image: none !important;)
 reddit.com##button[class="action last"][href]
 reddit.com##faceplate-tracker[class][source="shreddit_comment_count_button"]
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
@@ -21,6 +23,8 @@ reddit.com##shreddit-comment[class="top-level"]:style(border-top: 4px solid var(
 reddit.com##shreddit-flair
 reddit.com##shreddit-join-link
 reddit.com##shreddit-profile-actions
+reddit.com#@%#(function(){const needle="nightMode";const needles=needle.split(/\s*\|\s*/);let selector="body[class*='sw-body-class']";const addClass=ev=>{if(ev){window.removeEventListener(ev.type,addClass,true);}const nodes=document.querySelectorAll(selector);try{for(const node of nodes){node.classList.add(...needles);}}catch{}};if(document.readyState==="loading"){window.addEventListener("DOMContentLoaded",addClass,true);}else{addClass();}})();
+reddit.com#@%#//scriptlet('remove-class', 'dayMode', 'body[class*="nightMode"]')
 !#endif
 
 ! Universal Filters
