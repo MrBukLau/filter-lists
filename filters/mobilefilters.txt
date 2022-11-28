@@ -47,6 +47,12 @@ bleacherreport.com##.mobileInterstitial
 bleacherreport.com##.newsletterSubsModule
 bleacherreport.com##.stickyAdvert
 
+! BuzzFeed
+buzzfeednews.com##.Ad
+buzzfeednews.com##.bfp-related-links
+buzzfeednews.com##.cls-min-size
+buzzfeednews.com##.embed-recirc-list
+
 ! CBS
 cbsnews.com###smart-banner-download
 cbssports.com###skybox-top-wrapper
