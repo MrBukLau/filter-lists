@@ -28,7 +28,8 @@
 9gag.com##div[style="padding-top: 98px;"]:style(padding-top: 48px !important;)
 
 ! Amazon
-amazon.com##.sparkle-container[data-name="sparkle_dp_delivery_unrecog"]
+amazon.com##.sparkle-container
+amazon.com##span[data-action="swf-share-btn"]
 
 ! AutoZone
 autozone.com##._3f3af7
