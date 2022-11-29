@@ -11,11 +11,9 @@ gist.github.com##.Header
 reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader__backlink
-reddit.com##.nightMode > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-color"]:style(background-color: #000 !important;)
-reddit.com##.nightMode > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-color"][style*="background-image"]:style(background-color: #000 !important; background-image: none !important;)
 reddit.com##.postfooter__share
 reddit.com##body > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-color"]:style(background-color: transparent !important;)
-reddit.com##body > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-color"][style*="background-image"]:style(background-color: transparent !important; background-image: none !important;)
+reddit.com##body > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-image"]:style(background-image: none !important;)
 reddit.com##button[class="action last"][href]
 reddit.com##faceplate-tracker[class][source="shreddit_comment_count_button"]
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
