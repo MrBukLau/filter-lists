@@ -8,12 +8,11 @@
 1stream.*,icelz.newsrade.com,live.watchnbastreams.com,sportsonline.to##.media-control
 gist.github.com##.gisthead
 gist.github.com##.Header
+reddit.com##.communityheader-banner:style(background-color: unset !important; background-image: none !important;)
 reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader__backlink
 reddit.com##.postfooter__share
-reddit.com##body > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-color"]:style(background-color: transparent !important;)
-reddit.com##body > div > div > div > div > div > div > div > div > div > .communityheader-banner[style*="background-image"]:style(background-image: none !important;)
 reddit.com##button[class="action last"][href]
 reddit.com##faceplate-tracker[class][source="shreddit_comment_count_button"]
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
