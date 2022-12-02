@@ -125,6 +125,8 @@ appdb.to##.vue-notification-group
 music.apple.com##.commerce-modal-container:upward(.portal)
 music.apple.com##.navigation__native-cta
 music.apple.com##.upsell-banner
+music.apple.com##button[title="Facebook"]
+music.apple.com##button[title="Twitter"]
 music.apple.com##div[aria-label="Choose country or region banner"]
 music.apple.com##div[aria-label="国または地域のバナーを選択します"]
 
@@ -247,6 +249,7 @@ github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 google.*##[id^="eob_"]
 google.*##div[jsname="Ycs7vc"]:has-text(Give feedback on the result above?)
 google.*##div[role="dialog"]:has-text(Give feedback on these results?)
+google.*##div[role="dialog"]:has-text(How helpful were the results on Google Search?)
 
 ! Greasy Fork
 greasyfork.org##.ad
