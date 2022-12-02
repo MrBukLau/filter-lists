@@ -185,7 +185,7 @@ reddit.com##.previewdrawer
 reddit.com##.prompt
 reddit.com##.scroll-disabled:style(overflow: auto !important; position: static !important;)
 reddit.com##.scroll-is-blocked:style(overflow: auto !important; position: static !important;)
-reddit.com##.shreddit-pagination:style(padding: 0rem 1rem 0.5rem !important;)
+reddit.com##.shreddit-pagination:style(margin-bottom: 0px !important; padding: 0rem 1rem 0.5rem !important;)
 reddit.com##.sidebar-grid:style(filter: none !important;)
 reddit.com##.slideimagemaindiv[style="object-fit: cover;"][src]:style(object-fit: contain !important;)
 reddit.com##.topics-links-block
