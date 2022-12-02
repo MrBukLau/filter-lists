@@ -20,6 +20,7 @@ reddit.com##shreddit-comment[class="top-level"]:style(border-top: 4px solid var(
 reddit.com##shreddit-flair
 reddit.com##shreddit-join-link
 reddit.com##shreddit-profile-actions
+reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) !important; background-image: none !important;)
 reddit.com#@%#(function(){const needle="nightMode";const needles=needle.split(/\s*\|\s*/);let selector="body[class*='sw-body-class']";const addClass=ev=>{if(ev){window.removeEventListener(ev.type,addClass,true);}const nodes=document.querySelectorAll(selector);try{for(const node of nodes){node.classList.add(...needles);}}catch{}};if(document.readyState==="loading"){window.addEventListener("DOMContentLoaded",addClass,true);}else{addClass();}})();
 reddit.com#@%#//scriptlet('remove-class', 'dayMode', 'body[class*="nightMode"]')
 !#endif
