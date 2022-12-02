@@ -18,6 +18,7 @@ reddit.com##faceplate-tracker[class][source="shreddit_comment_count_button"]
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
 reddit.com##shreddit-comment[class="top-level"]:style(border-top: 4px solid var(--color-tone-5) !important; padding: 0.8rem 1rem 0.4rem !important;)
 reddit.com##shreddit-flair
+reddit.com##shreddit-join-button
 reddit.com##shreddit-join-link
 reddit.com##shreddit-profile-actions
 reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) !important; background-image: none !important;)
