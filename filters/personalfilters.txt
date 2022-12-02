@@ -47,6 +47,9 @@ github.com##.js-yearly-contributions
 github.com##.pagehead-actions:has(a[aria-label="Edit this Gist"]) > li + li
 github.com##.pagehead-actions:not(:has(a[aria-label="Edit this Gist"]))
 github.com##img[class="achievement-badge-sidebar"]:upward(3)
+github.com##input[name="commit-choice"][value="quick-pull"]:upward(.form-checkbox)
+github.com##input[name="message"]
+github.com##textarea[name="description"]
 icelz.newsrade.com##+js(rc, chat, div.app-container)
 icelz.newsrade.com##.app-container:style(background-color: var(--theme-color) !important;)
 icelz.newsrade.com##.channel-header
