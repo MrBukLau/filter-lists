@@ -96,15 +96,15 @@ goodrx.com##div[data-qa="advertisement"]
 google.*###lb:has-text(Access your Google services with one sign-in)
 google.*###stUuGf
 google.*##.bB4gff
+google.*##.oSAsx
 google.*##.torspo_view__follow-button
-google.*##.XfM3uf[data-url*="/apps.apple.com/"]:upward(.MjjYud)
-google.*##.XHtXtb[data-url*="/apps.apple.com/"]:upward(.MjjYud)
 google.*##.zU3lCe
 google.*##body:style(overflow: auto !important; position: static !important;)
 google.*##div[class="imso-hide-loading O8LF7c IvuoRc"]
 google.*##div[class="rKJOcDNwrHj__pb-dfr rKJOcDNwrHj__pb-s"]
 google.*##div[data-show-open-app]
 google.*##div[jsname="suEOdc"]
+google.*##div[jsname="xy3Vt"]
 google.*##hr[class="vjdC3 hcuDkb"]
 google.*##span[jsname="EFexIf"]
 
