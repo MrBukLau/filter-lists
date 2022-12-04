@@ -57,8 +57,6 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 !---------- Specific Filters ----------!
 !--------------------------------------!
 ! 1Stream
-1stream.*###wp_chat
-1stream.*##.col-md-push-3:style(left: 0% !important;)
 1stream.*##.text-center:has-text(1Stream will provide free live streaming)
 1stream.*##.top-head-player
 1stream.*##a[href*="/www.buymeacoffee.com/"]
