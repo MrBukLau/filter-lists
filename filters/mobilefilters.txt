@@ -115,6 +115,7 @@ gopuff.com##.jr-smart-banner
 healthline.com##.myFinance-ad-unit
 
 ! IMDb
+m.imdb.com###inlinebottom_inline_wrapper
 m.imdb.com##.footer__app
 
 ! Imgur
