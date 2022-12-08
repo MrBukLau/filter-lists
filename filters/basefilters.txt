@@ -171,6 +171,10 @@ chartoo.com###fx
 ! Costco
 costco.com###email-popup-title
 
+! CrackStreams
+crackstreams.*##.twitter-follow-button
+crackstreams.*##a[href][target="_bank"]
+
 ! Crunchyroll
 crunchyroll.com###message_box
 crunchyroll.com###showmedia_free_trial_signup
