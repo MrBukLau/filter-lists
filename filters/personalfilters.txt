@@ -40,8 +40,6 @@ crackstreams.*##.category > .site > .description
 crackstreams.*##.category > .site > .site-content > .container > .inner-wrapper > .sidebar
 crackstreams.*##.category > .site > .widget-area
 crackstreams.*##.category > .site > hr
-crackstreams.*##.twitter-follow-button
-crackstreams.*##a[href][target="_bank"]
 crackstreams.*##body[style^="background-color"] > .row
 crunchyroll.com##.erc-up-next-section:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-mini-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
