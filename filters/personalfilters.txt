@@ -51,12 +51,14 @@ crunchyroll.com##img[class="mug"][alt]:style(filter: blur(16px) !important;)
 crunchyroll.com##img[class="thumbnail"]:style(filter: blur(16px) !important;)
 crunchyroll.com##img[class="welcome-media-mug"]:style(filter: blur(16px) !important;)
 funimation.com##div[data-test="episode-card__key-art"]:style(filter: blur(16px) !important;)
+github.com##.color-fg-muted:has-text(Seeing something unexpected?):has(a[href="https://docs.github.com/categories/setting-up-and-managing-your-github-profile"])
 github.com##.file-navigation-options
 github.com##.footer
 github.com##.js-file-commit-form:style(padding-bottom: 1rem !important;)
 github.com##.js-yearly-contributions
 github.com##.pagehead-actions:has(a[aria-label="Edit this Gist"]) > li + li
 github.com##.pagehead-actions:not(:has(a[aria-label="Edit this Gist"]))
+github.com##.text-center:has(.color-fg-default:has-text(ProTip!))
 github.com##img[class="achievement-badge-sidebar"]:upward(3)
 github.com##input[name="commit-choice"][value="quick-pull"]:upward(.form-checkbox)
 github.com##input[name="message"]
