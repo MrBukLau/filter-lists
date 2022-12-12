@@ -5,7 +5,7 @@
 
 ! iOS Filters
 !#if adguard_app_ios
-1stream.*,crackstreams.*,icelz.newsrade.com,live.watchnbastreams.com,sportsonline.to##.media-control
+1stream.*,icelz.newsrade.com,sportsonline.to##.media-control
 gist.github.com##.gisthead
 gist.github.com##.Header
 reddit.com##.communityheader-banner:style(background-color: unset !important; background-image: none !important;)
@@ -31,16 +31,7 @@ reddit.com#@%#//scriptlet('remove-class', 'dayMode', 'body[class*="nightMode"]')
 1stream.*###refresh
 1stream.*###wp_chat
 1stream.*##.col-md-push-3:style(left: 0% !important;)
-9goal.*,9goaltv.*###chat-toggle
-9goal.*,9goaltv.*##.match-section:style(background-color: #000 !important; padding-left: 1.6rem !important; padding-right: 1.6rem !important; padding-top: 1.6rem !important;)
-9goal.*,9goaltv.*##.ms-chat
-9goal.*,9goaltv.*##.ms-detail
 animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
-crackstreams.*##.category > .site > .description
-crackstreams.*##.category > .site > .site-content > .container > .inner-wrapper > .sidebar
-crackstreams.*##.category > .site > .widget-area
-crackstreams.*##.category > .site > hr
-crackstreams.*##body[style^="background-color"] > .row
 crunchyroll.com##.erc-up-next-section:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-mini-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
@@ -72,11 +63,6 @@ icelz.newsrade.com##.overlay
 icelz.newsrade.com##.page-content:style(background-color: var(--theme-color) !important; padding: 60px 15px 15px !important;)
 icelz.newsrade.com##div[data-tooltip="Watching Now"]:upward(.video-info)
 icelz.newsrade.com,mygoodstream.pw##.bmpui-label-metadata
-live.watchnbastreams.com##body[style^="background-color"] > center > .col-lg-10:style(float: none !important; height: 600px !important;)
-live.watchnbastreams.com##body[style^="background-color"] > center > div[style="float:left; padding: 0px 0px 0px 0px;"]
-live.watchnbastreams.com##body[style^="background-color"] > center > h1
-live.watchnbastreams.com##body[style^="background-color"] > center > h3
-live.watchnbastreams.com##body[style^="background-color"] > center > p
 open.spotify.com##.LayoutResizer__resize-bar
 open.spotify.com##.LKgm9fCDTO7wqig_5U1q[data-testid="rootlist-container"]:style(margin-top: 0px !important;)
 open.spotify.com##.r9YzlaAPnM2LGK97GSfa
@@ -84,6 +70,14 @@ open.spotify.com##.Root__nav-bar:style(width: 230px !important;)
 open.spotify.com##button[aria-label="Save to Your Library"]
 open.spotify.com##button[data-testid="create-playlist-button"]
 open.spotify.com##section[data-testid="component-shelf"][aria-label="Top podcasts"]
+reddit.com###header-bottom-right
+reddit.com###sr-header-area
+reddit.com##.sidecontentbox:has-text(MODERATORS):has(.message-button:has-text(message the mods))
+reddit.com##.users-online:style(margin-top: 0.25em !important;)
+reddit.com##div[class="sidebox submit submit-link"]
+reddit.com##div[class="sidebox submit submit-text"]
+reddit.com##form[class="login-form login-form-side"]
+reddit.com##span[class="fancy-toggle-button subscribe-button toggle"]
 rentry.*##.container:style(padding-bottom: 1rem !important;)
 rentry.*##div[class="text-center w-100 mb-3"]
 seedr.cc###files-menu-item
@@ -92,7 +86,6 @@ seedr.cc###settings-menu-item
 seedr.cc###walkthrough-menu-item
 seedr.cc###wishlist-menu-item
 seedr.cc##.menu-separator
-||24timezones.com^$domain=live.watchnbastreams.com
-||chatango.com^$domain=crackstreams.*|live.watchnbastreams.com|mygoodstream.pw
+||chatango.com^$domain=mygoodstream.pw
 ||sharethis.com^$domain=icelz.newsrade.com
 ||twitch.tv^$domain=icelz.newsrade.com
