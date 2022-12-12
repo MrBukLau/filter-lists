@@ -142,6 +142,11 @@ buzzfeednews.com##.subbuzz-bfp--related_links
 buzzfeednews.com##div[class^="desktop-sticky-ad_desktopStickyAdWrapper__"]
 buzzfeednews.com##section[aria-labelledby="bottom-recirc-title"]
 
+! CamelCamelCamel
+camelcamelcamel.com###camelizer_top_promo
+camelcamelcamel.com###primeheader
+camelcamelcamel.com###similar_products
+
 ! CBS Sports
 cbssports.com###hud-container[class*="desktop-view"]:style(top: 0px !important;)
 cbssports.com###sharethrough-ad
@@ -170,10 +175,6 @@ chartoo.com###fx
 
 ! Costco
 costco.com###email-popup-title
-
-! CrackStreams
-crackstreams.*##.twitter-follow-button
-crackstreams.*##a[href][target="_bank"]
 
 ! Crunchyroll
 crunchyroll.com###message_box
