@@ -75,15 +75,6 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 9gag.com##.signup-list-banner
 9gag.com##.signup-side-banner
 
-! 9Goal
-9goal.*,9goaltv.*##.match-social:upward(1)
-9goal.*,9goaltv.*##.mh-copyright
-9goal.*,9goaltv.*##.mh-top > .description
-9goal.*,9goaltv.*##.mh-top > .headline-large
-9goal.*,9goaltv.*##.mt-social
-9goal.*,9goaltv.*##.sonthebeach
-9goal.*,9goaltv.*##.stb-container
-
 ! Advance Publications
 oregonlive.com##.sharebar__bookmark--tooltip
 
