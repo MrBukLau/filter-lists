@@ -63,11 +63,29 @@ icelz.newsrade.com##.overlay
 icelz.newsrade.com##.page-content:style(background-color: var(--theme-color) !important; padding: 60px 15px 15px !important;)
 icelz.newsrade.com##div[data-tooltip="Watching Now"]:upward(.video-info)
 icelz.newsrade.com,mygoodstream.pw##.bmpui-label-metadata
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(About recommendations)
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Add to playlist)
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Add to profile)
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Add to queue)
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Create folder)
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Create playlist)
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Go to artist radio)
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Go to playlist radio)
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Go to song radio)
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Open in Desktop app)
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Report)
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Save to Your Episodes)
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Save to your Liked Songs)
+open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(Follow)
+open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(Following)
 open.spotify.com##.LayoutResizer__resize-bar
 open.spotify.com##.LKgm9fCDTO7wqig_5U1q[data-testid="rootlist-container"]:style(margin-top: 0px !important;)
 open.spotify.com##.r9YzlaAPnM2LGK97GSfa
 open.spotify.com##.Root__nav-bar:style(width: 230px !important;)
-open.spotify.com##button[aria-label="Save to Your Library"]
+open.spotify.com##button[data-testid="add-button"][aria-label="Remove from Your Library"]
+open.spotify.com##button[data-testid="add-button"][aria-label="Save to Your Library"]
+open.spotify.com##button[data-testid="control-button-repeat"]
+open.spotify.com##button[data-testid="control-button-shuffle"]
 open.spotify.com##button[data-testid="create-playlist-button"]
 open.spotify.com##section[data-testid="component-shelf"][aria-label="Top podcasts"]
 reddit.com###header-bottom-right
