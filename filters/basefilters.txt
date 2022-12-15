@@ -412,6 +412,7 @@ snopes.com##.sidebar_ad
 snopes.com##div[data-piano-show="non-member"]
 
 ! Spotify
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Upgrade to Premium)
 open.spotify.com##.link-subtle[draggable][href="/download"]
 open.spotify.com##button[aria-label="Upgrade to Premium"]
 open.spotify.com##div[aria-label="In-App Message Modal"]:upward(.ReactModalPortal)
