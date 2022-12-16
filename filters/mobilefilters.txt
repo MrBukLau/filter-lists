@@ -170,6 +170,7 @@ quora.com##button[type="button"]:has-text(Open in App)
 ! Reddit
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
 reddit.com###post-image:style(margin-bottom: 0rem !important;)
+reddit.com###use-app
 reddit.com##+js(aeld, touchmove)
 reddit.com##+js(nosiif, /^/)
 reddit.com##+js(rc, scroll-disabled, body, stay)
@@ -194,6 +195,7 @@ reddit.com##.sidebar-grid:style(filter: none !important;)
 reddit.com##.slideimagemaindiv[style="object-fit: cover;"][src]:style(object-fit: contain !important;)
 reddit.com##.topics-links-block
 reddit.com##.topnav__promobutton
+reddit.com##.topnav__useappbutton
 reddit.com##.topposts
 reddit.com##.xpromoappstorefooter
 reddit.com##.xpromoblockingmodal
@@ -214,6 +216,7 @@ reddit.com##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
 reddit.com##shreddit-async-loader[bundlename="faceplate_alerts"]
 reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]
 reddit.com##shreddit-async-loader[bundlename="rpl_continue_chat_in_app"]
+reddit.com##shreddit-async-loader[bundlename="top_button"][paint-group="xpromo"]
 reddit.com##shreddit-comments-page-ad
 reddit.com##shreddit-experience-tree
 reddit.com##shreddit-post[view-context^="ListingBelow"][view-context$="Posts"]
