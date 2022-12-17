@@ -15,6 +15,7 @@
 
 ! Network Filters
 ||cloudfront.net^$domain=1stream.*|animixplay.to
+||video-closed.com^
 
 ! URL Parameter Filters
 $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
