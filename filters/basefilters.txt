@@ -14,7 +14,6 @@
 ##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
-||cloudfront.net^$domain=1stream.*|animixplay.to
 ||video-closed.com^
 
 ! URL Parameter Filters
@@ -57,15 +56,6 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 !--------------------------------------!
 !---------- Specific Filters ----------!
 !--------------------------------------!
-! 1Stream
-1stream.*##.text-center:has-text(1Stream will provide free live streaming)
-1stream.*##.top-head-player
-1stream.*##a[href*="/www.buymeacoffee.com/"]
-1stream.*##a[href="https://redi1.soccerstreams.net/"]
-1stream.*##br + br + br + br + hr
-1stream.*##h1[style*="z-index: 999999;"]
-1stream.*##small
-
 ! 9Anime
 9anime.*##.adx
 9anime.*##.alert
@@ -93,14 +83,6 @@ kwik.cx##button[type="button"][class="plyr__control plyr__control--overlaid"][da
 
 ! AnimeSchedule
 animeschedule.net###header-temporary-banner
-
-! AniMixPlay
-animixplay.to##.leftside > #announcement
-animixplay.to##.leftside > #featuredcard
-animixplay.to##.leftside > #pwaContainer
-animixplay.to##.leftside > #readmorebtn
-dailymotion.com##.np_carousel-list-wrapper
-dailymotion.com##.np_Darken
 
 ! AniPlaylist
 aniplaylist.com##.adswrapper:upward(1)
@@ -234,11 +216,13 @@ gfycat.com##.pro-cta:has-text(No ads, always HD experience with Gfycat Pro.)
 gfycat.com##.signup-call-to-action
 
 ! GitHub
-d3ward.github.io##._notif
 gist.github.com##.gist-detail-intro
 github.com##.Banner--warning
 github.com##.flash-warn:has-text(Sign in to comment)
 github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
+
+! GoGoAnime
+gogoanime.*##div[class^="notice-"]
 
 ! Google
 google.*##[id^="eob_"]
