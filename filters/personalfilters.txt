@@ -5,7 +5,6 @@
 
 ! iOS Filters
 !#if adguard_app_ios
-1stream.*,icelz.newsrade.com,sportsonline.to##.media-control
 gist.github.com##.gisthead
 gist.github.com##.Header
 reddit.com##.communityheader-banner:style(background-color: unset !important; background-image: none !important;)
@@ -27,10 +26,6 @@ reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) 
 !#endif
 
 ! Universal Filters
-1stream.*###chat-btn
-1stream.*###refresh
-1stream.*###wp_chat
-1stream.*##.col-md-push-3:style(left: 0% !important;)
 animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
 crunchyroll.com##.erc-up-next-section:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-mini-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
