@@ -170,6 +170,9 @@ discord.com##div[class*="channelNotice"]
 discord.com##div[class^="card-"]:has-text(We can customize Active Now, and other parts of Discord, based on information like who you talk to and what games you play.)
 discord.com##div[class^="notice-"]:has-text(Get the desktop app!)
 
+! Drugs
+drugs.com##.ddc-toast-alert
+
 ! ESPN
 espn.com###gamepackage-cliplist:remove()
 espn.com###gamepackage-incontentbetting
@@ -225,7 +228,10 @@ github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 gogoanime.*##div[class^="notice-"]
 
 ! Google
+google.*##.ynRric:has-text(/^Trending searches$/)
 google.*##[id^="eob_"]
+google.*##div:has-text(/^Trending searches$/) ~ ul
+google.*##div[aria-label="Search by voice"]
 google.*##div[jsname="Ycs7vc"]:has-text(Give feedback on the result above?)
 google.*##div[role="dialog"]:has-text(Give feedback on these results?)
 google.*##div[role="dialog"]:has-text(How helpful were the results on Google Search?)
