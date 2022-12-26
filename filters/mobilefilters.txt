@@ -231,10 +231,12 @@ reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
 
 ! Slickdeals
+slickdeals.net##+js(rc, pushToAppDrawerScrollLock, body, stay)
 slickdeals.net##.bottomFullBar
 slickdeals.net##.bp-p-cashbackDealCardPromo
 slickdeals.net##.mobileAdFluid
 slickdeals.net##.sdModalOverlay
+slickdeals.net##body:style(overflow: auto !important;)
 
 ! SoundCloud
 m.soundcloud.com##a[data-testid="open-in-app-link"]
@@ -252,6 +254,11 @@ theundefeated.com##.ad-prevent-jump
 thescore.com###app-container > div:nth-child(2)
 thescore.com##.the-score-article-ad-unit
 thescore.com##button[class^="GetTheAppModal__getTheAppButton"]
+
+! TMZ
+tmz.com###ad-footer
+tmz.com##.ad-container
+tmz.com##div[class^="ad-blogroll"]
 
 ! Twitch
 m.twitch.tv##div[class^="ScCoreButtonLabel"]:has-text(Open in App)
