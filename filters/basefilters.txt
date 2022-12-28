@@ -56,6 +56,14 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 !--------------------------------------!
 !---------- Specific Filters ----------!
 !--------------------------------------!
+! 88Kanqiu
+88kanqiu.*,888kanqiu.*###sidebar-wechat
+88kanqiu.*,888kanqiu.*##.appdown
+88kanqiu.*,888kanqiu.*##.modal-open:style(overflow: auto !important;)
+88kanqiu.*,888kanqiu.*##div[class="modal fade in"]
+88kanqiu.*,888kanqiu.*##div[class="modal-backdrop fade in"]
+88kanqiu.*,888kanqiu.*,gogozb.*,popozhibo.*##.sss-container[data-uuid]
+
 ! 9Anime
 9anime.*##.adx
 9anime.*##.alert
