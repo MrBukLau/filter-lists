@@ -298,6 +298,7 @@ m.yelp.com##div[class*="u-space-"]:has-text(Open in the Yelp App)
 
 ! YouTube
 m.youtube.com##.mobile-topbar-header-voice-search-button
+m.youtube.com##.music-metadata-premium-upsell-link
 m.youtube.com##.rich-section-content:has-text(New look, still YouTube)
 m.youtube.com##.searchbox-voice-search-wrapper
 
