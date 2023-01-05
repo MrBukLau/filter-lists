@@ -14,6 +14,7 @@
 ##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
+||torrentmac.net/cdn-cgi/scripts^
 ||video-closed.com^
 
 ! URL Parameter Filters
@@ -58,10 +59,10 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 !--------------------------------------!
 ! 88Kanqiu
 88kanqiu.*,888kanqiu.*###sidebar-wechat
-88kanqiu.*,888kanqiu.*##.appdown
 88kanqiu.*,888kanqiu.*##.modal-open:style(overflow: auto !important;)
 88kanqiu.*,888kanqiu.*##div[class="modal fade in"]
 88kanqiu.*,888kanqiu.*##div[class="modal-backdrop fade in"]
+88kanqiu.*,888kanqiu.*,gogozb.*,popozhibo.*##.appdown
 88kanqiu.*,888kanqiu.*,gogozb.*,popozhibo.*##.sss-container[data-uuid]
 
 ! 9Anime
@@ -79,15 +80,6 @@ oregonlive.com##.sharebar__bookmark--tooltip
 
 ! AniDB
 anidb.net##.hint
-
-! AnimePahe
-animepahe.*##+js(aopr, open)
-animepahe.*##.alert
-animepahe.*##.content-wrapper:style(padding-bottom: 20px !important;)
-animepahe.*##footer
-kwik.cx##.plyr::after:style(content: none !important;)
-kwik.cx##.plyr__poster
-kwik.cx##button[type="button"][class="plyr__control plyr__control--overlaid"][data-plyr="play"][aria-label="Play"]
 
 ! AnimeSchedule
 animeschedule.net###header-temporary-banner
