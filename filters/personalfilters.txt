@@ -38,7 +38,6 @@ reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) 
 !#endif
 
 ! Universal Filters
-animepahe.*##.episode-snapshot:style(filter: blur(16px) !important;)
 crunchyroll.com##.erc-up-next-section:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-mini-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
@@ -111,6 +110,10 @@ seedr.cc###settings-menu-item
 seedr.cc###walkthrough-menu-item
 seedr.cc###wishlist-menu-item
 seedr.cc##.menu-separator
+tenshi.moe##.plyr__poster
+tenshi.moe##a[class="plyr__controls__item plyr__control"][data-plyr="download"]
+tenshi.moe##button[class="plyr__controls__item plyr__control"][data-plyr="pip"]
+tenshi.moe##img[src^="https://tenshi.moe/video-cache/"][src$="/thumb.jpg"]:style(filter: blur(16px) !important;)
 ||chatango.com^$domain=mygoodstream.pw
 ||sharethis.com^$domain=icelz.newsrade.com
 ||twitch.tv^$domain=icelz.newsrade.com
