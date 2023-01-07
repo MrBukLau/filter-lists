@@ -234,6 +234,9 @@ reddit.com##xpromo-nsfw-blocking-container[slot="blurred"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
 
+! Sinclair Broadcast Group
+katu.com##div[class^="interstory_"][class$="_mobile"]
+
 ! Slickdeals
 slickdeals.net##+js(rc, pushToAppDrawerScrollLock, body, stay)
 slickdeals.net##.bottomFullBar
