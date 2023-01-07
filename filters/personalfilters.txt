@@ -29,6 +29,7 @@ reddit.com##button[class="action last"][href]
 reddit.com##faceplate-tracker[class][source="shreddit_comment_count_button"]
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
 reddit.com##faceplate-tracker[source="nav"][noun="login"]
+reddit.com##reddit-header-overflow-menu
 reddit.com##shreddit-comment[class="top-level"]:style(border-top: 4px solid var(--color-tone-5) !important; padding: 0.8rem 1rem 0.4rem !important;)
 reddit.com##shreddit-flair
 reddit.com##shreddit-join-button
@@ -110,7 +111,13 @@ seedr.cc###settings-menu-item
 seedr.cc###walkthrough-menu-item
 seedr.cc###wishlist-menu-item
 seedr.cc##.menu-separator
+tenshi.moe###colophon
+tenshi.moe###entry-comments
+tenshi.moe###entry-similar
+tenshi.moe###home-latest-anime
+tenshi.moe###toplist-tabs
 tenshi.moe##.plyr__poster
+tenshi.moe##.user-controls
 tenshi.moe##a[class="plyr__controls__item plyr__control"][data-plyr="download"]
 tenshi.moe##button[class="plyr__controls__item plyr__control"][data-plyr="pip"]
 tenshi.moe##img[src^="https://tenshi.moe/video-cache/"][src$="/thumb.jpg"]:style(filter: blur(16px) !important;)
