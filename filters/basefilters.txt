@@ -9,11 +9,10 @@
 ! Cosmetic Filters
 ###ad
 ##.remixd-wrapper
-##div[class*="_adAfterContent_"]
-##div[class*="_adBeforeContent_"]
 ##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
+||digitalframeflow.com^
 ||torrentmac.net/cdn-cgi/scripts^
 ||video-closed.com^
 
@@ -236,6 +235,9 @@ google.*##div[jsname="Ycs7vc"]:has-text(Give feedback on the result above?)
 google.*##div[role="dialog"]:has-text(Give feedback on these results?)
 google.*##div[role="dialog"]:has-text(How helpful were the results on Google Search?)
 
+! Gray Television
+kptv.com##.taboola-feature
+
 ! Greasy Fork
 greasyfork.org##.ad
 
@@ -338,6 +340,10 @@ nbabite.com##.alert
 nbabite.com##.post_tags
 nbabite.com##.twitter-follow-button
 
+! Nexstar Media Group
+koin.com##.civic-science-container
+koin.com##.civic-science-sidebar-container
+
 ! NMac Ked
 nmac.to###recommended
 nmac.to###sizzlin-wrapper
@@ -385,6 +391,10 @@ seedr.cc##.account-upgrade
 ! SignUpGenius
 signupgenius.com##.sug-notice--privacy
 
+! Sinclair Broadcast Group
+katu.com##div[class*="_adAfterContent_"]
+katu.com##div[class*="_adBeforeContent_"]
+
 ! Slickdeals
 slickdeals.net##.announcementBar
 slickdeals.net##.bp-p-slickdealsHeader_disclaimer
@@ -419,6 +429,9 @@ streamingsites.com##.best-sites-component
 ! Target
 target.com##div[class*="_PubAdWrapper-"]:upward(1)
 target.com#@#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:has-text(sponsored)
+
+! TEGNA
+kgw.com##.article__section_type_ad
 
 ! The Index
 theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
