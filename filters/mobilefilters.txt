@@ -56,6 +56,10 @@ buzzfeednews.com##.cls-min-size
 cbsnews.com###smart-banner-download
 cbssports.com###skybox-top-wrapper
 
+! CNN
+cnn.com##.ad-slot-rail:upward(1)
+cnn.com##div[class="ad ad--epic ad--mobile"]:upward(1)
+
 ! Craigslist
 craigslist.org##.tryapp
 
@@ -329,4 +333,3 @@ m.youtube.com#%#(function(){setTimeout(function(){(function(){let oldHref=docume
 ##html > head > meta[name="apple-itunes-app"]:remove()
 #%#(function(){window.addEventListener("load",function(){(document.querySelector("meta[name='apple-itunes-app']")||{remove:()=>0}).remove();});})();
 #?#meta[name="apple-itunes-app"]:remove()
-github.com#?#meta[name="apple-itunes-app"]:remove()
