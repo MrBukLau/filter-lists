@@ -36,6 +36,7 @@ reddit.com##shreddit-join-button
 reddit.com##shreddit-join-link
 reddit.com##shreddit-profile-actions
 reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) !important; background-image: none !important;)
+sawlive.tv##.media-control
 !#endif
 
 ! Universal Filters
