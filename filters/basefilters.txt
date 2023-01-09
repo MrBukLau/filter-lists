@@ -12,9 +12,7 @@
 ##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
-||digitalframeflow.com^
 ||torrentmac.net/cdn-cgi/scripts^
-||video-closed.com^
 
 ! URL Parameter Filters
 $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
@@ -411,6 +409,9 @@ snopes.com##.main-content > .main_outer_wrapper > .scroll-posts > .article_rail_
 snopes.com##.outer-ad-unit-wrapper
 snopes.com##.sidebar_ad
 snopes.com##div[data-piano-show="non-member"]
+
+! Sport365
+sport365.stream##.promo
 
 ! Spotify
 open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Upgrade to Premium)
