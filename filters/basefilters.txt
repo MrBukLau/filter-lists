@@ -368,6 +368,9 @@ oxygen.com##.blog-post__vertical_description
 oxygen.com##.embedded-entity[data-embed-button="related_content"]
 oxygen.com##.homepage-section__insider-exclusive
 
+! Proton
+proton.me##a[data-testid="cta:upgrade-plan"]
+
 ! Reddit
 reddit.com##+js(ra, data-outbound-url, .outbound)
 reddit.com##+js(set, Object.prototype.allowClickTracking, false)
