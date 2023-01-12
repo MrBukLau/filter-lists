@@ -36,10 +36,13 @@ reddit.com##shreddit-join-button
 reddit.com##shreddit-join-link
 reddit.com##shreddit-profile-actions
 reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) !important; background-image: none !important;)
+reddit.com#@%#(function(){const needle="nightMode";const needles=needle.split(/\s*\|\s*/);let selector="body[class*='sw-body-class']";const addClass=ev=>{if(ev){window.removeEventListener(ev.type,addClass,true);}const nodes=document.querySelectorAll(selector);try{for(const node of nodes){node.classList.add(...needles);}}catch{}};if(document.readyState==="loading"){window.addEventListener("DOMContentLoaded",addClass,true);}else{addClass();}})();
+reddit.com#@%#//scriptlet('remove-class', 'dayMode', 'body[class*="nightMode"]')
 sawlive.tv##.media-control
 !#endif
 
 ! Universal Filters
+accounts.spotify.com##ul[class="sc-gsDKAQ sc-hBUSln kdQBSg eOZPwe"]
 crunchyroll.com##.erc-up-next-section:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-mini-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
@@ -112,16 +115,6 @@ seedr.cc###settings-menu-item
 seedr.cc###walkthrough-menu-item
 seedr.cc###wishlist-menu-item
 seedr.cc##.menu-separator
-tenshi.moe###colophon
-tenshi.moe###entry-comments
-tenshi.moe###entry-similar
-tenshi.moe###home-latest-anime
-tenshi.moe###toplist-tabs
-tenshi.moe##.plyr__poster
-tenshi.moe##.user-controls
-tenshi.moe##a[class="plyr__controls__item plyr__control"][data-plyr="download"]
-tenshi.moe##button[class="plyr__controls__item plyr__control"][data-plyr="pip"]
-tenshi.moe##img[src^="https://tenshi.moe/video-cache/"][src$="/thumb.jpg"]:style(filter: blur(16px) !important;)
 ||chatango.com^$domain=mygoodstream.pw
 ||sharethis.com^$domain=icelz.newsrade.com
 ||twitch.tv^$domain=icelz.newsrade.com
