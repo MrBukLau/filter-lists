@@ -78,6 +78,9 @@ oregonlive.com##.sharebar__bookmark--tooltip
 ! AniDB
 anidb.net##.hint
 
+! AnimePahe
+animepahe.*##.alert
+
 ! AnimeSchedule
 animeschedule.net###header-temporary-banner
 
@@ -143,6 +146,9 @@ chartoo.com###bq
 chartoo.com###ej
 chartoo.com###eq
 chartoo.com###fx
+
+! CNN
+cnn.com##.terms-of-service
 
 ! Costco
 costco.com###email-popup-title
@@ -271,6 +277,9 @@ itdmusics.com##.e3lan-bottom
 itdmusics.com##.home > .container > .content > center > div[style="width:320px;height:250px"]
 itdmusics.com##.itdmu-widget
 itdmusics.com##a[id$="-adsby"]:upward(1)
+
+! Kwik
+kwik.cx##.plyr::after
 
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
