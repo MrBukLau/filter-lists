@@ -175,8 +175,6 @@ quora.com##button[type="button"]:has-text(Open in App)
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
 reddit.com###post-image:style(margin-bottom: 0rem !important;)
 reddit.com###use-app
-reddit.com##+js(aeld, touchmove)
-reddit.com##+js(nosiif, /^/)
 reddit.com##+js(rc, scroll-disabled, body, stay)
 reddit.com##+js(rc, scroll-is-blocked, body, stay)
 reddit.com##._13geajc1u3mpvccghflqg4
@@ -213,7 +211,7 @@ reddit.com##.xpromopill
 reddit.com##.xpromopopup
 reddit.com##.xpromopopuprpl
 reddit.com##.xpromopopuprplnew
-reddit.com##body:style(overflow: auto !important; position: static !important; pointer-events: inherit !important; touch-action: auto !important;)
+reddit.com##body:style(overflow: auto !important; position: static !important; pointer-events: auto !important; touch-action: auto !important;)
 reddit.com##shreddit-ad-post
 reddit.com##shreddit-app:style(padding: var(--shreddit-header-height) 0px 0px !important;)
 reddit.com##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
