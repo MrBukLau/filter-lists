@@ -1,12 +1,13 @@
 // MrBukLau's Scriptlets
 
+"use strict";
+
 /**********************/
 /* Generic Scriptlets */
 /**********************/
 /// get-url-param.js
 /// alias gup.js
 (function() {
-    "use strict";
     if (window.location.href.includes("?url=") || window.location.href.includes("&url=")) {
         let urlParams = new URLSearchParams(window.location.search);
         let urlReplacement = urlParams.get("url");
@@ -21,7 +22,6 @@
 /// set-attr.js
 /// alias sa.js
 (function() {
-    "use strict";
     const token = "{{1}}";
     if (token === "" || token === "{{1}}") {
         return;
@@ -32,7 +32,6 @@
     if (selector === "" || selector === "{{3}}") {
         selector = `[${tokens.join("],[")}]`;
     }
-    let timer;
     const behavior = "{{4}}";
     const setattr = () => {
         let timer = undefined;
@@ -113,7 +112,6 @@
 /// apple-music-artwork-format-and-size-changer.js
 /// alias amafasc.js
 (function() {
-    "use strict";
     if (window.location.href.includes(".mzstatic.com/image/thumb/")) {
         if (window.location.href.match("190x190") && window.location.href.match(".webp")) {
             window.location.replace(window.location.toString().replace("190x190", "2000x2000").replace(".webp", ".jpeg"));
@@ -154,7 +152,6 @@
 /// apple-music-japanese-to-english-album-translator.js
 /// alias amjteat.js
 (function() {
-    "use strict";
     if (window.location.href.includes("/music.apple.com/jp/album/")) {
         let oldUrlSearch = window.location.search;
         let urlParams = new URLSearchParams(oldUrlSearch);
@@ -175,7 +172,6 @@
 /// hikarinoakariost-bypasser.js
 /// alias hnab.js
 (function() {
-    "use strict";
     if (window.location.href.includes("/hikarinoakari.com/out/")) {
         setTimeout(function() {
             document.querySelector("a[class='link']").click();
@@ -186,7 +182,6 @@
 /// itdmusic-bypasser.js
 /// alias itdmb.js
 (function() {
-    "use strict";
     window.addEventListener("load", function() {
         let firstButton = document.getElementsByClassName("btn btn-primary btn-captcha");
         if (firstButton.length > 0) {
@@ -208,7 +203,6 @@
 /// nyaa-dark-mode-enabler.js
 /// alias ndme.js
 (function() {
-    "use strict";
     window.addEventListener("DOMContentLoaded", function() {
         if (!document.body.classList.contains("dark")) {
             document.querySelector("a[id='themeToggle']").click();
@@ -219,7 +213,6 @@
 /// old-reddit-redirector.js
 /// alias orr.js
 (function() {
-    "use strict";
     if (window.location.href.includes("/www.reddit.com/") && !window.location.href.includes("/www.reddit.com/gallery/") && !window.location.href.includes("/www.reddit.com/poll/")) {
         window.location.replace(window.location.toString().replace("/www.reddit.com/", "/old.reddit.com/"));
     }
@@ -228,7 +221,6 @@
 /// ouo-io-bypasser.js
 /// alias oib.js
 (function() {
-    "use strict";
     window.addEventListener("load", function() {
         if (document.getElementById("form-captcha") === null) {
             document.getElementsByTagName("form")[0].submit();
@@ -242,7 +234,6 @@
 /// tinyurl-bypasser.js
 /// alias tub.js
 (function() {
-    "use strict";
     window.addEventListener("load", function() {
         let targetLink = $("a:contains('Click Here to Watch')");
         if (targetLink && targetLink.length) {
@@ -255,7 +246,6 @@
 /// youtube-shorts-redirector.js
 /// alias ysr.js
 (function() {
-    "use strict";
     let oldHref = document.location.href;
     if (window.location.href.indexOf("youtube.com/shorts") > -1) {
         window.location.replace(window.location.toString().replace("/shorts/", "/watch?v="));
