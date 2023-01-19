@@ -35,7 +35,7 @@
     let timer;
     const behavior = "{{4}}";
     const setattr = () => {
-        timer = undefined;
+        let timer = undefined;
         const nodes = document.querySelectorAll(selector);
         try {
             for (const node of nodes) {
