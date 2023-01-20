@@ -58,6 +58,8 @@ cbssports.com###skybox-top-wrapper
 
 ! CNN
 cnn.com##.ad-slot-rail:upward(1)
+cnn.com##.bizdev-lending-tree
+cnn.com##.toast-popup
 cnn.com##div[class="ad ad--epic ad--mobile"]:upward(1)
 
 ! Craigslist
@@ -89,6 +91,9 @@ avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehack
 genius.com##div[class^="AppleMusicPlayer__PositioningContainer"]
 genius.com##div[class^="InreadAdmobile__Container"]
 genius.com##div[class^="StickyBannerAd__Container"]
+
+! Gfycat
+gfycat.com##div[class="share-container share-mobile-container"] > div[style="width: 320px; text-align: center; margin: 10px auto;"]
 
 ! Giphy
 giphy.com##div[class*="OpenInAppContainer"]
