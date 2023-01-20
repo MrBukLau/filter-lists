@@ -148,6 +148,8 @@ chartoo.com###eq
 chartoo.com###fx
 
 ! CNN
+cnn.com##.ad-feedback-link-container
+cnn.com##.related-content--article
 cnn.com##.terms-of-service
 
 ! Costco
