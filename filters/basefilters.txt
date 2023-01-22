@@ -150,6 +150,7 @@ chartoo.com###fx
 ! CNN
 cnn.com##.ad-feedback-link-container
 cnn.com##.related-content--article
+cnn.com##.related-content--video
 cnn.com##.terms-of-service
 
 ! Costco
@@ -276,9 +277,9 @@ iptv345.com##script[src="https://www.sinawap.com/smu/o.js"]:upward(1)
 itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
 itdmusics.com##.e3lan-bottom
-itdmusics.com##.home > .container > .content > center > div[style="width:320px;height:250px"]
 itdmusics.com##.itdmu-widget
 itdmusics.com##a[id$="-adsby"]:upward(1)
+itdmusics.com##script[src^="https://cdn.purpleads.io/agent.js?publisherId="]:upward(1)
 
 ! Kwik
 kwik.cx##.plyr::after
