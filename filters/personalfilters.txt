@@ -91,6 +91,7 @@ open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(Follow)
 open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(Following)
 open.spotify.com##.LayoutResizer__resize-bar
 open.spotify.com##.LKgm9fCDTO7wqig_5U1q[data-testid="rootlist-container"]:style(margin-top: 0px !important;)
+open.spotify.com##.main-view-container__mh-footer-container
 open.spotify.com##.r9YzlaAPnM2LGK97GSfa
 open.spotify.com##.Root__nav-bar:style(width: 230px !important;)
 open.spotify.com##button[data-testid="add-button"][aria-label="Remove from Your Library"]
