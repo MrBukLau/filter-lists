@@ -149,6 +149,7 @@ chartoo.com###fx
 
 ! CNN
 cnn.com##.ad-feedback-link-container
+cnn.com##.factbox_inline-small:has-text(Get our free weekly newsletter)
 cnn.com##.related-content--article
 cnn.com##.related-content--video
 cnn.com##.terms-of-service
@@ -478,3 +479,4 @@ youtube.com###voice-search-button
 youtube.com##.ytp-ce-element
 youtube.com##.ytp-chrome-top-buttons
 youtube.com##.ytp-endscreen-content
+youtube.com##yt-live-chat-viewer-engagement-message-renderer
