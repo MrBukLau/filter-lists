@@ -149,9 +149,10 @@ chartoo.com###fx
 
 ! CNN
 cnn.com##.ad-feedback-link-container
-cnn.com##.factbox_inline-small:has-text(Get our free weekly newsletter)
-cnn.com##.related-content--article
-cnn.com##.related-content--video
+cnn.com##.factbox_inline-small:has-text(/weekly newsletter/i)
+cnn.com##.related-content
+cnn.com##.related-content_without-image
+cnn.com##.RelatedArticle__component
 cnn.com##.terms-of-service
 
 ! Costco
