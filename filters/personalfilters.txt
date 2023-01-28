@@ -19,10 +19,12 @@ m.youtube.com##button[aria-label="Subscribe"]
 m.youtube.com##div[class="slim-video-action-bar-actions slim-video-action-bar-actions-modern slim-video-action-bar-modern-buttons"]:style(padding: 8px !important;)
 m.youtube.com##span[class="c4-tabbed-header-subscriber-count secondary-text"]:style(padding: 0px !important;)
 m.youtube.com##ytm-comments-header-renderer
+reddit.com##.commentspagetools__login
 reddit.com##.communityheader-banner:style(background-color: unset !important; background-image: none !important;)
 reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader__backlink
+reddit.com##.icon-reply2
 reddit.com##.postfooter__share
 reddit.com##.topnav__loginbutton
 reddit.com##button[class="action last"][href]
