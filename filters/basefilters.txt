@@ -55,12 +55,12 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 !---------- Specific Filters ----------!
 !--------------------------------------!
 ! 88Kanqiu
-88kanqiu.*###sidebar-wechat
-88kanqiu.*##.modal-open:style(overflow: auto !important;)
-88kanqiu.*##div[class="modal fade in"]
-88kanqiu.*##div[class="modal-backdrop fade in"]
-88kanqiu.*,gogozb.*,popozhibo.*##.appdown
-88kanqiu.*,gogozb.*,popozhibo.*##.sss-container[data-uuid]
+88kanqiu.*,888kanqiu.*###sidebar-wechat
+88kanqiu.*,888kanqiu.*##.modal-open:style(overflow: auto !important;)
+88kanqiu.*,888kanqiu.*##div[class="modal fade in"]
+88kanqiu.*,888kanqiu.*##div[class="modal-backdrop fade in"]
+88kanqiu.*,888kanqiu.*,gogozb.*,popozhibo.*##.appdown
+88kanqiu.*,888kanqiu.*,gogozb.*,popozhibo.*##.sss-container[data-uuid]
 gogozb.*,popozhibo.*##div[class="modal is-active"]
 
 ! 9Anime
@@ -273,6 +273,9 @@ itdmusics.com##.itdmu-widget
 itdmusics.com##a[id$="-adsby"]:upward(1)
 itdmusics.com##script[src^="https://cdn.purpleads.io/agent.js?publisherId="]:upward(1)
 
+! JD Sports
+jdsports.com###PrivacyPolicyBanner
+
 ! Kwik
 kwik.cx##.plyr::after
 
@@ -376,6 +379,10 @@ oxygen.com##.homepage-section__insider-exclusive
 ! Proton
 proton.me##a[data-testid="cta:upgrade-plan"]
 
+! Quizlet
+quizlet.com##.SetPageEmbeddedAd-wrapper
+quizlet.com##.SetPageEmbeddedAd-wrapper + .SetPageTerms-term:style(margin-top: 0.625rem !important;)
+
 ! Reddit
 reddit.com##+js(ra, data-outbound-url, .outbound)
 reddit.com##+js(set, Object.prototype.allowClickTracking, false)
@@ -460,10 +467,19 @@ twitter.com##[aria-label$="trending now" i]
 twitter.com##[aria-label="who to follow" i]:upward(1)
 twitter.com##div[data-testid="BottomBar"]
 
+! UPCitemdb
+upcitemdb.com##.adsense-ad
+
+! VKontakte
+vk.com##.left_menu_mobile_app_promo_block
+
 ! Writer
 writer.com##+js(rc, om-position-popup, html, stay)
 writer.com##.CampaignType--popup
 writer.com##.get-extension
+
+! Xero
+xero.com##.cmp-experiencefragment--offer-banner
 
 ! YouTube
 youtube.com###voice-search-button
@@ -471,3 +487,6 @@ youtube.com##.ytp-ce-element
 youtube.com##.ytp-chrome-top-buttons
 youtube.com##.ytp-endscreen-content
 youtube.com##yt-live-chat-viewer-engagement-message-renderer
+
+! ZARA
+zara.com##.policy-popup__overlay
