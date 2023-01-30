@@ -55,12 +55,13 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 !---------- Specific Filters ----------!
 !--------------------------------------!
 ! 88Kanqiu
-88kanqiu.*,888kanqiu.*###sidebar-wechat
-88kanqiu.*,888kanqiu.*##.modal-open:style(overflow: auto !important;)
-88kanqiu.*,888kanqiu.*##div[class="modal fade in"]
-88kanqiu.*,888kanqiu.*##div[class="modal-backdrop fade in"]
-88kanqiu.*,888kanqiu.*,gogozb.*,popozhibo.*##.appdown
-88kanqiu.*,888kanqiu.*,gogozb.*,popozhibo.*##.sss-container[data-uuid]
+88kanqiu.*###sidebar-wechat
+88kanqiu.*##.modal-open:style(overflow: auto !important;)
+88kanqiu.*##div[class="modal fade in"]
+88kanqiu.*##div[class="modal-backdrop fade in"]
+88kanqiu.*,gogozb.*,popozhibo.*##.appdown
+88kanqiu.*,gogozb.*,popozhibo.*##.sss-container[data-uuid]
+gogozb.*,popozhibo.*##div[class="modal is-active"]
 
 ! 9Anime
 9anime.*##.adx
@@ -122,24 +123,13 @@ camelcamelcamel.com###primeheader
 camelcamelcamel.com###similar_products
 
 ! CBS Sports
-cbssports.com###hud-container[class*="desktop-view"]:style(top: 0px !important;)
-cbssports.com###sharethrough-ad
-cbssports.com##+js(ra, target, a[href^="/nba/gametracker/"], stay)
-cbssports.com##.Article-seoBox
-cbssports.com##.cbs-site-nav:style(top: 0px !important;)
-cbssports.com##.door-shopping:upward(.container > .row > .row)
-cbssports.com##.game-tracker-body > .mantle-skin[data-component="headerSticky"]:style(margin: 110px 0 0 0 !important;)
-cbssports.com##.gametracker-page > .mantle-skin[data-component="headerSticky"]:style(margin: 110px 0 0 0 !important;)
-cbssports.com##.native-story-ad
-cbssports.com##.nav-network-bar:style(position: static !important;)
-cbssports.com##.Newsletter-container:upward(.article > .Article-bodyContent > .shortcode)
-cbssports.com##.PageLayout--adRail:style(grid-template-columns: none !important;)
-cbssports.com##.sportsline-td
-cbssports.com##.SportslinePromotionContainer
+cbssports.com##+js(rc, PageLayout--videoRail, main[class="PageLayout PageLayout--videoRail"], stay)
+cbssports.com##.AdBlock
+cbssports.com##.gametracker-page > .desktop-view:style(top: 0px !important;)
+cbssports.com##.gametracker-page:has(.desktop-view) > div > .mantle-skin[data-component="headerSticky"]:style(margin: 110px 0 0 0 !important;)
+cbssports.com##.Scoreboard-video:remove()
+cbssports.com##.ScoreboardPage > .Page-shell > .Page-content > .PageLayout > .Page-colMain > .LatestNewsBox
 cbssports.com##.taboola-recommends
-cbssports.com##.ticket-tab
-cbssports.com##.tickets-td
-cbssports.com##div[class^="GamblingPartnerAd"]
 
 ! Chartoo
 chartoo.com###bq
