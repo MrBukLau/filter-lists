@@ -312,6 +312,9 @@ m.youtube.com##.music-metadata-premium-upsell-link
 m.youtube.com##.rich-section-content:has-text(New look, still YouTube)
 m.youtube.com##.searchbox-voice-search-wrapper
 
+! ZARA
+zara.com##.native-app-banner
+
 ! Zillow
 zillow.com###local-app-upsell
 zillow.com###pfs-upsell
