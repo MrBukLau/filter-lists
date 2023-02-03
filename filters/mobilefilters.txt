@@ -68,6 +68,9 @@ craigslist.org##.tryapp
 ! Crunchyroll
 crunchyroll.com#@#div[data-testid="vilos-large_play_pause_button"]
 
+! Designer Shoe Warehouse
+dsw.com##app-cookies-lightbox
+
 ! ESPN
 espn.com##.ad-slot-inview
 espn.com##.AppPromo
@@ -137,6 +140,9 @@ imgur.io##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
 imgur.io##.GalleryInfiniteScroll > div > div:not([class])
 imgur.io##.get-app-block
 
+! J Brand
+jbrandjeans.com##.modal-cookie
+
 ! KidsHealth
 kidshealth.org###kh-partner-ad
 
@@ -161,6 +167,10 @@ myanimelist.net##h2[class="anime-detail head slider mt12"]:has-text(More Anime S
 myanimelist.net##h3[class="header3 pb12"]:has-text(MALxJapan)
 myanimelist.net##h3[class="manga-detail head slider mt12"]:has-text(More Manga Suggestions)
 myanimelist.net##h3[class="manga-detail head slider mt12"]:has-text(More Manga Suggestions) + div[class="slider-outer manga-detail"]
+
+! National Collegiate Athletic Association
+ncaa.com##.mobile-persistent-bottom
+ncaa.com##.sticky-button-section
 
 ! Oxygen
 oxygen.com##.blog-post__ad-wrapper
@@ -240,6 +250,9 @@ reddit.com##xpromo-untagged-content-blocking-modal
 ! Sinclair Broadcast Group
 katu.com##div[class^="interstory_"][class$="_mobile"]
 
+! SingleCare
+singlecare.com##.stickyAppPromoBanner
+
 ! Slickdeals
 slickdeals.net##+js(rc, pushToAppDrawerScrollLock, body, stay)
 slickdeals.net##.bottomFullBar
@@ -276,6 +289,12 @@ m.twitch.tv##div[class^="ScCoreButtonLabel"]:has-text(Open in App)
 ! Twitter
 twitter.com##div[class="css-1dbjc4n r-1iusvr4 r-16y2uox r-97wbjc"]
 
+! U-Haul
+uhaul.com##.download-uhaul-app
+
+! Venmo
+venmo.com##.organisms-layoutContainer-mobileWrapper
+
 ! Walmart
 walmart.com##.alert-bar
 walmart.com##button[data-automation-id="sb-btn-get-the-app"]:upward(2)
@@ -294,6 +313,9 @@ webmd.com##div[id*="mnet-ia-instream-"]
 
 ! Western Hockey League
 whl.ca###app-banner--holder
+
+! Xoom
+xoom.com###ccpaCookieBanner
 
 ! Yahoo
 yahoo.com###app-promo
