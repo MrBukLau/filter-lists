@@ -338,13 +338,14 @@ mygoodstream.pw##div[data-watermark]
 mygoodstream.pw##h5:has-text(Copyright)
 mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
 
+! National Automotive Parts Association
+napaonline.com##div[class="CCPA nol-ui"]
+
 ! National Basketball Association
 nba.com##div[class^="DisplayAd_genericAd_"]
 
-! NBABite
-nbabite.com##.alert
-nbabite.com##.post_tags
-nbabite.com##.twitter-follow-button
+! National Collegiate Athletic Association
+ncaa.com##.footer-ad
 
 ! Nexstar Media Group
 koin.com##.civic-science-container
@@ -470,8 +471,14 @@ twitter.com##div[data-testid="BottomBar"]
 ! UPCitemdb
 upcitemdb.com##.adsense-ad
 
+! Venmo
+venmo.com##.organisms-layoutContainer-desktopWrapper
+
 ! VKontakte
 vk.com##.left_menu_mobile_app_promo_block
+
+! Walmart
+walmart.com##div[data-testid="skyline-ad"]
 
 ! Writer
 writer.com##+js(rc, om-position-popup, html, stay)
