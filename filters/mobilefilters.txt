@@ -227,6 +227,7 @@ reddit.com##.xpromopopup
 reddit.com##.xpromopopuprpl
 reddit.com##.xpromopopuprplnew
 reddit.com##body:style(overflow: auto !important; position: static !important; pointer-events: auto !important; touch-action: auto !important;)
+reddit.com##div[class*="safe-area-inset-bottom"]
 reddit.com##shreddit-ad-post
 reddit.com##shreddit-app:style(padding: var(--shreddit-header-height) 0px 0px !important;)
 reddit.com##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
@@ -258,6 +259,7 @@ slickdeals.net##+js(rc, pushToAppDrawerScrollLock, body, stay)
 slickdeals.net##.bottomFullBar
 slickdeals.net##.bp-p-cashbackDealCardPromo
 slickdeals.net##.mobileAdFluid
+slickdeals.net##.push
 slickdeals.net##.sdModalOverlay
 slickdeals.net##body:style(overflow: auto !important;)
 
