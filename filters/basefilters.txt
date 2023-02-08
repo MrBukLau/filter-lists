@@ -73,6 +73,9 @@ gogozb.*,popozhibo.*##div[class="modal is-active"]
 9gag.com##.signup-list-banner
 9gag.com##.signup-side-banner
 
+! ABC News
+abcnews.go.com##.taboola
+
 ! Advance Publications
 oregonlive.com##.sharebar__bookmark--tooltip
 
@@ -103,11 +106,19 @@ music.apple.com##button[title="Twitter"]
 music.apple.com##div[aria-label="Choose country or region banner"]
 music.apple.com##div[aria-label="国または地域のバナーを選択します"]
 
+! Barcode Spider
+barcodespider.com##.barcode-home > .square > .adv-square:upward(1)
+barcodespider.com##.box-adv
+barcodespider.com##.upc-list > ul > li > .boxads:upward(1)
+
 ! Bed Bath & Beyond
 bedbathandbeyond.com##.modalEOWrapper
 
 ! Best Buy
 bestbuy.com##.embedded-leaderboard
+
+! BESTNHL
+bestnhl.com##.bmpui-ui-watermark
 
 ! Black Friday
 blackfriday.com##.email-signup-sticky
@@ -136,6 +147,9 @@ chartoo.com###bq
 chartoo.com###ej
 chartoo.com###eq
 chartoo.com###fx
+
+! ClutchPoints
+clutchpoints.com##.cafemedia-clutchpoints-header
 
 ! CNN
 cnn.com##.ad-feedback-link-container
@@ -413,6 +427,7 @@ katu.com##div[class*="_adBeforeContent_"]
 slickdeals.net##.announcementBar
 slickdeals.net##.bp-p-slickdealsHeader_disclaimer
 slickdeals.net##.omegaBanner
+slickdeals.net##.slickdealsHeader__disclaimer
 
 ! Slider
 slider.kz###fullwrapper
