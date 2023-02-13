@@ -272,6 +272,7 @@ icelz.newsrade.com##.desktopad:remove()
 icelz.newsrade.com##.mobilead:remove()
 icelz.newsrade.com##.sharethis-inline-share-buttons
 icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
+icelz.newsrade.com##in-page-message
 
 ! IKnowWhatYouDownload
 iknowwhatyoudownload.com##.footer
@@ -282,6 +283,7 @@ iptv345.com##script[src="https://www.sinawap.com/smu/o.js"]:upward(1)
 ! iTD Music
 itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
+itdmusics.com##.content > center > div > script[src^="https://cdn.purpleads.io/agent.js?publisherId="]:upward(2)
 itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget
 itdmusics.com##a[id$="-adsby"]:upward(1)
@@ -426,7 +428,12 @@ katu.com##div[class*="_adBeforeContent_"]
 ! Slickdeals
 slickdeals.net##.announcementBar
 slickdeals.net##.bp-p-slickdealsHeader_disclaimer
+slickdeals.net##.dealAlertRow
+slickdeals.net##.extensionSearchBanner
+slickdeals.net##.mainSearchContent > .searchWrapper > .ab
 slickdeals.net##.omegaBanner
+slickdeals.net##.searchBottomAd
+slickdeals.net##.slickdealsFooter:style(margin-top: 0px !important;)
 slickdeals.net##.slickdealsHeader__disclaimer
 
 ! Slider
