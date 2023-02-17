@@ -190,6 +190,7 @@ espn.com###gamepackage-cliplist:remove()
 espn.com###gamepackage-incontentbetting
 espn.com###gamepackage-news:has-text(NBA News)
 espn.com##.article > .container > .article-body > p > strong > a[href^="https://promo.espn.com/"]:upward(2)
+espn.com##.article-body > p:has-text(Stream on ESPN+: LaLiga, Bundesliga, more)
 espn.com##.Scoreboard:style(max-width: none !important;)
 espn.com##.ScoreboardPage > .PageLayout__RightAside:remove()
 espn.com##.scroll-locked:style(overflow: auto !important;)
@@ -426,10 +427,16 @@ katu.com##div[class*="_adAfterContent_"]
 katu.com##div[class*="_adBeforeContent_"]
 
 ! Slickdeals
+coupons.slickdeals.net##.bp-p-extensionPromoBanner
+coupons.slickdeals.net##.bp-p-newsletterRegistrationForm
+slickdeals.net##.addCommentContainer > .ftcDisclaimer:upward(1)
 slickdeals.net##.announcementBar
+slickdeals.net##.bp-p-cashbackActivationSignupBanner
+slickdeals.net##.bp-p-dealCashbackStatus_wrapper
 slickdeals.net##.bp-p-slickdealsHeader_disclaimer
 slickdeals.net##.dealAlertRow
 slickdeals.net##.extensionSearchBanner
+slickdeals.net##.frontpageSlickdealsGrid__bannerAd
 slickdeals.net##.mainSearchContent > .searchWrapper > .ab
 slickdeals.net##.omegaBanner
 slickdeals.net##.searchBottomAd
