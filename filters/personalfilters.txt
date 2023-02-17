@@ -25,9 +25,13 @@ reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader__backlink
 reddit.com##.icon-reply2
+reddit.com##.m-subscribe
+reddit.com##.overflow-actions-button
 reddit.com##.postfooter__share
 reddit.com##.topnav__loginbutton
 reddit.com##button[class="action last"][href]
+reddit.com##button[slot="overflowButton"]
+reddit.com##div[slot="commentMeta"]:style(margin-bottom: 0.3rem !important;)
 reddit.com##faceplate-tracker[class][source="shreddit_comment_count_button"]
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
 reddit.com##faceplate-tracker[source="nav"][noun="login"]
@@ -41,6 +45,15 @@ reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) 
 reddit.com#@%#(function(){const needle="nightMode";const needles=needle.split(/\s*\|\s*/);let selector="body[class*='sw-body-class']";const addClass=ev=>{if(ev){window.removeEventListener(ev.type,addClass,true);}const nodes=document.querySelectorAll(selector);try{for(const node of nodes){node.classList.add(...needles);}}catch{}};if(document.readyState==="loading"){window.addEventListener("DOMContentLoaded",addClass,true);}else{addClass();}})();
 reddit.com#@%#//scriptlet('remove-class', 'dayMode', 'body[class*="nightMode"]')
 sawlive.tv##.media-control
+slickdeals.net##.addComment
+slickdeals.net##.addCommentButton
+slickdeals.net##.commentReactionsOptions
+slickdeals.net##.dealActions:style(border-bottom: 0px solid #ccc !important;)
+slickdeals.net##.js-inlineReply
+slickdeals.net##.js-questionAndAnswer_askQuestion
+slickdeals.net##.pageWrapper > .details-wrapper > .details-header:has-text(Posted):style(border-bottom: 0px !important;)
+slickdeals.net##.rightRep
+slickdeals.net##div[role="threadrating"]
 !#endif
 
 ! Universal Filters
