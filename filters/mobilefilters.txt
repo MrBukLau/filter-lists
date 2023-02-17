@@ -255,10 +255,16 @@ katu.com##div[class^="interstory_"][class$="_mobile"]
 singlecare.com##.stickyAppPromoBanner
 
 ! Slickdeals
+coupons.slickdeals.net##.bp-c-tooltip
+coupons.slickdeals.net##.bp-p-couponHub_appInstallCTA
+coupons.slickdeals.net##.bp-p-scrollToTopButton
 slickdeals.net##+js(rc, pushToAppDrawerScrollLock, body, stay)
 slickdeals.net##.bottomFullBar
+slickdeals.net##.bp-p-cashbackActivationSignupBanner_wrapper
 slickdeals.net##.bp-p-cashbackDealCardPromo
+slickdeals.net##.ftcDisclaimer
 slickdeals.net##.mobileAdFluid
+slickdeals.net##.newsletterSignUp
 slickdeals.net##.push
 slickdeals.net##.sdModalOverlay
 slickdeals.net##body:style(overflow: auto !important;)
