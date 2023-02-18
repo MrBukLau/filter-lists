@@ -42,7 +42,7 @@
   <a href="https://github.com/MrBukLau/filter-lists/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-181717?style=for-the-badge&logo=github">
   </a>
-  <a href="https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters">
+  <a href="https://adguard.com/kb/general/ad-filtering/create-own-filters/">
     <img src="https://img.shields.io/badge/Syntax-AdGuard-68BC71?style=for-the-badge&logo=adguard">
   </a>
   <a href="https://github.com/gorhill/uBlock/wiki/Static-filter-syntax">
@@ -140,7 +140,7 @@ No further actions are necessary. After adding a filter list from this repositor
 
 <!-- Guide Links -->
 [Content Blockers Guide Link]: https://macrumors.com/how-to/enable-content-blockers-safari/
-[Safari Web Extensions Guide Link]: https://kb.adguard.com/en/ios/safari-web-extension#install
+[Safari Web Extensions Guide Link]: https://adguard.com/kb/adguard-for-ios/web-extension/#how-to-enable-adguards-safari-web-extension
 [uBlock Origin Filter Guide Link]: https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web
 [uBlock Origin Scriptlet Guide Link]: https://xaloez.com/blog/UblockOriginScriptlets/index.html
 
