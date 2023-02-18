@@ -119,6 +119,7 @@ bestbuy.com##.embedded-leaderboard
 
 ! BESTNHL
 bestnhl.com##.bmpui-ui-watermark
+bestnhl.com##.sharethis-inline-share-buttons
 
 ! Black Friday
 blackfriday.com##.email-signup-sticky
@@ -141,6 +142,11 @@ cbssports.com##.gametracker-page:has(.desktop-view) > div > .mantle-skin[data-co
 cbssports.com##.Scoreboard-video:remove()
 cbssports.com##.ScoreboardPage > .Page-shell > .Page-content > .PageLayout > .Page-colMain > .LatestNewsBox
 cbssports.com##.taboola-recommends
+
+! Channel Master
+channelmaster.com##.guide-paging--sticky:style(position: static !important;)
+channelmaster.com##.recommendation-cta
+channelmaster.com##body[class*="-tv-guide-listings-for-"] > #page-content:style(padding: unset !important;)
 
 ! Chartoo
 chartoo.com###bq
