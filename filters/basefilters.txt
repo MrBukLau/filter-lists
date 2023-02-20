@@ -135,6 +135,7 @@ camelcamelcamel.com###primeheader
 camelcamelcamel.com###similar_products
 
 ! CBS Sports
+cbssports.com###cps-shaman-notifier
 cbssports.com##+js(rc, PageLayout--videoRail, main[class="PageLayout PageLayout--videoRail"], stay)
 cbssports.com##.AdBlock
 cbssports.com##.gametracker-page > .desktop-view:style(top: 0px !important;)
@@ -522,6 +523,13 @@ writer.com##.get-extension
 
 ! Xero
 xero.com##.cmp-experiencefragment--offer-banner
+
+! Yahoo
+sports.yahoo.com###sda-WFPAD2
+sports.yahoo.com##.post-article-ad
+sports.yahoo.com##.related-content-lazyload
+sports.yahoo.com##div[class*="adTranslate"][class*="HideBottomBar_"]
+yahoo.com###module-hpsetBanner
 
 ! YouTube
 youtube.com###voice-search-button
