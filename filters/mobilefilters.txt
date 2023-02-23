@@ -107,6 +107,7 @@ goodrx.com##div[data-qa="advertisement"]
 
 ! Google
 google.*###lb:has-text(Access your Google services with one sign-in)
+google.*###lb:has-text(See what’s saved to your account, get recommendations, and more)
 google.*###stUuGf
 google.*##.bB4gff
 google.*##.oSAsx
