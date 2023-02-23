@@ -7,11 +7,12 @@
 !---------- Generic Filters ----------!
 !-------------------------------------!
 ! Cosmetic Filters
-###ad
 ##.remixd-wrapper
 ##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
+||apl210.me/js/pop.js
+||revmasters.com^
 ||torrentmac.net/cdn-cgi/scripts^
 
 ! URL Parameter Filters
@@ -78,6 +79,12 @@ abcnews.go.com##.taboola
 
 ! Advance Publications
 oregonlive.com##.sharebar__bookmark--tooltip
+
+! Aliez
+apl210.me###adbtm
+apl210.me###ads
+apl210.me###stpd
+apl210.me##.adv-ad
 
 ! AniDB
 anidb.net##.hint
@@ -463,7 +470,15 @@ snopes.com##.sidebar_ad
 snopes.com##div[data-piano-show="non-member"]
 
 ! Sport365
+livestream365.com##.vote
+livestream365.com,sport365.stream##.footer
 sport365.stream##.promo
+sport365.stream##.social__icons
+sport365.stream##.stream__cover:upward(2)
+sport365.stream##.stream__description
+
+! SportSurge
+sportsurge.net##.HeaderUyari:upward(#__next > .container)
 
 ! Spotify
 open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Upgrade to Premium)
