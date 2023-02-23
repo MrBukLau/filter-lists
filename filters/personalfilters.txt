@@ -25,6 +25,7 @@ reddit.com##.communityheader-banner:style(background-color: unset !important; ba
 reddit.com##.communityheader-subscribe-button
 reddit.com##.communityheader-subscribe-form
 reddit.com##.communityheader__backlink
+reddit.com##.communityrow__subscriptionbutton
 reddit.com##.icon-reply2
 reddit.com##.m-subscribe
 reddit.com##.overflow-actions-button
@@ -58,7 +59,9 @@ slickdeals.net##div[role="threadrating"]
 !#endif
 
 ! Universal Filters
+accounts.spotify.com###login-to-continue
 accounts.spotify.com##ul[class="sc-gsDKAQ sc-hBUSln kdQBSg eOZPwe"]
+accounts.spotify.com##ul[class="sc-gswNZR sc-hBxehG wKwWn cCMxzB"]
 crunchyroll.com##.erc-up-next-section:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-mini-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
