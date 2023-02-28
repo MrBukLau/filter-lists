@@ -127,6 +127,9 @@ gopuff.com##.jr-smart-banner
 ! Healthline
 healthline.com##.myFinance-ad-unit
 
+! HoopsHype
+hoopshype.com##.mobile-instream-ad-holder
+
 ! IMDb
 m.imdb.com###inlinebottom_inline_wrapper
 m.imdb.com##.footer__app
