@@ -11,8 +11,8 @@
 ##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
+@@||cookielaw.org^$3p
 ||apl210.me/js/pop.js
-||revmasters.com^
 ||torrentmac.net/cdn-cgi/scripts^
 
 ! URL Parameter Filters
@@ -79,6 +79,15 @@ abcnews.go.com##.taboola
 
 ! Advance Publications
 oregonlive.com##.sharebar__bookmark--tooltip
+
+! Albertsons Companies
+albertsons.com,safeway.com##.banner-placeholder
+albertsons.com,safeway.com##.cross-sell-row
+albertsons.com,safeway.com##.marketplace-seller-placeholder
+albertsons.com,safeway.com##.nextgen-banner-unit-proxy
+albertsons.com,safeway.com##.notification-alert
+albertsons.com,safeway.com##div[aria-label="Promo or Ad Banner"]
+albertsons.com,safeway.com##div[data-lazy-function="lazyAdXContent"]
 
 ! Aliez
 apl210.me###adbtm
@@ -198,6 +207,10 @@ discord.com##div[class^="notice-"]:has-text(Get the desktop app!)
 
 ! Drugs
 drugs.com##.ddc-toast-alert
+
+! DuckDuckGo
+duckduckgo.com##.footer
+duckduckgo.com##.js-feedback-btn-wrap
 
 ! ESPN
 espn.com###gamepackage-cliplist:remove()
@@ -439,6 +452,8 @@ signupgenius.com##.sug-notice--privacy
 ! Sinclair Broadcast Group
 katu.com##div[class*="_adAfterContent_"]
 katu.com##div[class*="_adBeforeContent_"]
+katu.com##div[id^="js-Taboola-Container-"]
+katu.com##li[id^="nativeAdContainer_"]
 
 ! Slickdeals
 coupons.slickdeals.net##.bp-p-extensionPromoBanner
@@ -529,6 +544,7 @@ venmo.com##.organisms-layoutContainer-desktopWrapper
 vk.com##.left_menu_mobile_app_promo_block
 
 ! Walmart
+walmart.com##div[data-testid="search-video-in-grid"]:has(span[data-testid="UnfilledAd"]):upward(1)
 walmart.com##div[data-testid="skyline-ad"]
 
 ! Writer
