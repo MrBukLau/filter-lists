@@ -72,6 +72,9 @@ crunchyroll.com#@#div[data-testid="vilos-large_play_pause_button"]
 ! Designer Shoe Warehouse
 dsw.com##app-cookies-lightbox
 
+! DuckDuckGo
+duckduckgo.com##.footer--mobile
+
 ! ESPN
 espn.com##.ad-slot-inview
 espn.com##.AppPromo
