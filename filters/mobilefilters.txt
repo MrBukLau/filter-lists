@@ -74,6 +74,7 @@ dsw.com##app-cookies-lightbox
 
 ! DuckDuckGo
 duckduckgo.com##.footer--mobile
+duckduckgo.com##.js-tag-home
 
 ! ESPN
 espn.com##.ad-slot-inview
