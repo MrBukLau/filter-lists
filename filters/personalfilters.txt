@@ -60,8 +60,7 @@ slickdeals.net##div[role="threadrating"]
 
 ! Universal Filters
 accounts.spotify.com###login-to-continue
-accounts.spotify.com##ul[class="sc-gsDKAQ sc-hBUSln kdQBSg eOZPwe"]
-accounts.spotify.com##ul[class="sc-gswNZR sc-hBxehG wKwWn cCMxzB"]
+accounts.spotify.com##button[data-testid="facebook-login"]:upward(div[data-testid="login-container"] > ul)
 crunchyroll.com##.erc-up-next-section:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-mini-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
 crunchyroll.com##a[class^="playable-card-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
