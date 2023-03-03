@@ -414,6 +414,11 @@ onhockey.tv##table[width="1278"][height="60"][border="0"][cols="3"][cellpadding=
 online-audio-converter.com###allapps-extension-popup
 online-audio-converter.com##.like_row
 
+! OnlineSIM
+onlinesim.io##.cookie
+onlinesim.io##.country-helper
+onlinesim.io##.number-helper
+
 ! Oxygen
 oxygen.com##.blog-post-section__insider-exclusive
 oxygen.com##.blog-post__related-content
