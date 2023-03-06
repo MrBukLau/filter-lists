@@ -30,7 +30,6 @@
 
 ! Amazon
 amazon.com##.sparkle-container
-amazon.com##span[data-action="swf-share-btn"]
 
 ! AutoZone
 autozone.com##._3f3af7
