@@ -13,6 +13,7 @@
 ! Network Filters
 @@||cookielaw.org^$3p
 ||apl210.me/js/pop.js
+||discovernative.com^
 ||torrentmac.net/cdn-cgi/scripts^
 
 ! URL Parameter Filters
@@ -171,6 +172,9 @@ chartoo.com###ej
 chartoo.com###eq
 chartoo.com###fx
 
+! CHP Adblock Detector
+chpadblock.com##+js(acis, chp_adblock_browser)
+
 ! ClutchPoints
 clutchpoints.com##.cafemedia-clutchpoints-header
 
@@ -311,6 +315,7 @@ iptv345.com##script[src="https://www.sinawap.com/smu/o.js"]:upward(1)
 ! iTD Music
 itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
+itdmusics.com##+js(acis, advadsTracker)
 itdmusics.com##.content > center > div > script[src^="https://cdn.purpleads.io/agent.js?publisherId="]:upward(2)
 itdmusics.com##.e3lan-bottom
 itdmusics.com##.itdmu-widget
@@ -330,6 +335,11 @@ lyrical-nonsense.com##.matchedsidebarhome
 lyrical-nonsense.com##.playblockbtm
 lyrical-nonsense.com##.playblocktop
 lyrical-nonsense.com##div[class^="responsive"][class$="inc"]
+
+! Major League Soccer
+mlssoccer.com##.mls-c-ledeblock__overlap:style(padding: 24px 0 0 !important;)
+mlssoccer.com##.mls-o-adv-container
+mlssoccer.com##div[class="d3-l-grid--outer d3-l-section-row -main-section"]:style(margin-top: unset !important;)
 
 ! Mojo Sakun
 controlc.com##a[href^="http://redact.dev"]:upward(2)
@@ -387,6 +397,7 @@ napaonline.com##div[class="CCPA nol-ui"]
 
 ! National Basketball Association
 nba.com##div[class^="DisplayAd_genericAd_"]
+nba.com##div[class^="TuneInBanner_"]
 
 ! National Collegiate Athletic Association
 ncaa.com##.footer-ad
