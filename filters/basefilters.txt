@@ -151,7 +151,7 @@ camelcamelcamel.com###camelizer_top_promo
 camelcamelcamel.com###primeheader
 camelcamelcamel.com###similar_products
 
-! CBS Sports
+! CBS
 cbssports.com###cps-shaman-notifier
 cbssports.com##+js(rc, PageLayout--videoRail, main[class="PageLayout PageLayout--videoRail"], stay)
 cbssports.com##.AdBlock
@@ -165,12 +165,6 @@ cbssports.com##.taboola-recommends
 channelmaster.com##.guide-paging--sticky:style(position: static !important;)
 channelmaster.com##.recommendation-cta
 channelmaster.com##body[class*="-tv-guide-listings-for-"] > #page-content:style(padding: unset !important;)
-
-! Chartoo
-chartoo.com###bq
-chartoo.com###ej
-chartoo.com###eq
-chartoo.com###fx
 
 ! CHP Adblock Detector
 chpadblock.com##+js(acis, chp_adblock_browser)
@@ -234,13 +228,6 @@ fandom.com###mixed-content-footer
 fandom.com###SurveyModule
 fandom.com##.featured-video-player-container:remove()
 fandom.com##div[class^="render-wiki-recommendations"]
-
-! Flashscore
-flashscore.com###box-over-content-detail
-flashscore.com##.adsbackground-wrapper
-flashscore.com##.detailLeaderboard
-flashscore.com##.extraContent
-flashscore.com##.seoAdWrapper
 
 ! Free MP3 Download
 free-mp3-download.net###toast-container
@@ -521,9 +508,6 @@ open.spotify.com#@#div > div[aria-live="polite"]
 
 ! Spotify Release List
 spotifyreleaselist.netlify.app###ua
-
-! StreamingSites
-streamingsites.com##.best-sites-component
 
 ! Target
 target.com##div[class*="_PubAdWrapper-"]:upward(1)
