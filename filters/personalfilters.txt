@@ -6,8 +6,8 @@
 ! iOS Filters
 !#if adguard_app_ios
 blazersedge.com,sbnation.com,stumptownfooty.com##rect[x="674.1"][width="50.5"][height="137.7"]:style(fill: white !important;)
-gist.github.com##.gisthead
 gist.github.com##.Header
+gist.github.com##.gisthead
 m.youtube.com##+js(rc, yt-spec-button-shape-next--segmented-start, button[aria-label^="like this video"][class="yt-spec-button-shape-next yt-spec-button-shape-next--tonal yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-m yt-spec-button-shape-next--icon-leading yt-spec-button-shape-next--segmented-start"], stay)
 m.youtube.com##.mobile-topbar-header-sign-in-button
 m.youtube.com##.slim-owner-subscribe-button
@@ -20,6 +20,10 @@ m.youtube.com##button[aria-label="Subscribe"]
 m.youtube.com##div[class="slim-video-action-bar-actions slim-video-action-bar-actions-modern slim-video-action-bar-modern-buttons"]:style(padding: 8px !important;)
 m.youtube.com##span[class="c4-tabbed-header-subscriber-count secondary-text"]:style(padding: 0px !important;)
 m.youtube.com##ytm-comments-header-renderer
+reddit.com##+js(ra, icon, shreddit-post, stay)
+reddit.com##+js(ra, is-shredtop-pdp, shreddit-post, stay)
+reddit.com##+js(ra, with-content-tags, shreddit-post, stay)
+reddit.com##+js(ra, without-overflow-actions-menu, shreddit-post, stay)
 reddit.com##.commentspagetools__login
 reddit.com##.communityheader-banner:style(background-color: unset !important; background-image: none !important;)
 reddit.com##.communityheader-subscribe-button
@@ -30,13 +34,15 @@ reddit.com##.icon-reply2
 reddit.com##.m-subscribe
 reddit.com##.overflow-actions-button
 reddit.com##.postfooter__share
+reddit.com##.signupdrawer
 reddit.com##.topnav__loginbutton
 reddit.com##button[class="action last"][href]
 reddit.com##button[slot="overflowButton"]
 reddit.com##div[slot="commentMeta"]:style(margin-bottom: 0.3rem !important;)
 reddit.com##faceplate-tracker[class][source="shreddit_comment_count_button"]
+reddit.com##faceplate-tracker[noun="login"][source="nav"]
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
-reddit.com##faceplate-tracker[source="nav"][noun="login"]
+reddit.com##faceplate-tracker[noun="user_avatar"][source="post_credit_bar"]
 reddit.com##reddit-header-overflow-menu
 reddit.com##shreddit-comment[class="top-level"]:style(border-top: 4px solid var(--color-tone-5) !important; padding: 0.8rem 1rem 0.4rem !important;)
 reddit.com##shreddit-flair
