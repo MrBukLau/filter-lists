@@ -210,9 +210,11 @@ reddit.com##.lb-header
 reddit.com##.m-blurred:style(filter: none !important;)
 reddit.com##.navframe:style(overflow: auto !important;)
 reddit.com##.paginationbuttons:style(padding: 0px 16px 0px !important;)
+reddit.com##.pb-xl:style(padding-bottom: unset !important;)
 reddit.com##.postcontent__img[src]:style(object-fit: contain !important;)
 reddit.com##.previewdrawer
 reddit.com##.prompt
+reddit.com##.right-sidebar:has-text(More posts you may like)
 reddit.com##.scroll-disabled:style(overflow: auto !important; position: static !important;)
 reddit.com##.scroll-is-blocked:style(overflow: auto !important; position: static !important;)
 reddit.com##.shreddit-pagination:style(margin-bottom: 0px !important; padding: 0rem 1rem 0.5rem !important;)
@@ -245,6 +247,7 @@ reddit.com##shreddit-async-loader[bundlename="rpl_continue_chat_in_app"]
 reddit.com##shreddit-async-loader[bundlename="top_button"][paint-group="xpromo"]
 reddit.com##shreddit-comments-page-ad
 reddit.com##shreddit-experience-tree
+reddit.com##shreddit-overlay-display:remove()
 reddit.com##shreddit-post[view-context^="ListingBelow"][view-context$="Posts"]
 reddit.com##shreddit-rereddit-promo
 reddit.com##slot[name="use-app"]
