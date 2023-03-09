@@ -24,6 +24,9 @@ reddit.com##+js(ra, icon, shreddit-post, stay)
 reddit.com##+js(ra, is-shredtop-pdp, shreddit-post, stay)
 reddit.com##+js(ra, with-content-tags, shreddit-post, stay)
 reddit.com##+js(ra, without-overflow-actions-menu, shreddit-post, stay)
+reddit.com##._1E9mcoVn4MYnuBQSVDt1gC
+reddit.com##._2rszc84L136gWQrkwH6IaM:style(padding: unset !important;)
+reddit.com##._3MmwvEEt6fv5kQPFCVJizH
 reddit.com##.commentspagetools__login
 reddit.com##.communityheader-banner:style(background-color: unset !important; background-image: none !important;)
 reddit.com##.communityheader-subscribe-button
@@ -32,12 +35,16 @@ reddit.com##.communityheader__backlink
 reddit.com##.communityrow__subscriptionbutton
 reddit.com##.icon-reply2
 reddit.com##.m-subscribe
+reddit.com##.OccjSdFd6HkHhShRg6DOl
 reddit.com##.overflow-actions-button
 reddit.com##.postfooter__share
 reddit.com##.signupdrawer
 reddit.com##.topnav__loginbutton
+reddit.com##.Zo-DKBkkLRYQJrXWLL0uI
 reddit.com##button[class="action last"][href]
 reddit.com##button[slot="overflowButton"]
+reddit.com##div[data-adclicklocation="fl_unknown"]
+reddit.com##div[id$="-share-menu"]
 reddit.com##div[slot="commentMeta"]:style(margin-bottom: 0.3rem !important;)
 reddit.com##faceplate-tracker[class][source="shreddit_comment_count_button"]
 reddit.com##faceplate-tracker[noun="login"][source="nav"]
