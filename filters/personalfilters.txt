@@ -8,6 +8,7 @@
 blazersedge.com,sbnation.com,stumptownfooty.com##rect[x="674.1"][width="50.5"][height="137.7"]:style(fill: white !important;)
 gist.github.com##.gisthead
 gist.github.com##.Header
+i.redd.it##faceplate-tracker[noun="login"][source="cdnlanding"]
 m.youtube.com##+js(rc, yt-spec-button-shape-next--segmented-start, button[aria-label^="like this video"][class="yt-spec-button-shape-next yt-spec-button-shape-next--tonal yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-m yt-spec-button-shape-next--icon-leading yt-spec-button-shape-next--segmented-start"], stay)
 m.youtube.com##.mobile-topbar-header-sign-in-button
 m.youtube.com##.slim-owner-subscribe-button
