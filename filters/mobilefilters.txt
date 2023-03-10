@@ -194,6 +194,7 @@ platt.com##main[class="v-main"][style="padding: 188px 0px 0px;"]:style(padding: 
 quora.com##button[type="button"]:has-text(Open in App)
 
 ! Reddit
+i.redd.it##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
 reddit.com###post-image:style(margin-bottom: 0rem !important;)
 reddit.com###use-app
