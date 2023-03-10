@@ -56,6 +56,14 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 !--------------------------------------!
 !---------- Specific Filters ----------!
 !--------------------------------------!
+! 2K Ratings
+2kratings.com##.inline-rectangle-adx
+2kratings.com##.mobile-leaderboard-adx
+2kratings.com##.mobile-only-adx
+2kratings.com##.nmm-ad-wrapper
+2kratings.com##.outside-wrapper > .inside-wrapper > .wrapper:style(padding-bottom: unset !important;)
+2kratings.com##.takeover-alert
+
 ! 88Kanqiu
 88kanqiu.*,888kanqiu.*###sidebar-wechat
 88kanqiu.*,888kanqiu.*##.modal-open:style(overflow: auto !important;)
