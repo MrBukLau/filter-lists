@@ -115,6 +115,7 @@ appdb.to##.banner
 appdb.to##.vue-notification-group
 
 ! Apple Music
+embed.music.apple.com##embed-upsell-overlay
 music.apple.com##.commerce-modal-container:upward(.portal)
 music.apple.com##.navigation__native-cta
 music.apple.com##.upsell-banner
@@ -203,6 +204,9 @@ discord.com##div[class*="channelNotice"]
 discord.com##div[class^="card-"]:has-text(We can customize Active Now, and other parts of Discord, based on information like who you talk to and what games you play.)
 discord.com##div[class^="notice-"]:has-text(Get the desktop app!)
 
+! Disqus
+disqus.com###comment-policy
+
 ! Drugs
 drugs.com##.ddc-toast-alert
 
@@ -276,6 +280,8 @@ greasyfork.org##.ad
 ! Hikarinoakariost
 hikarinoakari.com###ays_tooltip
 hikarinoakari.com##.td-header-top-menu-full
+hikarinoakari.com##.td-post-sharing-bottom
+hikarinoakari.com##.td-post-sharing-top
 hikarinoakari.com##.td_block_related_posts
 hikarinoakari.com##.tdc-content-wrap
 hikarinoakari.com##.thanks_button_div
@@ -300,14 +306,17 @@ iknowwhatyoudownload.com##.footer
 iptv345.com##script[src="https://www.sinawap.com/smu/o.js"]:upward(1)
 
 ! iTD Music
+itdmusic.top###footer
 itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
+itdmusic.top##.commentcount
 itdmusics.com##+js(acis, advadsTracker)
-itdmusics.com##.content > center > div > script[src^="https://cdn.purpleads.io/agent.js?publisherId="]:upward(2)
+itdmusics.com##.comment-avatar
 itdmusics.com##.e3lan-bottom
+itdmusics.com##.e3lan-post
+itdmusics.com##.home > .container > .content > center
 itdmusics.com##.itdmu-widget
-itdmusics.com##a[id$="-adsby"]:upward(1)
-itdmusics.com##script[src^="https://cdn.purpleads.io/agent.js?publisherId="]:upward(1)
+itdmusics.com##.share-post
 
 ! JD Sports
 jdsports.com###PrivacyPolicyBanner
@@ -335,6 +344,8 @@ mojosakun.blogspot.com###HTML99
 mojosakun.blogspot.com###Image5
 mojosakun.blogspot.com###related-wrap
 mojosakun.blogspot.com##+js(acs, document.oncontextmenu)
+mojosakun.blogspot.com##.post-nav
+mojosakun.blogspot.com##.post-share
 
 ! Music Clutter
 musiclutter.xyz###footer-wrapper > .row
@@ -345,6 +356,7 @@ musiclutter.xyz##+js(ra, target, a, stay)
 musiclutter.xyz##.featured
 musiclutter.xyz##.FeaturedPost
 musiclutter.xyz##.ib-nav
+musiclutter.xyz##.share-box
 
 ! MyAnimeList
 myanimelist.net###broadcast-block
