@@ -113,6 +113,7 @@ goodrx.com##div[data-qa="advertisement"]
 google.*###lb:has-text(Stay signed out)
 google.*###stUuGf
 google.*##.bB4gff
+google.*##.dRYYxd
 google.*##.oSAsx
 google.*##.torspo_view__follow-button
 google.*##.zU3lCe
