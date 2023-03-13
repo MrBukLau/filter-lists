@@ -486,6 +486,7 @@ slickdeals.net##.announcementBar
 slickdeals.net##.bp-p-cashbackActivationSignupBanner
 slickdeals.net##.bp-p-dealCashbackStatus_wrapper
 slickdeals.net##.bp-p-slickdealsHeader_disclaimer
+slickdeals.net##.commentsAd
 slickdeals.net##.dealAlertRow
 slickdeals.net##.extensionSearchBanner
 slickdeals.net##.frontpageSlickdealsGrid__bannerAd
@@ -498,6 +499,9 @@ slickdeals.net##.slickdealsHeader__disclaimer
 ! Slider
 slider.kz###fullwrapper
 slider.kz###r_bash
+
+! SmallNetBuilder Forums
+snbforums.com##.notices
 
 ! Snopes
 snopes.com###related_badgetype_articles
