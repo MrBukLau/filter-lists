@@ -26,6 +26,7 @@ reddit.com##+js(ra, is-shredtop-pdp, shreddit-post, stay)
 reddit.com##+js(ra, with-content-tags, shreddit-post, stay)
 reddit.com##+js(ra, without-overflow-actions-menu, shreddit-post, stay)
 reddit.com##._1E9mcoVn4MYnuBQSVDt1gC
+reddit.com##._2mbxhmh6lyncpagzpjzyfn:style(background: none !important;)
 reddit.com##._2rszc84L136gWQrkwH6IaM:style(padding: unset !important;)
 reddit.com##._3MmwvEEt6fv5kQPFCVJizH
 reddit.com##.commentspagetools__login
@@ -38,6 +39,8 @@ reddit.com##.icon-reply2
 reddit.com##.m-subscribe
 reddit.com##.OccjSdFd6HkHhShRg6DOl
 reddit.com##.overflow-actions-button
+reddit.com##.overlaymenu > .overlaymenu-ul > ._26dt6ipeyqmadkdci_sxey
+reddit.com##.overlaymenu > .overlaymenu-ul > .e-six8ipezo23vlhqqfc2
 reddit.com##.postfooter__share
 reddit.com##.signupdrawer
 reddit.com##.topnav__loginbutton
@@ -48,7 +51,9 @@ reddit.com##div[data-adclicklocation="fl_unknown"]
 reddit.com##div[id$="-share-menu"]
 reddit.com##div[slot="commentMeta"]:style(margin-bottom: 0.3rem !important;)
 reddit.com##faceplate-tracker[class][source="shreddit_comment_count_button"]
+reddit.com##faceplate-tracker[noun="hamburger_menu"][source="nav"]
 reddit.com##faceplate-tracker[noun="login"][source="nav"]
+reddit.com##faceplate-tracker[noun="reddit_logo"][source="nav"]:style(padding-left: 12px !important;)
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
 reddit.com##faceplate-tracker[noun="user_avatar"][source="post_credit_bar"]
 reddit.com##reddit-header-overflow-menu
