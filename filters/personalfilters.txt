@@ -21,14 +21,11 @@ m.youtube.com##button[aria-label="Subscribe"]
 m.youtube.com##div[class="slim-video-action-bar-actions slim-video-action-bar-actions-modern slim-video-action-bar-modern-buttons"]:style(padding: 8px !important;)
 m.youtube.com##span[class="c4-tabbed-header-subscriber-count secondary-text"]:style(padding: 0px !important;)
 m.youtube.com##ytm-comments-header-renderer
-reddit.com##+js(ra, icon, shreddit-post, stay)
-reddit.com##+js(ra, is-shredtop-pdp, shreddit-post, stay)
-reddit.com##+js(ra, with-content-tags, shreddit-post, stay)
-reddit.com##+js(ra, without-overflow-actions-menu, shreddit-post, stay)
 reddit.com##._1E9mcoVn4MYnuBQSVDt1gC
 reddit.com##._2mbxhmh6lyncpagzpjzyfn:style(background: none !important;)
 reddit.com##._2rszc84L136gWQrkwH6IaM:style(padding: unset !important;)
 reddit.com##._3MmwvEEt6fv5kQPFCVJizH
+reddit.com##.button:style(border-color: transparent !important;)
 reddit.com##.commentspagetools__login
 reddit.com##.communityheader-banner:style(background-color: unset !important; background-image: none !important;)
 reddit.com##.communityheader-subscribe-button
@@ -43,24 +40,34 @@ reddit.com##.overlaymenu > .overlaymenu-ul > ._26dt6ipeyqmadkdci_sxey
 reddit.com##.overlaymenu > .overlaymenu-ul > .e-six8ipezo23vlhqqfc2
 reddit.com##.postfooter__share
 reddit.com##.signupdrawer
+reddit.com##.Subreddit__CommunityLink
+reddit.com##.SubredditUnit
 reddit.com##.topnav__loginbutton
 reddit.com##.Zo-DKBkkLRYQJrXWLL0uI
 reddit.com##button[class="action last"][href]
 reddit.com##button[slot="overflowButton"]
+reddit.com##button[slot="share"]
+reddit.com##div[class^="flex flex-row items-center flex-nowrap overflow-hidden justify-start h-2xl mt-md"][class$="px-md xs:px-0"] > span + button + button
 reddit.com##div[data-adclicklocation="fl_unknown"]
 reddit.com##div[id$="-share-menu"]
 reddit.com##div[slot="commentMeta"]:style(margin-bottom: 0.3rem !important;)
-reddit.com##faceplate-tracker[class][source="shreddit_comment_count_button"]
+reddit.com##faceplate-partial[class="mx-md xs:mx-0"][src^="/svc/shreddit/more-comments/"]:style(padding-top: 0.8rem !important; padding-bottom: 1rem !important;)
+reddit.com##faceplate-tracker[noun="button"][source="shreddit_comment_count_button"]
 reddit.com##faceplate-tracker[noun="hamburger_menu"][source="nav"]
 reddit.com##faceplate-tracker[noun="login"][source="nav"]
-reddit.com##faceplate-tracker[noun="reddit_logo"][source="nav"]:style(padding-left: 12px !important;)
+reddit.com##faceplate-tracker[noun="reddit_logo"][source="nav"]:style(padding-left: 0.8rem !important;)
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
+reddit.com##faceplate-tracker[noun="sorting"][source="comment_sort"] + hr
+reddit.com##faceplate-tracker[noun="sorting"][source="comment_sort"] + hr + span
+reddit.com##faceplate-tracker[noun="sorting"][source="comment_sort"]:style(padding-left: 0.5rem !important;)
 reddit.com##faceplate-tracker[noun="user_avatar"][source="post_credit_bar"]
 reddit.com##reddit-header-overflow-menu
 reddit.com##shreddit-comment[class="top-level"]:style(border-top: 4px solid var(--color-tone-5) !important; padding: 0.8rem 1rem 0.4rem !important;)
 reddit.com##shreddit-flair
 reddit.com##shreddit-join-button
 reddit.com##shreddit-join-link
+reddit.com##shreddit-post > div[slot="commentsPagePostDescriptor"] > div + div
+reddit.com##shreddit-post > div[slot="commentsPagePostDescriptor"]:style(padding-bottom: 1rem !important;)
 reddit.com##shreddit-profile-actions
 reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) !important; background-image: none !important;)
 reddit.com#@%#(function(){const needle="nightMode";const needles=needle.split(/\s*\|\s*/);let selector="body[class*='sw-body-class']";const addClass=ev=>{if(ev){window.removeEventListener(ev.type,addClass,true);}const nodes=document.querySelectorAll(selector);try{for(const node of nodes){node.classList.add(...needles);}}catch{}};if(document.readyState==="loading"){window.addEventListener("DOMContentLoaded",addClass,true);}else{addClass();}})();
