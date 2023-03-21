@@ -13,7 +13,7 @@
 ! Network Filters
 @@||cookielaw.org^$3p
 ||apl210.me/js/pop.js
-||discovernative.com^
+||drakescans.com/wp-content/plugins/deblocker^
 ||torrentmac.net/cdn-cgi/scripts^
 
 ! URL Parameter Filters
@@ -182,8 +182,11 @@ chpadblock.com##+js(acis, chp_adblock_browser)
 clutchpoints.com##.cafemedia-clutchpoints-header
 
 ! CNN
+cnn.com##.ad--desktop:upward(.zn > .zn__background--content-relative > .zn__containers > .column):remove()
 cnn.com##.ad-feedback-link-container
 cnn.com##.factbox_inline-small:has-text(/weekly newsletter/i)
+cnn.com##.OUTBRAIN:upward(.zn-homepage4-zone-2)
+cnn.com##.OUTBRAIN:upward(.zn-homepage4-zone-3)
 cnn.com##.related-content
 cnn.com##.related-content_without-image
 cnn.com##.RelatedArticle__component
@@ -539,6 +542,15 @@ target.com#@#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:has-tex
 
 ! TEGNA
 kgw.com##.article__section_type_ad
+
+! Temp Mail
+tempmail.ninja###banner_ad
+tempmail.ninja###billaboard-ad
+tempmail.ninja###email-info-ad
+tempmail.ninja###lateral-ads
+tempmail.ninja###notifications
+tempmail.ninja##+js(nobab)
+tempmail.ninja##.col-lg-7:style(width: auto !important;)
 
 ! The Index
 theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
