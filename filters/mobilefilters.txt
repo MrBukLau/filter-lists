@@ -114,9 +114,9 @@ google.*###lb:has-text(Stay signed out)
 google.*###stUuGf
 google.*##.bB4gff
 google.*##.dRYYxd
-google.*##.IpDT1d
 google.*##.oSAsx
 google.*##.torspo_view__follow-button
+google.*##.WP2UGe
 google.*##.zU3lCe
 google.*##body:style(overflow: auto !important; position: static !important;)
 google.*##div[class="imso-hide-loading O8LF7c IvuoRc"]
