@@ -149,6 +149,8 @@ imgur.io##.Gallery-moreOnImgur
 imgur.io##.GalleryInfiniteScroll > div > .GalleryHandler-postContainer + div
 imgur.io##.GalleryInfiniteScroll > div > div:not([class])
 imgur.io##.get-app-block
+imgur.io##.SeeImgurOIA-container
+imgur.io##.SeeImgurOIA-overlay
 
 ! J Brand
 jbrandjeans.com##.modal-cookie
