@@ -13,7 +13,6 @@
 ! Network Filters
 @@||cookielaw.org^$3p
 ||apl210.me/js/pop.js
-||drakescans.com/wp-content/plugins/deblocker^
 ||torrentmac.net/cdn-cgi/scripts^
 
 ! URL Parameter Filters
@@ -180,10 +179,18 @@ chpadblock.com##+js(acis, chp_adblock_browser)
 
 ! ClutchPoints
 clutchpoints.com##.cafemedia-clutchpoints-header
+clutchpoints.com##.widget-wrapper:has-text(/RECOMMENDED/)
+clutchpoints.com##script[src^="https://live.primis.tech/live/liveView.php"][src$="%%CACHEBUSTER%%"]:upward(1)
 
 ! CNN
 cnn.com##.ad--desktop:upward(.zn > .zn__background--content-relative > .zn__containers > .column):remove()
 cnn.com##.ad-feedback-link-container
+cnn.com##.Ad__component:upward(.Article__component > .Article__zone > .Article__zone)
+cnn.com##.Article__adRailBottom
+cnn.com##.Article__adRailTop
+cnn.com##.Article__outbrainRightRail
+cnn.com##.Article__partnerLinksRightRail
+cnn.com##.Article__promo
 cnn.com##.factbox_inline-small:has-text(/weekly newsletter/i)
 cnn.com##.OUTBRAIN:upward(.zn-homepage4-zone-2)
 cnn.com##.OUTBRAIN:upward(.zn-homepage4-zone-3)
@@ -217,6 +224,11 @@ discord.com##div[class^="notice-"]:has-text(Get the desktop app!)
 
 ! Disqus
 disqus.com###comment-policy
+
+! Drake Scans
+drakescans.com##+js(rc, mdpDeblocker-blur, body, stay)
+drakescans.com##+js(rc, mdpDeblocker-style-compact, body, stay)
+drakescans.com##.read-container > span[style="display:hidden"]
 
 ! Drugs
 drugs.com##.ddc-toast-alert
@@ -544,13 +556,17 @@ target.com#@#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:has-tex
 kgw.com##.article__section_type_ad
 
 ! Temp Mail
+tempmail.ninja###article
+tempmail.ninja###article + hr
 tempmail.ninja###banner_ad
 tempmail.ninja###billaboard-ad
 tempmail.ninja###email-info-ad
+tempmail.ninja###intro
 tempmail.ninja###lateral-ads
 tempmail.ninja###notifications
 tempmail.ninja##+js(nobab)
-tempmail.ninja##.col-lg-7:style(width: auto !important;)
+tempmail.ninja##.col-lg-5:style(width: 100% !important;)
+tempmail.ninja##.col-lg-7:style(width: 100% !important;)
 
 ! The Index
 theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
