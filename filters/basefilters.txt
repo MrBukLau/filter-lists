@@ -183,7 +183,7 @@ clutchpoints.com##.widget-wrapper:has-text(/RECOMMENDED/)
 clutchpoints.com##script[src^="https://live.primis.tech/live/liveView.php"][src$="%%CACHEBUSTER%%"]:upward(1)
 
 ! CNN
-cnn.com##.ad--desktop:upward(.zn > .zn__background--content-relative > .zn__containers > .column):remove()
+cnn.com##.ad--desktop
 cnn.com##.ad-feedback-link-container
 cnn.com##.Ad__component:upward(.Article__component > .Article__zone > .Article__zone)
 cnn.com##.Article__adRailBottom
@@ -191,13 +191,18 @@ cnn.com##.Article__adRailTop
 cnn.com##.Article__outbrainRightRail
 cnn.com##.Article__partnerLinksRightRail
 cnn.com##.Article__promo
+cnn.com##.cn-zoneAdContainer:upward(.zn > .zn__background--content-relative > .zn__containers > .column):remove()
 cnn.com##.factbox_inline-small:has-text(/weekly newsletter/i)
+cnn.com##.lt-widget-iframe
 cnn.com##.OUTBRAIN:upward(.zn-homepage4-zone-2)
 cnn.com##.OUTBRAIN:upward(.zn-homepage4-zone-3)
 cnn.com##.related-content
 cnn.com##.related-content_without-image
 cnn.com##.RelatedArticle__component
+cnn.com##.Showcase__component
+cnn.com##.SpecialArticle__relatedTail:upward(.special-article > .SpecialArticle__component > .SpecialArticle__tail)
 cnn.com##.terms-of-service
+cnn.com##h2[data-analytics="Paid Partner Content_list-xs_"]:upward(.zn > .zn__background--content-relative > .zn__containers > .column):remove()
 
 ! Costco
 costco.com###email-popup-title
