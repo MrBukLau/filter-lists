@@ -33,8 +33,8 @@
         selector = `[${tokens.join("],[")}]`;
     }
     const behavior = "{{4}}";
+    let timer = undefined;
     const setattr = () => {
-        let timer = undefined;
         const nodes = document.querySelectorAll(selector);
         try {
             for (const node of nodes) {
@@ -94,11 +94,11 @@
         });
     };
     if (document.readyState !== "complete" && /\bcomplete\b/.test(behavior)) {
-        window.addEventListener("load", start, {
+        self.addEventListener("load", start, {
             once: true
         });
     } else if (document.readyState === "loading") {
-        window.addEventListener("DOMContentLoaded", start, {
+        self.addEventListener("DOMContentLoaded", start, {
             once: true
         });
     } else {
