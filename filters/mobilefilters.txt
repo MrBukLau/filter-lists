@@ -58,10 +58,13 @@ cbsnews.com###smart-banner-download
 cbssports.com###skybox-top-wrapper
 
 ! CNN
+cnn.com##.ad--mobile
 cnn.com##.ad-slot-rail:upward(1)
+cnn.com##.BasicArticle__outbrainMain
 cnn.com##.bizdev-lending-tree
+cnn.com##.OUTBRAIN:upward(.zn > .zn__background--content-relative > .zn__containers > .column)
 cnn.com##.toast-popup
-cnn.com##div[class="ad ad--epic ad--mobile"]:upward(1)
+cnn.com##.ym:upward(.story > .BasicArticle__component > .BasicArticle__zone)
 
 ! Craigslist
 craigslist.org##.tryapp
