@@ -34,7 +34,7 @@
     }
     const behavior = "{{4}}";
     let timer = undefined;
-    const setattr = () => {
+    const setattr = function() {
         const nodes = document.querySelectorAll(selector);
         try {
             for (const node of nodes) {
@@ -46,7 +46,7 @@
             }
         } catch {}
     };
-    const mutationHandler = mutations => {
+    const mutationHandler = mutations() {
         if (timer !== undefined) {
             return;
         }
@@ -80,7 +80,7 @@
             timeout: 10
         });
     };
-    const start = () => {
+    const start = function() {
         setattr();
         if (/\bloop\b/.test(behavior) === false) {
             return;
