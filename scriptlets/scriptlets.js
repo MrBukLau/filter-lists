@@ -46,7 +46,7 @@
             }
         } catch {}
     };
-    const mutationHandler = mutations() {
+    const mutationHandler = mutations => {
         if (timer !== undefined) {
             return;
         }
