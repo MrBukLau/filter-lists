@@ -70,6 +70,7 @@ reddit.com##shreddit-post > div[slot="commentsPagePostDescriptor"] > div + div
 reddit.com##shreddit-post > div[slot="commentsPagePostDescriptor"]:style(padding-bottom: 1rem !important;)
 reddit.com##shreddit-profile-actions
 reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) !important; background-image: none !important;)
+rentry.*##body:style(background-color: rgb(255, 255, 255) !important;)
 sawlive.tv##.media-control
 slickdeals.net##.addComment
 slickdeals.net##.addCommentButton
