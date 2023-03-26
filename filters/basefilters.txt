@@ -183,8 +183,10 @@ clutchpoints.com##.widget-wrapper:has-text(/RECOMMENDED/)
 clutchpoints.com##script[src^="https://live.primis.tech/live/liveView.php"][src$="%%CACHEBUSTER%%"]:upward(1)
 
 ! CNN
+cnn.com##.ActionInterceptGpsPackageNavigationItem-dropdown
 cnn.com##.ad--desktop
 cnn.com##.ad-feedback-link-container
+cnn.com##.ad-wrapper:upward(.ArticlePage-articleContainer > .ArticlePage-articleBody > .RichTextArticleBody > .RichTextBody > .slowRollWrap)
 cnn.com##.Ad__component:upward(.Article__component > .Article__zone > .Article__zone)
 cnn.com##.Article__adRailBottom
 cnn.com##.Article__adRailTop
@@ -202,6 +204,7 @@ cnn.com##.RelatedArticle__component
 cnn.com##.Showcase__component
 cnn.com##.SpecialArticle__relatedTail:upward(.special-article > .SpecialArticle__component > .SpecialArticle__tail)
 cnn.com##.terms-of-service
+cnn.com##div[class$="AdWrapper"]
 cnn.com##h2[data-analytics="Paid Partner Content_list-xs_"]:upward(.zn > .zn__background--content-relative > .zn__containers > .column):remove()
 
 ! Costco
