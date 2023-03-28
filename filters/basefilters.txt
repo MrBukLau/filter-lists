@@ -317,13 +317,13 @@ hikarinoakari.com##.td_block_related_posts
 hikarinoakari.com##.tdc-content-wrap
 hikarinoakari.com##.thanks_button_div
 hikarinoakari.com##.widget_text:has-text(Are strongly recomended to download the last version from Win Rar to unzip the files from this site)
-ouo.*##+js(rc, disabled, button.btn, stay)
+ouo.*##+js(rc, disabled, .btn, stay)
 
 ! Icelz
 icelz.newsrade.com##+js(acis, ConsoleBan)
 icelz.newsrade.com##+js(acis, https://bit.ly/3R6YyKP)
 icelz.newsrade.com##+js(acis, prototype.ban)
-icelz.newsrade.com##+js(ra, target, a.btn, stay)
+icelz.newsrade.com##+js(ra, target, .btn, stay)
 icelz.newsrade.com##.desktopad:remove()
 icelz.newsrade.com##.mobilead:remove()
 icelz.newsrade.com##.sharethis-inline-share-buttons
@@ -582,9 +582,8 @@ theindex.moe##div[class^="SupportBanner_banner"]
 
 ! TinyURL
 tinyurl.*##+js(nano-sib)
-tinyurl.*##+js(rc, disabled, a.btn, stay)
+tinyurl.*##+js(rc, disabled, .btn, stay)
 tinyurl.*##.container:has-text(Have Your Ads Here)
-tinyurl.*##body:has-text(Click Here to Watch):style(background-color: #1f1f1f !important;)
 
 ! Twitch
 twitch.tv##.tw-callout-message:upward(.stream-chat > .chat-room > .chat-room__content > .chat-input > div[class^="Layout-sc-"])
