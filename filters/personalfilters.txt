@@ -6,6 +6,7 @@
 ! iOS Filters
 !#if adguard_app_ios
 blazersedge.com,sbnation.com,stumptownfooty.com##rect[x="674.1"][width="50.5"][height="137.7"]:style(fill: white !important;)
+cnn.com##+js(ra, data-noir-inline-background-color, .pui, stay)
 gist.github.com##.gisthead
 gist.github.com##.Header
 i.redd.it##faceplate-tracker[noun="login"][source="cdnlanding"]
@@ -108,7 +109,7 @@ github.com##img[class="achievement-badge-sidebar"]:upward(3)
 github.com##input[name="commit-choice"][value="quick-pull"]:upward(.form-checkbox)
 github.com##input[name="message"]
 github.com##textarea[name="description"]
-icelz.newsrade.com##+js(rc, chat, div.app-container)
+icelz.newsrade.com##+js(rc, chat, .app-container)
 icelz.newsrade.com##.app-container:style(background-color: var(--theme-color) !important;)
 icelz.newsrade.com##.channel-header
 icelz.newsrade.com##.chat-page-overlay
