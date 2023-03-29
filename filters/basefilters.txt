@@ -72,6 +72,13 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 88kanqiu.*,888kanqiu.*,gogozb.*,popozhibo.*##.sss-container[data-uuid]
 gogozb.*,popozhibo.*##div[class="modal is-active"]
 
+! 925
+925.tv##.head-main > .jfqh_wrap
+925.tv##.head-main > .pc-app-box
+925.tv##.head-main > .wap_jfb
+925.tv##.pcrlist
+925.tv##.waplist
+
 ! 9Anime
 9anime.*##.adx
 9anime.*##.alert
@@ -333,7 +340,12 @@ icelz.newsrade.com##in-page-message
 ! IKnowWhatYouDownload
 iknowwhatyoudownload.com##.footer
 
+! IPInfo
+ipinfo.io##div[class="py-5 bg-green-01 border-b border-green-01"]:has-text(Free IP Data Downloads)
+
 ! IPTV
+iptv345.com###ad
+iptv345.com##a[href^="https://down.iptv2020.com/"]
 iptv345.com##script[src="https://www.sinawap.com/smu/o.js"]:upward(1)
 
 ! iTD Music
