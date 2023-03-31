@@ -209,21 +209,6 @@ cnn.com##h2[data-analytics="Paid Partner Content_list-xs_"]:upward(.zn > .zn__ba
 ! Costco
 costco.com###email-popup-title
 
-! Crunchyroll
-crunchyroll.com###message_box
-crunchyroll.com###showmedia_free_trial_signup
-crunchyroll.com###slidebox
-crunchyroll.com##.erc-premium-header-link
-crunchyroll.com##.get-funimation-section
-crunchyroll.com##.premium-message
-crunchyroll.com##.welcome-featured-media
-crunchyroll.com##a[href^="https://got.cr/"][href*="PremiumTrial-NewsBanner"]
-crunchyroll.com##a[href^="https://www.crunchyroll.com/premium_comparison"]
-crunchyroll.com##a[href^="https://www.crunchyroll.com/welcome"]
-crunchyroll.com##div[class="css-1dbjc4n r-1pi2tsx r-1d2f490 r-u8s1d r-ipm5af r-13qz1uu"]:style(background-color: rgba(0, 0, 0, 0) !important;)
-crunchyroll.com##div[data-testid="vilos-large_play_pause_button"]
-crunchyroll.com##li[class="large-margin-bottom"]:has-text(Try Free Trial)
-
 ! Discord
 discord.com##div[class*="channelNotice"]
 discord.com##div[class^="card-"]:has-text(We can customize Active Now, and other parts of Discord, based on information like who you talk to and what games you play.)
@@ -615,8 +600,12 @@ venmo.com##.organisms-layoutContainer-desktopWrapper
 vk.com##.left_menu_mobile_app_promo_block
 
 ! Walmart
+walmart.com##div[data-testid="buy-box-ad"]
+walmart.com##div[data-testid="carousel-ad"]
 walmart.com##div[data-testid="search-video-in-grid"]:has(span[data-testid="UnfilledAd"]):upward(1)
+walmart.com##div[data-testid="search-video-in-grid"]:has(span[data-testid="UnfilledAd"]):upward(section > .flex > .w-100)
 walmart.com##div[data-testid="skyline-ad"]
+walmart.com##div[id*="SponsoredProductCarousel-bottom"]:upward(1)
 
 ! Writer
 writer.com##+js(rc, om-position-popup, html, stay)
