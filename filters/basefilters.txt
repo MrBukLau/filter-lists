@@ -12,8 +12,6 @@
 
 ! Network Filters
 @@||cookielaw.org^$3p
-||apl210.me/js/pop.js
-||torrentmac.net/cdn-cgi/scripts^
 
 ! URL Parameter Filters
 $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
@@ -103,12 +101,6 @@ albertsons.com,safeway.com##.nextgen-banner-unit-proxy
 albertsons.com,safeway.com##.notification-alert
 albertsons.com,safeway.com##div[aria-label="Promo or Ad Banner"]
 albertsons.com,safeway.com##div[data-lazy-function="lazyAdXContent"]
-
-! Aliez
-apl210.me###adbtm
-apl210.me###ads
-apl210.me###stpd
-apl210.me##.adv-ad
 
 ! AniDB
 anidb.net##.hint
@@ -354,6 +346,7 @@ itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
 itdmusic.top##.commentcount
 itdmusics.com##+js(acis, advadsTracker)
+itdmusics.com##.breaking-news
 itdmusics.com##.comment-avatar
 itdmusics.com##.e3lan-bottom
 itdmusics.com##.e3lan-post
@@ -379,6 +372,12 @@ lyrical-nonsense.com##div[class^="responsive"][class$="inc"]
 mlssoccer.com##.mls-c-ledeblock__overlap:style(padding: 24px 0 0 !important;)
 mlssoccer.com##.mls-o-adv-container
 mlssoccer.com##div[class="d3-l-grid--outer d3-l-section-row -main-section"]:style(margin-top: unset !important;)
+
+! Mayo Clinic
+mayoclinic.org##.acces-list-container:has-text(/Products & Services/)
+mayoclinic.org##.requestappt
+mayoclinic.org##div[class="contentbox no-border"] > script[src="/~/media/kcms/ux/javascript/subscriptionlist.js"]:upward(1)
+mayoclinic.org##div[id^="redpoint_emailform_"]
 
 ! Mojo Sakun
 controlc.com##a[href^="http://redact.dev"]:upward(2)
@@ -409,6 +408,7 @@ myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]:u
 myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]:upward(div[style="padding: 20px 40px;display: inline-block;"])
 myanimelist.net##.ad-sticky-wrapper
 myanimelist.net##.border_top
+myanimelist.net##.bottom-bar
 myanimelist.net##.btn-forum-manga-store
 myanimelist.net##.clearfix[style^="margin:"][style$="20px;"]:has(div[style="float:left;"], div[style="float:right;"]):style(margin: 0px !important;)
 myanimelist.net##.footer-ranking
