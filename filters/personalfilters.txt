@@ -87,16 +87,7 @@ slickdeals.net##div[role="threadrating"]
 ! Universal Filters
 accounts.spotify.com###login-to-continue
 accounts.spotify.com##button[data-testid="facebook-login"]:upward(div[data-testid="login-container"] > ul)
-crunchyroll.com##.erc-up-next-section:style(filter: blur(16px) !important;)
-crunchyroll.com##a[class^="playable-card-mini-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
-crunchyroll.com##a[class^="playable-card-static__thumbnail-wrapper--"]:style(filter: blur(16px) !important;)
-crunchyroll.com##a[token="comingsoon_now"] > img:style(filter: blur(16px) !important;)
-crunchyroll.com##img[class="landscape"][src^="https://img1.ak.crunchyroll.com/i/"]:style(filter: blur(16px) !important;)
-crunchyroll.com##img[class="media-thumb-wide"]:style(filter: blur(16px) !important;)
-crunchyroll.com##img[class="mug"][alt]:style(filter: blur(16px) !important;)
-crunchyroll.com##img[class="thumbnail"]:style(filter: blur(16px) !important;)
-crunchyroll.com##img[class="welcome-media-mug"]:style(filter: blur(16px) !important;)
-funimation.com##div[data-test="episode-card__key-art"]:style(filter: blur(16px) !important;)
+gist.github.com##.Popover
 github.com##.color-fg-muted:has-text(Seeing something unexpected?):has(a[href="https://docs.github.com/categories/setting-up-and-managing-your-github-profile"])
 github.com##.file-navigation-options
 github.com##.footer
