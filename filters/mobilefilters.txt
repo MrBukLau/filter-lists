@@ -69,9 +69,6 @@ cnn.com##.ym:upward(.story > .BasicArticle__component > .BasicArticle__zone)
 ! Craigslist
 craigslist.org##.tryapp
 
-! Crunchyroll
-crunchyroll.com#@#div[data-testid="vilos-large_play_pause_button"]
-
 ! Designer Shoe Warehouse
 dsw.com##app-cookies-lightbox
 
