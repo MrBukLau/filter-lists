@@ -278,13 +278,13 @@ github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 gogoanime.*##div[class^="notice-"]
 
 ! Google
-google.*##.ynRric:has-text(/^Trending searches$/)
-google.*##[id^="eob_"]
-google.*##div:has-text(/^Trending searches$/) ~ ul
-google.*##div[aria-label="Search by voice"]
-google.*##div[jsname="Ycs7vc"]:has-text(Give feedback on the result above?)
-google.*##div[role="dialog"]:has-text(Give feedback on these results?)
-google.*##div[role="dialog"]:has-text(How helpful were the results on Google Search?)
+google.com##.ynRric:has-text(/^People also ask$/)
+google.com##.ynRric:has-text(/^People also ask$/) ~ ul[role="listbox"]
+google.com##.ynRric:has-text(/^People also search for$/)
+google.com##.ynRric:has-text(/^People also search for$/) ~ ul[role="listbox"]
+google.com##.ynRric:has-text(/^Trending searches$/)
+google.com##.ynRric:has-text(/^Trending searches$/) ~ ul[role="listbox"]
+google.com##div[aria-labelledby="task-text"][role="dialog"]:has-text(How helpful were the results on Google Search?)
 
 ! Gray Television
 kptv.com##.taboola-feature
@@ -623,7 +623,6 @@ sports.yahoo.com##div[class*="adTranslate"][class*="HideBottomBar_"]
 yahoo.com###module-hpsetBanner
 
 ! YouTube
-youtube.com###voice-search-button
 youtube.com##.ytp-ce-element
 youtube.com##.ytp-chrome-top-buttons
 youtube.com##.ytp-endscreen-content
