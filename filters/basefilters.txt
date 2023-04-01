@@ -251,15 +251,6 @@ fandom.com##div[class^="render-wiki-recommendations"]
 ! Free MP3 Download
 free-mp3-download.net###toast-container
 
-! Funimation
-funimation.com##.header-promo-ribbon-wrap
-funimation.com##.home-subscription-banner
-funimation.com##.meta-overlay:style(background-image: none !important;)
-funimation.com##.meta-overlay__back-btn
-funimation.com##.meta-overlay__data-block
-funimation.com##.meta-overlay__funi-logo
-funimation.com##.v-dialog__content
-
 ! Genius
 genius.com##div[class^="InreadAddesktop__Container"]
 genius.com##div[class^="SidebarAd__Container"]
@@ -285,6 +276,7 @@ google.com##.ynRric:has-text(/^People also search for$/) ~ ul[role="listbox"]
 google.com##.ynRric:has-text(/^Trending searches$/)
 google.com##.ynRric:has-text(/^Trending searches$/) ~ ul[role="listbox"]
 google.com##div[aria-labelledby="task-text"][role="dialog"]:has-text(How helpful were the results on Google Search?)
+google.com##div[id^="eob_"]
 
 ! Gray Television
 kptv.com##.taboola-feature
