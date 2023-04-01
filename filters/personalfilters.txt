@@ -12,6 +12,8 @@ gist.github.com##.Header
 i.redd.it##faceplate-tracker[noun="login"][source="cdnlanding"]
 m.youtube.com##+js(rc, yt-spec-button-shape-next--segmented-start, button[aria-label^="like this video"][class="yt-spec-button-shape-next yt-spec-button-shape-next--tonal yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-m yt-spec-button-shape-next--icon-leading yt-spec-button-shape-next--segmented-start"], stay)
 m.youtube.com##.mobile-topbar-header-sign-in-button
+m.youtube.com##.mobile-topbar-header-voice-search-button
+m.youtube.com##.searchbox-voice-search-wrapper
 m.youtube.com##.slim-owner-subscribe-button
 m.youtube.com##button[aria-label="Dislike this video"]
 m.youtube.com##button[aria-label="Report"]
@@ -100,6 +102,8 @@ github.com##img[class="achievement-badge-sidebar"]:upward(3)
 github.com##input[name="commit-choice"][value="quick-pull"]:upward(.form-checkbox)
 github.com##input[name="message"]
 github.com##textarea[name="description"]
+google.com##div[aria-label="Search by voice"][role="button"]
+google.com##div[aria-label="Share"][role="button"]
 icelz.newsrade.com##+js(rc, chat, .app-container)
 icelz.newsrade.com##.app-container:style(background-color: var(--theme-color) !important;)
 icelz.newsrade.com##.channel-header
@@ -151,5 +155,6 @@ seedr.cc###settings-menu-item
 seedr.cc###walkthrough-menu-item
 seedr.cc###wishlist-menu-item
 seedr.cc##.menu-separator
+youtube.com###voice-search-button
 ||chatango.com^$domain=bestnhl.com|mygoodstream.pw
 ||twitch.tv^$domain=bestnhl.com|icelz.newsrade.com
