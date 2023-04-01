@@ -113,22 +113,17 @@ giphy.com##div[class*="OpenInAppContainer"]
 goodrx.com##div[data-qa="advertisement"]
 
 ! Google
-google.*###lb:has-text(Stay signed out)
-google.*###stUuGf
-google.*##.bB4gff
-google.*##.dRYYxd
-google.*##.oSAsx
-google.*##.torspo_view__follow-button
-google.*##.WP2UGe
-google.*##.zU3lCe
-google.*##body:style(overflow: auto !important; position: static !important;)
-google.*##div[class="imso-hide-loading O8LF7c IvuoRc"]
-google.*##div[class="rKJOcDNwrHj__pb-dfr rKJOcDNwrHj__pb-s"]
-google.*##div[data-show-open-app]
-google.*##div[jsname="suEOdc"]
-google.*##div[jsname="xy3Vt"]
-google.*##hr[class="vjdC3 hcuDkb"]
-google.*##span[jsname="EFexIf"]
+google.com###footer
+google.com###lb:has-text(Stay signed out)
+google.com###stUuGf
+google.com##.zU3lCe
+google.com##body:style(overflow: auto !important; position: static !important;)
+google.com##div[class="rKJOcDNwrHj__pb-dfr rKJOcDNwrHj__pb-s"][jsname="ORHb"]
+google.com##div[jscontroller="OPwjEf"][jsaction="rcuQ6b:npT2md"][role="section"]
+google.com##div[jscontroller="R87u2"][jsaction="rcuQ6b:npT2md"]
+google.com##div[jsname="hK5Dwd"][jscontroller="dve5w"][jsaction="Y2XUzc:Fs7Xzc"]
+google.com##div[jsname="rLQONe"][jsaction="f2nbFb"][role="button"]
+google.com##span[jsname="EFexIf"][jsaction="I9owB"]
 
 ! Gopuff
 gopuff.com##.jr-smart-banner
@@ -363,10 +358,7 @@ m.yelp.com##div[class*="cta-menubar-pitch_left-icons"]:has-text(Open in App)
 m.yelp.com##div[class*="u-space-"]:has-text(Open in the Yelp App)
 
 ! YouTube
-m.youtube.com##.mobile-topbar-header-voice-search-button
 m.youtube.com##.music-metadata-premium-upsell-link
-m.youtube.com##.rich-section-content:has-text(New look, still YouTube)
-m.youtube.com##.searchbox-voice-search-wrapper
 
 ! ZARA
 zara.com##.native-app-banner
