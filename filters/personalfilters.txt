@@ -7,6 +7,7 @@
 !#if adguard_app_ios
 blazersedge.com,sbnation.com,stumptownfooty.com##rect[x="674.1"][width="50.5"][height="137.7"]:style(fill: white !important;)
 cnn.com##+js(ra, data-noir-inline-background-color, .pui, stay)
+espn.com#%#(function(){let links=document.querySelectorAll("a[class='ScoreCell__Link'][href^='/nba/game/']");for(let i=0,l=links.length;i<l;i++){links[i].href=links[i].href.replace("/game/","/boxscore/");}})();
 gist.github.com##.gisthead
 gist.github.com##.Header
 i.redd.it##faceplate-tracker[noun="login"][source="cdnlanding"]
