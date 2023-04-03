@@ -114,13 +114,15 @@ No further actions are necessary. After adding a filter list from this repositor
     - [Replace a String in the URL With Another String](https://greasyfork.org/en/discussions/requests/55817#comment-144843)
 ### For Providing Valuable Information That Enabled Me to Create Some of These Filters
 - **AdguardTeam on GitHub**
-    - [Accelerated Mobile Page Filters](https://github.com/AdguardTeam/DisableAMP)
+    - [Accelerated Mobile Pages](https://github.com/AdguardTeam/DisableAMP)
 - **DandelionSprout on GitHub**
-    - [URL Parameter Filters](https://github.com/DandelionSprout/adfilt)
+    - [URL Parameters](https://github.com/DandelionSprout/adfilt)
 - **StephenP on Greasy Fork**
-    - [Social Filters](https://greasyfork.org/en/scripts/395497)
+    - [Social](https://greasyfork.org/en/scripts/395497)
+- **Tomáš Zato on Stack Overflow**
+    - [Sports](https://stackoverflow.com/a/34072219)
 - **uBlock Origin Community on Reddit**
-    - [General Filters](https://reddit.com/r/uBlockOrigin/)
+    - [General](https://reddit.com/r/uBlockOrigin/)
 
 ## License
 [MIT](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE)
