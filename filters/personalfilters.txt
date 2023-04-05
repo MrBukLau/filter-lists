@@ -7,9 +7,13 @@
 !#if adguard_app_ios
 blazersedge.com,sbnation.com,stumptownfooty.com##rect[x="674.1"][width="50.5"][height="137.7"]:style(fill: white !important;)
 cnn.com##+js(ra, data-noir-inline-background-color, .pui, stay)
+espn.com#%#(function(){let links=document.querySelectorAll("a[class='ScoreCell__CompetitorDetails'][href^='/nba/game/']");for(let i=0,l=links.length;i<l;i++){links[i].href=links[i].href.replace("/game/","/boxscore/");}})();
 espn.com#%#(function(){let links=document.querySelectorAll("a[class='ScoreCell__Link'][href^='/nba/game/']");for(let i=0,l=links.length;i<l;i++){links[i].href=links[i].href.replace("/game/","/boxscore/");}})();
 gist.github.com##.gisthead
 gist.github.com##.Header
+github.com##a[aria-label="You must be signed in to change notification settings"]
+github.com##a[aria-label="You must be signed in to star a repository"]
+github.com##button[aria-label="You must be signed in to add this repository to a list"]
 i.redd.it##faceplate-tracker[noun="login"][source="cdnlanding"]
 m.youtube.com##+js(rc, yt-spec-button-shape-next--segmented-start, button[aria-label^="like this video"][class="yt-spec-button-shape-next yt-spec-button-shape-next--tonal yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-m yt-spec-button-shape-next--icon-leading yt-spec-button-shape-next--segmented-start"], stay)
 m.youtube.com##.mobile-topbar-header-sign-in-button
@@ -43,6 +47,7 @@ reddit.com##.overflow-actions-button
 reddit.com##.overlaymenu > .overlaymenu-ul > ._26dt6ipeyqmadkdci_sxey
 reddit.com##.overlaymenu > .overlaymenu-ul > .e-six8ipezo23vlhqqfc2
 reddit.com##.postfooter__share
+reddit.com##.share-dropdown-menu
 reddit.com##.signupdrawer
 reddit.com##.Subreddit__CommunityLink
 reddit.com##.SubredditUnit
@@ -51,7 +56,6 @@ reddit.com##.Zo-DKBkkLRYQJrXWLL0uI
 reddit.com##button[class="action last"][href]
 reddit.com##button[slot="overflowButton"]
 reddit.com##button[slot="share"]
-reddit.com##div[class^="flex flex-row items-center flex-nowrap overflow-hidden justify-start h-2xl mt-md"][class$="px-md xs:px-0"] > span + button + button
 reddit.com##div[data-adclicklocation="fl_unknown"]
 reddit.com##div[id$="-share-menu"]
 reddit.com##div[slot="commentMeta"]:style(margin-bottom: 0.3rem !important;)
