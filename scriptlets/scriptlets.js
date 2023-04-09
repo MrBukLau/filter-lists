@@ -19,93 +19,6 @@
     }
 })();
 
-/// set-attr.js
-/// alias sa.js
-(function() {
-    const token = "{{1}}";
-    if (token === "" || token === "{{1}}") {
-        return;
-    }
-    const tokens = token.split(/\s*\|\s*/);
-    const attrValue = "{{2}}";
-    let selector = "{{3}}";
-    if (selector === "" || selector === "{{3}}") {
-        selector = `[${tokens.join("],[")}]`;
-    }
-    const behavior = "{{4}}";
-    let timer = undefined;
-    const setattr = function() {
-        const nodes = document.querySelectorAll(selector);
-        try {
-            for (const node of nodes) {
-                for (const attr of tokens) {
-                    if (attr !== attrValue) {
-                        node.setAttribute(attr, attrValue);
-                    }
-                }
-            }
-        } catch {}
-    };
-    const mutationHandler = function(mutations) {
-        if (timer !== undefined) {
-            return;
-        }
-        let skip = true;
-        for (let i = 0; i < mutations.length && skip; i++) {
-            const {
-                type,
-                addedNodes,
-                removedNodes
-            } = mutations[i];
-            if (type === "attributes") {
-                skip = false;
-            }
-            for (let j = 0; j < addedNodes.length && skip; j++) {
-                if (addedNodes[j].nodeType === 1) {
-                    skip = false;
-                    break;
-                }
-            }
-            for (let j = 0; j < removedNodes.length && skip; j++) {
-                if (removedNodes[j].nodeType === 1) {
-                    skip = false;
-                    break;
-                }
-            }
-        }
-        if (skip) {
-            return;
-        }
-        timer = self.requestIdleCallback(setattr, {
-            timeout: 10
-        });
-    };
-    const start = function() {
-        setattr();
-        if (/\bloop\b/.test(behavior) === false) {
-            return;
-        }
-        const observer = new MutationObserver(mutationHandler);
-        observer.observe(document.documentElement, {
-            attributes: true,
-            attributeFilter: tokens,
-            childList: true,
-            subtree: true,
-        });
-    };
-    if (document.readyState !== "complete" && /\bcomplete\b/.test(behavior)) {
-        self.addEventListener("load", start, {
-            once: true
-        });
-    } else if (document.readyState === "loading") {
-        self.addEventListener("DOMContentLoaded", start, {
-            once: true
-        });
-    } else {
-        start();
-    }
-})();
-
 /***********************/
 /* Specific Scriptlets */
 /***********************/
@@ -169,6 +82,19 @@
     }
 })();
 
+/// github-gist-target-attribute-setter.js
+/// alias ggtas.js
+(function() {
+    window.addEventListener("load", function() {
+        document.querySelectorAll("article[itemprop='text'] > p[dir='auto'] > a[href^='http']").forEach(function(a) {
+            a.setAttribute("target", "_blank");
+        });
+        document.querySelectorAll("article[itemprop='text'] > ul[dir='auto'] > li > a[href^='http']").forEach(function(b) {
+            b.setAttribute("target", "_blank");
+        });
+    });
+})();
+
 /// hikarinoakariost-bypasser.js
 /// alias hnab.js
 (function() {
@@ -228,6 +154,16 @@
         if (document.getElementById("form-captcha").click) {
             document.getElementsByTagName("form")[0].submit();
         }
+    });
+})();
+
+/// rentry-target-attribute-setter.js
+/// alias rtas.js
+(function() {
+    window.addEventListener("load", function() {
+        document.querySelectorAll("a[href^='http']").forEach(function(a) {
+            a.setAttribute("target", "_blank");
+        });
     });
 })();
 
