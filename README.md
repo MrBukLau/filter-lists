@@ -98,14 +98,14 @@ No further actions are necessary. After adding a filter list from this repositor
     - Userscript: [YouTube Shorts Redirect](https://greasyfork.org/en/scripts/439993)
 - **IMBA Lawly on Greasy Fork**
     - Userscript: [Skipper for Ouo.io](https://greasyfork.org/en/scripts/419509)
-- **uBlock-user on GitHub**
-    - Scriptlet: [Set a New Attribute to an Existing Element](https://github.com/uBlock-user/uBO-Scriptlets)
 ### For Providing JavaScript Codes That Enabled Me to Create Some of These Scriptlets
 - **Brock Adams on Stack Overflow**
     - [Add a New Parameter to the URL](https://stackoverflow.com/a/16070740)
     - [Click on a Link Based on Its Text](https://stackoverflow.com/a/6990386)
 - **James Hibbard and Yaphi Berhanu on SitePoint**
     - [Get a Specific Parameter From the URL](https://sitepoint.com/get-url-parameters-with-javascript/)
+- **Mamun on Stack Overflow**
+    - [Add a Target Attribute to Multiple Hyperlinks in a HTML Document](https://stackoverflow.com/a/49447785)
 - **Mark Byers on Stack Overflow**
     - [Combine Two Replace Methods Into a Single Expression](https://stackoverflow.com/a/7990896)
 - **VisioN on Stack Overflow**
@@ -123,6 +123,8 @@ No further actions are necessary. After adding a filter list from this repositor
     - [Sports](https://stackoverflow.com/a/34072219)
 - **uBlock Origin Community on Reddit**
     - [General](https://reddit.com/r/uBlockOrigin/)
+- **uBlock-user on GitHub**
+    - [Dark Mode](https://github.com/uBlock-user/uBO-Scriptlets)
 
 ## License
 [MIT](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE)
