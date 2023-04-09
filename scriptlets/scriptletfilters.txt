@@ -8,8 +8,7 @@ music.apple.com##+js(amjteat)
 mzstatic.com##+js(amafasc)
 
 ! GitHub
-gist.github.com##+js(sa, target, _blank, article[itemprop="text"] > p[dir="auto"] > a[href^="http"], loop)
-gist.github.com##+js(sa, target, _blank, article[itemprop="text"] > ul[dir="auto"] > li > a[href^="http"], loop)
+gist.github.com##+js(ggtas)
 
 ! Nyaa
 nyaa.si##+js(ndme)
@@ -18,7 +17,7 @@ nyaa.si##+js(ndme)
 www.reddit.com##+js(orr)
 
 ! Rentry
-rentry.*##+js(sa, target, _blank, a[href^="http"])
+rentry.*##+js(rtas)
 
 ! URL Shorteners
 clk.sh##+js(gup)
