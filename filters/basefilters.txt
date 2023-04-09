@@ -12,6 +12,7 @@
 
 ! Network Filters
 @@||cookielaw.org^$3p
+||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
 
 ! URL Parameter Filters
 $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
@@ -46,6 +47,7 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 ||music.apple.com^$removeparam=sr
 ||music.apple.com^$removeparam=src
 ||music.apple.com^$removeparam=uo
+||open.spotify.com^$removeparam=flow_id
 ||open.spotify.com^$removeparam=nd
 ||open.spotify.com^$removeparam=referral
 ||open.spotify.com^$removeparam=si
@@ -272,6 +274,7 @@ google.com##.ynRric:has-text(/^People also search for$/)
 google.com##.ynRric:has-text(/^People also search for$/) ~ ul[role="listbox"]
 google.com##.ynRric:has-text(/^Trending searches$/)
 google.com##.ynRric:has-text(/^Trending searches$/) ~ ul[role="listbox"]
+google.com##div[aria-labelledby="task-text"][role="dialog"]:has-text(Give feedback on these results?)
 google.com##div[aria-labelledby="task-text"][role="dialog"]:has-text(How helpful were the results on Google Search?)
 google.com##div[id^="eob_"]
 
@@ -417,6 +420,10 @@ nba.com##div[class^="TuneInBanner_"]
 
 ! National Collegiate Athletic Association
 ncaa.com##.footer-ad
+
+! National Women's Soccer League
+nwslsoccer.com##.accept-cookies-snackbar
+nwslsoccer.com##.block-ads-single-image
 
 ! Nexstar Media Group
 koin.com##.civic-science-container
