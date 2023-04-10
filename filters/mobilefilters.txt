@@ -248,6 +248,7 @@ reddit.com##.xpromopopuprpl
 reddit.com##.xpromopopuprplnew
 reddit.com##body:style(overflow: auto !important; position: static !important; pointer-events: auto !important; touch-action: auto !important;)
 reddit.com##div[class*="safe-area-inset-bottom"]
+reddit.com##img[class="_1VSyzeCqhLG-H2N68kAx9V _3UqAK6QeNaMYy-9jvRefdv"]:style(filter: none !important;)
 reddit.com##shreddit-ad-post
 reddit.com##shreddit-app:style(padding: var(--shreddit-header-height) 0px 0px !important;)
 reddit.com##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
