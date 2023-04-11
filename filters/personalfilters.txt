@@ -65,6 +65,7 @@ reddit.com##faceplate-tracker[noun="hamburger_menu"][source="nav"]
 reddit.com##faceplate-tracker[noun="login"][source="nav"]
 reddit.com##faceplate-tracker[noun="reddit_logo"][source="nav"]:style(padding-left: 0.8rem !important;)
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
+reddit.com##faceplate-tracker[noun="share"][source="comment"]
 reddit.com##faceplate-tracker[noun="sorting"][source="comment_sort"] + hr
 reddit.com##faceplate-tracker[noun="sorting"][source="comment_sort"] + hr + span
 reddit.com##faceplate-tracker[noun="sorting"][source="comment_sort"]:style(padding-left: 0.5rem !important;)
