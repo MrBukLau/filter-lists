@@ -92,8 +92,6 @@ No further actions are necessary. After adding a filter list from this repositor
 
 ## Special Thanks
 ### For Creating the Original Filters, Scriptlets, and Userscripts
-- **avatar_adg on Reddit**
-    - Filter: [Prevent Infinite Scrolling on Imgur's Mobile Website](https://reddit.com/r/Adguard/comments/7o0ly5/comment/ds6sdg8/)
 - **Fuim on Greasy Fork**
     - Userscript: [YouTube Shorts Redirect](https://greasyfork.org/en/scripts/439993)
 - **IMBA Lawly on Greasy Fork**
@@ -115,6 +113,8 @@ No further actions are necessary. After adding a filter list from this repositor
 ### For Providing Valuable Information That Enabled Me to Create Some of These Filters
 - **AdguardTeam on GitHub**
     - [Accelerated Mobile Pages](https://github.com/AdguardTeam/DisableAMP)
+- **avatar_adg on Reddit**
+    - [Social](https://reddit.com/r/Adguard/comments/7o0ly5/comment/ds6sdg8/)
 - **DandelionSprout on GitHub**
     - [URL Parameters](https://github.com/DandelionSprout/adfilt)
 - **StephenP on Greasy Fork**
