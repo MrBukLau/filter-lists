@@ -15,6 +15,9 @@ github.com##a[aria-label="You must be signed in to change notification settings"
 github.com##a[aria-label="You must be signed in to star a repository"]
 github.com##button[aria-label="You must be signed in to add this repository to a list"]
 i.redd.it##faceplate-tracker[noun="login"][source="cdnlanding"]
+imgur.io##.PostComments-addComment
+imgur.io##.ShareButtons-shareContainer
+imgur.io##button[class="PostButtons-button favorite"]
 m.youtube.com##+js(rc, yt-spec-button-shape-next--segmented-start, button[aria-label^="like this video"][class="yt-spec-button-shape-next yt-spec-button-shape-next--tonal yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-m yt-spec-button-shape-next--icon-leading yt-spec-button-shape-next--segmented-start"], stay)
 m.youtube.com##.mobile-topbar-header-sign-in-button
 m.youtube.com##.mobile-topbar-header-voice-search-button
