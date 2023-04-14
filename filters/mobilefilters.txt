@@ -380,8 +380,5 @@ reddit.com#%#(function(){const selector="body[class*='sw-body-class']";const old
 ! Prevent Infinite Scrolling Only When Browsing a User's Post on Imgur's Mobile Website
 imgur.io#%#(function(){if(window.location.href.includes("/imgur.io/a/")||window.location.href.includes("/imgur.io/gallery/")){let st=document.createElement("style");st.textContent=".GalleryInfiniteScroll>div>.GalleryHandler-postContainer+div,.GalleryInfiniteScroll>div>div:not([class]){display:none!important}";document.getElementsByTagName("head")[0].appendChild(st);}})();
 
-! Redirect YouTube Shorts to the Normal Player
-m.youtube.com#%#(function(){let oldHref=document.location.href;if(window.location.href.indexOf("youtube.com/shorts")>-1){window.location.replace(window.location.toString().replace("/shorts/","/watch?v="));}window.onload=function(){let bodyList=document.querySelector("body");let observer=new MutationObserver(function(mutations){mutations.forEach(function(){if(oldHref!==document.location.href){oldHref=document.location.href;if(window.location.href.indexOf("youtube.com/shorts")>-1){window.location.replace(window.location.toString().replace("/shorts/","/watch?v="));}}});});let config={childList:true,subtree:true};observer.observe(bodyList,config);};})();
-
 ! Remove Smart App Banners on iOS
 #%#(function(){window.addEventListener("load",function(){(document.querySelector("meta[name='apple-itunes-app']")||{remove:()=>0}).remove();});})();
