@@ -200,8 +200,8 @@ platt.com##div[class="v-application--wrap"] > a[href="https://apple.co/3KZACWo"]
 platt.com##main[class="v-main"][style="padding: 188px 0px 0px;"]:style(padding: 128px 0px 0px !important;)
 
 ! Quora
+quora.com##.qu-bg--poe_primary_purple:has-text(Ask AI bots any question on Poe, a free app by Quora)
 quora.com##button[type="button"]:has-text(Open in App)
-quora.com##div[class="q-flex qu-alignItems--center qu-justifyContent--center qu-bg--poe_primary_purple"]:has-text(Ask AI bots any question on Poe, a free app by Quora)
 
 ! Reddit
 i.redd.it##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
