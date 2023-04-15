@@ -11,6 +11,7 @@
 ##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
+@@||agfinancia.info^$generichide
 @@||cookielaw.org^$3p
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
 
@@ -318,8 +319,9 @@ iptv345.com##a[href^="https://down.iptv2020.com/"]
 iptv345.com##script[src="https://www.sinawap.com/smu/o.js"]:upward(1)
 
 ! iTD Music
-itdmusic.top###footer
-itdmusic.top##+js(acs, document.oncontextmenu)
+agfinancia.info##+js(nobab)
+agfinancia.info,itdmusic.top###footer
+agfinancia.info,itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
 itdmusic.top##.commentcount
 itdmusics.com##+js(acis, advadsTracker)
