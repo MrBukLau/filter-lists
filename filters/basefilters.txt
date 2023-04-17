@@ -105,6 +105,10 @@ albertsons.com,safeway.com##.notification-alert
 albertsons.com,safeway.com##div[aria-label="Promo or Ad Banner"]
 albertsons.com,safeway.com##div[data-lazy-function="lazyAdXContent"]
 
+! Amazon
+amazon.com###a-page > #dp > #dp-container > #ppd > #rightCol > #primeDPUpsellContainer
+amazon.com##.zg-more-list-types-container
+
 ! AniDB
 anidb.net##.hint
 
@@ -332,6 +336,7 @@ itdmusics.com##.e3lan-post
 itdmusics.com##.home > .container > .content > center
 itdmusics.com##.itdmu-widget
 itdmusics.com##.share-post
+itdmusics.com##span > a[href$="/premium-no-ads"]
 
 ! JD Sports
 jdsports.com###PrivacyPolicyBanner
@@ -373,7 +378,7 @@ musiclutter.xyz###footer-wrapper > .row
 musiclutter.xyz###recent-boxes
 musiclutter.xyz###recent-boxes2
 musiclutter.xyz###related-wrap
-musiclutter.xyz##+js(ra, target, a, stay)
+musiclutter.xyz##+js(ra, onclick, a, stay)
 musiclutter.xyz##.featured
 musiclutter.xyz##.FeaturedPost
 musiclutter.xyz##.ib-nav
