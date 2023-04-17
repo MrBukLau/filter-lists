@@ -117,8 +117,10 @@ google.com###stUuGf
 google.com##.zU3lCe
 google.com##body:style(overflow: auto !important; position: static !important;)
 google.com##div[aria-label="Navigation drawer"][role="menu"] > a[href^="https://search.app.goo.gl/"][role="menuitem"]
+google.com##div[class="HyoXdf VZPqNb"][jsname="lC3xKd"]
 google.com##div[class="rKJOcDNwrHj__pb-dfr rKJOcDNwrHj__pb-s"][jsname="ORHb"]
 google.com##div[jsaction="f2nbFb"][jsname="rLQONe"][role="button"]
+google.com##div[jsaction="KIgGGb;rcuQ6b:npT2md"][jscontroller="dJBiMd"][jsname="suEOdc"]
 google.com##div[jsaction="rcuQ6b:npT2md"][jscontroller="JlIvbd"][jsname="xy3Vt"]
 google.com##div[jsaction="rcuQ6b:npT2md"][jscontroller="OPwjEf"][role="section"]
 google.com##div[jsaction="rcuQ6b:npT2md"][jscontroller="R87u2"]
