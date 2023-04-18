@@ -204,6 +204,7 @@ cnn.com##.factbox_inline-small:has-text(/weekly newsletter/i)
 cnn.com##.lt-widget-iframe
 cnn.com##.OUTBRAIN:upward(.zn-homepage4-zone-2)
 cnn.com##.OUTBRAIN:upward(.zn-homepage4-zone-3)
+cnn.com##.product-zone
 cnn.com##.related-content
 cnn.com##.related-content_without-image
 cnn.com##.RelatedArticle__component
@@ -378,7 +379,7 @@ musiclutter.xyz###footer-wrapper > .row
 musiclutter.xyz###recent-boxes
 musiclutter.xyz###recent-boxes2
 musiclutter.xyz###related-wrap
-musiclutter.xyz##+js(ra, onclick, a, stay)
+musiclutter.xyz##+js(ra, onclick, a[href*="/skip-page.musiclutter.xyz/"], stay)
 musiclutter.xyz##.featured
 musiclutter.xyz##.FeaturedPost
 musiclutter.xyz##.ib-nav
@@ -570,15 +571,10 @@ kgw.com##.article__section_type_ad
 ! Temp Mail
 tempmail.ninja###article
 tempmail.ninja###article + hr
-tempmail.ninja###banner_ad
-tempmail.ninja###billaboard-ad
-tempmail.ninja###email-info-ad
 tempmail.ninja###intro
-tempmail.ninja###lateral-ads
-tempmail.ninja###notifications
 tempmail.ninja##+js(nobab)
-tempmail.ninja##.col-lg-5:style(width: 100% !important;)
-tempmail.ninja##.col-lg-7:style(width: 100% !important;)
+tempmail.ninja##.tool-title
+tempmail.ninja##main > aside[class="row align-items-center"]:has-text(/Temp Mail/):style(margin-left: 25% !important;)
 
 ! The Index
 theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
@@ -613,6 +609,17 @@ walmart.com##div[data-testid="search-video-in-grid"]:has(span[data-testid="Unfil
 walmart.com##div[data-testid="search-video-in-grid"]:has(span[data-testid="UnfilledAd"]):upward(section > .flex > .w-100)
 walmart.com##div[data-testid="skyline-ad"]
 walmart.com##div[id*="SponsoredProductCarousel-bottom"]:upward(1)
+
+! WebMD
+webmd.com###hp-ad-container
+webmd.com##.doctor-module-spacer
+webmd.com##.drug-usage-survey
+webmd.com##.fdb-declaration
+webmd.com##.module-f-idc:has-text(/More from WebMD/)
+webmd.com##.module-unified-right-rail:has-text(/Today on WebMD/)
+webmd.com##.other-links
+webmd.com##.rx-section
+webmd.com##div[class$="-para-ad"]
 
 ! Writer
 writer.com##+js(rc, om-position-popup, html, stay)
