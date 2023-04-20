@@ -83,7 +83,7 @@ gogozb.*,popozhibo.*##div[class="modal is-active"]
 ! 9Anime
 9anime.*##.adx
 9anime.*##.alert
-9anime.*##.main > #recent-update:style(margin-bottom: unset !important;)
+9anime.*##.main > #recent-update:style(margin-bottom: 0px !important;)
 9anime.*##.main > .bsharing
 9anime.*##.swiper-container
 9anime.*##a[href="https://mangafire.to/?9anime"]
