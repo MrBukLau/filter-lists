@@ -22,7 +22,6 @@
 ! 9Anime
 9anime.*##.adx:remove()
 9anime.*##.alert:remove()
-9anime.*##.main > #recent-update:style(margin-bottom: unset !important;)
 9anime.*##.main > .bsharing:remove()
 9anime.*##.swiper-container:remove()
 9anime.*##a[href="https://mangafire.to/?9anime"]:remove()
