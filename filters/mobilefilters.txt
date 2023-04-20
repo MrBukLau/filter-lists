@@ -19,6 +19,14 @@
 !--------------------------------------!
 !---------- Specific Filters ----------!
 !--------------------------------------!
+! 9Anime
+9anime.*##.adx:remove()
+9anime.*##.alert:remove()
+9anime.*##.main > #recent-update:style(margin-bottom: unset !important;)
+9anime.*##.main > .bsharing:remove()
+9anime.*##.swiper-container:remove()
+9anime.*##a[href="https://mangafire.to/?9anime"]:remove()
+
 ! 9GAG
 9gag.com##.download-app-container
 9gag.com##.inline-banner
@@ -221,15 +229,15 @@ reddit.com##.lb-footer
 reddit.com##.lb-header
 reddit.com##.m-blurred:style(filter: none !important;)
 reddit.com##.navframe:style(overflow: auto !important;)
-reddit.com##.paginationbuttons:style(padding: 0px 16px 0px !important;)
-reddit.com##.pb-xl:style(padding-bottom: unset !important;)
+reddit.com##.paginationbuttons:style(padding: 0rem 1rem 0rem !important;)
+reddit.com##.pb-xl:style(padding-bottom: 0rem !important;)
 reddit.com##.postcontent__img[src]:style(object-fit: contain !important;)
 reddit.com##.previewdrawer
 reddit.com##.prompt
 reddit.com##.right-sidebar:has-text(More posts you may like)
 reddit.com##.scroll-disabled:style(overflow: auto !important; position: static !important;)
 reddit.com##.scroll-is-blocked:style(overflow: auto !important; position: static !important;)
-reddit.com##.shreddit-pagination:style(margin-bottom: 0px !important; padding: 0rem 1rem 0.5rem !important;)
+reddit.com##.shreddit-pagination:style(margin-bottom: 0rem !important; padding: 0rem 1rem 0.5rem !important;)
 reddit.com##.sidebar-grid:style(filter: none !important;)
 reddit.com##.slideimagemaindiv[style="object-fit: cover;"][src]:style(object-fit: contain !important;)
 reddit.com##.topics-links-block
@@ -252,7 +260,7 @@ reddit.com##body:style(overflow: auto !important; position: static !important; p
 reddit.com##div[class*="safe-area-inset-bottom"]
 reddit.com##img[class="_1VSyzeCqhLG-H2N68kAx9V _3UqAK6QeNaMYy-9jvRefdv"]:style(filter: none !important;)
 reddit.com##shreddit-ad-post
-reddit.com##shreddit-app:style(padding: var(--shreddit-header-height) 0px 0px !important;)
+reddit.com##shreddit-app:style(padding: var(--shreddit-header-height) 0rem 0rem !important;)
 reddit.com##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
 reddit.com##shreddit-async-loader[bundlename="faceplate_alerts"]
 reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]
