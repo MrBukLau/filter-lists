@@ -32,10 +32,10 @@ m.youtube.com##button[aria-label="Subscribe"]
 m.youtube.com##div[class="slim-video-action-bar-actions slim-video-action-bar-actions-modern slim-video-action-bar-modern-buttons"]:style(padding: 8px !important;)
 m.youtube.com##span[class="c4-tabbed-header-subscriber-count secondary-text"]:style(padding: 0px !important;)
 m.youtube.com##ytm-comments-header-renderer
-reddit.com##._1E9mcoVn4MYnuBQSVDt1gC
+reddit.com##._1e9mcovn4mynubqsvdt1gc
 reddit.com##._2mbxhmh6lyncpagzpjzyfn:style(background: none !important;)
-reddit.com##._2rszc84L136gWQrkwH6IaM:style(padding: 0rem !important;)
-reddit.com##._3MmwvEEt6fv5kQPFCVJizH
+reddit.com##._2rszc84l136gwqrkwh6iam:style(padding: 0rem !important;)
+reddit.com##._3mmwveet6fv5kqpfcvjizh
 reddit.com##.button:style(border-color: transparent !important;)
 reddit.com##.commentspagetools__login
 reddit.com##.communityheader-banner:style(background-color: unset !important; background-image: none !important;)
@@ -45,17 +45,18 @@ reddit.com##.communityheader__backlink
 reddit.com##.communityrow__subscriptionbutton
 reddit.com##.icon-reply2
 reddit.com##.m-subscribe
-reddit.com##.OccjSdFd6HkHhShRg6DOl
+reddit.com##.occjsdfd6hkhhshrg6dol
 reddit.com##.overflow-actions-button
 reddit.com##.overlaymenu > .overlaymenu-ul > ._26dt6ipeyqmadkdci_sxey
 reddit.com##.overlaymenu > .overlaymenu-ul > .e-six8ipezo23vlhqqfc2
+reddit.com##.postcontent > .postcontent__image-link[href^="https://i.redd.it/"] > .postcontent__warning
 reddit.com##.postfooter__share
 reddit.com##.share-dropdown-menu
 reddit.com##.signupdrawer
-reddit.com##.Subreddit__CommunityLink
-reddit.com##.SubredditUnit
+reddit.com##.subreddit__communitylink
+reddit.com##.subredditunit
 reddit.com##.topnav__loginbutton
-reddit.com##.Zo-DKBkkLRYQJrXWLL0uI
+reddit.com##.zo-dkbkklryqjrxwll0ui
 reddit.com##button[class="action last"][href]
 reddit.com##button[slot="overflowButton"]
 reddit.com##button[slot="share"]
@@ -79,8 +80,11 @@ reddit.com##shreddit-comment[class="top-level"]:style(border-top: 0.3rem solid v
 reddit.com##shreddit-flair
 reddit.com##shreddit-join-button
 reddit.com##shreddit-join-link
-reddit.com##shreddit-post > div[slot="commentsPagePostDescriptor"] > div + div
-reddit.com##shreddit-post > div[slot="commentsPagePostDescriptor"]:style(padding-bottom: 1rem !important;)
+reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="commentsPagePostDescriptor"] > div + div
+reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="commentsPagePostDescriptor"] > div > .border-neutral-border-weak
+reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="commentsPagePostDescriptor"]:style(padding-bottom: 1rem !important;)
+reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="text-body"]:style(margin-left: 1rem !important; margin-right: 1rem !important;)
+reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="title"]:style(margin-bottom: 1rem !important; margin-left: 0.5rem !important; margin-right: 0.5rem !important;)
 reddit.com##shreddit-profile-actions
 reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) !important; background-image: none !important;)
 rentry.*##body:style(background-color: rgb(255, 255, 255) !important;)
