@@ -25,6 +25,7 @@
 9anime.*##.main > .bsharing:remove()
 9anime.*##.swiper-container:remove()
 9anime.*##a[href="https://mangafire.to/?9anime"]:remove()
+9anime.*#@#.main > #recent-update:style(margin-bottom: 0px !important;)
 
 ! 9GAG
 9gag.com##.download-app-container
@@ -69,6 +70,7 @@ cnn.com##.ad--mobile
 cnn.com##.ad-slot-rail:upward(1)
 cnn.com##.BasicArticle__outbrainMain
 cnn.com##.bizdev-lending-tree
+cnn.com##.layout-homepage-mobile__content-wrapper:style(margin-top: 16px !important;)
 cnn.com##.OUTBRAIN:upward(.zn > .zn__background--content-relative > .zn__containers > .column)
 cnn.com##.toast-popup
 cnn.com##.ym:upward(.story > .BasicArticle__component > .BasicArticle__zone)
@@ -256,7 +258,10 @@ reddit.com##.xpromopopup
 reddit.com##.xpromopopuprpl
 reddit.com##.xpromopopuprplnew
 reddit.com##body:style(overflow: auto !important; position: static !important; pointer-events: auto !important; touch-action: auto !important;)
+reddit.com##button[id$="-read-more-button"]
 reddit.com##div[class*="safe-area-inset-bottom"]
+reddit.com##div[id$="-overflow-cover"]
+reddit.com##div[id$="-post-rtjson-content"]:style(max-height: fit-content !important;)
 reddit.com##img[class="_1VSyzeCqhLG-H2N68kAx9V _3UqAK6QeNaMYy-9jvRefdv"]:style(filter: none !important;)
 reddit.com##shreddit-ad-post
 reddit.com##shreddit-app:style(padding: var(--shreddit-header-height) 0rem 0rem !important;)
