@@ -103,9 +103,9 @@ slickdeals.net##div[role="threadrating"]
 ! Universal Filters
 accounts.spotify.com###login-to-continue
 accounts.spotify.com##button[data-testid="facebook-login"]:upward(div[data-testid="login-container"] > ul)
-gist.github.com##.discussion-timeline-actions:has-text(/Sign up for free/):style(margin-bottom: 16px !important;)
+gist.github.com##.discussion-timeline-actions:has-text(Sign up for free):style(margin-bottom: 16px !important;)
 gist.github.com##.Popover
-gist.github.com##div[data-quote-markdown=".js-comment-body"]:not(:has(div[class="TimelineItem d-block js-comment-container"])):has-text(/Sign up for free/)
+gist.github.com##div[data-quote-markdown=".js-comment-body"]:not(:has(div[class="TimelineItem d-block js-comment-container"])):has-text(Sign up for free)
 github.com##.color-fg-muted:has-text(Seeing something unexpected?):has(a[href="https://docs.github.com/categories/setting-up-and-managing-your-github-profile"])
 github.com##.file-navigation-options
 github.com##.footer
@@ -129,21 +129,8 @@ icelz.newsrade.com##.overlay
 icelz.newsrade.com##.page-content:style(background-color: var(--theme-color) !important; padding: 60px 15px 15px !important;)
 icelz.newsrade.com##div[data-tooltip="Watching Now"]:upward(.video-info)
 icelz.newsrade.com,mygoodstream.pw##.bmpui-label-metadata
-open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(About recommendations)
-open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Add to playlist)
-open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Add to profile)
-open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Add to queue)
-open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Create folder)
-open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Create playlist)
-open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Go to artist radio)
-open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Go to playlist radio)
-open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Go to song radio)
-open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Open in Desktop app)
-open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Report)
-open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Save to Your Episodes)
-open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Save to your Liked Songs)
-open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(Follow)
-open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(Following)
+open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(/About recommendations|Add to playlist|Add to profile|Add to queue|Create folder|Create playlist|Go to artist radio|Go to playlist radio|Go to song radio|Open in Desktop app|Report|Save to Your Episodes|Save to your Liked Songs/)
+open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(/Follow|Following/)
 open.spotify.com##.LayoutResizer__resize-bar
 open.spotify.com##.LKgm9fCDTO7wqig_5U1q[data-testid="rootlist-container"]:style(margin-top: 0px !important;)
 open.spotify.com##.main-view-container__mh-footer-container
