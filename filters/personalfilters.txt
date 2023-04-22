@@ -87,7 +87,7 @@ reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="text-body"]:s
 reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="title"]:style(margin-bottom: 1rem !important; margin-left: 0.5rem !important; margin-right: 0.5rem !important;)
 reddit.com##shreddit-profile-actions
 reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) !important; background-image: none !important;)
-rentry.*##body:style(background-color: rgb(255, 255, 255) !important;)
+rentry.*#%#(function(){const elements=document.getElementsByTagName("pre");if(elements.length>0){return;}else{const meta=document.createElement("meta");meta.name="theme-color";meta.content="#1c1c1c";document.getElementsByTagName("head")[0].appendChild(meta);}})();
 sawlive.tv##.media-control
 slickdeals.net##.addComment
 slickdeals.net##.addCommentButton
@@ -103,7 +103,9 @@ slickdeals.net##div[role="threadrating"]
 ! Universal Filters
 accounts.spotify.com###login-to-continue
 accounts.spotify.com##button[data-testid="facebook-login"]:upward(div[data-testid="login-container"] > ul)
+gist.github.com##.discussion-timeline-actions:has-text(/Sign up for free/):style(margin-bottom: 16px !important;)
 gist.github.com##.Popover
+gist.github.com##div[data-quote-markdown=".js-comment-body"]:not(:has(div[class="TimelineItem d-block js-comment-container"])):has-text(/Sign up for free/)
 github.com##.color-fg-muted:has-text(Seeing something unexpected?):has(a[href="https://docs.github.com/categories/setting-up-and-managing-your-github-profile"])
 github.com##.file-navigation-options
 github.com##.footer
