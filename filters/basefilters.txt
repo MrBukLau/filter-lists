@@ -184,6 +184,9 @@ channelmaster.com##.guide-paging--sticky:style(position: static !important;)
 channelmaster.com##.recommendation-cta
 channelmaster.com##body[class*="-tv-guide-listings-for-"] > #page-content:style(padding: 0px !important;)
 
+! Chartoo
+chartoo.com##main > div > aside:has-text(/^Advertisement$/)
+
 ! CHP Adblock Detector
 chpadblock.com##+js(acis, chp_adblock_browser)
 
@@ -197,6 +200,7 @@ cnn.com##.ActionInterceptGpsPackageNavigationItem-dropdown
 cnn.com##.ad--desktop
 cnn.com##.ad-feedback-link-container
 cnn.com##.ad-slot-dynamic
+cnn.com##.ad-slot-header
 cnn.com##.ad-wrapper:upward(.ArticlePage-articleContainer > .ArticlePage-articleBody > .RichTextArticleBody > .RichTextBody > .slowRollWrap)
 cnn.com##.Ad__component:upward(.Article__component > .Article__zone > .Article__zone)
 cnn.com##.Article__adRailBottom
@@ -377,7 +381,7 @@ mayoclinic.org##div[class="contentbox no-border"] > script[src="/~/media/kcms/ux
 mayoclinic.org##div[id^="redpoint_emailform_"]
 
 ! Mojo Sakun
-controlc.com##a[href^="http://redact.dev"]:upward(2)
+controlc.com##a[href^="https://redact.dev"]:upward(2)
 mojosakun.blogspot.com###HTML4
 mojosakun.blogspot.com###HTML99
 mojosakun.blogspot.com###Image5
