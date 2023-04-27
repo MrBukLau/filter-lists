@@ -14,6 +14,8 @@
 @@||agfinancia.info^$generichide
 @@||cookielaw.org^$3p
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
+||katu.com/api/rest/audience/more
+||kgw.com/ajax/content/cscroll
 
 ! URL Parameter Filters
 $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
@@ -295,6 +297,7 @@ google.com##div[aria-labelledby="task-text"][role="dialog"]:has-text(How helpful
 google.com##div[id^="eob_"]
 
 ! Gray Television
+kptv.com###fusion-app > #homepage-alternate-layout > .container-xl > .row > .flex-column > section[class^="middle-left-rail"] > div[class^="arc-ad"]:upward(1):remove()
 kptv.com##.taboola-feature
 
 ! Greasy Fork
@@ -517,8 +520,14 @@ seedr.cc##.account-upgrade
 signupgenius.com##.sug-notice--privacy
 
 ! Sinclair Broadcast Group
+katu.com###js-CommentCallToAction-Container
+katu.com###js-Progress-Bar
+katu.com##.loader
+katu.com##div[aria-label="Modal Overlay Box"][role="dialog"]
 katu.com##div[class*="_adAfterContent_"]
 katu.com##div[class*="_adBeforeContent_"]
+katu.com##div[class^="index-module_openwebAd__"]
+katu.com##div[id^="js-News-In-Photos-"]
 katu.com##div[id^="js-Taboola-Container-"]
 katu.com##li[id^="nativeAdContainer_"]
 
@@ -568,6 +577,7 @@ sportsurge.net##.HeaderUyari:upward(#__next > .container)
 
 ! Spotify
 open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Upgrade to Premium)
+open.spotify.com##.encore-announcement-set
 open.spotify.com##.link-subtle[draggable][href="/download"]
 open.spotify.com##a[data-encore-id="buttonPrimary"][href="/download"]
 open.spotify.com##button[aria-label="Upgrade to Premium"]
@@ -587,7 +597,14 @@ target.com##div[class*="_PubAdWrapper-"]:upward(1)
 target.com#@#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:has-text(sponsored)
 
 ! TEGNA
+kgw.com##.article__close-wrapper
 kgw.com##.article__section_type_ad
+kgw.com##.page__footer:style(border-top: 0px !important;)
+kgw.com##.related-stories
+kgw.com##.related-stories + .article__section_type_embed
+kgw.com##dialog[data-behavior="modal"][data-name="exitInterstitial"]:remove()
+kgw.com##div[data-module-sizer="ad"]:upward(1)
+kgw.com##div[data-module-sizer="article-loader"]
 
 ! Temp Mail
 tempmail.ninja###article
