@@ -20,6 +20,7 @@ www.reddit.com##+js(orr)
 rentry.*##+js(rtas)
 
 ! URL Shorteners
+agfinancia.info##+js(gup)
 clk.sh##+js(gup)
 fc.lc##+js(gup)
 hikarinoakari.com##+js(hnab)
