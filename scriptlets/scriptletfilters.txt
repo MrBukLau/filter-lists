@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/MrBukLau/filter-lists
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
-! Attribute Inputters
+! Attribute Setters
 gist.github.com##+js(ggtas)
 rentry.*##+js(rtas)
 
