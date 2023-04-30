@@ -99,7 +99,6 @@ No further actions are necessary. After adding a filter list from this repositor
 ### For Providing JavaScript Codes That Enabled Me to Create Some of These Scriptlets
 - **Brock Adams on Stack Overflow**
     - [Add a New Parameter to the URL](https://stackoverflow.com/a/16070740)
-    - [Click on a Link Based on Its Text](https://stackoverflow.com/a/6990386)
 - **James Hibbard and Yaphi Berhanu on SitePoint**
     - [Get a Specific Parameter From the URL](https://sitepoint.com/get-url-parameters-with-javascript/)
 - **Mamun on Stack Overflow**
