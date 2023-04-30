@@ -109,8 +109,8 @@
 /// alias lsussb.js
 (function() {
     window.addEventListener("load", function() {
-        let targetLink = document.querySelector("a");
-        if (targetLink.indexOf("Click Here to Watch") > -1) {
+        let targetLink = document.querySelector("a[id^='newskip-btn-']");
+        if (targetLink.indexOf("Click Here to Watch") !== -1) {
             let newUrl = targetLink[0].href;
             window.location.replace(newUrl);
         }
