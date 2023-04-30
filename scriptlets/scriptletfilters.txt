@@ -3,31 +3,25 @@
 ! Homepage: https://github.com/MrBukLau/filter-lists
 ! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
 
-! Apple Music
-music.apple.com##+js(amjteat)
-mzstatic.com##+js(amafasc)
-
-! GitHub
+! Attribute Inputters
 gist.github.com##+js(ggtas)
-
-! Nyaa
-nyaa.si##+js(ndme)
-
-! Reddit
-www.reddit.com##+js(orr)
-
-! Rentry
 rentry.*##+js(rtas)
 
-! URL Shorteners
+! Dark Mode Enablers
+nyaa.si##+js(ndme)
+
+! URL Bypassers
 agfinancia.info##+js(gup)
 clk.sh##+js(gup)
 fc.lc##+js(gup)
 hikarinoakari.com##+js(hnab)
 itdmusic.top##+js(gup)
-itdmusic.top##+js(itdmb)
 ouo.*##+js(oib)
-tinyurl.*##+js(tub)
+streamcheck.link##+js(lsussb)
+tinyurl.*##+js(lsussb)
 
-! YouTube
+! URL Redirectors
+music.apple.com##+js(amjteat)
+mzstatic.com##+js(amafasc)
+www.reddit.com##+js(orr)
 youtube.com##+js(ysr)
