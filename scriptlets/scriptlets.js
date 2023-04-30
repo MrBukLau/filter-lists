@@ -14,7 +14,7 @@
         if (window.location.href.match("url=http")) {
             window.location.replace(urlReplacement);
         } else {
-            window.location.replace(window.location.protocol + "//" + urlReplacement);
+            window.location.replace("https://" + urlReplacement);
         }
     }
 })();
@@ -105,23 +105,14 @@
     }
 })();
 
-/// itdmusic-bypasser.js
-/// alias itdmb.js
+/// live-streaming-url-shortening-service-bypasser.js
+/// alias lsussb.js
 (function() {
     window.addEventListener("load", function() {
-        let firstButton = document.getElementsByClassName("btn btn-primary btn-captcha");
-        if (firstButton.length > 0) {
-            document.querySelector("button[class='btn btn-primary btn-captcha']").click();
-        }
-        let secondButton = document.getElementsByClassName("skip-ad");
-        if (secondButton.length > 0) {
-            let targetLink = $("a:contains('Skip Ad')");
-            if (targetLink && targetLink.length) {
-                setTimeout(function() {
-                    let newUrl = targetLink[0].href;
-                    window.location.replace(newUrl);
-                }, 750);
-            }
+        let targetLink = document.querySelector("a");
+        if (targetLink.indexOf("Click Here to Watch") > -1) {
+            let newUrl = targetLink[0].href;
+            window.location.replace(newUrl);
         }
     });
 })();
@@ -164,18 +155,6 @@
         document.querySelectorAll("a[href^='http']").forEach(function(a) {
             a.setAttribute("target", "_blank");
         });
-    });
-})();
-
-/// tinyurl-bypasser.js
-/// alias tub.js
-(function() {
-    window.addEventListener("load", function() {
-        let targetLink = $("a:contains('Click Here to Watch')");
-        if (targetLink && targetLink.length) {
-            let newUrl = targetLink[0].href;
-            window.location.replace(newUrl);
-        }
     });
 })();
 
