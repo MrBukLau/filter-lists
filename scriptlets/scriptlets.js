@@ -108,11 +108,10 @@
 /// live-streaming-url-shortening-service-bypasser.js
 /// alias lsussb.js
 (function() {
-    window.addEventListener("load", function() {
-        let targetLink = document.querySelector("a[id^='newskip-btn-']");
-        if (targetLink.indexOf("Click Here to Watch") !== -1) {
-            let newUrl = targetLink[0].href;
-            window.location.replace(newUrl);
+    window.addEventListener("DOMContentLoaded", function() {
+        let streamingLink = document.querySelector("a[id^='newskip-btn-']");
+        if (streamingLink.includes("Click Here to Watch")) {
+            window.location.replace(streamingLink.href);
         }
     });
 })();
