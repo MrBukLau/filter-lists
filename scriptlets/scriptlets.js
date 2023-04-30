@@ -109,10 +109,7 @@
 /// alias lsussb.js
 (function() {
     window.addEventListener("DOMContentLoaded", function() {
-        let streamingLink = document.querySelector("a[id^='newskip-btn-']");
-        if (streamingLink.includes("Click Here to Watch")) {
-            window.location.replace(streamingLink.href);
-        }
+        document.querySelector("a[id^='newskip-btn-']").click();
     });
 })();
 
