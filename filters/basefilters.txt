@@ -182,6 +182,8 @@ cbssports.com##.ScoreboardPage > .Page-shell > .Page-content > .PageLayout > .Pa
 cbssports.com##.taboola-recommends
 
 ! Channel Master
+channelmaster.com##.channel-head:upward(table > tbody > tr)
+channelmaster.com##.google-ad-ctr:upward(table > tbody > tr)
 channelmaster.com##.guide-paging--sticky:style(position: static !important;)
 channelmaster.com##.recommendation-cta
 channelmaster.com##body[class*="-tv-guide-listings-for-"] > #page-content:style(padding: 0px !important;)
@@ -329,7 +331,7 @@ icelz.newsrade.com##in-page-message
 iknowwhatyoudownload.com##.footer
 
 ! IPInfo
-ipinfo.io##div[class="py-5 bg-green-01 border-b border-green-01"]:has-text(Free IP Data Downloads)
+ipinfo.io##div[class="py-5 bg-green-01 border-b border-green-01"]:has-text(Join now)
 
 ! IPTV
 iptv345.com###ad
@@ -542,6 +544,7 @@ slickdeals.net##.bp-p-slickdealsHeader_disclaimer
 slickdeals.net##.commentsAd
 slickdeals.net##.dealAlertRow
 slickdeals.net##.extensionSearchBanner
+slickdeals.net##.frontpageGrid__bannerAd
 slickdeals.net##.frontpageSlickdealsGrid__bannerAd
 slickdeals.net##.mainSearchContent > .searchWrapper > .ab
 slickdeals.net##.omegaBanner
