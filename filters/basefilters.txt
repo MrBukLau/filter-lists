@@ -493,6 +493,12 @@ oxygen.com##.blog-post__vertical_description
 oxygen.com##.embedded-entity[data-embed-button="related_content"]
 oxygen.com##.homepage-section__insider-exclusive
 
+! PDF Flyers
+pdfflyers.com###openShareModal
+pdfflyers.com##.post-header > .content[style="align-items: center;"]:style(gap: 0px !important;)
+pdfflyers.com##.store-area > .container > .row[style="width:100%;height:250px;"]:has(.adsbygoogle)
+pdfflyers.com##.store-details:style(margin-bottom: 0px !important;)
+
 ! Proton
 proton.me##a[data-testid="cta:upgrade-plan"]
 
