@@ -18,6 +18,8 @@ github.com##a[aria-label="You must be signed in to change notification settings"
 github.com##a[aria-label="You must be signed in to star a repository"]
 github.com##button[aria-label="You must be signed in to add this repository to a list"]
 i.redd.it##faceplate-tracker[noun="login"][source="cdnlanding"]
+i.redd.it##faceplate-tracker[noun="login"][source="nav"]
+i.redd.it##reddit-header-overflow-menu
 imgur.io##.PostComments-addComment
 imgur.io##.ShareButtons-shareContainer
 imgur.io##button[class="PostButtons-button favorite"]
