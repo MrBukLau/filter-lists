@@ -22,6 +22,55 @@
 /***********************/
 /* Specific Scriptlets */
 /***********************/
+/// amazon-url-cleaner.js
+/// alias auc.js
+(function() {
+    (function(doc) {
+        function getAsin() {
+            let asinId = doc.getElementById("ASIN");
+            if (asinId && asinId.value.length === 10) {
+                return asinId.value;
+            } else {
+                let links = doc.getElementsByTagName("link");
+                let i;
+                for (i = 0; i < links.length; i++) {
+                    if (links[i].rel === "canonical") {
+                        let canonical = links[i].href;
+                        let asin = canonical.replace(/https?:\/\/www\.amazon\..*\/dp\/([\w]+)$/, "$1");
+                        if (asin.length === 10) {
+                            return asin;
+                        }
+                    }
+                }
+            }
+        }
+
+        function replaceUrl() {
+            let asin = getAsin();
+            if (asin) {
+                history.replaceState(null, "Amazon URL Cleaner", "/dp/" + asin + "/");
+            }
+        }
+        replaceUrl();
+        let buyboxParent = doc.getElementById("desktop_buybox");
+        if (buyboxParent) {
+            let MO = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                    mutation.addedNodes.forEach(function(nodeElement) {
+                        if (nodeElement.id === "buybox") {
+                            replaceUrl();
+                        }
+                    });
+                });
+            });
+            MO.observe(buyboxParent, {
+                childList: true,
+                subtree: true
+            });
+        }
+    })(document);
+})();
+
 /// apple-music-artwork-format-and-size-changer.js
 /// alias amafasc.js
 (function() {
