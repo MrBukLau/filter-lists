@@ -26,50 +26,14 @@
 /// alias auc.js
 (function() {
     window.addEventListener("load", function() {
-        (function(doc) {
-            function getAsin() {
-                let asinId = doc.getElementById("ASIN");
-                if (asinId && asinId.value.length === 10) {
-                    return asinId.value;
-                } else {
-                    let links = doc.getElementsByTagName("link");
-                    let i;
-                    for (i = 0; i < links.length; i++) {
-                        if (links[i].rel === "canonical") {
-                            let canonical = links[i].href;
-                            let asin = canonical.replace(/https?:\/\/www\.amazon\..*\/dp\/([\w]+)$/, "$1");
-                            if (asin.length === 10) {
-                                return asin;
-                            }
-                        }
-                    }
-                }
+        let asin = document.getElementById("ASIN");
+        if (asin) {
+            let url = document.location.protocol + "//" + document.location.host + "/dp/" + asin.value;
+            if (url === document.location.href) {
+                return;
             }
-
-            function replaceUrl() {
-                let asin = getAsin();
-                if (asin) {
-                    history.replaceState(null, "Amazon URL Cleaner", "/dp/" + asin + "/");
-                }
-            }
-            replaceUrl();
-            let buyboxParent = doc.getElementById("desktop_buybox");
-            if (buyboxParent) {
-                let MO = new MutationObserver(function(mutations) {
-                    mutations.forEach(function(mutation) {
-                        mutation.addedNodes.forEach(function(nodeElement) {
-                            if (nodeElement.id === "buybox") {
-                                replaceUrl();
-                            }
-                        });
-                    });
-                });
-                MO.observe(buyboxParent, {
-                    childList: true,
-                    subtree: true
-                });
-            }
-        })(document);
+            window.history.replaceState(null, null, url);
+        }
     });
 })();
 
