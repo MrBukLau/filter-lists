@@ -5,7 +5,15 @@
 /**********************/
 /* Generic Scriptlets */
 /**********************/
-/// get-url-param.js
+/// bypass-streaming-url-shortener.js
+/// alias bsus.js
+(function() {
+    window.addEventListener("DOMContentLoaded", function() {
+        document.querySelector("a[id^='newskip-btn-']").click();
+    });
+})();
+
+/// get-url-parameter.js
 /// alias gup.js
 (function() {
     if (window.location.href.includes("?url=") || window.location.href.includes("&url=")) {
@@ -28,7 +36,7 @@
     window.addEventListener("load", function() {
         let asin = document.getElementById("ASIN");
         if (asin) {
-            let url = document.location.protocol + "//" + document.location.host + "/dp/" + asin.value;
+            let url = document.location.protocol + "//" + document.location.host + "/dp/" + asin.value + "/";
             if (url === document.location.href) {
                 return;
             }
@@ -118,14 +126,6 @@
             document.querySelector("a[class='link']").click();
         }, 750);
     }
-})();
-
-/// live-streaming-url-shortening-service-bypasser.js
-/// alias lsussb.js
-(function() {
-    window.addEventListener("DOMContentLoaded", function() {
-        document.querySelector("a[id^='newskip-btn-']").click();
-    });
 })();
 
 /// nyaa-dark-mode-enabler.js
