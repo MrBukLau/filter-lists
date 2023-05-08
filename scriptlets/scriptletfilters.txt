@@ -21,6 +21,7 @@ streamcheck.link##+js(lsussb)
 tinyurl.*##+js(lsussb)
 
 ! URL Redirectors
+amazon.com##+js(auc)
 music.apple.com##+js(amjteat)
 mzstatic.com##+js(amafasc)
 www.reddit.com##+js(orr)
