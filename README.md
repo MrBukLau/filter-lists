@@ -94,8 +94,8 @@ No further actions are necessary. After adding a filter list from this repositor
 ### For Creating the Original Filters, Scriptlets, and Userscripts
 - **Fuim on Greasy Fork**
     - Userscript: [YouTube Shorts Redirect](https://greasyfork.org/en/scripts/439993)
-- **Graphen on Greasy Fork**
-    - Userscript: [Amazon Short URL](https://greasyfork.org/en/scripts/33227)
+- **hpuac on Greasy Fork**
+    - Userscript: [Amazon Short URL](https://greasyfork.org/en/scripts/376630)
 - **IMBA Lawly on Greasy Fork**
     - Userscript: [Skipper for Ouo.io](https://greasyfork.org/en/scripts/419509)
 ### For Providing JavaScript Codes That Enabled Me to Create Some of These Scriptlets
