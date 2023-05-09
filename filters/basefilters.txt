@@ -19,24 +19,28 @@
 
 ! URL Parameter Filters
 $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
-@@||google.*/url?$removeparam=ved
-||google.*/search$removeparam=aqs
-||google.*/search$removeparam=bih
-||google.*/search$removeparam=biw
-||google.*/search$removeparam=cshid
-||google.*/search$removeparam=ei
-||google.*/search$removeparam=gs_lcp
-||google.*/search$removeparam=gs_ssp
-||google.*/search$removeparam=ie
-||google.*/search$removeparam=iflsig
-||google.*/search$removeparam=oq
-||google.*/search$removeparam=rlz
-||google.*/search$removeparam=sa
-||google.*/search$removeparam=sclient
-||google.*/search$removeparam=source
-||google.*/search$removeparam=sourceid
-||google.*/search$removeparam=uact
-||google.*/search$removeparam=ved
+@@||google.com/url?$removeparam=ved
+||amazon.com^$removeparam=channel
+||amazon.com^$removeparam=crid
+||amazon.com^$removeparam=field-lbr_brands_browse-bin
+||amazon.com^$removeparam=sprefix
+||google.com/search$removeparam=aqs
+||google.com/search$removeparam=bih
+||google.com/search$removeparam=biw
+||google.com/search$removeparam=cshid
+||google.com/search$removeparam=ei
+||google.com/search$removeparam=gs_lcp
+||google.com/search$removeparam=gs_ssp
+||google.com/search$removeparam=ie
+||google.com/search$removeparam=iflsig
+||google.com/search$removeparam=oq
+||google.com/search$removeparam=rlz
+||google.com/search$removeparam=sa
+||google.com/search$removeparam=sclient
+||google.com/search$removeparam=source
+||google.com/search$removeparam=sourceid
+||google.com/search$removeparam=uact
+||google.com/search$removeparam=ved
 ||music.apple.com^$removeparam=/^ign-/
 ||music.apple.com^$removeparam=app
 ||music.apple.com^$removeparam=at
@@ -54,6 +58,8 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 ||open.spotify.com^$removeparam=nd
 ||open.spotify.com^$removeparam=referral
 ||open.spotify.com^$removeparam=si
+||walmart.com^$removeparam=/^ath/
+||walmart.com^$removeparam=from
 
 !--------------------------------------!
 !---------- Specific Filters ----------!
@@ -616,12 +622,14 @@ kgw.com##div[data-module-sizer="ad"]:upward(1)
 kgw.com##div[data-module-sizer="article-loader"]
 
 ! Temp Mail
-tempmail.ninja###article
-tempmail.ninja###article + hr
+tempmail.ninja###article:not(:has(#post-loop))
+tempmail.ninja###article:not(:has(#post-loop)) + hr
+tempmail.ninja###bottom-buttons + hr
+tempmail.ninja###home-news
 tempmail.ninja###intro
 tempmail.ninja##+js(nobab)
 tempmail.ninja##.tool-title
-tempmail.ninja##main > aside[class="row align-items-center"]:has-text(Temp Mail):style(margin-left: 25% !important;)
+tempmail.ninja##aside[class="row align-items-center mb-3"]:has-text(/Temp Mail|Send anonymous email/):style(padding-left: 35% !important;)
 
 ! The Index
 theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
