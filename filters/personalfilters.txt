@@ -5,10 +5,8 @@
 
 ! iOS Filters
 !#if adguard_app_ios
-blazersedge.com,sbnation.com,stumptownfooty.com##rect[x="674.1"][width="50.5"][height="137.7"]:style(fill: white !important;)
+##header > div > div > a > span > span > svg > rect[x="674.1"][width="50.5"][height="137.7"]:style(fill: white !important;)
 cnn.com##+js(ra, data-noir-inline-background-color, .pui, stay)
-espn.com#%#(function(){let links=document.querySelectorAll("a[class*='ScoreCell__CompetitorDetails'][href^='/nba/game/']");for(let i=0,l=links.length;i<l;i++){links[i].href=links[i].href.replace("/game/","/boxscore/");}})();
-espn.com#%#(function(){let links=document.querySelectorAll("a[class*='ScoreCell__Link'][href^='/nba/game/']");for(let i=0,l=links.length;i<l;i++){links[i].href=links[i].href.replace("/game/","/boxscore/");}})();
 gist.github.com##.gisthead
 gist.github.com##.Header
 gist.github.com##.readme:style(background-color: #161b22 !important;)
@@ -64,12 +62,12 @@ reddit.com##.zo-dkbkklryqjrxwll0ui
 reddit.com##button[class="action last"][href]
 reddit.com##button[slot="overflowButton"]
 reddit.com##button[slot="share"]
-reddit.com##comment-body-header:not(:has-text(Be the first to comment):has-text(Nobody's responded to this post yet.):has-text(Add your thoughts and get the conversation going.)):style(border-bottom: 0.15rem solid #82959B !important;)
+reddit.com##comment-body-header:not(:has-text(Be the first to comment):has-text(Nobody's responded to this post yet.):has-text(Add your thoughts and get the conversation going.)):style(border-top: 0.1rem solid var(--color-neutral-border-weak) !important;)
 reddit.com##div[data-adclicklocation="fl_unknown"]
 reddit.com##div[id$="-share-menu"]
 reddit.com##div[slot="commentMeta"]:style(margin-bottom: 0.3rem !important;)
-reddit.com##div[slot="content-tags"] > span > .text-category-nsfw:style(margin-left: 1rem !important;)
-reddit.com##div[slot="content-tags"] > span > .text-category-spoiler:style(margin-left: 1rem !important;)
+reddit.com##div[slot="content-tags"] > span:first-child:style(margin-left: 1rem !important;)
+reddit.com##faceplate-batch[target="#comment-tree"]:not(:has-text(Be the first to comment):has-text(Nobody's responded to this post yet.):has-text(Add your thoughts and get the conversation going.)):style(border-top: 0.1rem solid var(--color-neutral-border-weak) !important;)
 reddit.com##faceplate-dropdown-menu[position="bottom-start"][slot="overflow"]
 reddit.com##faceplate-partial[class="mx-md xs:mx-0"][src^="/svc/shreddit/more-comments/"]:style(padding-top: 0.8rem !important; padding-bottom: 1rem !important;)
 reddit.com##faceplate-tracker[noun="button"][source="shreddit_comment_count_button"]
@@ -90,8 +88,6 @@ reddit.com##shreddit-join-link
 reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="credit-bar"] > div > .border-neutral-border-weak
 reddit.com##shreddit-profile-actions
 reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) !important; background-image: none !important;)
-rentry.*#%#(function(){const elements=document.getElementsByClassName("dark-mode");if(elements.length>0){const meta=document.createElement("meta");meta.name="theme-color";meta.content="#1c1c1c";document.getElementsByTagName("head")[0].appendChild(meta);}})();
-rentry.*#%#(function(){window.addEventListener("load",function(){const elements=document.getElementsByClassName("dark-mode");if(elements.length>0){const meta=document.createElement("meta");meta.name="theme-color";meta.content="#1c1c1c";document.getElementsByTagName("head")[0].appendChild(meta);}});})();
 slickdeals.net##.addComment
 slickdeals.net##.addCommentButton
 slickdeals.net##.commentReactionsOptions
