@@ -37,6 +37,10 @@
 9gag.com##div[style="padding-top: 146px;"]:style(padding-top: 96px !important;)
 9gag.com##div[style="padding-top: 98px;"]:style(padding-top: 48px !important;)
 
+! Advance Publications
+oregonlive.com##.ad-wrapper__mobile-bottom-adhesion
+oregonlive.com##.alert-bar--news-promo
+
 ! Amazon
 amazon.com##.sparkle-container
 
@@ -132,6 +136,7 @@ google.com##div[class="HyoXdf Pk5QZ"][jsname="lC3xKd"]
 google.com##div[class="HyoXdf VZPqNb"][jsname="lC3xKd"]
 google.com##div[class="rKJOcDNwrHj__pb-dfr rKJOcDNwrHj__pb-s"][jsname="ORHb"]
 google.com##div[jsaction="f2nbFb"][jsname="rLQONe"][role="button"]
+google.com##div[jsaction="JdMZaf:ot0Etb;rcuQ6b:npT2md;ZUAQIc:aziXvf"][jscontroller="Kby1he"][jsname="Ycs7vc"]:has-text(Give feedback on the result above?)
 google.com##div[jsaction="KIgGGb;rcuQ6b:npT2md"][jscontroller="dJBiMd"][jsname="suEOdc"]
 google.com##div[jsaction="rcuQ6b:npT2md"][jscontroller="JlIvbd"][jsname="xy3Vt"]
 google.com##div[jsaction="rcuQ6b:npT2md"][jscontroller="OPwjEf"][role="section"]
