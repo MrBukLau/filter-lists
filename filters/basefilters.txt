@@ -106,6 +106,7 @@ gogozb.*,popozhibo.*##div[class="modal is-active"]
 abcnews.go.com##.taboola
 
 ! Advance Publications
+oregonlive.com##.main-wrapper--article > .article__header > .articleLabel:style(padding-top: 24px !important;)
 oregonlive.com##.sharebar__bookmark--tooltip
 
 ! Albertsons Companies
