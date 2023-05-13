@@ -135,6 +135,9 @@ animeschedule.net###header-temporary-banner
 aniplaylist.com##.adswrapper:upward(1)
 aniplaylist.com##a[href="/my-aniplaylist"][title="Create your own playlist"]:upward(2)
 
+! Anna's Archive
+annas-archive.org##.js-top-banner
+
 ! AppDB
 appdb.to##.app::before
 appdb.to##.banner
@@ -244,6 +247,9 @@ discord.com##div[class^="notice-"]:has-text(Get the desktop app!)
 
 ! Disqus
 disqus.com###comment-policy
+
+! DoubleDouble
+doubledouble.top##.totally-not-an-ad
 
 ! Drake Scans
 drakescans.com##+js(rc, mdpDeblocker-blur, body, stay)
