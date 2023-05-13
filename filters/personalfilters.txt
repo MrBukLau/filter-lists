@@ -63,7 +63,6 @@ reddit.com##comment-body-header:not(:has-text(Be the first to comment):has-text(
 reddit.com##div[data-adclicklocation="fl_unknown"]
 reddit.com##div[id$="-share-menu"]
 reddit.com##div[slot="commentMeta"]:style(margin-bottom: 0.3rem !important;)
-reddit.com##div[slot="content-tags"] > span:first-child:style(margin-left: 1rem !important;)
 reddit.com##faceplate-batch[target="#comment-tree"]:not(:has-text(Be the first to comment):has-text(Nobody's responded to this post yet.):has-text(Add your thoughts and get the conversation going.)):style(border-top: 0.1rem solid var(--color-neutral-border-weak) !important;)
 reddit.com##faceplate-dropdown-menu[position="bottom-start"][slot="overflow"]
 reddit.com##faceplate-partial[class="mx-md xs:mx-0"][src^="/svc/shreddit/more-comments/"]:style(padding-top: 0.8rem !important; padding-bottom: 1rem !important;)
