@@ -340,6 +340,9 @@ icelz.newsrade.com##.sharethis-inline-share-buttons
 icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
 icelz.newsrade.com##in-page-message
 
+! IKEA
+ikea.com##.hnf-messages
+
 ! IKnowWhatYouDownload
 iknowwhatyoudownload.com##.footer
 
@@ -636,6 +639,8 @@ tempmail.ninja###home-news
 tempmail.ninja###intro
 tempmail.ninja##+js(nobab)
 tempmail.ninja##.tool-title
+tempmail.ninja##article[class="w-100 mb-3"]:has-text(The Power of Anonymous Email Sending: Embracing the Advantages)
+tempmail.ninja##article[class="w-100 mb-3"]:has-text(Unveiling the Power of Temporary Email: Unleash the Advantages)
 tempmail.ninja##aside[class="row align-items-center mb-3"]:has-text(/Temp Mail|Send anonymous email/):style(padding-left: 35% !important;)
 
 ! The Index
