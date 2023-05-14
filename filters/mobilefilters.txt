@@ -76,7 +76,6 @@ cnn.com##.BasicArticle__outbrainMain
 cnn.com##.BasicArticle__zone > .Zone__wrapper > .BasicArticle__tail > div > .lt-widget-iframe:upward(4)
 cnn.com##.bizdev-healthgrade:style(margin-bottom: 8px !important;)
 cnn.com##.bizdev-lending-tree
-cnn.com##.layout-homepage-mobile__content-wrapper:style(margin-top: 16px !important;)
 cnn.com##.OUTBRAIN:upward(.zn > .zn__background--content-relative > .zn__containers > .column)
 cnn.com##.toast-popup
 cnn.com##.ym:upward(.story > .BasicArticle__component > .BasicArticle__zone)
