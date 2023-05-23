@@ -210,11 +210,13 @@ clutchpoints.com##.widget-wrapper:has-text(RECOMMENDED)
 clutchpoints.com##script[src^="https://live.primis.tech/live/liveView.php"][src$="%%CACHEBUSTER%%"]:upward(1)
 
 ! CNN
+cnn.com###ad-feedback__modal-overlay
 cnn.com##.ActionInterceptGpsPackageNavigationItem-dropdown
 cnn.com##.ad--desktop
 cnn.com##.ad-feedback-link-container
 cnn.com##.ad-slot-dynamic
 cnn.com##.ad-slot-header
+cnn.com##.ad-slot-header__wrapper
 cnn.com##.ad-wrapper:upward(.ArticlePage-articleContainer > .ArticlePage-articleBody > .RichTextArticleBody > .RichTextBody > .slowRollWrap)
 cnn.com##.Ad__component:upward(.Article__component > .Article__zone > .Article__zone)
 cnn.com##.Article__adRailBottom
@@ -330,15 +332,12 @@ hikarinoakari.com##.widget_text:has-text(Are strongly recomended to download the
 ouo.*##+js(rc, disabled, .btn, stay)
 
 ! Icelz
-icelz.newsrade.com##+js(acis, ConsoleBan)
-icelz.newsrade.com##+js(acis, https://bit.ly/3R6YyKP)
-icelz.newsrade.com##+js(acis, prototype.ban)
-icelz.newsrade.com##+js(ra, target, .btn, stay)
-icelz.newsrade.com##.desktopad:remove()
-icelz.newsrade.com##.mobilead:remove()
-icelz.newsrade.com##.sharethis-inline-share-buttons
-icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
-icelz.newsrade.com##in-page-message
+icelz.net,icelz.newsrade.com##+js(acis, ConsoleBan)
+icelz.net,icelz.newsrade.com##+js(acis, https://bit.ly/3R6YyKP)
+icelz.net,icelz.newsrade.com##+js(acis, prototype.ban)
+icelz.net,icelz.newsrade.com##.sharethis-inline-share-buttons
+icelz.net,icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
+icelz.net,icelz.newsrade.com##in-page-message
 
 ! IKEA
 ikea.com##.hnf-messages
@@ -563,6 +562,7 @@ slickdeals.net##.announcementBar
 slickdeals.net##.bp-p-cashbackActivationSignupBanner
 slickdeals.net##.bp-p-dealCashbackStatus_wrapper
 slickdeals.net##.bp-p-slickdealsHeader_disclaimer
+slickdeals.net##.cashbackDealCardPromo:upward(1)
 slickdeals.net##.commentsAd
 slickdeals.net##.dealAlertRow
 slickdeals.net##.extensionSearchBanner
@@ -573,6 +573,9 @@ slickdeals.net##.omegaBanner
 slickdeals.net##.searchBottomAd
 slickdeals.net##.slickdealsFooter:style(margin-top: 0px !important;)
 slickdeals.net##.slickdealsHeader__disclaimer
+slickdeals.net##div[data-module-name="Category RCM Inline"]
+slickdeals.net##div[data-module-name="Top Categories"]
+slickdeals.net##div[data-module-name="trending-stores"]
 
 ! Slider
 slider.kz###fullwrapper
