@@ -322,6 +322,10 @@ open.spotify.com##button[data-testid="open-app-button"]
 ! Target
 target.com##div[data-test="@web/baseboardAd"]
 
+! Tenor
+tenor.com##.LanguageBanner
+tenor.com##.UpsellPill
+
 ! The Undefeated
 theundefeated.com##.ad-prevent-jump
 
