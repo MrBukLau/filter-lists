@@ -77,11 +77,13 @@ reddit.com##faceplate-tracker[noun="sorting"][source="comment_sort"] + hr + span
 reddit.com##faceplate-tracker[noun="sorting"][source="comment_sort"]:style(padding-left: 0.5rem !important;)
 reddit.com##faceplate-tracker[noun="user_avatar"][source="post_credit_bar"]
 reddit.com##reddit-header-overflow-menu
+reddit.com##shreddit-async-loader[bundlename="shreddit_post_overflow_menu"]
 reddit.com##shreddit-comment[class="top-level"]:style(border-top: 0.3rem solid var(--color-tone-5) !important; padding: 0.8rem 1rem 0.4rem !important;)
 reddit.com##shreddit-flair
 reddit.com##shreddit-join-button
 reddit.com##shreddit-join-link
 reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="credit-bar"] > div > .border-neutral-border-weak
+reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="credit-bar"]:style(margin-bottom: 1rem !important;)
 reddit.com##shreddit-profile-actions
 reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) !important; background-image: none !important;)
 slickdeals.net##.addComment
