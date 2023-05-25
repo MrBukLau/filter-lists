@@ -202,7 +202,7 @@ channelmaster.com##body[class*="-tv-guide-listings-for-"] > #page-content:style(
 chartoo.com##main > div > aside:has-text(/^Advertisement$/)
 
 ! CHP Adblock Detector
-chpadblock.com##+js(acis, chp_adblock_browser)
+chpadblock.com##+js(acs, chp_adblock_browser)
 
 ! ClutchPoints
 clutchpoints.com##.cafemedia-clutchpoints-header
@@ -332,9 +332,9 @@ hikarinoakari.com##.widget_text:has-text(Are strongly recomended to download the
 ouo.*##+js(rc, disabled, .btn, stay)
 
 ! Icelz
-icelz.net,icelz.newsrade.com##+js(acis, ConsoleBan)
-icelz.net,icelz.newsrade.com##+js(acis, https://bit.ly/3R6YyKP)
-icelz.net,icelz.newsrade.com##+js(acis, prototype.ban)
+icelz.net,icelz.newsrade.com##+js(acs, ConsoleBan)
+icelz.net,icelz.newsrade.com##+js(acs, https://bit.ly/3R6YyKP)
+icelz.net,icelz.newsrade.com##+js(acs, prototype.ban)
 icelz.net,icelz.newsrade.com##.sharethis-inline-share-buttons
 icelz.net,icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
 icelz.net,icelz.newsrade.com##in-page-message
@@ -359,7 +359,7 @@ agfinancia.info,itdmusic.top###footer
 agfinancia.info,itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
 itdmusic.top##.commentcount
-itdmusics.com##+js(acis, advadsTracker)
+itdmusics.com##+js(acs, advadsTracker)
 itdmusics.com##.breaking-news
 itdmusics.com##.comment-avatar
 itdmusics.com##.e3lan-bottom
@@ -446,8 +446,8 @@ myanimelist.net##span[class*="button_pin"]
 
 ! MyGoodStream
 mygoodstream.pw###includedheader > br
-mygoodstream.pw##+js(acis, ConsoleBan)
-mygoodstream.pw##+js(acis, prototype.ban)
+mygoodstream.pw##+js(acs, ConsoleBan)
+mygoodstream.pw##+js(acs, prototype.ban)
 mygoodstream.pw##.adsbyvli
 mygoodstream.pw##.bmc-button:upward(1)
 mygoodstream.pw##.bmpui-ui-watermark
