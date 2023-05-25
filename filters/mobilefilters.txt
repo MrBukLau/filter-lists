@@ -226,6 +226,7 @@ i.redd.it##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
 i.redd.it##shreddit-async-loader[bundlename="top_button"][paint-group="xpromo"]
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
 reddit.com###post-image:style(margin-bottom: 0rem !important;)
+reddit.com###trending-searches-ad
 reddit.com###use-app
 reddit.com##+js(rc, scroll-disabled, body, stay)
 reddit.com##+js(rc, scroll-is-blocked, body, stay)
@@ -243,6 +244,7 @@ reddit.com##.pb-xl:style(padding-bottom: 0rem !important;)
 reddit.com##.postcontent__img[src]:style(object-fit: contain !important;)
 reddit.com##.previewdrawer
 reddit.com##.prompt
+reddit.com##.reddit-search-bar > div > div:first-child
 reddit.com##.right-sidebar:has-text(More posts you may like)
 reddit.com##.scroll-disabled:style(overflow: auto !important; position: static !important;)
 reddit.com##.scroll-is-blocked:style(overflow: auto !important; position: static !important;)
