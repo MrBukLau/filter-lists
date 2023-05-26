@@ -7,6 +7,8 @@
 !---------- Generic Filters ----------!
 !-------------------------------------!
 ! Cosmetic Filters
+##.outbrain
+##.outbrain-container
 ##.remixd-wrapper
 ##div[class^="adblock-allowlist-messaging"]
 
@@ -516,6 +518,8 @@ pdfflyers.com##.store-details:style(margin-bottom: 0px !important;)
 
 ! Proton
 proton.me##a[data-testid="cta:upgrade-plan"]
+proton.me##div[data-testid="auto-delete:banner"]
+proton.me##div[data-testid="promotion-banner"]
 
 ! Quizlet
 quizlet.com##.SetPageEmbeddedAd-wrapper
