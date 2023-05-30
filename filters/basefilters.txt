@@ -13,6 +13,7 @@
 ##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
+*pl=https%3A%2F%2Ficelz.newsrade.com%2F$all
 @@||agfinancia.info^$generichide
 @@||cookielaw.org^$3p
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
@@ -403,7 +404,7 @@ mayoclinic.org##div[class="contentbox no-border"] > script[src="/~/media/kcms/ux
 mayoclinic.org##div[id^="redpoint_emailform_"]
 
 ! Mojo Sakun
-controlc.com##a[href^="https://redact.dev"]:upward(2)
+controlc.com##img[src="https://controlc.com/redact.png"]:upward(2)
 mojosakun.blogspot.com###HTML4
 mojosakun.blogspot.com###HTML99
 mojosakun.blogspot.com###Image5
