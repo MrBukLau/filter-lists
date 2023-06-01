@@ -183,6 +183,9 @@ linkedin.com##div[class^="apptivation-promo"]
 ! Major League Baseball
 mlb.com##.ad
 
+! Mayo Clinic
+mayoclinic.org###kampyleButtonContainer
+
 ! Mozilla
 mozilla.org###firefox-app-store-banner
 
@@ -362,6 +365,7 @@ walmart.com##div[id^="ITEM-SponsoredProductCarousel-"]
 
 ! WebMD
 webmd.com###lln-toppks
+webmd.com##.article-page > .top-picks-inf
 webmd.com##.medianet-ctr
 webmd.com##.mobile-ad-inside-center
 webmd.com##.ovr-lazy-ad
