@@ -398,9 +398,11 @@ mlssoccer.com##div[class="d3-l-grid--outer d3-l-section-row -main-section"]:styl
 mlssoccer.com##section[data-block-type="alert"]
 
 ! Mayo Clinic
+mayoclinic.org###main-content > .row > .sidebar > .mayoad:upward(1)
 mayoclinic.org##.acces-list-container:has-text(Products & Services)
 mayoclinic.org##.requestappt
 mayoclinic.org##div[class="contentbox no-border"] > script[src="/~/media/kcms/ux/javascript/subscriptionlist.js"]:upward(1)
+mayoclinic.org##div[data-hydrate$="/footer/promo-content"]
 mayoclinic.org##div[id^="redpoint_emailform_"]
 
 ! Mojo Sakun
@@ -700,6 +702,7 @@ webmd.com##div[class$="-para-ad"]
 writer.com##+js(rc, om-position-popup, html, stay)
 writer.com##.CampaignType--popup
 writer.com##.get-extension
+writer.com##.wpm-banner
 
 ! Xero
 xero.com##.cmp-experiencefragment--offer-banner
