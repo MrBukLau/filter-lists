@@ -15,6 +15,7 @@ gist.github.com##html:style(background-color: #1e2327 !important;)
 github.com##a[aria-label="You must be signed in to change notification settings"]
 github.com##a[aria-label="You must be signed in to star a repository"]
 github.com##button[aria-label="You must be signed in to add this repository to a list"]
+google.com##a[aria-label="Search using your camera or photos"]
 i.redd.it##faceplate-tracker[noun="login"][source="cdnlanding"]
 i.redd.it##faceplate-tracker[noun="login"][source="nav"]
 i.redd.it##reddit-header-overflow-menu
@@ -121,6 +122,7 @@ github.com##input[name="message"]
 github.com##textarea[name="description"]
 google.com##div[aria-label="Search by voice"][role="button"]
 google.com##div[aria-label="Share"][role="button"]
+music.youtube.com##ytmusic-pivot-bar-item-renderer[tab-id="FEmusic_library_landing"]
 open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(/About recommendations|Add to playlist|Add to profile|Add to queue|Create folder|Create playlist|Go to artist radio|Go to playlist radio|Go to song radio|Open in Desktop app|Report|Save to Your Episodes|Save to your Liked Songs/)
 open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(/Follow|Following/)
 open.spotify.com##.main-view-container__mh-footer-container
