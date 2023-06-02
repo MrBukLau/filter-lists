@@ -405,6 +405,9 @@ mayoclinic.org##div[class="contentbox no-border"] > script[src="/~/media/kcms/ux
 mayoclinic.org##div[data-hydrate$="/footer/promo-content"]
 mayoclinic.org##div[id^="redpoint_emailform_"]
 
+! Moen
+moen.com##fh-anonymous-consent
+
 ! Mojo Sakun
 controlc.com##img[src="https://controlc.com/redact.png"]:upward(2)
 mojosakun.blogspot.com###HTML4
