@@ -49,6 +49,7 @@ reddit.com##.occjsdfd6hkhhshrg6dol
 reddit.com##.overflow-actions-button
 reddit.com##.overlaymenu > .overlaymenu-ul > ._26dt6ipeyqmadkdci_sxey
 reddit.com##.overlaymenu > .overlaymenu-ul > .e-six8ipezo23vlhqqfc2
+reddit.com##.post > .post__header-wrapper > .postheader > .postheader__metadata-container > .postheader__metadata:style(padding-right: 0.75rem !important;)
 reddit.com##.postcontent > .postcontent__image-link[href^="https://i.redd.it/"] > .postcontent__warning
 reddit.com##.postfooter__share
 reddit.com##.postheader__overflowmenu
@@ -87,6 +88,7 @@ reddit.com##shreddit-flair
 reddit.com##shreddit-join-button
 reddit.com##shreddit-join-link
 reddit.com##shreddit-post[view-context="AggregateFeed"] > a[slot="title-link"]:style(font-weight: bold !important;)
+reddit.com##shreddit-post[view-context="AggregateFeed"] > span[slot="subredditFeedIcon"]:style(padding-right: 0.5rem !important;)
 reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="credit-bar"] > div > .border-neutral-border-weak
 reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="credit-bar"]:style(margin-bottom: 1rem !important;)
 reddit.com##shreddit-profile-actions
