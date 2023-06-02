@@ -220,6 +220,9 @@ platt.com##.cookie[role="alert"]
 platt.com##div[class="v-application--wrap"] > a[href="https://apple.co/3KZACWo"]
 platt.com##main[class="v-main"][style="padding: 188px 0px 0px;"]:style(padding: 128px 0px 0px !important;)
 
+! Presearch
+presearch.com##.extension-notice
+
 ! Quora
 quora.com##.qu-bg--poe_primary_purple:has-text(Ask AI bots any question on Poe, a free app by Quora)
 quora.com##button[type="button"]:has-text(Open in App)
@@ -275,6 +278,7 @@ reddit.com##button[id$="-read-more-button"]
 reddit.com##div[class*="safe-area-inset-bottom"]
 reddit.com##div[id$="-overflow-cover"]
 reddit.com##div[id$="-post-rtjson-content"]:style(max-height: fit-content !important;)
+reddit.com##faceplate-tracker[noun="top_button"][source="xpromo"]
 reddit.com##img[class="_1VSyzeCqhLG-H2N68kAx9V _3UqAK6QeNaMYy-9jvRefdv"]:style(filter: none !important;)
 reddit.com##shreddit-ad-post
 reddit.com##shreddit-app:style(padding: var(--shreddit-header-height) 0rem 0rem !important;)
