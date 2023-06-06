@@ -180,6 +180,9 @@ kitsu.io##.alert
 ! LinkedIn
 linkedin.com##div[class^="apptivation-promo"]
 
+! Live Soccer TV
+livesoccertv.com##.ads-container
+
 ! Major League Baseball
 mlb.com##.ad
 
@@ -387,11 +390,15 @@ yahoo.com###app-promo
 
 ! Yelp
 m.yelp.com###smart-banner
+m.yelp.com##a[aria-label="Download the Yelp app"]:upward(1)
 m.yelp.com##a[class*="link__"]:has-text(Open in App)
 m.yelp.com##div[class*="2BTbv"]:has-text(Open in App)
 m.yelp.com##div[class*="banner__"]:has-text(Yelp for iPhone)
 m.yelp.com##div[class*="cta-menubar-pitch_left-icons"]:has-text(Open in App)
 m.yelp.com##div[class*="u-space-"]:has-text(Open in the Yelp App)
+
+! Yibababa
+yibababa.com##.tv_name:style(font-size: xx-small !important;)
 
 ! YouTube
 m.youtube.com##.music-metadata-premium-upsell-link
