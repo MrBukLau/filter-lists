@@ -245,6 +245,9 @@ cnn.com##h2[data-analytics="Paid Partner Content_list-xs_"]:upward(.zn > .zn__ba
 ! Costco
 costco.com###email-popup-title
 
+! Din Tai Fung
+dintaifungusa.com##.gdpr
+
 ! Discord
 discord.com##div[class*="channelNotice"]
 discord.com##div[class^="card-"]:has-text(We can customize Active Now, and other parts of Discord, based on information like who you talk to and what games you play.)
