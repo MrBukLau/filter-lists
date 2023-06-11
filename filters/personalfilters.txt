@@ -33,6 +33,8 @@ m.youtube.com##button[aria-label="Save to playlist"]
 m.youtube.com##button[aria-label="Share"]
 m.youtube.com##button[aria-label="Subscribe"]
 m.youtube.com##ytm-comments-header-renderer
+preview.redd.it##faceplate-tracker[noun="login"][source="nav"]
+preview.redd.it##reddit-header-overflow-menu
 reddit.com##._1e9mcovn4mynubqsvdt1gc
 reddit.com##._2mbxhmh6lyncpagzpjzyfn:style(background: none !important;)
 reddit.com##._2rszc84l136gwqrkwh6iam:style(padding: 0rem !important;)
