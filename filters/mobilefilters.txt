@@ -69,6 +69,9 @@ buzzfeednews.com##.cls-min-size
 cbsnews.com###smart-banner-download
 cbssports.com###skybox-top-wrapper
 
+! ClutchPoints
+clutchpoints.com##.caffeine-embed:upward(1)
+
 ! CNN
 cnn.com##.ad--mobile
 cnn.com##.ad-slot-rail:upward(1)
