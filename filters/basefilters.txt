@@ -386,6 +386,9 @@ jpopmix.com##.jnews_related_post_container
 ! Kwik
 kwik.cx##.plyr::after
 
+! LiveSportsOnTV
+livesportsontv.com##.bottom-sticky-ad
+
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
 lyrical-nonsense.com##.lyricside
@@ -407,6 +410,7 @@ mangattack.com##.ADs-BG
 mayoclinic.org###main-content > .row > .sidebar > .mayoad:upward(1)
 mayoclinic.org##.acces-list-container:has-text(Products & Services)
 mayoclinic.org##.requestappt
+mayoclinic.org##.social-share:upward(2)
 mayoclinic.org##div[class="contentbox no-border"] > script[src="/~/media/kcms/ux/javascript/subscriptionlist.js"]:upward(1)
 mayoclinic.org##div[data-hydrate$="/footer/promo-content"]
 mayoclinic.org##div[id^="redpoint_emailform_"]
@@ -612,6 +616,8 @@ snopes.com##div[data-piano-show="non-member"]
 ! Sport365
 livestream365.com##.vote
 livestream365.com,sport365.stream##.footer
+sport365.stream##.dashbox__title
+sport365.stream##.description
 sport365.stream##.promo
 sport365.stream##.social__icons
 sport365.stream##.stream__cover:upward(2)
