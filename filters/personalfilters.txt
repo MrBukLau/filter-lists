@@ -35,6 +35,8 @@ m.youtube.com##button[aria-label="Subscribe"]
 m.youtube.com##ytm-comments-header-renderer
 preview.redd.it##faceplate-tracker[noun="login"][source="nav"]
 preview.redd.it##reddit-header-overflow-menu
+reddit.com###expand-user-drawer-button
+reddit.com###reddit-trending-searches-partial-container
 reddit.com##._1e9mcovn4mynubqsvdt1gc
 reddit.com##._2mbxhmh6lyncpagzpjzyfn:style(background: none !important;)
 reddit.com##._2rszc84l136gwqrkwh6iam:style(padding: 0rem !important;)
@@ -74,7 +76,6 @@ reddit.com##faceplate-partial[class="mx-md xs:mx-0"][src^="/svc/shreddit/more-co
 reddit.com##faceplate-tracker[noun="button"][source="shreddit_comment_count_button"]
 reddit.com##faceplate-tracker[noun="hamburger_menu"][source="nav"]
 reddit.com##faceplate-tracker[noun="login"][source="nav"]
-reddit.com##faceplate-tracker[noun="reddit_logo"][source="nav"]:style(padding-left: 0.8rem !important;)
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
 reddit.com##faceplate-tracker[noun="share"][source="comment"]
 reddit.com##faceplate-tracker[noun="sorting"][source="comment_sort"] + hr
