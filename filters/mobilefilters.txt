@@ -196,6 +196,7 @@ mayoclinic.org###kampyleButtonContainer
 mozilla.org###firefox-app-store-banner
 
 ! MyAnimeList
+myanimelist.net###top_scroller
 myanimelist.net##.ad-block-for-billboard
 myanimelist.net##.btn-mal-service-outer
 myanimelist.net##.mxj
@@ -338,6 +339,14 @@ open.spotify.com##button[data-testid="open-app-button"]
 
 ! Target
 target.com##div[data-test="@web/baseboardAd"]
+
+! Temu
+temu.com###main > div > div > div[style="height:0.66rem"]:upward(1)
+temu.com##div[class^="container-"]:has-text(Sign in for the best experience)
+temu.com##div[class^="root-"] > div > div > div[style="height:0.66rem"]:upward(1)
+temu.com##div[class^="withAppDownload-"] > div[class^="wrap-"] > div[class^="app-"] > div > div > div[style="height: 0.66rem;"]:upward(1)
+temu.com##div[class^="withAppDownload-"] > div[class^="wrap-"] > div[class^="app-"] > div > div > div[style="height:auto"]:upward(1)
+temu.com##div[id^="sticky_"]:style(transform: translate(-50%) !important;)
 
 ! Tenor
 tenor.com##.LanguageBanner
