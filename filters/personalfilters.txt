@@ -33,6 +33,9 @@ m.youtube.com##button[aria-label="Save to playlist"]
 m.youtube.com##button[aria-label="Share"]
 m.youtube.com##button[aria-label="Subscribe"]
 m.youtube.com##ytm-comments-header-renderer
+myanimelist.net###bottom-menu
+myanimelist.net##footer:style(padding-bottom: 0px !important;)
+myanimelist.net##head > meta[name="theme-color"][content="#182a53"]:remove()
 preview.redd.it##faceplate-tracker[noun="login"][source="nav"]
 preview.redd.it##reddit-header-overflow-menu
 reddit.com###expand-user-drawer-button
