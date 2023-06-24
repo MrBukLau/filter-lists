@@ -128,16 +128,6 @@
     }
 })();
 
-/// music-clutter-download-link-inputter.js
-/// alias mcdli.js
-(function() {
-    window.addEventListener("DOMContentLoaded", function() {
-        const downloadLink = "http://skip-page.musiclutter.xyz" + window.location.pathname;
-        document.querySelector("a[value='Download Link']").setAttribute("href", downloadLink);
-        document.querySelector("a[value='Download Link']").setAttribute("target", "_blank");
-    });
-})();
-
 /// nyaa-dark-mode-enabler.js
 /// alias ndme.js
 (function() {
