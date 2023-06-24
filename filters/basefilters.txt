@@ -433,7 +433,7 @@ musiclutter.xyz###footer-wrapper > .row
 musiclutter.xyz###recent-boxes
 musiclutter.xyz###recent-boxes2
 musiclutter.xyz###related-wrap
-musiclutter.xyz##+js(ra, onclick, a[href*="/skip-page.musiclutter.xyz/"], stay)
+musiclutter.xyz##+js(acs, document.oncontextmenu)
 musiclutter.xyz##.featured
 musiclutter.xyz##.FeaturedPost
 musiclutter.xyz##.ib-nav
