@@ -294,6 +294,7 @@ reddit.com##shreddit-app:style(padding: var(--shreddit-header-height) 0rem 0rem 
 reddit.com##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
 reddit.com##shreddit-async-loader[bundlename="faceplate_alerts"]
 reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]
+reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]:remove()
 reddit.com##shreddit-async-loader[bundlename="rpl_continue_chat_in_app"]
 reddit.com##shreddit-async-loader[bundlename="top_button"][paint-group="xpromo"]
 reddit.com##shreddit-comments-page-ad
