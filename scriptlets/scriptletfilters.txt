@@ -5,6 +5,7 @@
 
 ! Attribute Setters
 gist.github.com##+js(ggtas)
+musiclutter.xyz##+js(mcdli)
 rentry.*##+js(rtas)
 
 ! Dark Mode Enablers
