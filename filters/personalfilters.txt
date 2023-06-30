@@ -16,9 +16,6 @@ github.com##a[aria-label="You must be signed in to change notification settings"
 github.com##a[aria-label="You must be signed in to star a repository"]
 github.com##button[aria-label="You must be signed in to add this repository to a list"]
 google.com##a[aria-label="Search using your camera or photos"]
-i.redd.it##faceplate-tracker[noun="login"][source="cdnlanding"]
-i.redd.it##faceplate-tracker[noun="login"][source="nav"]
-i.redd.it##reddit-header-overflow-menu
 imgur.io##.PostComments-addComment
 imgur.io##.ShareButtons-shareContainer
 imgur.io##button[class="PostButtons-button favorite"]
@@ -36,8 +33,9 @@ m.youtube.com##ytm-comments-header-renderer
 myanimelist.net###bottom-menu
 myanimelist.net##footer:style(padding-bottom: 0px !important;)
 myanimelist.net##head > meta[name="theme-color"][content="#182a53"]:remove()
-preview.redd.it##faceplate-tracker[noun="login"][source="nav"]
-preview.redd.it##reddit-header-overflow-menu
+redd.it##faceplate-tracker[noun="login"][source="cdnlanding"]
+redd.it##faceplate-tracker[noun="login"][source="nav"]
+redd.it##reddit-header-overflow-menu
 reddit.com###expand-user-drawer-button
 reddit.com###reddit-trending-searches-partial-container
 reddit.com##._1e9mcovn4mynubqsvdt1gc
