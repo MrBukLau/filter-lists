@@ -13,6 +13,7 @@
 ##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
+*pl=https%3A%2F%2Ficelz.net%2F$all
 *pl=https%3A%2F%2Ficelz.newsrade.com%2F$all
 @@||agfinancia.info^$generichide
 @@||cookielaw.org^$3p
@@ -57,6 +58,7 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 ||music.apple.com^$removeparam=sr
 ||music.apple.com^$removeparam=src
 ||music.apple.com^$removeparam=uo
+||open.spotify.com^$removeparam=flow_ctx
 ||open.spotify.com^$removeparam=flow_id
 ||open.spotify.com^$removeparam=nd
 ||open.spotify.com^$removeparam=referral
@@ -290,6 +292,9 @@ fandom.com##div[class^="render-wiki-recommendations"]
 
 ! Free MP3 Download
 free-mp3-download.net###toast-container
+
+! FreeStreams
+freestreams-live1.tv###wpfront-notification-bar-spacer
 
 ! Genius
 genius.com##div[class^="InreadAddesktop__Container"]
