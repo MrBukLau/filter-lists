@@ -67,7 +67,6 @@ buzzfeednews.com##.cls-min-size
 
 ! CBS
 cbsnews.com###smart-banner-download
-cbssports.com###skybox-top-wrapper
 
 ! ClutchPoints
 clutchpoints.com##.caffeine-embed:upward(1)
@@ -386,6 +385,7 @@ walmart.com##div[id^="ITEM-SponsoredProductCarousel-"]
 ! WebMD
 webmd.com###lln-toppks
 webmd.com##.article-page > .top-picks-inf
+webmd.com##.article__body > .top-picks-inf
 webmd.com##.medianet-ctr
 webmd.com##.mobile-ad-inside-center
 webmd.com##.ovr-lazy-ad
