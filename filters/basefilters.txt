@@ -78,13 +78,8 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 2kratings.com##.takeover-alert
 
 ! 88Kanqiu
-88kanqiu.*,888kanqiu.*###sidebar-wechat
-88kanqiu.*,888kanqiu.*##.modal-open:style(overflow: auto !important;)
-88kanqiu.*,888kanqiu.*##div[class="modal fade in"]
-88kanqiu.*,888kanqiu.*##div[class="modal-backdrop fade in"]
-88kanqiu.*,888kanqiu.*,gogozb.*,popozhibo.*##.appdown
-88kanqiu.*,888kanqiu.*,gogozb.*,popozhibo.*##.sss-container[data-uuid]
-gogozb.*,popozhibo.*##div[class="modal is-active"]
+222live.*,88kanqiu.*,88zhibo.*,888kanqiu.*,gogozb.*,niubizhibo.*,popozhibo.*##.sss-container[data-uuid]
+88kq.org###app > .main > .list > .listli:has-text(下载APP)
 
 ! 925
 925.tv##.head-main > .jfqh_wrap
@@ -187,7 +182,10 @@ camelcamelcamel.com###primeheader
 camelcamelcamel.com###similar_products
 
 ! CBS
+cbssports.com###cbs-site-nav:style(top: 0px !important;)
 cbssports.com###cps-shaman-notifier
+cbssports.com###fixed-skybox-placeholder
+cbssports.com###skybox-top-wrapper
 cbssports.com##+js(rc, PageLayout--videoRail, main[class="PageLayout PageLayout--videoRail"], stay)
 cbssports.com##.AdBlock
 cbssports.com##.gametracker-page > .desktop-view:style(top: 0px !important;)
@@ -361,7 +359,7 @@ ipinfo.io##div[class="py-5 bg-green-01 border-b border-green-01"]:has-text(Join 
 
 ! IPTV
 iptv345.com###ad
-iptv345.com##a[href^="https://down.iptv2020.com/"]
+iptv345.com##a[href^="https://down.iptv"]
 iptv345.com##script[src="https://www.sinawap.com/smu/o.js"]:upward(1)
 
 ! iTD Music
@@ -474,6 +472,7 @@ mygoodstream.pw###includedheader > br
 mygoodstream.pw##+js(acs, ConsoleBan)
 mygoodstream.pw##+js(acs, prototype.ban)
 mygoodstream.pw##.adsbyvli
+mygoodstream.pw##.anv-video-container > .anv-splash > .anv-splash-img > .anv-splash-header
 mygoodstream.pw##.bmc-button:upward(1)
 mygoodstream.pw##.bmpui-ui-watermark
 mygoodstream.pw##.embed-responsive[style^="box-shadow"]:style(box-shadow: none !important;)
@@ -483,6 +482,7 @@ mygoodstream.pw##.w-webflow-badge
 mygoodstream.pw##div[data-watermark]
 mygoodstream.pw##h5:has-text(Copyright)
 mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
+mygoodstream.pw##iframe[style$="z-index: 2147483647;"]
 
 ! National Automotive Parts Association
 napaonline.com##div[class="CCPA nol-ui"]
@@ -560,8 +560,12 @@ reddit.com##section[class="infobar commentsignupbar"]
 reddit.com##section[class="infobar listingsignupbar"]
 
 ! Reddit Sport Live
+redditsport.live###abm
 redditsport.live##div[id^="ezoic-pub-ad-placeholder-"]:upward(1)
 redditsport.live##tbody[id^="stats"]:upward(1)
+
+! SB Nation
+blazersedge.com##.c-related-list
 
 ! Seedr
 seedr.cc###subscription-menu-item
