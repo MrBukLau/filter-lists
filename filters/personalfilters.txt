@@ -111,6 +111,10 @@ slickdeals.net##div[role="threadrating"]
 ! Universal Filters
 accounts.spotify.com###login-to-continue
 accounts.spotify.com##button[data-testid="facebook-login"]:upward(div[data-testid="login-container"] > ul)
+blazersedge.com##.coral-viewersWatching
+blazersedge.com##main[aria-label="Comments Embed"] > div > section[aria-labelledby="tab-COMMENTS"] > div > div[class^="Box-root-"]:first-child
+blazersedge.com##section[aria-label="Community Guidelines"]
+blazersedge.com##section[aria-label="Post a Comment"]
 gist.github.com##.discussion-timeline-actions:has-text(Sign up for free):style(margin-bottom: 16px !important;)
 gist.github.com##.Popover
 gist.github.com##div[data-quote-markdown=".js-comment-body"]:not(:has(div[class="TimelineItem d-block js-comment-container"])):has-text(Sign up for free)
