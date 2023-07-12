@@ -152,6 +152,9 @@ gopuff.com##.jr-smart-banner
 ! Healthline
 healthline.com##.myFinance-ad-unit
 
+! Hoops Rumors
+hoopsrumors.com##.wptouch-custom-ad
+
 ! HoopsHype
 hoopshype.com##.mobile-instream-ad-holder
 
@@ -345,6 +348,7 @@ temu.com##div[class^="root-"] > div > div > div[style="height:0.66rem"]:upward(1
 temu.com##div[class^="withAppDownload-"] > div[class^="wrap-"] > div[class^="app-"] > div > div > div[style="height: 0.66rem;"]:upward(1)
 temu.com##div[class^="withAppDownload-"] > div[class^="wrap-"] > div[class^="app-"] > div > div > div[style="height:auto"]:upward(1)
 temu.com##div[id^="sticky_"]:style(transform: translate(-50%) !important;)
+temu.com##div[js-selector="mobile-download-ui"]:upward(#main > div[class^="rootFixed-"] > div > div[style])
 
 ! Tenor
 tenor.com##.LanguageBanner
