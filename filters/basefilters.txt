@@ -10,6 +10,7 @@
 ##.outbrain
 ##.outbrain-container
 ##.remixd-wrapper
+##div[class*="metabet-sponsored"]
 ##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
@@ -645,6 +646,7 @@ open.spotify.com##a[data-encore-id="buttonPrimary"][href="/download"]
 open.spotify.com##button[aria-label="Upgrade to Premium"]
 open.spotify.com##div[aria-label="In-App Message Modal"]:upward(.ReactModalPortal)
 open.spotify.com##div[data-testid="signup-bar"]:upward(.Root__now-playing-bar)
+open.spotify.com##div[data-tippy-root]
 open.spotify.com#@#div > div[aria-live="polite"]
 
 ! Spotify Release List
