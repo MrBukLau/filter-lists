@@ -146,6 +146,7 @@ open.spotify.com##button[data-testid="control-button-shuffle"]
 open.spotify.com##button[data-testid="create-playlist-button"]
 open.spotify.com##div[data-testid="LayoutResizer__resize-bar"]
 open.spotify.com##section[aria-label="Top podcasts"][data-testid="component-shelf"]
+redd.it##post-bottom-bar
 reddit.com###header-bottom-right
 reddit.com###sr-header-area
 reddit.com##.sidecontentbox:has-text(MODERATORS):has(.message-button:has-text(message the mods))
