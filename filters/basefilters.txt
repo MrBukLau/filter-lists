@@ -14,6 +14,7 @@
 ##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
+*/prod/ngo.html?lu=https%3A%2F%2F$all
 *pl=https%3A%2F%2Ficelz.net%2F$all
 *pl=https%3A%2F%2Ficelz.newsrade.com%2F$all
 @@||agfinancia.info^$generichide
@@ -154,13 +155,23 @@ music.apple.com##button[title="Twitter"]
 music.apple.com##div[aria-label="Choose country or region banner"]
 music.apple.com##div[aria-label="国または地域のバナーを選択します"]
 
+! Asura Scans
+asurascans.com###disqus_recommendations
+asurascans.com##.kln
+asurascans.com##.readercontent > .wrapper > .chapterbody > .postarea > .hentry > .maincontent > .chdesc
+asurascans.com##.socialts
+
 ! Barcode Spider
 barcodespider.com##.barcode-home > .square > .adv-square:upward(1)
 barcodespider.com##.box-adv
 barcodespider.com##.upc-list > ul > li > .boxads:upward(1)
 
-! Bed Bath & Beyond
-bedbathandbeyond.com##.modalEOWrapper
+! BDNewsZH
+bdnewszh.com##+js(ra, onclick, div[onclick])
+bdnewszh.com##.abblock-msg
+bdnewszh.com##.vpn-wrapper
+bdnewszh.com##iframe[src="about:blank"]
+bdnewszh.com##iframe[src="about:blank"]:remove()
 
 ! Best Buy
 bestbuy.com##.embedded-leaderboard
@@ -283,6 +294,10 @@ espn.com##article[class="sub-module editorial"]:has-text(Latest Soccer Videos):h
 espn.com##aside[data-behavior="article_related"]
 espn.com##section[data-behavior="follow_card_carousel"]
 
+! Fakespot
+fakespot.com###analyzer_bottom
+fakespot.com##.show-vote-share-links
+
 ! Fandom
 fandom.com###mixed-content-footer
 fandom.com###SurveyModule
@@ -342,12 +357,32 @@ hikarinoakari.com##.widget_text:has-text(Are strongly recomended to download the
 ouo.*##+js(rc, disabled, .btn, stay)
 
 ! Icelz
-icelz.net,icelz.newsrade.com##+js(acs, ConsoleBan)
-icelz.net,icelz.newsrade.com##+js(acs, https://bit.ly/3R6YyKP)
-icelz.net,icelz.newsrade.com##+js(acs, prototype.ban)
-icelz.net,icelz.newsrade.com##.sharethis-inline-share-buttons
-icelz.net,icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
-icelz.net,icelz.newsrade.com##in-page-message
+icelz.newsrade.com##+js(acs, ConsoleBan)
+icelz.newsrade.com##+js(acs, https://bit.ly/3R6YyKP)
+icelz.newsrade.com##+js(acs, prototype.ban)
+icelz.newsrade.com##.sharethis-inline-share-buttons
+icelz.newsrade.com##a[style$="z-index: 2147483645;"]
+icelz.newsrade.com##a[style$="z-index: 2147483645;"]:remove()
+icelz.newsrade.com##a[style$="z-index: 2147483646;"]
+icelz.newsrade.com##a[style$="z-index: 2147483646;"]:remove()
+icelz.newsrade.com##a[style$="z-index: 2147483647;"]
+icelz.newsrade.com##a[style$="z-index: 2147483647;"]:remove()
+icelz.newsrade.com##a[style*="-1000px;"]
+icelz.newsrade.com##a[style*="-1000px;"]:remove()
+icelz.newsrade.com##div[style$="z-index: 2147483645;"]
+icelz.newsrade.com##div[style$="z-index: 2147483645;"]:remove()
+icelz.newsrade.com##div[style$="z-index: 2147483646;"]
+icelz.newsrade.com##div[style$="z-index: 2147483646;"]:remove()
+icelz.newsrade.com##div[style$="z-index: 2147483647;"]
+icelz.newsrade.com##div[style$="z-index: 2147483647;"]:remove()
+icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
+icelz.newsrade.com##iframe[src="about:blank"]
+icelz.newsrade.com##iframe[src="about:blank"]:remove()
+icelz.newsrade.com##iframe[style*="-1000px;"]
+icelz.newsrade.com##iframe[style*="-1000px;"]:remove()
+icelz.newsrade.com##in-page-message
+icelz.newsrade.com##in-page-message:remove()
+icelz.newsrade.com##script[adformat]:remove()
 
 ! IKEA
 ikea.com##.hnf-messages
@@ -539,6 +574,9 @@ pdfflyers.com###openShareModal
 pdfflyers.com##.post-header > .content[style="align-items: center;"]:style(gap: 0px !important;)
 pdfflyers.com##.store-area > .container > .row[style="width:100%;height:250px;"]:has(.adsbygoogle)
 pdfflyers.com##.store-details:style(margin-bottom: 0px !important;)
+
+! Platinsport
+platinsport.com##+js(acs, document.oncontextmenu)
 
 ! Proton
 proton.me##a[data-testid="cta:upgrade-plan"]
