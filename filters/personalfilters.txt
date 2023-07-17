@@ -91,6 +91,8 @@ reddit.com##shreddit-comment[class="top-level"]:style(border-top: 0.3rem solid v
 reddit.com##shreddit-flair
 reddit.com##shreddit-join-button
 reddit.com##shreddit-join-link
+reddit.com##shreddit-legacy-post[view-context="AggregateFeed"] > a[slot="title-link"]:style(font-weight: bold !important;)
+reddit.com##shreddit-legacy-post[view-context="AggregateFeed"] > span[slot="subredditFeedIcon"]:style(padding-right: 0.5rem !important;)
 reddit.com##shreddit-post[view-context="AggregateFeed"] > a[slot="title-link"]:style(font-weight: bold !important;)
 reddit.com##shreddit-post[view-context="AggregateFeed"] > span[slot="subredditFeedIcon"]:style(padding-right: 0.5rem !important;)
 reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="credit-bar"] > div > .border-neutral-border-weak
