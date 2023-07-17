@@ -20,6 +20,7 @@
 @@||agfinancia.info^$generichide
 @@||cookielaw.org^$3p
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
+||fastly.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js
 ||katu.com/api/rest/audience/more
 ||kgw.com/ajax/content/cscroll
 
@@ -156,10 +157,10 @@ music.apple.com##div[aria-label="Choose country or region banner"]
 music.apple.com##div[aria-label="国または地域のバナーを選択します"]
 
 ! Asura Scans
-asurascans.com###disqus_recommendations
-asurascans.com##.kln
-asurascans.com##.readercontent > .wrapper > .chapterbody > .postarea > .hentry > .maincontent > .chdesc
-asurascans.com##.socialts
+asura.gg,asurascans.com###disqus_recommendations
+asura.gg,asurascans.com##.kln
+asura.gg,asurascans.com##.readercontent > .wrapper > .chapterbody > .postarea > .hentry > .maincontent > .chdesc
+asura.gg,asurascans.com##.socialts
 
 ! Barcode Spider
 barcodespider.com##.barcode-home > .square > .adv-square:upward(1)
@@ -310,6 +311,9 @@ free-mp3-download.net###toast-container
 ! FreeStreams
 freestreams-live1.tv###wpfront-notification-bar-spacer
 
+! Gem Streams
+gemstreams.com##body > div > main > div > div > .chat-box:upward(1)
+
 ! Genius
 genius.com##div[class^="InreadAddesktop__Container"]
 genius.com##div[class^="SidebarAd__Container"]
@@ -360,6 +364,8 @@ ouo.*##+js(rc, disabled, .btn, stay)
 icelz.newsrade.com##+js(acs, ConsoleBan)
 icelz.newsrade.com##+js(acs, https://bit.ly/3R6YyKP)
 icelz.newsrade.com##+js(acs, prototype.ban)
+icelz.newsrade.com##.bmpui-label-metadata-description:style(opacity: 0 !important;)
+icelz.newsrade.com##.bmpui-label-metadata-title:style(opacity: 0 !important;)
 icelz.newsrade.com##.sharethis-inline-share-buttons
 icelz.newsrade.com##a[style$="z-index: 2147483645;"]
 icelz.newsrade.com##a[style$="z-index: 2147483645;"]:remove()
@@ -427,6 +433,8 @@ kwik.cx##.plyr::after
 
 ! LiveSportsOnTV
 livesportsontv.com##.bottom-sticky-ad
+livesportsontv.com##.event__odds_container_v
+livesportsontv.com##img[alt^="standby"][data-nimg="fixed"][decoding="async"]:upward(1)
 
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
@@ -561,6 +569,11 @@ online-audio-converter.com##.like_row
 onlinesim.io##.cookie
 onlinesim.io##.country-helper
 onlinesim.io##.number-helper
+
+! OpenClassActions
+openclassactions.com###read-our-blog
+openclassactions.com##.settlements:style(padding-bottom: 20px !important;)
+openclassactions.com##content > div[id="mc_embed_signup form-control"]
 
 ! Oxygen
 oxygen.com##.blog-post-section__insider-exclusive
@@ -727,6 +740,9 @@ theindex.moe##div[class^="SupportBanner_banner"]
 tinyurl.*##+js(nano-sib)
 tinyurl.*##+js(rc, disabled, .btn, stay)
 tinyurl.*##.container:has-text(Have Your Ads Here)
+
+! Tonkiang
+tonkiang.us##body > div > .fd
 
 ! Twitch
 twitch.tv##.tw-callout-message:upward(.stream-chat > .chat-room > .chat-room__content > .chat-input > div[class^="Layout-sc-"])
