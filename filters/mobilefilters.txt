@@ -45,8 +45,8 @@ oregonlive.com##.alert-bar--news-promo
 amazon.com##.sparkle-container
 
 ! Asura Scans
-asurascans.com##.scrollToTop
-asurascans.com##.wp-video
+asura.gg,asurascans.com##.scrollToTop
+asura.gg,asurascans.com##.wp-video
 
 ! AutoZone
 autozone.com##._3f3af7
