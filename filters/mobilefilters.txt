@@ -269,7 +269,7 @@ reddit.com##.right-sidebar:has-text(More posts you may like)
 reddit.com##.scroll-disabled:style(overflow: auto !important; position: static !important;)
 reddit.com##.scroll-is-blocked:style(overflow: auto !important; position: static !important;)
 reddit.com##.shreddit-pagination:style(margin-bottom: 0rem !important; padding: 0rem 1rem 0.5rem !important;)
-reddit.com##.sidebar-grid:style(filter: none !important; position: static !important;)
+reddit.com##.sidebar-grid:style(filter: none !important;)
 reddit.com##.slideimagemaindiv[style="object-fit: cover;"][src]:style(object-fit: contain !important;)
 reddit.com##.topics-links-block
 reddit.com##.topnav__promobutton
@@ -290,8 +290,11 @@ reddit.com##.xpromopopuprplnew
 reddit.com##body:style(overflow: auto !important; position: static !important; pointer-events: auto !important; touch-action: auto !important;)
 reddit.com##button[id$="-read-more-button"]
 reddit.com##div[class*="safe-area-inset-bottom"]
+reddit.com##div[class^="sidebar-grid"][class$="fixed"]:style(position: static !important;)
 reddit.com##div[id$="-overflow-cover"]
 reddit.com##div[id$="-post-rtjson-content"]:style(max-height: fit-content !important;)
+reddit.com##faceplate-tracker[noun="campaign_slot"][source="nav"]
+reddit.com##faceplate-tracker[noun="campaign_slot"][source="nav"] + hr
 reddit.com##faceplate-tracker[noun="top_button"][source="xpromo"]
 reddit.com##img[class="_1VSyzeCqhLG-H2N68kAx9V _3UqAK6QeNaMYy-9jvRefdv"]:style(filter: none !important;)
 reddit.com##shreddit-ad-post
