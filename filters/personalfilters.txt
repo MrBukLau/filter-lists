@@ -37,6 +37,7 @@ redd.it##faceplate-tracker[noun="login"][source="cdnlanding"]
 redd.it##faceplate-tracker[noun="login"][source="nav"]
 redd.it##reddit-header-overflow-menu
 reddit.com###expand-user-drawer-button
+reddit.com###profile-actions-menu
 reddit.com###reddit-trending-searches-partial-container
 reddit.com##._1e9mcovn4mynubqsvdt1gc
 reddit.com##._2mbxhmh6lyncpagzpjzyfn:style(background: none !important;)
@@ -75,6 +76,8 @@ reddit.com##faceplate-batch[target="#comment-tree"]:not(:has-text(Be the first t
 reddit.com##faceplate-dropdown-menu[position="bottom-start"][slot="overflow"]
 reddit.com##faceplate-partial[class="mx-md xs:mx-0"][src^="/svc/shreddit/more-comments/"]:style(padding-top: 0.8rem !important; padding-bottom: 1rem !important;)
 reddit.com##faceplate-tracker[noun="button"][source="shreddit_comment_count_button"]
+reddit.com##faceplate-tracker[noun="chat"][source="profile"]
+reddit.com##faceplate-tracker[noun="follow"][source="profile"]
 reddit.com##faceplate-tracker[noun="hamburger_menu"][source="nav"]
 reddit.com##faceplate-tracker[noun="login"][source="nav"]
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
