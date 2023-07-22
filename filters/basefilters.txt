@@ -332,6 +332,7 @@ github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 gogoanime.*##div[class^="notice-"]
 
 ! Google
+google.com##.nD2EKb
 google.com##.ynRric:has-text(/^People also ask$/)
 google.com##.ynRric:has-text(/^People also ask$/) ~ ul[role="listbox"]
 google.com##.ynRric:has-text(/^People also search for$/)
