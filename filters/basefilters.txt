@@ -148,6 +148,7 @@ appdb.to##.vue-notification-group
 
 ! Apple Music
 embed.music.apple.com##embed-upsell-overlay
+music.apple.com###ck-container:has(iframe[src^="/includes/commerce/subscribe"])
 music.apple.com##.commerce-modal-container:upward(.portal)
 music.apple.com##.navigation__native-cta
 music.apple.com##.upsell-banner
@@ -360,6 +361,11 @@ hikarinoakari.com##.tdc-content-wrap
 hikarinoakari.com##.thanks_button_div
 hikarinoakari.com##.widget_text:has-text(Are strongly recomended to download the last version from Win Rar to unzip the files from this site)
 ouo.*##+js(rc, disabled, .btn, stay)
+
+! Histar
+histar.tv##div[class^="live_loginBoot__"]
+histar.tv##div[class^="live_share__"] > div > a[class^="live_icon__"][href="/download"]
+histar.tv##div[class^="live_trySeeBox__"]
 
 ! Icelz
 icelz.newsrade.com##+js(acs, ConsoleBan)
@@ -614,6 +620,7 @@ reddit.com##section[class="infobar listingsignupbar"]
 
 ! Reddit Sport Live
 redditsport.live###abm
+redditsport.live##.textwidget > a[href^="mailto"]
 redditsport.live##div[id^="ezoic-pub-ad-placeholder-"]:upward(1)
 redditsport.live##tbody[id^="stats"]:upward(1)
 
