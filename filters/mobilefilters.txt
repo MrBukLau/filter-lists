@@ -157,6 +157,9 @@ gopuff.com##.jr-smart-banner
 ! Healthline
 healthline.com##.myFinance-ad-unit
 
+! Histar
+histar.tv##div[class^="modal-download_content__"]
+
 ! Hoops Rumors
 hoopsrumors.com##.wptouch-custom-ad
 
