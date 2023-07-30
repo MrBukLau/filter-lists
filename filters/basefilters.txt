@@ -363,9 +363,12 @@ hikarinoakari.com##.widget_text:has-text(Are strongly recomended to download the
 ouo.*##+js(rc, disabled, .btn, stay)
 
 ! Histar
+histar.tv##div[class^="_id__share___"] > a[class^="_id__icon__"][href="/download"]
 histar.tv##div[class^="live_loginBoot__"]
 histar.tv##div[class^="live_share__"] > div > a[class^="live_icon__"][href="/download"]
 histar.tv##div[class^="live_trySeeBox__"]
+histar.tv##div[class^="play-error-pc_error__"]
+histar.tv##div[class^="play-error-pc_error__"]:remove()
 
 ! Icelz
 icelz.newsrade.com##+js(acs, ConsoleBan)
@@ -704,8 +707,8 @@ open.spotify.com##.link-subtle[draggable][href="/download"]
 open.spotify.com##a[data-encore-id="buttonPrimary"][href="/download"]
 open.spotify.com##button[aria-label="Upgrade to Premium"]
 open.spotify.com##div[aria-label="In-App Message Modal"]:upward(.ReactModalPortal)
+open.spotify.com##div[data-testid="signup-bar"]
 open.spotify.com##div[data-testid="signup-bar"]:upward(.Root__now-playing-bar)
-open.spotify.com##div[data-tippy-root]
 open.spotify.com#@#div > div[aria-live="polite"]
 
 ! Spotify Release List
