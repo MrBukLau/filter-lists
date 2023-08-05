@@ -79,6 +79,7 @@ reddit.com##faceplate-tracker[noun="button"][source="shreddit_comment_count_butt
 reddit.com##faceplate-tracker[noun="chat"][source="profile"]
 reddit.com##faceplate-tracker[noun="follow"][source="profile"]
 reddit.com##faceplate-tracker[noun="hamburger_menu"][source="nav"]
+reddit.com##faceplate-tracker[noun="join"][source="subreddit_list_widget"]
 reddit.com##faceplate-tracker[noun="login"][source="nav"]
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
 reddit.com##faceplate-tracker[noun="share"][source="comment"]
