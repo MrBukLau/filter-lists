@@ -156,6 +156,7 @@ gopuff.com##.jr-smart-banner
 
 ! Healthline
 healthline.com##.myFinance-ad-unit
+healthline.com##.myFinance-widget
 
 ! Histar
 histar.tv##div[class^="live_sharePhone__"] > div > a[class^="live_icon__"][href="/download"]
@@ -349,6 +350,11 @@ slickdeals.net##body:style(overflow: auto !important;)
 
 ! SoundCloud
 m.soundcloud.com##a[data-testid="open-in-app-link"]
+
+! Spectrum News
+baynews9.com##.article-app-prompt
+baynews9.com##.articleAdWrapper
+baynews9.com##.icon-advertisement
 
 ! Spotify
 open.spotify.com##button[data-testid="open-app-button"]
