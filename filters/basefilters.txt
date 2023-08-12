@@ -449,7 +449,9 @@ kwik.cx##.plyr::after
 
 ! LiveSportsOnTV
 livesportsontv.com##.bottom-sticky-ad
+livesportsontv.com##.calendar-and-favorite-btn + .main-title
 livesportsontv.com##.event__odds_container_v
+livesportsontv.com##.site-info
 livesportsontv.com##img[alt^="standby"][decoding="async"]
 
 ! Lyrical Nonsense
@@ -608,6 +610,7 @@ pdfflyers.com##.store-details:style(margin-bottom: 0px !important;)
 platinsport.com##+js(acs, document.oncontextmenu)
 
 ! Proton
+drive.proton.me##.spotlight
 proton.me##a[data-testid="cta:upgrade-plan"]
 proton.me##div[data-testid="auto-delete:banner"]
 proton.me##div[data-testid="promotion-banner"]
