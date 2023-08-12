@@ -61,6 +61,8 @@ reddit.com##.postfooter__share
 reddit.com##.postheader__overflowmenu
 reddit.com##.share-dropdown-menu
 reddit.com##.signupdrawer
+reddit.com##.subreddit-content-error > div > #community-content-error-message + span
+reddit.com##.subreddit-content-error > div:first-child:style(margin-top: -8rem !important;)
 reddit.com##.subreddit__communitylink
 reddit.com##.subredditunit
 reddit.com##.topnav__loginbutton
@@ -89,6 +91,7 @@ reddit.com##faceplate-tracker[noun="sorting"][source="comment_sort"]:style(paddi
 reddit.com##faceplate-tracker[noun="user_avatar"][source="post_credit_bar"]
 reddit.com##icon-crosspost
 reddit.com##reddit-header-overflow-menu
+reddit.com##shreddit-app > div > .main > a[href^="https://www.reddit.com/r/"][href$="/submit"]
 reddit.com##shreddit-async-loader[bundlename="comment_profile"] > shreddit-comment-profile > a[slot="title"]:style(font-weight: bold !important;)
 reddit.com##shreddit-async-loader[bundlename="shreddit_post_overflow_menu"]
 reddit.com##shreddit-comment[class="top-level"]:style(border-top: 0.3rem solid var(--color-tone-5) !important; padding: 0.8rem 1rem 0.4rem !important;)
@@ -150,6 +153,7 @@ open.spotify.com##button[aria-label="Save to Your Library"][data-testid="add-but
 open.spotify.com##button[data-testid="control-button-repeat"]
 open.spotify.com##button[data-testid="control-button-shuffle"]
 open.spotify.com##button[data-testid="create-playlist-button"]
+open.spotify.com##div[data-testid="action-bar-row"] > button[data-encore-id="buttonSecondary"]
 open.spotify.com##div[data-testid="LayoutResizer__resize-bar"]
 open.spotify.com##section[aria-label="Top podcasts"][data-testid="component-shelf"]
 redd.it##post-bottom-bar
