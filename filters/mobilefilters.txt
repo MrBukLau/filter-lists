@@ -278,6 +278,7 @@ reddit.com##.scroll-is-blocked:style(overflow: auto !important; position: static
 reddit.com##.shreddit-pagination:style(margin-bottom: 0rem !important; padding: 0rem 1rem 0.5rem !important;)
 reddit.com##.sidebar-grid:style(filter: none !important;)
 reddit.com##.slideimagemaindiv[style="object-fit: cover;"][src]:style(object-fit: contain !important;)
+reddit.com##.subreddit-content-error > .order-last
 reddit.com##.topics-links-block
 reddit.com##.topnav__promobutton
 reddit.com##.topnav__useappbutton
@@ -346,6 +347,7 @@ slickdeals.net##.mobileAdFluid
 slickdeals.net##.newsletterSignUp
 slickdeals.net##.push
 slickdeals.net##.sdModalOverlay
+slickdeals.net##.welcomeToast
 slickdeals.net##body:style(overflow: auto !important;)
 
 ! SoundCloud
