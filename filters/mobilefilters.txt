@@ -388,6 +388,7 @@ thescore.com##button[class^="GetTheAppModal__getTheAppButton"]
 ! TMZ
 tmz.com###ad-footer
 tmz.com##.ad-container
+tmz.com##.body-article:style(padding-bottom: 0px !important;)
 tmz.com##div[class^="ad-blogroll"]
 
 ! Twitch
