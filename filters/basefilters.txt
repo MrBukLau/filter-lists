@@ -173,6 +173,7 @@ barcodespider.com##.upc-list > ul > li > .boxads:upward(1)
 bdnewszh.com##+js(ra, onclick, div[onclick])
 bdnewszh.com##.abblock-msg
 bdnewszh.com##.vpn-wrapper
+bdnewszh.com##a[onclick="closeSmartLink()"]
 bdnewszh.com##iframe[src="about:blank"]
 bdnewszh.com##iframe[src="about:blank"]:remove()
 
@@ -306,6 +307,13 @@ fandom.com###mixed-content-footer
 fandom.com###SurveyModule
 fandom.com##.featured-video-player-container:remove()
 fandom.com##div[class^="render-wiki-recommendations"]
+
+! FIFA Ratings
+fifaratings.com##body > .wrapper:style(padding-bottom: 0px !important;)
+fifaratings.com##div > .desktop-leaderboard-adx:upward(1)
+fifaratings.com##div > div > .inline-rectangle-adx:upward(1)
+fifaratings.com##td > .adsbygoogle:upward(1)
+fifaratings.com##td > .mobile-adx:upward(1)
 
 ! Free MP3 Download
 free-mp3-download.net###toast-container
@@ -462,9 +470,14 @@ lyrical-nonsense.com##.playblockbtm
 lyrical-nonsense.com##.playblocktop
 lyrical-nonsense.com##div[class^="responsive"][class$="inc"]
 
+! Madden Ratings
+maddenratings.com##div > .header-ad:upward(1)
+maddenratings.com##td > .table-ad:upward(1)
+
 ! Major League Soccer
+atlutd.com,austinfc.com,cfmontreal.com,charlottefootballclub.com,chicagofirefc.com,coloradorapids.com,columbuscrew.com,dcunited.com,fccincinnati.com,fcdallas.com,houstondynamofc.com,intermiamicf.com,lafc.com,lagalaxy.com,mlssoccer.com,mnufc.com,nashvillesc.com,newyorkredbulls.com,nycfc.com,orlandocitysc.com,philadelphiaunion.com,revolutionsoccer.net,rsl.com,sjearthquakes.com,soundersfc.com,sportingkc.com,stlcitysc.com,timbers.com,torontofc.ca,whitecapsfc.com##.mls-c-alert-bar
+atlutd.com,austinfc.com,cfmontreal.com,charlottefootballclub.com,chicagofirefc.com,coloradorapids.com,columbuscrew.com,dcunited.com,fccincinnati.com,fcdallas.com,houstondynamofc.com,intermiamicf.com,lafc.com,lagalaxy.com,mlssoccer.com,mnufc.com,nashvillesc.com,newyorkredbulls.com,nycfc.com,orlandocitysc.com,philadelphiaunion.com,revolutionsoccer.net,rsl.com,sjearthquakes.com,soundersfc.com,sportingkc.com,stlcitysc.com,timbers.com,torontofc.ca,whitecapsfc.com##.mls-o-adv-container
 mlssoccer.com##.mls-c-ledeblock__overlap:style(padding: 24px 0 0 !important;)
-mlssoccer.com##.mls-o-adv-container
 mlssoccer.com##div[class="d3-l-grid--outer d3-l-section-row -main-section"]:style(margin-top: 0px !important;)
 mlssoccer.com##section[data-block-type="alert"]
 
@@ -564,6 +577,10 @@ nwslsoccer.com##.block-ads-single-image
 koin.com##.civic-science-container
 koin.com##.civic-science-sidebar-container
 
+! NHL Ratings
+nhlratings.net##.outside-wrapper > .inside-wrapper > .wrapper:style(padding-bottom: 0px !important;)
+nhlratings.net##td > .adsbygoogle:upward(1)
+
 ! NMac Ked
 nmac.to###recommended
 nmac.to###sizzlin-wrapper
@@ -641,6 +658,11 @@ redditsport.live##tbody[id^="stats"]:upward(1)
 
 ! SB Nation
 blazersedge.com##.c-related-list
+
+! Scribd
+scribd.com##.auto__doc_page_webpack_doc_page_body_static_promo_study
+scribd.com##.between_page_portal_root > a[href="/subscribe-now"]:upward(1)
+scribd.com##.between_page_portal_root > div[id^="ArchivedUpsell_"]:upward(1)
 
 ! Seedr
 seedr.cc###subscription-menu-item
