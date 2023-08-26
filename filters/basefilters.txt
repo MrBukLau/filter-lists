@@ -20,7 +20,7 @@
 @@||agfinancia.info^$generichide
 @@||cookielaw.org^$3p
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
-||fastly.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js
+||jsdelivr.net/npm/*/disable-devtool.min.js
 ||katu.com/api/rest/audience/more
 ||kgw.com/ajax/content/cscroll
 
@@ -111,7 +111,10 @@ abcnews.go.com##.taboola
 
 ! Advance Publications
 oregonlive.com##.main-wrapper--article > .article__header > .articleLabel:style(padding-top: 24px !important;)
+oregonlive.com##.rollcall
+oregonlive.com##.sharebar
 oregonlive.com##.sharebar__bookmark--tooltip
+oregonlive.com##.skimlinks
 
 ! Albertsons Companies
 albertsons.com,safeway.com##.banner-placeholder
@@ -290,6 +293,7 @@ duckduckgo.com##.js-feedback-btn-wrap
 ! ESPN
 espn.com##.article > .container > .article-body > p > strong > a[href^="https://promo.espn.com/"]:upward(2)
 espn.com##.article-body > p:has-text(Stream on ESPN+: LaLiga, Bundesliga, more)
+espn.com##.article-social
 espn.com##.Scoreboard:style(max-width: none !important;)
 espn.com##.ScoreboardPage > .PageLayout__RightAside:remove()
 espn.com##.scroll-locked:style(overflow: auto !important;)
@@ -357,6 +361,7 @@ google.com##.ynRric:has-text(/^Trending searches$/) ~ ul[role="listbox"]
 google.com##div[aria-labelledby="task-text"][role="dialog"]:has-text(Give feedback on these results?)
 google.com##div[aria-labelledby="task-text"][role="dialog"]:has-text(How helpful were the results on Google Search?)
 google.com##div[id^="eob_"]
+google.com##div[jsaction="rcuQ6b:npT2md"][jscontroller="JlIvbd"][jsname="kcWXr"]
 
 ! Gray Television
 kptv.com###fusion-app > #homepage-alternate-layout > .container-xl > .row > .flex-column > section[class^="middle-left-rail"] > div[class^="arc-ad"]:upward(1):remove()
