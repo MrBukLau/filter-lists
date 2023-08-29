@@ -21,9 +21,9 @@
 @@||agfinancia.info^$generichide
 @@||cookielaw.org^$3p
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
-||jsdelivr.net/gh/englishcd/bahasainggris/izi-simply.js,domain=onlivetv.pages.dev|tvq.rf.gd
-||jsdelivr.net/npm/*/disable-devtool.min.js
-||jsdelivr.net/npm/devtools-detector
+||jsdelivr.net/*/devtools-detector
+||jsdelivr.net/*/disable-devtool.min.js
+||jsdelivr.net/*/izi-simply.js$script,domain=onlivetv.pages.dev|tvq.rf.gd
 ||katu.com/api/rest/audience/more
 ||kgw.com/ajax/content/cscroll
 
@@ -113,7 +113,12 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 abcnews.go.com##.taboola
 
 ! Advance Publications
+oregonlive.com##.advToprail__right-corner--subscribe
+oregonlive.com##.alert-bar--news-promo
 oregonlive.com##.main-wrapper--article > .article__header > .articleLabel:style(padding-top: 24px !important;)
+oregonlive.com##.page-type__article > .main-wrapper--article > .main > .article > ul > li > amp-social-share:upward(2)
+oregonlive.com##.page-type__article > div > .footer > .footer:style(border-top: none !important; padding-top: 0px !important;)
+oregonlive.com##.page-type__article > div > .main-wrapper--article:style(grid-template-columns: none !important;)
 oregonlive.com##.rollcall
 oregonlive.com##.sharebar
 oregonlive.com##.sharebar__bookmark--tooltip
@@ -259,6 +264,7 @@ cnn.com##.related-content
 cnn.com##.related-content_without-image
 cnn.com##.RelatedArticle__component
 cnn.com##.Showcase__component
+cnn.com##.social-share
 cnn.com##.SpecialArticle__relatedTail:upward(.special-article > .SpecialArticle__component > .SpecialArticle__tail)
 cnn.com##.terms-of-service
 cnn.com##div[class$="AdWrapper"]
