@@ -7,6 +7,7 @@
 !---------- Generic Filters ----------!
 !-------------------------------------!
 ! Cosmetic Filters
+##+js(std, debugger)
 ##.outbrain
 ##.outbrain-container
 ##.remixd-wrapper
@@ -20,7 +21,9 @@
 @@||agfinancia.info^$generichide
 @@||cookielaw.org^$3p
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
+||jsdelivr.net/gh/englishcd/bahasainggris/izi-simply.js,domain=onlivetv.pages.dev|tvq.rf.gd
 ||jsdelivr.net/npm/*/disable-devtool.min.js
+||jsdelivr.net/npm/devtools-detector
 ||katu.com/api/rest/audience/more
 ||kgw.com/ajax/content/cscroll
 
@@ -328,6 +331,10 @@ freesports.to##center > iframe[title="Discord Widget"]
 
 ! FreeStreams
 freestreams-live1.tv###wpfront-notification-bar-spacer
+
+! GDPlayer TV
+gdplayer.tv##+js(acs, devtoolsDetector)
+gdplayer.tv##+js(acs, myLazyLoad)
 
 ! Gem Streams
 gemstreams.com##body > div > main > div > div > .chat-box:upward(1)
@@ -642,7 +649,10 @@ quizlet.com##.SetPageEmbeddedAd-wrapper
 quizlet.com##.SetPageEmbeddedAd-wrapper + .SetPageTerms-term:style(margin-top: 0.625rem !important;)
 
 ! RBTV
-rbtv77.com##.bmc-wrap
+rbtv77.*##.apk-download
+rbtv77.*##.bmc-wrap
+rbtv77.*##.r-backtop
+rbtv77.*##.r-footer:style(padding-top: 40px !important;)
 
 ! Reddit
 reddit.com##+js(ra, data-outbound-url, .outbound)
@@ -786,13 +796,17 @@ tempmail.ninja##article[class^="w-100 mb-"]:has-text(Unveiling the Power of Temp
 theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
 theindex.moe##div[class^="SupportBanner_banner"]
 
+! The Kroger Company
+fredmeyer.com##.overflow-hidden:style(overflow: auto !important;)
+
 ! TinyURL
 tinyurl.*##+js(nano-sib)
 tinyurl.*##+js(rc, disabled, .btn, stay)
 tinyurl.*##.container:has-text(Have Your Ads Here)
 
 ! Tonkiang
-tonkiang.us##body > div > .fd
+tonkiang.us##body > div > .tables > .result > .adsbygoogle:upward(1)
+tonkiang.us##body > div > div > .fd
 
 ! Twitch
 twitch.tv##.tw-callout-message:upward(.stream-chat > .chat-room > .chat-room__content > .chat-input > div[class^="Layout-sc-"])
