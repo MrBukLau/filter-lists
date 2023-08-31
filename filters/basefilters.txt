@@ -117,12 +117,17 @@ oregonlive.com##.advToprail__right-corner--subscribe
 oregonlive.com##.alert-bar--news-promo
 oregonlive.com##.main-wrapper--article > .article__header > .articleLabel:style(padding-top: 24px !important;)
 oregonlive.com##.page-type__article > .main-wrapper--article > .main > .article > ul > li > amp-social-share:upward(2)
-oregonlive.com##.page-type__article > div > .footer > .footer:style(border-top: none !important; padding-top: 0px !important;)
+oregonlive.com##.page-type__article > div > .main-wrapper--article > .article__story > .article > .article__story > .entry-content > .rawhtml:has(h-cta[data-hub-id][data-session][status="rendered"])
 oregonlive.com##.page-type__article > div > .main-wrapper--article:style(grid-template-columns: none !important;)
+oregonlive.com##.page-type__profile > div > .main-wrapper > .main-wrapper-inner > .below-toprail:has(.ad)
+oregonlive.com##.page-type__profile > div > .main-wrapper > .main-wrapper-inner:style(grid-template-columns: none !important;)
+oregonlive.com##.page-type__section > div > .main-wrapper > .main-wrapper-inner > .below-toprail:has(.ad)
+oregonlive.com##.page-type__section > div > .main-wrapper > .main-wrapper-inner:style(grid-template-columns: none !important; padding-top: 20px !important;)
 oregonlive.com##.rollcall
 oregonlive.com##.sharebar
 oregonlive.com##.sharebar__bookmark--tooltip
 oregonlive.com##.skimlinks
+oregonlive.com##body > div > .footer > .footer:style(border-top: none !important; padding-top: 0px !important;)
 
 ! Albertsons Companies
 albertsons.com,safeway.com##.banner-placeholder
@@ -139,6 +144,9 @@ amazon.com##.zg-more-list-types-container
 
 ! AniDB
 anidb.net##.hint
+
+! Anime iTunes Plus
+musicdiary2019.blogspot.com##div[class="sidebar section"] > div[class="widget FeaturedPost"]
 
 ! AnimePahe
 animepahe.*##.alert
@@ -320,6 +328,9 @@ fandom.com###mixed-content-footer
 fandom.com###SurveyModule
 fandom.com##.featured-video-player-container:remove()
 fandom.com##div[class^="render-wiki-recommendations"]
+
+! FDownloader
+fdownloader.net##.ads-slot
 
 ! FIFA Ratings
 fifaratings.com##body > .wrapper:style(padding-bottom: 0px !important;)
@@ -525,6 +536,7 @@ mojosakun.blogspot.com##.post-nav
 mojosakun.blogspot.com##.post-share
 
 ! Music Clutter
+musiclutter.xyz###check-also-box
 musiclutter.xyz###footer-wrapper > .row
 musiclutter.xyz###recent-boxes
 musiclutter.xyz###recent-boxes2
@@ -756,6 +768,7 @@ sport365.stream##.stream__description
 sportsurge.net##.HeaderUyari:upward(#__next > .container)
 
 ! Spotify
+open.spotify.com###onetrust-consent-sdk
 open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Upgrade to Premium)
 open.spotify.com##.encore-announcement-set
 open.spotify.com##.link-subtle[draggable][href="/download"]
