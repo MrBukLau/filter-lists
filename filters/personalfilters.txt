@@ -30,6 +30,7 @@ m.youtube.com##button[aria-label="Save to playlist"]
 m.youtube.com##button[aria-label="Share"]
 m.youtube.com##button[aria-label="Subscribe"]
 m.youtube.com##ytm-comments-header-renderer
+m3u4u.com##.mat-nav-list > .mat-list-item:has-text(/Discord|Donate|EPGs|Support/)
 myanimelist.net###bottom-menu
 myanimelist.net##footer:style(padding-bottom: 0px !important;)
 myanimelist.net##head > meta[name="theme-color"][content="#182a53"]:remove()
@@ -142,6 +143,10 @@ github.com##textarea[name="description"]
 google.com##div[aria-label="Search by voice"][role="button"]
 google.com##div[aria-label="Share"][role="button"]
 livesportsontv.com##.favorites-filter-container
+m3u4u.com##a[title="Our Discord Server"]
+m3u4u.com##a[title="Our Wikipedia"]
+m3u4u.com##button[title="Donate"]
+m3u4u.com##button[title="EPGs"]
 music.youtube.com##ytmusic-pivot-bar-item-renderer[tab-id="FEmusic_library_landing"]
 open.spotify.com###Desktop_PanelContainer_Id[aria-label="Now Playing View"]
 open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(/About recommendations|Add to playlist|Add to profile|Add to queue|Create folder|Create playlist|Go to artist radio|Go to playlist radio|Go to song radio|Open in Desktop app|Report|Save to Your Episodes|Save to your Liked Songs/)
