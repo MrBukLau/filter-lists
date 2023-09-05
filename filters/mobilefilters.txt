@@ -230,6 +230,10 @@ ncaa.com##.sticky-button-section
 ! NextShark
 nextshark.com###nextshark_com_leaderboard_top
 
+! OLEVOD
+olevod.tv###loading-box
+olevod.tv##.app-siders
+
 ! Oxygen
 oxygen.com##.blog-post__ad-wrapper
 
@@ -363,6 +367,9 @@ open.spotify.com##button[data-testid="open-app-button"]
 
 ! Target
 target.com##div[data-test="@web/baseboardAd"]
+
+! Telegram
+t.me##.tgme_header_info > .tgme_channel_join_telegram
 
 ! Temu
 temu.com###main > div > div > div[style="height:0.66rem"]:upward(1)
