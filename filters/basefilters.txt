@@ -621,6 +621,9 @@ nmac.to##div[class="tabbable tabs-below"]
 nmac.to##div[style="margin-left: auto; margin-right: auto; text-align: center; "]
 nmac.to##div[style="margin-left: auto; margin-right: auto; text-align: center; margin-bottom: -5px; "]
 
+! OLEVOD
+olevod.tv##.pc-sdier
+
 ! OnHockey
 onhockey.tv##a[href^="https://record.revmasters.com/"]
 onhockey.tv##table[width="1270"][border="0"][cellpadding="0"][cellspacing="0"]:has-text(We do not host or upload any videos on our website.):upward(2)
@@ -800,13 +803,23 @@ kgw.com##dialog[data-behavior="modal"][data-name="exitInterstitial"]:remove()
 kgw.com##div[data-module-sizer="ad"]:upward(1)
 kgw.com##div[data-module-sizer="article-loader"]
 
+! Telegram
+t.me##.tgme_channel_info > .tgme_channel_download_telegram
+t.me##.tgme_head > .tgme_head_right_btn[href^="//telegram.org/dl?"]
+
 ! Temp Mail
 tempmail.ninja###article:not(:has(#post-loop))
 tempmail.ninja###article:not(:has(#post-loop)) + hr
 tempmail.ninja###bottom-buttons + hr
+tempmail.ninja###form-new-message > div[class="content pe-0 pe-lg-3 mb-2 mb-lg-0"]:style(padding-right: 0rem !important;)
+tempmail.ninja###form-new-message:style(display: inherit !important;)
 tempmail.ninja###home-news
+tempmail.ninja###inbox-container > div[class="content pe-0 pe-lg-3 mb-2 mb-lg-0"]:style(padding-right: 0rem !important;)
+tempmail.ninja###inbox-container:style(display: inherit !important;)
+tempmail.ninja###inbox-list > #inbox:style(max-width: none !important;)
 tempmail.ninja###intro
 tempmail.ninja##+js(nobab)
+tempmail.ninja##.app > .container > aside[class="d-flex flex-wrap flex-lg-nowrap align-items-center mb-3"]:style(display: inherit !important;)
 tempmail.ninja##.tool-title
 tempmail.ninja##article[class^="w-100 mb-"]:has-text(The Power of Anonymous Email Sending: Embracing the Advantages)
 tempmail.ninja##article[class^="w-100 mb-"]:has-text(Unveiling the Power of Temporary Email: Unleash the Advantages)
