@@ -137,6 +137,9 @@ albertsons.com,safeway.com##.nextgen-banner-unit-proxy
 albertsons.com,safeway.com##.notification-alert
 albertsons.com,safeway.com##div[aria-label="Promo or Ad Banner"]
 albertsons.com,safeway.com##div[data-lazy-function="lazyAdXContent"]
+coupons.albertsons.com,coupons.safeway.com##.ad-details > .share-container
+coupons.albertsons.com,coupons.safeway.com##.unified-header > .reserve-nav
+coupons.albertsons.com,coupons.safeway.com##flipp-router > flipp-publication-page > div > footer
 
 ! Amazon
 amazon.com###a-page > #dp > #dp-container > #ppd > #rightCol > #primeDPUpsellContainer
