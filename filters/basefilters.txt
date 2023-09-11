@@ -159,6 +159,7 @@ animeschedule.net###header-temporary-banner
 
 ! AniPlaylist
 aniplaylist.com##.adswrapper:upward(1)
+aniplaylist.com##.qc-cmp2-container
 aniplaylist.com##a[href="/my-aniplaylist"][title="Create your own playlist"]:upward(2)
 
 ! Anna's Archive
@@ -186,6 +187,14 @@ asura.gg,asurascans.com##.kln
 asura.gg,asurascans.com##.readercontent > .wrapper > .chapterbody > .postarea > .hentry > .maincontent > .chdesc
 asura.gg,asurascans.com##.socialts
 
+! Ballnaja
+ballnaja.com##.brand-logo-video
+ballnaja.com##.main-box-ads
+ballnaja.com##.new-banner-component
+ballnaja.com##.stream-ball-content-component + .fix-margin-banner:style(padding-bottom: 350px !important;)
+ballnaja.com##.stream-ball-content-component + h1 + .fix-margin-banner:style(padding-bottom: 250px !important;)
+ballnaja.com##.stream-ball-content-component > div[class="card-main d-flex flex-column"] > div[class="pa-5 mt-3 d-none align-center justify-center d-md-flex"]:has-text(ADS)
+
 ! Barcode Spider
 barcodespider.com##.barcode-home > .square > .adv-square:upward(1)
 barcodespider.com##.box-adv
@@ -209,6 +218,9 @@ bestnhl.com##.sharethis-inline-share-buttons
 ! Black Friday
 blackfriday.com##.email-signup-sticky
 
+! Blank Page
+blank.page##.campaign-alert
+
 ! BuzzFeed
 buzzfeednews.com##.subbuzz-bfp--related_links
 buzzfeednews.com##div[class^="desktop-sticky-ad_desktopStickyAdWrapper__"]
@@ -218,6 +230,10 @@ buzzfeednews.com##section[aria-labelledby="bottom-recirc-title"]
 camelcamelcamel.com###camelizer_top_promo
 camelcamelcamel.com###primeheader
 camelcamelcamel.com###similar_products
+
+! Capitalize My Title
+capitalizemytitle.com##.free-grammar-check
+capitalizemytitle.com##slick-heartbeat
 
 ! CBS
 cbssports.com###cbs-site-nav:style(top: 0px !important;)
@@ -284,6 +300,12 @@ cnn.com##h2[data-analytics="Paid Partner Content_list-xs_"]:upward(.zn > .zn__ba
 ! Costco
 costco.com###email-popup-title
 
+! DeepL
+deepl.com###dl_cookieBanner
+
+! Desklib
+desklib.com##.UGgiG3ep
+
 ! Din Tai Fung
 dintaifungusa.com##.gdpr
 
@@ -302,6 +324,10 @@ doubledouble.top##.totally-not-an-ad
 drakescans.com##+js(rc, mdpDeblocker-blur, body, stay)
 drakescans.com##+js(rc, mdpDeblocker-style-compact, body, stay)
 drakescans.com##.read-container > span[style="display:hidden"]
+
+! Dream4ever
+dream4evertwo.info##.js-bottomFixTarget
+dream4evertwo.info##.js-scrollButtons
 
 ! Drugs
 drugs.com##.ddc-toast-alert
@@ -324,6 +350,7 @@ espn.com##section[data-behavior="follow_card_carousel"]
 
 ! Fakespot
 fakespot.com###analyzer_bottom
+fakespot.com###CybotCookiebotDialog
 fakespot.com##.show-vote-share-links
 
 ! Fandom
@@ -377,6 +404,7 @@ github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 gogoanime.*##div[class^="notice-"]
 
 ! Google
+google.com###js-cookie-banner
 google.com##.nD2EKb
 google.com##.tw-menu > span > div[data-id="translate_search_button"]
 google.com##.ynRric:has-text(/^People also ask$/)
@@ -389,6 +417,9 @@ google.com##div[aria-labelledby="task-text"][role="dialog"]:has-text(Give feedba
 google.com##div[aria-labelledby="task-text"][role="dialog"]:has-text(How helpful were the results on Google Search?)
 google.com##div[id^="eob_"]
 google.com##div[jsaction="rcuQ6b:npT2md"][jscontroller="JlIvbd"][jsname="kcWXr"]
+
+! Grammarly
+grammarly.com##aside[aria-label="Primary banner"]
 
 ! Gray Television
 kptv.com###fusion-app > #homepage-alternate-layout > .container-xl > .row > .flex-column > section[class^="middle-left-rail"] > div[class^="arc-ad"]:upward(1):remove()
@@ -410,6 +441,7 @@ ouo.*##+js(rc, disabled, .btn, stay)
 
 ! Histar
 histar.tv##div[class^="_id__share___"] > a[class^="_id__icon__"][href="/download"]
+histar.tv##div[class^="backup_floatBox__"]
 histar.tv##div[class^="live_loginBoot__"]
 histar.tv##div[class^="live_share__"] > div > a[class^="live_icon__"][href="/download"]
 histar.tv##div[class^="live_trySeeBox__"]
@@ -460,6 +492,9 @@ iptv345.com###ad
 iptv345.com##a[href^="https://down.iptv"]
 iptv345.com##script[src="https://www.sinawap.com/smu/o.js"]:upward(1)
 
+! IPTV Checker
+iptv-checker.com##.scroll-top
+
 ! iTD Music
 agfinancia.info##+js(nobab)
 agfinancia.info,itdmusic.top###footer
@@ -486,6 +521,9 @@ jpopmix.com##.jnews_related_post_container
 
 ! Kwik
 kwik.cx##.plyr::after
+
+! LanguageTool
+languagetool.org##.header-banner
 
 ! LiveSportsOnTV
 livesportsontv.com##.bottom-sticky-ad
@@ -640,6 +678,9 @@ online-audio-converter.com##.like_row
 onlinesim.io##.cookie
 onlinesim.io##.country-helper
 onlinesim.io##.number-helper
+onlinesim.io##.to-top
+onlinesim.io##div[class="fw-popover f-widget__popover f-widget__popover--country"]
+onlinesim.io##div[class="fw-popover f-widget__popover f-widget__popover--item"]
 
 ! OpenClassActions
 openclassactions.com###read-our-blog
@@ -659,6 +700,11 @@ pdfflyers.com##.post-header > .content[style="align-items: center;"]:style(gap: 
 pdfflyers.com##.store-area > .container > .row[style="width:100%;height:250px;"]:has(.adsbygoogle)
 pdfflyers.com##.store-details:style(margin-bottom: 0px !important;)
 
+! Pixlr
+pixlr.com##body > .modal:has(.announce > .content > #after-content)
+pixlr.com##body > .modal:has(.news-dialog)
+pixlr.com##body > a[href="/pricing/"][style^="display:flex;"]
+
 ! Platinsport
 platinsport.com##+js(acs, document.oncontextmenu)
 
@@ -667,6 +713,9 @@ drive.proton.me##.spotlight
 proton.me##a[data-testid="cta:upgrade-plan"]
 proton.me##div[data-testid="auto-delete:banner"]
 proton.me##div[data-testid="promotion-banner"]
+
+! ProWritingAid
+prowritingaid.com##div[aria-label="cookieconsent"]
 
 ! Quizlet
 quizlet.com##.SetPageEmbeddedAd-wrapper
@@ -694,6 +743,16 @@ redditsport.live###abm
 redditsport.live##.textwidget > a[href^="mailto"]
 redditsport.live##div[id^="ezoic-pub-ad-placeholder-"]:upward(1)
 redditsport.live##tbody[id^="stats"]:upward(1)
+
+! Reincubate
+reincubate.com###cookieBar
+
+! Right
+right.com.cn##.focus
+
+! RoForum
+roforum.net##.js-bottomFixTarget
+roforum.net##.js-scrollButtons
 
 ! SB Nation
 blazersedge.com##.c-related-list
@@ -760,6 +819,10 @@ snopes.com##.outer-ad-unit-wrapper
 snopes.com##.sidebar_ad
 snopes.com##div[data-piano-show="non-member"]
 
+! Sport TV Guide
+sport-tv-guide.live###onetrust-consent-sdk
+sport-tv-guide.live##.scrollToTop
+
 ! Sport365
 livestream365.com##.vote
 livestream365.com,sport365.stream##.footer
@@ -788,6 +851,9 @@ open.spotify.com#@#div > div[aria-live="polite"]
 ! Spotify Release List
 spotifyreleaselist.netlify.app###ua
 
+! Stack Overflow
+stackoverflow.com##.js-consent-banner
+
 ! Tankathon
 tankathon.com##.horizontal-primary-ad
 tankathon.com##.mock-draft-round-divider
@@ -811,21 +877,7 @@ t.me##.tgme_channel_info > .tgme_channel_download_telegram
 t.me##.tgme_head > .tgme_head_right_btn[href^="//telegram.org/dl?"]
 
 ! Temp Mail
-tempmail.ninja###article:not(:has(#post-loop))
-tempmail.ninja###article:not(:has(#post-loop)) + hr
-tempmail.ninja###bottom-buttons + hr
-tempmail.ninja###form-new-message > div[class="content pe-0 pe-lg-3 mb-2 mb-lg-0"]:style(padding-right: 0rem !important;)
-tempmail.ninja###form-new-message:style(display: inherit !important;)
-tempmail.ninja###home-news
-tempmail.ninja###inbox-container > div[class="content pe-0 pe-lg-3 mb-2 mb-lg-0"]:style(padding-right: 0rem !important;)
-tempmail.ninja###inbox-container:style(display: inherit !important;)
-tempmail.ninja###inbox-list > #inbox:style(max-width: none !important;)
-tempmail.ninja###intro
 tempmail.ninja##+js(nobab)
-tempmail.ninja##.app > .container > aside[class="d-flex flex-wrap flex-lg-nowrap align-items-center mb-3"]:style(display: inherit !important;)
-tempmail.ninja##.tool-title
-tempmail.ninja##article[class^="w-100 mb-"]:has-text(The Power of Anonymous Email Sending: Embracing the Advantages)
-tempmail.ninja##article[class^="w-100 mb-"]:has-text(Unveiling the Power of Temporary Email: Unleash the Advantages)
 
 ! The Index
 theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
@@ -843,6 +895,9 @@ tinyurl.*##.container:has-text(Have Your Ads Here)
 tonkiang.us##body > div > .tables > .result > .adsbygoogle:upward(1)
 tonkiang.us##body > div > div > .fd
 
+! TruePeopleSearch
+truepeoplesearch.com##div[aria-label="cookieconsent"]
+
 ! Twitch
 twitch.tv##.tw-callout-message:upward(.stream-chat > .chat-room > .chat-room__content > .chat-input > div[class^="Layout-sc-"])
 
@@ -854,11 +909,18 @@ twitter.com##div[data-testid="BottomBar"]
 ! UPCitemdb
 upcitemdb.com##.adsense-ad
 
+! vClock
+vclock.com##.am-scroll-top
+
 ! Venmo
 venmo.com##.organisms-layoutContainer-desktopWrapper
 
 ! VKontakte
+vk.com###box_layer_bg
+vk.com###box_layer_wrap
+vk.com###page_bottom_banners_root
 vk.com##.left_menu_mobile_app_promo_block
+vk.com##body:style(overflow: auto !important;)
 
 ! Walmart
 walmart.com##div[data-testid="buy-box-ad"]
@@ -878,6 +940,9 @@ webmd.com##.module-unified-right-rail:has-text(Today on WebMD)
 webmd.com##.other-links
 webmd.com##.rx-section
 webmd.com##div[class$="-para-ad"]
+
+! Wikipedia
+wikipedia.org##.vector-sitenotice-container
 
 ! Writer
 writer.com##+js(rc, om-position-popup, html, stay)
