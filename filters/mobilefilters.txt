@@ -51,6 +51,12 @@ asura.gg,asurascans.com##.wp-video
 ! AutoZone
 autozone.com##._3f3af7
 
+! Ballnaja
+ballnaja.com###videoPlayerJs:style(position: static !important;)
+ballnaja.com##.player-size
+ballnaja.com#@#.stream-ball-content-component + .fix-margin-banner:style(padding-bottom: 350px !important;)
+ballnaja.com#@#.stream-ball-content-component + h1 + .fix-margin-banner:style(padding-bottom: 250px !important;)
+
 ! Best Buy
 bestbuy.com##.sku-list-display-ad
 bestbuy.com##div[id^="shop-blue-assist-"]
