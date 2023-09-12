@@ -231,6 +231,9 @@ camelcamelcamel.com###camelizer_top_promo
 camelcamelcamel.com###primeheader
 camelcamelcamel.com###similar_products
 
+! Canela TV
+canela.tv##.gdpr-footer
+
 ! Capitalize My Title
 capitalizemytitle.com##.free-grammar-check
 capitalizemytitle.com##slick-heartbeat
@@ -404,6 +407,7 @@ github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 gogoanime.*##div[class^="notice-"]
 
 ! Google
+drive.google.com##body > div[role="dialog"]:has-text(Try Drive at no cost)
 google.com###js-cookie-banner
 google.com##.nD2EKb
 google.com##.tw-menu > span > div[data-id="translate_search_button"]
@@ -531,6 +535,9 @@ livesportsontv.com##.calendar-and-favorite-btn + .main-title
 livesportsontv.com##.event__odds_container_v
 livesportsontv.com##.site-info
 livesportsontv.com##img[alt^="standby"][decoding="async"]
+
+! Local Now
+localnow.com##.cookieConsent
 
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
@@ -952,6 +959,9 @@ writer.com##.wpm-banner
 
 ! Xero
 xero.com##.cmp-experiencefragment--offer-banner
+
+! Xumo Play
+play.xumo.com##.privacyConsent
 
 ! Yahoo
 sports.yahoo.com###sda-WFPAD2
