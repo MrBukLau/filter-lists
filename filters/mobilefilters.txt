@@ -143,7 +143,6 @@ google.com###stUuGf
 google.com##.zU3lCe
 google.com##body:style(overflow: auto !important; position: static !important;)
 google.com##div[aria-label="Navigation drawer"][role="menu"] > a[href^="https://search.app.goo.gl/"][role="menuitem"]
-google.com##div[class$="__result-pivots"]
 google.com##div[class="HyoXdf Pk5QZ"][jsname="lC3xKd"]
 google.com##div[class="HyoXdf VZPqNb"][jsname="lC3xKd"]
 google.com##div[class="rKJOcDNwrHj__pb-dfr rKJOcDNwrHj__pb-s"][jsname="ORHb"]
