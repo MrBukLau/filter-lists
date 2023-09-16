@@ -597,6 +597,7 @@ musiclutter.xyz##.share-box
 
 ! MyAnimeList
 myanimelist.net###broadcast-block
+myanimelist.net###gdpr-modal-bottom
 myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]:upward(.border_bottom)
 myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]:upward(.news-unit)
 myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]:upward(div[style="padding: 20px 0px;display: inline-block;"])
@@ -902,6 +903,15 @@ tinyurl.*##.container:has-text(Have Your Ads Here)
 tonkiang.us##body > div > .tables > .result > .adsbygoogle:upward(1)
 tonkiang.us##body > div > div > .fd
 
+! TROYPOINT
+troypoint.com##.mysticky-welcomebar-fixed
+troypoint.com##.sgpb-popup-dialog-main-div-wrapper
+troypoint.com##.sgpb-popup-overlay
+troypoint.com##img[class^="sgpb-background-image-"]
+troypointinsider.com###banner
+troypointinsider.com##.move-up
+troypointinsider.com##.mysticky-welcomebar-fixed-wrap
+
 ! TruePeopleSearch
 truepeoplesearch.com##div[aria-label="cookieconsent"]
 
@@ -961,6 +971,7 @@ writer.com##.wpm-banner
 xero.com##.cmp-experiencefragment--offer-banner
 
 ! Xumo Play
+play.xumo.com##.epgPromoRow
 play.xumo.com##.privacyConsent
 
 ! Yahoo
