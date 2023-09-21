@@ -26,6 +26,7 @@
 ||jsdelivr.net/*/izi-simply.js$script,domain=onlivetv.pages.dev|tvq.rf.gd
 ||katu.com/api/rest/audience/more
 ||kgw.com/ajax/content/cscroll
+||mhdtvworld.me/wp-content/plugins/*.js?ver
 
 ! URL Parameter Filters
 $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
@@ -220,6 +221,22 @@ blackfriday.com##.email-signup-sticky
 
 ! Blank Page
 blank.page##.campaign-alert
+
+! Bongcam
+4shares.live##.jw-logo
+bongcam.live###m-bet
+bongcam.live###modalasd
+bongcam.live###totop
+bongcam.live##.btn-betnow
+bongcam.live##.ibs-bet
+bongcam.live##.modal-backdrop
+bongcam.live##a[href="/goto?url=https%3A%2F%2Fvebo.bet%2Fnba"]
+bongcam.live##body > #app-web > #about
+bongcam.live##body > #app-web > #main-wrapper > .container > div[class="box box-fixtures-max mb-0"] > div[class="description des-page box-wpd bg-vebo"]
+bongcam.live##body > #app-web > .container > div[class="mmo for-desktop"]:has(a[href="mailto:ads@90phut.tv"])
+bongcam.live##body > #app-web > .container[style="margin-bottom: 15px;"]:has(a[href="/goto?url=https%3A%2F%2Fvebo.bet%2Fnba"])
+bongcam.live##body > .ft-box
+bongcam.live##body:style(overflow: auto !important;)
 
 ! BuzzFeed
 buzzfeednews.com##.subbuzz-bfp--related_links
@@ -434,6 +451,7 @@ greasyfork.org##.ad
 
 ! Hikarinoakariost
 hikarinoakari.com###ays_tooltip
+hikarinoakari.com##.pk-scroll-to-top
 hikarinoakari.com##.td-header-top-menu-full
 hikarinoakari.com##.td-post-sharing-bottom
 hikarinoakari.com##.td-post-sharing-top
@@ -513,6 +531,7 @@ itdmusics.com##.e3lan-post
 itdmusics.com##.home > .container > .content > center
 itdmusics.com##.itdmu-widget
 itdmusics.com##.share-post
+itdmusics.com##div[title="Scroll To Top"]
 itdmusics.com##span > a[href$="/premium-no-ads"]
 
 ! JD Sports
@@ -611,6 +630,7 @@ myanimelist.net##.clearfix[style="padding:16px 8px 20px 0px;"]:has(div[class="fl
 myanimelist.net##.clearfix[style^="margin:"][style$="20px;"]:has(div[style="float:left;"], div[style="float:right;"]):style(margin: 0px !important;)
 myanimelist.net##.footer-ranking
 myanimelist.net##.header-mini-banner
+myanimelist.net##.js-btn-top
 myanimelist.net##.news-unit[data-tag="cat1 cat2 cat3 cat4 cat5 cat6"][style="display: block;"]
 myanimelist.net##.pb24:has-text(MALxJapan)
 myanimelist.net##.text-ribbon
@@ -735,6 +755,10 @@ rbtv77.*##.bmc-wrap
 rbtv77.*##.r-backtop
 rbtv77.*##.r-footer:style(padding-top: 40px !important;)
 
+! RealBitSport
+realbitsport.com##+js(acs, disableselect)
+realbitsport.com##.clappr-watermark
+
 ! Reddit
 reddit.com##+js(ra, data-outbound-url, .outbound)
 reddit.com##+js(set, Object.prototype.allowClickTracking, false)
@@ -748,6 +772,7 @@ reddit.com##section[class="infobar listingsignupbar"]
 
 ! Reddit Sport Live
 redditsport.live###abm
+redditsport.live##+js(rc, disable-overflow, body, stay)
 redditsport.live##.textwidget > a[href^="mailto"]
 redditsport.live##div[id^="ezoic-pub-ad-placeholder-"]:upward(1)
 redditsport.live##tbody[id^="stats"]:upward(1)
@@ -856,11 +881,12 @@ open.spotify.com##div[data-testid="signup-bar"]
 open.spotify.com##div[data-testid="signup-bar"]:upward(.Root__now-playing-bar)
 open.spotify.com#@#div > div[aria-live="polite"]
 
-! Spotify Release List
-spotifyreleaselist.netlify.app###ua
-
 ! Stack Overflow
+stackoverflow.com###js-ai-search-alpha-popover
 stackoverflow.com##.js-consent-banner
+
+! StreamCheck
+streamcheck.link##+js(nano-sib)
 
 ! Tankathon
 tankathon.com##.horizontal-primary-ad
@@ -893,6 +919,9 @@ theindex.moe##div[class^="SupportBanner_banner"]
 
 ! The Kroger Company
 fredmeyer.com##.overflow-hidden:style(overflow: auto !important;)
+
+! TheTVApp
+thetvapp.to##div > p > a[href$="/thetvsub-iptv-service-sign-up/"]
 
 ! TinyURL
 tinyurl.*##+js(nano-sib)
@@ -959,6 +988,7 @@ webmd.com##.rx-section
 webmd.com##div[class$="-para-ad"]
 
 ! Wikipedia
+wikipedia.org##.cn-fundraising
 wikipedia.org##.vector-sitenotice-container
 
 ! Writer
@@ -981,7 +1011,11 @@ sports.yahoo.com##.related-content-lazyload
 sports.yahoo.com##div[class*="adTranslate"][class*="HideBottomBar_"]
 yahoo.com###module-hpsetBanner
 
+! Yibababa
+yibababa.com###scroll-up
+
 ! YouTube
+youtube.com##.ytd-popup-container
 youtube.com##.ytp-ce-element
 youtube.com##.ytp-chrome-top-buttons
 youtube.com##.ytp-endscreen-content
