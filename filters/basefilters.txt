@@ -7,12 +7,8 @@
 !---------- Generic Filters ----------!
 !-------------------------------------!
 ! Cosmetic Filters
-##+js(std, debugger)
 ##.outbrain
 ##.outbrain-container
-##.remixd-wrapper
-##div[class*="metabet-sponsored"]
-##div[class^="adblock-allowlist-messaging"]
 
 ! Network Filters
 */prod/ngo.html?lu=https%3A%2F%2F$all
@@ -187,6 +183,9 @@ asura.gg,asurascans.com###disqus_recommendations
 asura.gg,asurascans.com##.kln
 asura.gg,asurascans.com##.readercontent > .wrapper > .chapterbody > .postarea > .hentry > .maincontent > .chdesc
 asura.gg,asurascans.com##.socialts
+
+! Ayas TV
+ayas.ir##.jw-logo
 
 ! Ballnaja
 ballnaja.com##.brand-logo-video
@@ -788,7 +787,17 @@ roforum.net##.js-bottomFixTarget
 roforum.net##.js-scrollButtons
 
 ! SB Nation
+blazersedge.com##.c-footer > .c-footer__wrapper > .c-footer__section > p[style^="text-align: left;"]
+blazersedge.com##.c-group-disclosure-ecomm
 blazersedge.com##.c-related-list
+blazersedge.com##.c-social-buttons
+blazersedge.com##.c-tab-bar
+blazersedge.com##.dk-nav-bug
+blazersedge.com##.metabet-adtile-auto
+blazersedge.com##.metabet-scorestrip
+blazersedge.com##.remixd-wrapper
+blazersedge.com##body > div > #content:style(margin-top: 0px !important;)
+blazersedge.com##div[class^="adblock-allowlist-messaging"]
 
 ! Scribd
 scribd.com##.auto__doc_page_webpack_doc_page_body_static_promo_study
