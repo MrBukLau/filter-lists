@@ -185,7 +185,7 @@ asura.gg,asurascans.com##.readercontent > .wrapper > .chapterbody > .postarea > 
 asura.gg,asurascans.com##.socialts
 
 ! Ayas TV
-ayas.ir##.jw-logo
+ayas.ir,live12.ir##.jw-logo
 
 ! Ballnaja
 ballnaja.com##.brand-logo-video
@@ -602,16 +602,11 @@ mojosakun.blogspot.com##.post-nav
 mojosakun.blogspot.com##.post-share
 
 ! Music Clutter
+lifecrafterscorner.site##+js(nano-sib)
 musiclutter.xyz###check-also-box
-musiclutter.xyz###footer-wrapper > .row
-musiclutter.xyz###recent-boxes
-musiclutter.xyz###recent-boxes2
-musiclutter.xyz###related-wrap
-musiclutter.xyz##+js(acs, document.oncontextmenu)
-musiclutter.xyz##.featured
-musiclutter.xyz##.FeaturedPost
-musiclutter.xyz##.ib-nav
-musiclutter.xyz##.share-box
+musiclutter.xyz###related_posts
+musiclutter.xyz###wpd-bubble-wrapper
+musiclutter.xyz###wpd-post-rating
 
 ! MyAnimeList
 myanimelist.net###broadcast-block
@@ -1024,7 +1019,6 @@ yahoo.com###module-hpsetBanner
 yibababa.com###scroll-up
 
 ! YouTube
-youtube.com##.ytd-popup-container
 youtube.com##.ytp-ce-element
 youtube.com##.ytp-chrome-top-buttons
 youtube.com##.ytp-endscreen-content
