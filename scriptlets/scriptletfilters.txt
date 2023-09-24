@@ -18,7 +18,6 @@ fc.lc##+js(gup)
 hikarinoakari.com##+js(hnab)
 itdmusic.top##+js(gup)
 ouo.*##+js(oib)
-streamcheck.link##+js(bsus)
 
 ! URL Redirectors
 amazon.com##+js(auc)
