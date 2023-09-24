@@ -9,7 +9,7 @@
 /// alias bsus.js
 (function() {
     window.addEventListener("DOMContentLoaded", function() {
-        document.querySelector("a[id^='newskip-btn-']").click();
+        document.querySelector("button[class='btn btn-primary']").click();
     });
 })();
 
@@ -94,11 +94,11 @@
         if (urlParams.has("l") === false) {
             if (oldUrlSearch.indexOf("?") === -1) {
                 if (!/\?l=en/.test(oldUrlSearch)) {
-                    window.location.replace(window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "?l=en" + window.location.hash);
+                    window.location.replace(window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "?l=en-US" + window.location.hash);
                 }
             } else {
                 if (!/\&l=en/.test(oldUrlSearch)) {
-                    window.location.replace(window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "&l=en" + window.location.hash);
+                    window.location.replace(window.location.protocol + "//" + window.location.host + window.location.pathname + oldUrlSearch + "&l=en-US" + window.location.hash);
                 }
             }
         }
