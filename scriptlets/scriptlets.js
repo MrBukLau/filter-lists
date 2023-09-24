@@ -5,14 +5,6 @@
 /**********************/
 /* Generic Scriptlets */
 /**********************/
-/// bypass-streaming-url-shortener.js
-/// alias bsus.js
-(function() {
-    window.addEventListener("DOMContentLoaded", function() {
-        document.querySelector("button[class='btn btn-primary']").click();
-    });
-})();
-
 /// get-url-parameter.js
 /// alias gup.js
 (function() {
