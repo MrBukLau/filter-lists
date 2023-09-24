@@ -71,9 +71,6 @@ bleacherreport.com##.mobileInterstitial
 bleacherreport.com##.newsletterSubsModule
 bleacherreport.com##.stickyAdvert
 
-! Bongcam
-bongcam.live##body > #app-web > .container > div[class="mmo for-mobile"]:has(a[href="mailto:ads@90phut.tv"])
-
 ! BuzzFeed
 buzzfeednews.com##.Ad
 buzzfeednews.com##.cls-min-size
