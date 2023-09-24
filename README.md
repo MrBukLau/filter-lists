@@ -120,12 +120,8 @@ No further actions are necessary. After adding a filter list from this repositor
     - [URL Parameters](https://github.com/DandelionSprout/adfilt)
 - **StephenP on Greasy Fork**
     - [Social](https://greasyfork.org/en/scripts/395497)
-- **Tomáš Zato on Stack Overflow**
-    - [Sports](https://stackoverflow.com/a/34072219)
 - **uBlock Origin Community on Reddit**
     - [General](https://reddit.com/r/uBlockOrigin/)
-- **uBlock-user on GitHub**
-    - [Dark Mode](https://github.com/uBlock-user/uBO-Scriptlets)
 
 ## License
 [MIT](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE)
