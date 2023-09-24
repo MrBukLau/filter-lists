@@ -19,7 +19,6 @@ hikarinoakari.com##+js(hnab)
 itdmusic.top##+js(gup)
 ouo.*##+js(oib)
 streamcheck.link##+js(bsus)
-tinyurl.*##+js(bsus)
 
 ! URL Redirectors
 amazon.com##+js(auc)
