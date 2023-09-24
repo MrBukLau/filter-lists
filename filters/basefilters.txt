@@ -16,6 +16,7 @@
 *pl=https%3A%2F%2Ficelz.newsrade.com%2F$all
 @@||agfinancia.info^$generichide
 @@||cookielaw.org^$3p
+@@||thapcam.net/1.gif$image,domain=thapcam.net
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
 ||jsdelivr.net/*/devtools-detector
 ||jsdelivr.net/*/disable-devtool.min.js
@@ -84,6 +85,30 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 ! 88Kanqiu
 222live.*,88kanqiu.*,88zhibo.*,888kanqiu.*,gogozb.*,niubizhibo.*,popozhibo.*##.sss-container[data-uuid]
 88kq.org###app > .main > .list > .listli:has-text(下载APP)
+
+! 90Phut
+4shares.live##.jw-logo
+4shares.live##.jw-overlays
+4shares.live##a[href^="https://8xbet"]
+4shares.live##div[aria-label="ĐẶT CƯỢC UY TÍN"]
+bongcam.live###totop
+bongcam.live##.btn-betnow
+bongcam.live##a[href="/goto?url=https%3A%2F%2Fvebo.bet%2Fnba"]
+bongcam.live##body > #app-web > #about
+bongcam.live##body > #app-web > #main-wrapper > .container > div[class="box box-fixtures-max mb-0"] > div[class="description des-page box-wpd bg-vebo"]
+bongcam.live##body > #app-web > .container[style="margin-bottom: 15px;"]:has(a[href="/goto?url=https%3A%2F%2Fvebo.bet%2Fnba"])
+bongcam.live##body > .ft-box
+bongcam.live,thapcam.net###m-bet
+bongcam.live,thapcam.net###modalasd
+bongcam.live,thapcam.net##.ibs-bet
+bongcam.live,thapcam.net##.mmo
+bongcam.live,thapcam.net##.modal-backdrop
+bongcam.live,thapcam.net##body:style(overflow: auto !important;)
+thapcam.net##.marquee-container
+thapcam.net##.mct_-bet-bot
+thapcam.net##.title_head > .title_right:has(a[href^="/out?url=https%3A%2F%2F8xbet"])
+thapcam.net##body > #app > .main > .content_page > .container > section[class="section__desc mb-4"]
+vebotv.me###pin
 
 ! 925
 925.tv##.head-main > .jfqh_wrap
@@ -220,22 +245,6 @@ blackfriday.com##.email-signup-sticky
 
 ! Blank Page
 blank.page##.campaign-alert
-
-! Bongcam
-4shares.live##.jw-logo
-bongcam.live###m-bet
-bongcam.live###modalasd
-bongcam.live###totop
-bongcam.live##.btn-betnow
-bongcam.live##.ibs-bet
-bongcam.live##.modal-backdrop
-bongcam.live##a[href="/goto?url=https%3A%2F%2Fvebo.bet%2Fnba"]
-bongcam.live##body > #app-web > #about
-bongcam.live##body > #app-web > #main-wrapper > .container > div[class="box box-fixtures-max mb-0"] > div[class="description des-page box-wpd bg-vebo"]
-bongcam.live##body > #app-web > .container > div[class="mmo for-desktop"]:has(a[href="mailto:ads@90phut.tv"])
-bongcam.live##body > #app-web > .container[style="margin-bottom: 15px;"]:has(a[href="/goto?url=https%3A%2F%2Fvebo.bet%2Fnba"])
-bongcam.live##body > .ft-box
-bongcam.live##body:style(overflow: auto !important;)
 
 ! BuzzFeed
 buzzfeednews.com##.subbuzz-bfp--related_links
