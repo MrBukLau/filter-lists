@@ -216,8 +216,6 @@ ayas.ir,live12.ir##.jw-logo
 ballnaja.com##.brand-logo-video
 ballnaja.com##.main-box-ads
 ballnaja.com##.new-banner-component
-ballnaja.com##.stream-ball-content-component + .fix-margin-banner:style(padding-bottom: 350px !important;)
-ballnaja.com##.stream-ball-content-component + h1 + .fix-margin-banner:style(padding-bottom: 250px !important;)
 ballnaja.com##.stream-ball-content-component > div[class="card-main d-flex flex-column"] > div[class="pa-5 mt-3 d-none align-center justify-center d-md-flex"]:has-text(ADS)
 
 ! Barcode Spider
