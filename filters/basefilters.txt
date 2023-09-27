@@ -214,9 +214,11 @@ ayas.ir,live12.ir##.jw-logo
 
 ! Ballnaja
 ballnaja.com##.brand-logo-video
+ballnaja.com##.live-page > .stream-ball-content-component:remove()
 ballnaja.com##.main-box-ads
 ballnaja.com##.new-banner-component
 ballnaja.com##.stream-ball-content-component > div[class="card-main d-flex flex-column"] > div[class="pa-5 mt-3 d-none align-center justify-center d-md-flex"]:has-text(ADS)
+ballnaja.com##.stream-ball-content-component:has(video[src]):style(padding-bottom: 340px !important;)
 
 ! Barcode Spider
 barcodespider.com##.barcode-home > .square > .adv-square:upward(1)
@@ -715,6 +717,7 @@ onlinesim.io##div[class="fw-popover f-widget__popover f-widget__popover--item"]
 openclassactions.com###read-our-blog
 openclassactions.com##.settlements:style(padding-bottom: 20px !important;)
 openclassactions.com##content > div[id="mc_embed_signup form-control"]
+openclassactions.com##div[id^="PopupSignupForm_"]
 
 ! Oxygen
 oxygen.com##.blog-post-section__insider-exclusive
@@ -1030,6 +1033,7 @@ youtube.com##.ytp-ce-element
 youtube.com##.ytp-chrome-top-buttons
 youtube.com##.ytp-endscreen-content
 youtube.com##yt-live-chat-viewer-engagement-message-renderer
+youtube.com##yt-mealbar-promo-renderer
 
 ! ZARA
 zara.com##.policy-popup__overlay
