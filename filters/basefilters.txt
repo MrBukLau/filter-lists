@@ -192,7 +192,8 @@ appdb.to##.app::before
 appdb.to##.banner
 appdb.to##.vue-notification-group
 
-! Apple Music
+! Apple
+discussions.apple.com##div[data-action="welcome-toast"][role="status"]
 embed.music.apple.com##embed-upsell-overlay
 music.apple.com###ck-container:has(iframe[src^="/includes/commerce/subscribe"])
 music.apple.com##.commerce-modal-container:upward(.portal)
@@ -290,6 +291,7 @@ chartoo.com##main > div > aside:has-text(/^Advertisement$/)
 chpadblock.com##+js(acs, chp_adblock_browser)
 
 ! ClutchPoints
+clutchpoints.com##+js(rc, disable-scroll, body, stay)
 clutchpoints.com##.cafemedia-clutchpoints-header
 clutchpoints.com##.widget-wrapper:has-text(RECOMMENDED)
 clutchpoints.com##script[src^="https://live.primis.tech/live/liveView.php"][src$="%%CACHEBUSTER%%"]:upward(1)
@@ -357,6 +359,9 @@ drakescans.com##.read-container > span[style="display:hidden"]
 dream4evertwo.info##.js-bottomFixTarget
 dream4evertwo.info##.js-scrollButtons
 
+! Dropbox
+dropbox.com###consent-iframe
+
 ! Drugs
 drugs.com##.ddc-toast-alert
 
@@ -384,7 +389,9 @@ fakespot.com##.show-vote-share-links
 ! Fandom
 fandom.com###mixed-content-footer
 fandom.com###SurveyModule
+fandom.com###WikiaBar
 fandom.com##.featured-video-player-container:remove()
+fandom.com##.marketing-notifications
 fandom.com##div[class^="render-wiki-recommendations"]
 
 ! FDownloader
