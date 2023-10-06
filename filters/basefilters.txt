@@ -563,6 +563,9 @@ kwik.cx##.plyr::after
 ! LanguageTool
 languagetool.org##.header-banner
 
+! Lanzhou University
+iptv.luas.edu.cn###adv
+
 ! LiveSportsOnTV
 livesportsontv.com##.bottom-sticky-ad
 livesportsontv.com##.calendar-and-favorite-btn + .main-title
@@ -603,6 +606,9 @@ mayoclinic.org##.social-share:upward(2)
 mayoclinic.org##div[class="contentbox no-border"] > script[src="/~/media/kcms/ux/javascript/subscriptionlist.js"]:upward(1)
 mayoclinic.org##div[data-hydrate$="/footer/promo-content"]
 mayoclinic.org##div[id^="redpoint_emailform_"]
+
+! MHDTVWORLD
+mhdtvworld.me##.sbox
 
 ! Moen
 moen.com##fh-anonymous-consent
@@ -759,6 +765,9 @@ prowritingaid.com##div[aria-label="cookieconsent"]
 ! Quizlet
 quizlet.com##.SetPageEmbeddedAd-wrapper
 quizlet.com##.SetPageEmbeddedAd-wrapper + .SetPageTerms-term:style(margin-top: 0.625rem !important;)
+
+! Raket TV
+ragotv1.blogspot.com##.Marquee-box
 
 ! RBTV
 rbtv77.*##.apk-download
@@ -1044,3 +1053,8 @@ youtube.com##yt-mealbar-promo-renderer
 
 ! ZARA
 zara.com##.policy-popup__overlay
+
+! ZheTV
+zhetv.eu.org##+js(acs, devtoolsDetector)
+zhetv.eu.org##+js(acs, myLazyLoad)
+zhetv.eu.org##.floating-social-bar
