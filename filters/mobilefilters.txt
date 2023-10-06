@@ -434,6 +434,7 @@ webmd.com##.medianet-ctr
 webmd.com##.mobile-ad-inside-center
 webmd.com##.ovr-lazy-ad
 webmd.com##.promoWrapper
+webmd.com##div[data-v-app] > .top-picks-inf
 webmd.com##div[id*="mnet-ia-instream-"]
 
 ! Western Hockey League
