@@ -91,6 +91,7 @@ cnn.com##.OUTBRAIN:upward(.zn > .zn__background--content-relative > .zn__contain
 cnn.com##.toast-popup
 cnn.com##.ym:upward(.story > .BasicArticle__component > .BasicArticle__zone)
 cnn.com##.zn-homepage-magellan-zone-1 > .l-container > .zn__containers > .zn__column--idx-5:has(.ad--mobile)
+cnn.com##section[class="layout__wrapper layout-homepage-mobile__wrapper"] > section > div > section > div > div > div > div[class="zone zone--t-light zone-1-observer"]:style(margin-bottom: -40px !important;)
 
 ! Craigslist
 craigslist.org##.tryapp
