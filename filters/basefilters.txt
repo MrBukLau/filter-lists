@@ -392,6 +392,7 @@ fandom.com###SurveyModule
 fandom.com###WikiaBar
 fandom.com##.featured-video-player-container:remove()
 fandom.com##.marketing-notifications
+fandom.com##.notifications-placeholder
 fandom.com##div[class^="render-wiki-recommendations"]
 
 ! FDownloader
@@ -412,7 +413,8 @@ freesports.to##center > a[class="text-center p-2"]:has-text(Download Setup Ad)
 freesports.to##center > iframe[title="Discord Widget"]
 
 ! FreeStreams
-freestreams-live1.tv###wpfront-notification-bar-spacer
+freestreams-live1.*###wpfront-notification-bar-spacer
+fslive1.chatango.com##.ad_cell
 
 ! GDPlayer TV
 gdplayer.tv##+js(acs, devtoolsDetector)
@@ -664,6 +666,8 @@ mygoodstream.pw##+js(acs, prototype.ban)
 mygoodstream.pw##.adsbyvli
 mygoodstream.pw##.anv-video-container > .anv-splash > .anv-splash-img > .anv-splash-header
 mygoodstream.pw##.bmc-button:upward(1)
+mygoodstream.pw##.bmpui-label-metadata-description:style(opacity: 0 !important;)
+mygoodstream.pw##.bmpui-label-metadata-title:style(opacity: 0 !important;)
 mygoodstream.pw##.bmpui-ui-watermark
 mygoodstream.pw##.embed-responsive[style^="box-shadow"]:style(box-shadow: none !important;)
 mygoodstream.pw##.jw-logo
@@ -673,6 +677,11 @@ mygoodstream.pw##div[data-watermark]
 mygoodstream.pw##h5:has-text(Copyright)
 mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
 mygoodstream.pw##iframe[style$="z-index: 2147483647;"]
+prodimart.com##+js(acs, ConsoleBan)
+prodimart.com##+js(acs, redirect)
+prodimart.com##.bmpui-label-metadata-description:style(opacity: 0 !important;)
+prodimart.com##.bmpui-label-metadata-title:style(opacity: 0 !important;)
+prodimart.com##.bmpui-ui-watermark
 
 ! National Automotive Parts Association
 napaonline.com##div[class="CCPA nol-ui"]
@@ -915,6 +924,10 @@ open.spotify.com#@#div > div[aria-live="polite"]
 stackoverflow.com###js-ai-search-alpha-popover
 stackoverflow.com##.js-consent-banner
 
+! Stream-Link
+stream-link.org##.container-clock
+stream-link.org##body > div[style="width:300px"]:style(width: 100% !important;)
+
 ! StreamCheck
 streamcheck.link##+js(nano-sib)
 
@@ -952,6 +965,9 @@ fredmeyer.com##.overflow-hidden:style(overflow: auto !important;)
 
 ! TheTVApp
 thetvapp.to##div > p > a[href$="/thetvsub-iptv-service-sign-up/"]
+
+! Tho Dia Media
+tv.thodia.media###back-top
 
 ! TinyURL
 tinyurl.*##+js(nano-sib)
@@ -1017,6 +1033,9 @@ webmd.com##.other-links
 webmd.com##.rx-section
 webmd.com##div[class$="-para-ad"]
 
+! wikiHow
+wikihow.com###article_courses_banner
+
 ! Wikipedia
 wikipedia.org##.cn-fundraising
 wikipedia.org##.vector-sitenotice-container
@@ -1026,6 +1045,9 @@ writer.com##+js(rc, om-position-popup, html, stay)
 writer.com##.CampaignType--popup
 writer.com##.get-extension
 writer.com##.wpm-banner
+
+! XBMC-Kodi
+xbmc-kodi.cz##.scrolltotop
 
 ! Xero
 xero.com##.cmp-experiencefragment--offer-banner
