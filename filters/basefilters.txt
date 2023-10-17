@@ -21,6 +21,7 @@
 ||jsdelivr.net/*/devtools-detector
 ||jsdelivr.net/*/disable-devtool.min.js
 ||jsdelivr.net/*/izi-simply.js$script,domain=onlivetv.pages.dev|tvq.rf.gd
+||jsdelivr.net/*/sconsole-ban.min.js
 ||katu.com/api/rest/audience/more
 ||kgw.com/ajax/content/cscroll
 ||mhdtvworld.me/wp-content/plugins/*.js?ver
@@ -68,6 +69,8 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 ||open.spotify.com^$removeparam=nd
 ||open.spotify.com^$removeparam=referral
 ||open.spotify.com^$removeparam=si
+||slickdeals.net^$removeparam=prop
+||slickdeals.net^$removeparam=src
 ||walmart.com^$removeparam=/^ath/
 ||walmart.com^$removeparam=from
 
@@ -478,6 +481,13 @@ hikarinoakari.com##.thanks_button_div
 hikarinoakari.com##.widget_text:has-text(Are strongly recomended to download the last version from Win Rar to unzip the files from this site)
 ouo.*##+js(rc, disabled, .btn, stay)
 
+! HiNative
+hinative.com###fullscreen_register_recommend
+hinative.com##.l_container > .mod_banner_bestapp_footer
+hinative.com##.l_sidebar_container > .mod_banner_container
+hinative.com##body:style(overflow: auto !important;)
+hinative.com##div[data-react-class="RegisterFloatBannerPc"]
+
 ! Histar
 histar.tv##div[class^="_id__share___"] > a[class^="_id__icon__"][href="/download"]
 histar.tv##div[class^="backup_floatBox__"]
@@ -661,27 +671,24 @@ myanimelist.net##span[class*="button_pin"]
 
 ! MyGoodStream
 mygoodstream.pw###includedheader > br
-mygoodstream.pw##+js(acs, ConsoleBan)
-mygoodstream.pw##+js(acs, prototype.ban)
 mygoodstream.pw##.adsbyvli
 mygoodstream.pw##.anv-video-container > .anv-splash > .anv-splash-img > .anv-splash-header
 mygoodstream.pw##.bmc-button:upward(1)
-mygoodstream.pw##.bmpui-label-metadata-description:style(opacity: 0 !important;)
-mygoodstream.pw##.bmpui-label-metadata-title:style(opacity: 0 !important;)
-mygoodstream.pw##.bmpui-ui-watermark
 mygoodstream.pw##.embed-responsive[style^="box-shadow"]:style(box-shadow: none !important;)
 mygoodstream.pw##.jw-logo
 mygoodstream.pw##.sharethis-inline-share-buttons:upward(1)
 mygoodstream.pw##.w-webflow-badge
-mygoodstream.pw##div[data-watermark]
 mygoodstream.pw##h5:has-text(Copyright)
 mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
 mygoodstream.pw##iframe[style$="z-index: 2147483647;"]
-prodimart.com##+js(acs, ConsoleBan)
-prodimart.com##+js(acs, redirect)
-prodimart.com##.bmpui-label-metadata-description:style(opacity: 0 !important;)
-prodimart.com##.bmpui-label-metadata-title:style(opacity: 0 !important;)
-prodimart.com##.bmpui-ui-watermark
+mygoodstream.pw,prodimart.com##.bmpui-label-metadata-description:style(opacity: 0 !important;)
+mygoodstream.pw,prodimart.com##.bmpui-label-metadata-title:style(opacity: 0 !important;)
+mygoodstream.pw,prodimart.com##.bmpui-ui-watermark
+mygoodstream.pw,prodimart.com,soccerstream.website##+js(acs, ConsoleBan)
+mygoodstream.pw,prodimart.com,soccerstream.website##+js(acs, prototype.ban)
+mygoodstream.pw,prodimart.com,soccerstream.website##+js(acs, redirect)
+mygoodstream.pw,soccerstream.website##div[data-watermark]
+soccerstream.website##img[src$="/KFfB8jS.jpg"]
 
 ! National Automotive Parts Association
 napaonline.com##div[class="CCPA nol-ui"]
