@@ -113,6 +113,8 @@ reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="credit-bar"] 
 reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="credit-bar"]:style(margin-bottom: 1rem !important;)
 reddit.com##shreddit-profile-actions
 reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) !important; background-image: none !important;)
+rentry.*#%#(function(){const elements=document.getElementsByClassName("dark-mode");if(elements.length>0){const meta=document.createElement("meta");meta.name="theme-color";meta.content="#1c1c1c";document.getElementsByTagName("head")[0].appendChild(meta);}})();
+rentry.*#%#(function(){window.addEventListener("load",function(){const elements=document.getElementsByClassName("dark-mode");if(elements.length>0){const meta=document.createElement("meta");meta.name="theme-color";meta.content="#1c1c1c";document.getElementsByTagName("head")[0].appendChild(meta);}});})();
 slickdeals.net##.addComment
 slickdeals.net##.addCommentButton
 slickdeals.net##.commentReactionsOptions
@@ -152,7 +154,6 @@ livesportsontv.com##.favorites-filter-container
 m3u4u.com##a[title="Our Discord Server"]
 m3u4u.com##a[title="Our Wikipedia"]
 m3u4u.com##button[title="Donate"]
-m3u4u.com##button[title="EPGs"]
 open.spotify.com###Desktop_PanelContainer_Id[aria-label="Now Playing View"]
 open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(/About recommendations|Add to playlist|Add to profile|Add to queue|Create folder|Create playlist|Go to artist radio|Go to playlist radio|Go to song radio|Open in Desktop app|Report|Save to Your Episodes|Save to your Liked Songs/)
 open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(/Follow|Following/)
