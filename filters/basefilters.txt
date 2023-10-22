@@ -1005,6 +1005,9 @@ twitter.com##[aria-label$="trending now" i]
 twitter.com##[aria-label="who to follow" i]:upward(1)
 twitter.com##div[data-testid="BottomBar"]
 
+! UHDMovies
+uhdmovies.*##.gridlove-prev-next-nav
+
 ! UPCitemdb
 upcitemdb.com##.adsense-ad
 
