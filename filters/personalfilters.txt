@@ -133,6 +133,8 @@ blazersedge.com##.coral-viewersWatching
 blazersedge.com##main[aria-label="Comments Embed"] > div > section[aria-labelledby="tab-COMMENTS"] > div > div[class^="Box-root-"]:first-child
 blazersedge.com##section[aria-label="Community Guidelines"]
 blazersedge.com##section[aria-label="Post a Comment"]
+dropbox.com##div[class^="_current-form_"] > div[class^="_susi-form-container_"] > div[class^="third-party-container"]
+dropbox.com##div[class^="_current-form_"] > div[class^="_susi-form-container_"] > div[class^="third-party-container"] + div[class^="_hr-label_"]
 gist.github.com##.discussion-timeline-actions:has-text(Sign up for free):style(margin-bottom: 16px !important;)
 gist.github.com##.Popover
 gist.github.com##div[data-quote-markdown=".js-comment-body"]:not(:has(div[class="TimelineItem d-block js-comment-container"])):has-text(Sign up for free)
