@@ -87,7 +87,9 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 
 ! 88Kanqiu
 222live.*,88kanqiu.*,88zhibo.*,888kanqiu.*,gogozb.*,niubizhibo.*,popozhibo.*##.sss-container[data-uuid]
-88kq.org###app > .main > .list > .listli:has-text(下载APP)
+88kq.org###app > .main > .list > .listli:has-text(/下载APP|知球体育App/)
+bszb002.com,kanqiu00.com##+js(acs, document.oncontextmenu)
+bszb002.com,kanqiu00.com##.downPanel
 
 ! 90Phut
 4shares.live##.jw-logo
@@ -120,15 +122,6 @@ vebotv.me###pin
 925.tv##.pcrlist
 925.tv##.waplist
 
-! 9Anime
-9anime.*##.adx
-9anime.*##.alert
-9anime.*##.main > #recent-update:style(margin-bottom: 0px !important;)
-9anime.*##.main > .bsharing
-9anime.*##.swiper-container
-9anime.*##a[href="https://mangafire.to/?9anime"]
-9anime.me##+js(ra, target, ul > li > a[href], stay)
-
 ! 9GAG
 9gag.com##.comment-signup-banner
 9gag.com##.signup-list-banner
@@ -138,6 +131,7 @@ vebotv.me###pin
 abcnews.go.com##.taboola
 
 ! Advance Publications
+oregonlive.com###messageStripContainer
 oregonlive.com##.advToprail__right-corner--subscribe
 oregonlive.com##.alert-bar--news-promo
 oregonlive.com##.main-wrapper--article > .article__header > .articleLabel:style(padding-top: 24px !important;)
@@ -162,6 +156,7 @@ albertsons.com,safeway.com##.nextgen-banner-unit-proxy
 albertsons.com,safeway.com##.notification-alert
 albertsons.com,safeway.com##div[aria-label="Promo or Ad Banner"]
 albertsons.com,safeway.com##div[data-lazy-function="lazyAdXContent"]
+coupons.albertsons.com,coupons.safeway.com###endemicGoogleAdTop
 coupons.albertsons.com,coupons.safeway.com##.ad-details > .share-container
 coupons.albertsons.com,coupons.safeway.com##.unified-header > .reserve-nav
 coupons.albertsons.com,coupons.safeway.com##flipp-router > flipp-publication-page > div > footer
@@ -186,6 +181,16 @@ animeschedule.net###header-temporary-banner
 aniplaylist.com##.adswrapper:upward(1)
 aniplaylist.com##.qc-cmp2-container
 aniplaylist.com##a[href="/my-aniplaylist"][title="Create your own playlist"]:upward(2)
+
+! AniWave
+aniwave.*###w-media > #w-player > #w-servers > .tip
+aniwave.*##.adx
+aniwave.*##.alert
+aniwave.*##.main > .bsharing
+aniwave.*##.sharethis-inline-share-buttons
+aniwave.*##.swiper-container
+aniwave.*##a[href^="https://mangafire.to/"]
+aniwave.tv##+js(ra, target, ul > li > a[href], stay)
 
 ! Anna's Archive
 annas-archive.org##.js-top-banner
@@ -292,6 +297,12 @@ chartoo.com##main > div > aside:has-text(/^Advertisement$/)
 
 ! CHP Adblock Detector
 chpadblock.com##+js(acs, chp_adblock_browser)
+
+! Cleveland Clinic
+clevelandclinic.org##div[data-identity="adhesive-ad"]
+clevelandclinic.org##div[data-identity="article-sidebar"] > div > div[style^="height"] > div[class^="sticky"] > div[class^="bg-"] > div[data-identity="billboard-ad"]:upward(3)
+clevelandclinic.org##div[data-identity="billboard-ad-with-description"]
+clevelandclinic.org##div[data-identity="leaderboard-ad"]
 
 ! ClutchPoints
 clutchpoints.com##+js(rc, disable-scroll, body, stay)
@@ -578,6 +589,10 @@ languagetool.org##.header-banner
 ! Lanzhou University
 iptv.luas.edu.cn###adv
 
+! LIVESPORT24
+livesport24.net###gototop
+livesport24.net##img[alt="Betting on Soccer"]
+
 ! LiveSportsOnTV
 livesportsontv.com##.bottom-sticky-ad
 livesportsontv.com##.calendar-and-favorite-btn + .main-title
@@ -620,7 +635,7 @@ mayoclinic.org##div[data-hydrate$="/footer/promo-content"]
 mayoclinic.org##div[id^="redpoint_emailform_"]
 
 ! MHDTVWORLD
-mhdtvworld.me##.sbox
+mhdtvworld.*##.sbox
 
 ! Moen
 moen.com##fh-anonymous-consent
@@ -835,6 +850,7 @@ blazersedge.com##.metabet-scorestrip
 blazersedge.com##.remixd-wrapper
 blazersedge.com##body > div > #content:style(margin-top: 0px !important;)
 blazersedge.com##div[class^="adblock-allowlist-messaging"]
+blazersedge.com##div[data-analytics-placement="fan-mix-breaker"]
 
 ! Scribd
 scribd.com##.auto__doc_page_webpack_doc_page_body_static_promo_study
@@ -971,6 +987,7 @@ theindex.moe##div[class^="SupportBanner_banner"]
 fredmeyer.com##.overflow-hidden:style(overflow: auto !important;)
 
 ! TheTVApp
+thetvapp.to##.text-success:has-text(Now, you can Screen Cast or AirPlay from your Phone to your TV)
 thetvapp.to##div > p > a[href$="/thetvsub-iptv-service-sign-up/"]
 
 ! Tho Dia Media
@@ -1006,6 +1023,7 @@ twitter.com##[aria-label="who to follow" i]:upward(1)
 twitter.com##div[data-testid="BottomBar"]
 
 ! UHDMovies
+oddfirm.com##+js(nano-sib)
 uhdmovies.*##.gridlove-prev-next-nav
 
 ! UPCitemdb
