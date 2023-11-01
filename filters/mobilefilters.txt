@@ -19,6 +19,10 @@
 !--------------------------------------!
 !---------- Specific Filters ----------!
 !--------------------------------------!
+! 88Kanqiu
+bszb002.com,kanqiu00.com##.home_godown
+bszb002.com,kanqiu00.com##.zhuboinfo_box
+
 ! 9GAG
 9gag.com##.download-app-container
 9gag.com##.inline-banner
@@ -412,6 +416,9 @@ uhaul.com##.download-uhaul-app
 
 ! Venmo
 venmo.com##.organisms-layoutContainer-mobileWrapper
+
+! Vidio
+vidio.com##div[data-testid="smart-banner"]
 
 ! Walmart
 walmart.com##.alert-bar
