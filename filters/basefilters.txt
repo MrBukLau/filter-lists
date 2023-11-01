@@ -18,12 +18,14 @@
 @@||cookielaw.org^$3p
 @@||thapcam.net/1.gif$image,domain=thapcam.net
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
+||amillionads.com$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
 ||jsdelivr.net/*/devtools-detector
 ||jsdelivr.net/*/disable-devtool.min.js
-||jsdelivr.net/*/izi-simply.js$script,domain=onlivetv.pages.dev|tvq.rf.gd
+||jsdelivr.net/*/izi-simply.js$script,domain=livetvq.000webhostapp.com|onlivetv.pages.dev
 ||jsdelivr.net/*/sconsole-ban.min.js
 ||katu.com/api/rest/audience/more
 ||kgw.com/ajax/content/cscroll
+||maxtv.one/wp-content/plugins/wpshield-content-protector
 ||mhdtvworld.me/wp-content/plugins/*.js?ver
 
 ! URL Parameter Filters
@@ -375,6 +377,8 @@ dream4evertwo.info##.js-scrollButtons
 
 ! Dropbox
 dropbox.com###consent-iframe
+dropbox.com##.browse-suggest
+dropbox.com##.maestro-prompt-portal
 
 ! Drugs
 drugs.com##.ddc-toast-alert
@@ -1049,6 +1053,7 @@ walmart.com##div[data-testid="search-video-in-grid"]:has(span[data-testid="Unfil
 walmart.com##div[data-testid="search-video-in-grid"]:has(span[data-testid="UnfilledAd"]):upward(section > .flex > .w-100)
 walmart.com##div[data-testid="skyline-ad"]
 walmart.com##div[id*="SponsoredProductCarousel-bottom"]:upward(1)
+walmart.com##section > .flex > .w-100 > .w-100 > div[data-testid="search-video-in-grid"]:has(span[data-testid="UnfilledVideoAd"]):upward(2)
 
 ! WebMD
 webmd.com###hp-ad-container
