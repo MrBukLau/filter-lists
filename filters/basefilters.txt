@@ -686,6 +686,7 @@ myanimelist.net##div[class="widget mxj left"]
 myanimelist.net##div[class^="pda"]
 myanimelist.net##div[data-ga-impression-type="top_signup_area"]
 myanimelist.net##div[style="overflow: hidden; padding: 10px 0; border-bottom: solid #cdcdcd 1px"]:has(div[style="padding: 20px 40px;display: inline-block;"], div[style="padding: 20px 0px;display: inline-block;"])
+myanimelist.net##mal-tooltip[header="Get started"]
 myanimelist.net##span[class*="button_pin"]
 
 ! MyGoodStream
@@ -713,6 +714,7 @@ soccerstream.website##img[src$="/KFfB8jS.jpg"]
 napaonline.com##div[class="CCPA nol-ui"]
 
 ! National Basketball Association
+global.nba.com###nbaGlobalFooter
 nba.com##div[class^="DisplayAd_genericAd_"]
 nba.com##div[class^="TuneInBanner_"]
 
@@ -817,7 +819,6 @@ realbitsport.com##.clappr-watermark
 ! Reddit
 reddit.com##+js(ra, data-outbound-url, .outbound)
 reddit.com##+js(set, Object.prototype.allowClickTracking, false)
-reddit.com##.login-form-side:style(position: static !important;)
 reddit.com##.premium-banner-outer
 reddit.com##.read-next-container
 reddit.com##.redesign-beta-optin
@@ -1095,6 +1096,9 @@ sports.yahoo.com##.post-article-ad
 sports.yahoo.com##.related-content-lazyload
 sports.yahoo.com##div[class*="adTranslate"][class*="HideBottomBar_"]
 yahoo.com###module-hpsetBanner
+
+! Yes Live TV
+yeslivetv.com##.sbox
 
 ! Yibababa
 yibababa.com###scroll-up
