@@ -20,6 +20,7 @@
 !---------- Specific Filters ----------!
 !--------------------------------------!
 ! 88Kanqiu
+bszb002.com,kanqiu00.com##.feedback
 bszb002.com,kanqiu00.com##.home_godown
 bszb002.com,kanqiu00.com##.zhuboinfo_box
 
