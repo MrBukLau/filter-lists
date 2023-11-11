@@ -116,7 +116,7 @@
     if (window.location.href.includes("/hikarinoakari.com/out/")) {
         setTimeout(function() {
             document.querySelector("a[class='link']").click();
-        }, 750);
+        }, 4000);
     }
 })();
 
