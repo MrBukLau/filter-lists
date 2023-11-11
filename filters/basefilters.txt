@@ -348,6 +348,7 @@ costco.com###email-popup-title
 
 ! DeepL
 deepl.com###dl_cookieBanner
+deepl.com##div[data-testid="chrome-extension-toast"]
 
 ! Desklib
 desklib.com##.UGgiG3ep
@@ -423,12 +424,18 @@ fifaratings.com##div > div > .inline-rectangle-adx:upward(1)
 fifaratings.com##td > .adsbygoogle:upward(1)
 fifaratings.com##td > .mobile-adx:upward(1)
 
+! fliPaX
+18300.foroactivo.com##+js(acs, document.oncontextmenu)
+
 ! Free MP3 Download
 free-mp3-download.net###toast-container
 
 ! FreeSports
+freesports.to###page-content > div[class="w-full h-full"] > div > p[class^="text-center"]
+freesports.to###page-content > div[class="w-full h-full"] > p[class^="text-center"]
 freesports.to##center > a[class="text-center p-2"]:has-text(Download Setup Ad)
 freesports.to##center > iframe[title="Discord Widget"]
+freesports.to##footer
 
 ! FreeStreams
 freestreams-live1.*###wpfront-notification-bar-spacer
@@ -595,6 +602,7 @@ iptv.luas.edu.cn###adv
 
 ! LIVESPORT24
 livesport24.net###gototop
+livesport24.net##.grecaptcha-badge
 livesport24.net##img[alt="Betting on Soccer"]
 
 ! LiveSportsOnTV
@@ -609,6 +617,8 @@ localnow.com##.cookieConsent
 
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
+lyrical-nonsense.com##.crunchify-top
+lyrical-nonsense.com##.disckofblock
 lyrical-nonsense.com##.lyricside
 lyrical-nonsense.com##.matchedsidebarhome
 lyrical-nonsense.com##.playblockbtm
@@ -637,6 +647,9 @@ mayoclinic.org##.social-share:upward(2)
 mayoclinic.org##div[class="contentbox no-border"] > script[src="/~/media/kcms/ux/javascript/subscriptionlist.js"]:upward(1)
 mayoclinic.org##div[data-hydrate$="/footer/promo-content"]
 mayoclinic.org##div[id^="redpoint_emailform_"]
+
+! Mega Deportes TV
+megadeportestv.online##+js(acs, document.oncontextmenu)
 
 ! MHDTVWORLD
 mhdtvworld.*##.sbox
@@ -809,8 +822,8 @@ ragotv1.blogspot.com##.Marquee-box
 ! RBTV
 rbtv77.*##.apk-download
 rbtv77.*##.bmc-wrap
-rbtv77.*##.r-backtop
-rbtv77.*##.r-footer:style(padding-top: 40px !important;)
+rbtv77.*,superabbit77.*##.r-backtop
+rbtv77.*,superabbit77.*##.r-footer:style(padding-top: 40px !important;)
 
 ! RealBitSport
 realbitsport.com##+js(acs, disableselect)
@@ -977,6 +990,9 @@ kgw.com##dialog[data-behavior="modal"][data-name="exitInterstitial"]:remove()
 kgw.com##div[data-module-sizer="ad"]:upward(1)
 kgw.com##div[data-module-sizer="article-loader"]
 
+! Tele Gratis
+telegratis.online,telegratishd.com##+js(acs, document.oncontextmenu)
+
 ! Telegram
 t.me##.tgme_channel_info > .tgme_channel_download_telegram
 t.me##.tgme_head > .tgme_head_right_btn[href^="//telegram.org/dl?"]
@@ -1104,6 +1120,7 @@ yeslivetv.com##.sbox
 yibababa.com###scroll-up
 
 ! YouTube
+youtube.com##.branding-img-container
 youtube.com##.ytp-ce-element
 youtube.com##.ytp-chrome-top-buttons
 youtube.com##.ytp-endscreen-content
