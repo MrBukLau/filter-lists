@@ -30,6 +30,7 @@
 
 ! URL Parameter Filters
 $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
+$removeparam=cmpid,domain=coupons.albertsons.com|coupons.safeway.com
 @@||google.com/url?$removeparam=ved
 ||amazon.com^$removeparam=channel
 ||amazon.com^$removeparam=crid
@@ -79,6 +80,9 @@ $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
 !--------------------------------------!
 !---------- Specific Filters ----------!
 !--------------------------------------!
+! 1TamilMV
+1tamilmv.phd##img[alt="Rajbet Image.jpg"]
+
 ! 2K Ratings
 2kratings.com##.inline-rectangle-adx
 2kratings.com##.mobile-leaderboard-adx
@@ -151,6 +155,7 @@ oregonlive.com##.skimlinks
 oregonlive.com##body > div > .footer > .footer:style(border-top: none !important; padding-top: 0px !important;)
 
 ! Albertsons Companies
+albertsons.com,safeway.com###onetrust-consent-sdk
 albertsons.com,safeway.com##.banner-placeholder
 albertsons.com,safeway.com##.cross-sell-row
 albertsons.com,safeway.com##.marketplace-seller-placeholder
@@ -223,6 +228,9 @@ asura.gg,asurascans.com##.socialts
 ! Ayas TV
 ayas.ir,live12.ir##.jw-logo
 
+! Baidu
+tieba.baidu.com##body > .clearfix > img[class="close_btn j_click_close"][src^="https://tb1.bdstatic.com/tb/cms/ngmis/adsense/"]:upward(1)
+
 ! Ballnaja
 ballnaja.com##.brand-logo-video
 ballnaja.com##.live-page > .stream-ball-content-component:remove()
@@ -250,6 +258,9 @@ bestbuy.com##.embedded-leaderboard
 ! BESTNHL
 bestnhl.com##.bmpui-ui-watermark
 bestnhl.com##.sharethis-inline-share-buttons
+
+! Bilibili
+bilibili.tv##.bstar-cookie-info
 
 ! Black Friday
 blackfriday.com##.email-signup-sticky
@@ -349,6 +360,7 @@ costco.com###email-popup-title
 ! DeepL
 deepl.com###dl_cookieBanner
 deepl.com##div[data-testid="chrome-extension-toast"]
+deepl.com##div[data-testid="dl-cookieBanner"]
 
 ! Desklib
 desklib.com##.UGgiG3ep
@@ -425,7 +437,10 @@ fifaratings.com##td > .adsbygoogle:upward(1)
 fifaratings.com##td > .mobile-adx:upward(1)
 
 ! fliPaX
-18300.foroactivo.com##+js(acs, document.oncontextmenu)
+18301.foroactivo.com##+js(acs, document.oncontextmenu)
+
+! FORJA
+forja.me##.media-control-layer > .media-control-right-panel > button[aria-label="hd-indicator"]
 
 ! Free MP3 Download
 free-mp3-download.net###toast-container
@@ -462,6 +477,9 @@ github.com##.Banner--warning
 github.com##.flash-warn:has-text(Sign in to comment)
 github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 
+! Gofile
+gofile.io###adsATF
+
 ! GoGoAnime
 gogoanime.*##div[class^="notice-"]
 
@@ -490,6 +508,9 @@ kptv.com##.taboola-feature
 
 ! Greasy Fork
 greasyfork.org##.ad
+
+! H Mart
+hmartus.com##.sqs-cookie-banner-v2
 
 ! Hikarinoakariost
 hikarinoakari.com###ays_tooltip
@@ -629,7 +650,11 @@ lyrical-nonsense.com##div[class^="responsive"][class$="inc"]
 maddenratings.com##div > .header-ad:upward(1)
 maddenratings.com##td > .table-ad:upward(1)
 
+! Mail.ru
+mail.ru###cmpbox
+
 ! Major League Soccer
+atlutd.com,austinfc.com,cfmontreal.com,charlottefootballclub.com,chicagofirefc.com,coloradorapids.com,columbuscrew.com,dcunited.com,fccincinnati.com,fcdallas.com,houstondynamofc.com,intermiamicf.com,lafc.com,lagalaxy.com,mlssoccer.com,mnufc.com,nashvillesc.com,newyorkredbulls.com,nycfc.com,orlandocitysc.com,philadelphiaunion.com,revolutionsoccer.net,rsl.com,sjearthquakes.com,soundersfc.com,sportingkc.com,stlcitysc.com,timbers.com,torontofc.ca,whitecapsfc.com###onetrust-consent-sdk
 atlutd.com,austinfc.com,cfmontreal.com,charlottefootballclub.com,chicagofirefc.com,coloradorapids.com,columbuscrew.com,dcunited.com,fccincinnati.com,fcdallas.com,houstondynamofc.com,intermiamicf.com,lafc.com,lagalaxy.com,mlssoccer.com,mnufc.com,nashvillesc.com,newyorkredbulls.com,nycfc.com,orlandocitysc.com,philadelphiaunion.com,revolutionsoccer.net,rsl.com,sjearthquakes.com,soundersfc.com,sportingkc.com,stlcitysc.com,timbers.com,torontofc.ca,whitecapsfc.com##.mls-c-alert-bar
 atlutd.com,austinfc.com,cfmontreal.com,charlottefootballclub.com,chicagofirefc.com,coloradorapids.com,columbuscrew.com,dcunited.com,fccincinnati.com,fcdallas.com,houstondynamofc.com,intermiamicf.com,lafc.com,lagalaxy.com,mlssoccer.com,mnufc.com,nashvillesc.com,newyorkredbulls.com,nycfc.com,orlandocitysc.com,philadelphiaunion.com,revolutionsoccer.net,rsl.com,sjearthquakes.com,soundersfc.com,sportingkc.com,stlcitysc.com,timbers.com,torontofc.ca,whitecapsfc.com##.mls-o-adv-container
 mlssoccer.com##.mls-c-ledeblock__overlap:style(padding: 24px 0 0 !important;)
@@ -702,6 +727,9 @@ myanimelist.net##div[style="overflow: hidden; padding: 10px 0; border-bottom: so
 myanimelist.net##mal-tooltip[header="Get started"]
 myanimelist.net##span[class*="button_pin"]
 
+! MyDramaList
+mydramalist.com###mdl-cookie-accept
+
 ! MyGoodStream
 mygoodstream.pw###includedheader > br
 mygoodstream.pw##.adsbyvli
@@ -728,6 +756,7 @@ napaonline.com##div[class="CCPA nol-ui"]
 
 ! National Basketball Association
 global.nba.com###nbaGlobalFooter
+nba.com###onetrust-consent-sdk
 nba.com##div[class^="DisplayAd_genericAd_"]
 nba.com##div[class^="TuneInBanner_"]
 
@@ -803,6 +832,9 @@ pixlr.com##body > a[href="/pricing/"][style^="display:flex;"]
 ! Platinsport
 platinsport.com##+js(acs, document.oncontextmenu)
 
+! PlayerVipMaster
+playervipmaster.com##.fa-twitter
+
 ! Proton
 drive.proton.me##.spotlight
 proton.me##a[data-testid="cta:upgrade-plan"]
@@ -855,6 +887,9 @@ right.com.cn##.focus
 ! RoForum
 roforum.net##.js-bottomFixTarget
 roforum.net##.js-scrollButtons
+
+! Roku
+roku.com##div[aria-label="cookieconsent"]
 
 ! SB Nation
 blazersedge.com##.c-footer > .c-footer__wrapper > .c-footer__section > p[style^="text-align: left;"]
@@ -971,6 +1006,12 @@ stream-link.org##body > div[style="width:300px"]:style(width: 100% !important;)
 
 ! StreamCheck
 streamcheck.link##+js(nano-sib)
+
+! Super User
+superuser.com##.js-consent-banner
+
+! Tangrenjie
+tangrenjie.tv##a[href="https://betone002.com"]
 
 ! Tankathon
 tankathon.com##.horizontal-primary-ad
