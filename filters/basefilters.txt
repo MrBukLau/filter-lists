@@ -7,6 +7,8 @@
 !---------- Generic Filters ----------!
 !-------------------------------------!
 ! Cosmetic Filters
+###onetrust-consent-sdk
+##.js-consent-banner
 ##.outbrain
 ##.outbrain-container
 
@@ -155,7 +157,6 @@ oregonlive.com##.skimlinks
 oregonlive.com##body > div > .footer > .footer:style(border-top: none !important; padding-top: 0px !important;)
 
 ! Albertsons Companies
-albertsons.com,safeway.com###onetrust-consent-sdk
 albertsons.com,safeway.com##.banner-placeholder
 albertsons.com,safeway.com##.cross-sell-row
 albertsons.com,safeway.com##.marketplace-seller-placeholder
@@ -277,6 +278,9 @@ buzzfeednews.com##section[aria-labelledby="bottom-recirc-title"]
 camelcamelcamel.com###camelizer_top_promo
 camelcamelcamel.com###primeheader
 camelcamelcamel.com###similar_products
+
+! Canales
+canales.online##.sharethis-inline-share-buttons
 
 ! Canela TV
 canela.tv##.gdpr-footer
@@ -445,6 +449,10 @@ forja.me##.media-control-layer > .media-control-right-panel > button[aria-label=
 ! Free MP3 Download
 free-mp3-download.net###toast-container
 
+! FREENOTE
+freenote.biz###cookie-pop
+freenote.biz##.grecaptcha-badge
+
 ! FreeSports
 freesports.to###page-content > div[class="w-full h-full"] > div > p[class^="text-center"]
 freesports.to###page-content > div[class="w-full h-full"] > p[class^="text-center"]
@@ -534,6 +542,8 @@ hinative.com##div[data-react-class="RegisterFloatBannerPc"]
 ! Histar
 histar.tv##div[class^="_id__share___"] > a[class^="_id__icon__"][href="/download"]
 histar.tv##div[class^="backup_floatBox__"]
+histar.tv##div[class^="buffering_buffering__"]
+histar.tv##div[class^="core_player-warning__"]
 histar.tv##div[class^="live_loginBoot__"]
 histar.tv##div[class^="live_share__"] > div > a[class^="live_icon__"][href="/download"]
 histar.tv##div[class^="live_trySeeBox__"]
@@ -654,7 +664,6 @@ maddenratings.com##td > .table-ad:upward(1)
 mail.ru###cmpbox
 
 ! Major League Soccer
-atlutd.com,austinfc.com,cfmontreal.com,charlottefootballclub.com,chicagofirefc.com,coloradorapids.com,columbuscrew.com,dcunited.com,fccincinnati.com,fcdallas.com,houstondynamofc.com,intermiamicf.com,lafc.com,lagalaxy.com,mlssoccer.com,mnufc.com,nashvillesc.com,newyorkredbulls.com,nycfc.com,orlandocitysc.com,philadelphiaunion.com,revolutionsoccer.net,rsl.com,sjearthquakes.com,soundersfc.com,sportingkc.com,stlcitysc.com,timbers.com,torontofc.ca,whitecapsfc.com###onetrust-consent-sdk
 atlutd.com,austinfc.com,cfmontreal.com,charlottefootballclub.com,chicagofirefc.com,coloradorapids.com,columbuscrew.com,dcunited.com,fccincinnati.com,fcdallas.com,houstondynamofc.com,intermiamicf.com,lafc.com,lagalaxy.com,mlssoccer.com,mnufc.com,nashvillesc.com,newyorkredbulls.com,nycfc.com,orlandocitysc.com,philadelphiaunion.com,revolutionsoccer.net,rsl.com,sjearthquakes.com,soundersfc.com,sportingkc.com,stlcitysc.com,timbers.com,torontofc.ca,whitecapsfc.com##.mls-c-alert-bar
 atlutd.com,austinfc.com,cfmontreal.com,charlottefootballclub.com,chicagofirefc.com,coloradorapids.com,columbuscrew.com,dcunited.com,fccincinnati.com,fcdallas.com,houstondynamofc.com,intermiamicf.com,lafc.com,lagalaxy.com,mlssoccer.com,mnufc.com,nashvillesc.com,newyorkredbulls.com,nycfc.com,orlandocitysc.com,philadelphiaunion.com,revolutionsoccer.net,rsl.com,sjearthquakes.com,soundersfc.com,sportingkc.com,stlcitysc.com,timbers.com,torontofc.ca,whitecapsfc.com##.mls-o-adv-container
 mlssoccer.com##.mls-c-ledeblock__overlap:style(padding: 24px 0 0 !important;)
@@ -756,7 +765,6 @@ napaonline.com##div[class="CCPA nol-ui"]
 
 ! National Basketball Association
 global.nba.com###nbaGlobalFooter
-nba.com###onetrust-consent-sdk
 nba.com##div[class^="DisplayAd_genericAd_"]
 nba.com##div[class^="TuneInBanner_"]
 
@@ -968,7 +976,6 @@ snopes.com##.sidebar_ad
 snopes.com##div[data-piano-show="non-member"]
 
 ! Sport TV Guide
-sport-tv-guide.live###onetrust-consent-sdk
 sport-tv-guide.live##.scrollToTop
 
 ! Sport365
@@ -998,7 +1005,6 @@ open.spotify.com#@#div > div[aria-live="polite"]
 
 ! Stack Overflow
 stackoverflow.com###js-ai-search-alpha-popover
-stackoverflow.com##.js-consent-banner
 
 ! Stream-Link
 stream-link.org##.container-clock
@@ -1006,9 +1012,6 @@ stream-link.org##body > div[style="width:300px"]:style(width: 100% !important;)
 
 ! StreamCheck
 streamcheck.link##+js(nano-sib)
-
-! Super User
-superuser.com##.js-consent-banner
 
 ! Tangrenjie
 tangrenjie.tv##a[href="https://betone002.com"]
