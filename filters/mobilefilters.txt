@@ -381,6 +381,7 @@ t.me##.tgme_header_info > .tgme_channel_join_telegram
 
 ! Temu
 temu.com###main > div > div > div[style="height:0.66rem"]:upward(1)
+temu.com##div[aria-label="Cart"][role="button"][style^="transform"]
 temu.com##div[class^="container-"]:has-text(Sign in for the best experience)
 temu.com##div[class^="root-"] > div > div > div[style="height:0.66rem"]:upward(1)
 temu.com##div[class^="withAppDownload-"] > div[class^="wrap-"] > div[class^="app-"] > div > div > div[style="height: 0.66rem;"]:upward(1)
