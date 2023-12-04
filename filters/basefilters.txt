@@ -393,9 +393,9 @@ dream4evertwo.info##.js-bottomFixTarget
 dream4evertwo.info##.js-scrollButtons
 
 ! Dropbox
-dropbox.com###consent-iframe
 dropbox.com##.browse-suggest
 dropbox.com##.maestro-prompt-portal
+dropbox.com,dropboxforum.com###consent-iframe
 
 ! Drugs
 drugs.com##.ddc-toast-alert
@@ -631,6 +631,9 @@ languagetool.org##.header-banner
 ! Lanzhou University
 iptv.luas.edu.cn###adv
 
+! Linkfire
+lnk.to##.lnk-c-implied-consent
+
 ! LIVESPORT24
 livesport24.net###gototop
 livesport24.net##.grecaptcha-badge
@@ -765,6 +768,7 @@ napaonline.com##div[class="CCPA nol-ui"]
 
 ! National Basketball Association
 global.nba.com###nbaGlobalFooter
+nba.com###onetrust-consent-sdk
 nba.com##div[class^="DisplayAd_genericAd_"]
 nba.com##div[class^="TuneInBanner_"]
 
@@ -922,6 +926,9 @@ scribd.com##.between_page_portal_root > div[id^="ArchivedUpsell_"]:upward(1)
 seedr.cc###subscription-menu-item
 seedr.cc##.account-upgrade
 
+! Sellthing
+sellthing.co##+js(ra, readonly, .form-control)
+
 ! SignUpGenius
 signupgenius.com##.sug-notice--privacy
 
@@ -1078,6 +1085,12 @@ troypointinsider.com##.mysticky-welcomebar-fixed-wrap
 
 ! TruePeopleSearch
 truepeoplesearch.com##div[aria-label="cookieconsent"]
+
+! TV Yan
+tvyan.com##.lian
+
+! TVB
+tvb.com##.tvb-cookies
 
 ! Twitch
 twitch.tv##.tw-callout-message:upward(.stream-chat > .chat-room > .chat-room__content > .chat-input > div[class^="Layout-sc-"])
