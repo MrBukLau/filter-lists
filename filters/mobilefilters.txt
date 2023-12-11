@@ -248,6 +248,9 @@ pandaexpress.com##app-install-native-app-banner
 ! PayPal
 paypal.com###PPAppDownloadBannerContainer
 
+! Plane Finder
+planefinder.net###in-app-banner
+
 ! Platt Electric Supply
 platt.com##.cookie[role="alert"]
 platt.com##div[class="v-application--wrap"] > a[href="https://apple.co/3KZACWo"]
@@ -328,6 +331,8 @@ reddit.com##shreddit-async-loader[bundlename="rpl_continue_chat_in_app"]
 reddit.com##shreddit-async-loader[bundlename="top_button"][paint-group="xpromo"]
 reddit.com##shreddit-comments-page-ad
 reddit.com##shreddit-experience-tree
+reddit.com##shreddit-experience-tree:remove()
+reddit.com##shreddit-overlay-display
 reddit.com##shreddit-overlay-display:remove()
 reddit.com##shreddit-post[view-context^="ListingBelow"][view-context$="Posts"]
 reddit.com##shreddit-rereddit-promo
