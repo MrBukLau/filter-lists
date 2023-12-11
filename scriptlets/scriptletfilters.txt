@@ -17,6 +17,7 @@ exe.io##+js(gup)
 fc.lc##+js(gup)
 hikarinoakari.com##+js(hnab)
 itdmusic.top##+js(gup)
+itdmusics.com##+js(gup)
 ouo.*##+js(oib)
 
 ! URL Redirectors
