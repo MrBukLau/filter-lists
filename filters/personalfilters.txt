@@ -94,6 +94,7 @@ reddit.com##faceplate-tracker[noun="hamburger_menu"][source="nav"]
 reddit.com##faceplate-tracker[noun="join"][source="subreddit_list_widget"]
 reddit.com##faceplate-tracker[noun="login"][source="nav"]
 reddit.com##faceplate-tracker[noun="overflow"][source="profile"]
+reddit.com##faceplate-tracker[noun="recap"][source="subreddit"]
 reddit.com##faceplate-tracker[noun="reply"][source="comment"]
 reddit.com##faceplate-tracker[noun="reply_comment"][source="post_detail"]
 reddit.com##faceplate-tracker[noun="share"][source="comment"]
@@ -101,6 +102,8 @@ reddit.com##faceplate-tracker[noun="sorting"][source="comment_sort"] + hr
 reddit.com##faceplate-tracker[noun="sorting"][source="comment_sort"] + hr + span
 reddit.com##faceplate-tracker[noun="sorting"][source="comment_sort"]:style(padding-left: 0.5rem !important;)
 reddit.com##faceplate-tracker[noun="user_avatar"][source="post_credit_bar"]
+reddit.com##faceplate-tracker[noun^="recap"][source="nav"]
+reddit.com##faceplate-tracker[noun^="recap"][source="nav"] + hr
 reddit.com##icon-crosspost
 reddit.com##reddit-header-overflow-menu
 reddit.com##shreddit-app > div > .main > a[href^="https://www.reddit.com/r/"][href$="/submit"]
