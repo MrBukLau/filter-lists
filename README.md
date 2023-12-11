@@ -39,8 +39,8 @@
   <a href="https://developer.mozilla.org/docs/Web/JavaScript">
     <img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=for-the-badge&logo=javascript">
   </a>
-  <a href="https://github.com/MrBukLau/filter-lists/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-181717?style=for-the-badge&logo=github">
+  <a href="https://github.com/MrBukLau/filter-lists/blob/master/LICENSE.md">
+    <img src="https://img.shields.io/badge/License-The Unlicense-181717?style=for-the-badge&logo=github">
   </a>
   <a href="https://adguard.com/kb/general/ad-filtering/create-own-filters/">
     <img src="https://img.shields.io/badge/Syntax-AdGuard-68BC71?style=for-the-badge&logo=adguard">
@@ -126,7 +126,7 @@ No further actions are necessary. After adding a filter list from this repositor
     - [General](https://reddit.com/r/uBlockOrigin/)
 
 ## License
-[MIT](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE)
+[The Unlicense](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE.md)
 
 <!-- Application Links -->
 [AdGuard App Store Link]: https://apps.apple.com/app/id1047223162
