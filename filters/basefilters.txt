@@ -11,6 +11,7 @@
 ##.js-consent-banner
 ##.outbrain
 ##.outbrain-container
+##div[aria-label="cookieconsent"]
 
 ! Network Filters
 */prod/ngo.html?lu=https%3A%2F%2F$all
@@ -21,6 +22,7 @@
 @@||thapcam.net/1.gif$image,domain=thapcam.net
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
 ||amillionads.com$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+||handyincrease.com^
 ||jsdelivr.net/*/devtools-detector
 ||jsdelivr.net/*/disable-devtool.min.js
 ||jsdelivr.net/*/izi-simply.js$script,domain=livetvq.000webhostapp.com|onlivetv.pages.dev
@@ -69,11 +71,14 @@ $removeparam=cmpid,domain=coupons.albertsons.com|coupons.safeway.com
 ||music.apple.com^$removeparam=src
 ||music.apple.com^$removeparam=uo
 ||old.reddit.com^$removeparam=rdt
+||open.spotify.com^$removeparam=dlsi
 ||open.spotify.com^$removeparam=flow_ctx
 ||open.spotify.com^$removeparam=flow_id
+||open.spotify.com^$removeparam=go
 ||open.spotify.com^$removeparam=nd
 ||open.spotify.com^$removeparam=referral
 ||open.spotify.com^$removeparam=si
+||open.spotify.com^$removeparam=sp_cid
 ||slickdeals.net^$removeparam=prop
 ||slickdeals.net^$removeparam=src
 ||walmart.com^$removeparam=/^ath/
@@ -269,6 +274,9 @@ blackfriday.com##.email-signup-sticky
 ! Blank Page
 blank.page##.campaign-alert
 
+! Boransat
+boransat.net##body > table + br + table > tbody > tr > td > center:first-child
+
 ! BuzzFeed
 buzzfeednews.com##.subbuzz-bfp--related_links
 buzzfeednews.com##div[class^="desktop-sticky-ad_desktopStickyAdWrapper__"]
@@ -439,6 +447,9 @@ fifaratings.com##div > .desktop-leaderboard-adx:upward(1)
 fifaratings.com##div > div > .inline-rectangle-adx:upward(1)
 fifaratings.com##td > .adsbygoogle:upward(1)
 fifaratings.com##td > .mobile-adx:upward(1)
+
+! FlightAware
+flightaware.com###onetrust-consent-sdk
 
 ! fliPaX
 18301.foroactivo.com##+js(acs, document.oncontextmenu)
@@ -841,6 +852,9 @@ pixlr.com##body > .modal:has(.announce > .content > #after-content)
 pixlr.com##body > .modal:has(.news-dialog)
 pixlr.com##body > a[href="/pricing/"][style^="display:flex;"]
 
+! Plane Finder
+planefinder.net###map-ad-container
+
 ! Platinsport
 platinsport.com##+js(acs, document.oncontextmenu)
 
@@ -852,9 +866,6 @@ drive.proton.me##.spotlight
 proton.me##a[data-testid="cta:upgrade-plan"]
 proton.me##div[data-testid="auto-delete:banner"]
 proton.me##div[data-testid="promotion-banner"]
-
-! ProWritingAid
-prowritingaid.com##div[aria-label="cookieconsent"]
 
 ! Quizlet
 quizlet.com##.SetPageEmbeddedAd-wrapper
@@ -899,9 +910,6 @@ right.com.cn##.focus
 ! RoForum
 roforum.net##.js-bottomFixTarget
 roforum.net##.js-scrollButtons
-
-! Roku
-roku.com##div[aria-label="cookieconsent"]
 
 ! SB Nation
 blazersedge.com##.c-footer > .c-footer__wrapper > .c-footer__section > p[style^="text-align: left;"]
@@ -1083,14 +1091,20 @@ troypointinsider.com###banner
 troypointinsider.com##.move-up
 troypointinsider.com##.mysticky-welcomebar-fixed-wrap
 
-! TruePeopleSearch
-truepeoplesearch.com##div[aria-label="cookieconsent"]
-
 ! TV Yan
 tvyan.com##.lian
 
 ! TVB
 tvb.com##.tvb-cookies
+
+! TVBS
+tvbs.com.tw##.cookie_box
+tvbs.com.tw##.gotop
+tvbs.com.tw##.policy
+tvbs.com.tw##.scrollup
+
+! TVZB
+tvzb.com###scrolltop
 
 ! Twitch
 twitch.tv##.tw-callout-message:upward(.stream-chat > .chat-room > .chat-room__content > .chat-input > div[class^="Layout-sc-"])
@@ -1112,6 +1126,9 @@ vclock.com##.am-scroll-top
 
 ! Venmo
 venmo.com##.organisms-layoutContainer-desktopWrapper
+
+! VideoHelp
+videohelp.com###thisisatest
 
 ! VKontakte
 vk.com###box_layer_bg
