@@ -1,40 +1,6 @@
 <h1 align="center">
-  MrBukLau's Filter Lists
-</h1>
-
-<h4 align="center">
   <p>
-    <b>
-      Additional filters for
-      <a href="https://adguard.com/">
-        AdGuard
-      </a>
-      and
-      <a href="https://github.com/gorhill/uBlock">
-        uBlock Origin
-      </a>
-    </b>
-  </p>
-  <p>
-    <a href="#description">
-      Description
-    </a>
-    •
-    <a href="#getting-started">
-      Getting Started
-    </a>
-    •
-    <a href="#available-filter-lists">
-      Available Filter Lists
-    </a>
-    •
-    <a href="#special-thanks">
-      Special Thanks
-    </a>
-    •
-    <a href="#license">
-      License
-    </a>
+    MrBukLau's Filter Lists
   </p>
   <p>
     <a href="https://github.com/MrBukLau/filter-lists/blob/master/LICENSE.md">
@@ -47,7 +13,7 @@
       <img src="https://img.shields.io/badge/Syntax-uBlock%20Origin-800000?style=for-the-badge&logo=ublockorigin">
     </a>
   </p>
-</h4>
+</h1>
 
 ## Description
 This repository contains filter lists that can be added to content blockers, such as [AdGuard][AdGuard Website Link] and [uBlock Origin][uBlock Origin GitHub Link]. The filters in these lists are for removing annoyances from websites.
