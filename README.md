@@ -36,9 +36,6 @@
   </a>
   <br>
   <br>
-  <a href="https://developer.mozilla.org/docs/Web/JavaScript">
-    <img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=for-the-badge&logo=javascript">
-  </a>
   <a href="https://github.com/MrBukLau/filter-lists/blob/master/LICENSE.md">
     <img src="https://img.shields.io/badge/License-The%20Unlicense-808080?style=for-the-badge&logo=unlicense">
   </a>
