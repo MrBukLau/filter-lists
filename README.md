@@ -3,48 +3,50 @@
 </h1>
 
 <div align="center">
-  <b>
-    Additional filters for
-    <a href="https://adguard.com/">
-      AdGuard
+  <p>
+    <b>
+      Additional filters for
+      <a href="https://adguard.com/">
+        AdGuard
+      </a>
+      and
+      <a href="https://github.com/gorhill/uBlock">
+        uBlock Origin
+      </a>
+    </b>
+  </p>
+  <p>
+    <a href="#description">
+      Description
     </a>
-    and
-    <a href="https://github.com/gorhill/uBlock">
-      uBlock Origin
+    •
+    <a href="#getting-started">
+      Getting Started
     </a>
-  </b>
-  <br>
-  <br>
-  <a href="#description">
-    Description
-  </a>
-  •
-  <a href="#getting-started">
-    Getting Started
-  </a>
-  •
-  <a href="#available-filter-lists">
-    Available Filter Lists
-  </a>
-  •
-  <a href="#special-thanks">
-    Special Thanks
-  </a>
-  •
-  <a href="#license">
-    License
-  </a>
-  <br>
-  <br>
-  <a href="https://github.com/MrBukLau/filter-lists/blob/master/LICENSE.md">
-    <img src="https://img.shields.io/badge/License-The%20Unlicense-808080?style=for-the-badge&logo=unlicense">
-  </a>
-  <a href="https://adguard.com/kb/general/ad-filtering/create-own-filters/">
-    <img src="https://img.shields.io/badge/Syntax-AdGuard-68BC71?style=for-the-badge&logo=adguard">
-  </a>
-  <a href="https://github.com/gorhill/uBlock/wiki/Static-filter-syntax">
-    <img src="https://img.shields.io/badge/Syntax-uBlock%20Origin-800000?style=for-the-badge&logo=ublockorigin">
-  </a>
+    •
+    <a href="#available-filter-lists">
+      Available Filter Lists
+    </a>
+    •
+    <a href="#special-thanks">
+      Special Thanks
+    </a>
+    •
+    <a href="#license">
+      License
+    </a>
+  </p>
+  <p>
+    <a href="https://github.com/MrBukLau/filter-lists/blob/master/LICENSE.md">
+      <img src="https://img.shields.io/badge/License-The%20Unlicense-808080?style=for-the-badge&logo=unlicense">
+    </a>
+    <a href="https://adguard.com/kb/general/ad-filtering/create-own-filters/">
+      <img src="https://img.shields.io/badge/Syntax-AdGuard-68BC71?style=for-the-badge&logo=adguard">
+    </a>
+    <a href="https://github.com/gorhill/uBlock/wiki/Static-filter-syntax">
+      <img src="https://img.shields.io/badge/Syntax-uBlock%20Origin-800000?style=for-the-badge&logo=ublockorigin">
+    </a>
+  </p>
 </div>
 
 ## Description
