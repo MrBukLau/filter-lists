@@ -40,13 +40,13 @@
     <img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=for-the-badge&logo=javascript">
   </a>
   <a href="https://github.com/MrBukLau/filter-lists/blob/master/LICENSE.md">
-    <img src="https://img.shields.io/badge/License-The Unlicense-181717?style=for-the-badge&logo=github">
+    <img src="https://img.shields.io/badge/License-The%20Unlicense-808080?style=for-the-badge&logo=unlicense">
   </a>
   <a href="https://adguard.com/kb/general/ad-filtering/create-own-filters/">
     <img src="https://img.shields.io/badge/Syntax-AdGuard-68BC71?style=for-the-badge&logo=adguard">
   </a>
   <a href="https://github.com/gorhill/uBlock/wiki/Static-filter-syntax">
-    <img src="https://img.shields.io/badge/Syntax-uBlock%20Origin-800000?style=for-the-badge&logo=ublock-origin">
+    <img src="https://img.shields.io/badge/Syntax-uBlock%20Origin-800000?style=for-the-badge&logo=ublockorigin">
   </a>
 </div>
 
