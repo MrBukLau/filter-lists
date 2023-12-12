@@ -2,7 +2,7 @@
   MrBukLau's Filter Lists
 </h1>
 
-<div align="center">
+<h4 align="center">
   <p>
     <b>
       Additional filters for
@@ -47,7 +47,7 @@
       <img src="https://img.shields.io/badge/Syntax-uBlock%20Origin-800000?style=for-the-badge&logo=ublockorigin">
     </a>
   </p>
-</div>
+</h4>
 
 ## Description
 This repository contains filter lists that can be added to content blockers, such as [AdGuard][AdGuard Website Link] and [uBlock Origin][uBlock Origin GitHub Link]. The filters in these lists are for removing annoyances from websites.
