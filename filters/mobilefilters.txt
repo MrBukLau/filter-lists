@@ -448,6 +448,10 @@ webmd.com##div[id*="mnet-ia-instream-"]
 ! Western Hockey League
 whl.ca###app-banner--holder
 
+! Wikipedia
+wikipedia.org##+js(rc, frb-overlay-open, body, stay)
+wikipedia.org##+js(rc, frb-overlay-open, html, stay)
+
 ! Xoom
 xoom.com###ccpaCookieBanner
 
