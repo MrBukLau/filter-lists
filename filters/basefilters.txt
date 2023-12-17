@@ -561,6 +561,11 @@ histar.tv##div[class^="live_trySeeBox__"]
 histar.tv##div[class^="play-error-pc_error__"]
 histar.tv##div[class^="play-error-pc_error__"]:remove()
 
+! HKDVB
+hkdvb.com##a[href="https://t.me/hkanime"]
+hkdvb.com##a[href="https://t.me/hkanime"] + br
+hkdvb.com##a[href="https://t.me/hkanime"] + br + br
+
 ! Icelz
 icelz.newsrade.com##+js(acs, ConsoleBan)
 icelz.newsrade.com##+js(acs, https://bit.ly/3R6YyKP)
@@ -952,6 +957,12 @@ katu.com##div[id^="js-News-In-Photos-"]
 katu.com##div[id^="js-Taboola-Container-"]
 katu.com##li[id^="nativeAdContainer_"]
 
+! Skiff
+skiff.com##body > div > main > div > div > div:first-child:has-text(Download mobile app)
+
+! Sky Sports
+skysports.com##div[id^="sp_message_container_"]
+
 ! Slickdeals
 coupons.slickdeals.net##.bp-p-extensionPromoBanner
 coupons.slickdeals.net##.bp-p-newsletterRegistrationForm
@@ -1145,6 +1156,9 @@ walmart.com##div[data-testid="search-video-in-grid"]:has(span[data-testid="Unfil
 walmart.com##div[data-testid="skyline-ad"]
 walmart.com##div[id*="SponsoredProductCarousel-bottom"]:upward(1)
 walmart.com##section > .flex > .w-100 > .w-100 > div[data-testid="search-video-in-grid"]:has(span[data-testid="UnfilledVideoAd"]):upward(2)
+
+! Waste Management
+wm.com##.PrivacyAlert
 
 ! WebMD
 webmd.com###hp-ad-container
