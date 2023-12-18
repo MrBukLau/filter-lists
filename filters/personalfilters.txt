@@ -11,11 +11,6 @@ coupons.albertsons.com,coupons.safeway.com##body:style(background-color: white !
 coupons.albertsons.com,coupons.safeway.com##div[id^="nuance-chat-anchored-"]
 coupons.albertsons.com,coupons.safeway.com##weekly-ad > .ad-details > .title:style(color: gray !important; margin-left: 5px !important;)
 coupons.albertsons.com,coupons.safeway.com##weekly-ad > .details > .storeAddress:style(color: gray !important;)
-gist.github.com##.gisthead
-gist.github.com##.Header
-gist.github.com##.readme:style(background-color: #161b22 !important;)
-gist.github.com##body:style(background-color: #1e2327 !important;)
-gist.github.com##html:style(background-color: #1e2327 !important;)
 github.com##a[aria-label="You must be signed in to change notification settings"]
 github.com##a[aria-label="You must be signed in to star a repository"]
 github.com##button[aria-label="You must be signed in to add this repository to a list"]
@@ -34,7 +29,6 @@ m.youtube.com##button[aria-label="Save to playlist"]
 m.youtube.com##button[aria-label="Share"]
 m.youtube.com##button[aria-label="Subscribe"]
 m.youtube.com##ytm-comments-header-renderer
-m3u4u.com##.mat-nav-list > .mat-list-item:has-text(/Discord|Donate|EPGs|Support/)
 myanimelist.net###bottom-menu
 myanimelist.net##footer:style(padding-bottom: 0px !important;)
 myanimelist.net##head > meta[name="theme-color"][content="#182a53"]:remove()
@@ -146,15 +140,11 @@ blazersedge.com##section[aria-label="Post a Comment"]
 dropbox.com##div[class^="_current-form_"] > div[class^="_susi-form-container_"] > div[class^="third-party-container"]
 dropbox.com##div[class^="_current-form_"] > div[class^="_susi-form-container_"] > div[class^="third-party-container"] + div[class^="_hr-label_"]
 dropbox.com##section[class="browse-suggest-v5 home-access-section home-access-section-suggest-nonempty"]
-gist.github.com##.discussion-timeline-actions:has-text(Sign up for free):style(margin-bottom: 16px !important;)
-gist.github.com##.Popover
-gist.github.com##div[data-quote-markdown=".js-comment-body"]:not(:has(div[class="TimelineItem d-block js-comment-container"])):has-text(Sign up for free)
 github.com##.color-fg-muted:has-text(Seeing something unexpected?):has(a[href="https://docs.github.com/categories/setting-up-and-managing-your-github-profile"])
 github.com##.file-navigation-options
 github.com##.footer
 github.com##.js-file-commit-form:style(padding-bottom: 1rem !important;)
 github.com##.js-yearly-contributions
-github.com##.pagehead-actions:has(a[aria-label="Edit this Gist"]) > li + li
 github.com##.pagehead-actions:not(:has(a[aria-label="Edit this Gist"]))
 github.com##.text-center:has(.color-fg-default:has-text(ProTip!))
 github.com##img[class="achievement-badge-sidebar"]:upward(3)
@@ -164,9 +154,6 @@ github.com##textarea[name="description"]
 google.com##div[aria-label="Search by voice"][role="button"]
 google.com##div[aria-label="Share"][role="button"]
 livesportsontv.com##.favorites-filter-container
-m3u4u.com##a[title="Our Discord Server"]
-m3u4u.com##a[title="Our Wikipedia"]
-m3u4u.com##button[title="Donate"]
 open.spotify.com###Desktop_PanelContainer_Id[aria-label="Now Playing View"]
 open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(/About recommendations|Add to playlist|Add to profile|Add to queue|Create folder|Create playlist|Go to artist radio|Go to playlist radio|Go to song radio|Open in Desktop app|Report|Save to Your Episodes|Save to your Liked Songs/)
 open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(/Follow|Following/)
