@@ -20,9 +20,9 @@
 !---------- Specific Filters ----------!
 !--------------------------------------!
 ! 88Kanqiu
-bszb002.com,kanqiu00.com##.feedback
-bszb002.com,kanqiu00.com##.home_godown
-bszb002.com,kanqiu00.com##.zhuboinfo_box
+bszb002.com,kqzb123.com,kanqiu00.com##.feedback
+bszb002.com,kqzb123.com,kanqiu00.com##.home_godown
+bszb002.com,kqzb123.com,kanqiu00.com##.zhuboinfo_box
 
 ! 9GAG
 9gag.com##.download-app-container
