@@ -101,8 +101,8 @@ $removeparam=cmpid,domain=coupons.albertsons.com|coupons.safeway.com
 ! 88Kanqiu
 222live.*,88kanqiu.*,88zhibo.*,888kanqiu.*,gogozb.*,niubizhibo.*,popozhibo.*##.sss-container[data-uuid]
 88kq.org###app > .main > .list > .listli:has-text(/下载APP|知球体育App/)
-bszb002.com,kanqiu00.com##+js(acs, document.oncontextmenu)
-bszb002.com,kanqiu00.com##.downPanel
+bszb002.com,kqzb123.com,kanqiu00.com##+js(acs, document.oncontextmenu)
+bszb002.com,kqzb123.com,kanqiu00.com##.downPanel
 
 ! 90Phut
 4shares.live##.jw-logo
@@ -1131,6 +1131,9 @@ uhdmovies.*##.gridlove-prev-next-nav
 
 ! UPCitemdb
 upcitemdb.com##.adsense-ad
+
+! Upload App
+upload.app###policy-info
 
 ! vClock
 vclock.com##.am-scroll-top
