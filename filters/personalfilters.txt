@@ -11,6 +11,7 @@ coupons.albertsons.com,coupons.safeway.com##body:style(background-color: white !
 coupons.albertsons.com,coupons.safeway.com##div[id^="nuance-chat-anchored-"]
 coupons.albertsons.com,coupons.safeway.com##weekly-ad > .ad-details > .title:style(color: gray !important; margin-left: 5px !important;)
 coupons.albertsons.com,coupons.safeway.com##weekly-ad > .details > .storeAddress:style(color: gray !important;)
+gist.github.com###gist-star-button-no-count:upward(1)
 github.com##a[aria-label="You must be signed in to change notification settings"]
 github.com##a[aria-label="You must be signed in to star a repository"]
 github.com##button[aria-label="You must be signed in to add this repository to a list"]
