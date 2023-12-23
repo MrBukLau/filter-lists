@@ -180,6 +180,7 @@ reddit.com##form[class="login-form login-form-side"]
 reddit.com##span[class="fancy-toggle-button subscribe-button toggle"]
 rentry.*##.container:style(padding-bottom: 1rem !important;)
 rentry.*##div[class="text-center w-100 mb-3"]
+rentry.*##div[title="High Contrast Mode"]
 seedr.cc###files-menu-item
 seedr.cc###introduction-menu-item
 seedr.cc###settings-menu-item
