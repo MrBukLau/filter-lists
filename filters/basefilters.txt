@@ -148,6 +148,7 @@ oregonlive.com###messageStripContainer
 oregonlive.com##.advToprail__right-corner--subscribe
 oregonlive.com##.alert-bar--news-promo
 oregonlive.com##.main-wrapper--article > .article__header > .articleLabel:style(padding-top: 24px !important;)
+oregonlive.com##.main-wrapper--article > .main article__story > .article > .article__story > .entry-content > section[class^="Stories-By-Section-Tag-module_wrapper__"]
 oregonlive.com##.page-type__article > .main-wrapper--article > .main > .article > ul > li > amp-social-share:upward(2)
 oregonlive.com##.page-type__article > div > .main-wrapper--article > .article__story > .article > .article__story > .entry-content > .rawhtml:has(h-cta[data-hub-id][data-session][status="rendered"])
 oregonlive.com##.page-type__article > div > .main-wrapper--article:style(grid-template-columns: none !important;)
@@ -353,6 +354,7 @@ cnn.com##.Article__promo
 cnn.com##.cn-zoneAdContainer:upward(.zn > .zn__background--content-relative > .zn__containers > .column):remove()
 cnn.com##.factbox_inline-small:has-text(/weekly newsletter/i)
 cnn.com##.lt-widget-iframe
+cnn.com##.openweb-comment-counter__promo--container
 cnn.com##.OUTBRAIN:upward(.zn-homepage4-zone-2)
 cnn.com##.OUTBRAIN:upward(.zn-homepage4-zone-3)
 cnn.com##.product-zone
