@@ -405,6 +405,7 @@ dream4evertwo.info##.js-scrollButtons
 ! Dropbox
 dropbox.com##.browse-suggest
 dropbox.com##.maestro-prompt-portal
+dropbox.com##.prompt-header-link--preview
 dropbox.com,dropboxforum.com###consent-iframe
 
 ! Drugs
@@ -910,6 +911,9 @@ redditsport.live##tbody[id^="stats"]:upward(1)
 
 ! Reincubate
 reincubate.com###cookieBar
+
+! Remove BG
+remove.bg##div[data-vue-file="./cookies.vue"]
 
 ! Right
 right.com.cn##.focus
