@@ -31,6 +31,8 @@
 ||kgw.com/ajax/content/cscroll
 ||maxtv.one/wp-content/plugins/wpshield-content-protector
 ||mhdtvworld.me/wp-content/plugins/*.js?ver
+||soggyzoo.com^
+||tv.vnoo.net/*/devtools-detector.js
 
 ! URL Parameter Filters
 $removeparam=/^utm_/,domain=music.apple.com|reddit.com|spotify.com
@@ -371,6 +373,11 @@ cnn.com##h2[data-analytics="Paid Partner Content_list-xs_"]:upward(.zn > .zn__ba
 ! Costco
 costco.com###email-popup-title
 
+! Crunchyroll
+crunchyroll.com##.erc-premium-upsell-banner
+crunchyroll.com##.erc-upsell-popup
+crunchyroll.com##div[aria-label="Cookie notice banner"]
+
 ! DeepL
 deepl.com###dl_cookieBanner
 deepl.com##div[data-testid="chrome-extension-toast"]
@@ -443,6 +450,9 @@ fandom.com##div[class^="render-wiki-recommendations"]
 
 ! FDownloader
 fdownloader.net##.ads-slot
+
+! FedEx
+fedex.com##trk-shared-shop-runner-app-banner
 
 ! FIFA Ratings
 fifaratings.com##body > .wrapper:style(padding-bottom: 0px !important;)
@@ -649,6 +659,13 @@ languagetool.org##.header-banner
 
 ! Lanzhou University
 iptv.luas.edu.cn###adv
+
+! Leak
+leak.sx##.alert
+leak.sx##body > main > div:first-child:has(script[type="text/javascript"])
+paste.bin.sx##.movilno
+paste.bin.sx##div[id^="tw_float_ads_main_"]
+paste.bin.sx##footer:style(position: static !important;)
 
 ! Linkfire
 lnk.to##.lnk-c-implied-consent
@@ -1223,6 +1240,7 @@ youtube.com##.ytp-chrome-top-buttons
 youtube.com##.ytp-endscreen-content
 youtube.com##yt-live-chat-viewer-engagement-message-renderer
 youtube.com##yt-mealbar-promo-renderer
+youtube.com##ytd-popup-container:has-text(Join this channel and unlock members-only perks)
 
 ! ZARA
 zara.com##.policy-popup__overlay
