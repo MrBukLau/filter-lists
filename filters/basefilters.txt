@@ -15,6 +15,7 @@
 
 ! Network Filters
 */prod/ngo.html?lu=https%3A%2F%2F$all
+*ModalEngage$script,domain=oregonlive.com
 *pl=https%3A%2F%2Ficelz.net%2F$all
 *pl=https%3A%2F%2Ficelz.newsrade.com%2F$all
 @@||agfinancia.info^$generichide
@@ -22,7 +23,6 @@
 @@||thapcam.net/1.gif$image,domain=thapcam.net
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
 ||amillionads.com$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
-||handyincrease.com^
 ||jsdelivr.net/*/devtools-detector
 ||jsdelivr.net/*/disable-devtool.min.js
 ||jsdelivr.net/*/izi-simply.js$script,domain=livetvq.000webhostapp.com|onlivetv.pages.dev
@@ -31,7 +31,6 @@
 ||kgw.com/ajax/content/cscroll
 ||maxtv.one/wp-content/plugins/wpshield-content-protector
 ||mhdtvworld.me/wp-content/plugins/*.js?ver
-||soggyzoo.com^
 ||tv.vnoo.net/*/devtools-detector.js
 
 ! URL Parameter Filters
@@ -192,11 +191,6 @@ animepahe.*##.alert
 
 ! AnimeSchedule
 animeschedule.net###header-temporary-banner
-
-! AniPlaylist
-aniplaylist.com##.adswrapper:upward(1)
-aniplaylist.com##.qc-cmp2-container
-aniplaylist.com##a[href="/my-aniplaylist"][title="Create your own playlist"]:upward(2)
 
 ! AniWave
 aniwave.*###w-media > #w-player > #w-servers > .tip
@@ -421,6 +415,9 @@ drugs.com##.ddc-toast-alert
 ! DuckDuckGo
 duckduckgo.com##.footer
 duckduckgo.com##.js-feedback-btn-wrap
+
+! Ecobee
+ecobee.com###cookie-consent
 
 ! ESPN
 espn.com##.article > .container > .article-body > p > strong > a[href^="https://promo.espn.com/"]:upward(2)
