@@ -115,6 +115,7 @@ fandom.com##h2:has-text(Fandom Trivia)
 
 ! FedEx
 fedex.com##fedex-smart-banner
+fedex.com##trk-shared-smart-app-banner
 
 ! G/O Media
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###splashy-ad-container-top
