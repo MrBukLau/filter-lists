@@ -372,6 +372,9 @@ crunchyroll.com##.erc-premium-upsell-banner
 crunchyroll.com##.erc-upsell-popup
 crunchyroll.com##div[aria-label="Cookie notice banner"]
 
+! DAZN
+dazn.com##div[data-test-id="cookie-disclaimer-wrapper"]
+
 ! DeepL
 deepl.com###dl_cookieBanner
 deepl.com##div[data-testid="chrome-extension-toast"]
@@ -807,6 +810,10 @@ nba.com##div[class^="TuneInBanner_"]
 
 ! National Collegiate Athletic Association
 ncaa.com##.footer-ad
+
+! National Hockey League
+nhl.com###onetrust-consent-sdk
+nhl.com##.nhl-l-section-bg__adv
 
 ! National Women's Soccer League
 nwslsoccer.com##.accept-cookies-snackbar
