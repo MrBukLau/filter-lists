@@ -148,16 +148,6 @@
     });
 })();
 
-/// ubo-filter-lists-updater.js
-/// alias uboflu.js
-(function() {
-    if (window.location.href.includes("update-lists.html")) {
-        setTimeout(function() {
-            document.querySelector("a[id='update-lists']").click();
-        }, 3000);
-    }
-})();
-
 /// youtube-shorts-redirector.js
 /// alias ysr.js
 (function() {
