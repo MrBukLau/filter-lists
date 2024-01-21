@@ -743,6 +743,9 @@ mojosakun.blogspot.com##+js(acs, document.oncontextmenu)
 mojosakun.blogspot.com##.post-nav
 mojosakun.blogspot.com##.post-share
 
+! MrGamingStreams
+mrgamingstreams.com##+js(ra, target, a[href], stay)
+
 ! Music Clutter
 lifecrafterscorner.site##+js(nano-sib)
 musiclutter.xyz###check-also-box
@@ -1248,6 +1251,9 @@ youtube.com##.ytp-endscreen-content
 youtube.com##yt-live-chat-viewer-engagement-message-renderer
 youtube.com##yt-mealbar-promo-renderer
 youtube.com##ytd-popup-container:has-text(Join this channel and unlock members-only perks)
+
+! Zapi TV
+zapitv.com###moove_gdpr_cookie_info_bar
 
 ! ZARA
 zara.com##.policy-popup__overlay
