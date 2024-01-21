@@ -97,19 +97,6 @@
     }
 })();
 
-/// github-gist-target-attribute-setter.js
-/// alias ggtas.js
-(function() {
-    window.addEventListener("load", function() {
-        document.querySelectorAll("article[itemprop='text'] > p[dir='auto'] > a[href^='http']").forEach(function(a) {
-            a.setAttribute("target", "_blank");
-        });
-        document.querySelectorAll("article[itemprop='text'] > ul[dir='auto'] > li > a[href^='http']").forEach(function(b) {
-            b.setAttribute("target", "_blank");
-        });
-    });
-})();
-
 /// hikarinoakariost-bypasser.js
 /// alias hnab.js
 (function() {
@@ -159,6 +146,16 @@
             a.setAttribute("target", "_blank");
         });
     });
+})();
+
+/// ubo-filter-lists-updater.js
+/// alias uboflu.js
+(function() {
+    if (window.location.href.includes("/ublockorigin.github.io/") && window.location.href.includes("update-lists.html")) {
+        setTimeout(function() {
+            document.querySelector("a[id='update-lists']").click();
+        }, 2000);
+    }
 })();
 
 /// youtube-shorts-redirector.js
