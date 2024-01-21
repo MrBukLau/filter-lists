@@ -373,7 +373,7 @@ crunchyroll.com##.erc-upsell-popup
 crunchyroll.com##div[aria-label="Cookie notice banner"]
 
 ! DAZN
-dazn.com##div[data-test-id="cookie-disclaimer-wrapper"]
+dazn.com##div[class^="cookie-disclaimer"]
 
 ! DeepL
 deepl.com###dl_cookieBanner
@@ -723,6 +723,9 @@ mayoclinic.org##div[id^="redpoint_emailform_"]
 
 ! Mega Deportes TV
 megadeportestv.online##+js(acs, document.oncontextmenu)
+
+! MethStreams
+methstreams.com##.sharethis-sticky-share-buttons
 
 ! MHDTVWORLD
 mhdtvworld.*##.sbox
