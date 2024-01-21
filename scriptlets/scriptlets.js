@@ -151,10 +151,10 @@
 /// ubo-filter-lists-updater.js
 /// alias uboflu.js
 (function() {
-    if (window.location.href.includes("/ublockorigin.github.io/") && window.location.href.includes("update-lists.html")) {
+    if (window.location.href.includes("update-lists.html")) {
         setTimeout(function() {
             document.querySelector("a[id='update-lists']").click();
-        }, 2000);
+        }, 3000);
     }
 })();
 
