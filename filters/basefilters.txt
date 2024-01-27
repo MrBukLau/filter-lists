@@ -24,6 +24,7 @@
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
 ||amillionads.com$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
 ||jsdelivr.net/*/devtools-detector
+||jsdelivr.net/*/disable-devtool
 ||jsdelivr.net/*/disable-devtool.min.js
 ||jsdelivr.net/*/izi-simply.js$script,domain=livetvq.000webhostapp.com|onlivetv.pages.dev
 ||jsdelivr.net/*/sconsole-ban.min.js
@@ -676,6 +677,7 @@ livesport24.net##.grecaptcha-badge
 livesport24.net##img[alt="Betting on Soccer"]
 
 ! LiveSportsOnTV
+livesportsontv.com##.back-to-top-container
 livesportsontv.com##.bottom-sticky-ad
 livesportsontv.com##.calendar-and-favorite-btn + .main-title
 livesportsontv.com##.event__odds_container_v
