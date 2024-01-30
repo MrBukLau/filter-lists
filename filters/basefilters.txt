@@ -181,6 +181,9 @@ coupons.albertsons.com,coupons.safeway.com##flipp-router > flipp-publication-pag
 amazon.com###a-page > #dp > #dp-container > #ppd > #rightCol > #primeDPUpsellContainer
 amazon.com##.zg-more-list-types-container
 
+! Android
+android.com##.cdk-overlay-container
+
 ! AniDB
 anidb.net##.hint
 
@@ -900,7 +903,9 @@ playervipmaster.com##.fa-twitter
 
 ! Proton
 drive.proton.me##.spotlight
+proton.me##.sidebar > .app-infos > a[href*="upgrade"]
 proton.me##a[data-testid="cta:upgrade-plan"]
+proton.me##a[title="Go to subscription plans"]
 proton.me##div[data-testid="auto-delete:banner"]
 proton.me##div[data-testid="promotion-banner"]
 
@@ -951,6 +956,9 @@ right.com.cn##.focus
 roforum.net##.js-bottomFixTarget
 roforum.net##.js-scrollButtons
 
+! Samsung
+samsung.com##.cookie-bar
+
 ! SB Nation
 blazersedge.com##.c-footer > .c-footer__wrapper > .c-footer__section > p[style^="text-align: left;"]
 blazersedge.com##.c-group-disclosure-ecomm
@@ -994,6 +1002,7 @@ katu.com##li[id^="nativeAdContainer_"]
 
 ! Skiff
 skiff.com##body > div > main > div > div > div:first-child:has-text(Download mobile app)
+skiff.com##div[data-test="Upgrade"]
 
 ! Sky Sports
 skysports.com##div[id^="sp_message_container_"]
