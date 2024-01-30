@@ -38,7 +38,6 @@ redd.it##reddit-header-overflow-menu
 reddit.com###expand-user-drawer-button
 reddit.com###profile-actions-menu
 reddit.com###reddit-trending-searches-partial-container
-reddit.com###wrapper > #content + #footer
 reddit.com##._1e9mcovn4mynubqsvdt1gc
 reddit.com##._2mbxhmh6lyncpagzpjzyfn:style(background: none !important;)
 reddit.com##._2rszc84l136gwqrkwh6iam:style(padding: 0rem !important;)
@@ -78,10 +77,10 @@ reddit.com##div[slot="commentMeta"]:style(margin-bottom: 0.3rem !important;)
 reddit.com##faceplate-batch[target="#comment-tree"]:not(:has-text(Be the first to comment):has-text(Nobody's responded to this post yet.):has-text(Add your thoughts and get the conversation going.)):style(border-top: 0.1rem solid var(--color-neutral-border-weak) !important;)
 reddit.com##faceplate-dropdown-menu[position="bottom-start"][slot="overflow"]
 reddit.com##faceplate-partial[class="mx-md xs:mx-0"][src^="/svc/shreddit/more-comments/"]:style(padding-top: 0.8rem !important; padding-bottom: 1rem !important;)
-reddit.com##faceplate-tracker[noun="browse"][source="blocked_community_page"]
+reddit.com##faceplate-tracker[noun="browse"][slot="primaryButton"][source="blocked_community_page"]
 reddit.com##faceplate-tracker[noun="button"][source="shreddit_comment_count_button"]
 reddit.com##faceplate-tracker[noun="chat"][source="profile"]
-reddit.com##faceplate-tracker[noun="close"][source="blocked_community_page"]
+reddit.com##faceplate-tracker[noun="close"][slot="closeButton"][source="blocked_community_page"]
 reddit.com##faceplate-tracker[noun="create_post"][source="post_composer"]
 reddit.com##faceplate-tracker[noun="follow"][source="profile"]
 reddit.com##faceplate-tracker[noun="hamburger_menu"][source="nav"]
@@ -169,6 +168,9 @@ open.spotify.com##button[data-testid="create-playlist-button"]
 open.spotify.com##div[data-testid="action-bar-row"] > button[data-encore-id="buttonSecondary"]
 open.spotify.com##div[data-testid="LayoutResizer__resize-bar"]
 open.spotify.com##section[aria-label="Top podcasts"][data-testid="component-shelf"]
+proton.me##.dropdown-content > ul > .dropdown-item > div > a[data-testid="userdropdown:button:switch-account"]:upward(2)
+proton.me##.dropdown-content > ul > .dropdown-item > div > button[data-testid="userdropdown:button:settings"]:upward(2)
+proton.me##.dropdown-content > ul > .dropdown-item:last-child
 redd.it##post-bottom-bar
 reddit.com###header-bottom-right
 reddit.com###sr-header-area
@@ -187,4 +189,5 @@ seedr.cc###settings-menu-item
 seedr.cc###walkthrough-menu-item
 seedr.cc###wishlist-menu-item
 seedr.cc##.menu-separator
+skiff.com##div[data-test="add-account"]
 youtube.com###voice-search-button
