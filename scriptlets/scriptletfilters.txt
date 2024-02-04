@@ -18,6 +18,7 @@ hikarinoakari.com##+js(hnab)
 itdmusic.top##+js(gup)
 itdmusics.com##+js(gup)
 ouo.*##+js(oib)
+roderurl.info##+js(gup)
 
 ! URL Redirectors
 amazon.com##+js(auc)
