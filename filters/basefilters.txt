@@ -32,6 +32,7 @@
 ||kgw.com/ajax/content/cscroll
 ||maxtv.one/wp-content/plugins/wpshield-content-protector
 ||mhdsportstv.com/wp-content/uploads/*.js?ver
+||mhdtvsports.me/wp-content/uploads/*.js?ver
 ||mhdtvworld.me/wp-content/plugins/*.js?ver
 ||tv.vnoo.net/*/devtools-detector.js
 
@@ -438,6 +439,7 @@ espn.com##.Scoreboard:style(max-width: none !important;)
 espn.com##.ScoreboardPage > .PageLayout__RightAside:remove()
 espn.com##.scroll-locked:style(overflow: auto !important;)
 espn.com##.SFBUserEducation
+espn.com##.vjs-logolink:style(min-width: auto !important; width: auto !important;)
 espn.com##article[class="sub-module editorial"]:has-text(Latest Soccer Videos):has(ul[data-behavior="video_playlist"]):remove()
 espn.com##aside[data-behavior="article_related"]
 espn.com##section[data-behavior="follow_card_carousel"]
@@ -717,6 +719,7 @@ atlutd.com,austinfc.com,cfmontreal.com,charlottefootballclub.com,chicagofirefc.c
 mlssoccer.com##.mls-c-ledeblock__overlap:style(padding: 24px 0 0 !important;)
 mlssoccer.com##div[class="d3-l-grid--outer d3-l-section-row -main-section"]:style(margin-top: 0px !important;)
 mlssoccer.com##section[data-block-type="alert"]
+timbers.com###podium-website-widget
 
 ! Mangattack
 mangattack.com##.ADs-BG
@@ -754,6 +757,7 @@ mojosakun.blogspot.com##.post-share
 
 ! MrGamingStreams
 mrgamingstreams.com##+js(ra, target, a[href], stay)
+mrgamingstreams.com##header > .HeaderLeft > iframe[height="1px"][width="1px"]
 
 ! Music Clutter
 lifecrafterscorner.site##+js(nano-sib)
@@ -1149,6 +1153,11 @@ troypoint.com##img[class^="sgpb-background-image-"]
 troypointinsider.com###banner
 troypointinsider.com##.move-up
 troypointinsider.com##.mysticky-welcomebar-fixed-wrap
+
+! Tuta
+tuta.com##body > #root > #login-view > .flex-center:has-text(Tutanota is now Tuta)
+tuta.com##button[title="Premium"]
+tuta.com##button[title="Show help"]
 
 ! TV Yan
 tvyan.com##.lian
