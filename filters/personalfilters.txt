@@ -194,5 +194,4 @@ seedr.cc###settings-menu-item
 seedr.cc###walkthrough-menu-item
 seedr.cc###wishlist-menu-item
 seedr.cc##.menu-separator
-skiff.com##div[data-test="add-account"]
 youtube.com###voice-search-button
