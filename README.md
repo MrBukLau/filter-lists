@@ -78,16 +78,12 @@ No further actions are necessary. After adding a filter list from this repositor
 ### For Providing Valuable Information That Enabled Me to Create Some of These Filters
 - **AdguardTeam on GitHub**
     - [Accelerated Mobile Pages](https://github.com/AdguardTeam/DisableAMP)
-- **avatar_adg on Reddit**
-    - [Social](https://reddit.com/r/Adguard/comments/7o0ly5/comment/ds6sdg8/)
 - **DandelionSprout on GitHub**
     - [URL Parameters](https://github.com/DandelionSprout/adfilt)
 - **Maheer Ali on Stack Overflow**
     - [Smart App Banners](https://stackoverflow.com/questions/55890434/how-can-i-to-remove-meta-tag-using-javascript#comment98437935_55890463)
 - **StephenP on Greasy Fork**
     - [Social](https://greasyfork.org/en/scripts/395497)
-- **uBlock Origin Community on Reddit**
-    - [General](https://reddit.com/r/uBlockOrigin/)
 
 ## License
 [The Unlicense](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE.md)
