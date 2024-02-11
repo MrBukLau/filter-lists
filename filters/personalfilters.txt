@@ -15,9 +15,6 @@ github.com##a[aria-label="You must be signed in to change notification settings"
 github.com##a[aria-label="You must be signed in to star a repository"]
 github.com##button[aria-label="You must be signed in to add this repository to a list"]
 google.com##button[jsaction="cOuCgd;rcuQ6b:npT2md"][jscontroller="pXHXJd"][jsname="Q7Ulpb"]
-imgur.io##.PostComments-addComment
-imgur.io##.ShareButtons-shareContainer
-imgur.io##button[class="PostButtons-button favorite"]
 m.youtube.com##.channel-subscribe-button
 m.youtube.com##.mobile-topbar-header-sign-in-button
 m.youtube.com##.mobile-topbar-header-voice-search-button
