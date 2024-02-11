@@ -1,7 +1,7 @@
 ! Title: MrBukLau's Scriptlet Filters
 ! Description: This filter list is for using MrBukLau's Scriptlets in uBlock Origin.
 ! Homepage: https://github.com/MrBukLau/filter-lists
-! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
+! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE.md
 
 ! Attribute Setters
 rentry.*##+js(rtas)
