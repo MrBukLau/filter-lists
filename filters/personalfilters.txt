@@ -1,7 +1,7 @@
 ! Title: MrBukLau's Personal Filters
 ! Description: This filter list is for removing designs and features on various websites that I consider to be useless but could be useful to other people, meaning that these filters are only beneficial to me.
 ! Homepage: https://github.com/MrBukLau/filter-lists
-! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE
+! License: https://github.com/MrBukLau/filter-lists/blob/master/LICENSE.md
 
 ! iOS Filters
 !#if adguard_app_ios
