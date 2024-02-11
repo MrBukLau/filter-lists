@@ -82,8 +82,6 @@ No further actions are necessary. After adding a filter list from this repositor
     - [URL Parameters](https://github.com/DandelionSprout/adfilt)
 - **Maheer Ali on Stack Overflow**
     - [Smart App Banners](https://stackoverflow.com/questions/55890434/how-can-i-to-remove-meta-tag-using-javascript#comment98437935_55890463)
-- **StephenP on Greasy Fork**
-    - [Social](https://greasyfork.org/en/scripts/395497)
 
 ## License
 [The Unlicense](https://github.com/MrBukLau/filter-lists/blob/master/LICENSE.md)
