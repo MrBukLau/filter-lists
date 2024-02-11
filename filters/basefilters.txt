@@ -1008,10 +1008,6 @@ katu.com##div[id^="js-News-In-Photos-"]
 katu.com##div[id^="js-Taboola-Container-"]
 katu.com##li[id^="nativeAdContainer_"]
 
-! Skiff
-skiff.com##body > div > main > div > div > div:first-child:has-text(Download mobile app)
-skiff.com##div[data-test="Upgrade"]
-
 ! Sky Sports
 skysports.com##div[id^="sp_message_container_"]
 
