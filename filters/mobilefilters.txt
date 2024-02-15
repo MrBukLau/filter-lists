@@ -121,6 +121,12 @@ fedex.com##trk-shared-smart-app-banner
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###splashy-ad-container-top
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_ad-sticky-footer:upward(.js_sticky-footer)
 
+! GasBuddy
+gasbuddy.com##+js(rc, smartbanner-margin-top, html, stay)
+gasbuddy.com##+js(rc, smartbanner-show, html, stay)
+gasbuddy.com##.smartbanner
+gasbuddy.com##button[class*="__viewMapButton__"]
+
 ! Genius
 genius.com##div[class^="AppleMusicPlayer__PositioningContainer"]
 genius.com##div[class^="InreadAdmobile__Container"]
