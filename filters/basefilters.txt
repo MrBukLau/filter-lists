@@ -8,6 +8,7 @@
 !-------------------------------------!
 ! Cosmetic Filters
 ###onetrust-consent-sdk
+##.cookieConsent
 ##.js-consent-banner
 ##.outbrain
 ##.outbrain-container
@@ -323,6 +324,9 @@ channelmaster.com##body[class*="-tv-guide-listings-for-"] > #page-content:style(
 ! Chartoo
 chartoo.com##main > div > aside:has-text(/^Advertisement$/)
 
+! Chatango
+st.chatango.com##.sdlg-main-cbdr-cpbg
+
 ! CHP Adblock Detector
 chpadblock.com##+js(acs, chp_adblock_browser)
 
@@ -498,6 +502,10 @@ freesports.to##footer
 freestreams-live1.*###wpfront-notification-bar-spacer
 fslive1.chatango.com##.ad_cell
 
+! GasBuddy
+gasbuddy.com###gb-promo-pay-and-app
+gasbuddy.com##div > div[class^="Ad-modules__adContainer__"]:upward(1)
+
 ! GDPlayer TV
 gdplayer.tv##+js(acs, devtoolsDetector)
 gdplayer.tv##+js(acs, myLazyLoad)
@@ -518,6 +526,7 @@ gist.github.com##.gist-detail-intro
 github.com##.Banner--warning
 github.com##.flash-warn:has-text(Sign in to comment)
 github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
+github.com##.Popover-message:has-text(Sign in to GitHub)
 
 ! Gofile
 gofile.io###adsATF
@@ -692,9 +701,6 @@ livesportsontv.com##.calendar-and-favorite-btn + .main-title
 livesportsontv.com##.event__odds_container_v
 livesportsontv.com##.site-info
 livesportsontv.com##img[alt^="standby"][decoding="async"]
-
-! Local Now
-localnow.com##.cookieConsent
 
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
@@ -1061,6 +1067,10 @@ sport365.stream##.promo
 sport365.stream##.social__icons
 sport365.stream##.stream__cover:upward(2)
 sport365.stream##.stream__description
+
+! Sports TV
+sports.tv##.epgPlayer-ad
+sports.tv##.wisepops-root
 
 ! SportSurge
 sportsurge.net##.HeaderUyari:upward(#__next > .container)
