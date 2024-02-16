@@ -941,14 +941,15 @@ realbitsport.com##+js(acs, disableselect)
 realbitsport.com##.clappr-watermark
 
 ! Reddit
-reddit.com##+js(ra, data-outbound-url, .outbound)
-reddit.com##+js(set, Object.prototype.allowClickTracking, false)
-reddit.com##.premium-banner-outer
-reddit.com##.read-next-container
-reddit.com##.redesign-beta-optin
-reddit.com##div[class="pinnable-content pinned"]
-reddit.com##section[class="infobar commentsignupbar"]
-reddit.com##section[class="infobar listingsignupbar"]
+old.reddit.com##+js(ra, data-outbound-url, .outbound)
+old.reddit.com##+js(set, Object.prototype.allowClickTracking, false)
+old.reddit.com##.premium-banner-outer
+old.reddit.com##.read-next-container
+old.reddit.com##.redesign-beta-optin
+old.reddit.com##body > .side > .spacer > .sb-unit > div > .promoted-tag:upward(body > .side > .spacer)
+old.reddit.com##div[class="pinnable-content pinned"]
+old.reddit.com##section[class="infobar commentsignupbar"]
+old.reddit.com##section[class="infobar listingsignupbar"]
 
 ! Reddit Sport Live
 redditsport.live###abm
