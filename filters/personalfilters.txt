@@ -158,6 +158,31 @@ github.com##textarea[name="description"]
 google.com##div[aria-label="Search by voice"][role="button"]
 google.com##div[aria-label="Share"][role="button"]
 livesportsontv.com##.favorites-filter-container
+old.reddit.com###header-bottom-right
+old.reddit.com###siteTable::before
+old.reddit.com###sr-header-area
+old.reddit.com##.content::before
+old.reddit.com##.sidecontentbox:has-text(MODERATORS):has(.message-button:has-text(message the mods))
+old.reddit.com##.users-online:style(margin-top: 0.25em !important;)
+old.reddit.com##:matches-path(/r/Chromecast/)body > #header > #header-bottom-left:style(position: static !important;)
+old.reddit.com##:matches-path(/r/freebies/)body > #header > #header-bottom-left > .tabmenu:style(margin-left: 0px !important;)
+old.reddit.com##:matches-path(/r/freebies/)body > .content:style(margin-top: 1rem !important;)
+old.reddit.com##:matches-path(/r/freebies/)body > .side > .spacer > .titlebox > form > div > .md > blockquote > ol:has-text(Sort by Region):style(position: static !important;)
+old.reddit.com##:matches-path(/r/freebies/)body > .side > .spacer > .titlebox > form > div > .md > h4:has-text(Remember):style(position: static !important;)
+old.reddit.com##:matches-path(/r/soccer/)body > #header > #header-bottom-left > .pagename:style(top: 0px !important;)
+old.reddit.com##:matches-path(/r/soccer/)body > #header > #header-bottom-left > .tabmenu:style(top: 0px !important;)
+old.reddit.com##:matches-path(/r/soccer/)body > #header > #header-bottom-left:style(min-height: auto !important; padding-left: 0px !important;)
+old.reddit.com##:matches-path(/r/soccer/)body > .side > .spacer > .titlebox > form > div > .md > h5:has-text(Banners)
+old.reddit.com##:matches-path(/r/soccer/)body > .side > .spacer > .titlebox > form > div > .md > ul:last-child
+old.reddit.com##:matches-path(/r/timbers/)body > .side > .spacer > .titlebox > form > div > .md > h6:nth-child(3)
+old.reddit.com##:matches-path(/r/timbers/)body > .side:style(margin: 232px 16px 108px 0px !important;)
+old.reddit.com##body > #header > #header-bottom-left > a[id^="header-img"]
+old.reddit.com##body > .side::after
+old.reddit.com##body > .side::before
+old.reddit.com##div[class="sidebox submit submit-link"]
+old.reddit.com##div[class="sidebox submit submit-text"]
+old.reddit.com##form[class="login-form login-form-side"]
+old.reddit.com##span[class="fancy-toggle-button subscribe-button toggle"]
 open.spotify.com###Desktop_PanelContainer_Id[aria-label="Now Playing View"]
 open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(/About recommendations|Add to playlist|Add to profile|Add to queue|Create folder|Create playlist|Go to artist radio|Go to playlist radio|Go to song radio|Open in Desktop app|Report|Save to Your Episodes|Save to your Liked Songs/)
 open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(/Follow|Following/)
@@ -176,14 +201,6 @@ proton.me##.dropdown-content > ul > .dropdown-item > div > a[data-testid="userdr
 proton.me##.dropdown-content > ul > .dropdown-item > div > button[data-testid="userdropdown:button:settings"]:upward(2)
 proton.me##.dropdown-content > ul > .dropdown-item:last-child
 redd.it##post-bottom-bar
-reddit.com###header-bottom-right
-reddit.com###sr-header-area
-reddit.com##.sidecontentbox:has-text(MODERATORS):has(.message-button:has-text(message the mods))
-reddit.com##.users-online:style(margin-top: 0.25em !important;)
-reddit.com##div[class="sidebox submit submit-link"]
-reddit.com##div[class="sidebox submit submit-text"]
-reddit.com##form[class="login-form login-form-side"]
-reddit.com##span[class="fancy-toggle-button subscribe-button toggle"]
 rentry.*##.actions
 rentry.*##.container:style(padding-bottom: 1rem !important;)
 rentry.*##div[class="text-center w-100 mb-3"]
