@@ -844,6 +844,9 @@ nhl.com##.nhl-l-section-bg__adv
 nwslsoccer.com##.accept-cookies-snackbar
 nwslsoccer.com##.block-ads-single-image
 
+! NewsON
+newson.us##.promoHeader
+
 ! Nexstar Media Group
 koin.com##.civic-science-container
 koin.com##.civic-science-sidebar-container
@@ -1010,6 +1013,8 @@ katu.com##.loader
 katu.com##div[aria-label="Modal Overlay Box"][role="dialog"]
 katu.com##div[class*="_adAfterContent_"]
 katu.com##div[class*="_adBeforeContent_"]
+katu.com##div[class*="_adWrapper_"]
+katu.com##div[class*="_pencilAdContainer_"]
 katu.com##div[class^="index-module_openwebAd__"]
 katu.com##div[id^="js-News-In-Photos-"]
 katu.com##div[id^="js-Taboola-Container-"]
