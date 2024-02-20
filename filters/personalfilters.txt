@@ -174,8 +174,10 @@ old.reddit.com##:matches-path(/r/soccer/)body > #header > #header-bottom-left > 
 old.reddit.com##:matches-path(/r/soccer/)body > #header > #header-bottom-left:style(min-height: auto !important; padding-left: 0px !important;)
 old.reddit.com##:matches-path(/r/soccer/)body > .side > .spacer > .titlebox > form > div > .md > h5:has-text(Banners)
 old.reddit.com##:matches-path(/r/soccer/)body > .side > .spacer > .titlebox > form > div > .md > ul:last-child
+old.reddit.com##:matches-path(/r/sports/)body > .side > .spacer > .titlebox > form > div > .md > blockquote:first-child:style(top: 22px !important;)
 old.reddit.com##:matches-path(/r/timbers/)body > .side > .spacer > .titlebox > form > div > .md > h6:nth-child(3)
 old.reddit.com##:matches-path(/r/timbers/)body > .side:style(margin: 232px 16px 108px 0px !important;)
+old.reddit.com##:matches-path(/r/worldnews/)body > .side > .spacer > .titlebox > form > div > .md > blockquote:first-child > blockquote > blockquote:style(left: 0px !important; top: 30px !important;)
 old.reddit.com##body > #header > #header-bottom-left > a[id^="header-img"]
 old.reddit.com##body > .side::after
 old.reddit.com##body > .side::before
@@ -187,6 +189,7 @@ open.spotify.com###Desktop_PanelContainer_Id[aria-label="Now Playing View"]
 open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(/About recommendations|Add to playlist|Add to profile|Add to queue|Create folder|Create playlist|Go to artist radio|Go to playlist radio|Go to song radio|Open in Desktop app|Report|Save to Your Episodes|Save to your Liked Songs/)
 open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(/Follow|Following/)
 open.spotify.com##.main-view-container__mh-footer-container
+open.spotify.com##.rQ6LXqVlEOGZdGIG0LgP[role="presentation"]:has-text(/About recommendations|Add to playlist|Add to profile|Add to queue|Create folder|Create playlist|Go to artist radio|Go to playlist radio|Go to song radio|Open in Desktop app|Report|Save to Your Episodes|Save to your Liked Songs/)
 open.spotify.com##aside[aria-label="Now playing view"]
 open.spotify.com##button[aria-label="Create playlist or folder"]
 open.spotify.com##button[aria-label="Remove from Your Library"][data-testid="add-button"]
