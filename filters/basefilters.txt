@@ -32,9 +32,7 @@
 ||katu.com/api/rest/audience/more
 ||kgw.com/ajax/content/cscroll
 ||maxtv.one/wp-content/plugins/wpshield-content-protector
-||mhdsportstv.com/wp-content/uploads/*.js?ver
-||mhdtvsports.me/wp-content/uploads/*.js?ver
-||mhdtvworld.me/wp-content/plugins/*.js?ver
+||mhd*tv*.*/wp-content/uploads/*.js?ver
 ||tv.vnoo.net/*/devtools-detector.js
 
 ! URL Parameter Filters
