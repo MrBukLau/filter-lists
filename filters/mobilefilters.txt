@@ -390,6 +390,7 @@ t.me##.tgme_header_info > .tgme_channel_join_telegram
 
 ! Temu
 temu.com##body > div[class^="root-"] > div[class^="move-"] > div > div[aria-label="Cart"][role="button"][style^="transform"]
+temu.com##div[js-selector="mobile-download-ui"]:upward(1)
 temu.com##div[style="height:0.66rem"]:style(height: auto !important;)
 
 ! Tenor
