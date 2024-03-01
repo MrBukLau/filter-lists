@@ -5,7 +5,6 @@
 
 ! iOS Filters
 !#if adguard_app_ios
-cnn.com##+js(ra, data-noir-inline-background-color, .pui, stay)
 coupons.albertsons.com,coupons.safeway.com##body:style(background-color: white !important;)
 coupons.albertsons.com,coupons.safeway.com##div[id^="nuance-chat-anchored-"]
 coupons.albertsons.com,coupons.safeway.com##weekly-ad > .ad-details > .title:style(color: gray !important; margin-left: 5px !important;)
@@ -25,6 +24,7 @@ m.youtube.com##button[aria-label="Save playlist"]
 m.youtube.com##button[aria-label="Save to playlist"]
 m.youtube.com##button[aria-label="Share"]
 m.youtube.com##button[aria-label="Subscribe"]
+m.youtube.com##div[aria-label="Search with your voice"][role="button"]
 m.youtube.com##ytm-comments-header-renderer
 myanimelist.net###bottom-menu
 myanimelist.net##footer:style(padding-bottom: 0px !important;)
