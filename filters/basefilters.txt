@@ -372,6 +372,9 @@ cnn.com##.terms-of-service
 cnn.com##div[class$="AdWrapper"]
 cnn.com##h2[data-analytics="Paid Partner Content_list-xs_"]:upward(.zn > .zn__background--content-relative > .zn__containers > .column):remove()
 
+! Cord Cutters News
+cordcuttersnews.com###cookie-notice
+
 ! Costco
 costco.com###email-popup-title
 
@@ -525,6 +528,10 @@ github.com##.Banner--warning
 github.com##.flash-warn:has-text(Sign in to comment)
 github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 github.com##.Popover-message:has-text(Sign in to GitHub)
+
+! Goal
+goal.com##div[class^="newsletter-popup-"]:upward(1)
+goal.com##div[id^="sp_message_container_"]
 
 ! Gofile
 gofile.io###adsATF
@@ -841,6 +848,9 @@ nhl.com##.nhl-l-section-bg__adv
 ! National Women's Soccer League
 nwslsoccer.com##.accept-cookies-snackbar
 nwslsoccer.com##.block-ads-single-image
+
+! New York Post
+nypost.com##.zephr-component
 
 ! NewsON
 newson.us##.promoHeader
