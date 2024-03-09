@@ -476,6 +476,9 @@ fifaratings.com##div > div > .inline-rectangle-adx:upward(1)
 fifaratings.com##td > .adsbygoogle:upward(1)
 fifaratings.com##td > .mobile-adx:upward(1)
 
+! Flickr
+flickr.com##.cookie-banner-view
+
 ! FlightAware
 flightaware.com###onetrust-consent-sdk
 
@@ -1122,6 +1125,9 @@ tankathon.com##.mock-draft-round-divider
 target.com##div[class*="_PubAdWrapper-"]:upward(1)
 target.com#@#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:has-text(sponsored)
 
+! TDM
+tdm.com.mo###cookies
+
 ! TEGNA
 kgw.com##.article__close-wrapper
 kgw.com##.article__section_type_ad
@@ -1220,6 +1226,7 @@ venmo.com##.organisms-layoutContainer-desktopWrapper
 
 ! VideoHelp
 videohelp.com###thisisatest
+videohelp.com##.grecaptcha-badge
 
 ! VKontakte
 vk.com###box_layer_bg
@@ -1257,6 +1264,9 @@ wikihow.com###article_courses_banner
 ! Wikipedia
 wikipedia.org##.cn-fundraising
 wikipedia.org##.vector-sitenotice-container
+
+! WinCo Foods
+wincofoods.com##div[aria-label="Cookie banner"]
 
 ! Writer
 writer.com##+js(rc, om-position-popup, html, stay)
