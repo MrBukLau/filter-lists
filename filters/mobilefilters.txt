@@ -423,6 +423,9 @@ twitter.com##div[class="css-1dbjc4n r-1iusvr4 r-16y2uox r-97wbjc"]
 ! U-Haul
 uhaul.com##.download-uhaul-app
 
+! Uniqlo
+uniqlo.com##.fr-ec-cms-smart-banner
+
 ! Venmo
 venmo.com##.organisms-layoutContainer-mobileWrapper
 
