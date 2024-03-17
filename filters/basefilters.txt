@@ -24,6 +24,7 @@
 @@||thapcam.net/1.gif$image,domain=thapcam.net
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
 ||amillionads.com$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+||jsdelivr.net/*/console-ban.min.js
 ||jsdelivr.net/*/devtools-detector
 ||jsdelivr.net/*/disable-devtool
 ||jsdelivr.net/*/disable-devtool.min.js
@@ -422,6 +423,7 @@ dropbox.com##.browse-suggest
 dropbox.com##.maestro-prompt-portal
 dropbox.com##.prompt-header-link--preview
 dropbox.com##button[aria-label="Help and resources"][data-testid="learning-center-button"][data-uxa-log="gh_help_trigger"]
+dropbox.com##div[class^="_toolkit-link_"]:has-text(Click to upgrade)
 dropbox.com##div[data-uxa-log="account_upgrade_link"][role="menuitem"]
 dropbox.com##div[data-uxa-log="gh_account-menu_select-install"][role="menuitem"]
 dropbox.com,dropboxforum.com###consent-iframe
@@ -487,6 +489,7 @@ flightaware.com###onetrust-consent-sdk
 
 ! FORJA
 forja.me##.media-control-layer > .media-control-right-panel > button[aria-label="hd-indicator"]
+forja.me##iframe[src^="//www.facebook.com/plugins/like.php?"]
 
 ! Free MP3 Download
 free-mp3-download.net###toast-container
@@ -770,7 +773,10 @@ mojosakun.blogspot.com##.post-nav
 mojosakun.blogspot.com##.post-share
 
 ! MrGamingStreams
+mrgamingstreams.com##+js(acs, ConsoleBan)
+mrgamingstreams.com##+js(aeld, contextmenu)
 mrgamingstreams.com##+js(ra, target, a[href], stay)
+mrgamingstreams.com##body > main > .homebuttonlayout:has-text(Events):style(margin-top: auto !important;)
 mrgamingstreams.com##header > .HeaderLeft > iframe[height="1px"][width="1px"]
 
 ! Music Clutter
@@ -877,6 +883,7 @@ nmac.to##div[style="margin-left: auto; margin-right: auto; text-align: center; "
 nmac.to##div[style="margin-left: auto; margin-right: auto; text-align: center; margin-bottom: -5px; "]
 
 ! OLEVOD
+olevod.tv##.pc-ads
 olevod.tv##.pc-sdier
 
 ! OnHockey
@@ -1020,6 +1027,7 @@ signupgenius.com##.sug-notice--privacy
 ! Sinclair Broadcast Group
 katu.com###js-CommentCallToAction-Container
 katu.com###js-Progress-Bar
+katu.com##.displayAd
 katu.com##.loader
 katu.com##div[aria-label="Modal Overlay Box"][role="dialog"]
 katu.com##div[class*="_adAfterContent_"]
@@ -1027,6 +1035,7 @@ katu.com##div[class*="_adBeforeContent_"]
 katu.com##div[class*="_adWrapper_"]
 katu.com##div[class*="_pencilAdContainer_"]
 katu.com##div[class^="index-module_openwebAd__"]
+katu.com##div[class^="NewAd-module_"]
 katu.com##div[id^="js-News-In-Photos-"]
 katu.com##div[id^="js-Taboola-Container-"]
 katu.com##li[id^="nativeAdContainer_"]
@@ -1127,6 +1136,11 @@ target.com#@#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:has-tex
 
 ! TDM
 tdm.com.mo###cookies
+
+! TeamWork Online
+teamworkonline.com##.layout-sidebar__sidebar > a[title="Upgrade to MVP Access"]
+teamworkonline.com##.layout-sidebar__sidebar--mvp-ad
+teamworkonline.com##.result-item__ad
 
 ! TEGNA
 kgw.com##.article__close-wrapper
