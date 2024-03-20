@@ -58,10 +58,10 @@ No further actions are necessary. After adding a filter list from this repositor
 ### For Creating the Original Filters, Scriptlets, and Userscripts
 - **Fuim on Greasy Fork**
     - Userscript: [YouTube Shorts Redirect](https://greasyfork.org/en/scripts/439993)
-- **hpuac on Greasy Fork**
-    - Userscript: [Amazon Short URL](https://greasyfork.org/en/scripts/376630)
 - **IMBA Lawly on Greasy Fork**
     - Userscript: [Skipper for Ouo.io](https://greasyfork.org/en/scripts/419509)
+- **Xant1k@bt on Greasy Fork**
+    - Userscript: [Amazon URL Cleaner](https://greasyfork.org/en/scripts/27460)
 ### For Providing JavaScript Codes That Enabled Me to Create Some of These Scriptlets
 - **Brock Adams on Stack Overflow**
     - [Add a New Parameter to the URL](https://stackoverflow.com/a/16070740)
