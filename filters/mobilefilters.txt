@@ -212,6 +212,14 @@ mlb.com##.ad
 ! Mayo Clinic
 mayoclinic.org###kampyleButtonContainer
 
+! MethStreams
+methstreams.com##a[style$="z-index: 2147483647;"]
+methstreams.com##a[style$="z-index: 2147483647;"]:remove()
+methstreams.com##a[style="display: none; visibility: hidden; position: relative; left: -1000px; top: -1000px;"]
+methstreams.com##a[style="display: none; visibility: hidden; position: relative; left: -1000px; top: -1000px;"]:remove()
+methstreams.com##iframe[width="0"][height="0"]
+methstreams.com##iframe[width="0"][height="0"]:remove()
+
 ! Mozilla
 mozilla.org###firefox-app-store-banner
 
