@@ -166,6 +166,9 @@ oregonlive.com##.sharebar__bookmark--tooltip
 oregonlive.com##.skimlinks
 oregonlive.com##body > div > .footer > .footer:style(border-top: none !important; padding-top: 0px !important;)
 
+! AESport
+aesport.tv##.cookie-consent
+
 ! Albertsons Companies
 albertsons.com,safeway.com##.banner-placeholder
 albertsons.com,safeway.com##.cross-sell-row
@@ -375,6 +378,10 @@ cnn.com##h2[data-analytics="Paid Partner Content_list-xs_"]:upward(.zn > .zn__ba
 
 ! Cord Cutters News
 cordcuttersnews.com###cookie-notice
+cordcuttersnews.com###disqus_recommendations
+cordcuttersnews.com###disqus_thread:style(max-width: none !important;)
+cordcuttersnews.com##div[class^="wp-block-column"][style$="flex-basis:33.33%"]
+cordcuttersnews.com##div[class^="wp-block-column"][style$="flex-basis:66.66%"]:style(flex-basis: 100% !important;)
 
 ! Costco
 costco.com###email-popup-title
@@ -420,10 +427,11 @@ dream4evertwo.info##.js-scrollButtons
 
 ! Dropbox
 dropbox.com##.browse-suggest
+dropbox.com##.maestro-campaigns-toolkit-portal
 dropbox.com##.maestro-prompt-portal
 dropbox.com##.prompt-header-link--preview
 dropbox.com##button[aria-label="Help and resources"][data-testid="learning-center-button"][data-uxa-log="gh_help_trigger"]
-dropbox.com##div[class^="_toolkit-link_"]:has-text(Click to upgrade)
+dropbox.com##div[class^="_toolkit-link_"]:has-text(/upgrade/i)
 dropbox.com##div[data-uxa-log="account_upgrade_link"][role="menuitem"]
 dropbox.com##div[data-uxa-log="gh_account-menu_select-install"][role="menuitem"]
 dropbox.com,dropboxforum.com###consent-iframe
@@ -532,6 +540,7 @@ gfycat.com##.signup-call-to-action
 gist.github.com##.gist-detail-intro
 github.com##.Banner--warning
 github.com##.flash-warn:has-text(Sign in to comment)
+github.com##.js-hovercard-content
 github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 github.com##.Popover-message:has-text(Sign in to GitHub)
 
@@ -548,6 +557,7 @@ gogoanime.*##div[class^="notice-"]
 ! Google
 drive.google.com##body > div[role="dialog"]:has-text(Try Drive at no cost)
 google.com###js-cookie-banner
+google.com###lb:has-text(See results closer to you?)
 google.com##.nD2EKb
 google.com##.tw-menu > span > div[data-id="translate_search_button"]
 google.com##.ynRric:has-text(/^People also ask$/)
@@ -560,6 +570,7 @@ google.com##div[aria-labelledby="task-text"][role="dialog"]:has-text(Give feedba
 google.com##div[aria-labelledby="task-text"][role="dialog"]:has-text(How helpful were the results on Google Search?)
 google.com##div[id^="eob_"]
 google.com##div[jsaction="rcuQ6b:npT2md"][jscontroller="JlIvbd"][jsname="kcWXr"]
+google.com##html:style(overflow: auto !important;)
 
 ! Grammarly
 grammarly.com##aside[aria-label="Primary banner"]
@@ -655,6 +666,9 @@ iptv345.com##script[src="https://www.sinawap.com/smu/o.js"]:upward(1)
 
 ! IPTV Checker
 iptv-checker.com##.scroll-top
+
+! iTalkBB TV
+italkbbtv.com##.back-top-wrapper
 
 ! iTD Music
 agfinancia.info##+js(nobab)
@@ -780,11 +794,14 @@ mrgamingstreams.com##body > main > .homebuttonlayout:has-text(Events):style(marg
 mrgamingstreams.com##header > .HeaderLeft > iframe[height="1px"][width="1px"]
 
 ! Music Clutter
-lifecrafterscorner.site##+js(nano-sib)
 musiclutter.xyz###check-also-box
 musiclutter.xyz###related_posts
 musiclutter.xyz###wpd-bubble-wrapper
 musiclutter.xyz###wpd-post-rating
+musiclutter.xyz##a[style*="z-index"]
+musiclutter.xyz##a[style*="z-index"]:remove()
+musiclutter.xyz##iframe[src="about:blank"]
+musiclutter.xyz##iframe[src="about:blank"]:remove()
 
 ! MyAnimeList
 myanimelist.net###broadcast-block
@@ -943,6 +960,9 @@ proton.me##a[data-testid="cta:upgrade-plan"]
 proton.me##a[title="Go to subscription plans"]
 proton.me##div[data-testid="auto-delete:banner"]
 proton.me##div[data-testid="promotion-banner"]
+
+! Purchased M4A Collection
+purchasedm4a.com##.backtotop
 
 ! Quizlet
 quizlet.com##.SetPageEmbeddedAd-wrapper
@@ -1281,6 +1301,9 @@ wikipedia.org##.vector-sitenotice-container
 
 ! WinCo Foods
 wincofoods.com##div[aria-label="Cookie banner"]
+
+! WordPress
+wordpress.com##.widget_eu_cookie_law_widget
 
 ! Writer
 writer.com##+js(rc, om-position-popup, html, stay)
