@@ -28,11 +28,17 @@
     function getProductId() {
         let m;
         m = document.location.href.match(/(?:.+\/)?dp\/([^/?]+)/);
-        if (m) return m[1];
+        if (m) {
+            return m[1];
+        }
         m = document.location.href.match(/gp\/product\/([^/?]+)/);
-        if (m) return m[1];
+        if (m) {
+            return m[1];
+        }
         m = document.location.href.match(/ASIN\/([^/?]+)/);
-        if (m) return m[1];
+        if (m) {
+            return m[1];
+        }
     }
     let productId = getProductId();
     if (productId) {
