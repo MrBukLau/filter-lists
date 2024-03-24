@@ -103,6 +103,7 @@ $removeparam=cmpid,domain=coupons.albertsons.com|coupons.safeway.com
 2kratings.com##.takeover-alert
 
 ! 88Kanqiu
+222live.*,88kanqiu.*,88zhibo.*,888kanqiu.*,gogozb.*,niubizhibo.*,popozhibo.*##+js(ra, data-sharelock, .live-play-btn, stay)
 222live.*,88kanqiu.*,88zhibo.*,888kanqiu.*,gogozb.*,niubizhibo.*,popozhibo.*##.sss-container[data-uuid]
 88kq.org###app > .main > .list > .listli:has-text(/下载APP|知球体育App/)
 bszb002.com,kqzb123.com,kanqiu00.com##+js(acs, document.oncontextmenu)
@@ -627,20 +628,12 @@ icelz.newsrade.com##+js(acs, prototype.ban)
 icelz.newsrade.com##.bmpui-label-metadata-description:style(opacity: 0 !important;)
 icelz.newsrade.com##.bmpui-label-metadata-title:style(opacity: 0 !important;)
 icelz.newsrade.com##.sharethis-inline-share-buttons
-icelz.newsrade.com##a[style$="z-index: 2147483645;"]
-icelz.newsrade.com##a[style$="z-index: 2147483645;"]:remove()
-icelz.newsrade.com##a[style$="z-index: 2147483646;"]
-icelz.newsrade.com##a[style$="z-index: 2147483646;"]:remove()
-icelz.newsrade.com##a[style$="z-index: 2147483647;"]
-icelz.newsrade.com##a[style$="z-index: 2147483647;"]:remove()
 icelz.newsrade.com##a[style*="-1000px;"]
 icelz.newsrade.com##a[style*="-1000px;"]:remove()
-icelz.newsrade.com##div[style$="z-index: 2147483645;"]
-icelz.newsrade.com##div[style$="z-index: 2147483645;"]:remove()
-icelz.newsrade.com##div[style$="z-index: 2147483646;"]
-icelz.newsrade.com##div[style$="z-index: 2147483646;"]:remove()
-icelz.newsrade.com##div[style$="z-index: 2147483647;"]
-icelz.newsrade.com##div[style$="z-index: 2147483647;"]:remove()
+icelz.newsrade.com##a[style*="z-index"]
+icelz.newsrade.com##a[style*="z-index"]:remove()
+icelz.newsrade.com##div[style*="z-index"]
+icelz.newsrade.com##div[style*="z-index"]:remove()
 icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
 icelz.newsrade.com##iframe[src="about:blank"]
 icelz.newsrade.com##iframe[src="about:blank"]:remove()
@@ -769,6 +762,12 @@ megadeportestv.online##+js(acs, document.oncontextmenu)
 
 ! MethStreams
 methstreams.com##.sharethis-sticky-share-buttons
+methstreams.com##a[style*="z-index"]
+methstreams.com##a[style*="z-index"]:remove()
+methstreams.com##a[style="display: none; visibility: hidden; position: relative; left: -1000px; top: -1000px;"]
+methstreams.com##a[style="display: none; visibility: hidden; position: relative; left: -1000px; top: -1000px;"]:remove()
+methstreams.com##iframe[width="0"][height="0"]
+methstreams.com##iframe[width="0"][height="0"]:remove()
 
 ! MHDTVWORLD
 mhdtvworld.*##.sbox
@@ -845,7 +844,8 @@ mygoodstream.pw##.sharethis-inline-share-buttons:upward(1)
 mygoodstream.pw##.w-webflow-badge
 mygoodstream.pw##h5:has-text(Copyright)
 mygoodstream.pw##h5:has-text(For better streaming experience):upward(1)
-mygoodstream.pw##iframe[style$="z-index: 2147483647;"]
+mygoodstream.pw##iframe[style*="z-index"]
+mygoodstream.pw##iframe[style*="z-index"]:remove()
 mygoodstream.pw,prodimart.com##.bmpui-label-metadata-description:style(opacity: 0 !important;)
 mygoodstream.pw,prodimart.com##.bmpui-label-metadata-title:style(opacity: 0 !important;)
 mygoodstream.pw,prodimart.com##.bmpui-ui-watermark
@@ -965,8 +965,11 @@ proton.me##div[data-testid="promotion-banner"]
 purchasedm4a.com##.backtotop
 
 ! Quizlet
+quizlet.com##.LoginBottomBar
 quizlet.com##.SetPageEmbeddedAd-wrapper
 quizlet.com##.SetPageEmbeddedAd-wrapper + .SetPageTerms-term:style(margin-top: 0.625rem !important;)
+quizlet.com##.SiteAd
+quizlet.com##div[data-testid="set-page-card-side"]:style(filter: none !important;)
 
 ! Raket TV
 ragotv1.blogspot.com##.Marquee-box
@@ -1117,6 +1120,14 @@ sport365.stream##.stream__description
 ! Sports TV
 sports.tv##.epgPlayer-ad
 sports.tv##.wisepops-root
+
+! SportsHub
+xsportbox.com##div[style*="z-index"]
+xsportbox.com##div[style*="z-index"]:remove()
+xsportbox.com##iframe[src="about:blank"]
+xsportbox.com##iframe[src="about:blank"]:remove()
+xsportbox.com##iframe[style*="z-index"]
+xsportbox.com##iframe[style*="z-index"]:remove()
 
 ! SportSurge
 sportsurge.net##.HeaderUyari:upward(#__next > .container)
