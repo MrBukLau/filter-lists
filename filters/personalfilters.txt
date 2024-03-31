@@ -139,7 +139,6 @@ dropbox.com##.account-menu-v2__content > .dig-Menu-segment:nth-of-type(3)
 dropbox.com##a[data-uxa-log="gh_account-menu_select-automations"][role="menuitem"]
 dropbox.com##a[data-uxa-log="gh_account-menu_select-manage-account"][role="menuitem"]
 dropbox.com##a[data-uxa-log="gh_account-menu_select-settings"][role="menuitem"]
-dropbox.com##body > .maestro-portal > .maestro-content-portal:style(padding-right: 50px !important;)
 dropbox.com##button[data-campaigns-element-id="browse-view-invite-button"][data-uxa-log="individual_upsell_invite_button"]
 dropbox.com##div[class^="_current-form_"] > div[class^="_susi-form-container_"] > div[class^="third-party-container"]
 dropbox.com##div[class^="_current-form_"] > div[class^="_susi-form-container_"] > div[class^="third-party-container"] + div[class^="_hr-label_"]
