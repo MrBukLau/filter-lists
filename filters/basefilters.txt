@@ -12,6 +12,7 @@
 ##.js-consent-banner
 ##.outbrain
 ##.outbrain-container
+##div[aria-label="Cookie Consent Banner"]
 ##div[aria-label="cookieconsent"]
 
 ! Network Filters
@@ -28,7 +29,7 @@
 ||jsdelivr.net/*/devtools-detector
 ||jsdelivr.net/*/disable-devtool
 ||jsdelivr.net/*/disable-devtool.min.js
-||jsdelivr.net/*/izi-simply.js$script,domain=livetvq.000webhostapp.com|onlivetv.pages.dev
+||jsdelivr.net/*/izi-simply.js,domain=onlivetv.pages.dev
 ||jsdelivr.net/*/sconsole-ban.min.js
 ||katu.com/api/rest/audience/more
 ||kgw.com/ajax/content/cscroll
@@ -332,6 +333,9 @@ st.chatango.com##.sdlg-main-cbdr-cpbg
 
 ! CHP Adblock Detector
 chpadblock.com##+js(acs, chp_adblock_browser)
+
+! Cinemark Theatres
+cinemark.com###__tealiumGDPRecModal
 
 ! Cleveland Clinic
 clevelandclinic.org##div[data-identity="adhesive-ad"]
@@ -662,6 +666,7 @@ iptv-checker.com##.scroll-top
 
 ! iTalkBB TV
 italkbbtv.com##.back-top-wrapper
+italkbbtv.com##div[aria-label="Consent Manager by Osano"]
 
 ! iTD Music
 agfinancia.info##+js(nobab)
@@ -1147,6 +1152,9 @@ open.spotify.com#@#div > div[aria-live="polite"]
 ! Stack Overflow
 stackoverflow.com###js-ai-search-alpha-popover
 
+! StatMuse
+statmuse.com##astro-island[component-url*="aditude-ad-banner"]
+
 ! Stream-Link
 stream-link.org##.container-clock
 stream-link.org##body > div[style="width:300px"]:style(width: 100% !important;)
@@ -1262,6 +1270,9 @@ upcitemdb.com##.adsense-ad
 
 ! Upload App
 upload.app###policy-info
+
+! Vange
+vange.ca##:matches-path(/link/mobile/)body > #leftbutton
 
 ! vClock
 vclock.com##.am-scroll-top
