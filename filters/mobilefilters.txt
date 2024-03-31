@@ -145,6 +145,7 @@ goodrx.com##div[data-qa="advertisement"]
 google.com###footer
 google.com###lb:has-text(Stay signed out)
 google.com###stUuGf
+google.com##.torspo_view__follow-button
 google.com##.zU3lCe
 google.com##body:style(overflow: auto !important; position: static !important;)
 google.com##div[aria-label="Navigation drawer"][role="menu"] > a[href^="https://search.app.goo.gl/"][role="menuitem"]
@@ -159,7 +160,7 @@ google.com##div[jsaction="rcuQ6b:npT2md"][jscontroller="OPwjEf"][role="section"]
 google.com##div[jsaction="rcuQ6b:npT2md"][jscontroller="R87u2"]
 google.com##div[jsaction="Y2XUzc:Fs7Xzc"][jscontroller="dve5w"][jsname="hK5Dwd"]
 google.com##ios-safari-home-screen-icon-banner
-google.com##span[jsaction="I9owB"][jsname="EFexIf"]
+google.com##span[jsaction^="I9owB"][jsname="EFexIf"]
 
 ! Gopuff
 gopuff.com##.jr-smart-banner
