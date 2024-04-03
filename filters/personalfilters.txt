@@ -163,6 +163,12 @@ old.reddit.com###header-bottom-right
 old.reddit.com###siteTable::before
 old.reddit.com###sr-header-area
 old.reddit.com##.content::before
+old.reddit.com##.flat-list > .reply-button
+old.reddit.com##.flat-list > .report-button
+old.reddit.com##.flat-list > .save-button
+old.reddit.com##.flat-list > .share
+old.reddit.com##.flat-list > li > .embed-comment:upward(1)
+old.reddit.com##.flat-list > li > .hide-button:upward(1)
 old.reddit.com##.sidecontentbox:has-text(MODERATORS):has(.message-button:has-text(message the mods))
 old.reddit.com##.users-online:style(margin-top: 0.25em !important;)
 old.reddit.com##:matches-path(/r/Chromecast/)body > #header > #header-bottom-left:style(position: static !important;)
