@@ -7,6 +7,7 @@
 !---------- Generic Filters ----------!
 !-------------------------------------!
 ! Cosmetic Filters
+###cookies
 ###onetrust-consent-sdk
 ##.cookieConsent
 ##.js-consent-banner
@@ -451,10 +452,16 @@ duckduckgo.com##.js-feedback-btn-wrap
 ! Ecobee
 ecobee.com###cookie-consent
 
+! Emojipedia
+emojipedia.org##button[class*="ScrollToTop"]
+emojipedia.org##div[class^="Tabs"]:style(top: 0px !important;)
+
 ! ESPN
 espn.com##.article > .container > .article-body > p > strong > a[href^="https://promo.espn.com/"]:upward(2)
 espn.com##.article-body > p:has-text(Stream on ESPN+: LaLiga, Bundesliga, more)
 espn.com##.article-social
+espn.com##.GameBreak
+espn.com##.GameBreak:remove()
 espn.com##.Scoreboard:style(max-width: none !important;)
 espn.com##.ScoreboardPage > .PageLayout__RightAside:remove()
 espn.com##.scroll-locked:style(overflow: auto !important;)
@@ -593,6 +600,9 @@ hmartus.com##.sqs-cookie-banner-v2
 ! Hikarinoakariost
 hikarinoakari.com###ays_tooltip
 hikarinoakari.com##.pk-scroll-to-top
+hikarinoakari.com##.post > .post-wrap > .post-main > .entry-content > div:last-child:has(p > a[href^="https://hikarinoakari.com/out/"])
+hikarinoakari.com##.post > .post-wrap > .post-main > .post-tags:style(padding-bottom: 12px !important;)
+hikarinoakari.com##.section-related-posts
 hikarinoakari.com##.td-header-top-menu-full
 hikarinoakari.com##.td-post-sharing-bottom
 hikarinoakari.com##.td-post-sharing-top
@@ -908,6 +918,9 @@ nmac.to##div[style="margin-left: auto; margin-right: auto; text-align: center; m
 olevod.tv##.pc-ads
 olevod.tv##.pc-sdier
 
+! OneSoccer
+onesoccer.ca##.cookiesBar
+
 ! OnHockey
 onhockey.tv##a[href^="https://record.revmasters.com/"]
 onhockey.tv##table[width="1270"][border="0"][cellpadding="0"][cellspacing="0"]:has-text(We do not host or upload any videos on our website.):upward(2)
@@ -1162,6 +1175,11 @@ stream-link.org##body > div[style="width:300px"]:style(width: 100% !important;)
 ! StreamCheck
 streamcheck.link##+js(nano-sib)
 
+! TaiwanPlus
+taiwanplus.com###downloadAppMsg
+taiwanplus.com###gototop
+taiwanplus.com###welcomeMsg
+
 ! Tangrenjie
 tangrenjie.tv##a[href="https://betone002.com"]
 
@@ -1172,9 +1190,6 @@ tankathon.com##.mock-draft-round-divider
 ! Target
 target.com##div[class*="_PubAdWrapper-"]:upward(1)
 target.com#@#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:has-text(sponsored)
-
-! TDM
-tdm.com.mo###cookies
 
 ! TeamWork Online
 teamworkonline.com##.layout-sidebar__sidebar > a[title="Upgrade to MVP Access"]
@@ -1220,6 +1235,9 @@ tinyurl.*##+js(nano-sib)
 tinyurl.*##+js(rc, disabled, .btn, stay)
 tinyurl.*##.container:has-text(Have Your Ads Here)
 
+! TitanTV
+titantv.com##div[id$="cookieNotice"]
+
 ! Tonkiang
 tonkiang.us##body > div > .tables > .result > .adsbygoogle:upward(1)
 tonkiang.us##body > div > div > .fd
@@ -1241,6 +1259,9 @@ tuta.com##button[title="Show help"]
 ! TV Yan
 tvyan.com##.lian
 
+! TV247
+tv247.us##.jw-logo
+
 ! TVB
 tvb.com##.tvb-cookies
 
@@ -1249,6 +1270,9 @@ tvbs.com.tw##.cookie_box
 tvbs.com.tw##.gotop
 tvbs.com.tw##.policy
 tvbs.com.tw##.scrollup
+
+! TVTV
+tvtv.us##div[class^="MuiSnackbar-root"][role="presentation"]
 
 ! TVZB
 tvzb.com###scrolltop
