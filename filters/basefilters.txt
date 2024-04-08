@@ -760,6 +760,12 @@ mlssoccer.com##div[class="d3-l-grid--outer d3-l-section-row -main-section"]:styl
 mlssoccer.com##section[data-block-type="alert"]
 timbers.com###podium-website-widget
 
+! MangaDex
+mangadex.org##.u-scrollButtons
+
+! Mangakakalot
+mangakakalot.com###top
+
 ! Mangattack
 mangattack.com##.ADs-BG
 
