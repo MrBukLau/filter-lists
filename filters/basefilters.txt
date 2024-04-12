@@ -26,6 +26,7 @@
 @@||thapcam.net/1.gif$image,domain=thapcam.net
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
 ||amillionads.com$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+||chaojizhibo.net/*/disable-devtool.js
 ||jsdelivr.net/*/console-ban.min.js
 ||jsdelivr.net/*/devtools-detector
 ||jsdelivr.net/*/disable-devtool
@@ -171,6 +172,7 @@ oregonlive.com##body > div > .footer > .footer:style(border-top: none !important
 
 ! AESport
 aesport.tv##.cookie-consent
+aesport.tv##.playerPopup
 
 ! Albertsons Companies
 albertsons.com,safeway.com##.banner-placeholder
@@ -325,6 +327,10 @@ channelmaster.com##.google-ad-ctr:upward(table > tbody > tr)
 channelmaster.com##.guide-paging--sticky:style(position: static !important;)
 channelmaster.com##.recommendation-cta
 channelmaster.com##body[class*="-tv-guide-listings-for-"] > #page-content:style(padding: 0px !important;)
+
+! Chaojizhibo
+chaojizhibo.net##iframe[src="about:blank"]
+chaojizhibo.net##iframe[src="about:blank"]:remove()
 
 ! Chartoo
 chartoo.com##main > div > aside:has-text(/^Advertisement$/)
@@ -734,6 +740,9 @@ livesportsontv.com##.calendar-and-favorite-btn + .main-title
 livesportsontv.com##.event__odds_container_v
 livesportsontv.com##.site-info
 livesportsontv.com##img[alt^="standby"][decoding="async"]
+
+! Lord Latifi Streams
+latifistreams.com##.ad
 
 ! Lyrical Nonsense
 lyrical-nonsense.com##.clearbelow
@@ -1229,6 +1238,16 @@ theindex.moe##div[class^="SupportBanner_banner"]
 ! The Kroger Company
 fredmeyer.com##.overflow-hidden:style(overflow: auto !important;)
 
+! theScore
+thescore.com##button[class^="GetTheAppModal__getTheAppButton"]
+thescore.com##div[class^="ArticleLeagueRiver__adContainer"]
+thescore.com##div[class^="ArticleLeagueRiver__bigBoxAdContainer"]
+thescore.com##div[class^="ArticleLeagueRiver__wrapAdContainer"]
+thescore.com##div[class^="LeagueRiver__adContainer"]
+thescore.com##div[class^="LeagueRiver__bigBoxAdContainer"]
+thescore.com##div[class^="LeagueRiver__wrapAdContainer"]
+thescore.com##div[class^="MobileBannerAd__mobileBannerAd"]
+
 ! TheTVApp
 thetvapp.to##.text-success:has-text(Now, you can Screen Cast or AirPlay from your Phone to your TV)
 thetvapp.to##div > p > a[href$="/thetvsub-iptv-service-sign-up/"]
@@ -1245,8 +1264,8 @@ tinyurl.*##.container:has-text(Have Your Ads Here)
 titantv.com##div[id$="cookieNotice"]
 
 ! Tonkiang
-tonkiang.us##body > div > .tables > .result > .adsbygoogle:upward(1)
 tonkiang.us##body > div > div > .fd
+tonkiang.us##body > div > div > .result > .adsbygoogle:upward(1)
 
 ! TROYPOINT
 troypoint.com##.mysticky-welcomebar-fixed
@@ -1266,7 +1285,11 @@ tuta.com##button[title="Show help"]
 tvyan.com##.lian
 
 ! TV247
-tv247.us##.jw-logo
+tv247.us##.tv247-content_2
+tv247.us,tv247us.com##.jw-logo
+tv247.us,tv247us.com##div[style*="z-index"]
+tv247.us,tv247us.com##div[style*="z-index"]:remove()
+tv247us.com##.tv247-after
 
 ! TVB
 tvb.com##.tvb-cookies
