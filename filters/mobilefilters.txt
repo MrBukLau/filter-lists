@@ -404,7 +404,6 @@ theundefeated.com##.ad-prevent-jump
 ! theScore
 thescore.com###app-container > div:nth-child(2)
 thescore.com##.the-score-article-ad-unit
-thescore.com##button[class^="GetTheAppModal__getTheAppButton"]
 
 ! Ticketmaster
 ticketmaster.com##.mobile-terms-of-use-notification
