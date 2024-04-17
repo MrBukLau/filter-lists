@@ -444,6 +444,7 @@ dropbox.com##.maestro-prompt-portal
 dropbox.com##.prompt-header-link--preview
 dropbox.com##button[aria-label="Help and resources"][data-testid="learning-center-button"][data-uxa-log="gh_help_trigger"]
 dropbox.com##div[class^="_toolkit-link_"]:has-text(/upgrade/i)
+dropbox.com##div[data-testid="bottom-drawer_container"] > div[class^="_bottom-drawer-inner_"] > div > div[data-testid="drawer-banner-container"] > div[class^="dig-Banner _shareBanner_"][role="alert"]
 dropbox.com##div[data-uxa-log="account_upgrade_link"][role="menuitem"]
 dropbox.com##div[data-uxa-log="gh_account-menu_select-install"][role="menuitem"]
 dropbox.com,dropboxforum.com###consent-iframe
@@ -718,6 +719,9 @@ languagetool.org##.header-banner
 ! Lanzhou University
 iptv.luas.edu.cn###adv
 
+! LaoTV
+laotv.la##.download-app_container
+
 ! Leak
 leak.sx##.alert
 leak.sx##body > main > div:first-child:has(script[type="text/javascript"])
@@ -770,6 +774,8 @@ mlssoccer.com##section[data-block-type="alert"]
 timbers.com###podium-website-widget
 
 ! MangaDex
+mangadex.org###mangadex-needs-your-support:upward(.page-container > .swiper)
+mangadex.org##.miku-menu
 mangadex.org##.u-scrollButtons
 
 ! Mangakakalot
@@ -1181,7 +1187,7 @@ open.spotify.com#@#div > div[aria-live="polite"]
 stackoverflow.com###js-ai-search-alpha-popover
 
 ! StatMuse
-statmuse.com##astro-island[component-url*="aditude-ad-banner"]
+statmuse.com##astro-island[component-url*="aditude-ad-"]
 
 ! Stream-Link
 stream-link.org##.container-clock
@@ -1336,6 +1342,14 @@ venmo.com##.organisms-layoutContainer-desktopWrapper
 ! VideoHelp
 videohelp.com###thisisatest
 videohelp.com##.grecaptcha-badge
+
+! VIP Streams
+vipstreams.in##a[style*="z-index"]
+vipstreams.in##a[style*="z-index"]:remove()
+vipstreams.in##div[style*="z-index"]
+vipstreams.in##div[style*="z-index"]:remove()
+vipstreams.in##iframe[src="about:blank"]
+vipstreams.in##iframe[src="about:blank"]:remove()
 
 ! VKontakte
 vk.com###box_layer_bg
