@@ -293,6 +293,9 @@ buzzfeednews.com##.subbuzz-bfp--related_links
 buzzfeednews.com##div[class^="desktop-sticky-ad_desktopStickyAdWrapper__"]
 buzzfeednews.com##section[aria-labelledby="bottom-recirc-title"]
 
+! CallOfLiberty TV
+callofliberty.fr##img[alt^="CallOfliberty TV"][src="/CallOfLiberty.png"]
+
 ! CamelCamelCamel
 camelcamelcamel.com###camelizer_top_promo
 camelcamelcamel.com###primeheader
@@ -447,6 +450,7 @@ dropbox.com##div[class^="_toolkit-link_"]:has-text(/upgrade/i)
 dropbox.com##div[data-testid="bottom-drawer_container"] > div[class^="_bottom-drawer-inner_"] > div > div[data-testid="drawer-banner-container"] > div[class^="dig-Banner _shareBanner_"][role="alert"]
 dropbox.com##div[data-uxa-log="account_upgrade_link"][role="menuitem"]
 dropbox.com##div[data-uxa-log="gh_account-menu_select-install"][role="menuitem"]
+dropbox.com##div[role="tooltip"]
 dropbox.com,dropboxforum.com###consent-iframe
 
 ! Drugs
@@ -691,15 +695,24 @@ agfinancia.info,itdmusic.top###footer
 agfinancia.info,itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
 itdmusic.top##.commentcount
+itdmusics.com##+js(acs, __CF$cv$params)
 itdmusics.com##+js(acs, advadsTracker)
+itdmusics.com##+js(acs, advanced_ads_adsense_UID)
+itdmusics.com##.background-cover
 itdmusics.com##.breaking-news
 itdmusics.com##.comment-avatar
-itdmusics.com##.e3lan-bottom
-itdmusics.com##.e3lan-post
 itdmusics.com##.home > .container > .content > center
 itdmusics.com##.itdmu-widget
 itdmusics.com##.share-post
+itdmusics.com##body > #main-content > .content > center:first-child
+itdmusics.com##body > #main-content > .content > center:first-child:remove()
+itdmusics.com##div[class^="e3lan-"]
+itdmusics.com##div[class^="e3lan-"]:remove()
 itdmusics.com##div[title="Scroll To Top"]
+itdmusics.com##iframe[height="1"][width="1"]
+itdmusics.com##iframe[height="1"][width="1"]:remove()
+itdmusics.com##iframe[style*="z-index"]
+itdmusics.com##iframe[style*="z-index"]:remove()
 itdmusics.com##span > a[href$="/premium-no-ads"]
 
 ! JD Sports
@@ -818,6 +831,7 @@ mojosakun.blogspot.com###HTML99
 mojosakun.blogspot.com###Image5
 mojosakun.blogspot.com###related-wrap
 mojosakun.blogspot.com##+js(acs, document.oncontextmenu)
+mojosakun.blogspot.com##.back-top
 mojosakun.blogspot.com##.post-nav
 mojosakun.blogspot.com##.post-share
 
@@ -997,6 +1011,8 @@ drive.proton.me##.spotlight
 proton.me##.sidebar > .app-infos > a[href*="upgrade"]
 proton.me##a[data-testid="cta:upgrade-plan"]
 proton.me##a[title="Go to subscription plans"]
+proton.me##button[data-testid="cta:upgrade-plan"]
+proton.me##button[title="Go to subscription plans"]
 proton.me##div[data-testid="auto-delete:banner"]
 proton.me##div[data-testid="promotion-banner"]
 
