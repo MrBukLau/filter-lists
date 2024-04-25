@@ -197,6 +197,8 @@ open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(/About rec
 open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(/Follow|Following/)
 open.spotify.com##.main-view-container__mh-footer-container
 open.spotify.com##.rQ6LXqVlEOGZdGIG0LgP[role="presentation"]:has-text(/About recommendations|Add to playlist|Add to profile|Add to queue|Create folder|Create playlist|Go to artist radio|Go to playlist radio|Go to song radio|Open in Desktop app|Report|Save to Your Episodes|Save to your Liked Songs/)
+open.spotify.com##.VgSbatGBB9XwTH2_dsxg > button[aria-label="Go back"][data-testid="top-bar-back-button"]:upward(1)
+open.spotify.com##.VgSbatGBB9XwTH2_dsxg > button[aria-label="Go forward"][data-testid="top-bar-forward-button"]:upward(1)
 open.spotify.com##aside[aria-label="Now playing view"]
 open.spotify.com##button[aria-label="Add to Liked Songs"]
 open.spotify.com##button[aria-label="Create playlist or folder"]
