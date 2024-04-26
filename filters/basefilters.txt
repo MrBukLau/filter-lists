@@ -695,6 +695,9 @@ agfinancia.info,itdmusic.top###footer
 agfinancia.info,itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
 itdmusic.top##.commentcount
+itdmusics.com###sidebar > .widget > #text-html-widget-2 > .widget-top:first-child:has-text(Password):style(padding-top: 20px !important;)
+itdmusics.com###sidebar > .widget > .widget-top:first-child
+itdmusics.com###sidebar > .widget > .widget-top:first-child + .widget-container:has(script[src*="ads.php"])
 itdmusics.com##+js(acs, __CF$cv$params)
 itdmusics.com##+js(acs, advadsTracker)
 itdmusics.com##+js(acs, advanced_ads_adsense_UID)
@@ -702,7 +705,6 @@ itdmusics.com##.background-cover
 itdmusics.com##.breaking-news
 itdmusics.com##.comment-avatar
 itdmusics.com##.home > .container > .content > center
-itdmusics.com##.itdmu-widget
 itdmusics.com##.share-post
 itdmusics.com##body > #main-content > .content > center:first-child
 itdmusics.com##body > #main-content > .content > center:first-child:remove()
