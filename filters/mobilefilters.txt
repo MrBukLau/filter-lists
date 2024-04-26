@@ -192,6 +192,9 @@ imgur.com##.Gallery-EngagementBar
 imgur.com##.MainContainer > div > .UploadSpinner-contentWrapper > .FastGrid > .Grid-column > div[id^="Col-Child-Imgur/Home/InContent/"]:has(.fast-grid-ad)
 imgur.com##.MainContainer > div > .UploadSpinner-contentWrapper > .FastGrid > .Grid-column > div[id^="Col-Child-Imgur/Post/InContent/"]:has(.fast-grid-ad)
 
+! iTD Music
+itdmusics.com##.itdmu-widget
+
 ! J Brand
 jbrandjeans.com##.modal-cookie
 
@@ -209,6 +212,10 @@ livesoccertv.com##.ads-container
 
 ! Major League Baseball
 mlb.com##.ad
+
+! MangaDex
+mangadex.org##body > div > div > div > div > div > div[class^="expander"]:has-text(MangaDex needs your support)
+mangadex.org##body > div > div[class^="fixed"]:has-text(MangaDex needs your support)
 
 ! Mayo Clinic
 mayoclinic.org###kampyleButtonContainer
