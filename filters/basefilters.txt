@@ -315,6 +315,7 @@ capitalizemytitle.com##slick-heartbeat
 cbssports.com###cbs-site-nav:style(top: 0px !important;)
 cbssports.com###cps-shaman-notifier
 cbssports.com###fixed-skybox-placeholder
+cbssports.com###onetrust-consent-sdk
 cbssports.com###skybox-top-wrapper
 cbssports.com##+js(rc, PageLayout--videoRail, main[class="PageLayout PageLayout--videoRail"], stay)
 cbssports.com##.AdBlock
@@ -791,7 +792,9 @@ timbers.com###podium-website-widget
 ! MangaDex
 mangadex.org###mangadex-needs-your-support:upward(.page-container > .swiper)
 mangadex.org##.miku-menu
+mangadex.org##.nav-bar > a[href="/support-us"]
 mangadex.org##.u-scrollButtons
+mangadex.org##body > div > div[class^="fixed"]:has-text(MangaDex needs your support)
 
 ! Mangakakalot
 mangakakalot.com###top
@@ -1007,6 +1010,10 @@ platinsport.com##+js(acs, document.oncontextmenu)
 
 ! PlayerVipMaster
 playervipmaster.com##.fa-twitter
+
+! Presearch
+presearch.com##.socialIconsColor
+presearch.com##div[x-init^="showAdInfo"]
 
 ! Proton
 drive.proton.me##.spotlight
