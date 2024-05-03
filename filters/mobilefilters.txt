@@ -215,7 +215,6 @@ mlb.com##.ad
 
 ! MangaDex
 mangadex.org##body > div > div > div > div > div > div[class^="expander"]:has-text(MangaDex needs your support)
-mangadex.org##body > div > div[class^="fixed"]:has-text(MangaDex needs your support)
 
 ! Mayo Clinic
 mayoclinic.org###kampyleButtonContainer
@@ -269,6 +268,7 @@ platt.com##main[class="v-main"][style="padding: 188px 0px 0px;"]:style(padding: 
 
 ! Presearch
 presearch.com##.extension-notice
+presearch.com##div[x-data^="ptaBannerMobile"]
 
 ! Quora
 quora.com##.qu-bg--poe_primary_purple:has-text(Ask AI bots any question on Poe, a free app by Quora)
