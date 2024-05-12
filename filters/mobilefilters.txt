@@ -160,6 +160,7 @@ google.com##div[jsaction="rcuQ6b:npT2md"][jscontroller="OPwjEf"][role="section"]
 google.com##div[jsaction="rcuQ6b:npT2md"][jscontroller="R87u2"]
 google.com##div[jsaction="Y2XUzc:Fs7Xzc"][jscontroller="dve5w"][jsname="hK5Dwd"]
 google.com##ios-safari-home-screen-icon-banner
+google.com##promo-bottom-tout
 google.com##span[jsaction^="I9owB"][jsname="EFexIf"]
 
 ! Gopuff
