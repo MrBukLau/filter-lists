@@ -155,6 +155,7 @@ abcnews.go.com##.taboola
 oregonlive.com###messageStripContainer
 oregonlive.com##.advToprail__right-corner--subscribe
 oregonlive.com##.alert-bar--news-promo
+oregonlive.com##.article__story > .entry-content > #inarticle-2:has(iframe[id^="offer"])
 oregonlive.com##.main-wrapper--article > .article__header > .articleLabel:style(padding-top: 24px !important;)
 oregonlive.com##.main-wrapper--article > .main article__story > .article > .article__story > .entry-content > section[class^="Stories-By-Section-Tag-module_wrapper__"]
 oregonlive.com##.page-type__article > .main-wrapper--article > .main > .article > ul > li > amp-social-share:upward(2)
@@ -168,6 +169,7 @@ oregonlive.com##.rollcall
 oregonlive.com##.sharebar
 oregonlive.com##.sharebar__bookmark--tooltip
 oregonlive.com##.skimlinks
+oregonlive.com##body > div > .bottom-fixed-modal:has(iframe[id^="offer"])
 oregonlive.com##body > div > .footer > .footer:style(border-top: none !important; padding-top: 0px !important;)
 
 ! AESport
@@ -518,6 +520,10 @@ flightaware.com###onetrust-consent-sdk
 
 ! fliPaX
 18301.foroactivo.com##+js(acs, document.oncontextmenu)
+
+! FlowStreams
+flowstreams.cx##.alert:has-text(de.flowstreams.cx)
+flowstreams.cx##.alert:has-text(streamed.su)
 
 ! FORJA
 forja.me##.media-control-layer > .media-control-right-panel > button[aria-label="hd-indicator"]
