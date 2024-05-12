@@ -176,6 +176,8 @@ old.reddit.com##:matches-path(/r/freebies/)body > #header > #header-bottom-left 
 old.reddit.com##:matches-path(/r/freebies/)body > .content:style(margin-top: 1rem !important;)
 old.reddit.com##:matches-path(/r/freebies/)body > .side > .spacer > .titlebox > form > div > .md > blockquote > ol:has-text(Sort by Region):style(position: static !important;)
 old.reddit.com##:matches-path(/r/freebies/)body > .side > .spacer > .titlebox > form > div > .md > h4:has-text(Remember):style(position: static !important;)
+old.reddit.com##:matches-path(/r/hiphopheads/)body > #header > #header-bottom-left > .pagename:style(top: auto !important;)
+old.reddit.com##:matches-path(/r/hiphopheads/)body > #header > #header-bottom-left > .tabmenu:style(top: 135px !important;)
 old.reddit.com##:matches-path(/r/soccer/)body > #header > #header-bottom-left > .pagename:style(top: 0px !important;)
 old.reddit.com##:matches-path(/r/soccer/)body > #header > #header-bottom-left > .tabmenu:style(top: 0px !important;)
 old.reddit.com##:matches-path(/r/soccer/)body > #header > #header-bottom-left:style(min-height: auto !important; padding-left: 0px !important;)
@@ -184,8 +186,10 @@ old.reddit.com##:matches-path(/r/soccer/)body > .side > .spacer > .titlebox > fo
 old.reddit.com##:matches-path(/r/sports/)body > .side > .spacer > .titlebox > form > div > .md > blockquote:first-child:style(top: 22px !important;)
 old.reddit.com##:matches-path(/r/timbers/)body > .side > .spacer > .titlebox > form > div > .md > h6:nth-child(3)
 old.reddit.com##:matches-path(/r/timbers/)body > .side:style(margin: 232px 16px 108px 0px !important;)
+old.reddit.com##:matches-path(/r/tmobile/)body > .side > .spacer > .titlebox > form > div > .md > h3:has-text(The Un-official subreddit of the Un-carrier):style(left: 25px !important;)
 old.reddit.com##:matches-path(/r/worldnews/)body > .side > .spacer > .titlebox > form > div > .md > blockquote:first-child > blockquote > blockquote:style(left: 0px !important; top: 30px !important;)
 old.reddit.com##body > #header > #header-bottom-left > a[id^="header-img"]
+old.reddit.com##body > .footer-parent
 old.reddit.com##body > .side::after
 old.reddit.com##body > .side::before
 old.reddit.com##div[class="sidebox submit submit-link"]
