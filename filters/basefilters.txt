@@ -552,8 +552,9 @@ gasbuddy.com###gb-promo-pay-and-app
 gasbuddy.com##div > div[class^="Ad-modules__adContainer__"]:upward(1)
 
 ! GDPlayer TV
-gdplayer.tv##+js(acs, devtoolsDetector)
-gdplayer.tv##+js(acs, myLazyLoad)
+gdplayertv.to##+js(acs, devtoolsDetector)
+gdplayertv.to##+js(acs, myLazyLoad)
+gdplayertv.to##.alert
 
 ! Gem Streams
 gemstreams.com##body > div > main > div > div > .chat-box:upward(1)
@@ -1026,6 +1027,7 @@ drive.proton.me##.spotlight
 proton.me##.sidebar > .app-infos > a[href*="upgrade"]
 proton.me##a[data-testid="cta:upgrade-plan"]
 proton.me##a[title="Go to subscription plans"]
+proton.me##button[data-testid="cta:special-offer"]
 proton.me##button[data-testid="cta:upgrade-plan"]
 proton.me##button[title="Go to subscription plans"]
 proton.me##div[data-testid="auto-delete:banner"]
