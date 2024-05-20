@@ -64,6 +64,7 @@ reddit.com##.subredditunit
 reddit.com##.topnav__loginbutton
 reddit.com##.zo-dkbkklryqjrxwll0ui
 reddit.com##a[href="https://www.reddit.com/message/messages"]
+reddit.com##award-button
 reddit.com##button[class="action last"][href]
 reddit.com##button[slot="overflowButton"]
 reddit.com##button[slot="share"]
