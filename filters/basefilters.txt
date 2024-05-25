@@ -17,10 +17,7 @@
 ##div[aria-label="cookieconsent"]
 
 ! Network Filters
-*/prod/ngo.html?lu=https%3A%2F%2F$all
 *ModalEngage$script,domain=oregonlive.com
-*pl=https%3A%2F%2Ficelz.net%2F$all
-*pl=https%3A%2F%2Ficelz.newsrade.com%2F$all
 @@||agfinancia.info^$generichide
 @@||cookielaw.org^$3p
 @@||thapcam.net/1.gif$image,domain=thapcam.net
@@ -522,8 +519,8 @@ flightaware.com###onetrust-consent-sdk
 18301.foroactivo.com##+js(acs, document.oncontextmenu)
 
 ! FlowStreams
-flowstreams.cx##.alert:has-text(de.flowstreams.cx)
-flowstreams.cx##.alert:has-text(streamed.su)
+flowstreams.*##.alert:has-text(flowstreams)
+flowstreams.*##.alert:has-text(streamed)
 
 ! FORJA
 forja.me##.media-control-layer > .media-control-right-panel > button[aria-label="hd-indicator"]
@@ -655,26 +652,26 @@ hkdvb.com##a[href="https://t.me/hkanime"] + br
 hkdvb.com##a[href="https://t.me/hkanime"] + br + br
 
 ! Icelz
-icelz.newsrade.com##+js(acs, ConsoleBan)
-icelz.newsrade.com##+js(acs, https://bit.ly/3R6YyKP)
-icelz.newsrade.com##+js(acs, prototype.ban)
-icelz.newsrade.com##.bmpui-label-metadata-description:style(opacity: 0 !important;)
-icelz.newsrade.com##.bmpui-label-metadata-title:style(opacity: 0 !important;)
-icelz.newsrade.com##.sharethis-inline-share-buttons
-icelz.newsrade.com##a[style*="-1000px;"]
-icelz.newsrade.com##a[style*="-1000px;"]:remove()
-icelz.newsrade.com##a[style*="z-index"]
-icelz.newsrade.com##a[style*="z-index"]:remove()
-icelz.newsrade.com##div[style*="z-index"]
-icelz.newsrade.com##div[style*="z-index"]:remove()
-icelz.newsrade.com##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
-icelz.newsrade.com##iframe[src="about:blank"]
-icelz.newsrade.com##iframe[src="about:blank"]:remove()
-icelz.newsrade.com##iframe[style*="-1000px;"]
-icelz.newsrade.com##iframe[style*="-1000px;"]:remove()
-icelz.newsrade.com##in-page-message
-icelz.newsrade.com##in-page-message:remove()
-icelz.newsrade.com##script[adformat]:remove()
+icelz.to##+js(acs, ConsoleBan)
+icelz.to##+js(acs, https://bit.ly/3R6YyKP)
+icelz.to##+js(acs, prototype.ban)
+icelz.to##.bmpui-label-metadata-description:style(opacity: 0 !important;)
+icelz.to##.bmpui-label-metadata-title:style(opacity: 0 !important;)
+icelz.to##.sharethis-inline-share-buttons
+icelz.to##a[style*="-1000px;"]
+icelz.to##a[style*="-1000px;"]:remove()
+icelz.to##a[style*="z-index"]
+icelz.to##a[style*="z-index"]:remove()
+icelz.to##div[style*="z-index"]
+icelz.to##div[style*="z-index"]:remove()
+icelz.to##footer:has-text(Watch Live Sports and Television online Streaming Entertainment from Top TV Channels)
+icelz.to##iframe[src="about:blank"]
+icelz.to##iframe[src="about:blank"]:remove()
+icelz.to##iframe[style*="-1000px;"]
+icelz.to##iframe[style*="-1000px;"]:remove()
+icelz.to##in-page-message
+icelz.to##in-page-message:remove()
+icelz.to##script[adformat]:remove()
 
 ! IKEA
 ikea.com##.hnf-messages
