@@ -19,7 +19,7 @@ This repository contains filter lists that can be added to content blockers, suc
 
 ## Getting Started
 ### Installation
-#### AdGuard on Safari (Mobile - iOS 15 or Above)
+#### AdGuard on Apple Safari (Mobile - iOS 15 or Above)
 1. Download [AdGuard][AdGuard App Store Link] or [AdGuard Pro][AdGuard Pro App Store Link] from the App Store (Buy a subscription if downloading the free version)
 2. Open the AdGuard application and go to the Protection section
     <br>
@@ -38,8 +38,8 @@ This repository contains filter lists that can be added to content blockers, suc
     6a. Turn on the use of "Custom" filters by tapping the toggle button
     <br>
     6b. Add a filter list from this repository to AdGuard by clicking on the "Add a filter" button, pasting the raw GitHub link from this repository into the "Filter URL" field, clicking on the "Next" button, and clicking on the "Add" button after reviewing the prompt to confirm that it is the correct filter list
-#### uBlock Origin on Google Chrome (Desktop)
-1. Download the uBlock Origin extension from the [Chrome Web Store][uBlock Origin Chrome Web Store Link] or [GitHub][uBlock Origin GitHub Link]
+#### uBlock Origin on Mozilla Firefox (Desktop)
+1. Download the uBlock Origin extension from [Firefox][uBlock Origin Firefox Link] or [GitHub][uBlock Origin GitHub Link]
 2. After downloading and installing the extension, follow this [guide][uBlock Origin Filter Guide Link] to manually import a filter list from this repository to uBlock Origin or click on any of the **"Subscribe"** buttons below to automatically add a filter list to uBlock Origin
     <br>
     2a. If [MrBukLau's Scriptlet Filters][Scriptlet Filter] is chosen to be imported to uBlock Origin, [MrBukLau's Scriptlets][Scriptlet File Link] also has to be imported to uBlock Origin, so follow this [guide][uBlock Origin Scriptlet Guide Link] to learn how to add this scriptlet file to uBlock Origin
@@ -49,10 +49,10 @@ No further actions are necessary. After adding a filter list from this repositor
 ## Available Filter Lists
 | **Filter Lists** | **Links** | **Information** |
 |:-----------------|:----------|:----------------|
-| **[Base][Base Filter]** | **Raw:** <br> [Click Here][Base Raw] <br><br> **Subscribe:** <br> [Click Here][Base Subscription] | **Description:** <br> This filter list is for removing annoyances on various websites. <br><br> **Disclaimer:** <br> These filters were only tested on Google Chrome for desktop and Safari for iOS, which means that they may or may not work on other web browsers. <br><br> **Key Filters:** <br> - Eliminate annoying pop-under and pop-up advertisements on various websites <br> - Hide donation, premium, and subscription banners on various websites <br> - Remove useless URL parameters on Google Search and other websites
+| **[Base][Base Filter]** | **Raw:** <br> [Click Here][Base Raw] <br><br> **Subscribe:** <br> [Click Here][Base Subscription] | **Description:** <br> This filter list is for removing annoyances on various websites. <br><br> **Disclaimer:** <br> These filters were only tested on Firefox for desktop and Safari for iOS, which means that they may or may not work on other web browsers. <br><br> **Key Filters:** <br> - Eliminate annoying pop-under and pop-up advertisements on various websites <br> - Hide donation, premium, and subscription banners on various websites <br> - Remove useless URL parameters on Google Search and other websites
 | **[Mobile][Mobile Filter]** | **Raw:** <br> [Click Here][Mobile Raw] <br><br> **Subscribe:** <br> [Click Here][Mobile Subscription] | **Description:** <br> This filter list is for removing annoyances on various mobile websites. <br><br> **Disclaimer:** <br> These filters were only tested on Safari for iOS, which means that they may or may not work on other web browsers. This filter list works better when it is used together with [MrBukLau's Base Filters][Base Filter]. When using this filter list on an Apple device, please make sure to enable "Advanced Protection" in AdGuard. Also, please make sure that Apple device is running at least iOS 15.4. <br><br> **Key Filters:** <br> - Disable Accelerated Mobile Pages on iOS <br> - Hide annoyances on Reddit's mobile website <br> - Remove Smart App Banners on every website for iOS
-| **[Personal][Personal Filter]** | **Raw:** <br> [Click Here][Personal Raw] <br><br> **Subscribe:** <br> [Click Here][Personal Subscription] | **Description:** <br> This filter list is for removing designs and features on various websites that I consider to be useless but could be useful to other people, meaning that these filters are only beneficial to me. <br><br> **Disclaimer:** <br> These filters were only tested on Google Chrome for desktop and Safari for iOS, which means that they may or may not work on other web browsers. This filter list works better when it is used together with [MrBukLau's Base Filters][Base Filter] and [MrBukLau's Mobile Filters][Mobile Filter]. <br><br> **Key Filters:** <br> - Disable login and comment buttons on various websites <br> - Force a variety of websites to have a minimalistic style <br> - Hide account-only features and tools on various websites
-| **[Scriptlet][Scriptlet Filter]** | **Raw:** <br> [Click Here][Scriptlet Raw] <br><br> **Subscribe:** <br> [Click Here][Scriptlet Subscription] | **Description:** <br> This filter list is for using [MrBukLau's Scriptlets][Scriptlet File Link] in uBlock Origin. <br><br> **Disclaimer:** <br> These filters were only tested on Google Chrome for desktop, which means that they may or may not work on other web browsers. This filter list works better when it is used together with [MrBukLau's Base Filters][Base Filter]. To view the raw file of the actual scriptlets, click on this [link][Scriptlet Raw File Link]. <br><br> **Key Filters:** <br> - Bypass a variety of URL shorteners <br> - Redirect regular Reddit links to Old Reddit <br> - View YouTube Shorts in the normal player
+| **[Personal][Personal Filter]** | **Raw:** <br> [Click Here][Personal Raw] <br><br> **Subscribe:** <br> [Click Here][Personal Subscription] | **Description:** <br> This filter list is for removing designs and features on various websites that I consider to be useless but could be useful to other people, meaning that these filters are only beneficial to me. <br><br> **Disclaimer:** <br> These filters were only tested on Firefox for desktop and Safari for iOS, which means that they may or may not work on other web browsers. This filter list works better when it is used together with [MrBukLau's Base Filters][Base Filter] and [MrBukLau's Mobile Filters][Mobile Filter]. <br><br> **Key Filters:** <br> - Disable login and comment buttons on various websites <br> - Force a variety of websites to have a minimalistic style <br> - Hide account-only features and tools on various websites
+| **[Scriptlet][Scriptlet Filter]** | **Raw:** <br> [Click Here][Scriptlet Raw] <br><br> **Subscribe:** <br> [Click Here][Scriptlet Subscription] | **Description:** <br> This filter list is for using [MrBukLau's Scriptlets][Scriptlet File Link] in uBlock Origin. <br><br> **Disclaimer:** <br> These filters were only tested on Firefox for desktop, which means that they may or may not work on other web browsers. This filter list works better when it is used together with [MrBukLau's Base Filters][Base Filter]. To view the raw file of the actual scriptlets, click on this [link][Scriptlet Raw File Link]. <br><br> **Key Filters:** <br> - Bypass a variety of URL shorteners <br> - Redirect regular Reddit links to Old Reddit <br> - View YouTube Shorts in the normal player
 
 ## Special Thanks
 ### For Creating the Original Filters, Scriptlets, and Userscripts
@@ -90,7 +90,7 @@ No further actions are necessary. After adding a filter list from this repositor
 [AdGuard App Store Link]: https://apps.apple.com/app/id1047223162
 [AdGuard Pro App Store Link]: https://apps.apple.com/app/id1126386264
 [AdGuard Website Link]: https://adguard.com/
-[uBlock Origin Chrome Web Store Link]: https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm
+[uBlock Origin Firefox Link]: https://addons.mozilla.org/addon/ublock-origin/
 [uBlock Origin GitHub Link]: https://github.com/gorhill/uBlock
 
 <!-- Filter Lists -->
