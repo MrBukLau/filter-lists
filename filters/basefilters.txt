@@ -32,7 +32,7 @@
 ||jsdelivr.net/*/sconsole-ban.min.js
 ||katu.com/api/rest/audience/more
 ||kgw.com/ajax/content/cscroll
-||maxtv.one/wp-content/plugins/wpshield-content-protector
+||mhd*tv*.*/wp-content/plugins/*.js?ver
 ||mhd*tv*.*/wp-content/uploads/*.js?ver
 ||tv.vnoo.net/*/devtools-detector.js
 
@@ -519,8 +519,7 @@ flightaware.com###onetrust-consent-sdk
 18301.foroactivo.com##+js(acs, document.oncontextmenu)
 
 ! FlowStreams
-flowstreams.*##.alert:has-text(flowstreams)
-flowstreams.*##.alert:has-text(streamed)
+flowstreams.*##.alert
 
 ! FORJA
 forja.me##.media-control-layer > .media-control-right-panel > button[aria-label="hd-indicator"]
@@ -571,6 +570,7 @@ github.com##.flash-warn:has-text(Sign in to comment)
 github.com##.js-hovercard-content
 github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 github.com##.Popover-message:has-text(Sign in to GitHub)
+github.com##global-banner
 
 ! Goal
 goal.com##div[class^="newsletter-popup-"]:upward(1)
@@ -815,6 +815,9 @@ mayoclinic.org##div[class="contentbox no-border"] > script[src="/~/media/kcms/ux
 mayoclinic.org##div[data-hydrate$="/footer/promo-content"]
 mayoclinic.org##div[id^="redpoint_emailform_"]
 
+! McDonald's
+mcdonalds.com###usTnCBanner
+
 ! Mega Deportes TV
 megadeportestv.online##+js(acs, document.oncontextmenu)
 
@@ -1015,6 +1018,9 @@ platinsport.com##+js(acs, document.oncontextmenu)
 ! PlayerVipMaster
 playervipmaster.com##.fa-twitter
 
+! Plex
+plex.tv##div[class^="BannerContent_bannerContainer__"]
+
 ! Presearch
 presearch.com##.socialIconsColor
 presearch.com##div[x-init^="showAdInfo"]
@@ -1056,6 +1062,7 @@ realbitsport.com##.clappr-watermark
 ! Reddit
 old.reddit.com##+js(ra, data-outbound-url, .outbound)
 old.reddit.com##+js(set, Object.prototype.allowClickTracking, false)
+old.reddit.com##.debuginfo
 old.reddit.com##.premium-banner-outer
 old.reddit.com##.read-next-container
 old.reddit.com##.redesign-beta-optin
@@ -1346,9 +1353,7 @@ tvzb.com###scrolltop
 twitch.tv##.tw-callout-message:upward(.stream-chat > .chat-room > .chat-room__content > .chat-input > div[class^="Layout-sc-"])
 
 ! Twitter
-twitter.com##[aria-label$="trending now" i]
-twitter.com##[aria-label="who to follow" i]:upward(1)
-twitter.com##div[data-testid="BottomBar"]
+twitter.com,x.com##div[data-testid="BottomBar"]
 
 ! UHDMovies
 oddfirm.com##+js(nano-sib)
