@@ -22,6 +22,7 @@
 @@||cookielaw.org^$3p
 @@||thapcam.net/1.gif$image,domain=thapcam.net
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
+||accounts.google.com/gsi/*$xhr,script,3p
 ||amillionads.com$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
 ||chaojizhibo.net/*/disable-devtool.js
 ||jsdelivr.net/*/console-ban.min.js
@@ -34,6 +35,8 @@
 ||kgw.com/ajax/content/cscroll
 ||mhd*tv*.*/wp-content/plugins/*.js?ver
 ||mhd*tv*.*/wp-content/uploads/*.js?ver
+||nowmetv.com/wp-content/plugins/*.js?ver
+||nowmetv.com/wp-content/uploads/*.js?ver
 ||tv.vnoo.net/*/devtools-detector.js
 
 ! URL Parameter Filters
@@ -1218,6 +1221,7 @@ open.spotify.com##button[aria-label="Upgrade to Premium"]
 open.spotify.com##div[aria-label="In-App Message Modal"]:upward(.ReactModalPortal)
 open.spotify.com##div[data-testid="signup-bar"]
 open.spotify.com##div[data-testid="signup-bar"]:upward(.Root__now-playing-bar)
+open.spotify.com##ul[role="menu"] > li[role="presentation"] > a[href^="https://www.spotify.com/premium/"][role="menuitem"]
 open.spotify.com#@#div > div[aria-live="polite"]
 
 ! Stack Overflow
