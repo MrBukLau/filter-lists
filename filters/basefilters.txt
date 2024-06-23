@@ -221,6 +221,10 @@ aniwave.tv##+js(ra, target, ul > li > a[href], stay)
 ! Anna's Archive
 annas-archive.org##.js-top-banner
 
+! Antik TV
+antiktv.sk###cc-main
+antiktv.sk##.webtv-popup
+
 ! AppDB
 appdb.to##.app::before
 appdb.to##.banner
@@ -1236,6 +1240,9 @@ stream-link.org##body > div[style="width:300px"]:style(width: 100% !important;)
 
 ! StreamCheck
 streamcheck.link##+js(nano-sib)
+
+! Streamed
+streamed.su##section[aria-label="Notifications alt+T"]
 
 ! TaiwanPlus
 taiwanplus.com###downloadAppMsg
