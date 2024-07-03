@@ -171,6 +171,7 @@ old.reddit.com##.flat-list > .share
 old.reddit.com##.flat-list > li > .embed-comment:upward(1)
 old.reddit.com##.flat-list > li > .hide-button:upward(1)
 old.reddit.com##.sidecontentbox:has-text(MODERATORS):has(.message-button:has-text(message the mods))
+old.reddit.com##.subscribe-button
 old.reddit.com##.users-online:style(margin-top: 0.25em !important;)
 old.reddit.com##:matches-path(/r/Chromecast/)body > #header > #header-bottom-left:style(position: static !important;)
 old.reddit.com##:matches-path(/r/freebies/)body > #header > #header-bottom-left > .tabmenu:style(margin-left: 0px !important;)
@@ -188,9 +189,11 @@ old.reddit.com##:matches-path(/r/soccer/)body > .side > .spacer > .titlebox > fo
 old.reddit.com##:matches-path(/r/sports/)body > .side > .spacer > .titlebox > form > div > .md > blockquote:first-child:style(top: 22px !important;)
 old.reddit.com##:matches-path(/r/timbers/)body > .side > .spacer > .titlebox > form > div > .md > h6:nth-child(3)
 old.reddit.com##:matches-path(/r/timbers/)body > .side:style(margin: 232px 16px 108px 0px !important;)
+old.reddit.com##:matches-path(/r/tmobile/)body > .side > .spacer > .titlebox > form > div > .md > h3:first-child:style(left: 25px !important;)
 old.reddit.com##:matches-path(/r/tmobile/)body > .side > .spacer > .titlebox > form > div > .md > h3:has-text(The Un-official subreddit of the Un-carrier):style(left: 25px !important;)
 old.reddit.com##:matches-path(/r/worldnews/)body > .side > .spacer > .titlebox > form > div > .md > blockquote:first-child > blockquote > blockquote:style(left: 0px !important; top: 30px !important;)
 old.reddit.com##body > #header > #header-bottom-left > a[id^="header-img"]
+old.reddit.com##body > .content > #siteTable > .nav-buttons > .nextprev:style(padding-bottom: 36px;)
 old.reddit.com##body > .footer-parent
 old.reddit.com##body > .side::after
 old.reddit.com##body > .side::before
