@@ -232,6 +232,7 @@ appdb.to##.vue-notification-group
 
 ! Apple
 discussions.apple.com##div[data-action="welcome-toast"][role="status"]
+embed.music.apple.com##embed-legal-link
 embed.music.apple.com##embed-upsell-overlay
 music.apple.com###ck-container:has(iframe[src^="/includes/commerce/subscribe"])
 music.apple.com##.commerce-modal-container:upward(.portal)
@@ -420,6 +421,7 @@ dazn.com##div[class^="cookie-disclaimer"]
 deepl.com###dl_cookieBanner
 deepl.com##div[data-testid="chrome-extension-toast"]
 deepl.com##div[data-testid="dl-cookieBanner"]
+deepl.com##div[data-testid="firefox-extension-toast"]
 
 ! Desklib
 desklib.com##.UGgiG3ep
@@ -866,10 +868,12 @@ musiclutter.xyz###check-also-box
 musiclutter.xyz###related_posts
 musiclutter.xyz###wpd-bubble-wrapper
 musiclutter.xyz###wpd-post-rating
+musiclutter.xyz##.relpost-thumb-wrapper
 musiclutter.xyz##a[style*="z-index"]
 musiclutter.xyz##a[style*="z-index"]:remove()
 musiclutter.xyz##iframe[src="about:blank"]
 musiclutter.xyz##iframe[src="about:blank"]:remove()
+musiclutter.xyz##iframe[src^="https://embed.music.apple.com/"]:style(margin-bottom: 36px !important;)
 
 ! MyAnimeList
 myanimelist.net###broadcast-block
@@ -1214,6 +1218,7 @@ xsportbox.com##iframe[style*="z-index"]:remove()
 
 ! SportSurge
 sportsurge.net##.HeaderUyari:upward(#__next > .container)
+sportsurge.net##a[title="streameast"]
 
 ! Spotify
 open.spotify.com###onetrust-consent-sdk
