@@ -740,7 +740,7 @@ jpopmix.com##.jeg_share_bottom_container
 jpopmix.com##.jnews_related_post_container
 
 ! Kwik
-kwik.cx##.plyr::after
+kwik.*##.plyr::after
 
 ! LanguageTool
 languagetool.org##.header-banner
