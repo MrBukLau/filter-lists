@@ -323,6 +323,7 @@ reddit.com##.xpromopill
 reddit.com##.xpromopopup
 reddit.com##.xpromopopuprpl
 reddit.com##.xpromopopuprplnew
+reddit.com##body:has(> shreddit-app > shreddit-async-loader[bundlename="app_selector"]):style(overflow: auto !important; pointer-events: auto !important;)
 reddit.com##body:style(overflow: auto !important; position: static !important; pointer-events: auto !important; touch-action: auto !important;)
 reddit.com##button[id$="-read-more-button"]
 reddit.com##div[class*="safe-area-inset-bottom"]
@@ -335,6 +336,7 @@ reddit.com##faceplate-tracker[noun="top_button"][source="xpromo"]
 reddit.com##img[class="_1VSyzeCqhLG-H2N68kAx9V _3UqAK6QeNaMYy-9jvRefdv"]:style(filter: none !important;)
 reddit.com##shreddit-ad-post
 reddit.com##shreddit-app:style(padding: var(--shreddit-header-height) 0rem 0rem !important;)
+reddit.com##shreddit-async-loader[bundlename="app_selector"]
 reddit.com##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
 reddit.com##shreddit-async-loader[bundlename="faceplate_alerts"]
 reddit.com##shreddit-async-loader[bundlename="nsfw_blocking_modal"]
@@ -400,7 +402,10 @@ t.me##.tgme_header_info > .tgme_channel_join_telegram
 ! Temu
 temu.com##body > div[class^="root-"] > div[class^="move-"] > div > div[aria-label="Cart"][role="button"][style^="transform"]
 temu.com##div[js-selector="mobile-download-ui"]:upward(1)
+temu.com##div[style="height: 0.66rem"]:style(height: auto !important;)
+temu.com##div[style="height: 0.66rem;"]:style(height: auto !important;)
 temu.com##div[style="height:0.66rem"]:style(height: auto !important;)
+temu.com##div[style="height:0.66rem;"]:style(height: auto !important;)
 
 ! Tenor
 tenor.com##.LanguageBanner
