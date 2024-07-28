@@ -419,6 +419,7 @@ dazn.com##div[class^="cookie-disclaimer"]
 
 ! DeepL
 deepl.com###dl_cookieBanner
+deepl.com##div[class="min-h-0 min-w-0 empty:hidden"] > div[class="bg-blue-next-100 flex items-start sm:items-center justify-center"]
 deepl.com##div[data-testid="chrome-extension-toast"]
 deepl.com##div[data-testid="dl-cookieBanner"]
 deepl.com##div[data-testid="firefox-extension-toast"]
@@ -689,7 +690,7 @@ ikea.com##.hnf-messages
 iknowwhatyoudownload.com##.footer
 
 ! IPInfo
-ipinfo.io##div[class="py-5 bg-green-01 border-b border-green-01"]:has-text(Join now)
+ipinfo.io##body > div > div > div[class="py-5 bg-green-01 border-b border-green-01"]
 
 ! IPTV
 iptv345.com###ad
@@ -709,9 +710,8 @@ agfinancia.info,itdmusic.top###footer
 agfinancia.info,itdmusic.top##+js(acs, document.oncontextmenu)
 itdmusic.top##+js(nano-sib)
 itdmusic.top##.commentcount
-itdmusics.com###sidebar > .widget > #text-html-widget-2 > .widget-top:first-child:has-text(Password):style(padding-top: 20px !important;)
-itdmusics.com###sidebar > .widget > .widget-top:first-child
-itdmusics.com###sidebar > .widget > .widget-top:first-child + .widget-container:has(script[src*="ads.php"])
+itdmusics.com###sidebar > #text-html-widget-2 > .widget-top:first-child:has-text(Password):style(padding-top: 20px !important;)
+itdmusics.com###sidebar > .search-widget + .widget
 itdmusics.com##+js(acs, __CF$cv$params)
 itdmusics.com##+js(acs, advadsTracker)
 itdmusics.com##+js(acs, advanced_ads_adsense_UID)
@@ -725,6 +725,7 @@ itdmusics.com##body > #main-content > .content > center:first-child:remove()
 itdmusics.com##div[class^="e3lan-"]
 itdmusics.com##div[class^="e3lan-"]:remove()
 itdmusics.com##div[title="Scroll To Top"]
+itdmusics.com##footer
 itdmusics.com##iframe[height="1"][width="1"]
 itdmusics.com##iframe[height="1"][width="1"]:remove()
 itdmusics.com##iframe[style*="z-index"]
@@ -878,6 +879,7 @@ musiclutter.xyz##iframe[src^="https://embed.music.apple.com/"]:style(margin-bott
 ! MyAnimeList
 myanimelist.net###broadcast-block
 myanimelist.net###gdpr-modal-bottom
+myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]
 myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]:upward(.border_bottom)
 myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]:upward(.news-unit)
 myanimelist.net##.ad-sas[data-ad-target][data-ad-id][data-ad-pid][data-ad-sid]:upward(div[style="padding: 20px 0px;display: inline-block;"])
