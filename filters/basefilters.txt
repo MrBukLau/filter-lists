@@ -832,6 +832,7 @@ mcdonalds.com###usTnCBanner
 megadeportestv.online##+js(acs, document.oncontextmenu)
 
 ! MethStreams
+methstreams.com##.footer
 methstreams.com##.sharethis-sticky-share-buttons
 methstreams.com##a[style*="z-index"]
 methstreams.com##a[style*="z-index"]:remove()
