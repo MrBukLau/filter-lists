@@ -249,6 +249,9 @@ asura.gg,asurascans.com##.kln
 asura.gg,asurascans.com##.readercontent > .wrapper > .chapterbody > .postarea > .hentry > .maincontent > .chdesc
 asura.gg,asurascans.com##.socialts
 
+! Automatic Data Processing
+my.adp.com##myadp-mobile-promo
+
 ! Ayas TV
 ayas.ir,live12.ir##.jw-logo
 
