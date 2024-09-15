@@ -228,6 +228,7 @@ open.spotify.com##section[aria-label="Top podcasts"][data-testid="component-shel
 proton.me##.dropdown-content > ul > .dropdown-item > div > a[data-testid="userdropdown:button:switch-account"]:upward(2)
 proton.me##.dropdown-content > ul > .dropdown-item > div > button[data-testid="userdropdown:button:settings"]:upward(2)
 proton.me##.dropdown-content > ul > .dropdown-item:last-child
+proton.me##.dropdown-item > .recommended-actions
 redd.it##post-bottom-bar
 rentry.*##.actions
 rentry.*##.container:style(padding-bottom: 1rem !important;)
