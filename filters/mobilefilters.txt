@@ -192,6 +192,8 @@ imgur.com##.Gallery-Content--ad
 imgur.com##.Gallery-EngagementBar
 imgur.com##.MainContainer > div > .UploadSpinner-contentWrapper > .FastGrid > .Grid-column > div[id^="Col-Child-Imgur/Home/InContent/"]:has(.fast-grid-ad)
 imgur.com##.MainContainer > div > .UploadSpinner-contentWrapper > .FastGrid > .Grid-column > div[id^="Col-Child-Imgur/Post/InContent/"]:has(.fast-grid-ad)
+imgur.com##body:style(overflow: auto !important;)
+imgur.com##div[class^="SeeImgurOIA-"]
 
 ! iTD Music
 itdmusics.com##.itdmu-widget
