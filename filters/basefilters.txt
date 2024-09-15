@@ -493,6 +493,7 @@ espn.com##.SFBUserEducation
 espn.com##.vjs-logolink:style(min-width: auto !important; width: auto !important;)
 espn.com##article[class="sub-module editorial"]:has-text(Latest Soccer Videos):has(ul[data-behavior="video_playlist"]):remove()
 espn.com##aside[data-behavior="article_related"]
+espn.com##div[aria-label="tooltip"]
 espn.com##section[data-behavior="follow_card_carousel"]
 
 ! Fakespot
@@ -1094,6 +1095,9 @@ redditsport.live##+js(rc, disable-overflow, body, stay)
 redditsport.live##.textwidget > a[href^="mailto"]
 redditsport.live##div[id^="ezoic-pub-ad-placeholder-"]:upward(1)
 redditsport.live##tbody[id^="stats"]:upward(1)
+
+! Registria
+registria.com##.cookieinfo-banner
 
 ! Reincubate
 reincubate.com###cookieBar
