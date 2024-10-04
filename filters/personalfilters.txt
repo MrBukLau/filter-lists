@@ -205,6 +205,7 @@ old.reddit.com##div[class="sidebox submit submit-link"]
 old.reddit.com##div[class="sidebox submit submit-text"]
 old.reddit.com##form[class="login-form login-form-side"]
 old.reddit.com##span[class="fancy-toggle-button subscribe-button toggle"]
+ontrac.com##.star-container
 open.spotify.com###Desktop_PanelContainer_Id[aria-label="Now Playing View"]
 open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(/About recommendations|Add to playlist|Add to profile|Add to queue|Create folder|Create playlist|Go to artist radio|Go to playlist radio|Go to song radio|Open in Desktop app|Report|Save to Your Episodes|Save to your Liked Songs/)
 open.spotify.com##.idI9vydtCzXVhU1BaKLw:has-text(/Follow|Following/)
