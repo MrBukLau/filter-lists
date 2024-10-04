@@ -34,6 +34,9 @@ bszb002.com,kqzb123.com,kanqiu00.com##.zhuboinfo_box
 9gag.com##div[style="padding-top: 146px;"]:style(padding-top: 96px !important;)
 9gag.com##div[style="padding-top: 98px;"]:style(padding-top: 48px !important;)
 
+! adidas
+adidas.com##article[data-testid="plp-featured-product-card"]
+
 ! Advance Publications
 oregonlive.com##.ad-wrapper__mobile-bottom-adhesion
 oregonlive.com##.alert-bar--news-promo
