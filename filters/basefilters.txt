@@ -490,6 +490,7 @@ espn.com##.Scoreboard:style(max-width: none !important;)
 espn.com##.ScoreboardPage > .PageLayout__RightAside:remove()
 espn.com##.scroll-locked:style(overflow: auto !important;)
 espn.com##.SFBUserEducation
+espn.com##.sponsored-content
 espn.com##.vjs-logolink:style(min-width: auto !important; width: auto !important;)
 espn.com##article[class="sub-module editorial"]:has-text(Latest Soccer Videos):has(ul[data-behavior="video_playlist"]):remove()
 espn.com##aside[data-behavior="article_related"]
@@ -666,6 +667,7 @@ hkdvb.com##a[href="https://t.me/hkanime"] + br
 hkdvb.com##a[href="https://t.me/hkanime"] + br + br
 
 ! Icelz
+icelz.to###acipp_main
 icelz.to##+js(acs, ConsoleBan)
 icelz.to##+js(acs, https://bit.ly/3R6YyKP)
 icelz.to##+js(acs, prototype.ban)
@@ -1003,6 +1005,9 @@ onlinesim.io##.to-top
 onlinesim.io##div[class="fw-popover f-widget__popover f-widget__popover--country"]
 onlinesim.io##div[class="fw-popover f-widget__popover f-widget__popover--item"]
 
+! OnTrac
+ontrac.com##.notification-bar
+
 ! OpenClassActions
 openclassactions.com###read-our-blog
 openclassactions.com##.settlements:style(padding-bottom: 20px !important;)
@@ -1039,20 +1044,22 @@ playervipmaster.com##.fa-twitter
 ! Plex
 plex.tv##div[class^="BannerContent_bannerContainer__"]
 
+! PPV.LAND
+ppv.land,ppvstreams.top##.alert
+
 ! Presearch
 presearch.com##.socialIconsColor
 presearch.com##div[x-init^="showAdInfo"]
 
 ! Proton
 drive.proton.me##.spotlight
-proton.me##.sidebar > .app-infos > a[href*="upgrade"]
-proton.me##a[data-testid="cta:upgrade-plan"]
-proton.me##a[title="Go to subscription plans"]
-proton.me##button[data-testid="cta:special-offer"]
-proton.me##button[data-testid="cta:upgrade-plan"]
-proton.me##button[title="Go to subscription plans"]
-proton.me##div[data-testid="auto-delete:banner"]
-proton.me##div[data-testid="promotion-banner"]
+proton.me,protonvpn.com##a[data-testid="cta:upgrade-plan"]
+proton.me,protonvpn.com##a[title="Go to subscription plans"]
+proton.me,protonvpn.com##button[data-testid="cta:special-offer"]
+proton.me,protonvpn.com##button[data-testid="cta:upgrade-plan"]
+proton.me,protonvpn.com##button[title="Go to subscription plans"]
+proton.me,protonvpn.com##div[data-testid="auto-delete:banner"]
+proton.me,protonvpn.com##div[data-testid="promotion-banner"]
 
 ! Purchased M4A Collection
 purchasedm4a.com##.backtotop
@@ -1174,12 +1181,16 @@ slickdeals.net##.bp-p-slickdealsHeader_disclaimer
 slickdeals.net##.cashbackDealCardPromo:upward(1)
 slickdeals.net##.commentsAd
 slickdeals.net##.dealAlertRow
+slickdeals.net##.displayAdContainer
 slickdeals.net##.extensionSearchBanner
 slickdeals.net##.frontpageGrid__bannerAd
 slickdeals.net##.frontpageSlickdealsGrid__bannerAd
 slickdeals.net##.mainSearchContent > .searchWrapper > .ab
+slickdeals.net##.megaBanner
 slickdeals.net##.omegaBanner
 slickdeals.net##.searchBottomAd
+slickdeals.net##.searchPage__leftAd
+slickdeals.net##.searchPage__rightAd
 slickdeals.net##.slickdealsFooter:style(margin-top: 0px !important;)
 slickdeals.net##.slickdealsHeader__disclaimer
 slickdeals.net##div[data-module-name="Category RCM Inline"]
@@ -1231,6 +1242,7 @@ sportsurge.net##.HeaderUyari:upward(#__next > .container)
 sportsurge.net##a[title="streameast"]
 
 ! Spotify
+accounts.spotify.com##footer:has-text(This site is protected by reCAPTCHA)
 open.spotify.com###onetrust-consent-sdk
 open.spotify.com##.DuEPSADpSwCcO880xjUG[role="presentation"]:has-text(Upgrade to Premium)
 open.spotify.com##.encore-announcement-set
@@ -1349,6 +1361,10 @@ troypointinsider.com##.mysticky-welcomebar-fixed-wrap
 tuta.com##body > #root > #login-view > .flex-center:has-text(Tutanota is now Tuta)
 tuta.com##button[title="Premium"]
 tuta.com##button[title="Show help"]
+
+! TV Guide UK
+tvguide.co.uk##body > div > #ad-premium:upward(1)
+tvguide.co.uk##main > div > div > div[id^="ad-incontent"]:upward(1)
 
 ! TV Yan
 tvyan.com##.lian
