@@ -834,6 +834,9 @@ mayoclinic.org##div[id^="redpoint_emailform_"]
 ! McDonald's
 mcdonalds.com###usTnCBanner
 
+! MEGA
+mega.nz##.psa-holder
+
 ! Mega Deportes TV
 megadeportestv.online##+js(acs, document.oncontextmenu)
 
@@ -1045,7 +1048,7 @@ playervipmaster.com##.fa-twitter
 plex.tv##div[class^="BannerContent_bannerContainer__"]
 
 ! PPV.LAND
-ppv.land,ppvstreams.top##.alert
+freeppv.fun,ppv.land,ppvstreams.top##.alert
 
 ! Presearch
 presearch.com##.socialIconsColor
@@ -1053,6 +1056,7 @@ presearch.com##div[x-init^="showAdInfo"]
 
 ! Proton
 drive.proton.me##.spotlight
+drive.proton.me##a[href$="?ref=upsell_drive-button-sidebar"]
 proton.me,protonvpn.com##a[data-testid="cta:upgrade-plan"]
 proton.me,protonvpn.com##a[title="Go to subscription plans"]
 proton.me,protonvpn.com##button[data-testid="cta:special-offer"]
@@ -1173,6 +1177,7 @@ skysports.com##div[id^="sp_message_container_"]
 ! Slickdeals
 coupons.slickdeals.net##.bp-p-extensionPromoBanner
 coupons.slickdeals.net##.bp-p-newsletterRegistrationForm
+coupons.slickdeals.net##.bp-p-storeContent_extensionPromoCard
 slickdeals.net##.addCommentContainer > .ftcDisclaimer:upward(1)
 slickdeals.net##.announcementBar
 slickdeals.net##.bp-p-cashbackActivationSignupBanner
