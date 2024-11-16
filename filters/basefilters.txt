@@ -151,6 +151,12 @@ vebotv.me###pin
 ! ABC News
 abcnews.go.com##.taboola
 
+! adidas
+adidas.com##button[data-auto-id="back-to-top"]
+adidas.com##div[class^="_feedback_"]
+adidas.com##div[class^="_footer_newsletter_"]
+adidas.com##div[class^="recaptcha-container"]
+
 ! Advance Publications
 oregonlive.com###messageStripContainer
 oregonlive.com##.advToprail__right-corner--subscribe
@@ -484,6 +490,7 @@ emojipedia.org##div[class^="Tabs"]:style(top: 0px !important;)
 espn.com##.article > .container > .article-body > p > strong > a[href^="https://promo.espn.com/"]:upward(2)
 espn.com##.article-body > p:has-text(Stream on ESPN+: LaLiga, Bundesliga, more)
 espn.com##.article-social
+espn.com##.content-reactions
 espn.com##.GameBreak
 espn.com##.GameBreak:remove()
 espn.com##.Scoreboard:style(max-width: none !important;)
