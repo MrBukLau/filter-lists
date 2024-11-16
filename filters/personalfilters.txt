@@ -185,6 +185,8 @@ old.reddit.com##:matches-path(/r/freebies/)body > .side > .spacer > .titlebox > 
 old.reddit.com##:matches-path(/r/hiphopheads/)body > #header > #header-bottom-left > .pagename:style(top: auto !important;)
 old.reddit.com##:matches-path(/r/hiphopheads/)body > #header > #header-bottom-left > .tabmenu:style(top: 135px !important;)
 old.reddit.com##:matches-path(/r/HistoryMemes/)body > #header > #header-bottom-left > .pagename > a[href="https://old.reddit.com/r/HistoryMemes/"]:style(position: static !important;)
+old.reddit.com##:matches-path(/r/politics/)body > #header > #header-bottom-left > .tabmenu:style(top: 100px !important;)
+old.reddit.com##:matches-path(/r/politics/)body > .side > .spacer > .titlebox > form > div > .md > h2:first-child:style(top: 135px !important;)
 old.reddit.com##:matches-path(/r/soccer/)body > #header > #header-bottom-left > .pagename:style(top: 0px !important;)
 old.reddit.com##:matches-path(/r/soccer/)body > #header > #header-bottom-left > .tabmenu:style(top: 0px !important;)
 old.reddit.com##:matches-path(/r/soccer/)body > #header > #header-bottom-left:style(min-height: auto !important; padding-left: 0px !important;)
