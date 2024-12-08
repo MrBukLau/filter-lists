@@ -235,7 +235,6 @@ proton.me##.dropdown-item > .recommended-actions
 redd.it##post-bottom-bar
 rentry.*##.actions
 rentry.*##.container:style(padding-bottom: 1rem !important;)
-rentry.*##.metadata-button-container
 rentry.*##div[class="text-center w-100 mb-3"]
 seedr.cc###files-menu-item
 seedr.cc###introduction-menu-item
