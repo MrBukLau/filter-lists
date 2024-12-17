@@ -1330,6 +1330,9 @@ t.me##.tgme_head > .tgme_head_right_btn[href^="//telegram.org/dl?"]
 ! Temp Mail
 tempmail.ninja##+js(nobab)
 
+! Terry Love Plumbing
+terrylove.com##div > article[data-author="Sponsor"][data-content^="post"]
+
 ! The Index
 theindex.moe##div[class^="container DiscordBanner_bannerOutside"]
 theindex.moe##div[class^="SupportBanner_banner"]
