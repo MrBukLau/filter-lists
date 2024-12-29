@@ -36,6 +36,7 @@ redd.it##faceplate-tracker[noun="login"][source="cdnlanding"]
 redd.it##faceplate-tracker[noun="login"][source="nav"]
 redd.it##reddit-header-overflow-menu
 reddit.com###expand-user-drawer-button
+reddit.com###login-header-cta
 reddit.com###profile-actions-menu
 reddit.com###reddit-trending-searches-partial-container
 reddit.com##._1e9mcovn4mynubqsvdt1gc
@@ -114,6 +115,8 @@ reddit.com##shreddit-join-link
 reddit.com##shreddit-legacy-post[view-context="AggregateFeed"] > a[slot="title-link"]:style(font-weight: bold !important;)
 reddit.com##shreddit-legacy-post[view-context="AggregateFeed"] > span[slot="subredditFeedIcon"]:style(padding-right: 0.5rem !important;)
 reddit.com##shreddit-overflow-menu
+reddit.com##shreddit-post-flair + div[slot="post-media-container"]:style(margin-top: 1rem !important;)
+reddit.com##shreddit-post-flair + div[slot="text-body"]:style(margin-top: 0.6rem !important;)
 reddit.com##shreddit-post[view-context="AggregateFeed"] > a[slot="title-link"]:style(font-weight: bold !important;)
 reddit.com##shreddit-post[view-context="AggregateFeed"] > span[slot="subredditFeedIcon"]:style(padding-right: 0.5rem !important;)
 reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="credit-bar"] > div > .border-neutral-border-weak
@@ -236,8 +239,14 @@ proton.me##.dropdown-content > ul > .dropdown-item > div > button[data-testid="u
 proton.me##.dropdown-content > ul > .dropdown-item:last-child
 proton.me##.dropdown-item > .recommended-actions
 redd.it##post-bottom-bar
+rentry.*###deleteShowButton
+rentry.*###id_new_edit_code
+rentry.*###id_new_modify
+rentry.*###id_new_url
 rentry.*##.actions
 rentry.*##.container:style(padding-bottom: 1rem !important;)
+rentry.*##.metadata-button-container
+rentry.*##.metadata-fieldset
 rentry.*##div[class="text-center w-100 mb-3"]
 seedr.cc###files-menu-item
 seedr.cc###introduction-menu-item
