@@ -182,6 +182,12 @@ oregonlive.com##body > div > .footer > .footer:style(border-top: none !important
 aesport.tv##.cookie-consent
 aesport.tv##.playerPopup
 
+! AKTV
+aktv.top##.if_bg
+aktv.top##.layui-layer-dialog
+aktv.top##.layui-layer-iframe
+aktv.top##.layui-layer-shade
+
 ! Albertsons Companies
 albertsons.com,safeway.com##.banner-placeholder
 albertsons.com,safeway.com##.cross-sell-row
@@ -596,6 +602,7 @@ github.com##.js-hovercard-content
 github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 github.com##.Popover-message:has-text(Sign in to GitHub)
 github.com##global-banner
+github.com##x-banner
 
 ! Goal
 goal.com##div[class^="newsletter-popup-"]:upward(1)
