@@ -1050,6 +1050,9 @@ pdfflyers.com##.post-header > .content[style="align-items: center;"]:style(gap: 
 pdfflyers.com##.store-area > .container > .row[style="width:100%;height:250px;"]:has(.adsbygoogle)
 pdfflyers.com##.store-details:style(margin-bottom: 0px !important;)
 
+! PHOTOCALL TV
+photocall.site##.dropdown:has-text(VPN)
+
 ! Pixlr
 pixlr.com##body > .modal:has(.announce > .content > #after-content)
 pixlr.com##body > .modal:has(.news-dialog)
@@ -1412,6 +1415,9 @@ tvbs.com.tw##.cookie_box
 tvbs.com.tw##.gotop
 tvbs.com.tw##.policy
 tvbs.com.tw##.scrollup
+
+! TvProfil
+tvprofil.com##.gdpr-container
 
 ! TVTV
 tvtv.us##div[class^="MuiSnackbar-root"][role="presentation"]
