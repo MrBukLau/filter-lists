@@ -38,7 +38,6 @@ redd.it##reddit-header-overflow-menu
 reddit.com###expand-user-drawer-button
 reddit.com###login-header-cta
 reddit.com###profile-actions-menu
-reddit.com###reddit-trending-searches-partial-container
 reddit.com##._1e9mcovn4mynubqsvdt1gc
 reddit.com##._2mbxhmh6lyncpagzpjzyfn:style(background: none !important;)
 reddit.com##._2rszc84l136gwqrkwh6iam:style(padding: 0rem !important;)
@@ -89,6 +88,7 @@ reddit.com##faceplate-tracker[noun="chat"][source="profile"]
 reddit.com##faceplate-tracker[noun="close"][slot="closeButton"][source="blocked_community_page"]
 reddit.com##faceplate-tracker[noun="create_post"][source="post_composer"]
 reddit.com##faceplate-tracker[noun="follow"][source="profile"]
+reddit.com##faceplate-tracker[noun="gen_guides_top"][source="nav"]
 reddit.com##faceplate-tracker[noun="hamburger_menu"][source="nav"]
 reddit.com##faceplate-tracker[noun="join"][source="subreddit_list_widget"]
 reddit.com##faceplate-tracker[noun="login"][source="nav"]
