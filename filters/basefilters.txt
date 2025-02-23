@@ -237,6 +237,10 @@ annas-archive.org##.js-top-banner
 antiktv.sk###cc-main
 antiktv.sk##.webtv-popup
 
+! Ape Wisdom
+apewisdom.io##.ad-tr
+apewisdom.io##.middle-header > div > div > .adsbygoogle:upward(1)
+
 ! AppDB
 appdb.to##.app::before
 appdb.to##.banner
@@ -332,6 +336,9 @@ canela.tv##.gdpr-footer
 ! Capitalize My Title
 capitalizemytitle.com##.free-grammar-check
 capitalizemytitle.com##slick-heartbeat
+
+! Car and Driver
+caranddriver.com###onetrust-consent-sdk
 
 ! CBS
 cbssports.com###cbs-site-nav:style(top: 0px !important;)
@@ -578,6 +585,10 @@ fslive1.chatango.com##.ad_cell
 gasbuddy.com###gb-promo-pay-and-app
 gasbuddy.com##div > div[class^="Ad-modules__adContainer__"]:upward(1)
 
+! GDaily
+gdaily.org##.column > .card > #ad_width:upward(2)
+gdaily.org##.column > .card > .adsbygoogle:upward(2)
+
 ! GDPlayer TV
 gdplayertv.to##+js(acs, devtoolsDetector)
 gdplayertv.to##+js(acs, myLazyLoad)
@@ -601,6 +612,7 @@ github.com##.flash-warn:has-text(Sign in to comment)
 github.com##.js-hovercard-content
 github.com##.js-notice:has-text(You unlocked new Achievements!):upward(1)
 github.com##.Popover-message:has-text(Sign in to GitHub)
+github.com##.react-comments-container > div > div[class^="Flash__StyledFlash"]:has-text(Sign in to comment)
 github.com##global-banner
 github.com##x-banner
 
@@ -1278,6 +1290,7 @@ open.spotify.com##.link-subtle[draggable][href="/download"]
 open.spotify.com##a[data-encore-id="buttonPrimary"][href="/download"]
 open.spotify.com##button[aria-label="Upgrade to Premium"]
 open.spotify.com##div[aria-label="In-App Message Modal"]:upward(.ReactModalPortal)
+open.spotify.com##div[data-testid="global-nav-bar"] > div > div > a[data-encore-id="buttonTertiary"][href="/download"]
 open.spotify.com##div[data-testid="signup-bar"]
 open.spotify.com##div[data-testid="signup-bar"]:upward(.Root__now-playing-bar)
 open.spotify.com##ul[role="menu"] > li[role="presentation"] > a[href^="https://www.spotify.com/premium/"][role="menuitem"]
@@ -1350,6 +1363,10 @@ theindex.moe##div[class^="SupportBanner_banner"]
 ! The Kroger Company
 fredmeyer.com##.overflow-hidden:style(overflow: auto !important;)
 
+! The Motley Fool
+fool.com##div[data-pitch-placement="foolcom_hp_hero"]
+fool.com##div[data-pitch-placement="foolcom_popup"]
+
 ! theScore
 thescore.com##button[class^="GetTheAppModal__getTheAppButton"]
 thescore.com##div[class^="ArticleLeagueRiver__adContainer"]
@@ -1415,6 +1432,9 @@ tvbs.com.tw##.cookie_box
 tvbs.com.tw##.gotop
 tvbs.com.tw##.policy
 tvbs.com.tw##.scrollup
+
+! TVpass
+tvpass.org##div > a[href="https://tvplans.org"]
 
 ! TvProfil
 tvprofil.com##.gdpr-container
