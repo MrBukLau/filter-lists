@@ -304,7 +304,6 @@ reddit.com##.pb-xl:style(padding-bottom: 0rem !important;)
 reddit.com##.postcontent__img[src]:style(object-fit: contain !important;)
 reddit.com##.previewdrawer
 reddit.com##.prompt
-reddit.com##.reddit-search-bar > div > div:first-child
 reddit.com##.right-sidebar:has-text(More posts you may like)
 reddit.com##.scroll-disabled:style(overflow: auto !important; position: static !important;)
 reddit.com##.scroll-is-blocked:style(overflow: auto !important; position: static !important;)
@@ -400,6 +399,9 @@ open.spotify.com##button[data-testid="open-app-button"]
 
 ! Target
 target.com##div[data-test="@web/baseboardAd"]
+
+! TEGNA
+kgw.com##.universal-ad
 
 ! Telegram
 t.me##.tgme_header_info > .tgme_channel_join_telegram
