@@ -724,6 +724,9 @@ ikea.com##.hnf-messages
 ! IKnowWhatYouDownload
 iknowwhatyoudownload.com##.footer
 
+! Insider Monkey
+insidermonkey.com##.btn-premium
+
 ! IPInfo
 ipinfo.io##body > div > div > div[class="py-5 bg-green-01 border-b border-green-01"]
 
@@ -734,6 +737,9 @@ iptv345.com##script[src="https://www.sinawap.com/smu/o.js"]:upward(1)
 
 ! IPTV Checker
 iptv-checker.com##.scroll-top
+
+! ISRC Finder
+isrcfinder.com###cookie-msg
 
 ! iTalkBB TV
 italkbbtv.com##.back-top-wrapper
@@ -766,6 +772,9 @@ itdmusics.com##iframe[height="1"][width="1"]:remove()
 itdmusics.com##iframe[style*="z-index"]
 itdmusics.com##iframe[style*="z-index"]:remove()
 itdmusics.com##span > a[href$="/premium-no-ads"]
+
+! Jackbox Games
+jackbox.tv##.cookie-consent
 
 ! JD Sports
 jdsports.com###PrivacyPolicyBanner
@@ -812,6 +821,9 @@ livesportsontv.com##.calendar-and-favorite-btn + .main-title
 livesportsontv.com##.event__odds_container_v
 livesportsontv.com##.site-info
 livesportsontv.com##img[alt^="standby"][decoding="async"]
+
+! LNC Networks
+livenewschat.eu##.wp-block-uagb-social-share
 
 ! Lord Latifi Streams
 latifistreams.com##.ad
@@ -1327,6 +1339,9 @@ tankathon.com##.mock-draft-round-divider
 ! Target
 target.com##div[class*="_PubAdWrapper-"]:upward(1)
 target.com#@#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:has-text(sponsored)
+
+! TCLtv+
+tcltv.plus###cookie-box
 
 ! TeamWork Online
 teamworkonline.com##.layout-sidebar__sidebar > a[title="Upgrade to MVP Access"]
