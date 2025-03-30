@@ -38,6 +38,7 @@ redd.it##reddit-header-overflow-menu
 reddit.com###expand-user-drawer-button
 reddit.com###login-header-cta
 reddit.com###profile-actions-menu
+reddit.com###signup-drawer
 reddit.com##._1e9mcovn4mynubqsvdt1gc
 reddit.com##._2mbxhmh6lyncpagzpjzyfn:style(background: none !important;)
 reddit.com##._2rszc84l136gwqrkwh6iam:style(padding: 0rem !important;)
@@ -75,11 +76,9 @@ reddit.com##button[data-testid="report"]
 reddit.com##button[data-testid="share"]
 reddit.com##button[slot="overflowButton"]
 reddit.com##button[slot="share"]
-reddit.com##comment-body-header:not(:has-text(Be the first to comment):has-text(Nobody's responded to this post yet.):has-text(Add your thoughts and get the conversation going.)):style(border-top: 0.1rem solid var(--color-neutral-border-weak) !important;)
 reddit.com##div[data-adclicklocation="fl_unknown"]
 reddit.com##div[id$="-share-menu"]
 reddit.com##div[slot="commentMeta"]:style(margin-bottom: 0.3rem !important;)
-reddit.com##faceplate-batch[target="#comment-tree"]:not(:has-text(Be the first to comment):has-text(Nobody's responded to this post yet.):has-text(Add your thoughts and get the conversation going.)):style(border-top: 0.1rem solid var(--color-neutral-border-weak) !important;)
 reddit.com##faceplate-dropdown-menu[position="bottom-start"][slot="overflow"]
 reddit.com##faceplate-partial[class="mx-md xs:mx-0"][src^="/svc/shreddit/more-comments/"]:style(padding-top: 0.8rem !important; padding-bottom: 1rem !important;)
 reddit.com##faceplate-tracker[noun="browse"][slot="primaryButton"][source="blocked_community_page"]
@@ -108,7 +107,6 @@ reddit.com##reddit-header-overflow-menu
 reddit.com##shreddit-app > div > .main > a[href^="https://www.reddit.com/r/"][href$="/submit"]
 reddit.com##shreddit-async-loader[bundlename="comment_profile"] > shreddit-comment-profile > a[slot="title"]:style(font-weight: bold !important;)
 reddit.com##shreddit-comment-share-button
-reddit.com##shreddit-comment[class="top-level"]:style(border-top: 0.3rem solid var(--color-tone-5) !important; padding: 0.8rem 1rem 0.4rem !important;)
 reddit.com##shreddit-flair
 reddit.com##shreddit-join-button
 reddit.com##shreddit-join-link
@@ -199,6 +197,7 @@ old.reddit.com##:matches-path(/r/soccer/)body > #header > #header-bottom-left:st
 old.reddit.com##:matches-path(/r/soccer/)body > .side > .spacer > .titlebox > form > div > .md > h5:has-text(Banners)
 old.reddit.com##:matches-path(/r/soccer/)body > .side > .spacer > .titlebox > form > div > .md > ul:last-child
 old.reddit.com##:matches-path(/r/sports/)body > .side > .spacer > .titlebox > form > div > .md > blockquote:first-child:style(top: 22px !important;)
+old.reddit.com##:matches-path(/r/stocks/)body > #header > #header-bottom-left:style(position: static !important;)
 old.reddit.com##:matches-path(/r/timbers/)body > .side > .spacer > .titlebox > form > div > .md > h6:nth-child(3)
 old.reddit.com##:matches-path(/r/timbers/)body > .side:style(margin: 232px 16px 108px 0px !important;)
 old.reddit.com##:matches-path(/r/tmobile/)body > .side > .spacer > .titlebox > form > div > .md > h3:first-child:style(left: 25px !important;)
@@ -247,6 +246,7 @@ rentry.*##.actions
 rentry.*##.container:style(padding-bottom: 1rem !important;)
 rentry.*##.metadata-button-container
 rentry.*##.metadata-fieldset
+rentry.*##a[href^="/report-url?url="][role="button"]
 rentry.*##div[class="text-center w-100 mb-3"]
 seedr.cc###files-menu-item
 seedr.cc###introduction-menu-item
