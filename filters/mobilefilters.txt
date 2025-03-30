@@ -198,6 +198,13 @@ imgur.com##.MainContainer > div > .UploadSpinner-contentWrapper > .FastGrid > .G
 imgur.com##body:style(overflow: auto !important;)
 imgur.com##div[class^="SeeImgurOIA-"]
 
+! Insider Monkey
+insidermonkey.com##.article-daily-newsletter
+insidermonkey.com##.article-daily-newsletter + email-privacy-policy-warning
+insidermonkey.com##.premium-content-login-v2-container
+insidermonkey.com##.premium-content-wall
+insidermonkey.com##body:style(overflow: auto !important; position: static !important;)
+
 ! iTD Music
 itdmusics.com##.itdmu-widget
 
@@ -283,11 +290,13 @@ quora.com##button[type="button"]:has-text(Open in App)
 ! Reddit
 redd.it##shreddit-async-loader[bundlename="bottom_bar_xpromo"]
 redd.it##shreddit-async-loader[bundlename="top_button"][paint-group="xpromo"]
+reddit.com###blocking-modal
 reddit.com###blocking-modal-blur-container:style(filter: none !important;)
 reddit.com###nsfw-qr-dialog
 reddit.com###post-image:style(margin-bottom: 0rem !important;)
 reddit.com###trending-searches-ad
 reddit.com###use-app
+reddit.com##+js(rc, rpl-scroll-lock, body, stay)
 reddit.com##+js(rc, scroll-disabled, body, stay)
 reddit.com##+js(rc, scroll-is-blocked, body, stay)
 reddit.com##._13geajc1u3mpvccghflqg4
@@ -337,6 +346,7 @@ reddit.com##faceplate-tracker[noun="campaign_slot"][source="nav"]
 reddit.com##faceplate-tracker[noun="campaign_slot"][source="nav"] + hr
 reddit.com##faceplate-tracker[noun="top_button"][source="xpromo"]
 reddit.com##img[class="_1VSyzeCqhLG-H2N68kAx9V _3UqAK6QeNaMYy-9jvRefdv"]:style(filter: none !important;)
+reddit.com##rpl-dialog-trigger[dialog-id$="-privacy-dialog"]
 reddit.com##shreddit-ad-post
 reddit.com##shreddit-app:style(padding: var(--shreddit-header-height) 0rem 0rem !important;)
 reddit.com##shreddit-async-loader[bundlename="app_selector"]
@@ -363,6 +373,9 @@ reddit.com##xpromo-nsfw-blocking-container[slot="blurred"]
 reddit.com##xpromo-nsfw-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal
 reddit.com##xpromo-untagged-content-blocking-modal:remove()
+
+! Robinhood
+robinhood.com##a[href^="https://share.robinhood.com/logged_out_page?rh_url="][role="link"]
 
 ! Sinclair Broadcast Group
 katu.com##div[class^="interstory_"][class$="_mobile"]
@@ -482,6 +495,8 @@ xoom.com###ccpaCookieBanner
 
 ! Yahoo
 yahoo.com###app-promo
+yahoo.com##.app-banner
+yahoo.com##.subs-upsell
 
 ! Yelp
 m.yelp.com###smart-banner
