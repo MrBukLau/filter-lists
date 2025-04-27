@@ -410,6 +410,9 @@ baynews9.com##.icon-advertisement
 ! Spotify
 open.spotify.com##button[data-testid="open-app-button"]
 
+! StockTwits
+stocktwits.com##a[class*="MobileHeader_useAppButton"]
+
 ! Target
 target.com##div[data-test="@web/baseboardAd"]
 
@@ -483,6 +486,10 @@ webmd.com##.promoWrapper
 webmd.com##div[data-v-app] > .top-picks-inf
 webmd.com##div[id*="mnet-ia-instream-"]
 
+! Webull
+webull.com##body > div > div > div:has(div > img[src^="https://u1sweb.webullfinance.com/us/office/"])
+webull.com##body > div > div > div:has-text(Invest in Stocks, ETFs, Options)
+
 ! Western Hockey League
 whl.ca###app-banner--holder
 
@@ -496,7 +503,6 @@ xoom.com###ccpaCookieBanner
 ! Yahoo
 yahoo.com###app-promo
 yahoo.com##.app-banner
-yahoo.com##.subs-upsell
 
 ! Yelp
 m.yelp.com###smart-banner
