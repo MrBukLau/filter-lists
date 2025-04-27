@@ -50,8 +50,10 @@ $removeparam=cmpid,domain=coupons.albertsons.com|coupons.safeway.com
 ||google.com/search$removeparam=aqs
 ||google.com/search$removeparam=bih
 ||google.com/search$removeparam=biw
+||google.com/search$removeparam=client
 ||google.com/search$removeparam=cshid
 ||google.com/search$removeparam=ei
+||google.com/search$removeparam=fbs
 ||google.com/search$removeparam=gs_lcp
 ||google.com/search$removeparam=gs_ssp
 ||google.com/search$removeparam=ie
@@ -59,6 +61,7 @@ $removeparam=cmpid,domain=coupons.albertsons.com|coupons.safeway.com
 ||google.com/search$removeparam=oq
 ||google.com/search$removeparam=rlz
 ||google.com/search$removeparam=sa
+||google.com/search$removeparam=sca_esv
 ||google.com/search$removeparam=sclient
 ||google.com/search$removeparam=source
 ||google.com/search$removeparam=sourceid
@@ -310,6 +313,10 @@ blackfriday.com##.email-signup-sticky
 
 ! Blank Page
 blank.page##.campaign-alert
+
+! Bloomberg
+bloomberg.com###cmp-consent-modal
+bloomberg.com##a[class^="media-ui-LogoBar_subscribeButton"]
 
 ! Boransat
 boransat.net##body > table + br + table > tbody > tr > td > center:first-child
@@ -726,6 +733,9 @@ iknowwhatyoudownload.com##.footer
 
 ! Insider Monkey
 insidermonkey.com##.btn-premium
+
+! Investing
+investing.com##body:style(overflow: auto !important; position: static !important;)
 
 ! IPInfo
 ipinfo.io##body > div > div > div[class="py-5 bg-green-01 border-b border-green-01"]
@@ -1314,6 +1324,10 @@ stackoverflow.com###js-ai-search-alpha-popover
 ! StatMuse
 statmuse.com##astro-island[component-url*="aditude-ad-"]
 
+! StockTwits
+stocktwits.com##.ReactModalPortal:has(div[class*="SignUpModal"]):has-text(Log in to existing account)
+stocktwits.com##body:style(overflow: auto !important; position: static !important;)
+
 ! Stream-Link
 stream-link.org##.container-clock
 stream-link.org##body > div[style="width:300px"]:style(width: 100% !important;)
@@ -1323,6 +1337,9 @@ streamcheck.link##+js(nano-sib)
 
 ! Streamed
 streamed.su##section[aria-label="Notifications alt+T"]
+
+! Sultanovic Forum
+sultanovic.info##+js(acs, isAdSenseRequestPresent)
 
 ! TaiwanPlus
 taiwanplus.com###downloadAppMsg
@@ -1557,6 +1574,9 @@ play.xumo.com##.epgPromoRow
 play.xumo.com##.privacyConsent
 
 ! Yahoo
+finance.yahoo.com##.branding-banner
+finance.yahoo.com##.subs-upsell
+finance.yahoo.com##.upgrade-badge
 sports.yahoo.com###sda-WFPAD2
 sports.yahoo.com##.post-article-ad
 sports.yahoo.com##.related-content-lazyload
