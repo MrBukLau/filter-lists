@@ -735,7 +735,7 @@ iknowwhatyoudownload.com##.footer
 insidermonkey.com##.btn-premium
 
 ! Investing
-investing.com##body:style(overflow: auto !important; position: static !important;)
+investing.com##body:style(overflow: auto !important; position: static !important; pointer-events: auto !important; touch-action: auto !important;)
 
 ! IPInfo
 ipinfo.io##body > div > div > div[class="py-5 bg-green-01 border-b border-green-01"]
@@ -933,7 +933,9 @@ musiclutter.xyz###check-also-box
 musiclutter.xyz###related_posts
 musiclutter.xyz###wpd-bubble-wrapper
 musiclutter.xyz###wpd-post-rating
+musiclutter.xyz##+js(nano-sib)
 musiclutter.xyz##.relpost-thumb-wrapper
+musiclutter.xyz##^script:has-text(contextmenu)
 musiclutter.xyz##a[style*="z-index"]
 musiclutter.xyz##a[style*="z-index"]:remove()
 musiclutter.xyz##iframe[src="about:blank"]
@@ -993,6 +995,10 @@ mygoodstream.pw,prodimart.com,soccerstream.website##+js(acs, prototype.ban)
 mygoodstream.pw,prodimart.com,soccerstream.website##+js(acs, redirect)
 mygoodstream.pw,soccerstream.website##div[data-watermark]
 soccerstream.website##img[src$="/KFfB8jS.jpg"]
+
+! Nasdaq
+nasdaq.com##.ads-placeholder
+nasdaq.com##.header-ads
 
 ! National Automotive Parts Association
 napaonline.com##div[class="CCPA nol-ui"]
@@ -1327,6 +1333,8 @@ statmuse.com##astro-island[component-url*="aditude-ad-"]
 ! StockTwits
 stocktwits.com##.ReactModalPortal:has(div[class*="SignUpModal"]):has-text(Log in to existing account)
 stocktwits.com##body:style(overflow: auto !important; position: static !important;)
+stocktwits.com##div[class^="FooterAd"]
+stocktwits.com##div[class^="SymbolPage_discussion"] > div[class*="PollContainer"]
 
 ! Stream-Link
 stream-link.org##.container-clock
