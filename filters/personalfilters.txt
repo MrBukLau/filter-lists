@@ -133,6 +133,9 @@ slickdeals.net##.js-questionAndAnswer_askQuestion
 slickdeals.net##.pageWrapper > .details-wrapper > .details-header:has-text(Posted):style(border-bottom: 0px !important;)
 slickdeals.net##.rightRep
 slickdeals.net##div[role="threadrating"]
+stocktwits.com###bottom-nav-content
+stocktwits.com##div[class^="Main_main_"]:style(padding-top: 50px !important;)
+stocktwits.com##div[data-testid="trending-view"]:upward(2)
 !#endif
 
 ! Universal Filters
