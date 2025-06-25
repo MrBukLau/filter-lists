@@ -23,7 +23,6 @@
 @@||thapcam.net/1.gif$image,domain=thapcam.net
 ||a.doubledouble.top^$script,domain=~a.doubledouble.top|doubledouble.top
 ||accounts.google.com/gsi/*$xhr,script,3p
-||amillionads.com$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
 ||chaojizhibo.net/*/disable-devtool.js
 ||jsdelivr.net/*/console-ban.min.js
 ||jsdelivr.net/*/devtools-detector
@@ -1179,6 +1178,9 @@ reincubate.com###cookieBar
 ! Remove BG
 remove.bg##div[data-vue-file="./cookies.vue"]
 
+! Rentry
+rentry.*##.donate
+
 ! Right
 right.com.cn##.focus
 
@@ -1424,6 +1426,10 @@ thetvapp.to##div > p > a[href$="/thetvsub-iptv-service-sign-up/"]
 ! Tho Dia Media
 tv.thodia.media###back-top
 
+! TimStreams
+timstreams.online##body:style(overflow: auto !important;)
+timstreams.online##div[class="swal2-container swal2-center swal2-backdrop-show"]
+
 ! TinyURL
 tinyurl.*##+js(nano-sib)
 tinyurl.*##+js(rc, disabled, .btn, stay)
@@ -1584,6 +1590,8 @@ play.xumo.com##.privacyConsent
 ! Yahoo
 finance.yahoo.com##.branding-banner
 finance.yahoo.com##.subs-upsell
+finance.yahoo.com##.toast[role="dialog"]:has-text(Get started):has(.message)
+finance.yahoo.com##.toast[role="dialog"]:has-text(Upgrade now):has(.message)
 finance.yahoo.com##.upgrade-badge
 sports.yahoo.com###sda-WFPAD2
 sports.yahoo.com##.post-article-ad
