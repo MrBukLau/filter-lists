@@ -38,6 +38,7 @@ redd.it##reddit-header-overflow-menu
 reddit.com###expand-user-drawer-button
 reddit.com###login-header-cta
 reddit.com###profile-actions-menu
+reddit.com###reddit-trending-searches-partial-container
 reddit.com###signup-drawer
 reddit.com##._1e9mcovn4mynubqsvdt1gc
 reddit.com##._2mbxhmh6lyncpagzpjzyfn:style(background: none !important;)
@@ -59,6 +60,7 @@ reddit.com##.post > .post__header-wrapper > .postheader > .postheader__metadata-
 reddit.com##.postcontent > .postcontent__image-link[href^="https://i.redd.it/"] > .postcontent__warning
 reddit.com##.postfooter__share
 reddit.com##.postheader__overflowmenu
+reddit.com##.reddit-search-bar > div > div:first-child
 reddit.com##.share-dropdown-menu
 reddit.com##.signupdrawer
 reddit.com##.subreddit-content-error > div > #community-content-error-message + span
@@ -133,9 +135,6 @@ slickdeals.net##.js-questionAndAnswer_askQuestion
 slickdeals.net##.pageWrapper > .details-wrapper > .details-header:has-text(Posted):style(border-bottom: 0px !important;)
 slickdeals.net##.rightRep
 slickdeals.net##div[role="threadrating"]
-stocktwits.com###bottom-nav-content
-stocktwits.com##div[class^="Main_main_"]:style(padding-top: 50px !important;)
-stocktwits.com##div[data-testid="trending-view"]:upward(2)
 !#endif
 
 ! Universal Filters
