@@ -70,6 +70,7 @@ reddit.com##.subredditunit
 reddit.com##.topnav__loginbutton
 reddit.com##.zo-dkbkklryqjrxwll0ui
 reddit.com##a[href="https://www.reddit.com/message/messages"]
+reddit.com##a[slot="comment-share-as-post-topline"]
 reddit.com##award-button
 reddit.com##button[aria-label="Open user actions"]
 reddit.com##button[class="action last"][href]
@@ -226,12 +227,17 @@ open.spotify.com##.VgSbatGBB9XwTH2_dsxg > button[aria-label="Go forward"][data-t
 open.spotify.com##a[href^="https://open.spotify.com/premium"][role="menuitem"]
 open.spotify.com##aside[aria-label="Now playing view"]
 open.spotify.com##button[aria-label="Add to Liked Songs"]
+open.spotify.com##button[aria-label="Add to Your Episodes"]
 open.spotify.com##button[aria-label="Create playlist or folder"]
-open.spotify.com##button[aria-label="Remove from Your Library"][data-testid="add-button"]
-open.spotify.com##button[aria-label="Save to Your Library"][data-testid="add-button"]
+open.spotify.com##button[aria-label="Create"]
+open.spotify.com##button[aria-label="Download"]
+open.spotify.com##button[aria-label="Remove from Your Library"]
+open.spotify.com##button[aria-label="Save to Your Library"]
+open.spotify.com##button[aria-label^="Enable Shuffle"]
 open.spotify.com##button[data-testid="control-button-repeat"]
 open.spotify.com##button[data-testid="control-button-shuffle"]
 open.spotify.com##button[data-testid="create-playlist-button"]
+open.spotify.com##div[data-testid="action-bar-row"] > button[aria-label^="Explore"]
 open.spotify.com##div[data-testid="action-bar-row"] > button[data-encore-id="buttonSecondary"]
 open.spotify.com##div[data-testid="LayoutResizer__resize-bar"]
 open.spotify.com##section[aria-label="Top podcasts"][data-testid="component-shelf"]
