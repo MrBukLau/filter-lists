@@ -785,6 +785,9 @@ itdmusics.com##span > a[href$="/premium-no-ads"]
 ! Jackbox Games
 jackbox.tv##.cookie-consent
 
+! Japan Sumo Association
+sumo.or.jp##+js(ra, oncontextmenu, body, stay)
+
 ! JD Sports
 jdsports.com###PrivacyPolicyBanner
 
@@ -934,6 +937,7 @@ musiclutter.xyz###wpd-bubble-wrapper
 musiclutter.xyz###wpd-post-rating
 musiclutter.xyz##+js(nano-sib)
 musiclutter.xyz##.relpost-thumb-wrapper
+musiclutter.xyz##^script:has-text(adblock-overlay)
 musiclutter.xyz##^script:has-text(contextmenu)
 musiclutter.xyz##a[style*="z-index"]
 musiclutter.xyz##a[style*="z-index"]:remove()
@@ -1110,7 +1114,7 @@ playervipmaster.com##.fa-twitter
 plex.tv##div[class^="BannerContent_bannerContainer__"]
 
 ! PPV.LAND
-freeppv.fun,ppv.land,ppvstreams.top##.alert
+freeppv.fun,ppv.land,ppv.to,ppv.wtf,ppvs.su,ppvstreams.top##.alert
 
 ! Presearch
 presearch.com##.socialIconsColor
@@ -1349,6 +1353,7 @@ streamcheck.link##+js(nano-sib)
 streamed.su##section[aria-label="Notifications alt+T"]
 
 ! Sultanovic Forum
+sultanovic.info##+js(acs, adblockmesaj)
 sultanovic.info##+js(acs, isAdSenseRequestPresent)
 
 ! TaiwanPlus
