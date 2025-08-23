@@ -125,8 +125,6 @@ reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="credit-bar"] 
 reddit.com##shreddit-post[view-context="CommentsPage"] > div[slot="credit-bar"]:style(margin-bottom: 1rem !important;)
 reddit.com##shreddit-profile-actions
 reddit.com##shreddit-profile-banner:style(background-color: var(--color-tone-7) !important; background-image: none !important;)
-rentry.*#%#(function(){const elements=document.getElementsByClassName("dark-mode");if(elements.length>0){const meta=document.createElement("meta");meta.name="theme-color";meta.content="#1c1c1c";document.getElementsByTagName("head")[0].appendChild(meta);}})();
-rentry.*#%#(function(){window.addEventListener("load",function(){const elements=document.getElementsByClassName("dark-mode");if(elements.length>0){const meta=document.createElement("meta");meta.name="theme-color";meta.content="#1c1c1c";document.getElementsByTagName("head")[0].appendChild(meta);}});})();
 slickdeals.net##.addComment
 slickdeals.net##.addCommentButton
 slickdeals.net##.commentReactionsOptions
@@ -251,7 +249,6 @@ rentry.*###id_new_edit_code
 rentry.*###id_new_modify
 rentry.*###id_new_url
 rentry.*##.actions
-rentry.*##.container:style(padding-bottom: 1rem !important;)
 rentry.*##.metadata-button-container
 rentry.*##.metadata-fieldset
 rentry.*##a[href^="/report-url?url="][role="button"]
