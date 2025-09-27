@@ -1165,6 +1165,7 @@ old.reddit.com##body > .side > .spacer > .sb-unit > div > .promoted-tag:upward(b
 old.reddit.com##div[class="pinnable-content pinned"]
 old.reddit.com##section[class="infobar commentsignupbar"]
 old.reddit.com##section[class="infobar listingsignupbar"]
+reddit.com##faceplate-tracker[noun="right_rail_auth"][source="xpromo"]
 
 ! Reddit Sport Live
 redditsport.live###abm
