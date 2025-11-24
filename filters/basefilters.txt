@@ -377,6 +377,15 @@ chartoo.com##main > div > aside:has-text(/^Advertisement$/)
 ! Chatango
 st.chatango.com##.sdlg-main-cbdr-cpbg
 
+! Chevy Equinox EV Forum
+equinoxevforum.com##.california-ad
+equinoxevforum.com##.california-sticky-footer-ad-container
+equinoxevforum.com##.california-thread-ad
+equinoxevforum.com##.desktop-adhesion-ad__footer-ad-container
+equinoxevforum.com##.u-scrollButtons
+equinoxevforum.com##div[id^="browsi_wrapper"]:has(div[id^="img"])
+equinoxevforum.com##ol > div[class^="img"] > div[id^="Homepage_In-Content"]:upward(1)
+
 ! CHP Adblock Detector
 chpadblock.com##+js(acs, chp_adblock_browser)
 
@@ -938,7 +947,9 @@ musiclutter.xyz###wpd-post-rating
 musiclutter.xyz##+js(nano-sib)
 musiclutter.xyz##.relpost-thumb-wrapper
 musiclutter.xyz##^script:has-text(adblock-overlay)
+musiclutter.xyz##^script:has-text(chp-ads-block-detector)
 musiclutter.xyz##^script:has-text(contextmenu)
+musiclutter.xyz##^script:has-text(decodeURIComponent)
 musiclutter.xyz##a[style*="z-index"]
 musiclutter.xyz##a[style*="z-index"]:remove()
 musiclutter.xyz##iframe[src="about:blank"]
@@ -1192,6 +1203,9 @@ right.com.cn##.focus
 ! RoForum
 roforum.net##.js-bottomFixTarget
 roforum.net##.js-scrollButtons
+
+! Sailei TV
+saileitv.com##.full-width-iframe
 
 ! Samsung
 samsung.com##.cookie-bar
