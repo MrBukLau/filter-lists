@@ -77,6 +77,11 @@ buzzfeednews.com##.cls-min-size
 ! CBS
 cbsnews.com###smart-banner-download
 
+! Chevy Equinox EV Forum
+equinoxevforum.com##.california-sticky-footer-ad-container:remove()
+equinoxevforum.com##div[id^="browsi_wrapper"]:has(div[id^="img"]):remove()
+equinoxevforum.com##ol > div[class^="img"] > div[id^="Homepage_In-Content"]:upward(1):remove()
+
 ! ClutchPoints
 clutchpoints.com##.caffeine-embed:upward(1)
 
