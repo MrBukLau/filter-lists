@@ -325,6 +325,9 @@ buzzfeednews.com##.subbuzz-bfp--related_links
 buzzfeednews.com##div[class^="desktop-sticky-ad_desktopStickyAdWrapper__"]
 buzzfeednews.com##section[aria-labelledby="bottom-recirc-title"]
 
+! BXTV
+bxtv.3a.ink##iframe[height="1"][width="1"]:remove()
+
 ! CallOfLiberty TV
 callofliberty.fr##img[alt^="CallOfliberty TV"][src="/CallOfLiberty.png"]
 
@@ -460,6 +463,7 @@ deepl.com##div[class="min-h-0 min-w-0 empty:hidden"] > div[class="bg-blue-next-1
 deepl.com##div[data-testid="chrome-extension-toast"]
 deepl.com##div[data-testid="dl-cookieBanner"]
 deepl.com##div[data-testid="firefox-extension-toast"]
+deepl.com##header > div > div[class^="bg-redesign"]
 
 ! Desklib
 desklib.com##.UGgiG3ep
